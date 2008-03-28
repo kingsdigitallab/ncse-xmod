@@ -1,0 +1,333 @@
+<?xml version="1.0"?>
+<!DOCTYPE authorityList SYSTEM "../../dtd/alist/AL_imageBase.dtd">
+<authorityList id="AL_imageBase" month="_unspecified" day="_unspecified" resp="ADD HERE">
+    <header>
+        <title>imageBase for myProjectName</title>
+        <changeNotes>
+            <changeItem>
+                <name/>
+                <p/>
+            </changeItem>
+        </changeNotes>
+        <comments>
+            <list>
+                <li>
+                    <label>authorityList</label>
+                    <con>dates and resp attributes used to keep track of when file was last edited.</con>
+                </li>
+                <li>
+                    <label>imgTitle</label>
+                    <con>is our way of identifying each item, it will not be used in output</con>
+                </li>
+                <li>
+                    <label>caption</label>
+                    <con>has been added to output a caption for an image</con>
+                </li>
+            </list>
+            <p>At present a distinction is made between general images, charts and graphs. These images are available for use in any of the XML files
+                that use the TEI DTD. Images used in the web design are not stored here. Prefixes are used in image names for further clarity.</p>
+        </comments>
+    </header>
+    <body>
+        <group id="general">
+            <groupHead>
+                <groupTitle>General images</groupTitle>
+                <groupFolder/>
+            </groupHead>
+            <image id="img001" thm="y">
+                <imgTitle>Image title</imgTitle>
+                <caption>Beautiful scenery</caption>
+                <path/>
+                <desc>Some other text1</desc>
+                <width>453</width>
+                <height>356</height>
+                <thmWidth>150</thmWidth>
+                <thmHeight>113</thmHeight>
+                <ext n="jpg"/>
+                <creator>
+                    <name/>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by PV, 2003-06-10</p>
+                </internal>
+            </image>
+            <image id="img002" thm="y">
+                <imgTitle>Image title</imgTitle>
+                <caption>Beautiful scenery</caption>
+                <path/>
+                <desc>Some other text2</desc>
+                <width>453</width>
+                <height>356</height>
+                <thmWidth>150</thmWidth>
+                <thmHeight>101</thmHeight>
+                <ext n="jpg"/>
+                <creator>
+                    <name/>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by PV, 2003-06-10</p>
+                </internal>
+            </image>
+            <image id="img003" thm="y">
+                <imgTitle>Image title</imgTitle>
+                <caption>Beautiful scenery</caption>
+                <path/>
+                <desc>Some other text3</desc>
+                <width>453</width>
+                <height>356</height>
+                <thmWidth>150</thmWidth>
+                <thmHeight>113</thmHeight>
+                <ext n="jpg"/>
+                <creator>
+                    <name/>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by PV, 2003-06-10</p>
+                </internal>
+            </image>
+            <image id="img004" thm="y">
+                <imgTitle>Image title</imgTitle>
+                <caption>Beautiful scenery</caption>
+                <path/>
+                <desc>Some other text4</desc>
+                <width>453</width>
+                <height>356</height>
+                <thmWidth>150</thmWidth>
+                <thmHeight>97</thmHeight>
+                <ext n="jpg"/>
+                <creator>
+                    <name/>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by PV, 2003-06-10</p>
+                </internal>
+            </image>
+            <image id="img006" thm="n">
+                <imgTitle>Image title</imgTitle>
+                <caption>Beautiful scenery6</caption>
+                <path/>
+                <desc>Some other text6</desc>
+                <width>172</width>
+                <height>200</height>
+                <ext n="jpg"/>
+                <creator>
+                    <name>ZA</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by ZA, 2006-10-17</p>
+                </internal>
+            </image>
+            <image id="img007" thm="n">
+                <imgTitle>Image title</imgTitle>
+                <caption>Beautiful scenery7</caption>
+                <path/>
+                <desc>Some other text7</desc>
+                <width>341</width>
+                <height>256</height>
+                <ext n="jpg"/>
+                <creator>
+                    <name>ZA</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by ZA, 2006-10-17</p>
+                </internal>
+            </image>
+            <image id="img008" thm="y">
+                <imgTitle>Image title</imgTitle>
+                <caption>Beautiful scenery8</caption>
+                <path/>
+                <desc>Some other text</desc>
+                <width>800</width>
+                <height>600</height>
+                <thmWidth>150</thmWidth>
+                <thmHeight>113</thmHeight>
+                <ext n="jpg"/>
+                <creator>
+                    <name>ZA</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by ZA, 2006-10-17</p>
+                </internal>
+            </image>
+            <image id="img009" thm="y">
+                <imgTitle>Image title</imgTitle>
+                <caption>Beautiful scenery9</caption>
+                <path/>
+                <desc>Some other text</desc>
+                <width>150</width>
+                <height>113</height>
+                
+                
+                <ext n="jpg"/>
+                <creator>
+                    <name>ZA</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by ZA, 2006-10-17</p>
+                </internal>
+            </image><image id="img010" thm="y">
+                <imgTitle>Image title</imgTitle>
+                <caption>Beautiful scenery10</caption>
+                <path/>
+                <desc>Some other text</desc>
+                <width>150</width>
+                <height>113</height>
+                
+                
+                <ext n="jpg"/>
+                <creator>
+                    <name>ZA</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by ZA, 2006-10-17</p>
+                </internal>
+            </image><image id="img011" thm="y">
+                <imgTitle>Image title</imgTitle>
+                <caption>Beautiful scenery11</caption>
+                <path/>
+                <desc>Some other text</desc>
+                <width>113</width>
+                <height>125</height>
+                
+                
+                <ext n="jpg"/>
+                <creator>
+                    <name>ZA</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by ZA, 2006-10-17</p>
+                </internal>
+            </image><image id="img012" thm="y">
+                <imgTitle>Image title</imgTitle>
+                <caption>Beautiful scenery12</caption>
+                <path/>
+                <desc>Some other text</desc>
+                <width>257</width>
+                <height>114</height>
+                
+                
+                <ext n="jpg"/>
+                <creator>
+                    <name>AP</name>
+                    <p/>
+                </creator>
+                <copyright>
+                    <p/>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p>Created by ZA, 2006-10-17</p>
+                </internal>
+            </image><image id="logoCch">
+                <imgTitle>CCH Logo</imgTitle>
+                <desc>Centre for Computing in the Humanities</desc>
+                <width>120</width>
+                <height>56</height>
+                <ext n="png"/>
+                <creator>
+                    <name><?xm-replace_text {name}?></name>
+                    <p><?xm-replace_text {p}?></p>
+                </creator>
+                <copyright>
+                    <p><?xm-replace_text {p}?></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p><?xm-replace_text {p}?></p>
+                </notes>
+                <internal>
+                    <p><?xm-replace_text {p}?></p>
+                </internal>
+            </image>
+        </group>
+        <group id="charts">
+            <groupHead>
+                <groupTitle>Charts</groupTitle>
+                <groupFolder><?xm-replace_text {groupFolder}?></groupFolder>
+            </groupHead>
+        </group>
+    </body>
+</authorityList>

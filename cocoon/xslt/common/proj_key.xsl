@@ -1,0 +1,627 @@
+<?xml version="1.0"?>
+<!-- $Id: proj_key.xsl 605 2007-09-04 11:25:25Z zau $ -->
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:saxon="http://icl.com/saxon"
+  xmlns="http://www.w3.org/1999/xhtml" exclude-result-prefixes="saxon"
+  xmlns:date="http://exslt.org/dates-and-times" extension-element-prefixes=" saxon date"
+  version="1.1">
+
+  <!-- HTML TITLE -->
+  <xsl:template name="ctpl_htmltitle">
+    <!-- TWO OPTIONS at present -->
+
+    <!-- Current option: option 1 -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="imagetoolbar" content="no"/>
+    <meta name="abstract" content=""/>
+    <meta name="author" content=""/>
+    <meta name="copyright" content="Copyright (c) 2006"/>
+    <meta name="date" content="2005-11-26"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="robots" content="index,follow,archive"/>
+    <meta name="generator" content="xMod 1.3"/>
+
+
+    <title>
+      <xsl:text>xMod 1.3</xsl:text>
+      <xsl:if test="string($pagehead)">
+        <xsl:text>: </xsl:text>
+        <xsl:value-of select="$pagehead"/>
+      </xsl:if>
+    </title>
+
+    <!--<link rel="shortcut icon" href="{$scriptpers}/i/customicon.ico"/>-->
+
+    <!-- CSS calls -->
+    <link rel="stylesheet" type="text/css" media="screen, projection"
+      href="{$scriptswitch}/c/default.css"/>
+    <!--<link rel="stylesheet" type="text/css" media="screen, projection"
+      href="{$scriptpers}/c/personality.css"/>-->
+    <link rel="stylesheet" type="text/css" media="print" href="{$scriptswitch}/c/print.css"/>
+
+    <!-- IE browser specific css and script -->
+    <!--<xsl:comment>[if LTE IE 6]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of
+      select="$scriptpers"/>/c/compat_MSIE_6_0_lte.css"/> &lt;![endif]</xsl:comment>
+    <xsl:comment>[if GTE IE 7]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of
+      select="$scriptpers"/>/c/compat_MSIE_7_0_gte.css"/> &lt;![endif]</xsl:comment>-->
+    <xsl:comment>[if IE]&gt; &lt;script src="<xsl:value-of select="$scriptswitch"
+      />/s/compat.js" type="text/javascript" &gt; &#160; &lt;/script&gt;
+      &lt;![endif]</xsl:comment>
+
+    <!-- script -->
+    <script src="{$scriptswitch}/s/corelib.js" type="text/javascript">&#160;</script>
+    <script src="{$scriptpers}/s/config.js" type="text/javascript">&#160;</script>
+    <script src="{$scriptswitch}/s/init.js" type="text/javascript">&#160;</script>
+  </xsl:template>
+
+
+  <!-- BANNER TEMPLATE -->
+  <xsl:template name="ctpl_banner">
+    <div id="banner">
+      <div class="w01">
+        <div class="w02">
+          <div class="utilLinks">
+            <div class="s01">&#160;</div>
+            <div class="s02">
+              <a href="">
+                <span>Text Only</span>
+              </a>
+              <a href="#content">
+                <span>Skip Navigation</span>
+              </a>
+              <a href="" title="Link to contact information" accesskey="c">
+                <span>Contact Info</span>
+              </a>
+
+              <!--Start form code -->
+              <!--<xsl:text>&#xA;</xsl:text>
+              <form action="completeMe">
+                <xsl:text>&#xA;</xsl:text>
+                <fieldset>
+                  <xsl:text>&#xA;</xsl:text>
+                  <label for="siteSearch">Search</label>
+                  <xsl:text>&#xA;</xsl:text>
+                  <input type="hidden" name="sitesearch" value="kcl.ac.uk"/>
+                  <xsl:text>&#xA;</xsl:text>
+                  <input type="hidden" name="domains" value="kcl.ac.uk"/>
+                  <xsl:text>&#xA;</xsl:text>
+                  <input id="siteSearch" type="text" name="siteSearch" tabindex="3" accesskey="s"
+                    class="s01"/>
+                  <xsl:text>&#xA;</xsl:text>
+                  <button type="submit">
+                    <span>Search</span>
+                  </button>
+                  <xsl:text>&#xA;</xsl:text>
+                </fieldset>
+                <xsl:text>&#xA;</xsl:text>
+              </form>-->
+              <!-- End form code -->
+            </div>
+          </div>
+          <div id="decalRight">
+            <span class="printOnly">Right Hand Decal</span>
+          </div>
+          <div id="decalLeft">
+            <span class="printOnly">Left Hand Decal</span>
+          </div>
+
+          <!-- Heading can be shown as text or replaced with images -->
+          <h1>
+            <span>NCSE</span>
+          </h1>
+          <h2>
+            <span>nineteenth-century serials edition</span>
+          </h2>
+
+        </div>
+      </div>
+    </div>
+  </xsl:template>
+
+
+  <!-- BREADCRUMBS TEMPLATE -->
+  <xsl:template name="ctpl_bread">
+    <div class="s01">
+      <ul>
+        <li>
+          <span class="s01">You are here:</span>
+        </li>
+        <xsl:choose>
+          <!-- Type01 and single pages -->
+          <xsl:when test="//navbar//default[@ref = $context-id]">
+            <xsl:for-each select="//navbar//default[@ref = $context-id]">
+              <xsl:for-each select="ancestor::*[not(default[@ref = $context-id])][label]">
+                <xsl:call-template name="bread-links">
+                  <xsl:with-param name="nav_default_id" select="default/@ref"/>
+                </xsl:call-template>
+              </xsl:for-each>
+              <li>
+                <span class="s02">
+                  <xsl:value-of select="preceding-sibling::label[1]"/>
+                </span>
+              </li>
+            </xsl:for-each>
+          </xsl:when>
+          <!-- When pages are not type01 -->
+          <xsl:when test="//navbar//file[starts-with($context-id, @start) and string(@start)]">
+            <xsl:for-each
+              select="//navbar//file[starts-with($context-id, @start) and string(@start)]">
+              <xsl:for-each
+                select="ancestor::*[starts-with(local-name(), 'level')][.//file[@ref=$context-id or starts-with($context-id, @start) and string(@start)]]">
+                <xsl:call-template name="bread-links">
+                  <xsl:with-param name="nav_default_id" select="default/@ref"/>
+                </xsl:call-template>
+              </xsl:for-each>
+              <li>
+                <span class="s02">
+                  <xsl:value-of select="$pagehead"/>
+                </span>
+              </li>
+            </xsl:for-each>
+          </xsl:when>
+          <!-- When type03 -->
+          <xsl:when test="local-name() = 'text'">
+            <xsl:for-each select="//navbar//file[$group-type03-id = @start and string(@start)]">
+              <xsl:for-each select="ancestor::*[starts-with(local-name(), 'level')]">
+                <xsl:call-template name="bread-links">
+                  <xsl:with-param name="nav_default_id" select="default/@ref"/>
+                </xsl:call-template>
+              </xsl:for-each>
+              <li>
+                <span class="s02">
+                  <xsl:value-of select="$pagehead"/>
+                </span>
+              </li>
+            </xsl:for-each>
+          </xsl:when>
+          <xsl:otherwise> </xsl:otherwise>
+        </xsl:choose>
+      </ul>
+    </div>
+  </xsl:template>
+
+
+  <xsl:template name="bread-links">
+    <xsl:param name="bc-lab"/>
+
+    <!-- Sets up context //Gets @ref from 'AL_navbar.xml'  -->
+    <xsl:param name="nav_default_id"/>
+
+    <!-- Outputs filePath for a given navbar item //  -->
+    <xsl:variable name="nav_default_path"
+      select="//filebase//group[item[@id=$nav_default_id]]/groupHead/groupFolder"/>
+
+    <!-- Outputs fileName for a given navbar item // Then matches that with fileBase to get fileName // Then adds '.html' -->
+    <xsl:variable name="nav_default_name" select="//filebase//item[@id=$nav_default_id]/fileName"/>
+    <xsl:variable name="nav_default_fullname" select="concat($nav_default_name, '.html')"/>
+
+    <!-- Outputs filePath plus fileName -->
+    <xsl:variable name="nav_default"
+      select="concat($linkroot, '/', $nav_default_path, '/', $nav_default_fullname)"/>
+
+    <xsl:variable name="bc-label">
+      <xsl:choose>
+        <xsl:when test="$bc-lab = 'on'">
+          <xsl:value-of select="//navbar//body//level02[default[@ref = 'p2_1']]/label"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="label"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+
+    <li>
+      <a href="{$nav_default}" title="{$bc-label}">
+        <span>
+          <xsl:value-of select="$bc-label"/>
+        </span>
+      </a>
+    </li>
+  </xsl:template>
+
+
+  <!-- NAVIGATION TEMPLATES - TOP AND SIDE -->
+  <!-- TOPNAV TEMPLATE -->
+  <!--			
+        li.s01 - the first list item
+        li.s02 - the last list item
+        a.s03 - the current page/section
+    -->
+  <xsl:template name="ctpl_topnav">
+    <div class="w01">
+      <div id="pn" class="clfx-b">
+        <ul class="pn1">
+          <xsl:for-each select="//navbar//body//level01">
+            <li>
+              <xsl:choose>
+                <!-- First -->
+                <xsl:when test="not(preceding::level01)">
+                  <xsl:attribute name="class">
+                    <xsl:text>s01</xsl:text>
+                  </xsl:attribute>
+                </xsl:when>
+                <!-- Last -->
+                <xsl:when test="not(following::level01)">
+                  <xsl:attribute name="class">
+                    <xsl:text>s02</xsl:text>
+                  </xsl:attribute>
+                </xsl:when>
+                <xsl:otherwise/>
+              </xsl:choose>
+              <xsl:call-template name="nav-item"/>
+            </li>
+          </xsl:for-each>
+        </ul>
+      </div>
+    </div>
+  </xsl:template>
+
+
+  <!-- NAVBAR TEMPLATE - SIDENAV -->
+  <xsl:template name="ctpl_nav">
+
+    <!-- TopNav or normal navigation -->
+    <xsl:choose>
+
+      <!-- TopNav -->
+      <xsl:when test="$topNav = 'on'">
+
+        <xsl:for-each select="//navbar//body//level01">
+          <xsl:if
+            test="descendant::*[@ref=$context-id] or starts-with($context-id, .//file/@start) and string(.//file/@start)">
+            <xsl:choose>
+              <xsl:when
+                test=".//file[@ref=$context-id or starts-with($context-id, @start) and string(@start)]">
+
+                <!-- Variables to create link for the level01 -->
+                <!-- Sets up context //Gets @ref from 'AL_navbar.xml'  -->
+                <xsl:variable name="nav_default_id" select="default/@ref"/>
+
+                <!-- Outputs filePath for a given navbar item //  -->
+                <xsl:variable name="nav_default_path"
+                  select="//filebase//group[item[@id=$nav_default_id]]/groupHead/groupFolder"/>
+
+                <!-- Outputs fileName for a given navbar item // Then matches that with fileBase to get fileName // Then adds '.html' -->
+                <xsl:variable name="nav_default_name"
+                  select="//filebase//item[@id=$nav_default_id]/fileName"/>
+                <xsl:variable name="nav_default_fullname"
+                  select="concat($nav_default_name, '.html')"/>
+
+                <!-- Outputs filePath plus fileName -->
+                <xsl:variable name="nav_default"
+                  select="concat($linkroot, $nav_default_path, '/', $nav_default_fullname)"/>
+
+                <!-- Outputs text for each nav item // Option 1 takes it from 'AL_fileBase.xml' // Option 2 takes it from 'AL_navbar.xml' -->
+                <xsl:variable name="nav_fileTitle"
+                  select="//filebase//item[@id=$nav_default_id]/fileTitle"/>
+
+                <!-- Level01 heading becomes the section heading -->
+                <h3>
+                  <span>
+                    <xsl:value-of select="label"/>
+                  </span>
+                </h3>
+                <ul class="pn2">
+                  <!-- Link for the first level page -->
+                  <!-- NB - uses fileTitle in fileBase for text so that it is not the same as the heading -->
+                  <li class="s01">
+                    <a>
+                      <!-- Current page Class -->
+                      <xsl:if test="default/@ref=$loc-id">
+                        <xsl:attribute name="class">
+                          <xsl:text>s03</xsl:text>
+                        </xsl:attribute>
+                      </xsl:if>
+                      <xsl:attribute name="href">
+                        <xsl:value-of select="$nav_default"/>
+                      </xsl:attribute>
+                      <span>
+                        <xsl:value-of select="$nav_fileTitle"/>
+                      </span>
+                    </a>
+                  </li>
+                  <!--  START level 2 navigation  -->
+                  <xsl:for-each select="sub02/level02">
+                    <li>
+                      <xsl:call-template name="nav-top-last"/>
+                      <xsl:call-template name="nav-item"/>
+
+                      <!--  START level 3 navigation  -->
+                      <xsl:if
+                        test=".//file[@ref=$context-id or starts-with($context-id, @start) and string(@start)]">
+                        <xsl:text>&#xA;</xsl:text>
+                        <ul class="pn3">
+                          <xsl:for-each select="sub03/level03">
+                            <li>
+                              <xsl:call-template name="nav-first-last"/>
+                              <xsl:call-template name="nav-item"/>
+
+                              <!--  START level 4 navigation  -->
+                              <xsl:if
+                                test=".//file[@ref=$context-id or starts-with($context-id, @start) and string(@start)]">
+                                <xsl:text>&#xA;</xsl:text>
+                                <ul class="pn4">
+                                  <xsl:for-each select="sub04/level04">
+                                    <li>
+                                      <xsl:call-template name="nav-first-last"/>
+                                      <xsl:call-template name="nav-item"/>
+                                    </li>
+                                  </xsl:for-each>
+                                </ul>
+                              </xsl:if>
+                              <!--  END level 4 navigation  -->
+                            </li>
+                          </xsl:for-each>
+                        </ul>
+                      </xsl:if>
+                      <!--  END level 3 navigation  -->
+                    </li>
+                  </xsl:for-each>
+                  <!--  END level 2 navigation  -->
+                </ul>
+              </xsl:when>
+              <xsl:otherwise>
+                <!-- No side navigation -->
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:if>
+        </xsl:for-each>
+      </xsl:when>
+      <!-- START default navbar items -->
+      <xsl:otherwise>
+        <!--  START level 1 navigation  -->
+        <xsl:for-each select="//navbar//body/layout/*">
+
+          <xsl:choose>
+            <!-- navbar heading -->
+            <xsl:when test="self::heading">
+              <h3>
+                <span>
+                  <xsl:value-of select="."/>
+                </span>
+              </h3>
+            </xsl:when>
+
+            <!--  linebreaks  -->
+            <xsl:when test="self::line">
+              <!-- spacer with dividing line -->
+              <!-- Need to add new code here -->
+            </xsl:when>
+
+            <!--  breaks  -->
+            <xsl:when test="self::break">
+              <!-- spacer with height determined by XML -->
+              <!-- Need to add new code here -->
+              <!-- END spacer -->
+            </xsl:when>
+
+            <!--  START LEVEL 01 LABELS -->
+            <xsl:otherwise>
+              <!--  START level 1 navigation  -->
+              <ul class="pn1">
+                <xsl:for-each select="level01">
+                  <li>
+                    <xsl:call-template name="nav-li-class"/>
+                    <xsl:call-template name="nav-item"/>
+
+                    <!--  START level 2 navigation  -->
+                    <xsl:if
+                      test=".//file[@ref=$context-id or starts-with($context-id, @start) and string(@start)]">
+                      <xsl:text>&#xA;</xsl:text>
+                      <ul class="pn2">
+                        <xsl:for-each select="sub02/level02">
+                          <li>
+                            <xsl:call-template name="nav-li-class"/>
+                            <xsl:call-template name="nav-item"/>
+
+                            <!--  START level 3 navigation  -->
+                            <xsl:if
+                              test=".//file[@ref=$context-id or starts-with($context-id, @start) and string(@start)]">
+                              <xsl:text>&#xA;</xsl:text>
+                              <ul class="pn3">
+                                <xsl:for-each select="sub03/level03">
+                                  <li>
+                                    <xsl:call-template name="nav-li-class"/>
+                                    <xsl:call-template name="nav-item"/>
+
+                                    <!--  START level 4 navigation  -->
+                                    <xsl:if
+                                      test=".//file[@ref=$context-id or starts-with($context-id, @start) and string(@start)]">
+                                      <xsl:text>&#xA;</xsl:text>
+                                      <ul class="pn4">
+                                        <xsl:for-each select="sub04/level04">
+                                          <li>
+                                            <xsl:call-template name="nav-li-class"/>
+                                            <xsl:call-template name="nav-item"/>
+                                          </li>
+                                        </xsl:for-each>
+                                      </ul>
+                                    </xsl:if>
+                                    <!--  END level 4 navigation  -->
+                                  </li>
+                                </xsl:for-each>
+                              </ul>
+                            </xsl:if>
+                            <!--  END level 3 navigation  -->
+                          </li>
+                        </xsl:for-each>
+                      </ul>
+                    </xsl:if>
+                    <!--  END level 2 navigation  -->
+                  </li>
+                </xsl:for-each>
+              </ul>
+              <!--  END level 1 navigation  -->
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:for-each>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- Defines the class for navbar li - used only in navbar and not topNav navbar -->
+  <xsl:template name="nav-li-class">
+    <xsl:choose>
+      <!-- If it is active -->
+      <xsl:when
+        test=".//file[@ref = $context-id or starts-with($context-id, @start) and string(@start)]">
+        <xsl:call-template name="nav-first-last">
+          <xsl:with-param name="first" select="'s06'"/>
+          <xsl:with-param name="last" select="'s08'"/>
+          <xsl:with-param name="norm" select="'s04'"/>
+        </xsl:call-template>
+      </xsl:when>
+      <!-- If it has a sublevel but is dormant -->
+      <xsl:when test="child::active">
+        <xsl:call-template name="nav-first-last">
+          <xsl:with-param name="first" select="'s05'"/>
+          <xsl:with-param name="last" select="'s07'"/>
+          <xsl:with-param name="norm" select="'s03'"/>
+        </xsl:call-template>
+      </xsl:when>
+      <!-- The norm -->
+      <xsl:otherwise>
+        <xsl:call-template name="nav-first-last"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- Used in both navbar and topNav navbar -->
+  <xsl:template name="nav-first-last">
+    <!-- Parameters from nav-li-class for active and dormant li -->
+    <xsl:param name="first" select="'s01'"/>
+    <xsl:param name="last" select="'s02'"/>
+    <xsl:param name="norm"/>
+
+    <xsl:variable name="cur-level" select="local-name()"/>
+
+    <xsl:choose>
+      <!-- first page in the level -->
+      <xsl:when test="not(preceding-sibling::*[name() = $cur-level])">
+        <xsl:attribute name="class">
+          <xsl:value-of select="$first"/>
+        </xsl:attribute>
+      </xsl:when>
+      <!-- last page in the level -->
+      <xsl:when test="not(following-sibling::*[name() = $cur-level])">
+        <xsl:attribute name="class">
+          <xsl:value-of select="$last"/>
+        </xsl:attribute>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:if test="string($norm)">
+          <xsl:attribute name="class">
+            <xsl:value-of select="$norm"/>
+          </xsl:attribute>
+        </xsl:if>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- Last page class - only used in topNav navbar for level02 -->
+  <xsl:template name="nav-top-last">
+    <xsl:if test="not(following-sibling::level02)">
+      <xsl:attribute name="class">
+        <xsl:text>s02</xsl:text>
+      </xsl:attribute>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="nav-item">
+    <!-- Sets up context //Gets @ref from 'AL_navbar.xml'  -->
+    <xsl:variable name="nav_default_id" select="default/@ref"/>
+
+    <!-- Outputs filePath for a given navbar item //  -->
+    <xsl:variable name="nav_default_path"
+      select="//filebase//group[item[@id=$nav_default_id]]/groupHead/groupFolder"/>
+
+    <!-- Outputs fileName for a given navbar item // Then matches that with fileBase to get fileName // Then adds '.html' -->
+    <xsl:variable name="nav_default_name" select="//filebase//item[@id=$nav_default_id]/fileName"/>
+    <xsl:variable name="nav_default_fullname" select="concat($nav_default_name, '.html')"/>
+
+    <!-- Outputs filePath plus fileName -->
+    <xsl:variable name="nav_default"
+      select="concat($linkroot, $nav_default_path, '/', $nav_default_fullname)"/>
+
+    <!-- Outputs text for each nav item // Option 1 takes it from 'AL_fileBase.xml' // Option 2 takes it from 'AL_navbar.xml' -->
+    <xsl:variable name="nav_fileTitle" select="//filebase//item[@id=$nav_default_id]/fileTitle"/>
+    <xsl:variable name="nav_label" select="label"/>
+
+    <a>
+      <!-- Active page Class -->
+      <xsl:if test="descendant::*[@ref=$loc-id]">
+        <xsl:attribute name="class">
+          <xsl:text>s03</xsl:text>
+        </xsl:attribute>
+      </xsl:if>
+      <!-- External page Class -->
+      <xsl:if test="default/@type='external'">
+        <xsl:attribute name="class">
+          <xsl:text>ext</xsl:text>
+        </xsl:attribute>
+      </xsl:if>
+      <xsl:attribute name="href">
+        <!-- Check for external links -->
+        <xsl:choose>
+          <xsl:when test="default/@type='external'">
+            <xsl:value-of select="default/@ref"/>
+          </xsl:when>
+          <!-- Otherwise, look in fileBase for a fileTitle -->
+          <xsl:otherwise>
+            <xsl:value-of select="$nav_default"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+
+      <!-- If 'AL_navbar.xml' entry does not have a 'label' element or it is empty, look in fileBase for a fileTitle  -->
+      <xsl:choose>
+        <xsl:when test="not(string(label))">
+          <span>
+            <xsl:value-of select="$nav_fileTitle"/>
+          </span>
+        </xsl:when>
+        <!-- Otherwise, use 'label' in 'AL_navbar.xml' -->
+        <xsl:otherwise>
+          <span>
+            <xsl:value-of select="$nav_label"/>
+          </span>
+        </xsl:otherwise>
+      </xsl:choose>
+    </a>
+  </xsl:template>
+
+
+  <xsl:template name="ctpl_footer">
+    <div id="footer">
+      <div class="utilLinks">
+        <div class="s01">
+          <ul>
+            <li>
+              <xsl:text>Last Updated:</xsl:text>
+              <!-- Add last update code here-->
+              <xsl:variable name="date" select="string(date:date())"/>
+              <xsl:value-of select="string(date:day-name())"/>
+              <xsl:text>, </xsl:text>
+              <xsl:value-of select="string(date:month-name())"/>
+              <xsl:text> </xsl:text>
+              <xsl:value-of select="substring($date, 9, 2)"/>
+              <xsl:text>, </xsl:text>
+              <xsl:value-of select="substring($date, 1, 4)"/>
+            </li>
+            <li>&#xa9; 2005</li>
+            <li>Resp: <a href="http://www.kcl.ac.uk/cch">CCH</a></li>
+            <li class="s01">Powered by <a href="http://www.kcl.ac.uk/cch/xmod/"
+                title="link to the xMod home page">
+                <span>xMod 1.3</span>
+              </a></li>
+          </ul>
+        </div>
+        <div class="s02"> &#xa9;<strong>2005</strong> King's College London, Strand, London WC2R
+          2LS, England, United Kingdom. Tel +44 (0)20 7836 5454 </div>
+      </div>
+    </div>
+  </xsl:template>
+
+
+</xsl:stylesheet>

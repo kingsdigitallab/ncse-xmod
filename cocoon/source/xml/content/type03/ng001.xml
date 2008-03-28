@@ -1,0 +1,3324 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../../dtd/tei/cch_tei.dtd" >
+<TEI.2 id="g4_ng001" n="" type="key" rend="type03"> 
+  <teiHeader> 
+	 <fileDesc> 
+		<titleStmt> 
+		  <title>Another</title><title type="sub">Employment</title> 
+		  <author><name type="foreName">Kirsteen</name> <name type="surname">Tait</name></author></titleStmt> 
+		<publicationStmt> 
+		  <p><date>May 2003</date></p> 
+		</publicationStmt> 
+		<sourceDesc> 
+		  <bibl><?xm-replace_text {bibl}?></bibl> 
+		  <p></p> 
+		</sourceDesc> 
+	 </fileDesc> 
+	 <revisionDesc> 
+		<change><date>2003-06-06</date> 
+		  <respStmt><name>FH</name> 
+		  </respStmt> 
+		  <item>changed internal links (xyz) and parentheses</item> 
+		</change> 
+		<change><date>2003-06-02</date> 
+		  <respStmt><name>FH</name> 
+		  </respStmt> 
+		  <item>updated text and checked file structure</item> 
+		</change> 
+		<change><date value="2003-05-08">2003-06-13</date> 
+		  <respStmt><name>JG</name><resp>encoder</resp> 
+		  </respStmt> 
+		  <item>added notes, tidied links, inserted text, added links</item> 
+		</change> 
+	 </revisionDesc> 
+  </teiHeader> 
+  <text id="p4_ng001"> 
+	 <group> 
+		<text id="p4_ng001_00"> 
+		  <body><head>About the author</head><div type="about"> 
+			 <p>Kirsteen Tait is the Director of ICAR and was formerly the
+				national policy development adviser on employment, training and adult education
+				at the Refugee Council. She also chairs the Policy Group of the Employability
+				Forum. Kirsteen can be contacted at 
+				<xref rend="email" url="kirsteen.tait@kcl.ac.uk">kirsteen.tait@kcl.ac.uk. </xref></p></div> 
+		  </body></text><text id="p4_ng001_01"> 
+		  <body> 
+		  <head>Legal aspects</head><div> 
+		  <head>Relevant legislation</head> 
+		  <p>Employment of refugees and asylum seekers is governed by the
+			 following legislation:</p> 
+		  <list type="simple"> 
+			 <item>Section 8 of the 
+				<xref url="http://www.hmso.gov.uk/acts/acts1996/1996049.htm">Asylum
+				  and Immigration Act 1996</xref> which aims to ensure that employment is offered
+				only to those entitled to live and work in the UK. Guidance was also issued in
+				1996 to remind employers of their obligations not to discriminate in
+				recruitment or employment under the Race Relations Act 1976. </item> 
+			 <item>Section 22 of the 
+				<xref url="http://www.hmso.gov.uk/acts/acts1999/19990033.htm">Immigration and Asylum
+				  Act 1999</xref> provides that in seeking to avoid conviction under Section 8
+				employers do not unlawfully discriminate. </item> 
+		  </list> 
+		  <p>The 
+			 <xref url="http://www.hmso.gov.uk/acts/acts2002/20020041.htm">Nationality,
+				Immigration and Asylum Act 2002</xref> does not contain direct changes to the
+			 employment of refugees and asylum seekers. However, it does include a range of
+			 measures to combat illegal working, such as extending the obligation of
+			 employers to show proof of eligibility to work to business partnerships
+			 [Section 147], and increasing the power of immigration officers and police to
+			 enter and search business premises without a warrant [Section 153]. The recent
+			 removal of the concession to work for asylum seekers from July 2002 is not
+			 governed by any legislation [see key issues below].</p></div> 
+		  <div><head>Legal entitlements</head><div><head>Refugees</head> 
+		  <list> 
+			 <item>Have a right to work in the UK on exactly the same terms as UK
+				citizens. </item> 
+			 <item>Are not allowed to work in government departments [Aliens
+				Restriction [Amendment] Act 1919 and Aliens Employment Act 1955].</item> 
+			 <item>Are entitled to enter all government job preparation and
+				training schemes e.g. New Deal, Work Based Learning for Adults etc.<note>For
+				  more information, see also p.16-21 of Refugee Council's 
+				  <title>Information for refugees and people with ELR</title>. An
+				  English language version of this report is available at 
+				  <xref url="http://www.refugeecouncil.org.uk/downloads/pdfbooklets/english_elr.pdf">http://www.refugeecouncil.org.uk/downloads/pdfbooklets/english_elr.pdf</xref>.
+				  Other language versions [Albanian, Arabic, Farsi, French, Kurdish, Somali, and
+				  Tamil] are also available. </note></item> 
+		  </list></div><div><head>People with other forms of protection related
+			 status e.g. ELR [under the former provisions], Temporary Protection,
+			 Humanitarian Protection [HP] and Discretionary Leave [DL] status [with effect
+			 from April 1st 2003]<note>On November 29th 2002 the decision was announced to
+				discontinue the status of Exceptional Leave to Remain [ELR] except for
+				non-asylum cases and to replace it with a new ‘humanitarian protection’ status
+				for those with protection needs not covered by the 1951 UN Convention but who
+				cannot be returned to their country of origin because they face serious risk.
+				This means that from April 1st 2003, ELR has been replaced by two subsidiary
+				forms of protection - humanitarian protection [HP] and discretionary leave [DL]
+				and procedures for eligibility and extension have been tightened up. People
+				granted HP and DL status will be given permission to stay for three years or
+				less, followed by a rigorous review of the necessity for continued protection;
+				with the possibility of extension and Indefinite Leave to Remain [ILR] after
+				six years.</note></head> 
+		  <list> 
+			 <item>have a right to work for the period they have been granted
+				protection in the same way as UK citizens</item> 
+			 <item>can apply for Job Seekers’ Allowance [JSA] and participate in
+				training for work programmes </item> 
+			 <item>are not allowed to work in government departments [Aliens
+				Restriction [Amendment] Act 1919 and Aliens Employment Act 1955]<note>As
+				  footnote 1.</note></item> 
+		  </list></div><div><head>Asylum seekers</head> 
+		  <list> 
+			 <item>Do not have the right to work while their applications are
+				being considered.</item> 
+			 <item>Previously had a concession to work after six months in the UK
+				if their case had not yet been decided by the Home Office. This was withdrawn
+				by an announcement made in the House of Commons in July 2002. Employers can
+				safely employ asylum seekers whose documentation is still stamped with this
+				concession.</item> 
+			 <item>Have the right to volunteer while their applications are being
+				considered. Payment of expenses is governed by Home Office circular. </item> 
+			 <item>Do not have the same entitlements as refugees to enter
+				government training schemes.</item> 
+		  </list></div><div><head>Asylum seekers awaiting appeal after an initial
+			 rejection</head> 
+		  <list> 
+			 <item>As above. Asylum seekers who already have concessions to work
+				retain this while awaiting appeal.</item> 
+			 <item>Asylum seekers whose cases are turned down on appeal and are
+				subject to deportation orders lose this concession. </item> 
+		  </list></div></div><div type='"bulleted"'><head>Valid
+			 documentation<note>For full details and examples of documents see Home Office's
+				'List of Specified Documents' at 
+				<xref url="http://www.ind.homeoffice.gov.uk/default.asp?pageid=85">http://www.ind.homeoffice.gov.uk/default.asp?pageid=85</xref>.
+				</note></head> 
+		  <list> 
+			 <item>A document issued by a previous employer, the Inland Revenue,
+				the Benefits Agency, the Contributions Agency or the Employment Service [or
+				their Northern Ireland equivalents] that states the National Insurance number
+				of the person named. </item> 
+			 <item>A passport describing the holder as a British citizen or as
+				having the right of abode in or an entitlement to readmission to the United
+				Kingdom.</item> 
+			 <item>A passport containing a Certificate of Entitlement issued by or
+				on behalf of the Government of the United Kingdom certifying that the holder
+				has the right of abode in the United Kingdom.</item> 
+			 <item>A certificate of registration or naturalisation as a British
+				citizen.</item> 
+			 <item>A birth certificate issued in the United Kingdom or in the
+				Republic of Ireland.</item> 
+			 <item>A passport or national identity card issued by a state which is
+				a party to the European Economic Area Agreement and which describes the holder
+				as a national of that state. </item> 
+			 <item>A passport or other travel document endorsed to show that the
+				person named is exempt from immigration control, has indefinite leave to enter,
+				or remain in, the United Kingdom or has no time limit on his or her stay; or a
+				letter issued by the Home Office confirming that the person named has such
+				status. </item> 
+			 <item>A passport or other travel document endorsed to show that the
+				person named has current leave to enter or remain in the United Kingdom and is
+				not precluded from taking the employment in question; or a letter issued by the
+				Home Office confirming that this is the case. </item> 
+			 <item>A United Kingdom residence permit issued to a national of a
+				state that is a party to the European Economic Area Agreement. </item> 
+			 <item>A passport or other travel document endorsed to show that the
+				holder has a current right of residence in the United Kingdom as the family
+				member of a named national of a state which is a party to the European Economic
+				Agreement and who is resident in the United Kingdom. </item> 
+			 <item>A letter issued by the Immigration and Nationality Directorate
+				of the Home Office indicating that the person named in the letter is a British
+				citizen or has permission to take employment. </item> 
+			 <item>A work permit or other approval to take employment issued by 
+				<xref url="http://www.workpermits.gov.uk/default.asp?pageid=1558">Work Permits</xref>
+				[UK] or, in Northern Ireland, by the Training and Employment Agency. </item> 
+			 <item>A passport describing the holder as a British Dependent
+				Territories citizen and which indicates that the status derives from a
+				connection with Gibraltar. </item> 
+		  </list></div><div type='"bulleted"'><head>Guidance and help</head> 
+		  <p>Guidance and help to employers and others is available from:</p> 
+		  <list> 
+			 <item><xref url="http://194.203.40.90/default.asp?PageId=1366">Immigration and Asylum Act
+				  1999-Section 22: Code of Practice</xref></item> 
+			 <item>Home Office 
+				<xref url="http://194.203.40.90/">Immigration and Nationality
+				  Department</xref></item> 
+			 <item>Employment Service/Department of Work and Pensions have set up 
+				<xref url="http://www.equalitydirect.org.uk/">Equality
+				  Direct</xref>, a confidential advice service for business on equality matters.
+				Its website includes advice about refugees and asylum seekers. </item> 
+			 <item>The 
+				<xref url="http://www.naric.org.uk/home.htm">National Academic
+				  Recognition Information Centre</xref> [NARIC] advises on how overseas academic
+				qualifications relate to UK qualifications. The service covers a wide range of
+				countries, and can advise on the standing of international qualifications with
+				UK professional bodies. </item> 
+			 <item>A section of the BMA website provides detailed 
+				<xref url="http://www.bma.org.uk/ap.nsf/Content/refugee+docs+-+briefing+paper?OpenDocument&amp;Highlight=2,refugee,doctors">guidance
+				  for refugee doctors</xref> seeking to requalify in the UK and the BMA has also
+				produced 
+				<xref url="http://www.bma.org.uk/ap.nsf/650f3eec0dfb990fca25692100069854/d769ba0820bca8d180256b500056a716/$FILE/Guidelines for clinical attachments.pdf">Guidelines
+				  for Clinical Attachments for Overseas Qualified Doctors</xref>.</item> 
+		  </list></div><div type='"bulleted"'><head>Entitlement and access to
+			 higher and further education</head> 
+		  <list> 
+			 <item>The Council for International Education [<xref url="http://www.ukcosa.org.uk/">UKCOSA</xref>] provides comprehensive
+				information on this subject. ICAR will also provide a navigation guide on this
+				issue in the future.</item> 
+		  </list></div><div><head>European comparisons</head> 
+		  <list> 
+			 <item><xref url="http://www.ecre.org/erfproject/employment/empperm.shtml">ECRE/ERF project
+				  page</xref> contains a section on descriptions and comparisons of the different
+				situations relating to permission to work for asylum seekers across European
+				countries and an analysis of relevant sections in the European Draft Directive
+				on Minimum Standards for the Reception of Applicants for Asylum in EU Member
+				States.</item> 
+		  </list></div> 
+		  </body> 
+		</text> 
+		<text id="p4_ng001_02"> 
+		  <body><head>Key issues</head><div><head>Are immigrants, refugees and
+			 asylum seekers an economic advantage to the UK?</head> 
+		  <p>There has been recent recognition in the UK, and the rest of the
+			 industrialised world, of the increasing reliance on economic migration to fill
+			 skills gaps and compensate for the declining indigenous population and an
+			 adverse ratio of people of wage earning age to the rest of the
+			 population.<note>See, for example, the 
+				<xref url="http://www.eng.bmi.bund.de/Annex/en_14626/Download_Summary.pdf">Sussmuth
+				  Commission report</xref>.</note> However, refugees and asylum seekers are not
+			 the same as economic migrants. </p> 
+		  <p>Economic migrants obtain entry to the UK on the basis of work
+			 permits issued by the Home Office for skilled and unskilled jobs that need to
+			 be filled. Previously this entry route was very restricted, but it has recently
+			 been broadened by the Home Office's managed migration policy.<note>See 
+				<xref url="http://www.ind.homeoffice.gov.uk/news.asp?NewsID=101">David Blunkett's
+				  House of Commons announcement on October 29th 2001 and the recent Home Office
+				  White Paper 
+				  <title>Secure Borders Safe Haven Integration with Diversity in
+					 Modern Britain 2002</title></xref>. </note></p> 
+		  <p>Asylum seekers claim safe haven from persecution. Refugees are
+			 asylum seekers whose cases for safe haven have been accepted under the Refugee
+			 Convention 1951 and relevant UK legislation. While refugees have an important
+			 contribution to make to the economy, their claim to settle in the UK is based
+			 on their reasons for flight from their country of origin, not on the skills
+			 they bring to the host country, great though these may be. </p> 
+		  <p>Little is currently known about the economic contribution of asylum
+			 seekers and refugees in the UK as existing data sources generally fail to
+			 distinguish between refugees and other migrant groups. Furthermore ethnic
+			 monitoring categories<note>Eastern European, Mediterranean and Middle Eastern
+				populations are often not represented by the ethnic categories in official
+				surveys.</note> and methods used by official data sources such as household
+			 surveys often do not capture refugee populations adequately. However, recent
+			 studies have produced conclusions as to the contribution of migrants<note>These
+				reports identify migrants as those being born outside the UK. As the authors
+				note in many cases, this definition has problems when it comes to identifying
+				economic contributions of second-generation migrants. It also includes those
+				who were born outside the UK but have been British citizens from birth.</note>
+			 generally. A Home Office study<note><xref url="http://www.homeoffice.gov.uk/rds/pdfs/occ77migrant.pdf"><title>The migrant
+					 population in the UK: fiscal effects</title></xref> by Ceri Gott and Karl
+				Johnston [2002], RDS Occasional Paper No 77, Home Office. </note> published in
+			 2002 estimates that migrants contributed £2.5bn more in taxes than they
+			 consumed in benefits and services in 1999/2000. However, migrants are a
+			 heterogeneous population and their labour market outcomes vary. Another Home
+			 Office study has suggested that migrants from ethnic minority groups have
+			 significantly lower levels of employment and wages than the UK-born population,
+			 with different ethnic groups experiencing greater success in the labour market
+			 than others.<note><xref url="http://www.homeoffice.gov.uk/rds/pdfs2/occ82migrantuk.pdf"><title>Migrants
+					 in the UK: their characteristics and labour market outcomes and
+					 impacts</title></xref> compiled by Jeremy Kempton from research studies by
+				Russell Haque, Christian Dustmann, Francesca Fabbri, Ian Preston, Jonathan
+				Wadsworth, Michael Shields and Stephen Wheatley Price [December 2002]. RDS
+				Occasional Paper No. 82, Home Office.</note> Although the level of
+			 qualifications of amongst migrants is very varied, this research also suggests
+			 that many migrants are very well educated, with more studying to degree level
+			 than the UK-born population<note><xref url="http://www.homeoffice.gov.uk/rds/pdfs2/occ82migrantuk.pdf"><title>Migrants
+					 in the UK: their characteristics and labour market outcomes and
+					 impacts</title></xref> compiled by Jeremy Kempton from research studies by
+				Russell Haque, Christian Dustmann, Francesca Fabbri, Ian Preston, Jonathan
+				Wadsworth, Michael Shields and Stephen Wheatley Price [December 2002]. RDS
+				Occasional Paper No. 82, Home Office.</note> and therefore potentially have
+			 much to contribute to the UK economy.</p> 
+		  <p>Recognition recently that refugees have a range of skills and
+			 qualifications useful to the UK has led to a series of initiatives to record
+			 them [see section on skills audits below]. NIACE research in 2001 involving
+			 interviews with 70 respondents from 21 different countries living in Leicester
+			 revealed a high level of education, skills and qualifications with the
+			 intention of matching them to skills needs in the local area. A recent
+			 programme developed by the 
+			 <xref url="http://www.lda.gov.uk/mediaoffice/whatsnew/content/2_488.asp">London
+				Framework for Regional Employment and Skills Action</xref> [FRESA] and the
+			 London Skills Commission, targets London’s refugees to help fill the chronic
+			 skills shortages in health and construction sectors. London Skills Commission
+			 research revealed that refugees were often skilled in the very sectors that are
+			 understaffed, which includes engineering and teaching as well as construction
+			 and health. The NHS plans to recruit and retain more health care professionals,
+			 estimating that it will need 45,000 extra health professionals over the next
+			 five years to meet London’s rising demand for services. Similarly a
+			 construction skills programme responds to the expected need for 10,000
+			 construction staff ranging from qualified engineers to bricklayers to deliver
+			 London’s key building projects. </p> 
+		  <p>Studies have suggested that asylum seekers and refugees have higher
+			 than average educational, skills and qualification levels, high levels of
+			 motivation, and that the majority are young males of working age. Given these
+			 characteristics, it is likely that, along with other categories of migrants,
+			 refugees and asylum seekers have a great deal to offer their host country if
+			 initial obstacles can be overcome. Unlike economic migrants, people seeking
+			 asylum do not arrive in the UK ready to enter the labour market, but in need of
+			 safe haven from persecution, and may have to overcome barriers such as trauma
+			 of flight and exile, uncertainty of status and English language. However,
+			 despite the lack of data that identifies the contribution of refugees and
+			 asylum seekers as a group, the evidence on individual contributions to the UK
+			 economy<note>For example<xref url="http://www.refugeecouncil.org.uk/downloads/rc_reports/credit.pdf"><title>Credit
+					 to the Nation: A study of refugees in the United Kingdom</title></xref> by K.
+				Knox [1997], Refugee Council, and Credit to the nation: refugee contributions
+				to the UK, Refugee Council [2002].</note> suggest that these barriers need not
+			 be insurmountable.</p> 
+		  <p>On the basis of available data, it has also been concluded that
+			 contrary to popular perceptions, migration does not have a significant impact
+			 on overall unemployment amongst the existing UK population, including previous
+			 migrant groups.<note><xref url="http://www.homeoffice.gov.uk/rds/pdfs2/rdsolr0603.pdf"><title>The Local
+					 Labour Market Effects of Immigration in the UK</title></xref> by Christian
+				Dustmann, Francesca Fabbri, Ian Preston, Jonathan Wadsworth [February 2003].
+				Home Office Online Report 06/03. It is important to note that deficiencies in
+				the data sources used mean that these conclusions are tentative.</note>
+			 Similarly, migration was not found to have an adverse effect on the wages of
+			 the UK population, indeed if anything, immigration was found to have a positive
+			 effect on the wages of the existing population. Findings from such research
+			 accord with both international<note>See, for example, 
+				<title>International Mobility of the Highly Skilled</title> by the
+				OECD [January 2002]. </note> and European<note>See, for example, 
+				<title>Immigration as an Economic Asset: the German
+				  Experience</title> by S. Spencer [ed.] [1994], IPPR.</note> evidence on this
+			 issue and have influenced the change of government policy on inward
+			 migration.</p> 
+		  <p>As of July 2002, asylum seekers are not permitted to work in the UK
+			 until their claim for asylum has been approved. This constitutes a significant
+			 barrier to any potential economic contribution they might make, both in terms
+			 of its immediate restriction on employment but also in terms of the long-term
+			 effects of periods of forced unemployment.</p><div type="box"> 
+			 <p><hi rend="bold">For more information and research on economic
+				migration see:</hi></p> 
+			 <table rend="linkBib"> 
+				<row> 
+				  <cell role="linkUrl"><xref url="http://www.homeoffice.gov.uk/rds/immigration1.html">Research Development
+						and Statistics, the Home Office</xref></cell> 
+				</row> 
+				<row> 
+				  <cell role="linkUrl"><xref url="http://www.statistics.gov.uk/">Office for National
+						Statistics</xref></cell> 
+				</row> 
+				<row> 
+				  <cell role="linkUrl"><xref url="http://www.sussex.ac.uk/Units/SCMR">Sussex Centre for Migration
+						Research</xref></cell> 
+				</row> 
+				<row> 
+				  <cell role="linkUrl"><xref url="http://www.transcomm.ox.ac.uk/">Transnational Communities
+						Programme</xref></cell> 
+				</row> 
+				<row> 
+				  <cell role="linkUrl"><xref url="http://www.geog.ucl.ac.uk/mru/">University College London [UCL], Migration
+						Unit</xref></cell> 
+				</row> 
+				<row> 
+				  <cell role="linkUrl"><xref url="http://ralph.swan.ac.uk/pgrdinfo/migratn.htm">University of Wales Swansea,
+						Migration Unit</xref></cell> 
+				</row> 
+			 </table></div> 
+		  </div> 
+		  <div><head>What skills, qualifications and experience do refugees
+			 have?</head> 
+		  <p>Research into refugees and employment over the last 10 years has
+			 suggested that asylum seekers and refugees have higher than average
+			 educational, skills and qualification levels. But until recently, there has
+			 been very little robust quantitative evidence for this. It is encouraging that
+			 a series of initiatives has been developed to audit the skills and
+			 qualifications of asylum seekers and refugees on a more systematic basis. This
+			 is very welcome both because it will help refugees to find appropriate
+			 employment and because many of them have skills and qualifications of which
+			 there is a shortage in the UK. It has been a matter of concern to refugee
+			 support organisations for some time that the UK has brought in foreign workers
+			 to fill UK vacancies in sectors such as nursing and teaching, which refugees
+			 could fill were they not frustrated by the obstacles to doing so.</p> 
+		  <p>There have been a number of small-scale, local studies of refugee
+			 and asylum-seeker skills. Others are in progress. Recent examples include those
+			 commissioned by NIACE [Asylum seekers’ skills and qualifications audit pilot
+			 project] which led the field in 2001, and more recently, the Eastern England
+			 Consortium for Asylum Seeker Support’s [EECASS] 
+		  <title>Pathways into Employment</title> feasibility study which maps
+		  skills of refugees and asylum seekers and matches them to local jobs. Learning
+		  and Skills Councils in London North, Coventry and Warwickshire, and Devon and
+		  Cornwall have commissioned various studies of skills and qualifications, as
+		  have Southampton City Council and Plymouth City Council.</p> 
+		  <p>Assessments of skills within the Somali community include 
+		  <title>The Professional Capacity of Nationals from the Somali Regions
+			 in Britain</title> [Bloch and Atfield 2002] commissioned by Refugee Action and
+		  IOM, and the report 
+		  <title>Supporting the Somali Community in West London</title> that
+		  analysed Somali skills levels in six west London boroughs. In 2000, the Refugee
+		  Council and the BMA established a 
+		  <xref url="http://www.refugeecouncil.org.uk/downloads/doctor database leaflet.pdf">database
+			 of refugee doctors</xref> which now includes over 800 individuals. More
+		  recently, the Refugee Council has also developed a dentists database in
+		  association with the British Dental Association and this already contains 80
+		  dentists.</p> 
+		  <p><xref url="http://www.london.gov.uk/approot/mayor/refugees/docs/skills_rpt.pdf"><title>Missed
+				  Opportunities: A skills audit of refugee women in London from the teaching,
+				  nursing and medical professions</title></xref> [Dumper 2002] was commissioned
+			 by the Greater London Authority, and contained a list of individuals
+			 interviewed and ready to work. The LDA has recently commissioned a research
+			 project that will identify the main skills, employment, enterprise and economic
+			 development barriers and issues which prevent refugees and asylum seekers from
+			 fully participating and contributing to the capital’s economy. The project will
+			 make policy recommendations and establish a skills, qualifications and
+			 employment baseline. Single borough skills audits are also in progress, such as
+			 that in Hammersmith and Fulham.</p> 
+		  <p>The report 
+			 <xref url="http://www.lsc.gov.uk/news_docs/ASR ETE skills  services Cov  Warks Final report Apr 03.doc"><title>Asylum
+				  seekers and refugees: education, training, employment, skills and services in
+				  Coventry and Warwickshire</title></xref> [Phillimore et al 2003] was
+			 commissioned by the Coventry and Warwickshire Learning and Skills Council and
+			 undertaken by the University of Birmingham to follow up the knowledge gap in
+			 the early NIACE report, and explore the emerging issues and possible solutions.
+			 It recorded the skills and qualifications of 374 asylum seekers and refugees,
+			 and contains information on broad range of employment-related issues similar to
+			 the 
+			 <xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html">DWP
+				research</xref> undertaken by Alice Bloch which also contains data on the
+			 skills and qualifications of the asylum seekers and refugees interviewed in a
+			 number of cities including Birmingham, Manchester, London, Newcastle, Leeds and
+			 Sheffield.</p> 
+		  <p>LSCs and others have statutory responsibilities to map the learning
+			 and training needs in their local areas but it would be a pity if a series of
+			 local, regional and specific skills and qualifications audits were
+			 incompatible. The Home Office asylum and immigration research team administered
+			 a postal skills audit of over-18 year olds who had been given refugee status
+			 and Exceptional Leave to remain [ELR] during the period November 2002-January
+			 2003. Recipients were offered a translated version of the questionnaire in six
+			 languages, and it achieved a remarkable 66% response rate with over 2,000
+			 replies. NARIC has assessed the equivalence of their qualifications and results
+			 are likely to be available in June 2003. The Scottish Executive is carrying out
+			 its own version of a skills audit using different methodology and with a
+			 broader remit. This project seeks to identify the skills, qualifications and
+			 aspirations of both asylum seekers and refugees, unlike the Home Office
+			 version, and will also identify the barriers that refugees and asylum seekers
+			 encounter when attempting to find employment or access further training.</p> 
+		  <p>These two government-commissioned reports could introduce a more
+			 standardised approach to skills auditing. The real issue is whether these
+			 useful audits can be used effectively to improve the employment preparation
+			 services offered to refugees, as a basis for needs assessment to help refugees
+			 obtain employment more quickly, and at a level more suited to their skills and
+			 qualifications, as well as benefiting the local and national economy by filling
+			 skills.</p></div><div><head>Can refugee doctors fill vacancies for qualified
+			 doctors in the NHS? </head> 
+		  <p>The UK has recently been involved in campaigns to recruit overseas
+			 professionals to fill gaps in the availability of qualified staff e.g. doctors,
+			 teachers, nurses and IT specialists. But at the same time, qualified refugees
+			 already settled in the UK and with the right to work have been unable to obtain
+			 suitable jobs. Refugee Council and the British Medical Association [BMA] have a
+			 database of 815 refugee doctors in the UK and a recent report published by the
+			 Greater London Authority identified 75 refugee women doctors and other medical
+			 professionals resident in London, the majority of whom were not
+			 employed.<note><xref url="http://www.london.gov.uk/approot/mayor/refugees/docs/skills_rpt.pdf"><title>Missed
+					 opportunities. A skills audit of refugee women in London from the teaching,
+					 nursing and medical professions</title></xref> by Hildegard Dumper [December
+				2002], produced by the Mayor of London in association with Refugee Women's
+				Association.</note></p> 
+		  <p>A good deal of evidence has been collected recently about the
+			 obstacles preventing refugee doctors from re-qualifying and obtaining
+			 jobs.<note>See on this issue, 'A Bitter Pill to Swallow: Obstacles Facing
+				Refugee Doctors in the UK' by Emma Stewart, paper presented at 1st Annual
+				Student Conference on Forced Migration, Oxford, 22 February 2003; '<xref url="http://bmj.com/cgi/content/full/325/7373/S166?maxtoshow=&amp;HITS=10&amp;hits=10&amp;RESULTFORMAT=&amp;author1=Stewart%2C+E&amp;searchid=1046102843644_14255&amp;stored_search=&amp;FIRSTINDEX=0&amp;resourcetype=1,2,3,4,10">Refugee
+				  doctors in the United Kingdom</xref>' by Emma Stewart &amp; S. Nicholas [2002] 
+				<title>British Medical Journal</title>, 16.11.02; 'Barefoot
+				doctors' by D. Carlisle [2001] 
+				<title>Health Service Journal</title>, 8.11.01; 'Long and winding
+				road' by B. Millar [2001] 
+				<title>Health Service Journal</title> 8.2.01; 'Opportunity knocked'
+				by M. Oldham [2001] Health Service Journal, 8.11.01; 
+				<xref url="http://www.doh.gov.uk/pdfs/refugee.pdf">Report of the
+				  Working Group on Refugee Doctors and Dentists</xref> by the National Health
+				Service Executive [NHSE] Advisory Group on Medical and Dental Education and
+				Staffing - Overseas Doctors Subgroup [2000]; '<xref url="http://bmj.com/cgi/content/full/320/7239/887?ijkey=rqsE4UCY6PlA">Helping
+				  refugee doctors</xref>' by K. Adam and E. Borman [2000] 
+				<title>British Medical Journal</title>, 1.4.00; '<xref url="http://bmj.com/cgi/content/full/315/7103/264?ijkey=TgxiSPVO4GX3k">Refugee
+				  doctors in Britain: a wasted resource</xref>' by Berlin et al [1997] 
+				<title>British Medical Journal</title>, 2.8.97.</note> These
+			 include the difficulty of studying for and passing the necessary English
+			 language [IELTS] tests, financial difficulties, rigid General Medical Council
+			 [GMC] regulations, lack of access to library facilities, lack of hospital
+			 placements, being required to take up unsuitable job offers, and
+			 discrimination. Many of these obstacles have been successfully alleviated
+			 recently as a result of campaigning by the Refugee Council, the Jewish Council
+			 for Racial Equality [JCORE], the BMA, and the National Health Service Advisory
+			 Group on Medical Education, Training &amp; Staffing [AGMETS] subcommittee.
+			 However, it is important to note that even once qualified, barriers to career
+			 progression may continue to cause problems for refugee health
+			 professionals.<note>'A Bitter Pill to Swallow: Obstacles Facing Refugee Doctors
+				in the UK' by Emma Stewart, paper presented at 1st Annual Student Conference on
+				Forced Migration, Oxford, 22 February 2003.</note></p> 
+		  <p>This work has been extended to other health professionals such as
+			 dentists and nurses, and could provide a model for facilitating
+			 re-qualification and employment by refugee professionals in other skills
+			 shortage areas. The database of refugee dentists recently initiated by the
+			 Refugee Council and the British Dental Association already contains 80 dentists
+			 and recent surveys suggest that there are also a significant number of teachers
+			 amongst the refugee and asylum seeking population whose skills could be
+			 utilised in the UK following appropriate conversion training.<note><xref url="http://www.niace.org.uk/projects/Asylum/Asylumreport.pdf"><title>Asylum
+					 Seekers' Skills and Qualifications Audit Pilot Project</title></xref> by Fiona
+				Aldridge and Sue Waddington [April 2001], NIACE and 
+				<xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+					 opportunities and barriers in employment and training</title></xref> by Alice
+				Bloch [2002] Department for Work and Pensions Research Report
+				179.</note></p></div><div><head>What are the chances for a successful
+			 employment strategy for refugees? Could the government do more?</head> 
+		  <p>Until recently, the answer would certainly have been yes. But a
+			 series of welcome recent initiatives are very helpful. The government
+			 recognises that employment is a key factor in the integration of refugees as
+			 full and equal citizens<note>Home Office 
+				<xref url="http://www.workpermits.gov.uk/filestore/Refugee_Intergration.pdf"><title>Full
+					 and Equal Citizens: A strategy for the integration of refugees into the United
+					 Kingdom</title></xref> [November 2000]. </note> and employment support for
+			 refugees is therefore an important part of the government's national refugee
+			 integration agenda. The National Refugee Integration Forum Adult Education
+			 Training and Employment Subcommittee meets quarterly, chaired by Employability
+			 Forum, and has taken up a series of issues relevant to employment including
+			 introductory guides, improving use of JobCentres by refugees, ESOL, permission
+			 to work documentation, equivalence of qualifications and access to National
+			 Insurance numbers. </p> 
+		  <p>The DWP is developing an employment strategy for refugees drawing on
+			 the results of the research commissioned by them.<note><xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees’
+					 opportunities and barriers in employment and training</title></xref> by Alice
+				Bloch [2002] Department for Work and Pensions Research Report 179.</note> 
+		  <title>Working to Rebuild Lives: a preliminary report towards an
+			 employment strategy</title> provides a strategic look at ways in which
+		  government, the voluntary sector, training providers and employers can work
+		  more effectively together to help refugees into work. This strategy is backed
+		  by DWP pilot initiatives in 2003 to help refugees into work. Such initiatives
+		  include:</p> 
+		  <list> 
+			 <item>A ‘Hard to Help’ refugee pilot delivering early measures for
+				those who have newly received permission to stay until they obtain work. This
+				helps refugees to access benefits, language and vocational assessment and
+				establishes a training and employment plan.</item> 
+			 <item>· Work Based Learning for Adults will provide refugees over the
+				age of 25 with 13 weeks of employment preparation, followed by a possible
+				extension of 13 weeks for intensive language provision.</item> 
+		  </list> 
+		  <p>These initiatives will be externally evaluated.</p> 
+		  <p>Job Centre Plus is examining ways of collecting information about
+			 refugee clients in order to be able to track individual outcomes and trends. It
+			 has produced a leaflet in 35 languages to encourage refugees to register with
+			 Job Centres, which will accompany the NASS 35 letter that is sent out when
+			 permission to stay is granted.</p> 
+		  <p>Recent useful initiatives promoted by government which suggest that
+			 progress is being made in this area are summarised in the box below. </p> 
+		  <p><hi rend="bold">Recent government initiatives</hi></p><div type="box"> 
+			 <table rend="special"> 
+				<row> 
+				  <cell role="itemDesc"><hi rend="bold">Obstacle</hi> Inadequate
+					 English language provision</cell> 
+				  <cell role="itemDesc"><hi rend="bold">Helpful response</hi> The
+					 White Paper, 
+					 <xref rend="external" url="http://www.official-documents.co.uk/document/cm53/5387/cm5387.pdf">Secure
+						Borders, Safe Haven: Integration with Diversity in Modern Britain</xref>
+					 published February 2002; Home Office integration policy; DWP English language
+					 pilots provision at gateway to New Deal.<note>See <xref rend="internal" from="p4_ng001_05">projects and initiatives
+						section</xref></note></cell> 
+				</row> 
+				<row> 
+				  <cell role="itemDesc"><hi rend="bold">Obstacle</hi> Lack of
+					 placements for refugee doctors attempting to requalify.</cell> 
+				  <cell role="itemDesc"><hi rend="bold">Helpful response</hi>
+					 National Health Service Executive [NHSE] Advisory Group on Medical and Dental
+					 Education and Staffing Overseas Doctors Subgroup; 
+					 <xref rend="external" url="http://www.doh.gov.uk/pdfs/refugee.pdf">Report of the Working Group on
+						Refugee Doctors and Dentists</xref>, November 2000.</cell> 
+				</row> 
+				<row> 
+				  <cell role="itemDesc"><hi rend="bold">Obstacle</hi> Lack of data
+					 regarding barriers to employment and training needs.</cell> 
+				  <cell role="itemDesc"><hi rend="bold">Helpful response</hi>
+					 Commissioning of research by DWP of research into this subject, undertaken by
+					 Alice Bloch at Goldsmiths College and recently published.</cell> 
+				</row> 
+				<row> 
+				  <cell role="itemDesc"><hi rend="bold">Obstacle</hi> Lack of data
+					 on the qualifications and education of refugees in the UK.</cell> 
+				  <cell role="itemDesc"><hi rend="bold">Helpful response</hi> The
+					 Home Office Immigration Research and Statistics Service [IRSS] is conducting a
+					 postal survey on the skills, qualifications and English language competency of
+					 people granted refugee status and ELR. The pilot has been completed and the
+					 main stage is now taking place. This will be the largest ever skills audit of
+					 this group.</cell> 
+				</row> 
+			 </table></div><div> 
+			 <p>It is too early to say whether the decision to withdraw the
+				concession to work from asylum seekers who have not received a decision on
+				their application after six months undermines the positive developments in the
+				government approach to this issue [see key issue below].
+				</p></div></div><div><head>Should asylum seekers be allowed to work while
+			 waiting for decisions on their applications? </head> 
+		  <p>In theory, allowing asylum seekers to work immediately upon their
+			 arrival in the UK could save money for the taxpayer by reducing the financial
+			 support needed to sustain them during their application period. However,
+			 present government policies are based on the belief that being allowed to work
+			 on arrival in the UK would act as an additional 'pull' factor in attracting
+			 more asylum seekers and economic migrants posing as asylum seekers to the
+			 UK.<note>See 
+				<xref url="http://www.publications.parliament.uk/pa/cm200102/cmhansrd/cm011029/debtext/11029-05.htm">David
+				  Blunkett's statement of 29th October 2001</xref>.</note></p> 
+		  <p>This is why in July 2002 the government removed the concession
+			 giving asylum seekers permission to work after they have been waiting over six
+			 months for a decision on their case. This decision was justified on the basis
+			 that most decisions are now made within this initial six-month period. The
+			 withdrawal of this concession was made with no consultation, engendering
+			 protest from refugee agencies and organisations promoting refugee employment.
+			 These organisations believe that employers, who have only recently begun to
+			 understand the complicated documentation arrangements which allow asylum
+			 seekers to work, will become confused once more, and might overlook
+			 applications from those with refugee status for fear of contravening asylum and
+			 immigration legislation. Such organisations also maintain that given the
+			 lengthy appeals process and the fact that many initial decisions may still not
+			 be made within six months, exclusion from the labour market may affect
+			 processes of integration. Many organisations also suggest that the public and
+			 asylum seekers themselves support the notion that, where possible, asylum
+			 seekers should be given the opportunity to provide for themselves and
+			 contribute to the economy.<note>See for example, the response of 
+				<xref url="http://www.refugeecouncil.org.uk/news/july2002/relea077.htm">the Refugee
+				  Council</xref>.</note></p> 
+		  <p>A significant percentage of asylum seekers [25-30% over recent
+			 years] will eventually be given refugee or ELR status. There is evidence that
+			 obtaining employment helps asylum seekers to settle in the host country, to
+			 improve English language skills, to interact socially, to fulfil the wish to
+			 contribute to their adopted country, and to support their families. It may also
+			 reduce the mental health problems resulting from war, trauma, family disasters
+			 and the problems of flight and exile.<note>See for example the findings of a
+				recent report on migrants, 
+				<xref url="http://www.homeoffice.gov.uk/rds/pdfs2/rdsolr0703.pdf"><title>The labour
+					 market outcomes and psychological well-being of ethnic minority migrants in
+					 Britain</title></xref> by M. Shields and S. Wheatley Price [2002]. Home Office
+				Online Report 07/03.</note> However, some asylum seekers will not be able to
+			 work on arrival, and they should not be penalised for this. These include heads
+			 of families who need to settle children in school, those suffering from health
+			 or mental health problems or the effects of torture, and people with no English
+			 language skills.</p> 
+		  <p>If the average time taken to reach an asylum decision falls below
+			 six months, and if new government integration policies introduce substantial
+			 induction and English language programmes - and with them a sense of purpose -
+			 into this waiting period, then the issue of early concessions to work may
+			 become less pressing. Effective arrangements to encourage asylum seekers to do
+			 voluntary work during the asylum period would certainly mitigate the possible
+			 ill effects of the withdrawal of the concession and EECASS is carrying out
+			 research on pathways into volunteering for asylum seekers. The Refugee Council
+			 will produce a report on the effects of the withdrawal of the concession in
+			 autumn 2003.</p></div><div><head>How has the removal of the concession to work
+			 affected asylum seekers? </head> 
+		  <p>The concession to work given to asylum seekers after six months in
+			 the UK if their case had not yet been decided by the Home Office was withdrawn
+			 by an announcement made in the House of Commons in July 2002. As stated above,
+			 this move provoked concern from agencies working with refugees and asylum
+			 seekers as it was thought that this would confuse employers, increase poverty
+			 and dependency on the state, and have an adverse effect on future integration
+			 into the job market, as prolonged periods of unemployment may impact on
+			 motivation and mental health whilst contributing to the deskilling of
+			 professionals. Several refugee agencies and researchers are beginning to
+			 monitor the effect of this move on asylum seeking and refugee populations and
+			 ICAR will report on the findings of these initiatives as soon as they become
+			 available. In the meantime, it has been noted that the removal of the
+			 concession to work has impacted on the assistance that voluntary agencies in
+			 receipt of EU funding [particularly the European Social Fund [ESF] can offer
+			 asylum seekers. The departments responsible for administering the ESF grants
+			 have ruled that asylum seekers are no longer eligible for ESF-funded courses as
+			 they can no longer be granted permission to work in the UK [see projects and
+			 initiatives section below]. </p></div><div><head>Why is there a high level of
+			 unemployment among refugees? </head> 
+		  <p>The evidence suggests that refugees are the most unemployed and
+			 underemployed group in the UK and that asylum seekers with permission to work
+			 conceded after six months have especially high unemployment levels. A number of
+			 recent studies have identified the barriers to obtaining employment, both as
+			 perceived by refugees and by employers. Even so, the available evidence does
+			 not make it possible to conclude which of a number of factors is the most
+			 significant.</p> 
+		  <div type="box"><head>Obstacles to employment: refugee
+			 perceptions</head> 
+		  <list> 
+			 <item>Obstacles to employment: refugee perceptions</item> 
+			 <item>Lack of work experience in the UK</item> 
+			 <item>Non-recognition of qualifications obtained overseas</item> 
+			 <item>Lack of information about employment and training
+				services</item> 
+			 <item>Lack of knowledge about job search culture and UK labour
+				market</item> 
+			 <item>Cultural barriers to effective job seeking</item> 
+			 <item>Employers' lack of understanding of immigration status</item> 
+			 <item>Racial prejudice by employers</item> 
+			 <item>Lack of childcare provision</item> 
+		  </list></div> 
+		  <div type="box"><head>Obstacles to employment: employer
+			 perceptions</head> 
+		  <list> 
+			 <item>Inadequate English language and communication skills -
+				considered the single most important issue</item> 
+			 <item>Lack of familiar and easily comparable qualifications and work
+				experience</item> 
+			 <item>Confusion about permission to work documentation and
+				immigration status</item> 
+			 <item>Lack of CV writing and interview skills</item> 
+		  </list></div><div> 
+			 <p>The most recent contribution to this debate comes from a research
+				project commissioned by the DfES, and managed by the DWP, whose findings were
+				published at the end of 2002.<note><xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+						opportunities and barriers in employment and training</title></xref> by Alice
+				  Bloch [2002], Department for Work and Pensions Research Report 179.</note> This
+				project found that of the 400 asylum seekers and refugees surveyed, only 29%
+				were working at the time of the survey. This study identified the barriers to
+				employment as perceived by respondents and also highlighted the variable
+				socio-demographic factors affecting individuals' likelihood of being
+				employed.</p> 
+			 <p>The main barrier to employment cited by respondents was English
+				language and literacy proficiency although lack of UK work experience was also
+				considered to be a major obstacle. Barriers were experienced differentially by
+				respondents at different stages of settlement in the UK. Whilst lack of
+				familiarity with the UK system was mentioned by many of those who had been in
+				the UK for less than five years, this barrier was perceived to be less of a
+				problem by those who had been resident in the UK for longer. For this group,
+				racial discrimination was perceived to be more of a barrier to participation in
+				the labour market.</p> 
+			 <p>In analysing the social and demographic characteristics of
+				individuals in relation to their employment experiences, the report concluded
+				that although the length of residence had an impact on employment outcomes as
+				suggested by previous research,<note><title>The Settlement of Refugees in
+					 Britain</title> by Carey-Wood, Duke, Karn, and Marshall [1995]. Home Office
+				  Research Study 141, Home Office Research and Planning Unit.</note> the factor
+				determining labour market activity was actually English language proficiency.
+				Receiving training in the UK also positively influenced the likelihood of
+				employment. However, it is not clear whether the training led to employment in
+				a causal manner, or whether those who had accessed training were ready to enter
+				the labour market already. </p> 
+			 <p>In the focus groups held as part of the research, the issue of
+				local labour markets was also suggested as being a key element in determining
+				employment opportunities, as areas with service sector jobs were seen to offer
+				greater employment opportunities for refugees. This was perhaps reflected in
+				the regional variations in the employment rates of the survey respondents:
+				respondents in Leeds, Sheffield and London were more likely to be employed.
+				Other studies have also pointed to the fact that dispersal may have affected
+				the employment prospects of asylum seekers as their search for employment is
+				restricted to areas accessible from their homes in the dispersal
+				area.<note><title>Exploring mechanisms for the integration of asylum seekers
+					 and refugees into the labour market in Wolverhampton. Report for Wolverhampton
+					 Connects by The Centre of Urban and Regional Studies, The University of
+					 Birmingham. Draft Summary Report</title> by J. Phillimore and L. Goodson
+				  [October 2001], University of Birmingham.</note></p> 
+			 <p>Other local studies such as that published by Learning and Skills
+				Council, London North in July 2002<note><xref url="http://www.lsc.gov.uk/news_docs/Refugees and Asylum Seekers in the LSC London North Area_.pdf"><title>Refugees
+						and Asylum Seekers in the Learning and Skills Council London North
+						Area</title></xref> by Africa Educational Trust [July 2002]. Learning and
+				  Skills Council London North.</note> have offered similar conclusions regarding
+				barriers to employment as perceived by refugees and asylum seekers. A recent
+				publication focusing on the skills of refugee women in the London area also
+				reveals the gender differentials in the employment barriers
+				experienced.<note><xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+						opportunities and barriers in employment and training</title></xref> by Alice
+				  Bloch [2002], Department for Work and Pensions Research Report 179.</note> Many
+				women have suffered exclusion from the labour market that predates the new
+				provision preventing asylum seekers from working; those that have entered the
+				UK as dependents on their husband's asylum claim have never had the right to
+				work. Furthermore, many women in exile suffer from the loss of support systems
+				from family and friends and the informal childcare arrangements that these
+				provide.</p> 
+			 <p>In addition to unemployment, occupational downgrading is also
+				reported as a characteristic of refugee employment by refugee agencies offering
+				training and preparation for employment [Refugee Council/TES, WUS/RETAS,
+				Praxis, Refugees into Jobs]. Reports published by the DWP, the Greater London
+				Authority and the Refugee Council that provide data on individuals' occupations
+				in countries of origin also suggest that this is the case, particularly with
+				regard to those whose professional qualifications are not recognised in the
+				UK.<note><xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+						opportunities and barriers in employment and training</title></xref> by Alice
+				  Bloch [2002], Department for Work and Pensions Research Report 179; 
+				  <xref url="http://www.london.gov.uk/approot/mayor/refugees/docs/skills_rpt.pdf"><title>Missed
+						opportunities. A skills audit of refugee women in London from the teaching,
+						nursing and medical professions</title></xref> by Hildegard Dumper [December
+				  2002], produced by the Mayor of London in association with Refugee Women's
+				  Association; 
+				  <title>Creating the conditions for refugees to find work</title>
+				  by MbA, for the Refugee Council [March 1999].</note></p> 
+			 <p>The research evidence makes it clear that asylum seekers with
+				permission to work have generally suffered from all the barriers to employment
+				encountered by refugees, with the additional problem of uncertainty of status.
+				Employers are uncertain whether they have the right to work and how long they
+				will stay in the UK. Asylum seekers may in turn be demotivated by uncertainty
+				and/or be barred from government employment training opportunities by their
+				status. These problems are likely to be exacerbated by the removal of the
+				concession to work for asylum seekers, as not only will new arrivals be
+				excluded from the labour market altogether, but those who retain the concession
+				to work may suffer from employer confusion surrounding the
+				changes.</p></div></div><div><head>Why is English language such a big issue?
+			 </head> 
+		  <p>The acquisition of English language is one of the indices of
+			 integration for refugees, although levels are likely to be self-assessed.
+			 Although many asylum seekers arrive in the UK speaking some English, evidence
+			 suggests that the lack of adequate English language skills is the single most
+			 serious obstacle to obtaining employment.<note><title>Creating the conditions
+				  for refugees to find work</title> by MbA, for the Refugee Council [March 1999];
+				
+				<title>Refugee skills-net: the employment and training of skilled
+				  and qualified refugees</title> by R. Barer [June 1999], Peabody Trust/London
+				Research Centre; 
+				<title>English Language as a Barrier to Employment, Education and
+				  Training</title> by P. Schellekens [2001], DfEE; 
+				<xref url="http://www.refugeecouncil.org.uk/downloads/rc_reports/progression_routes.pdf"><title>Refugees
+					 and Progression Routes to Employment</title></xref> by D. Shiferaw and H. Hagos
+				[2002], Refugee Council and PLRTEN; 
+				<xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+					 opportunities and barriers in employment and training</title></xref> by Alice
+				Bloch [2002], Department for Work and Pensions Research Report 179.</note>
+			 Echoing findings relating to migrants in the UK generally,<note>See for
+				example, 
+				<xref url="http://www.homeoffice.gov.uk/rds/pdfs2/occ82migrantuk.pdf"><title>Migrants
+					 in the UK: their characteristics and labour market outcomes and
+					 impacts</title></xref> by Haque et al [December 2002], RDS Occasional Paper No.
+				82.</note> research into the employment of refugees and asylum seekers suggests
+			 that English language proficiency is the factor most positively associated with
+			 labour market participation. Furthermore, those with poor knowledge of English
+			 that do manage to find work are generally confined to low skill jobs as
+			 language levels required to compete for jobs in the UK is higher than the level
+			 needed to survive in the UK. Research published by the DWP found that among the
+			 400 asylum seekers and refugees surveyed, English language training was felt to
+			 be the most useful type of help needed to gain the employment they
+			 wanted.<note><xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+					 opportunities and barriers in employment and training</title></xref> by Alice
+				Bloch [2002], Department for Work and Pensions Research Report 179.</note></p> 
+		  <p>However, research also indicates that simply identifying English
+			 language proficiency as a problem is not enough. There is evidence that the
+			 availability, quantity, level, flexibility, vocational content and progression
+			 of courses and training are inadequate.<note><title>English Language as a
+				  Barrier to Employment, Education and Training </title>by P. Schellekens [2001],
+				DfEE; 
+				<xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+					 opportunities and barriers in employment and training</title></xref> by Alice
+				Bloch [2002], Department for Work and Pensions Research Report 179.</note>
+			 Recommendations about English language provision in the White Paper, 
+			 <xref url="http://www.official-documents.co.uk/document/cm53/5387/cm5387.pdf"><title><xref url="http://www.official-documents.co.uk/document/cm53/5387/cm5387.pdf">Secure
+					 Borders, Safe Haven: Integration with Diversity in Modern
+					 Britain</xref></title></xref> published in February 2002 [see paragraphs 4.31,
+			 4.98, 4.99] represent governmental recognition of this and propose steps that
+			 may address these issues. The National Research and Development Centre at the
+			 London University Institute of Education has established an online database of
+			 current research in the ESOL field. </p></div><div><head>Is racial prejudice an
+			 obstacle to the employment of refugees? </head> 
+		  <p>Until the other recognised obstacles identified above are removed by
+			 improved policy and job preparation services, there is insufficient evidence to
+			 judge whether employers may be discriminating against refugees on racial
+			 grounds. Studies of refugee perceptions of obstacles to employment invariably
+			 identify racial prejudice as a significant factor. Employers on the other hand,
+			 identify key problems as confusing permission to work documentation, the
+			 negative public image of refugees and the lack of familiarity and comparability
+			 of qualifications and work experience. These obstacles may appear as racial
+			 prejudice to the unsuccessful refugee job seeker.</p></div><div><head>How do
+			 refugees experience job seeking in the UK?</head> 
+		  <p>Research suggests that the means and strategies for finding
+			 employment that are used by refugees and asylum seekers have been found to
+			 differ according to length of residence and proficiency in English. Informal
+			 personal contact seems to be the most common means of job seeking and gaining
+			 advice on employment, although personal contacts are more likely to be made
+			 through friends rather than kinship networks, which were commonly used in
+			 countries of origin.<note><xref url="http://www.refugeecouncil.org.uk/downloads/rc_reports/progression_routes.pdf"><title>Refugees
+					 and Progression Routes to Employment</title></xref> by D. Shiferaw and H. Hagos
+				[2002], Refugee Council and PLRTEN; 
+				<xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+					 opportunities and barriers in employment and training</title></xref> by Alice
+				Bloch [2002], Department for Work and Pensions Research Report 179.</note></p> 
+		  <p>Mainstream employment services are more likely to be used by those
+			 that have been in the country for a longer period and have a better command of
+			 English. However, the take up and knowledge of these services still remains
+			 low. In Shiferaw and Hagos' research, only 11% of those interviewed had used
+			 their Jobcentre to find a job, and the same number had accessed refugee agency
+			 career advisory services.<note><xref url="http://www.refugeecouncil.org.uk/downloads/rc_reports/progression_routes.pdf"><title>Refugees
+					 and Progression Routes to Employment</title></xref> by D. Shiferaw and H. Hagos
+				[2002], Refugee Council and PLRTEN.</note> Bloch's research found that of those
+			 who had been able to find work in the UK, 11% had used statutory services to
+			 find their most recent job, 7% had used private agencies and 5% had used
+			 community groups. Furthermore just under half of those who were working or
+			 looking for work had heard of schemes run by Jobcentre Plus. Of the statutory
+			 schemes offered, New Deal was the most widely known.<note><xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+					 opportunities and barriers in employment and training</title></xref> by Alice
+				Bloch [2002], Department for Work and Pensions Research Report 179.</note></p> 
+		  <p>Awareness and use of statutory provision may also affected by
+			 gender, with recent research indicating that women are less likely to visit a
+			 Jobcentre and more likely to ask family and friends about jobs than
+			 men.<note><xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+					 opportunities and barriers in employment and training</title></xref> by Alice
+				Bloch [2002], Department for Work and Pensions Research Report 179.</note>
+			 Methods of job-seeking may also vary according to country of origin. For
+			 example, recent research found that, of a sample group, Somalis used Jobcentres
+			 more than Iraqis, respondents from Sri Lanka, Kosova or Turkey, but were less
+			 likely than these other nationalities to have asked friends about employment
+			 opportunities.<note><xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+					 opportunities and barriers in employment and training</title></xref> by Alice
+				Bloch [2002], Department for Work and Pensions Research Report 179.</note>
+			 These findings illustrate the significant challenges faced by voluntary and
+			 statutory agencies in making their services accessible to a diverse refugee and
+			 asylum-seeking population. Recent steps taken by Jobcentre Plus and other
+			 providers to increase the uptake of their services are outlined in the projects
+			 and initiatives section below.</p></div><div><head>What kind of jobs do
+			 refugees do in the UK?</head> 
+		  <p>Existing research has found that of the refugees and asylum seekers
+			 that are employed, the majority work in catering, interpreting, retail,
+			 cleaning, security, factory, administrative and clerical jobs. A relatively
+			 high percentage of refugees are self-employed. 
+			 <note><xref url="http://www.refugeecouncil.org.uk/downloads/rc_reports/progression_routes.pdf"><title>Refugees
+					 and progression routes to employment</title></xref> by D. Shiferaw and H. Hagos
+				[2002], Refugee Council and PLRTEN; 
+				<xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+					 opportunities and barriers in employment and training</title></xref> by Alice
+				Bloch [2002], Department for Work and Pensions Research Report
+				179.</note></p></div><div><head>What kind of working conditions can refugees
+			 expect?</head> 
+		  <p>Recent research published by the DWP<note><xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+					 opportunities and barriers in employment and training</title></xref> by Alice
+				Bloch [2002], Department for Work and Pensions Research Report 179.</note>
+			 suggests that refugees and asylum seekers work under poor terms and conditions.
+			 Of a selected sample of 400, one-quarter of those in work had temporary posts,
+			 the majority not by choice but because they were unable to find secure work.
+			 The duration of such jobs was often quite short, with 25% for less than six
+			 months. Nearly a third of both men and women were working part-time, half of
+			 these because they were unable to find full-time work. Nearly half of those
+			 working were working unsociable hours, before 8.30 in the morning and after
+			 6.30 in the evening at least twice a week. Less than half of the refugees
+			 employed were entitled to holiday pay and only a third had been offered
+			 training in their job. The research concluded that in comparison with the wider
+			 ethnic minority population, refugees experience greater job insecurity and have
+			 fewer entitlements in the work place. Importantly, refugees were also found to
+			 be earning on average 79% of what ethnic minorities in the UK on average earn
+			 per hour. More than one-tenth was earning less than the National Minimum wage.
+			 However, there was a notable disparity between the five communities involved in
+			 the research. Even though Tamils were the most likely to be employed and
+			 Somalis were the least likely to have a job, the Tamils in the survey had the
+			 lowest average hourly rate whilst the Somalis had the highest.</p></div> 
+		  </body></text><text id="p4_ng001_03"> 
+		  <body><head>Statistics</head><div type="bulleted"> 
+			 <p>There is a surprising lack of research, statistical data and
+				evidence on:</p> 
+			 <list> 
+				<item>the economic contribution made by refugees and economic
+				  migrants in the UK</item> 
+				<item>the level of unemployment and underemployment among
+				  refugees</item> 
+				<item>the engagement of asylum seekers in irregular
+				  employment</item> 
+				<item>their skills and qualifications on arrival</item> 
+				<item>economic outcomes for refugees over time</item> 
+				<item>tracking outcomes for those who have received various kinds
+				  of training and support e.g. language courses, New Deal, Work Based Learning
+				  for Adults, educational grants, start up grants, CV writing, interview skills,
+				  etc. </item> 
+			 </list> 
+			 <p>Compared with Australia<note><title>New Settlers have their say:
+					 how immigrants fare over the early years of settlement. An analysis of data
+					 from three waves of the Longitudinal Survey of Immigrants to Australia
+					 </title>by A. Vanden Heuvel and M. Wooden [November 1999]. The National
+				  Institute of Labour Studies, Flinders University of South Australia. Report
+				  Prepared for the Department of Immigration and Multicultural Affairs.</note>
+				and Canada there is very little statistical data about refugees and asylum
+				seekers in the UK. Because little is known about their numbers and whereabouts
+				and little demographic data collected at the asylum application stage, there is
+				no refugee sampling frame. The acute need for research and data collection is
+				highlighted in a number of recent reports.<note><xref url="http://www.homeoffice.gov.uk/rds/pdfs/occ67-migration.pdf"><title>Migration
+						and Economic and Social Analysis</title></xref> by Glover et al [2001], RDS
+				  Occasional Paper no. 67, Home Office. </note></p> 
+			 <p>However these information gaps are increasingly being addressed.
+				The Home Office Immigration and Nationality Department has a research programme
+				attached to its integration policy and is considering ways of recording the
+				skills and qualifications of asylum applicants. As part of this, the
+				Immigration Research and Statistics Service [IRSS] has recently conducted a
+				postal survey on the skills, qualifications and English language competency of
+				people granted refugee status and ELR. This is the largest ever skills audit of
+				this group and data collated from the survey will contribute to creating an
+				employment and education profile of this group in the UK. Other local and
+				regional skills audits have also been initiated in response to this information
+				deficit [see <xref from="p4_ng001_05" rend="internal">projects and initiatives section</xref> below]. The Home Office
+				Immigration Research and Statistics Service is currently examining the
+				feasibility of using its audit to create a baseline for a longitudinal
+				survey.</p> 
+			 <p>Estimates of unemployment levels have often used the Home Office
+				research published in 1995<note><title>The settlement of refugees in
+					 Britain</title> Carey-Wood by Duke et al [1995]. Home Office Research Study
+				  141.</note> as the best available source of data on this issue. It was based on
+				a sample of 263 and took place before the introduction of Section 8 of the
+				Immigration and Asylum Act, which both employers and refugees perceive as a
+				barrier to employment. This study showed that only 27% of those seeking work
+				were employed. Subsequent government-published research<note><xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+						opportunities and barriers in employment and training</title></xref> by Alice
+				  Bloch [2002], Department for Work and Pensions Research Report 179.</note> has
+				found that on the basis of a survey of 400 refugees and asylum seekers from
+				five different countries, living in five regions in England and who had been in
+				the UK for different lengths of time, the level of labour market activity was
+				very low indeed. Only 29% of refugees were working at the time of the survey
+				compared with 60% of the ethnic minority population as calculated using Labour
+				Force Survey data. Within this sample, men were more likely to be employed than
+				women, with only 15% of women being in paid employment compared to 42% of men.
+				There were also differences in employment by country of origin. Tamils were the
+				group most likely to be working, with 36% of these respondents in employment at
+				the time of the survey, whilst Somalis were much less likely to have a job,
+				with only 16% of respondents employed. </p> 
+			 <p>The unemployment rate among asylum seekers still awaiting
+				decisions on their applications but with permission to work is higher but there
+				are few statistics. The report published by DWP<note><xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html"><title>Refugees'
+						opportunities and barriers in employment and training</title></xref> by Alice
+				  Bloch [2002], Department for Work and Pensions Research Report 179.</note>
+				found that 25% of those with temporary admission were employed compared to 31%
+				of those with secure status [ILR, refugee status, citizenship]. The Peabody
+				Trust and the London Research Centre found, on the basis of a sample of 236
+				London-based interviewees that there was 68% unemployment among asylum seekers
+				and 42% unemployment among refugees. Taken together, 51% of those seeking work
+				were unemployed.<note><title>Refugee Skills Net: the employment and training of
+					 skilled and qualified refugees</title> by R. Barer [June 1999]. Peabody Trust
+				  and London Research Centre.</note></p> 
+			 <p>These studies echo the findings of other recent small-scale
+				studies that found similarly high unemployment rates. For example, studies in
+				1997 found that of the groups surveyed, 73% were unemployed, 85% had never
+				succeeded in getting employment<note><title>Refugee Skills Analysis</title> by
+				  the North London TEC [1997].</note> and at least 75% were unemployed after 2
+				years.<note><title>Developments to Assist Refugees and Asylum Seekers towards
+					 Earlier Self-Sufficiency</title> by MbA for Refugee Action [1997].</note> In
+				1998, it was estimated that 160,000 refugees and asylum seekers in Greater
+				London were unemployed.<note><title>Labour market information for Objective 3
+					 ESF Programme in London</title> by DTZ Pieda Consulting [1998].</note></p> 
+			 <p>There is no data about irregular employment among asylum seekers,
+				but it is thought to be high. </p> 
+			 <p>ICAR continues to press for: </p> 
+			 <list> 
+				<item>the collection of data on employment outcomes for refugees
+				  both in Greater London and in the rest of the UK </item> 
+				<item>auditing of their skills and qualifications, languages spoken
+				  and English language needs when they start job seeking </item> 
+				<item>research into employment rates among refugee
+				  professionals</item> 
+			 </list></div> 
+		  </body></text><text id="p4_ng001_04"> 
+		  <body><head>Resources</head><div> 
+			 <p>This section contains references for useful resources on this
+				issue. The list is intended to indicative only. If you would like to suggest a
+				resource to be included in the list, please contact 
+				<xref rend="email" url="esme.peach@kcl.ac.uk">esme.peach@kcl.ac.uk</xref>
+				</p></div><div type="box"> 
+		  <head>Key recent publications</head> 
+		  <p>For those who would like to follow up the issues discussed in this
+			 guide but do not have time for extended reading, ICAR has selected five recent
+			 publications that cover a range of the main issues relating to employment.</p> 
+		  <table rend="linkbib"> 
+			 <row> 
+				<cell role="linkTitle"> 
+				  <bibl><author>Bloch, A.</author> [2002] 
+					 <title>Refugees' opportunities and barriers in employment and
+						training.</title> Department for Work and Pensions Research Report 179. Leeds:
+					 Corporate Document Services. </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html">www.dwp.gov.uk/asd/asd5/rrep179.html
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"> 
+				  <bibl><author>Department for Education and Skills et al.</author>
+					 
+					 <title>Working with Refugees and Asylum Seekers: Support
+						Materials for ESOL providers. </title> National ESOL Training and Development
+					 Project. </bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Dumper, H.</author> [December
+					 2002] 
+					 <title>Missed opportunities: a skills audit of refugee women in
+						London from the teaching, nursing and medical professions.</title> Produced by
+					 Mayor of London and Refugee Women's Association. London: Greater London
+					 Authority. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.london.gov.uk/approot/mayor/refugees/docs/skills_rpt.pdf">www.london.gov.uk/approot/mayor/refugees/docs/skills_rpt.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Haque, R.</author>, 
+					 <author>Dustmann, C.</author>,<author> Fabbri, F.</author>, 
+					 <author>Preston, I.</author>, 
+					 <author>Wadsworth, J.,</author><author> Shields, M.</author>, 
+					 <author>Wheatley Price, S.</author>, 
+					 <author>Kempton, J.</author> [December 2002] 
+					 <title>Migrants in the UK: their characteristics and labour
+						market outcome and impacts.</title> RDS Occasional Paper No 82. London: Home
+					 Office. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.homeoffice.gov.uk/rds/pdfs2/occ82migrantuk.pdf">www.homeoffice.gov.uk/rds/pdfs2/occ82migrantuk.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Phillimore, J.</author>, 
+					 <author>Goodson, L.</author>,<author>Oosthuizen, R.</author>, 
+					 <author>Ferrari, E.</author>, 
+					 <author>Fathi, J.</author>,<author>Penjwini, S.</author>, 
+					 <author>Joseph, R.</author> [2003] 
+					 <title>Asylum seekers and refugees: education, training,
+						employment, skills and services in Coventry and Warwickshire. </title> Centre
+					 for Urban and regional Studies, School of Public Policy, University of
+					 Birmingham, NIACE, Bostock Marketing Group. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.lsc.gov.uk/news_docs/ASR%20ETE%20skills%20%20services%20Cov%20%20Warks%20Final%20report%20Apr%2003.doc">http://www.lsc.gov.uk/news_docs/ASR%20ETE%20skills%20%20services%20Cov%20%20Warks%20Final%20report%20Apr%2003.doc</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Praxis</author> [2002] 
+					 <title>Employing the skills and experience of refugees in the
+						international development sector.</title> London: Praxis.</bibl></cell><cell>
+				  </cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Refugee Education and Training
+						Advisory Service</author> [RETAS] [2002] 
+					 <title>Qualifications of refugees and employment in Europe. A
+						research report on refugees in Belgium, Germany, Spain, Italy, the Netherlands
+						and the United Kingdom.</title>London: World University Service.</bibl></cell> 
+				<cell></cell> 
+			 </row> 
+		  </table> 
+		  </div><div><head>Publications</head> 
+		  <table rend="linkbib"> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Adams, K.</author> and 
+					 <author>Borman, E.</author> [2000] 'Helping refugee doctors', 
+					 <title>British Medical Journal</title>, 320, pp. 887-888, 1
+					 April 2000 </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://bmj.com/cgi/content/full/320/7239/887?ijkey=rqsE4UCY6PlA ">http://bmj.com/cgi/content/full/320/7239/887?ijkey=rqsE4UCY6PlA
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Africa Educational
+						Trust</author> [July 2002] 
+					 <title>Refugees and Asylum Seekers in the Learning and Skills
+						Council London North Area.</title> London: Learning and Skills Council London
+					 North. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.lsc.gov.uk/news_docs/Refugees%20and%20Asylum%20Seekers%20in%20the%20LSC%20London%20North%20Area_.pdf ">www.lsc.gov.uk/news_docs/Refugees%20and%20Asylum%20Seekers%20in%20the%20LSC%20London%20North%20Area_.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Africa Educational
+						Trust</author> [2000] 
+					 <title>Do study grants help refugees find a job?
+						</title>London: Africa Educational Trust.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Africa Educational Trust
+						</author>[1998] 
+					 <title>Employment issues facing young refugees in Haringey.
+						</title>For the Strategic Planning Unit, Haringey Council. London: Africa
+					 Educational Trust.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Ahipeaud, M. J.</author>
+					 [1998] 
+					 <title>Employment Training for Refugees in London: Survey
+						Analyses. </title>London: Pan London Refugee Training and Employment
+					 Network.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Aldridge, F. </author>&amp; 
+					 <author>Waddington, S.</author> [April 2001] 
+					 <title>Asylum Seekers' Skills and Qualifications Audit Pilot
+						Project.</title> Leicester: NIACE. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.niace.org.uk/projects/Asylum/Asylumreport.pdf ">www.niace.org.uk/projects/Asylum/Asylumreport.pdf</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Algoe Consultants and
+						Alphametrics Limited</author> [2002] 
+					 <title>The construction of an index of labour market
+						adaptability for EU Member States.</title> Brussels: The European Commission.
+					 </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://www.europa.eu.int/comm/employment_social/empl&amp;esf/adap_report.pdf">www.europa.eu.int/comm/employment_social/empl&amp;/adap_report.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Ashe, P.,</author> 
+					 <author>Brown, K.,</author> 
+					 <author>Huremovic, D.,</author> 
+					 <author>Olumide, G.,</author> 
+					 <author>Walters, N.</author> [1997] 
+					 <title>On the Horizon: the Report of the European Union
+						Employment-Horizon Project European Refugees and Migrants Advice and Guidance
+						into Employment 1995-1997</title> Surrey: School of Educational Studies at the
+					 Guildford Institute of the University of Surrey. </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://www.surrey.ac.uk/Education/cse/horizon2.doc" type="doc">www.surrey.ac.uk/Education/cse/horizon2.doc </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Austin, C.,</author> 
+					 <author>Este, D. </author>[2001] 'The working experiences of
+					 underemployed immigrant and refugee men'. 
+					 <title>Canadian Social Work Review,</title> 18[2], 2001,
+					 pp.213-229. </bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Barer, R.,</author> Peabody
+					 Trust and London Research Centre [1999] 
+					 <title>Refugee skills-net: the employment and training of
+						skilled and qualified refugees.</title> London: Peabody Trust/London Research
+					 Centre. </bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Bloch, A. </author>[2002] 
+					 <title>Refugees' opportunities and barriers in employment and
+						training.</title> Department for Work and Pensions Research Report 179. Leeds:
+					 Corporate Document Services. </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://www.dwp.gov.uk/asd/asd5/rrep179.html">www.dwp.gov.uk/asd/asd5/rrep179.html
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Bloch, A. </author>&amp; 
+					 <author>Atfield, G.</author> [May 2002] 
+					 <title>The Professional Capacity of Nationals from the Somali
+						Regions in Britain.</title> London: Refugee Action and
+					 IOM.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Bloch, A.</author> [2001] 'The
+					 importance of Convention status: A case study of the UK'. 
+					 <title>Sociological Research Online</title> 6[1] </bibl></cell>
+				
+				<cell role="linkUrl"><xref url="http://www.socresonline.org.uk/6/1/bloch.html ">www.socresonline.org.uk/6/1/bloch.html</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Bloch, A. </author>[2000]
+					 'It's not working: refugee employment and urban regeneration'. In Kershen, A
+					 [ed.]<title> Language, Labour and Migration.</title> London: Ashgate.
+					 </bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Bloch, A. </author>[1999]
+					 'Refugees in the job market: A case of unused skills in the British economy'.
+					 In Bloch, A. and Levy, C. [eds.] 
+					 <title>Refugees, Citizenship and Social Policy in Britain and
+						Europe. </title>Basingstoke: MacMillan. </bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Bloch, A.</author> [1996] 
+					 <title>Beating the Barriers: the Employment and Training Needs
+						of Refugees in Newham. </title>London: London Borough of
+					 Newham.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Bloch, A.</author> [1996]
+					 'Refugee settlement in Britain: the impact of policy on participation'. 
+					 <title>Journal of Ethnic and Migration Studies</title> 26:
+					 75-88</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Berlin, A.,</author> 
+					 <author>Gill, P.,</author> 
+					 <author>Eversley, J.</author> [1997] 'Refugee doctors in
+					 Britain: a wasted resource', 
+					 <title>British Medical Journal,</title> 315, pp. 264-265, 2
+					 August. </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://bmj.com/cgi/content/full/315/7103/264?ijkey=TgxiSPVO4GX3k">http://bmj.com/cgi/content/full/315/7103/264?ijkey=TgxiSPVO4GX3k</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Brink, M </author>[1997] 'The
+					 labour market integration of refugees in the Netherlands'. In Muus, Ph. [ed.] 
+					 <title>Exclusion and inclusion of refugees in contemporary
+						Europe,</title> Comparative Studies in Migration and Ethnic Relations 3.
+					 Utrecht: ERCOMER.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Brophy, M.,
+						</author><author>Maxey, K.,</author> 
+					 <author>Abraham,T., </author><author>Aybek, T.,</author> 
+					 <author>Bird, P., </author>and 
+					 <author>Stanikzai, F. </author> [1998] 
+					 <title>Refugee Education, Training and Employment in Inner
+						London.</title> London: Africa Education Trust. </bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Bunani, F.</author> [2002] 
+					 <title>Report: Refugee Engineers Workshop organised by RAISE
+						Welling, London Borough of Bexley 3 August 2002.</title> London:
+					 RAISE.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Candappa, M.,</author> Thomas
+					 Coram Research Unit, University of London Institute of Education [1999] 
+					 <title>Employers' Experiences of Job-related Training Provided
+						to Refugees.</title> London: Pan London Refugee Training and Employment Network
+					 [PLRTEN].</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Carey-Wood, J.,
+						</author><author>Duke, K.,</author> 
+					 <author>Karn, V., </author> and 
+					 <author>Marshall, T. </author> [1995] 
+					 <title>The Settlement of Refugees in Britain.</title> Home
+					 Office Research Study 141, Home Office Research and Planning Unit. London:
+					 HMSO.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Carlisle, D.</author> [2001]
+					 'Barefoot doctors' 
+					 <title>Health Service Journal, </title>8.11.01,
+					 p.13.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Chapman, B.</author> and 
+					 <author>Iredale, R. </author> [1993] 'Immigrant Qualifications:
+					 Recognition and Relative Wage Outcomes'. 
+					 <title>International Migration Review</title> 27:
+					 359-387.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Chatrik, B</author> [1992] 
+					 <title>The Obstacle Course - Experience of Multi-lingual
+						Trainees on Youth Training and Employment Training. </title>London:
+					 Youthaid.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Clark, G.</author> [1992] 
+					 <title>Refugees and the Greenwich Labour Market.</title>
+					 London: Local Economic Policy Unit, South Bank Polytechnic
+					 London.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Collins G.</author> [2002]
+					 'Route to inclusion' 
+					 <title>Community Care,</title> 21.2.02,
+					 p.36.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Commission for Racial
+						Equality</author> [2000] 
+					 <title>Strengthening the Race Relations Act: The Race Relations
+						[Amendment] Act. </title> London: Commission for Racial Equality.</bibl></cell>
+				
+				<cell role="linkUrl"><xref url="http://www.cre.gov.uk/pdfs/rraamend.pdf">
+					 http://www.cre.gov.uk/pdfs/rraamend.pdf </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Commission for Racial Equality
+						</author>[1999] 
+					 <title>Racial Equality Means Business Series. Case
+						Studies.</title> London: Commission for Racial Equality. </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://www.cre.gov.uk/publs/cat_employ.html">http://www.cre.gov.uk/publs/cat_employ.html
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Commission for Racial
+						Equality.</author> 
+					 <title>The Asylum and Immigration Act 1996: Implications for
+						Racial Equality Commission for Racial Equality. </title>London: Commission for
+					 Racial Equality.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Commission for Racial Equality
+						</author>[1984] 
+					 <title>Race Relations Code of Practice: For the Elimination of
+						Racial Discrimination and the Promotion of Equality of Opportunity in
+						Employment. </title>London: Commission for Racial
+					 Equality.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>de Beijl, R.Z.</author> [2000]
+					 
+					 <title>Documenting discrimination against migrant workers in
+						the labour market: A comparative study of four countries.</title> International
+					 Labour Organisation [ILO]. </bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Department for Education and
+						Skills et al</author> 
+					 <title>Working with Refugees and Asylum Seekers: Support
+						Materials for ESOL providers.</title> National ESOL Training and Development
+					 Project.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Dumper, H. </author>[December
+					 2002] 
+					 <title>Missed opportunities: a skills audit of refugee women in
+						London from the teaching, nursing and medical professions. </title>Produced by
+					 Mayor of London and Refugee Women's Association. London: Greater London
+					 Authority. </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://www.london.gov.uk/approot/mayor/refugees/docs/skills_rpt.pdf ">www.london.gov.uk/approot/mayor/refugees/docs/skills_rpt.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Dustmann, C.,
+						</author><author>Fabbri, F.,</author> 
+					 <author>Preston, I., </author><author>Wadsworth, J.</author>
+					 [February 2003]<title> The Local Labour Market Effects of Immigration in the
+						UK. </title>Home Office Online Report 06/03. </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://www.homeoffice.gov.uk/rds/pdfs2/rdsolr0603.pdf " type="pdf">www.homeoffice.gov.uk/rds/pdfs2/rdsolr0603.pdf </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Dustmann, C.,</author> 
+					 <author>Fabbri, F.,</author> 
+					 <author>Preston, I., </author><author>Wadsworth, J.</author>
+					 [2003] 
+					 <title>Labour market performance of immigrants in the UK labour
+						market.</title> Home Office Online Report 05/03.</bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.homeoffice.gov.uk/rds/pdfs2/rdsolr0503.pdf ">www.homeoffice.gov.uk/rds/pdfs2/rdsolr0503.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>ECRE Task Force on
+						Integration</author> 
+					 <title>Good Practice on the Integration of Refugees in the
+						European Union.</title> British Refugee Council. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.refugeenet.org/pdf/employment_guide.pdf">http://www.refugeenet.org/pdf/employment_guide.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Employability</author>
+					 [February 2000] 
+					 <title>Promoting Employment for Refugees.</title> London:
+					 Employability.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Employment Service</author>
+					 [1998] 
+					 <title>New Deal Engaging Ethnic Minority Jobseekers and
+						Businesses. </title></bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Fraser, L. </author> [1998] 
+					 <title>Research into the Employment, Training and Educational
+						Needs of Refugees from Vietnam in Leeds and Bradford. </title>London: Refugee
+					 Action. </bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Girbash, C.</author> [1991] 
+					 <title>Manchester Vietnamese Employment and Training Survey.
+						</title>Manchester: The Centre for Employment Research, Manchester
+					 Polytechnic.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Glover, S.,</author> 
+					 <author>Gott, C.,</author> 
+					 <author>Lozillon, A.,</author> 
+					 <author>Portes, J.,</author> 
+					 <author>Price, R.,</author> 
+					 <author>Spencer, S.,</author><author> Srinivasan, V.,</author>
+					 and 
+					 <author>Wills, C.</author> [2001] 
+					 <title>Migration: an economic and social analysis</title> RDS
+					 Occasional Paper No 67. London: Home Office </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.homeoffice.gov.uk/rds/pdfs/occ67-migration.pdf">http://www.homeoffice.gov.uk/rds/pdfs/occ67-migration.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Gott, C.</author> and 
+					 <author>Johnston, K.</author> [2002] 
+					 <title>The migrant population in the UK: fiscal effects
+						</title>RDS Occasional Paper No 77. London: Home Office. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.homeoffice.gov.uk/rds/pdfs/occ77migrant.pdf">http://www.homeoffice.gov.uk/rds/pdfs/occ77migrant.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Goleta project </author>[1997]
+					 
+					 <title>Job searching handbook for refugee professionals.
+						</title>RETAS [WUS], RAGU [UNL], NERS, Bournville
+					 College.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Gregg, A.</author> [2001] 'A
+					 waste of talent' 
+					 <title>Voluntary Voice,</title> Issue 154, May 2001,
+					 pp.16-17.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Griffiths, D</author>.
+					 [February 2003] 
+					 <title>English language training for refugees in London and the
+						regions.</title> Home Office Online Report 14/03. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.homeoffice.gov.uk/rds/pdfs2/rdsolr1403.pdf ">www.homeoffice.gov.uk/rds/pdfs2/rdsolr1403.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Haque, R.,</author> 
+					 <author>Dustmann, C.,</author> 
+					 <author>Fabbri, F.,</author> 
+					 <author>Preston, I.,</author> 
+					 <author>Wadsworth, J.,</author> 
+					 <author>Shields, M.,</author> 
+					 <author>Wheatley Price, S.,</author> 
+					 <author>Kempton, J.</author> [December 2002] 
+					 <title>Migrants in the UK: their characteristics and labour
+						market outcome and impacts.</title> RDS Occasional Paper No 82. London: Home
+					 Office. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.homeoffice.gov.uk/rds/pdfs2/occ82migrantuk.pdf ">www.homeoffice.gov.uk/rds/pdfs2/occ82migrantuk.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Haringey Council
+						</author>[1997]<title> Refugees and Asylum Seekers in Haringey: Research
+						Project Report.</title> London: Haringey Council.</bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Home Office </author>[2002] 
+					 <title>Secure Borders, Safe Haven: Integration for Diversity in
+						Modern Britain. </title>Home Office. London: HMSO. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.official-documents.co.uk/document/cm53/5387/cm5387.pdf ">http://www.official-documents.co.uk/document/cm53/5387/cm5387.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Home Office</author> [2000] 
+					 <title>Immigration and Asylum Act Section 22 Code of Practice.
+						London: Home Office</title> </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://194.203.40.90/default.asp?pageid=1366">http://194.203.40.90/default.asp?pageid=1366
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Home Office IND Communications
+						Team and Home Office Communications Directorate</author> [2000] 
+					 <title>Full and Equal Citizens: A strategy for the integration
+						of refugees into the United Kingdom. </title>London: Home Office.
+					 </bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Hudson, D.</author> and 
+					 <author>Martenson, H.</author> [1998] 
+					 <title>Refugees and employment: the European context, an
+						analysis of the ECRE task force on integration survey on refugee
+						employment.</title> London: Refugee Council. </bibl></cell><cell></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Joly, D.</author> [1996] 
+					 <title>Haven or Hell? Asylum policies and refugees in
+						Europe.</title> London: Macmillan.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Jordan, B.</author> [2000?] 
+					 <title>Undocumented Immigrant Workers in London. End of Award
+						Report to ESRC.</title> Exeter: University of Exeter.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Kenny, C.</author> [2002] 
+					 <title>Asylum seekers in Galway and the right to work.
+						</title>Galway: Galway Refugee Support Group</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Knox, K.,
+						</author><author>Refugee Council </author>[1997] 
+					 <title>Credit to the Nation: A study of refugees in the United
+						Kingdom</title>. London: Refugee Council.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Labour Research
+						Department</author> and 
+					 <author>The Joint Council for the Welfare of
+						Immigrants</author> [January 2002] 
+					 <title>Migrant Workers: A TUC Guide.</title> The Joint Council
+					 for the Welfare of Immigrants, TUC.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Loebl, H.</author> [1978] 
+					 <title>Government financed factories and the establishment of
+						industries by refugees in the special areas of the North of England,
+						1937-1961.</title> M.Phil thesis, University of Durham.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Loebl, H.</author>
+					 [1984]‘Refugee industries in the special areas of Britain’ in Hirschfield, G. 
+					 <title>Exile in Great Britain.</title> Berg
+					 Publishers.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Lukes, S.</author> and<author>
+						Bell, M.</author> [1997] 
+					 <title>Developments to assist refugees and asylum seekers
+						towards earlier self-sufficiency.</title> London: Refugee Action.</bibl></cell>
+				
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Marshall, T.</author> [1992] 
+					 <title>Career Guidance with Refugees.</title> London: Refugee
+					 Training and Education Centre.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Marshall, T.</author> [1989] 
+					 <title>Cultural Aspects of Job Hunting.</title> London: Refugee
+					 Council.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>MbA</author> [1997] 
+					 <title>Developments to Assist Refugees and Asylum Seekers
+						Towards Earlier Self-Sufficiency.</title> London: Refugee Action and MbA.
+					 </bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>McLaughlin, G.</author> &amp; 
+					 <author>Salt, J.</author> [March 2002] 
+					 <title>Migration Policies Towards Highly Skilled Foreign
+						Workers.</title> London: Home Office.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Millar, B. </author>[2001]
+					 'Long and winding road' 
+					 <title>Health Service Journal</title> 8.2.01,
+					 pp.26-29.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Moody, A.</author> [February
+					 2000] 'New Deal and ethnic minority participants'. 
+					 <title>Labour Market Trends.</title></bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>National Health Service
+						Executive [NHSE], Advisory Group on Medical and Dental Education and Staffing -
+						Overseas Doctors Subgroup</author> [2000] 
+					 <title>Report of the Working Group on Refugee Doctors and
+						Dentists.</title> London: Department of Health. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.doh.gov.uk/pdfs/refugee.pdf ">http://www.doh.gov.uk/pdfs/refugee.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Neumann, U. et al
+						</author>[2002] 
+					 <title>How open is the education and training market? The legal
+						and symbolic restrictions placed on African refugees in the education training
+						and employment system. </title>Waxman Munster.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>North London TEC
+						</author>[1997] 
+					 <title>Refugee Skills Analysis. </title>London: North London
+					 TEC.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Oldham, M.</author> [2001]
+					 'Opportunity knocked' 
+					 <title>Health Service Journal,</title> 8.11.01,
+					 p.24.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Owen, D.,</author> 
+					 <author>Reza, B.,</author> 
+					 <author>Green, A.,</author> 
+					 <author>Maguire, M.</author> and 
+					 <author>Pitcher, J.</author> [November 2000] 'Patterns of
+					 labour market participation in ethnic minority groups'. 
+					 <title>Labour Market Trends.</title> </bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Performance and Innovation
+						Unit, the Cabinet Office</author> [February 2002] 
+					 <title>Ethnic Minorities and the Labour Market Interim
+						Analytical Report. </title>London: Cabinet Office </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.cabinet-office.gov.uk/innovation/2001/ethnicity/attachments/interim.pdf">www.cabinet-office.gov.uk/innovation/2001/ethnicity/attachments/interim.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Peters, H.</author> [1997] 
+					 <title>Portfolio Building for the Purpose of AP[E]L: a self
+						access pack for qualified and/or experienced refugees and asylum seekers in the
+						UK.</title> London: RAGU, University of North London.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Phillimore, J.</author>, 
+					 <author>Goodson, L.</author>,<author>Oosthuizen, R.</author>, 
+					 <author>Ferrari, E.</author>, 
+					 <author>Fathi, J.</author>,<author>Penjwini, S.</author>, 
+					 <author>Joseph, R.</author> [2003] 
+					 <title>Asylum seekers and refugees: education, training,
+						employment, skills and services in Coventry and Warwickshire. </title> Centre
+					 for Urban and regional Studies, School of Public Policy, University of
+					 Birmingham, NIACE, Bostock Marketing Group. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.lsc.gov.uk/news_docs/ASR%20ETE%20skills%20%20services%20Cov%20%20Warks%20Final%20report%20Apr%2003.doc">http://www.lsc.gov.uk/news_docs/ASR%20ETE%20skills%20%20services%20Cov%20%20Warks%20Final%20report%20Apr%2003.doc</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Phillimore, J.</author> and 
+					 <author>Goodson, L.</author> [October 2001] 
+					 <title>Exploring mechanisms for the integration of asylum
+						seekers and refugees into the labour market in Wolverhampton. Report for
+						Wolverhampton Connects by The Centre of Urban and Regional Studies, The
+						University of Birmingham.</title> Draft Summary Report. Birmingham: University
+					 of Birmingham.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Phillips, A.</author> [1989]
+					 'Employment as a Key to Settlement'. In Joly, D. and Cohen, R.[eds.] 
+					 <title>Reluctant Hosts: Europe and its Refugees.
+						</title>Aldershot: Gower. </bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Pile, H.</author> [1997] 
+					 <title>The Asylum Trap.</title> London: Low Pay Unit and World
+					 University Service. </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://www.lowpayunit.org.uk/publications/list5.shtml">http://www.lowpayunit.org.uk/publications/list5.shtml
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Praxis </author>[2002] 
+					 <title>Employing the skills and experience of refugees in the
+						international development sector. </title>London: Praxis. </bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Refugee Council</author> [June
+					 2002] 
+					 <title>Credit to the Nation: Refugee Contributions to the
+						UK.</title> London: Refugee Council.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Refugee Council</author>
+					 [2002] 
+					 <title>Survey of refugee employment practices within ECRE
+						member organisations. </title>London: Refugee Council. </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://www.ecre.org/erfproject/employment/">www.ecre.org/erfproject/employment/
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Refugee Council
+						</author>[2001] 
+					 <title>Conference Report Refugee Employment and
+						Education/Training Advice 2nd and 3rd November 2001 Stockholm.</title> London:
+					 Refugee Council. </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://www.ecre.org/erfproject/employment/stockholm.shtml">www.ecre.org/erfproject/employment/stockholm.shtml
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Refugee Council </author> 
+					 <title>InExile </title>August 2001 [focus on employment and
+					 integration strategies].</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Refugee Council</author> [May
+					 2001] 
+					 <title>Refugee Employment in Europe.</title> London: Refugee
+					 Council. </bibl></cell> 
+				<cell role="linkUrl"><xref type="doc" url="http://www.ecre.org/erfproject/employment/refemploy.doc">www.ecre.org/erfproject/employment/refemploy.doc</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Refugee Council</author>
+					 [1999]<title> Refugees and self-employment: report from the seminar on refugee
+						self employment Copenhagen 14 -15 May 1999.</title> London: Refugee Council.
+					 </bibl></cell> 
+				<cell role="linkUrl"><xref type="doc" url="http://www.ecre.org/erfproject/employment/cphagen.doc">www.ecre.org/erfproject/employment/cphagen.doc</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Refugee Council</author>
+					 [1999] 
+					 <title>Creating the conditions for refugees to find work.
+						</title>London: Refugee Council. </bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Refugee Council</author>
+					 [1999] 'Catch 22'. 
+					 <title>InExile</title> 6: 18-19.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Refugee Council</author> 
+					 <title>Refugee Employment and Training: a positive policy for
+						the 1990s [including the Refugee Employment and Training Charter].
+						</title>London: Refugee Council.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Refugee Mentoring &amp;
+						Employer Network</author> [September 2002] 
+					 <title>Quality Guidelines on Mentoring for Refugees.</title>
+					 London: Refugee Mentoring &amp; Employer Network [RM &amp; EN].</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Refugee Education and Training
+						Advisory Service [RETAS]</author> [2002] 
+					 <title>Qualifications of refugees and employment in Europe. A
+						research report on refugees in Belgium, Germany, Spain, Italy, the Netherlands
+						and the United Kingdom.</title> London: World University Service.</bibl></cell>
+				
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>RETAS</author>, 
+					 <author>Hernan Rosencrantz</author>. [2000] 
+					 <title>Refugee Professionals' Guide on the Assessment and
+						Recognition of Overseas Qualifications. </title>London: RETAS.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Robinson, V.</author>
+					 [2001]<title> Jewels in the Crown: The contribution of ethnic minorities to
+						life in post-war Britain.</title> Moneygram International. </bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Robinson, V.</author> [1993]
+					 'Marching into the Middle Classes? The Long-term Resettlement of East African
+					 Asians in the UK'. 
+					 <title>Journal of Refugee Studies</title> 6: 230-247.
+					 </bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Rosenkrantz, H.</author>
+					 [2000] 
+					 <title>A Concise Guide to Refugees' Education and
+						Qualifications.</title> London: World University Service and RETAS.
+					 </bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Rosenkrantz, H.</author>
+					 [2000] 
+					 <title>The Refugee Professionals' Guide on Assessment and
+						Recognition of Overseas Qualifications.</title> London: RETAS.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Rubery. J.</author> [2002] 
+					 <title>UK Adaptability Report Part 1.</title> Manchester:
+					 European Work and Employment Research Centre, Manchester School of Management.
+					 </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.europa.eu.int/comm/employment_social/empl&amp;esf/adap_en.pdf">www.europa.eu.int/comm/employment_social/empl&amp;/adap_en.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Salinas, C.</author> [1998] 
+					 <title>Refugee Engineers in the UK.</title> London: World
+					 University Service.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Sargeant, G. et al</author>
+					 [1999] 
+					 <title>Turning Refugees into Employees: Research into the
+						Barriers to Employment Perceived by Women Refugees in London.</title> London:
+					 The Industrial Society in association with Fair Play London.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Sargeant, G.</author> and 
+					 <author>Forna, A.</author> [ 2001] 
+					 <title>A Poor Reception. Refugees and Asylum Seekers: Welfare
+						or Work?</title> The Work Foundation. </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://www.theworkfoundation.com/pdf/1858359112.pdf  " type="pdf">http://www.theworkfoundation.com/pdf/1858359112.pdf</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Schellekens, P.
+						</author>[2001] 
+					 <title>English Language as a Barrier to Employment, Education
+						and Training.</title> London: DfEE.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Seifert, W.</author> [1996]
+					 'Occupational and social integration of immigrant groups in Germany'. 
+					 <title>New Community</title> 22: 417-436.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Shields, M.</author> and 
+					 <author>Wheatley Price, S.</author> [2003] 
+					 <title>The labour market outcomes and psychological well-being
+						of ethnic minority migrants in Britain</title>. Home Office Online Report
+					 07/03. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.homeoffice.gov.uk/rds/pdfs2/rdsolr0703.pdf ">www.homeoffice.gov.uk/rds/pdfs2/rdsolr0703.pdf
+					 </xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Shiferaw, D.</author> and 
+					 <author>Hagos, H.</author> [2001] 
+					 <title>Refugees and Progression Routes into Employment.</title>
+					 London: Refugee Council/Pan London Refugee Training and Employment Network
+					 [PLRTEN]. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.refugeecouncil.org.uk/downloads/rc_reports/progression_routes.pdf">http://www.refugeecouncil.org.uk/downloads/rc_reports/progression_routes.pdf</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Spencer, S. [ed.]</author>
+					 [1994] 
+					 <title>Immigration as an Economic Asset. The German
+						Experience.</title> Institute of Public Policy Research [IPPR]. </bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Stewart, E.</author> &amp; 
+					 <author>Nicholas, S. </author>[2002] 'Refugee doctors in the
+					 United Kingdom'. 
+					 <title>British Medical Journal </title>325, S166, 16 November
+					 2002. </bibl></cell> 
+				<cell role="linkUrl"><xref url="http://bmj.com/cgi/content/full/325/7373/S166?maxtoshow=&amp;HITS=10&amp;hits=10&amp;RESULTFORMAT=&amp;author1=Stewart%2C+E&amp;searchid=1046102843644_14255&amp;stored_search=&amp;FIRSTINDEX=0&amp;resourcetype=1,2,3,4,10">http://bmj.com/cgi/content/full/325/7373/S166?maxtoshow=&amp;HITS=10&amp;hits=10&amp;RESULTFORMAT=&amp;author1=Stewart%2C+E&amp;searchid=1046102843644_14255&amp;stored_search=&amp;FIRSTINDEX=0&amp;resourcetype=1,2,3,4,10</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Stopforth, S.,</author> 
+					 <author>RETAS</author> and 
+					 <author>Islington Volunteer Bureau</author> [2001] 
+					 <title>Volunteering: is it worth it? The effect of volunteering
+						on refugee's prospects for getting paid work.</title> London: RETAS and World
+					 University Service. </bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Walters, N.</author> [April
+					 1999] 
+					 <title>INTEGRA Refugee Communities - Labour Market Advice and
+						Guidance Update on work in the UK. </title>Combating Social Exclusion
+					 Occasional Paper 1. University of Surrey Department of Educational Studies,
+					 University of Surrey. </bibl></cell> 
+				<cell role="linkUrl"><xref type="doc" url="http://www.surrey.ac.uk/Education/cse/paper1.doc ">www.surrey.ac.uk/Education/cse/paper1.doc</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Whiteford, G. </author>[2000]
+					 'Occupational deprivation: global challenge in the new millennium' 
+					 <title>British Journal of Occupational Therapy,</title> 63[5],
+					 May 2000, pp.200-204.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Working Group on English for
+						Speakers of Other Languages, Department of Education and Employment
+						</author>[2000] 
+					 <title>Breaking the language barriers: The report of the
+						working group on English for speakers of other languages [ESOL].</title>
+					 Department of Education and Employment. </bibl></cell> 
+				<cell role="linkUrl"><xref type="pdf" url="http://www.asylumsupport.info/publications/lifelonglearning/languagebarriers.pdf">http://www.asylumsupport.info/publications/lifelonglearning/languagebarriers.pdf</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="linkTitle"><bibl><author>Wren, K.,
+						</author><author>Boyle, P.</author> [February 2001] 
+					 <title>Migration and Work-Related Health in Europe - A
+						Feasibility Study. </title> St. Andrews: School of Geography and Geosciences,
+					 University of St. Andrews.</bibl></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+		  </table></div><div><head>Audio-visual</head><div><head>Video</head>
+		  
+		  <table rend="special"> 
+			 <row> 
+				<cell role="itemTitle"><title>On the Horizon - Refugees Learning
+					 and Earning </title>[1997]</cell> 
+				<cell role="itemDesc">School of Educational Studies at the
+				  Guildford Institute of the University of Surrey</cell> 
+			 </row> 
+		  </table></div><div><head>Film</head> 
+		  <table rend="special"> 
+			 <row> 
+				<cell role="itemTitle"><xref url="http://www.bbc.co.uk/films/2002/11/01/dirty_pretty_things_2002_review.shtml"><title>Dirty
+						Pretty Things</title></xref> [2002]</cell> 
+				<cell role="itemDesc">Directed by 
+				  <xref url="http://www.bbc.co.uk/films/2002/11/27/stephen_frears_dirty_pretty_things_interview.shtml">Stephen
+					 Frears</xref>, written by Steve Knight, distributed by Buena Vista Films</cell>
+				
+				<cell role="itemDesc">97 minutes</cell> 
+				<cell role="itemDesc">This film portrays the world of illegal
+				  employment in London with a cast of migrants as its main characters. 
+				  <xref url="http://www.bbc.co.uk/films/2002/11/01/audrey_tautou_dirty_pretty_things_interview.shtml">Audrey
+					 Tatou</xref> plays a Turkish asylum seeker and 
+				  <xref url="http://www.bbc.co.uk/films/2002/12/03/chiwetel_ejiofor_dirty_pretty_things_interview.shtml">Chiwetel
+					 Ejiofor</xref> plays a Nigerian migrant.</cell> 
+			 </row> 
+		  </table></div></div> 
+		  </body></text><text id="p4_ng001_05"> 
+		  <body> 
+		  <head>Projects and initiatives</head> 
+		  <div> 
+			 <p>This section provides basic information relating to a number of
+				current or recently completed projects and initiatives addressing the issue of
+				refugees and employment. This list is intended to be indicative only. If you
+				would like your project to feature in the list and ICAR's <xref rend="internal" type="xdir" from="p4_6">projects database</xref>,
+				then please contact us at 
+				<xref rend="email" url="icar@kcl.ac.uk">icar@kcl.ac.uk</xref>
+				</p></div><div type="box"><head>Context</head> 
+		  <p><xref url="http://www.official-documents.co.uk/document/cm53/5387/cm5387.pdf">Secure
+				Borders, Safe Haven: Integration with Diversity in Modern Britain</xref></p> 
+		  <p><hi rend="bold">Home Office White Paper proposals</hi></p> 
+		  <p>This White Paper, published on February 7th 2002, contains proposals
+			 for a coherent strategy on nationality, immigration and asylum policy. It
+			 responds to recent events including on the one hand September 11th 2001 and on
+			 the other, evidence that the UK, like most of Western Europe, needs to import
+			 skilled and unskilled labour to fill current and future job vacancies. It
+			 confronts the challenges of active citizenship in a global economy, the need
+			 for public confidence in effective management of migration and the asylum
+			 process, and the need to integrate those who settle in the UK in a way that
+			 promotes both their interests and social cohesion. Within this broad context,
+			 the following proposals are relevant to refugees and employment:</p> 
+		  <list> 
+			 <item><xref url="http://www.ind.homeoffice.gov.uk/news.asp?NewsID=101">Managed migration
+				  proposal</xref> as per October 29th 2001 House of Commons announcement, not
+				specifically about refugees.</item> 
+			 <item><xref url="http://194.203.40.90/filestore/Refugee_Intergration.pdf">Continuation of
+				  the Integration Strategy: Full and Equal Citizens - a Strategy for the
+				  Integration of Refugees into the United Kingdom</xref> [November 2000] which
+				seeks to identify and spread good practice in integration through the National
+				Refugee Integration Forum and its subgroups. The Employment, Training and Adult
+				Education sub group is identifying barriers to employment.</item> 
+			 <item>Continuation of Department of Education and Skills [DfES] new
+				curriculum for the teaching of English for Speakers of Other Languages
+				[ESOL].</item> 
+			 <item>Development of effective mentoring schemes to help refugees
+				find employment.</item> 
+			 <item>Possible use of entitlement cards to provide a means of
+				identification for potential employers to assist them to comply with Section 8
+				of the Immigration and Asylum Act 1996 and to reduce scope for fraudulent
+				identification.</item> 
+			 <item>Facilitation of employment of refugees by distinguishing them
+				from illegal workers against whom various penalties are strengthened.</item> 
+		  </list> 
+		  <p>Since the publication of the White Paper, the concession to work for
+			 asylum seekers that have not received a decision on their case after six months
+			 was withdrawn by an announcement made in the House of Commons in July
+			 2002.</p></div> 
+		  <div><head>General</head> 
+		  <table rend="projlist"> 
+			 <row> 
+				<cell role="projTitle">Africa Educational Trust (AET)</cell> 
+				<cell role="projSubtit">Information Forum and Refugee Mentoring
+				  (INFORM) project</cell> 
+				<cell role="projDesc">This project gives refugees the opportunity
+				  to gain skills through voluntary work. Its newsletter, the 16+ Finder,
+				  researches and publishes details of education, training and advice services
+				  provided by refugee community organisations</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"><xref url="http://www.aet.refugeewomen.care4free.net">www.aet.refugeewomen.care4free.net</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Africa Educational Trust (AET)</cell> 
+				<cell role="projSubtit">The Refugee Women’s Programme</cell> 
+				<cell role="projDesc">This provides free education, training and
+				  employment advice to African refugee women and produces bulletins containing
+				  details of courses and provision (e.g. childcare) which are particularly
+				  suitable for women.</cell> 
+				<cell role="contactInfo">Website 
+				  <xref url="http://www.aet.refugeewomen.care4free.net">www.aet.refugeewomen.care4free.net</xref></cell>
+				
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Basic Skills Agency, in partnership with Be
+				  Consultancy and the National Foundation for Educational research (NFER)</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">Have commissioned the Adult Basic Skills
+				  Strategy Unit to produce a suite of diagnostic assessment materials matched to
+				  national standards including the ESOL Curriculum, for use with adult
+				  learners.</cell> 
+				<cell role="contactInfo">Contact 
+				  <xref rend="email" url="diagnostic@basic-skills.co.uk">diagnostic@basic-skills.co.uk</xref></cell>
+				
+				<cell role="linkUrl">Website 
+				  <xref url="http://www.basic-skills.co.uk">www.basic-skills.co.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">British Bankers' Association</cell> 
+				<cell role="projSubtit">Basic bank accounts</cell> 
+				<cell role="projDesc">A Basic Bank Account has now been created
+				  following consultation with those working on social exclusion and in
+				  preparation for changes in benefits payments from JobCentre Plus. The basic
+				  bank account is ATM based and does not have an overdraft facility, but will
+				  accept direct debits and payments such as salary cheques. Following tightened
+				  security after 9/11 regarding the opening of accounts and the provision of
+				  personal identification, the BBA is working to extend the list of specified
+				  identity documents in order to prevent the exclusion of refugees and asylum
+				  seekers.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref url="http://www.bba.org.uk" rend="external">www.bba.org.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Council for Assisting Refugee
+				  Academics</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">Recently obtained Refugee Challenge Fund
+				  Grant to help refugee academics to return to quality employment.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.cara.org.uk">www.cara.org.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Department of Work and Pensions [DWP]</cell>
+				
+				<cell role="projSubtit">Equality Direct</cell> 
+				<cell role="projDesc">This is a confidential advice service for
+				  businesses on equality. The website contains information about refugees and
+				  asylum seekers that includes definitions, employment rights and contact details
+				  for key organisations.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref url="http://www.equalitydirect.org.uk" rend="external">www.equalitydirect.org.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Department for Work and Pensions
+				  [DWP]</cell> 
+				<cell role="projSubtit">New Deal/Ethnic Minority Jobseekers</cell> 
+				<cell role="projDesc">Arising from the Green Paper published in
+				  March 2001 entitled 'Toward Full Employment in a Modern Society', the
+				  Government is investing £15 million in new outreach activities by the New Deal
+				  Task Force to benefit ethnic minority job seekers, through voluntary and
+				  community based intermediary bodies. This is part of the Government's aim to
+				  equalise employment and unemployment rates regardless of ethnic origin. This
+				  service will be run until March 2004.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref url="http://www.dwp.gov.uk" rend="external">www.dwp.gov.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Department for Work and Pensions
+				  [DWP]</cell> 
+				<cell role="projSubtit">'Hard to help' refugee pilot scheme</cell> 
+				<cell role="projDesc">This will provide £300,000 to help 100
+				  refugees in early 2003 through initial stages of ensuring that they are
+				  accessing the appropriate benefits and a language and vocational assessment, up
+				  to establishing an employment and training plan and intensive language
+				  provision as required.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref url="http://www.dwp.gov.uk" rend="external">www.dwp.gov.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Department for Work and Pensions
+				  [DWP]</cell> 
+				<cell role="projSubtit">Draft strategy on employment</cell> 
+				<cell role="projDesc">The draft strategy provides an overview of
+				  different government departments' initiatives aimed at refugees and asylum
+				  seekers, and analyses the impact these have on their search for employment in
+				  the UK. The contribution that can be made by employers to enhance employment
+				  opportunities is also considered. The strategy outlines the needs of this group
+				  as identified by recent research and will include a section on the activities
+				  and policies that should be implemented to meet these needs. Consultation with
+				  various groups, including the National Refugee Integration Forum subcommittee
+				  on employment, adult education and training, is currently taking place on the
+				  first draft.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.dwp.gov.uk">www.dwp.gov.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Department for Work and Pensions
+				  [DWP]</cell> 
+				<cell role="projSubtit">New Deal and Work Based Learning for Adults
+				  [WBLA] and improved ESOL pilots</cell> 
+				<cell role="projDesc">Using a new basic skills ESOL curriculum and
+				  set in a work context, these aim to deliver labour market instruction and
+				  preparation and vocational/IT skills through Work Based Learning for Adults
+				  [WBLA] [over 25s] as an initial vehicle. They link in with colleges using the
+				  new ESOL curriculum e.g. City and Islington, Park Lane in Leeds, North
+				  Warwickshire College, Liverpool Community College.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.dwp.gov.uk">www.dwp.gov.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Department for Work and Pensions [DWP] and
+				  Goldsmiths College</cell> 
+				<cell role="projSubtit">Refugees: opportunities and barriers to
+				  employment and training research project</cell> 
+				<cell role="projDesc">This research has now been completed and its
+				  findings and recommendations will feed into the DWP refugee employment
+				  strategy.</cell> 
+				<cell role="contactInfo">Alice Bloch, email 
+				  <xref rend="email" url="a.bloch@goldsmiths.ac.uk">a.bloch@goldsmiths.ac.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.dwp.gov.uk/asd/asd5/rrep179.html">www.dwp.gov.uk/asd/asd5/rrep179.html</xref>;
+				  
+				  <xref url="http://www.goldsmiths.ac.uk" rend="external">www.goldsmiths.ac.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">ECRE/ERF website project</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">This contains descriptions and comparisons of
+				  the different situations relating to permission to work for asylum seekers
+				  across European countries including an analysis of relevant sections in the
+				  European Draft Directive on Minimum Standards for the Reception of Applicants
+				  for Asylum in EU Member States; surveys of employment practices within ECRE
+				  member organisations and refugee assisting organisations; models of good
+				  practice and other information relating to employment and refugees in
+				  Europe.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.ecre.org/erfproject/employment">www.ecre.org/erfproject/employment</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">ECRE and ERF</cell> 
+				<cell role="projSubtit">New good practice models</cell> 
+				<cell role="projDesc">The project is collecting new models of
+				  employer good practice which will be shown on the ECRE/ERF website. Please
+				  contact the project if you know of potential models that could be included.
+				  Models of good practice that ECRE has already come across are now available
+				  online.</cell> 
+				<cell role="contactInfo">Saba Khan, 
+				  <xref rend="email" url="saba.khan@refugee.council.org.uk">saba.khan@refugee.council.org.uk</xref></cell>
+				
+				<cell role="linkUrl">Website 
+				  <xref url="http://www.ecre.org/erfproject/employment/ngoodp/pdf" rend="external">www.ecre.org/erfproject/employment/ngoodp/pdf</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">ECRE and Refugee Council</cell> 
+				<cell role="projSubtit">Good Practice in the Reception and
+				  Integration of Refugees: networking across Europe</cell> 
+				<cell role="projDesc">One strand of this work, headed by the
+				  Refugee Council, focuses on models of practice and policy implications. It also
+				  looks at approaches to employers and employment-related special measures for
+				  refugees.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref url="http://www.refugeenet.org" rend="external">www.refugeenet.org</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Employability Forum</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">This was set up in 1998 to promote employment
+				  for well-qualified displaced professionals who were finding it difficult to get
+				  jobs. It provides practical help through events and projects and seeks to
+				  influence government policy, where necessary, to dismantle obstacles to
+				  employment.</cell> 
+				<cell role="contactInfo">Contact Patrick Wintour, email 
+				  <xref rend="email" url="p.wintour@employabilityforum.co.uk">p.wintour@employabilityforum.co.uk</xref></cell>
+				
+				<cell role="linkUrl">Website 
+				  <xref url="http://www.employabilityforum.co.uk" rend="external">www.employabilityforum.co.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">EQUAL</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">The ESF EQUAL Fund will allocate 365 million
+				  Euros [£233 million] to the UK over years 2000-2006. Seven of its eight themes
+				  are defined in the context of the four pillars of the European Employment
+				  Strategy and the eighth covers the specific needs of asylum seekers. EQUAL
+				  operates by bringing key partners in a geographical area together in
+				  Development Partnerships [DPs]. Information on all Development Partnerships
+				  [DPs] can be accessed via the Equal Common Database [ECBD]. There are currently
+				  45 asylum seekers' DPs, each of which has to involve at least one EU partner
+				  who is leading an EQUAL DP. Action 1 plans were approved by member states in
+				  November 2001. Action 2, covering two or three years, started on May 15th 2002.
+				  The EQUAL Asylum Seekers European Thematic Group [ASETG] are prioritising
+				  employment and training issues and is developing a workplan which will include
+				  a number of European meetings in 2003-4 where EQUAL projects can meet to debate
+				  these issues. It is important to note that the recent Home Office ruling that
+				  removes the concession to work for asylum seekers who have not received a
+				  decision on their case after six months renders many asylum seekers ineligible
+				  for support from the ESF. However, the EQUAL information note of December 2002
+				  states that asylum seekers may still be eligible for a certain level of EQUAL
+				  support, but only under Theme 1. This support, it states, should focus on
+				  enabling asylum seekers to play a more active role in society, and to enable
+				  those who are subsequently granted leave to stay to make a more rapid
+				  transition to the labour market. The note advises that intensive levels of
+				  support should only be provided after positive decisions have been made.</cell>
+				
+				<cell role="contactInfo">EQUAL, telephone 0121 616 3660 [helpline]
+				  or 0121 616 3661 [information line], email 
+				  <xref url="equal@ecotec.co.uk" rend="email">equal@ecotec.co.uk</xref>. Contact also David Hutson at 
+				  <xref url="david.hudson@refugee.council.org.uk" rend="email">david.hudson@refugee.council.org.uk</xref>.</cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.equal.ecotec.co.uk">www.equal.ecotec.co.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Framework for Regional Employment and Skills
+				  Action (FRESA), London</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">Collaborative approach to addressing London’s
+				  skills shortages targeting refugees with health care and construction skills
+				  needed to meet extra demand over the next five years.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref url="http://www.hrgateway.co.uk/viewnewsdetail.asp?uniquenumber=1551&amp;loginstatus=">http://www.hrgateway.co.uk/viewnewsdetail.asp?uniquenumber=1551&amp;loginstatus=</xref> </cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Hawk
+				  Plant Hire Limited</cell> 
+				<cell role="projSubtit">Training and employment programme</cell> 
+				<cell role="projDesc">The Hawk Group [one of the leading hirers of
+				  construction equipment] in cooperation with North Shropshire College, have
+				  formed a specialised training and employment programme for refugees and asylum
+				  seekers with permission to work in the UK.</cell> 
+				<cell role="contactInfo">Sarah Hayward at Employability, email 
+				  <xref rend="email" url="s.hayward@employabilityforum.co.uk">s.hayward@employabilityforum.co.uk</xref></cell>
+				
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Home Office</cell> 
+				<cell role="projSubtit">National Refugee Integration Forum Subgroup
+				  on Adult Education, Training and Employment</cell> 
+				<cell role="projDesc">This subgroup supports the work of the Home
+				  Office strategy for the integration of refugees in the United Kingdom. The
+				  integration strategy outlines cross-departmental activity to build successful
+				  lives and recognises that however integration is defined, refugees need to find
+				  work which makes effective use of their skills and experience, maximises their
+				  potential and provides an income for individuals and families. Its work is
+				  aimed primarily at people who have been given positive decisions on their
+				  asylum applications by the Home Office, but also takes into account the needs
+				  of asylum seekers before decisions are taken. Its membership is drawn from key
+				  stakeholders in the voluntary, public and private sectors. The Forum is in the
+				  process of drafting a document called Welcome to Britain that will contain
+				  information on employment and training in the UK and be included in a pack sent
+				  out to those receiving refugee status.</cell> 
+				<cell role="contactInfo">Contact Anne-Marie Trimblett, email 
+				  <xref rend="email" url="Anne-Marie.Trimblett@homeoffice.gsi.gov.uk">Anne-Marie.Trimblett@homeoffice.gsi.gov.uk</xref></cell>
+				
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Jobcentre Plus</cell> 
+				<cell role="projSubtit">Refugees and employment pilot
+				  project</cell> 
+				<cell role="projDesc">This organisation is developing a small pilot
+				  initiative that will introduce employment focused support to refugees. It is
+				  anticipated that the project will be delivered by a specialist external
+				  organisation with experience of working with refugees in an employment setting.
+				  The initiative is likely to provide support in relation to social needs,
+				  vocational and needs assessment, and ESOL.</cell> 
+				<cell role="contactInfo">Sue Couldwell at Welfare to Work, email 
+				  <xref url="sue.couldwell@jobcentreplus.gov.uk" rend="email">sue.couldwell@jobcentreplus.gov.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.jobcentreplus.gov.uk">www.jobcentreplus.gov.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Jobcentre Plus and Department for Work and
+				  Pensions</cell> 
+				<cell role="projSubtit">New multi-lingual leaflets</cell> 
+				<cell role="projDesc">Jobcentre Plus has produced and translated
+				  into 35 languages a leaflet on its activities to accompany NASS 35 letters. It
+				  is hoped that these will encourage refugees to register with their local job
+				  centres.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.jobcentreplus.gov.uk">www.jobcentreplus.gov.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Jobcentre Plus and Department for Work and
+				  Pensions</cell> 
+				<cell role="projSubtit">Assisting Iraqi Kurds from Sangatte -
+				  Operation Concorde</cell> 
+				<cell role="projDesc">1, 200 mainly Iraqi Kurds and a few Iranians
+				  from the Red Cross camp in Sangatte were given Exceptional Leave to Enter for
+				  four years and given GV3 forms allowing them to work in that period. These new
+				  entrants are being processed by JobCentre Plus Personal Advisers. The DWP has
+				  been involved in ensuring the route into employment is as straightforward as
+				  possible and has issued National Insurance numbers to those arriving from
+				  Sangatte. Special arrangements were made with banks in order to set up accounts
+				  for individuals. English language, literacy, numeracy, and employment skills
+				  assessments were made on arrival. All individuals have a CV and are interviewed
+				  regularly on a one to one basis to help with information on, for example,
+				  interviews or financial assistance for travel. The time limit on assistance
+				  from the Home Office was 15 March, although this may have been extended. It is
+				  possible that lessons learned from this intake could be transferred to the
+				  asylum process in the future, but very little English language provision has
+				  been available and few have found jobs so far.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.jobcentreplus.gov.uk">www.jobcentreplus.gov.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">London Development Agency [LDA]</cell> 
+				<cell role="projSubtit">Research into employment barriers</cell> 
+				<cell role="projDesc">The LDA has recently commissioned a research
+				  project that will identify the main skills, employment, enterprise and economic
+				  development barriers and issues which prevent refugees and asylum seekers from
+				  fully participating and contributing to the capital's economy. The project will
+				  make policy recommendations and establish a skills, qualifications and
+				  employment baseline. The research is to be undertaken by Michael Bell
+				  Associates.</cell> 
+				<cell role="contactInfo">Email MbA at 
+				  <xref rend="email" url="info@mba4consultancy.co.uk">info@mba4consultancy.co.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.mba4consultancy.co.uk">www.mba4consultancy.co.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Merseyside Racial Harassment Prevention Unit
+				  supported by NACRO</cell> 
+				<cell role="projSubtit">The Renaissance Project</cell> 
+				<cell role="projDesc">This will identify the educational, training
+				  and employment needs of asylum seekers and refugees across Merseyside in order
+				  to help them to settle and integrate successfully. The project will contribute
+				  to a sub regional racial harassment prevention strategy. A website will also be
+				  set up. The project is funded by Expanding Horizons and Nationwide
+				  Foundation.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">National Asylum Support Service [NASS], UK
+				  Immigration Services [UKIS], Department for Work and Pensions [DWP], Her
+				  Majesty's Customs and Excises [HMC&amp;E], the Inland Revenue</cell> 
+				<cell role="projSubtit">NASS pilot on illegal working</cell> 
+				<cell role="projDesc">This project will set up a joint NASS/UKIS
+				  Investigation Team to work with DWP, HMC&amp;E and the Inland Revenue to tackle
+				  illegal working by removing offenders and reducing NASS fraud. The project has
+				  received £390,000 in funding from monies allocated to the Home Office by the
+				  Treasury's annual Invest to Save fund.</cell> 
+				<cell role="contactInfo">Home Office Press Office, telephone 020
+				  7273 4545.</cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://213.121.214.245/n_story.asp?item_id=411">http://213.121.214.245/n_story.asp?item_id=411</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">National Institute for Adult Continuing
+				  Education [NIACE], funded by EQUAL</cell> 
+				<cell role="projSubtit">Expanding and developing the work of the
+				  Asylum Seekers' Skills and Qualifications Audit Pilot Project</cell> 
+				<cell role="projDesc">This will involve placing a guidance worker
+				  in five towns in the East Midlands to audit the skills, qualifications and
+				  experiences of asylum seekers in the area and then to facilitate appropriate
+				  opportunities for volunteering and work experience alongside learning
+				  support.</cell> 
+				<cell role="contactInfo">Fiona Aldridge, email 
+				  <xref rend="email" url="fiona.aldridge@niace.org.uk">fiona.aldridge@niace.org.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.niace.org.uk">www.niace.org.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">NIACE</cell> 
+				<cell role="projSubtit">Funded by EQUAL</cell> 
+				<cell role="projDesc">Rolling programme of 12 regional events
+				  [including Wales, Scotland and N. Ireland] to identify and disseminate good
+				  practice of work with asylum seekers, particularly in the area of education and
+				  training. This project will culminate in the production of a good practice
+				  guide to be further disseminated.</cell> 
+				<cell role="contactInfo">Fiona Aldridge, email 
+				  <xref rend="email" url="fiona.aldridge@niace.org.uk">fiona.aldridge@niace.org.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.niace.org.uk">www.niace.org.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">NIACE, NARIC, London LSCs</cell> 
+				<cell role="projSubtit">Migrant qualifications project</cell> 
+				<cell role="projDesc">This project was initiated in May
+				  2003.</cell> 
+				<cell role="contactInfo">Contact Vic Seddon, telephone 020 8929
+				  4744</cell> 
+				<cell role="linkUrl">Website 
+				  <xref url="http://www.niace.org.uk">http://www.niace.org.uk</xref>, 
+				  <xref url="http://www.lsc.gov.uk">http://www.lsc.gov.uk</xref>, 
+				  <xref url="http://www.naric.org.uk">http://www.naric.org.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Personnel Today</cell> 
+				<cell role="projSubtit">Refugees in Employment Campaign</cell> 
+				<cell role="projDesc">Personnel Today launched this campaign to
+				  persuade the government to make it easier for refugees and asylum seekers to be
+				  employed. In an open letter to Lord Rooker, then Minister of State at the Home
+				  Office, they called for a standard permission to work document, removal of the
+				  red tape preventing refugees who are entitled to work from gaining employment,
+				  a database recording the skills of refugees and asylum seekers, and concrete
+				  plans to co-ordinate the employment of refugees and asylum seekers.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.personneltoday.com/pt_news/news_daily_det.asp?liArticleID=10567">www.personneltoday.com/pt_news/news_daily_det.asp?liArticleID=10567</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Personnel Today and the Refugee
+				  Council</cell> 
+				<cell role="projSubtit">Survey of employer attitudes</cell> 
+				<cell role="projDesc">This survey looked at attitudes of UK
+				  employers as perceived by refugees and asylum seekers who are seeking jobs. Set
+				  up to highlight the issues facing unemployed refugees and asylum seekers and
+				  help address them, the study has been completed and a report will be published.
+				  Among other results the analysis of refugees' experiences found that 61.3% had
+				  been out of work for between six months and three years although 58.9% had some
+				  sort of UK qualification and 61.3% had some relevant UK work experience. Over
+				  half said employers did not recognise overseas qualifications and 66.7% were
+				  offered no reason for unsuccessful job applications.</cell> 
+				<cell role="contactInfo">Deng Yai, Refugee Council Policy
+				  Development Adviser for Employment, Training and Adult Education, email 
+				  <xref rend="email" url="deng.yai@refugeecouncil.org.uk">deng.yai@refugeecouncil.org.uk</xref></cell>
+				
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.refugeecouncil.org.uk">www.refugeecouncil.org.uk</xref>; 
+				  <xref rend="external" url="http://www.personneltoday.com">www.personneltoday.com</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Praxis and UNHCR</cell> 
+				<cell role="projSubtit">Employing the skills and experience of
+				  refugees in the international development sector</cell> 
+				<cell role="projDesc">This is a feasibility study to investigate
+				  how refugees can be enabled to work in the international development sector.
+				  The study, involving a postal survey, in-depth interviews and focus groups with
+				  skilled refugees and potential employers, has now been completed. The report is
+				  available from Praxis.</cell> 
+				<cell role="contactInfo">Theodros Abraham, Praxis, telephone 020
+				  7749 7610, email 
+				  <xref rend="email" url="theodros@praxis.org.uk">theodros@praxis.org.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.praxis.org.uk">www.praxis.org.uk</xref>; 
+				  <xref rend="external" url="http://www.unhcr.ch">www.unhcr.ch</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Refugee Assessment and Guidance Unit [RAGU],
+				  London Metropolitan University, Camden Jobtrain, Central London Learning
+				  Partnership, European Social Fund</cell> 
+				<cell role="projSubtit">Diversity Works [Placement
+				  Programme]</cell> 
+				<cell role="projDesc">This project aims to provide three-month
+				  part-time unpaid work experience to highly skilled and/or professionally
+				  qualified refugees. All candidates have permission to work and are
+				  'job-ready'.</cell> 
+				<cell role="contactInfo">Louise Salmon, email 
+				  <xref rend="email" url="l.salmon@londonmet.ac.uk">l.salmon@londonmet.ac.uk</xref>, or Sheila Heard
+				  at 
+				  <xref rend="email" url="s.heard@londonmet.ac.uk">s.heard@londonmet.ac.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.londonmet.ac.uk/ragu">www.londonmet.ac.uk/ragu</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Refugee Assessment and Guidance Unit [RAGU],
+				  London Metropolitan University, Learning and Skills Council Central London,
+				  European Social Fund</cell> 
+				<cell role="projSubtit">2003 courses for refugees and asylum
+				  seekers</cell> 
+				<cell role="projDesc">RAGU is running a number of courses for
+				  refugees and asylum seekers with permission to work in 2003. These include
+				  several English courses targeted at education and health professionals,
+				  community and management development for women, and a course towards the
+				  Certificate of Professional Development [APEL].</cell> 
+				<cell role="contactInfo">Telephone 020 7753 5044</cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.londonmet.ac.uk/ragu">www.londonmet.ac.uk/ragu</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Refugee Council, Refugee Assessment and
+				  Guidance Unit [RAGU], The Basic Skills Agency [BSA], London Language and
+				  Literacy Unit [LLLU], National institute for Adult Continuing Education
+				  [NIACE], Northern Ireland Council for Ethnic Minorities [NICEM], Sheffield
+				  College [SC], Midlands Refugee Council [MRC]</cell> 
+				<cell role="projSubtit">Asset UK</cell> 
+				<cell role="projDesc">This project, led by the Refugee Council,
+				  will provide a range of services and resources to asylum seekers and staff
+				  working with asylum seekers in the regions of the UK where large numbers of
+				  asylum seekers are now being dispersed. Provision will include advice and
+				  guidance, the development of orientation resources and delivery of ESOL and
+				  Basic Skills programmes. It will also include a skills audit of asylum seekers
+				  in dispersal areas and work with employers. The programme seeks to disseminate
+				  good practice in education and training and to support policy development in
+				  this field. As part of its contribution to this initiative, NIACE has recently
+				  organised a series of regional seminars entitled 'Empowering asylum seekers to
+				  support the regional economy and local communities' which will be used to raise
+				  awareness, inform, collate and promote good practice and identify needs in
+				  working with asylum seekers.</cell> 
+				<cell role="contactInfo">Lynda Lawrence, Asset partnership manager,
+				  email 
+				  <xref rend="email" url="Lynda.Lawrence@refugeecouncil.org.uk">Lynda.Lawrence@refugeecouncil.org.uk</xref></cell>
+				
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.refugeecouncil.org.uk">www.refugeecouncil.org.uk</xref>, 
+				  <xref rend="external" url="http://www.niace.org.uk/conferences/asylumseekers.htm">www.niace.org.uk/conferences/asylumseekers.htm</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Renaisi</cell> 
+				<cell role="projSubtit">Refugee Mentoring and Employer
+				  Network</cell> 
+				<cell role="projDesc">This is a pilot programme to work with
+				  unemployed clients from refugee and ethnic minority communities. Aimed to
+				  enhance employment and further learning opportunities by encouraging clients to
+				  gain accredited qualifications which recognise the skills they already use on
+				  an informal basis within their communities. The pilot was completed in
+				  September 2002. The mentoring scheme was complemented by the Employer Network,
+				  which worked towards engaging employers with vacancies in order to secure
+				  employment, work placements and voluntary work opportunities for candidates.
+				  Quality guidelines on mentoring for refugees have now been produced by the
+				  programme.</cell> 
+				<cell role="contactInfo">Lawrence Garry at Renaisi, 300 Mare
+				  Street, London E8 1HE. Telephone 020 7683 8300, email 
+				  <xref rend="email" url="renaisi@renaisi.com">renaisi@renaisi.com</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.renaisi.com">www.renaisi.com</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Reed in Partnership</cell> 
+				<cell role="projSubtit">Client survey</cell> 
+				<cell role="projDesc">This survey will study at least 100 refugee
+				  and asylum seeker clients who are members of Reed in Partnership's Action Teams
+				  to establish whether their education, skills and experience are being fully
+				  utilised.</cell> 
+				<cell role="contactInfo"><xref rend="email" url="steve.dungworth@reed.co.uk">steve.dungworth@reed.co.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.reedinpartnership.co.uk">www.reedinpartnership.co.uk</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Refugee Employment, Education, Training and
+				  Advice Partnership [REETA]</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">This project within the community-led Pepys
+				  Community Forum aims to break down barriers to employment for refugees in the
+				  London Borough of Lewisham. It works with local organisations and employers to
+				  enable refugees to obtain and retain jobs.</cell> 
+				<cell role="contactInfo">Hilary Morgan, Job Link, 124 Deptford High
+				  Street, London SE8 4NP, telephone 020 8700 8407</cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Refugees into Jobs</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">Refugees into Jobs aims to empower refugees
+				  in Brent and Harrow through training and employment. It offers guidance to
+				  refugees and employers through consultancy, outreach and counseling; provides
+				  information on training and employment opportunities; runs a Job Club,
+				  volunteering placements and a study programme for health professionals; and
+				  provides financial and training support for those beginning work.</cell> 
+				<cell role="contactInfo">Refugees into Jobs, 3-7 Carlton Avenue
+				  East, Wembley, Middlesex, HA9 8UA. Tel: 020 8908 4433, Fax: 020 8908 3917,
+				  Email: 
+				  <xref rend="email" url="info@rij.dircon.co.uk">info@rij.dircon.co.uk</xref>.</cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Renewal</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">Renewal is a partnership of refugee
+				  organisations and the statutory sector across six West London Boroughs which
+				  has set up a refugee community organisation [RCO] projects fund to help
+				  refugees overcome barriers to health, education and economic opportunities. The
+				  fund is supporting projects under three heads, one of which is employment and
+				  training. Funding of between £5,000-£90,000 will be allocated for up to three
+				  years. RCOs are encouraged to work with borough refugee forums and capacity
+				  building organisations.</cell> 
+				<cell role="contactInfo">Stephen James, email 
+				  <xref rend="email" url="stephen.james@ealingpct.nhs.uk">stephen.james@ealingpct.nhs.uk</xref></cell>
+				
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.renewalsrb.org.uk/renewal.htm">www.renewalsrb.org.uk/renewal.htm</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">RETAS, Islington Education Authority and
+				  University of North London</cell> 
+				<cell role="projSubtit">Fostering Refugee Enterprise and Employment
+				  [FREE]</cell> 
+				<cell role="projDesc">This is a comprehensive support package to
+				  help refugees into jobs including one to one advice on Information
+				  Communication Technology and Personal Development Training, business, start up,
+				  job search and education grants advice.</cell> 
+				<cell role="contactInfo">RETAS, telephone 020 7426 5800, email 
+				  <xref rend="email" url="retas@wusuk.org">retas@wusuk.org</xref>;
+				  Islington Enterprise Agency telephone 020 7226 2783, email 
+				  <xref rend="email" url="free@islingtonentreprise.co.uk">free@islingtonentreprise.co.uk</xref>;
+				  Refugee Assessment and Guidance Unit [RAGU], telephone 020 7753 5044, email 
+				  <xref rend="email" url="ragu@unl.ac.uk">ragu@unl.ac.uk</xref></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">University of Surrey School of Educational
+				  Studies</cell> 
+				<cell role="projSubtit">Employment HORIZON Project- European
+				  Refugees and Migrants Advice and Guidance into Employment 1995-1997</cell> 
+				<cell role="projDesc">Funded by the European Social Fund, this
+				  project sought to develop and disseminate a knowledge base on refugee
+				  employment founded on individual advice and guidance. Individual casework was
+				  established as a catalytic activity between the established actors in the
+				  field.</cell> 
+				<cell role="contactInfo">Nicolas Walters, telephone 01483 562 142,
+				  email 
+				  <xref rend="email" url="n.walters@surrey.ac.uk">n.walters@surrey.ac.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.surrey.ac.uk/Education/cse/horizon.htm">www.surrey.ac.uk/Education/cse/horizon.htm</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">University of Surrey School of Educational
+				  Studies and the Guilford Institute, and INTEGRA</cell> 
+				<cell role="projSubtit">Refugee Communities - Labour Market Advice
+				  and Guidance Project</cell> 
+				<cell role="projDesc">This project was designed to help refugees
+				  find appropriate jobs through advice, counseling and guidance training and to
+				  equip refugees to help others in their own communities to find jobs. The
+				  project was funded by the employment initiative of INTEGRA.</cell> 
+				<cell role="contactInfo">Nicolas Walters, telephone 01483 562 142,
+				  email 
+				  <xref rend="email" url="n.walters@surrey.ac.uk">n.walters@surrey.ac.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://ww.surrey.ac.uk/Education/cse/refcomm1.htm">www.surrey.ac.uk/Education/cse/refcomm1.htm</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">University of Surrey, Refugee Assessment and
+				  Guidance Unit [RAGU], London Metropolitan University, University of Sussex,
+				  University of Warwick, University of Bristol, Centre for Local Policy Studies
+				  at Edge Hill College</cell> 
+				<cell role="projSubtit">SEQUAL</cell> 
+				<cell role="projDesc">This EQUAL programme is led by the University
+				  of Surrey. The project is based on the rationale that most interventions to
+				  combat social exclusion are local and practice oriented. Despite the
+				  proliferation of local projects, the lessons learned often remain with the
+				  local practitioners involved in delivering projects. The SEQUAL partnership is
+				  designed to address this issue. Each higher education partner will carry out a
+				  research project into one area of discrimination: gender, race and ethnic
+				  origin, disability, sexual orientation, belief and political conviction or age.
+				  All the partners in the SEQUAL partnerships are active in the field of social
+				  exclusion, unemployment and dissemination.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Workforce</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">Delivers specialised assessment, guidance,
+				  training and employment services for clients with a wide range of barriers to
+				  work, including English as a second language. Services include weeklong
+				  residential courses. Initial assessment and guidance services are free and
+				  available to refugees across London. The project is working in Tower Hamlets
+				  and through Hackney Action Team for Jobs and is supported by the New Deal
+				  Innovation Team for Jobs.</cell> 
+				<cell role="contactInfo">Telephone 020 7613 4467</cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.workforce.org.uk">www.workforce.org.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Yorkshire/Humberside Asylum Consortium
+				  [YHAC]</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">YHAC has set up a regional project to record
+				  skills and prepare refugees and asylum seekers for employment. It will provide
+				  skilled refugees with a detailed employment portfolio to help them get jobs
+				  appropriate to their level of qualifications and also to help deal with local
+				  skills shortages. Providers of National Asylum Support Service [NASS]
+				  accommodation will distribute blank employment portfolio forms which asylum
+				  seekers will be encouraged to fill in with information relevant to job seeking.
+				  The pilot project began in autumn 2001.</cell> 
+				<cell role="contactInfo">Liz Westmorland, Asylum Services Manager
+				  YHAC, email 
+				  <xref rend="email" url="liz.westmorland@leeds.gov.uk">liz.westmorland@leeds.gov.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.refugeeaccess.info/default.asp?step=4&amp;pid=55">www.refugeeaccess.info/default.asp?step=4&amp;pid=55</xref>;
+				  
+				  <xref rend="external" url="http://www.leeds.gov.uk/pageView.asp?style=&amp;view=&amp;identifier=200226_902919949">www.leeds.gov.uk/pageView.asp?style=&amp;view=&amp;identifier=200226_902919949</xref></cell>
+				
+			 </row> 
+		  </table></div><div><head>Helping refugee health professionals into
+			 jobs</head> 
+		  <table rend="projlist"> 
+			 <row> 
+				<cell role="projTitle">Birmingham Specialist Community Health Trust
+				  [BSCHT]</cell> 
+				<cell role="projSubtit">Nurses training scheme</cell> 
+				<cell role="projDesc">BSCHT has set up a scheme to take on refugees
+				  to combat the city's acute shortfall of 2,000 trained nurses. Having been
+				  tested for skills, fluency in English and numeracy, six refugee nurses were
+				  selected for training to top up existing qualifications so that they could
+				  register with the UK Central Council for Nursing, Midwifery and Health
+				  Visiting. Mentors from within BSCHT were appointed to guide them and the
+				  results of the project will be shared with all NHS Trusts and the Department of
+				  Health.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">British Medical Association [BMA]</cell> 
+				<cell role="projSubtit">Helping Refugee Doctors into Jobs</cell> 
+				<cell role="projDesc">The BMA has recently been campaigning on
+				  behalf of refugee doctors in the UK and have produced briefing papers on a
+				  number of issues.</cell> 
+				<cell role="contactInfo">BMA International Department, telephone
+				  020 7383 6133 or 6793, email 
+				  <xref rend="email" url="internationalinfo@bma.org.uk">internationalinfo@bma.org.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.bma.org.uk/ap.nsf/Content/__hub+refugee+doctors">www.bma.org.uk/ap.nsf/Content/__hub+refugee+doctors</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">British Medical Association [BMA] and
+				  Refugee Council</cell> 
+				<cell role="projSubtit">Refugee Doctor Database</cell> 
+				<cell role="projDesc">The Refugee Council and the BMA are asking
+				  refugee doctors to send them details in order to assemble statistics on how
+				  many refugee doctors there are in the UK, where they live and at what stage
+				  they are in the process of requalification. The database will also be used to
+				  help refugee doctors by sending them details of schemes designed to help them
+				  requalify. The database currently holds the details of over 800 doctors.</cell>
+				
+				<cell role="contactInfo">Deng Yai, Refugee Council. Telephone 020
+				  7820 3138, email 
+				  <xref rend="email" url="deng.yai@refugeecouncil.org.uk">deng.yai@refugeecouncil.org.uk</xref></cell>
+				
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.bma.org.uk/ap.nsf/Content/refugee+docs+-+about+database">www.bma.org.uk/ap.nsf/Content/refugee+docs+-+about+database</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Department of Health</cell> 
+				<cell role="projSubtit">Refugee Health Professionals Steering
+				  Group</cell> 
+				<cell role="projDesc">The Department of Health has set up this
+				  group to allocate funds for projects to integrate refugees into the NHS
+				  workforce. The funds are to be allocated to assist the implementation of the
+				  recommendations of the Report of the Working Group on Refugee Doctors and
+				  Dentists. Deadline for funding bids has past.</cell> 
+				<cell role="contactInfo">Danny Walley, Department of Health,
+				  telephone 0113 2545952</cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.doh.gov.uk">www.doh.gov.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Department of Health</cell> 
+				<cell role="projSubtit">Refugee Health Professionals Contact
+				  Network</cell> 
+				<cell role="projDesc">The Department of Health website provides
+				  details of organisations that can help refugee health professionals establish a
+				  career in the UK.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.doh.gov.uk/medicaltrainingintheuk/refugeehpcnetwork.htm">www.doh.gov.uk/medicaltrainingintheuk/refugeehpcnetwork.htm</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">General Medical Council [GMC]</cell> 
+				<cell role="projSubtit">Helping Refugee Doctors to Requalify</cell>
+				
+				<cell role="projDesc">The General Medical Council has waived the
+				  £145 fee for refugee doctors to sit part one of the Professional Linguistics
+				  Assessment Board test.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.gmc-uk.org/global_sections/search_frameset.htm">www.gmc-uk.org/global_sections/search_frameset.htm</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Liverpool School of Tropical Medicine</cell>
+				
+				<cell role="projSubtit">University course for refugee
+				  doctors</cell> 
+				<cell role="projDesc">The Liverpool School of Tropical Medicine has
+				  received funding to create and deliver a one year university course for refugee
+				  doctors which will bring them into practice in the UK.</cell> 
+				<cell role="contactInfo">Dr James Bunn, email 
+				  <xref rend="email" url="jegbunn@liverpool.ac.uk">jegbunn@liverpool.ac.uk</xref></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Redbridge and Waltham Forest Health
+				  Authority</cell> 
+				<cell role="projSubtit">Refugee Health Professionals Project</cell>
+				
+				<cell role="projDesc">Launched in 1999, this pilot project
+				  facilitated the conversion of refugee doctors' overseas professional
+				  qualifications and provided English Language lessons and clinical attachments.
+				  It helped to fill 700 local NHS vacancies as well as enabling refugee doctors
+				  to use their expertise in the UK. Winner of an NHS Equality Award in
+				  2000.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.rwf-ha.nthames.nhs.uk">www.rwf-ha.nthames.nhs.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Scottish Refugee Council</cell> 
+				<cell role="projSubtit">Assisting refugee doctors</cell> 
+				<cell role="projDesc">The SRC works with the Scottish Council for
+				  Postgraduate Medicine to enable refugee doctors to requalify and obtain
+				  employment in the UK. Over 40 doctors have been assisted in this way over the
+				  past year. The SRC also holds refugee doctors seminars on Wednesdays from
+				  6.30pm onwards in St Rollox Church, Springburn, Glasgow.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.scottishrefugeecouncil.org.uk/Services/Education.htm">www.scottishrefugeecouncil.org.uk/Services/Education.htm</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Refugee Council and the British Dental
+				  Association</cell> 
+				<cell role="projSubtit">Refugee dentists database</cell> 
+				<cell role="projDesc">These organisations have been awarded a grant
+				  by the Department of Health to set up a voluntary database of refugee dentists
+				  in the UK. The database will be used to assemble statistics on how many refugee
+				  dentists there are in the UK, where they live and at what stage of the
+				  registration process they have reached. It will also be used to send refugee
+				  dentists information that will help them develop their dental careers in the
+				  UK. The database currently holds details for over 80 dentists.</cell> 
+				<cell role="contactInfo">Deng Yai, telephone 020 7820 3138 or email
+				  
+				  <xref rend="email" url="deng.yai@refugeecouncil.org.uk">deng.yai@refugeecouncil.org.uk</xref></cell>
+				
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.refugeecouncil.org.uk/downloads/questionnaires/dentists_leaflet.pdf">www.refugeecouncil.org.uk/downloads/questionnaires/dentists_leaflet.pdf</xref>;
+				  
+				  <xref rend="external" url="http://www.refugeecouncil.org.uk/downloads/questionnaires/dentists.pdf">www.refugeecouncil.org.uk/downloads/questionnaires/dentists.pdf</xref></cell>
+				
+			 </row> 
+		  </table></div> 
+		  <div> 
+		  <head>Funding opportunities for refugee employment projects</head> 
+		  <table rend="projlist"> 
+			 <row> 
+				<cell role="projTitle">Association of London Government</cell> 
+				<cell role="projSubtit">European Social Fund co-financing
+				  programme, funding for training projects</cell> 
+				<cell role="projDesc">The programme funds projects which aim to
+				  help people at risk of social exclusion to get into employment, with refugees
+				  forming one of the target groups. The deadline for bids last year was 7th June
+				  2002.</cell> 
+				<cell role="contactInfo">The co-financing team, telephone 020 7940
+				  1524</cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.alg.gov.uk/doc.asp?docId=7417">www.alg.gov.uk/doc.asp?docId=7417</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">European Refugee Fund</cell> 
+				<cell role="projSubtit">Conditions for reception, integration and
+				  voluntary repatriation</cell> 
+				<cell role="projDesc">Administered on behalf of the European
+				  Commission by the Immigration and Nationality Directorate of the Home
+				  Office.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.european-refugee-fund.org">www.european-refugee-fund.org</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Home Office Refugee Challenge Fund</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">In 2002 £1 million was available for refugee
+				  integration projects that address specific social needs among refugee
+				  communities.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.ind.homeoffice.gov.uk/default.asp?pageid=90">www.ind.homeoffice.gov.uk/default.asp?pageid=90</xref></cell>
+				
+			 </row> 
+		  </table></div> 
+		  <div> 
+		  <head>Skills audits</head> 
+		  <p>There has been a recent proliferation in skills audits in response
+			 to the lack of data on refugee and asylum seekers' skills and qualifications.
+			 The initiatives listed below include both recently completed research projects
+			 and those projects undertaken by service providers to facilitate the
+			 integration of clients. Some projects are wider than the skills audit
+			 component, research projects in particular may also encompass wider issues but
+			 have been included where substantial data has been obtained on skills or where
+			 this was one of the major aims of the project.</p> 
+		  <table rend="projlist"> 
+			 <row> 
+				<cell role="projTitle">Department for Work and Pensions [DWP] and
+				  Goldsmiths College</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">This research on refugees' opportunities and
+				  barriers to employment and training collected data on the skills and
+				  qualifications of 400 refugees and asylum seekers [see also General section
+				  above]. This research has now been completed and its findings and
+				  recommendations will inform the DWP refugee employment strategy.</cell> 
+				<cell role="contactInfo">Alice Bloch, email 
+				  <xref rend="email" url="a.bloch@goldsmiths.ac.uk">a.bloch@goldsmiths.ac.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.dwp.gov.uk/asd/asd5/rrep179.html">www.dwp.gov.uk/asd/asd5/rrep179.html</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Glasgow Asylum Seekers Consortium</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">This is an unofficial audit of qualifications
+				  and previous employment conducted on all asylum seekers on dispersal to Glasgow
+				  as part of routine information gathering. The audit collects information on
+				  occupation in country of origin and languages spoken. Education Services then
+				  screen for teachers, check qualifications against General Teaching Council of
+				  Scotland registration requirements for registration and support acquisition of
+				  additional qualifications and English Language competence, if needed.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Greater London Authority [GLA] and Refugee
+				  Women's Association [RWA]</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">The Mayor of London and RWA have recently
+				  published a report on the survey of refugee women's skills and qualifications
+				  in the teaching, nursing and medical professions conducted in March 2002. The
+				  report by Hildegard Dumper is entitled Missed Opportunities: A skills audit of
+				  refugee women in London from the teaching, nursing and medical professions [see
+				  also Resources section].</cell> 
+				<cell role="contactInfo">Greater London Authority, City Hall, The
+				  Queen's Walk, London, SE1 2AA. Tel: 020 7983 4000.</cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.london.gov.uk/approot/gla/publications/refugees.jsp">http://www.london.gov.uk/approot/gla/publications/refugees.jsp</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Home Office Immigration Research and
+				  Statistics Service [IRSS]</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">The IRSS is conducting a postal survey on the
+				  skills, qualifications and English language competency of people granted
+				  refugee status and ELR. The pilot is now completed and the main stage is
+				  currently taking place. All those receiving permission to remain in the UK over
+				  a three-month period have been sent a questionnaire with their favourable
+				  decision letter from the Home Office. The equivalence of their overseas
+				  qualifications will be assessed by NARIC. This will be the largest ever skills
+				  audit of this group and the project is due to report to the Home Secretary in
+				  March 2003.</cell> 
+				<cell role="contactInfo"><xref rend="email" url="Kate.Hitchcock@homeoffice.gsi.gov.uk">Kate.Hitchcock@homeoffice.gsi.gov.uk</xref>,
+				  
+				  <xref rend="email" url="Janis.Makarewich-Hall@homeoffice.gsi.gov.uk">Janis.Makarewich-Hall@homeoffice.gsi.gov.uk</xref></cell>
+				
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.homeoffice.gov.uk/rds/">www.homeoffice.gov.uk/rds/</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Learning and Skills Councils (LSCs)</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">The national office of the LSC is working on
+				  a draft guidance note called Equality and diversity: Meeting the Learning Needs
+				  of Asylum Seekers and Refugees. A number of local LSCs are considering or have
+				  initiated or completed skills audits or broader studies into the employment
+				  preparation needs and potential of refugees and asylum seekers.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref url="http://www.lsc.gov.uk">http://www.lsc.gov.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Learning and Skills Council, London
+				  North</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">As part of the wider study conducted by
+				  Africa Educational Trust and published by the London North LSC in July 2002,
+				  this research also collected data on previous employment in home country,
+				  English language skills, and level of previous education from refugees and
+				  people seeking asylum in Barnet, Enfield, Haringey and Waltham Forest. The
+				  report is entitled Refugees and Asylum Seekers in the Learning and Skills
+				  Council London North Area [see Resources section above].</cell> 
+				<cell role="contactInfo"><xref rend="email" url="elizabeth.kwaw@lsc.gov.uk">elizabeth.kwaw@lsc.gov.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.lsc.gov.uk/news_docs/Refugees%20and%20Asylum%20Seekers%20in%20the%20LSC%20London%20North%20Area_.pdf">www.lsc.gov.uk/news_docs/Refugees%20and%20Asylum%20Seekers%20in%20the%20LSC%20London%20North%20Area_.pdf</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">London Development Agency [LDA]</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">The LDA has recently commissioned a research
+				  project that will identify the main skills, employment, enterprise and economic
+				  development barriers and issues which prevent refugees and asylum seekers from
+				  fully participating and contributing to the capital's economy. The project will
+				  make policy recommendations and establish a skills, qualifications and
+				  employment baseline. The research is to be undertaken by Michael Bell
+				  Associates.</cell> 
+				<cell role="contactInfo">Email MbA at 
+				  <xref rend="email" url="info@mba4consultancy.co.uk">info@mba4consultancy.co.uk</xref></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.mba4consultancy.co.uk">www.mba4consultancy.co.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">NIACE</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">NIACE, the national organisation for adult
+				  learning, conducted a pilot skills and qualifications audit that involved 121
+				  refugees and asylum seekers in the Leicester area. The findings were published
+				  in Asylum Seekers' Skills and Qualifications Audit Pilot Project in April
+				  2001.</cell> 
+				<cell role="contactInfo">Sue Waddington, email 
+				  <xref rend="email" url="sue.waddington@niace.org.uk">sue.waddington@niace.org.uk</xref> or Fiona
+				  Aldridge, email 
+				  <xref rend="email" url="fiona.Aldridge@niace.org.uk">fiona.Aldridge@niace.org.uk</xref>.</cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.niace.org.uk/projects/Asylum/Asylumreport.pdf">www.niace.org.uk/projects/Asylum/Asylumreport.pdf</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Plymouth University and local asylum support
+				  organisations</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">The university has developed a questionnaire
+				  relating to skills, potential and actual, of asylum seekers and refugees
+				  arriving in the area. The project team would like to find out about similar
+				  studies that could provide a framework for comparative analysis.</cell> 
+				<cell role="contactInfo">Dr. Alex Cunliffe, Principal Lecturer,
+				  Department of Politics and International Relations, University of Plymouth, PL4
+				  8AA. Telephone 01752 233215/233275, fax 01752 233206, email 
+				  <xref rend="email" url="A.Cunliffe@plymouth.ac.uk">A.Cunliffe@plymouth.ac.uk</xref></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Refugee Action, Goldsmiths University</cell>
+				
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">The research conducted by a Goldsmiths
+				  University team and commissioned by Refugee Action collected data on the
+				  skills, qualifications and employment experience that Somali refugees have
+				  brought with them on arrival and have obtained since living here. The research
+				  is now published and entitled The professional capacity of nationals from the
+				  Somali region in Britain [see Resources section above].</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.refugee-action.org.uk">www.refugee-action.org.uk</xref>; 
+				  <xref rend="external" url="http://www.goldsmiths.ac.uk">www.goldsmiths.ac.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Scottish Refugee Council and the Scottish
+				  Executive</cell> 
+				<cell role="projSubtit"></cell> 
+				<cell role="projDesc">The Scottish Executive has commissioned a
+				  skills audit that is being carried out by a team of three researchers at the
+				  Scottish Refugee Council [SRC]. The research began in March 2003 and seeks to
+				  record the skills, education levels, previous and current employment situation
+				  and hopes and aspirations of 500 asylum seekers and refugees resident in
+				  Glasgow and Edinburgh. The project is due to complete in April 2003 and a
+				  report of the findings will be made available.</cell> 
+				<cell role="contactInfo">Kushtrim Ibrani, email 
+				  <xref rend="email" url="kushtrim.ibrani@scottishrefugeecouncil.org.uk">kushtrim.ibrani@scottishrefugeecouncil.org.uk</xref></cell>
+				
+				<cell role="linkUrl">Website 
+				  <xref rend="external" url="http://www.scottishrefugeecouncil.org.uk">www.scottishrefugeecouncil.org.uk</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Southampton City Council, Training and
+				  Employment Initiatives</cell> 
+				<cell role="projSubtit">Skills audit of asylum seekers and refugees
+				  in Southampton</cell> 
+				<cell role="projDesc">This audit aims to identify the skills,
+				  qualifications and experiences of asylum seekers and refugees in the
+				  Southampton area in order to establish a baseline of information that can be
+				  disseminated to relevant agencies to inform service development and enable
+				  refugees to achieve their maximum potential. The audit hopes to identify the
+				  training and employment requirements of refugees and asylum seekers and thereby
+				  facilitate their integration into the labour market. The audit is being
+				  conducting using a questionnaire that is administered by local agencies and a
+				  report on the findings will be made available in June 2003.</cell> 
+				<cell role="contactInfo">Contact Kathryn Rankin, email 
+				  <xref rend="email" url="k.rankin@southampton.gov.uk">k.rankin@southampton.gov.uk</xref>, telephone
+				  023 8083 2396</cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+		  </table></div> 
+		  </body> 
+		</text><text id="p4_ng001_06"> 
+		  <body><head>Contacts and links</head> 
+		  <p>This section aims to provide contact details for organisations and
+			 individuals whose work relates to employment issues. This list is by no means
+			 comprehensive, and is continually developing, so if you would like to add
+			 details of your organisation to these pages then please email 
+			 <xref rend="email" url="esme.peach@kcl.ac.uk">esme.peach@kcl.ac.uk</xref>.</p> 
+		  <p>Links to publications are incorporated in the 
+			 <xref from="p4_ng001_04" rend="internal">resources</xref>
+			 section.</p> 
+		  <table rend="projlist"> 
+			 <row> 
+				<cell role="projTitle">Council for Assisting Refugee Academics
+				  (CARA)</cell> 
+				<cell role="projDesc">CARA aims to assist university teachers or
+				  researchers who have lost their jobs as a result of political, racial or
+				  religious discrimination and have become refugees in the UK.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"><xref url="http://www.academic-refugees.org">http://www.academic-refugees.org</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Equality Direct, Department of Work and
+				  Pensions (DWP)</cell> 
+				<cell role="projDesc">This is a confidential advice service for
+				  businesses on equality. The website contains information about refugees and
+				  asylum seekers that includes definitions, employment rights and contact details
+				  for key organisations.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"><xref url="http://www.equalitydirect.org.uk">http://www.equalitydirect.org.uk</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Employability Forum</cell> 
+				<cell role="projDesc">Set up in 1998 to promote employment for
+				  well-qualified displaced professionals who were finding it difficult to get
+				  jobs, the forum provides practical help through events and projects and seeks
+				  to influence government policy, where necessary, to dismantle obstacles to
+				  employment.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"><xref url="http://www.employabilityforum.co.uk">http://www.employabilityforum.co.uk</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Home Office National Refugee Integration
+				  Forum Subgroup on Adult Education, Training and Employment</cell> 
+				<cell role="projDesc">This subgroup supports the work of the Home
+				  Office strategy for the integration of refugees in the United Kingdom.</cell> 
+				<cell role="contactInfo">Contact 
+				  <xref rend="email" url="Anne-Marie.Trimblett@homeoffice.gsi.gov.uk">Anne-Marie.Trimblett@homeoffice.gsi.gov.uk</xref></cell>
+				
+				<cell role="linkUrl"><xref url="http://homeoffice.gov.uk">http://homeoffice.gov.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">National Institute for Adult Continuing
+				  Education (NIACE)</cell> 
+				<cell role="projDesc">NIACE aims to promote the study and general
+				  advancement of adult continuing education through advocacy, collaboration with
+				  education service providers and research and the dissemination of research
+				  findings and best practice through a number of initiatives. NIACE has conducted
+				  research on refugees and asylum seekers and developed a number of projects
+				  relating to the education and employment of this group.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"><xref url="http://www.niace.org.uk/projects/Asylum">http://www.niace.org.uk/projects/Asylum</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">National Academic Recognition Information
+				  Centre for the United Kingdom (UK NARIC)</cell> 
+				<cell role="projDesc">NARIC advises on how overseas academic
+				  qualifications relate to UK qualifications. The service covers a wide range of
+				  countries, and can advise on the standing of international qualifications with
+				  UK professional bodies.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"><xref url="http://www.naric.org.uk">http://www.naric.org.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Praxis</cell> 
+				<cell role="projDesc">This organisation has developed a number of
+				  projects and services to help refugees into employment, including professional
+				  development programmes. It also has published a number oif research reports on
+				  refugee professionals in a number of sectors.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"><xref url="http://www.praxis.org.uk">http://www.praxis.org.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Reed In Partnership</cell> 
+				<cell role="projDesc">Reed is one of the UK’s leading recruitment
+				  specialists. Reed in Partnership works with people who have found it hard to
+				  get into work due to a wide variety of obstacles. The organisation runs a
+				  number of programmes for those seeking work, as well as helping employers fill
+				  their recruitment needs. Their website has information available in a number of
+				  languages including Somali, Turkish, Kurdish, Vietnamese, French and
+				  Urdu.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"><xref url="http://www.reedinpartnership.co.uk">http://www.reedinpartnership.co.uk</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Refugee Assessment and Guidance Unit (RAGU),
+				  London Metropolitan University</cell> 
+				<cell role="projDesc">RAGU runs a number of courses for refugees
+				  and asylum seekers with permission to work including several English courses
+				  targeted at education and health professionals, community and management
+				  development for women, and a course towards the Certificate of Professional
+				  Development (APEL).</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"><xref url="http://www.londonmet.ac.uk/ragu">http://www.londonmet.ac.uk/ragu</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Refugees into Jobs</cell> 
+				<cell role="projDesc">Refugees into Jobs aims to empower refugees
+				  in Brent and Harrow through training and employment. It offers guidance to
+				  refugees and employers through consultancy, outreach and counselling; provides
+				  information on training and employment opportunities; runs a Job Club,
+				  volunteering placements and a study programme for health professionals; and
+				  provides financial and training support for those beginning work.</cell> 
+				<cell role="contactInfo">Email 
+				  <xref rend="email" url="info@rij.dircon.co.uk">info@rij.dircon.co.uk</xref></cell> 
+				<cell role="linkUrl"></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Refugee Education, Training and Advice
+				  Service (RETAS), Education Action International</cell> 
+				<cell role="projDesc">RETAS supports the social and economic
+				  development of refugees and asylum seekers in the UK and at a European level by
+				  facilitating their access to education, employment and training opportunities.
+				  It offers a range of service including drop in advice, courses, employment
+				  support and grant schemes.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"><xref url="http://www.wusuk.org">http://www.wusuk.org</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Refugee Action</cell> 
+				<cell role="projDesc">Refugee Action is an independent national
+				  charity that aims to enables refugees to build new lives in the UK. It provides
+				  practical advice and assistance for newly arrived asylum seekers and also
+				  promotes settlement and integration through community development work. It
+				  provides employment and training advice as part of its services.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"><xref url="http://refugee-action.org.uk">http://refugee-action.org.uk</xref></cell> 
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Refugee Council</cell> 
+				<cell role="projDesc">Refugee Council is the largest organisation
+				  in the UK working with asylum seekers and refugees. Its activities include the
+				  provision of practical support services, advocacy, campaigning and information
+				  dissemination. Its training and Employment Section offers a free 
+				  <xref url="http://www.refugeecouncil.org.uk/refugeecouncil/what/what003.htm">careers
+					 advice and guidance service</xref> for asylum seekers, refugees, and anyone
+				  over the age of 16 who is unemployed, and runs a number of 
+				  <xref url="http://www.refugeecouncil.org.uk/refugeecouncil/what/what005.htm">training
+					 courses</xref>. Its website also offers 
+				  <xref url="http://www.refugeecouncil.org.uk/infocentre/entit/sentit006.htm">information</xref>
+				  on entitlements relating to training, education and employment in relation to
+				  refugees and asylum seekers.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"><xref url="http://www.refugeecouncil.org.uk">http://www.refugeecouncil.org.uk</xref></cell>
+				
+			 </row> 
+			 <row> 
+				<cell role="projTitle">Scottish Refugee Council</cell> 
+				<cell role="projDesc">The Scottish Refugee Council is a charity
+				  providing advice, information and assistance to asylum seekers and refugees in
+				  Scotland. It provides direct services to individuals and families, and conducts
+				  campaigning, public information and community development work. Its services
+				  include employment and training advice and it runs a number of projects and
+				  events relating to employment issues, training and advice. The organisation is
+				  currently conducting research into the skills and qualifications of refugees
+				  and asylum seekers in Scotland and their professional aspirations.</cell> 
+				<cell role="contactInfo"></cell> 
+				<cell role="linkUrl"><xref url="http://www.scottishrefugeecouncil.org.uk">http://www.scottishrefugeecouncil.org.uk</xref></cell>
+				
+			 </row> 
+		  </table> 
+		  </body></text> 
+	 </group> 
+  </text></TEI.2>

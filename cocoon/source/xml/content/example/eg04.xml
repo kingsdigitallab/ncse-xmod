@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2
+  SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p1_1_1_1">
+<teiHeader status="new" type="text">
+<fileDesc>
+<titleStmt>
+<title>Example: Address</title>
+<author>Author</author><respStmt><resp>compiled by</resp><name>CompilerFirstName CompilerSurname</name></respStmt></titleStmt>
+<publicationStmt>
+      <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+      <address>
+        <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+        <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+      </address>
+    </publicationStmt>
+<sourceDesc default="NO">
+      <p>No source: created in electronic format.</p>
+    </sourceDesc>
+</fileDesc>
+<encodingDesc>
+    <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+  </encodingDesc><revisionDesc> 
+    <change>
+     <date>2006-10-18</date> 
+     <respStmt>
+       <name>ZA</name> 
+     </respStmt> 
+     <item>changed contents</item> 
+    </change><change>
+     <date>2003-10-27</date> 
+     <respStmt>
+       <name>JG</name> 
+     </respStmt> 
+     <item>changed contents</item> 
+    </change> 
+     
+   </revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<head>Body Contents</head>
+
+
+
+
+
+
+
+
+
+
+
+
+<div part="N" sample="complete" org="uniform">
+                <head>Address</head>
+                <p>
+                    <address>
+                <addrLine><title>The information centre</title> for Refugree</addrLine>
+                <addrLine>02 87873 </addrLine>
+                <addrLine>98923432</addrLine>
+                <addrLine type="email">abc@org</addrLine>
+                <addrLine type="url">http://abc.org</addrLine>
+          </address>
+                </p>
+            </div></body>
+</text>
+</TEI.2>

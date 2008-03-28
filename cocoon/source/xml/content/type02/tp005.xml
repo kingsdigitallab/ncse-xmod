@@ -1,0 +1,594 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../../dtd/tei/cch_tei.dtd" >
+<TEI.2 id="tp005">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dutton LB1 and the Sources of Garci Sánchez de Badajoz<note n="1">Earlier versions of
+            this paper were given at a meeting of the Seminar in Editing and Textual Studies at
+            King's College London on 17 February 1976, and at a two-day conference on 'Spanish
+            Cancioneros: Materials and Methods' held at the Institute of Romance Studies and Queen
+            Mary and Westfield College, 27-28 June 1997.</note> (tp005)</title>
+        <author>
+          <name type="foreName">B W</name>
+          <name type="surname">Ife</name>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>King's College London</publisher>
+        <pubPlace>London</pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Article by B W Ife</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p>It is a commonplace of literary studies that problems of text and interpretation are
+          really the same thing. Is Hamlet's 'too, too solid flesh' really 'sullied'? Is Cressida
+          'the Trojans' trumpet' or 'the Trojan strumpet'? While the poetry of Garci Sánchez de
+          Badajoz is hardly in Shakespeare's league, it nevertheless poses some interesting
+          challenges both to the editor and the critic. In common with many poets of the late
+          fifteenth and early sixteenth centuries, Garci Sánchez's poetry has not been transmitted
+          in the form of neat compilations of 'collected works', but has to be assembled from
+          numerous relatively scattered printed and manuscript <foreign>cancioneros</foreign>. <note
+            n="2"><bibl>Patrick Gallagher, <title>The Life and Works of Garci Sánchez de
+              Badajoz</title> (London: Tamesis Books), 1968</bibl>. See also <bibl>J. Castillo,
+                <title>Cancionero de Garci Sánchez de Badajoz</title> (Madrid: Editora Nacional),
+              1980</bibl>. A further poem attributed to Garci Sánchez was subsequently identified in
+            Madrid, <bibl>Nacional MS 5602 by N.F. Marino, 'An early attribution to Garci Sánchez de
+              Badajoz', <title>Anuario medieval</title> 2, 132-40</bibl>.</note> The nature of these
+          sources creates complex problems for the production of a critical edition, and the purpose
+          of this study is to re-examine one of the sources in particular, British Library Add. MS
+          10431 (Dutton LB1), <note n="3"><bibl>Brian Dutton, <title>Catálogo-Indice de la poesía
+                cancioneril del siglo XV</title>, 2 vols in 1 (Madison: Hispanic Seminary of
+              Medieval Studies), 1982</bibl>; <bibl>Brian Dutton and Jineen Krogstad, <title>El
+                cancionero del siglo XV</title>, 7 vols (Salamanca: Universidad de Salamanca),
+            1990</bibl>. LB1 appears on pp 131-275 of vol 1.</note> in order to reassess its
+          authority as a source for Garci Sánchez, and to use it to draw some wider methodological
+          and interpretative conclusions.</p>
+
+        <p>For a writer who was famed as a lunatic lover and spent at least part of his life as a
+          court poet, Garci Sánchez's extant corpus of poems is fairly small. Altogether, some 66
+          poems have survived in 30 sources up to 1520 (Table 1). The headline points are fairly
+          obvious: the sources which have the greatest number of poems by Garci Sánchez are the two
+          printed collections 11CG and 14CG (the first and second editions of the
+            <foreign>Cancionero general</foreign>, compiled by Hernando del Castillo and printed in
+          Valencia in 1511 and 1514), and the British Library MS now known as Dutton LB1. <note
+            n="4">MN14 is a 19th-century MS in the Biblioteca Nacional Madrid (MS 3777) whose
+            importance for Garci Sánchez studies has yet to be clearly established.</note>
+          Understanding the relationship between these three early sources is therefore central to
+          determining their relative authority as sources for Garci Sánchez and for many other poets
+          represented in them.</p>
+
+        <p>[Table 1: requires two pages]</p>
+
+        <p>British Library Add. MS 10431, formerly known as the British Museum cancionero, is an
+          important collection of some 470 pieces by 112 named poets from the reigns of John II,
+          Henry IV and the Catholic Monarchs. <note n="5">Dutton's numbering is from 1-470, but
+            numbers 83 and 318 are not used, while three poems are numbered 81b, 319b and
+          380b.</note> It is a quarto volume currently consisting of 120 folios written in a single
+          hand, mostly in double columns. A second hand has added a small number of comments and
+          annotations. The MS may once have been longer, since the rubric of fol 1r alludes to works
+          by 'el famoso poeta' Pedro de Herriega, which do not appear in the volume. <note n="6"
+            >Since we have no record of such a poet, and since the attribution has been added in a
+            later hand, I am inclined to suspect festivity on the part of a previous owner of the
+            MS.</note> The date of the MS is uncertain. Hugo Rennert estimated a date between the
+          1470s and 1500, <note n="7">H.A. Rennert, 'Der spanische Cancionero des Brit. Museums
+            (Mss. Add. 10431)', <title>Romanische Forschungen</title> 10 (1895), 1-176. Rennert only
+            printed the poems which were unique to this MS.</note> Carolina Michaëlis de Vasconcelos
+          preferred 1500-1520, <note n="8">In a review of Rennert's edition in
+                <bibl><title>Literaturblatt für germanische und romanische Philologie</title>
+              XVIII-4 (1897), 127- 43</bibl>, she pointed out that, from internal evidence, the MS
+            cannot have been compiled in its present form before 1498.</note> Dutton estimates
+          'hacia 1500' (I,131), J. González Cuenca thought that it predated 11CG, <note n="9"
+              ><bibl>'Cancioneros manuscritos del Pre-renacimiento', <title>Revista de
+              literatura</title> (1978), 177-215</bibl>.</note> while Patrick Gallagher placed it
+          between 11CG and 14CG (3- 5).</p>
+
+        <p>We have no record of ownership until the MS was sold by Sotheby's on 17 February 1836
+          from the library of Richard Heber to the British Museum for the sum of one shilling. Two
+          pieces of evidence led R.O. Jones to conclude that the collection could have been the
+          personal anthology of Juan del Encina: a marked similarity between certain aspects of the
+          orthography of the MS and that of the 1496 edition of Encina's
+          <foreign>Cancionero</foreign>, above all the use of intervocalic <emph>v</emph> rather
+          than <emph>u</emph>; and the presence at the end of the MS of a group of poems attributed
+          to the 'actor deste libro' among which there are two versions of poems from Encina's
+          printed collection together with at least one other which is very reminiscent of Encina.
+          Jones argued that the 'actor' ('compiler'?) was Encina himself. <note n="10"
+              ><bibl>R.O.Jones, 'Encina y el Cancionero del British Museum',
+              <title>Hispanófila</title> 11 (1961), 1-21</bibl>.</note>
+        </p>
+
+        <p>Carlos Alvar has subsequently produced a helpful survey of the relationships between LB1
+          and several other MS and printed collections, and has been unable to escape the conclusion
+          that LB1, 11CG and 14CG are closely related, both textually and chronologically: LB1 and
+          11CG have 202 poems in common; 17 of those dropped from 11CG are in common with LB1; and
+          19 of those added to 14CG are in common with LB1. 'LB1 presenta composiciones que se
+          encuentran sólo en 11CG, y que no volvieron a ser publicadas en las ediciones posteriores,
+          y también presenta otras piezas que se incluyeron por primera vez en 14CG: parece que es
+          lógico pensar que LB1 es posterior a ambos Cancioneros impresos.' <note n="11"
+              ><bibl>Carlos Alvar, 'LB1 y otros cancioneros castellanos' in Madeleine Tyssens (ed.),
+                <title>Lyrique romane médiévale: la tradition des chansonniers. Actes du Colloque de
+                Liège, 1989</title>. Bibliothèque de la Faculté de Philosophie et Lettres de
+              l'Université de Liège, fascicule CCLVIII, (Paris: Droz), 1991, 469-97</bibl>. The
+            quotation is on page 495. The relationship between LB1 and CG is even closer than is
+            apparent in Alvar's summary. 15 of the poems added to 14CG and common to LB1 were by one
+            author, Garci Sánchez de Badajoz. In addition, at least four poems were lengthened in
+            14CG and each of these exists in LB1 in its longer version. There is also a striking
+            similarity between LB1 and CG in terms of the poets omitted from both collections,
+            especially those poets whose work was extensively published in the 1490s and might
+            reasonably be expected to have been known to both Castillo and to the compiler of LB1:
+            Mendoza, Montesinos and Encina. See <bibl>Jane Whetnall, 'El <emph>Cancionero
+              general</emph> de 1511: textos únicos y textos omitidos' in Juan Paredes (ed.),
+                <title>Medioevo y literatura. Actas del V Congreso de la Asociación Hispánica de
+                Literatura Medieval. Granada 1993</title>. 4 vols. Granada, 1995. IV, 505-15</bibl>.
+          </note>
+        </p>
+
+        <p>While it is impossible to disagree with this conclusion as far as it goes, there is a
+          case for questioning the assumption (which Carlos Alvar does not make, but which might
+          easily be drawn from his conclusion) that chronology and authority are necessarily
+          causally related. Put simply: is the authority of LB1 any weaker because it appears to
+          postdate 1514? Let us turn some of the earlier figures around: of the 1033 poems in 11CG,
+          831 (80.4%) are <emph>not</emph> in LB1; if the compiler of LB1 used 11CG, how is it that
+          19 poems are included which appeared for the first time in 1514? And if he used 14CG, how
+          is it that he includes 17 poems which were dropped after the first edition? Furthermore,
+          how is it that of 191 poems in common with 11CG, and 189 in common with 14CG, there is
+          only one common sequence of four poems, one of three poems, and six pairs? And is it
+          possible to account for the presence of unique poems in the midst of common groups without
+          assuming a much more complex relationship than that which is implied by Carlos Alvar's
+          analysis?</p>
+
+        <p>These questions are important because the relationship between
+          <foreign>cancionero</foreign> sources on the one hand and editions of the work of
+          particular poets on the other is fundamentally an assymetrical one, and the editorial
+          practices involved are very different in each case. Almost always,
+          <foreign>cancionero</foreign> sources are compilations or anthologies, whether of one or
+          several writers. They are a record of an individual's or group's interests, tastes and
+          collecting habits, compiled at a particular place and time. <note n="12"><bibl>V. Beltrán
+              Pepió, 'Tipología y génesis de los cancioneros', <title>Cultura neolatina</title> 55,
+              233-65</bibl>.</note> By their very nature, then, the <foreign>cancionero</foreign>
+          anthologies impose uniformity on variety. The process of collection and selection is
+          normative in cultural and artistic terms, while the material processes of preparing the
+          anthology for presentation, private enjoyment or publication result in a 'fair copy' which
+          appears to be consistent in look and feel. If we were able to look beneath the visual and
+          editorial uniformity at the surface, we would almost always find a ragbag of sources drawn
+          from different places at different times, displaying conflicting orthgraphical and
+          typographical conventions, and most important, sources of widely divergent textual
+          authority.</p>
+
+        <p>None of this is very different from the normal process of preparing any work for
+          publication; behind the smoothly printed surface lies an agony of recensions, drafts,
+          re-drafts, last-minute corrections and second thoughts at final proof stage. What makes
+          this observation important in the case of <foreign>cancionero</foreign> sources is the
+          warning it gives us that no statement about the authority of a particular text in a
+            <foreign>cancionero</foreign> anthology can safely be applied to any other in that
+          collection. The texts of Palgrave's <title>Golden Treasury</title>, for example, are just
+          as likely to derive from an autograph presented to the compiler by the poet himself as
+          from a unreliable printed source which perpetuates mis-readings from the first edition.
+          The typography of the finished collection, and Palgrave's own editorial conventions as
+          well as those of the publisher, would obscure those discrepancies from view.</p>
+
+        <p>The implications of this for editorial practice may be summarised in Figures 1 and 2.
+          Figure 1 is a simple representation of what normally happens when one edits a text. There
+          are one or more extant witnesses whose relationship has to be established before a series
+          of procedures can be applied to the texts of the witnesses to attempt to establish the
+          lost archetype. What we do when evaluating <foreign>cancionero</foreign> sources is almost
+          exactly the reverse (Figure 2). We usually have one witness, which we know, suspect or
+          have reason to believe has been compiled from several sources, all of which are lost. In
+          order fully to evaluate the authority of the witness, we have to try to reconstruct all of
+          the missing sources, or at least their relationship to each other and to the witness we
+          have. A less conventional form of stemma is required to express these relationships, and
+          an example is given in Figure 3.</p>
+
+        <p>[Figures 1, 2 and 3: require 1 page between them]</p>
+
+        <p>How can we get behind the blank wall of uniformity presented by the
+          <foreign>cancionero</foreign> text? A great deal of evidence about the process of
+          compilation can be gleaned from a close examination of the physical characteristics of the
+          MS. LB1 now consists of 120 leaves, written throughout in a single legible but
+          non-professional hand, and in a single ink. The MS originally consisted of 124 folios, as
+          is indicated by the original foliation, of which numbers 13 to 16 inclusive have been
+          removed. They almost certainly contained the <title>Liciones de Job</title> of Garci
+          Sánchez de Badajoz ('Pues amor quiere que muera', Dutton 1769), since the last poem on the
+          verso of folio 12 is the beginning of a dedication of the <title>Liciones</title> to a
+          friend. The poem was presumably removed in deference to a change of spiritual climate in
+          the 1520s. This poem is also largely missing from a MS now preserved in the University of
+          Salamanca (Dutton SA10b-95), from which four folios have also been removed, except that in
+          this case the censor omitted to remove the first 17 lines. The opening rubric of LB1
+          ('Aqui comiençan las obras de garci sanches de vadajos con otras obras de algunos
+          syngulares poetas') and the concluding 'finnis deo gratias' suggest that, apart from the
+          four missing leaves, the MS is substantially complete.</p>
+
+        <p>The paper on which LB1 is written is unfortunately unwatermarked, but an irregularity in
+          the spacing of the chain lines makes it clear that it was all made from the same pair of
+          moulds and that presumably it was bought as a batch for this particular purpose. There is
+          also evidence to suggest that the paper was made into a book before the MS was written.
+          The original format is difficult to establish, since when the British Museum acquired the
+          MS it was rebound and the leaves supplied with new hinges and quired in 15 lots of eight.
+          It is unlikely that it will ever be possible to establish the original format with
+          certainty, which is a pity, since quiring in 4s would suggest a ready-made book, whereas
+          quiring in 2s need not. But it is noticeable that the final four leaves are significantly
+          less closely written than the rest of the book and point to the copyist's possibly having
+          some difficulty in filling his prescribed length, and might also account for the addition
+          of the poems attributed to the mysterious 'actor'. Physical evidence, then, points to, but
+          does not prove, that the MS was written 'at a sitting', into a loose or possibly bound
+          batch of paper whose length had probably been estimated to fit the job in hand, and that
+          it was written with the object of drawing together a disparate collection of material
+          between two covers. The MS does not suggest a collection in the process of being formed or
+          added to gradually over a long period of time.</p>
+
+        <p>More physical evidence of a slightly different sort is given by what we can deduce from
+          the copyist's working habits. The MS is written for the most part in double columns: the
+          only exceptions are some poems in <foreign>arte mayor</foreign> where the format will only
+          allow single columns, and a couple of pages written in three columns where the verse is
+          basically hexasyllabic. There are two other exceptions which will be mentioned later. For
+          the most part, the copyist seems anxious to fill his page as tightly as possible, and
+          throughout the MS one has the impression of never a wasted space. But from time to time
+          the copyist has punctuated his progress through the book by leaving small areas of blank
+          space, usually at the end of a page, but sometimes in the middle, so as to divide, in
+          effect, the collection into 34 sections. Sometimes the division is reinforced by a change
+          in the rubric; or by writing the rubric across both columns; or by using the formula 'de
+            <emph>x</emph> cancion' where the 'de <emph>x</emph>' means that all the following poems
+          until the first attribution are by <emph>x</emph>; by the use of some formula such as
+          'comiençan las obras de <emph>x</emph>'; or by the use of what passes for a 'florid'
+          capital (eg. fol 104r). The 34 sections of the MS are summarised in Table 2.</p>
+
+        <p>[Table 2: requires 1 page]</p>
+
+        <p>Two alternatives are suggested by this unconsious ordering of the MS. Does it represent
+          an attempt to classify the material, and if so what system of classification was used? Or
+          do the divisions represent the points at which the copyist changed his exemplar? In the
+          first alternative - the compiler or the copyist if they were not the same person - might
+          have taken his shuffled collection of odds and ends and dealt them into piles
+          corresponding roughly to a division by authorship. This is quite possible, since changes
+          of section never come in the middle of a group attributed to one author, though some
+          authors, for example Pinar and his sister Florencia, are common to more than one section.
+          It is likely that the longest and most substantial sections were put together in this way,
+          since within the section one can detect changes in the type of source, although these
+          could well have been present in the immediately preceding exemplar.</p>
+
+        <p>On the other hand, some divisions correspond more obviously to particular sources,
+          especially where a number of poets are grouped around a particular theme or subject or are
+          related geographically or by period. Besides, the copyist sometimes indicates a change of
+          author by a florid capital within a section [90v-91r], and some of the sections consist of
+          a main author plus a fill-up, which would suggest that the source might have been a MS or
+          printed <foreign>pliego</foreign> with the characteristic make-weight to fill out the
+          extra space left by a longer work. In another section the familiar tone of the
+          attributions, the preponderance of first names in the rubrics, suggest a group of domestic
+          pieces originating in one place at one time and recorded by one of their number, or a
+          secretary who knew them well and expected his readers to share that familiarity. Some
+          sections are little more than scraps, and this impression becomes stronger in the final
+          groups where the copyist seems hard pressed to fill the remaining pages [119v-120r] and
+          where the attribution of all the pieces to the 'actor' is not entirely clear.</p>
+
+        <p>Although the realisation that the MS is organised in some not very obvious way represents
+          a considerable step forward in our study of the collection, it is at the next stage that
+          the major unknown quantities enter the argument. If some at least of the divisions do
+          represent changes of source, it should be possible to be more precise about the nature and
+          status of these sources, provided we can be reasonably certain that the copyist has given
+          us an accurate record of what he saw. To that extent, then, are any differences
+          discernible from section to section an accurate reflection of the state of the sources? To
+          answer this question would involve demonstrating that the copyist was or was not an
+          accurate worker, a task which is strictly speaking not possible unless one has the
+          original from which he worked. But it should be possible to gain some indications without
+          straying too far in the direction of guesswork.</p>
+
+        <p>We need to know as much as possible about the scribe's orthographical preferences, the
+          relative strengths of his preferences for some forms rather than others, his general
+          attitude towards his exemplar, his willingness to leave difficulties or irregularities
+          unsolved or alternatively his readiness to intervene with his own suggestions and
+          solutions: in short, some guide to the literalness of his mind. The first source of such
+          information is where a text appears twice in the MS and where it can only have been copied
+          from the same exemplar. For all practical purposes this means places where the copyist has
+          corrected himself, such as Figure 4, where three lines of the poem 'O mi dios y giador
+            [<emph>sic</emph>]' (Dutton 0706) were copied at the wrong point in the poem, have been
+          crossed through and repeated at the correct position, 11 lines later. The differences in
+          orthography between the two appearances of these three lines are trivial
+          (que/q<emph>ue</emph>; alunbra/alu<emph>n</emph>bra; y/e; <emph>vir</emph>go/virgo) while
+          the similarities are telling (the long final s in 'nos'; the spelling of 'gia'; the
+          contraction of 'lacrimar<emph>um</emph>'). Furthermore, the rhyme scheme of the poem
+          indicates that in each instance there is a line missing.</p>
+
+        <p>[Figure 4: requires half page]</p>
+
+        <p>Unfortunately, such relatively long examples are very rare. More common is the opposite
+          case where a poem is repeated but we can be fairly sure that two different exemplars are
+          involved. Figure 5 shows two versions of the poem 'La vida seria perdella' (Núñez; Dutton
+          0843) which appear on fols 43v and 44r. The orthography is virtually identical until the
+          last line, where the variant reading almost certainly indicates a different source. Note
+          the contracted final e on 'muerte', which is a strong preference of this copyist. There
+          are seven such repeated pairs in LB1 and they can be quite helpful in gaining an insight
+          into the copyist's habits.</p>
+
+        <p>[Figure 5: requires half page]</p>
+
+        <p>A further guide is provided by cases where a contrast in spellings, especially names,
+          indicates a respect for both readings. Figure 6 illustrates a section of the text and
+          commentary of Garci Sánchez's poem 'El dia infelix noturno' (Dutton 0731). Note how the
+          lemma from the text preserves the spelling 'tis', while the commentary gives the more
+          correct form 'Stix', and Figure 7 shows several examples of contrasting pairs of spellings
+          from the same poem: 'menalanpo/melampo'; 'pamphago/panphago'; 'dorçeo/doçeo'. Note too the
+          clue given by the cancelled 'fuero<emph>n</emph>' just before the poetic text resumes.
+          These are clear cases where spellings seem deliberately contrasted rather than being the
+          result of variation or carelessness: if the copyist knows that 'tis' should be spelled
+          'Stix', then he could have changed it in the text of the lemma. All the lemmata in this
+          commentary show the same kind of literal attitude to the text.</p>
+
+        <p>[Figure 6: requires half page]</p>
+
+        <p>A further source of information about the nature of the sources is provided by those
+          occasions where the copyist abandons his normal working pattern, such as Figure 8
+          ('Caminando por mis males'; Dutton 0693), where the double-column format is abandoned in
+          favour of the common convention of writing the <foreign>romance</foreign> across the page.
+          The <foreign>mise en page</foreign> makes it clear that he prepared for this change of
+          format by making sure that the preceding poem ('No pido triste amador') finished in the
+          top half of the page, so that he could set off the <foreign>cantar</foreign> which is
+          included in the <foreign>romance</foreign> by reverting to double-column layout at the
+          bottom of the page. On the verso of this leaf he has the rubric 'torna a romance' and
+          resumes writing across the full width of the page. Only four poems are written in this
+          way, all are <foreign>romances</foreign> and all are in the sections dedicated to Garci
+          Sánchez de Badajoz, and they give a strong indication that the copyist was trying to
+          preserve the format of his exemplar.</p>
+
+        <p>[Figure 8: requires 1 page]</p>
+
+        <p>I have already suggested that the abandonment of preferred forms, especially strongly
+          preferred forms, and the choice between forms in free variation might also provide
+          evidence of the original source. This approach is suggested by the implications of textual
+          critics working in the field of the printed book, such as D.F. McKenzie's work on the
+          composition of <title>The Merchant of Venice</title>. <note n="13"><bibl><title>Studies in
+                Bibliography</title> 12 (1959), 75-90</bibl>. Harold Jenkins's magisterial analysis
+            of the Q1, Q2 and Folio texts of <bibl><title>Hamlet</title> (London: Methuen), 1982,
+              pp. 18-74</bibl> was equally helpful in this regard.</note> McKenzie demonstrates that
+          when Jaggard's compositor B abandons his preferred spelling he rarely does so when his
+          copy coincides with his preference, and when that preference is very strong he never sets
+          the alternative unless it is in the copy. Applied over a wide range of examples, this
+          study supports our intuition that when a compositor has no preference he will tend to
+          follow the copy, and this observation might be expected to apply even more strongly to a
+          scribe than a compositor, since the scribe has fewer restrictions caused by justification
+          and the constraints of his fount, and is less likely than the compositor to alter spelling
+          to assist justification.</p>
+
+        <p>Now although it is interesting to know the scribe's preferences, (and in the case of LB1
+          we can say with some certainty that they are: hard gi- and ge-; final <emph>-e</emph>;
+          final <emph>-es</emph>; and final long s, in descending order of strength) it is unlikely
+          that these alone will tell us much about the state of the exemplar, which is really what
+          we are interested in. But one feature which can tell us a good deal is the type and degree
+          of contraction present in a text, since there are considerable differences in the use of
+          contraction and ligatures by scribes and compositors. For the scribe, the primary function
+          of the contraction is ease and speed of writing, though it could be and often was used to
+          assist in fitting a text into a given space. For the compositor, the function of
+          contraction is almost solely that of justifying a line of type to the measure, and the
+          range of its use is constrained by the characteristics of the fount: he can only set the
+          ligatures which he has in his type cases. Inevitably, then, a compositor's contractions
+          can easily be distinguished from those of a scribe, which tend to show a greater variety
+          and density, and where we find significant deviations from the copyist's norm in respect
+          of contractions, it is reasonable to look for a different kind of exemplar. Figure 9
+          contrasts two columns of LB1. The left-hand column (fol 1va) has 42 contractions, the
+          second (fol 10ra) has 22. Note also the different treatment of final -es/<emph>-es</emph>.
+          The right-hand column is part of a series of four poems which share the same
+          characteristics (see Table 3, below); the left-hand column is nearer the norm for this
+          copyist.</p>
+
+        <p>[Figure 9: requires 1 page]</p>
+
+        <p>The final test of a copyist's attitude to his exemplar is the surviving state of the
+          texts themselves. At this point in the argument it is convenient to concentrate on the
+          section of the MS devoted to the poems of Garci Sánchez de Badajoz, in order to bring
+          together the two threads of the argument: that it is dangerous to generalise about the
+          reliability of texts within an anthology; and that a close scrutiny of the physical
+          features of the collection, especially the accidentals, can give some idea of the type of
+          exemplar used and the extent to which the copyist accurately reproduced what he saw before
+          him. This section of LB1 is also a good test because it raises in microcosm all of the
+          larger questions mentioned earlier about the relationship of LB1 to the first and second
+          editions of the <title>Cancionero general</title>.</p>
+
+        <p>[Table 3: requires 1 page]</p>
+
+        <p>Table 3 shows the order of poems by Garci Sánchez in LB1, 11CG and 14CG. It should be
+          noted that six poems added in 14CG do not appear in LB1 (seven, if the <title>Liciones de
+            Job</title>, Dutton 1769, are included) and that the only significant consecutive
+          grouping common to LB1 and 14CG is 17, (17a=9), 18, 19. These four poems are the same
+          group of four which showed a markedly lower density of contraction than the norm for LB1
+          (Figure 9), and which might therefore be supposed to have derived from a printed source.
+            <note n="14">There are also three pairs of poems common to LB1 and 14CG. Note that poems
+            10 and 35 in LB1 (498 and 515 in 14CG) are each a single poem, with a slightly different
+            treatment of self-quotation in each case. To that extent, they help to differentiate LB1
+            and 14CG even further. </note> 17a is an extra stanza which has been added to 17 in the
+          MS, but which is in fact the last stanza of the poem which occurs between 17 and 18 in
+          14CG and which appears in full as no 9 in LB1. Since this rogue stanza is headed 'fin' it
+          seems likely that a massive case of haplography has elided the two poems into one. As the
+          evidence of contraction suggests a printed exemplar, it is probable that these four poems
+          circulated in a printed <foreign>pliego</foreign> as a group and that they found their way
+          independently into LB1 and 14CG. It is unlikely that they were taken from 14CG since poem
+          no 17 and the rogue stanza do not appear on the same page of the <title>Cancionero
+          general</title> until the 1517 edition, and in any case there is a major variant in the
+          penultimate line.</p>
+
+        <p>Although the occurrence, or co-occurrence, of poetic texts in various collections can be
+          used to establish textual and chronological relationships, there is a great deal more to
+          be learned from detailed study of the variants between these texts. One of the reasons
+          which led Patrick Gallagher to prefer CG readings to LB1 was the fact that, although
+          neither tradition, in his view, had more authority, the LB1 tradition was 'badly damaged
+          in this sole surviving copy by inaccurate and fragmentary transcription' (48). Carlos
+          Alvar's subsequent conclusion that LB1 postdates 1514 could be said to cast further doubt
+          on the reliability of the LB1 texts: if LB1 derives in some way from CG, why are so many
+          of the texts so different from each other? But the implicaton that LB1 is a poor copy of
+          CG is open to challenge when we come to consider differentially the degrees of variation
+          between LB1 and CG from poem to poem. This raises an interesting question about rates of
+          decay in the transmission of texts, and could provide the editor with another tool for
+          investigating and elucidating the nature of a <foreign>cancionero</foreign> anthology.</p>
+
+        <p>It is commonly accepted that every act of copying introduces changes, some voluntary and
+          some accidental. We might call this 'the law of textual entropy'. But textual entropy is
+          not constant; not all acts of copying will introduce the same amount of change, so that
+          there is no such thing as a textual 'half life', a constant rate at which texts will decay
+          through successive copying. But it might be reasonable to expect a single copyist who
+          copies several texts under similar circumstances to cause a much more constant rate of
+          decay, even allowing for variations in mood, tiredness, hunger and other working
+          conditions. If MS A shows a 10% divergence from its supposed exemplar B, whereas another
+          MS C shows a 30% divergence from the same supposed exemplar B, we might question whether C
+          did indeed derive from B, or at least whether it derived via the same route.</p>
+
+        <p>In the case of LB1 and CG, we find a range of divergence from poem to poem of between 10%
+          and 50%, <note n="15">In this case 'divergence' is measured in terms of the number of
+            lines which contain a variant other than an orthographic variant. Another way of
+            measuring divergence might be to compare the number of bytes which differ between texts.
+            Neither is ideal, because variants, whether orthographic or substantive, can differ
+            greatly in their significance. However, the method chosen may at least serve as an
+            approximate indicator of the order of magnitude of difference which exists between two
+            texts.</note> and it might be reasonable to ask whether this wide range of divergence
+          called into question whether all the MS texts derived from printed exemplars, or indeed
+          whether any of them did: 10% of lines with variants is in any case a high figure, as the
+          rate of variation between 11CG and 14CG, for example, which we know to be directly
+          related, is less than 1%. The importance of this line of argument can be seen in Figure
+          10, where the 14CG text is longer than that of 11CG and where the rate of divergence
+          between LB1 and 14CG is different in different parts of the poem:</p>
+
+        <table>
+          <row>
+            <cell>ll. 1-34, 49-94</cell>
+            <cell>43/79 lines different (54%)</cell>
+          </row>
+          <row>
+            <cell>ll. 35-48</cell>
+            <cell>8/14 lines different (57%)</cell>
+          </row>
+          <row>
+            <cell>ll. 95-129</cell>
+            <cell>10/35 lines different (28.5%)</cell>
+          </row>
+        </table>
+        <p>[Figure 10: requires 2-3 pages]</p>
+
+        <p>It would be reasonable to conclude from this evidence that it is very unlikely that
+          whoever copied this poem into LB1 ever saw Castillo's text, since the only possible
+          hypothesis - that he already had the short version and added the extra lines from
+          Castillo, just as Castillo had simply added extra lines to the 11CG version - is belied by
+          the markedly different rate of divergence between the two sections common to LB1 and 14CG.
+          Since there are no variants between 11CG and 14CG in the sections they have in common, we
+          might assume that, rather than reprint the new, longer text in its entirety, Castillo
+          simply added the new lines at the appropriate points in the 1511 text. This could affect
+          any conclusions which might be drawn from the above analysis of differential rates of
+          variation.</p>
+
+        <p>We should be wary, in any case, of imposing modern ideas and expectations about textual
+          transmission onto those of another period, especially when we have no clear idea of what
+          Castillo meant by 'ordenado y corregido por la mejor manera y diligencia que pude', and
+          when we note that he himself was aware of the lack of authority for some of his texts: 'no
+          fue en mi mano aver todas las obras que aqui van de los verdaderos originales o de cierta
+          relacion de los auctores que las hizieron'. Yet Castillo's finished product is (like
+          Palgrave's?) visually very impressive and, by implication, authoritative. His texts seem
+          to be the longest, the tidiest and metrically the most consistent, but are they
+          hyper-correct by contrast with other sources?</p>
+
+        <p>Furthermore, it will often not be possible to locate the 'verdaderos originales' for the
+          simple reason that the author never intended to produce a finished product, but rather an
+          open-ended scheme, which like the music of the period and that of today, would take as
+          many forms as it had performances. <note n="16"><bibl>Simon Gaunt, 'Orality and writing:
+              the text of the troubadour poem' in Simon Gaunt and Sarah Kay (eds.), <title>The
+                Troubadours. An Introduction</title> (Cambridge: Cambridge University Press), 1999,
+              228-45</bibl>.</note> Such a scheme is that of Garci Sánchez's <title>Infierno de
+            amores</title> (Dutton 0662), which consists of a sequence of stanzas each telling of
+          the sufferings of the most famous poets of the period, and ending with an injunction to
+          any gentleman who feels excluded to write himself a stanza. As this poem exists in at
+          least five sources it is possible to get an idea of the way in which it grew in response
+          to Garci Sánchez's invitation. In Table 4, 13*BI is a rare early <foreign>pliego
+          suelto</foreign> preserved in the Bibliothque Nationale and assigned by Norton to
+          Cromberger, Seville, 1511-1515, and SA10b is a late 15th-century anthology now in the
+          University of Salamanca. Note that SA10b is complete in that, although it is the shortest,
+          it has the stanza with the invitation; that the series A-H is unlikely to be a response to
+          the publication of the invitation in 11CG since parts of it appear in two other sources;
+          that the group 10,14,24,29 is absent from all versions except Castillo's; and the pairing
+          28+30 is common to all versions except CG, since Castillo makes the Don Sancho of stanza
+          30 the brother of Antonio de Velasco in stanza 29, whereas all the others make him the
+          brother of Diego de Castilla. The common sequences between LB1 and 13*BI are very
+          impressive and strongly indicate without recourse to variants that LB1 does not in this
+          case derive from CG.</p>
+
+        <p>[Table 4: requires 1 page]</p>
+
+        <p>Figure 11 shows just how cavalier the anthologist of 1500 could be towards his texts. The
+          Figures contrasts four stanzas from Garci Sánchez's poem 'A la ora en que mi fe' (Dutton
+          0687) as recorded in LB1 and 11CG. Very few stanzas from the LB1 text of this poem retain
+          anything like the correct prosodic structure of the poem, and yet there are very few
+          places where the text does not make sense. The reason seems to be that this is an example
+          of memorial transmission, since what has been lost is in almost all cases the structure of
+          the stanza, particularly the second half of each. Most stanzas preserve something like the
+          tight formal arrangement of the first six lines - abc, abc - but the second part with its
+          two <foreign>quebrados</foreign> has been elided into a straight prose account of the
+          sense. This is almost certainly because of the rarity of the form (Le Gentil notes only
+          six examples) which seems to have been enough to defeat someone who had not seen it
+          written down. It is most unlikely that the text could have been reduced to this condition
+          had it been copied from a written, still less printed, source. Yet the loss of the
+          prosodic structure does not in itself render the text useless, since there is nothing to
+          prevent the compiler having captured the sense more accurately than Castillo's neater
+          version; that kind of evaluation can only be made by looking at the variants themselves,
+          and there are a great many to be taken into account. <note n="17">In line 88, for example,
+            LB1 appears to have the better reading.</note>
+        </p>
+
+        <p>[Figure 11: requires 1 page]</p>
+
+        <p>It would be reasonable to draw a number of general and particular conclusions from this
+          discussion:</p>
+
+
+        <list type="unordered">
+
+          <item><foreign>cancionero</foreign> texts are not homogeneous and any statement about the
+            textual authority of one poem will not necessarily apply to the next</item>
+
+          <item>it is vital to look below the surface uniformity of the anthology to discern, as far
+            as is possible, the variety of exemplars which underlay the compilation of the
+            collection</item>
+
+          <item>although LB1 is more closely related to 11CG and 14CG than to any other source, the
+            differences are just as striking as the similarities</item>
+
+          <item>although LB1 may be more closely related to 14CG than to 11CG, there is no clear
+            evidence that LB1 postdates either 1511 or 1514</item>
+
+          <item>LB1 was compiled from a wide range of sources, some oral, some MS, and some printed</item>
+
+          <item>some of those sources, probably the majority, predate CG and were transmitted
+            independently of CG</item>
+
+          <item>no generalisations can be made about the relative authority of the CG and LB1
+            traditions in the case of Garci Sánchez de Badajoz, and probably other poets of the
+            period, and decisions about the relative authority of textual sources have to be made on
+            a poem-by-poem basis</item>
+
+          <item>the evidence of the various text traditions of Garci Sánchez de Badajoz suggests
+            that there is a large degree of textual variation between them</item>
+
+          <item>the degree of textual variation found in Garci Sánchez's sources could be evidence
+            of: extensive circulation of much larger numbers of MSS than those which have survived;
+            oral and/or sung transmission; relatively high degrees of <foreign>mouvance</foreign>
+            (textual instability) and/or <foreign>remaniement</foreign> (reworking) <note n="18"
+                ><bibl>Gaunt, 'Orality and writing', 229</bibl>.</note>
+          </item>
+
+          <item>in evaluating printed sources (such as CG) as against MS sources (such as LB1), care
+            must be taken to avoid anachronistic assessments of relative accuracy and authority,
+            since the pressure towards normalisation inherent in printed media may have led to
+            hyper-correction during the preparation of texts for the press.</item>
+        </list>
+
+
+        <p>Finally, Table 5 summarises my own best estimates of the likely sources of the Garci
+          Sánchez poems in LB1.</p>
+
+        <p>[Table 5: requires 1 page]</p>
+
+      </div>
+
+
+
+    </body>
+  </text>
+</TEI.2>

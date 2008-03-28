@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<!DOCTYPE authorityList SYSTEM "../../dtd/alist/AL_fileBase.dtd">
+<authorityList id="AL_fileBase" month="_unspecified" day="_unspecified" resp="ADD HERE" year="2003">
+  <header>
+    <title>Filebase for PROJNAME</title>
+    <changeNotes>
+      <changeItem>
+        <name/>
+        <p/>
+      </changeItem>
+    </changeNotes>
+    <comments>
+      <list>
+        <li>
+          <label>ROOT element</label>
+          <con>The date attributes specify the last edit date.</con>
+        </li>
+        <li>
+          <label>group</label>
+          <con>This groups elements according to the directories on the web-site. 'group' elements
+            can now have a 'print' attribute, because each NG is given a group element, before being
+            broken down into individual webpages, but the PDFs are for the whole NG.</con>
+        </li>
+      </list>
+    </comments>
+  </header>
+  <body>
+    <rhcontent value="on"/>
+    <theme/>
+    <group id="g0" default="p0" level="0">
+      <groupHead>
+        <groupTitle>Home</groupTitle>
+        <groupFolder/>
+        <rhcontent/>
+        <theme type01="th1"/>
+      </groupHead>
+      <item id="p0">
+        <router/>
+        <fileName>index</fileName>
+        <fileTitle>Home</fileTitle>
+        <rhcontent value="off"/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+    </group>
+    <group id="g1" default="p1_0" parRef="p0" level="2">
+      <groupHead>
+        <groupTitle>About</groupTitle>
+        <groupFolder>/about</groupFolder>
+        <rhcontent/>
+        <theme/>
+      </groupHead>
+      <item id="p1_0">
+        <router/>
+        <fileName>index</fileName>
+        <fileTitle>About ncse</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p1_1">
+        <router/>
+        <fileName>welcome</fileName>
+        <fileTitle>Welcome to ncse</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p1_2">
+        <router></router>
+        <fileName>technical</fileName>
+        <fileTitle>Technical Introduction</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel></rel>
+        </relations>
+        <notes>
+          <p></p>
+        </notes>
+        <internal>
+          <p></p>
+        </internal>
+      </item>
+      <item id="p1_3">
+        <router></router>
+        <fileName>help</fileName>
+        <fileTitle>FAQ and Help</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel></rel>
+        </relations>
+        <notes>
+          <p></p>
+        </notes>
+        <internal>
+          <p></p>
+        </internal>
+      </item>
+      <item id="p1_4">
+        <router></router>
+        <fileName>contact</fileName>
+        <fileTitle>Contact Us</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel></rel>
+        </relations>
+        <notes>
+          <p></p>
+        </notes>
+        <internal>
+          <p></p>
+        </internal>
+      </item>
+      <item id="p1_5">
+        <router></router>
+        <fileName>feedback</fileName>
+        <fileTitle>Feedback form</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel></rel>
+        </relations>
+        <notes>
+          <p></p>
+        </notes>
+        <internal>
+          <p></p>
+        </internal>
+      </item>
+      <item id="p1_6">
+        <router></router>
+        <fileName>thanks</fileName>
+        <fileTitle>Thank you</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel></rel>
+        </relations>
+        <notes>
+          <p></p>
+        </notes>
+        <internal>
+          <p></p>
+        </internal>
+      </item>
+      
+      <item id="idx03_auth">
+        <router/>
+        <fileName>idx_auth_03</fileName>
+        <fileTitle>Type03 Listing of Titles by Author</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="idx03_foreign">
+        <router/>
+        <fileName>idx_foreign_03</fileName>
+        <fileTitle>Keyword index type03</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <!--<item id="idx03_foreign_key">
+                <router/>
+                <fileName>idx_foreign_key_03</fileName>
+                <fileTitle>Keyword index type03 with Authority List</fileTitle>
+<rhcontent/>
+                <theme/><relations>
+                    <rel/>
+                </relations>
+                <notes>
+                    <p/>
+                </notes>
+                <internal>
+                    <p/>
+                </internal>
+            </item>-->
+    </group>
+    <group id="g2" default="p2_0" parRef="p0" level="2">
+      <groupHead>
+        <groupTitle>About section</groupTitle>
+        <groupFolder>/about</groupFolder>
+        <rhcontent/>
+        <theme/>
+      </groupHead>
+      <item id="p2_0">
+        <router/>
+        <fileName>index</fileName>
+        <fileTitle>About us</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+    </group>
+
+    <group id="g3">
+      <groupHead>
+        <groupTitle>Type02</groupTitle>
+        <groupFolder>/type02</groupFolder>
+        <rhcontent value="off"/>
+        <theme/>
+      </groupHead>
+
+    </group>
+    <group id="g3_01">
+      <groupHead>
+        <groupTitle>Type02 indices</groupTitle>
+        <groupFolder>/indices-type02</groupFolder>
+        <rhcontent value="off"/>
+        <theme/>
+      </groupHead>
+      <item id="idx02_auth">
+        <router/>
+        <fileName>idx_auth_02</fileName>
+        <fileTitle>Type02 Listing of Titles by Author</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="idx02_foreign">
+        <router/>
+        <fileName>idx_foreign_02</fileName>
+        <fileTitle>Keyword index type02</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+
+      <item id="idx02_foreign_az">
+        <router/>
+        <fileName>idx_foreign_az_02</fileName>
+        <fileTitle>A-Z Keyword index type02</fileTitle>
+        <rhcontent value="off"/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="idx02_foreign_key">
+        <router/>
+        <fileName>idx_foreign_key_02</fileName>
+        <fileTitle>Keyword index type02 with Authority List</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+    </group>
+    <group id="g4">
+      <groupHead>
+        <groupTitle>Type03</groupTitle>
+        <groupFolder>/type03</groupFolder>
+        <rhcontent/>
+        <theme value="th1"/>
+      </groupHead>
+
+    </group>
+    <group id="p_test" parRef="p0" level="2">
+      <groupHead>
+        <groupTitle>About section</groupTitle>
+        <groupFolder>/test</groupFolder>
+        <rhcontent/>
+        <theme/>
+      </groupHead>
+      <item id="test">
+        <router/>
+        <fileName>test</fileName>
+        <fileTitle>Test page- not for final output</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+    </group>
+  </body>
+</authorityList>

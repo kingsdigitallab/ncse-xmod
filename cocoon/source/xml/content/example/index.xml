@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2
+  SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p1_0">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Example: simple markup</title>
+                <title type="sub">Add subtitle here</title>
+                <author>AuthorFirstName AuthorSurname</author>
+                <respStmt>
+                    <resp>compiled by</resp>
+                    <name>CompilerFirstName CompilerSurname</name>
+                </respStmt>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
+        <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+        <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+      </address>
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2003-10-27</date>
+                <respStmt>
+                    <name>JG</name>
+                </respStmt>
+                <item>changed contents</item>
+            </change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <front>
+            <div part="N" sample="complete" org="uniform">
+                <head>Front Contents</head>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in justo. Sed risus
+                    odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede. Maecenas dignissim bibendum velit. Vivamus lacinia. Phasellus
+                    ultrices libero non lectus. In vel nulla a ligula venenatis cursus. Nam et ipsum. Cum sociis natoque penatibus et magnis dis
+                    parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                    egestas. Fusce gravida blandit turpis. Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec
+                    purus arcu, scelerisque non, convallis vitae, tincidunt et, tellus.</p>
+            </div>
+        </front>
+        <body>
+
+            <head>Body Contents</head>
+            
+            <div part="N" sample="complete" org="uniform">
+                <head>Heading 2</head>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in justo. Sed risus
+                    odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede. Maecenas dignissim bibendum velit. Vivamus lacinia. Phasellus
+                    ultrices libero non lectus. In vel nulla a ligula venenatis cursus. Nam et ipsum. Cum sociis natoque penatibus et magnis dis
+                    parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                    egestas. Fusce gravida blandit turpis. Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec
+                    purus arcu, scelerisque non, convallis vitae, tincidunt et, tellus.</p>
+                <div part="N" sample="complete" org="uniform">
+                    <head>Heading 3</head>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in justo. Sed risus
+                        odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede. Maecenas dignissim bibendum velit. Vivamus lacinia.
+                        Phasellus ultrices libero non lectus. In vel nulla a ligula venenatis cursus. Nam et ipsum. Cum sociis natoque penatibus et
+                        magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                        fames ac turpis egestas. Fusce gravida blandit turpis. Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum
+                        vitae, turpis. Donec purus arcu, scelerisque non, convallis vitae, tincidunt et, tellus.</p>
+                    <div part="N" sample="complete" org="uniform">
+                        <head>Heading 4</head>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in justo. Sed
+                            risus odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede. Maecenas dignissim bibendum velit. Vivamus
+                            lacinia. Phasellus ultrices libero non lectus. In vel nulla a ligula venenatis cursus. Nam et ipsum. Cum sociis natoque
+                            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus
+                            et malesuada fames ac turpis egestas. Fusce gravida blandit turpis. Curabitur lectus turpis, adipiscing nec, pellentesque
+                            eu, vestibulum vitae, turpis. Donec purus arcu, scelerisque non, convallis vitae, tincidunt et, tellus.</p>
+                        <div part="N" sample="complete" org="uniform">
+                            <head>Heading 5</head>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in justo.
+                                Sed risus odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede. Maecenas dignissim bibendum velit. Vivamus
+                                lacinia. Phasellus ultrices libero non lectus. In vel nulla a ligula venenatis cursus. Nam et ipsum. Cum sociis
+                                natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique
+                                senectus et netus et malesuada fames ac turpis egestas. Fusce gravida blandit turpis. Curabitur lectus turpis,
+                                adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec purus arcu, scelerisque non, convallis vitae,
+                                tincidunt et, tellus.</p>
+                            <div part="N" sample="complete" org="uniform">
+                                <head>Heading 6</head>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in
+                                    justo. Sed risus odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede. Maecenas dignissim bibendum
+                                    velit. Vivamus lacinia. Phasellus ultrices libero non lectus. In vel nulla a ligula venenatis cursus. Nam et
+                                    ipsum. <anchor id="anchor1"></anchor>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce gravida
+                                    blandit turpis. Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec purus
+                                    arcu, scelerisque non, convallis vitae, tincidunt et, tellus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><div part="N" sample="complete" org="uniform"><head>Right hand content</head><p>Right hand content is on for the site. The exceptions are: <xref type="internal" from="p0" to="DITTO" targOrder="U">home</xref>, the first page of <xref type="internal" url="ng003-01" from="g4" to="DITTO" targOrder="U">ng003</xref>, the group g3 in filebase which consists of the type02 pages and the group g3_01 in filebase which consists of the type01 pages surrounding type02, ie <xref from="idx02_auth" type="internal" to="DITTO" targOrder="U">type02 index</xref> and following. <xref type="internal" url="tp001" from="g3" to="DITTO" targOrder="U">Test_II_01</xref>, is defined as on in the xml file, overriding the off stated in filebase of the group g3.</p></div>
+            
+            
+                        
+            
+            
+            
+            <div part="N" sample="complete" org="uniform">
+                <head>Links</head>
+                <p>External to the site:</p>
+                <list type="bulleted">
+                    <item>Link to an external site, <xref url="http://www.google.com" to="DITTO" type="external" from="ROOT" targOrder="U">the google search engine</xref>. Default in the same window.</item><item>Link to an external site, <xref url="http://www.google.com" rend="newWindow" to="DITTO" type="external" from="ROOT" targOrder="U">the google search engine</xref>, in an external window</item>
+                    <item>Link to the same external site <xptr type="external" from="http://www.google.com" to="DITTO" targOrder="U"></xptr>, this time using &lt;xptr&gt;</item>
+                    <item>Link to an <xref type="email" url="paul.spence@kcl.ac.uk" to="DITTO" from="ROOT" targOrder="U">email</xref></item>
+                </list>
+                <p>Internal to the site:</p>
+                <list type="bulleted">
+                    <item>Link to <xref type="internal" from="p1_1" to="DITTO" targOrder="U">another page</xref> internal to the site (type01)</item><item>Link to <xref type="internal" from="p1_1" rend="newWindow" to="DITTO" targOrder="U">another page</xref> internal to the site and in new window (type01)</item>
+                    <item>Link to <xref type="internal" from="g3" url="tp002" to="DITTO" targOrder="U">another page</xref> internal to the site (type02)</item>
+                  <item>Link to <xref type="internal" from="g4" url="p4_ng003_07" to="DITTO" targOrder="U">another page</xref> internal to the site (type03)</item>
+                    <item>Link to <xref type="internal" from="p1_1" to="DITTO" targOrder="U">another page</xref> internal to the site (type04)</item>
+                </list>
+                <p>Internal to the page:</p>
+                <list type="bulleted">
+                    <item>Link <ref target="anchor1" targOrder="U">internal to this page</ref>, using a pointer to an anchor</item>
+                    <item>Link <ref target="anchor2" targOrder="U">internal to this page</ref>, using a pointer to a paragraph</item>
+                    <item>Link <ref target="anchor3" targOrder="U">internal to this page</ref>, using a pointer to a division header</item>
+                </list>
+            </div><div type="box" part="N" sample="complete" org="uniform">
+                <head>Box Header</head>
+                <p>Box paragraph</p>
+                <list id="anchor2" type="bulleted">
+                    <item>list item 1</item>
+                    <item>list item 2</item>
+                    <item>list item 3</item>
+                </list>
+            </div><div type="section" n="1" part="N" sample="complete" org="uniform">
+                <head>Normal text with footnotes</head>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in justo. Sed risus
+                    odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede. Maecenas dignissim bibendum velit. Vivamus lacinia. Phasellus
+                    ultrices libero non lectus. In vel nulla a ligula venenatis cursus. Nam et ipsum. Cum sociis natoque penatibus et magnis dis
+                    parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                    egestas. Fusce gravida blandit turpis. Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec
+                    purus arcu, scelerisque non, convallis vitae, tincidunt et, tellus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Donec porta ligula vitae nibh. Sed malesuada erat in justo. Sed risus odio, imperdiet sit amet, malesuada at, hendrerit sit amet,
+                    pede. Maecenas dignissim bibendum velit. Vivamus lacinia. Phasellus ultrices libero non lectus. In vel nulla a ligula venenatis
+                        cursus.<note place="unspecified" anchored="yes">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</note> Nam et ipsum. Cum sociis natoque penatibus et
+                    magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                    ac turpis egestas. Fusce gravida blandit turpis. Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae,
+                    turpis. Donec purus arcu, scelerisque non, convallis vitae, tincidunt et, tellus. Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in justo.<note place="unspecified" anchored="yes">Sed risus odio, imperdiet sit amet, malesuada
+                        at, hendrerit sit amet, pede. Maecenas dignissim bibendum velit. Vivamus lacinia. Phasellus ultrices libero non lectus. In vel
+                        nulla a ligula venenatis cursus. Nam et ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                        ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce gravida
+                        blandit turpis. Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec purus arcu,
+                        scelerisque non, convallis vitae, tincidunt et, tellus.</note> Sed risus odio, imperdiet sit amet, malesuada at, hendrerit sit
+                    amet, pede. Maecenas dignissim bibendum velit. Vivamus lacinia. Phasellus ultrices libero non lectus. In vel nulla a ligula
+                    venenatis cursus.</p>
+                <q direct="unspecified">Nam et ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi
+                    tristique senectus et netus et malesuada fames ac turpis egestas. Fusce gravida blandit turpis. Curabitur lectus turpis,
+                    adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec purus arcu, scelerisque non, convallis vitae, tincidunt et,
+                        tellus.<note place="unspecified" anchored="yes">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in
+                        justo. Sed risus odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede.</note></q>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in justo. Sed risus
+                    odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede. Maecenas dignissim bibendum velit. Vivamus lacinia. Phasellus
+                    ultrices libero non lectus. In vel nulla a ligula venenatis cursus.<note place="unspecified" anchored="yes">Nam et ipsum. Cum sociis natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                        turpis egestas. Fusce gravida blandit turpis.</note> Nam et ipsum. Cum sociis natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                    Fusce gravida blandit turpis. Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec purus
+                    arcu, scelerisque non, convallis vitae, tincidunt et, tellus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+                    porta ligula vitae nibh. Sed malesuada erat in justo. Sed risus odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede.
+                    Maecenas dignissim bibendum velit. Vivamus lacinia. Phasellus ultrices libero non lectus. In vel nulla a ligula venenatis cursus.
+                    Nam et ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi
+                    tristique senectus et netus et malesuada fames ac turpis egestas. Fusce gravida blandit turpis.<note place="unspecified" anchored="yes">Curabitur lectus turpis,
+                        adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec purus arcu, scelerisque non, convallis vitae, tincidunt et,
+                        tellus.</note> Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec purus arcu,
+                    scelerisque non, convallis vitae, tincidunt et, tellus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta
+                    ligula vitae nibh. Sed malesuada erat in justo. Sed risus odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede.
+                    Maecenas dignissim bibendum velit. Vivamus lacinia. Phasellus ultrices libero non lectus. In vel nulla a ligula venenatis cursus.
+                    Nam et ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi
+                    tristique senectus et netus et malesuada fames ac turpis egestas. Fusce gravida blandit turpis. Curabitur lectus turpis,
+                    adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec purus arcu, scelerisque non, convallis vitae, tincidunt et,
+                        tellus.<note place="unspecified" anchored="yes">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in
+                        justo. Sed risus odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede.</note></p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in justo. Sed risus
+                    odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede. Maecenas dignissim bibendum velit. Vivamus lacinia. Phasellus
+                    ultrices libero non lectus. In vel nulla a ligula venenatis cursus. Nam et ipsum. Cum sociis natoque penatibus et magnis dis
+                    parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                    egestas. Fusce gravida blandit turpis. Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec
+                    purus arcu, scelerisque non, convallis vitae, tincidunt et, tellus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Donec porta ligula vitae nibh. Sed malesuada erat in justo. Sed risus odio, imperdiet sit amet, malesuada at, hendrerit sit amet,
+                    pede. Maecenas dignissim bibendum velit. Vivamus lacinia. Phasellus ultrices libero non lectus. In vel nulla a ligula venenatis
+                        cursus.<note place="unspecified" anchored="yes">Nam et ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque
+                        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce gravida blandit turpis. Curabitur
+                        lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae, turpis.</note> Nam et ipsum. Cum sociis natoque penatibus et
+                    magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                    ac turpis egestas. Fusce gravida blandit turpis. Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae,
+                    turpis. Donec purus arcu, scelerisque non, convallis vitae, tincidunt et, tellus. Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in justo. Sed risus odio, imperdiet sit amet, malesuada at,
+                    hendrerit sit amet, pede. Maecenas dignissim bibendum velit. Vivamus lacinia. Phasellus ultrices libero non lectus. In vel nulla a
+                    ligula venenatis cursus. Nam et ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce gravida blandit turpis.
+                    Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec purus arcu, scelerisque non, convallis
+                    vitae, tincidunt et, tellus.<note place="unspecified" anchored="yes">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta ligula vitae nibh. Sed
+                        malesuada erat in justo. Sed risus odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede. Maecenas dignissim
+                        bibendum velit.</note></p>
+                <p id="anchor3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in justo.
+                    Sed risus odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede. Maecenas dignissim bibendum velit. Vivamus lacinia.
+                    Phasellus ultrices libero non lectus. In vel nulla a ligula venenatis cursus. Nam et ipsum. Cum sociis natoque penatibus et magnis
+                    dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                    turpis egestas. Fusce gravida blandit turpis. Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae, turpis.
+                    Donec purus arcu, scelerisque non, convallis vitae, tincidunt et, tellus. Lorem ipsum dolor sit amet, consectetuer adipiscing
+                    elit. Donec porta ligula vitae nibh. Sed malesuada erat in justo. Sed risus odio, imperdiet sit amet, malesuada at, hendrerit sit
+                    amet, pede. Maecenas dignissim bibendum velit. Vivamus lacinia. Phasellus ultrices libero non lectus. In vel nulla a ligula
+                    venenatis cursus. Nam et ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                        mus.<note place="unspecified" anchored="yes">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce gravida blandit
+                        turpis. Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae, turpis.</note> Pellentesque habitant morbi
+                    tristique senectus et netus et malesuada fames ac turpis egestas. Fusce gravida blandit turpis. Curabitur lectus turpis,
+                    adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec purus arcu, scelerisque non, convallis vitae, tincidunt et,
+                    tellus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in justo. Sed
+                    risus odio, imperdiet sit amet, malesuada at, hendrerit sit amet, pede. Maecenas dignissim bibendum velit. Vivamus lacinia.
+                    Phasellus ultrices libero non lectus. In vel nulla a ligula venenatis cursus. Nam et ipsum. Cum sociis natoque penatibus et magnis
+                    dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                    turpis egestas. Fusce gravida blandit turpis. Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae, turpis.
+                    Donec purus arcu, scelerisque non, convallis vitae, tincidunt et, tellus.</p>
+                <p><hi rend="bold">Fusce gravida blandit turpis.</hi> Curabitur lectus turpis, adipiscing nec, pellentesque eu, vestibulum vitae,
+                    turpis. Donec purus arcu, scelerisque non, convallis vitae, tincidunt et, tellus. Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit. Donec porta ligula vitae nibh. Sed malesuada erat in justo. Sed risus odio, imperdiet sit amet, malesuada at,
+                    hendrerit sit amet, pede. Maecenas dignissim bibendum velit. Vivamus lacinia. <hi rend="italic">Phasellus ultrices libero non lectus.</hi> In
+                    vel nulla a ligula venenatis cursus. Nam et ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce gravida blandit
+                    turpis. <hi rend="bolditalic">Curabitur lectus turpis</hi>, adipiscing nec, pellentesque eu, vestibulum vitae, turpis. Donec purus
+                    arcu, scelerisque non, convallis vitae, tincidunt et, tellus.</p>
+                <div part="N" sample="complete" org="uniform">
+                    <head>Pre-formatted text</head>
+                    <p rend="pre"> &lt;xsl:when test="@rend='pre'"&gt; &lt;pre&gt; &lt;xsl:apply-templates/&gt;
+                        &lt;/pre&gt; &lt;/xsl:when&gt;</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </body>
+        <back>
+            <div part="N" sample="complete" org="uniform">
+                <head>Back Contents: Bibliography</head>
+                <div part="N" sample="complete" org="uniform">
+                    <head>Primary</head>
+                    <listBibl default="NO">
+                        <bibl default="NO">AuthorFirstName, <title level="a">article title</title>, <title level="j">journal title</title>, pp abc-xyz.</bibl>
+                        <bibl default="NO">And a book with a <title>title</title></bibl>
+                        <bibl default="NO">And a book with a <title>title</title></bibl>
+                    </listBibl>
+                </div>
+                <div part="N" sample="complete" org="uniform">
+                    <head>Secondary</head>
+                    <listBibl default="NO">
+                        <bibl default="NO">And a book with a <title>title</title></bibl>
+                        <bibl default="NO">And a book with a <title>title</title></bibl>
+                        <bibl default="NO">And a book with a <title>title</title></bibl>
+                    </listBibl>
+                </div>
+            </div>
+            <div type="glossary" part="N" sample="complete" org="uniform">
+                <head>Back Contents: Glossary</head>
+                <list type="gloss">
+                    <headLabel>Glossary label head</headLabel>
+                    <headItem>Glossary<hi rend="italic"> item </hi>head</headItem>
+                    <label>label1</label>
+                    <item>item1</item>
+                    <label>label2</label>
+                    <item>item2</item>
+                    <label>label3</label>
+                    <item>item4</item>
+                </list>
+            </div>
+        </back>
+    </text>
+</TEI.2>

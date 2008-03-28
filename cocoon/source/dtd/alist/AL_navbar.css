@@ -1,0 +1,290 @@
+/* ============================================================
+CSS file for fileBase
+  last changed PJS 2003-05-20 @ 10:25
+============================================================ */
+
+/* Use Times New Roman for default font */
+$DOCUMENT
+{
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+$COMMENT {
+  display: block;
+  color: purple;
+  white-space: pre;
+}
+
+$PROCINS {
+  color: black;
+  background-color: #c0c0c0;
+}
+
+
+/* ######################################################## */
+/* ################ ROOT ##################### */
+/* ######################################################## */
+
+authorityList:before {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  content: "Last edited attr(year) - attr(month) - attr(day) attr(resp)" ;
+  background-color: #cc0000;
+  color: #ffffff;
+  border: thin solid black;
+}
+
+/* ######################################################## */
+/* ################ HEADER ##################### */
+/* ######################################################## */
+
+
+header {
+  display: block;
+  color: #ffffff;
+  background-color: #ffcccc;
+  border: thin black solid;
+  margin-bottom: 2em;
+
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+title {
+  display: block;
+  font-weight: bold;
+  font-size: 24pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2em;
+  margin-right: 2em;
+  border: thin black solid;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+changeNotes {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: thin black solid;
+  color: #000000;
+  background-color: #cccccc;
+}
+
+comments {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: thin black solid;
+  color: #000000;
+  background-color: #cccccc;
+  font-style: "Courier";
+  font-size: 10pt;
+}
+
+
+changeItem {
+  display: block;
+  background-color: #ffffff;
+}
+
+
+
+/* ######################################################## */
+/* ################ GROUP SECTIONS ##################### */
+/* ######################################################## */
+
+navGroup {
+  display: block;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  border: thin black solid;
+  background-color: #dddddd;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+layout {
+  display: block;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  border: thin black solid;
+  background-color: #cccccc;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+layout:before {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  content: " [id]: " attr(id) ;
+  background-color: #cc0000;
+  color: #ffffff;
+  border: thin solid black;
+}
+
+
+/* ######################################################## */
+/* ################ MAIN SECTIONS ##################### */
+/* ######################################################## */
+
+level01 {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ffff99;
+  border: thin black solid;
+ }
+
+level02 {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: #ffffcc;
+  border: thin black solid;
+ }
+
+level03 {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: #fffff0;
+  border: thin black solid;
+ }
+
+level04 {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: #ffffff;
+  border: thin black solid;
+ }
+
+/* ########## */
+
+break {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: thin black solid;
+ }
+
+line {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #000000;
+  border: thin black solid;
+ }
+
+heading {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: thin black solid;
+ }
+
+/* ########## */
+
+default {
+  display: block;
+}
+
+active {
+  display: block;
+}
+
+sub02 {
+  display: block;
+}
+
+sub03 {
+  display: block;
+}
+
+sub04 {
+  display: block;
+}
+
+
+/* ########## */
+
+router {
+  display: block;
+}
+
+fileName {
+  display: block;
+}
+
+fileTitle {
+  display: block;
+}
+
+relations {
+  display: block;
+}
+
+notes {
+  display: block;
+}
+
+internal {
+  display: block;
+}
+
+/*
+router:before {
+  display: inline;
+  content: " [level: " attr(level) "]  ";
+  background-color: #ccffff;
+  color: #000000;
+}
+*/
+
+/* ######################################################## */
+/* ################ BLOCK AND PHRASE LEVEL ##################### */
+/* ######################################################## */
+
+p {
+  display: block;
+ }
+
+li {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+ }
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+con {
+  display: block;
+ }
+
+url {
+  color: #0000ff;
+ }
+
+/* ###################   END   ######################### */

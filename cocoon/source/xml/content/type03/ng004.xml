@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../../dtd/tei/cch_tei.dtd" >
+<TEI.2 id="g4_ng004" n="" type="key" rend="type03"> 
+  <teiHeader> 
+	 <fileDesc> 
+		<titleStmt> 
+		  <title>Navigation Guide</title><title type="sub">Employment</title> 
+		  <author><name type="foreName">Kirsteen</name> <name type="surname">Tait</name></author></titleStmt> 
+		<publicationStmt> 
+		  <p><date>July 2003</date></p> 
+		</publicationStmt> 
+		<sourceDesc> 
+		  <bibl><?xm-replace_text {bibl}?></bibl> 
+		  <p></p> 
+		</sourceDesc> 
+	 </fileDesc> 
+	  
+  </teiHeader> 
+  <text id="p4_ng004"> 
+	 <group> 
+		<text id="p4_ng004_00"> 
+		  <body><head>About the author</head><div type="about"> 
+			 <p><name>Anasthasia </name></p></div> 
+		  </body></text> 
+		 
+	 </group> 
+  </text></TEI.2>

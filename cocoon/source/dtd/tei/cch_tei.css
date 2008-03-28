@@ -1,0 +1,1533 @@
+/* ============================================================
+   CCH-TEI.CSS
+
+   C:\user\ICAR\01-process\dtds\tei\CCH-TEI.CSS
+   Loosely adapted from:  CSS2 specification for TEI OUCS DTD
+
+   last changed PJS 2003-05-29 @ 19:46
+   ============================================================ */
+
+/* Use Times New Roman for default font */
+$DOCUMENT
+{
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+$COMMENT {
+  display: block;
+  color: purple;
+  white-space: pre;
+}
+
+$PROCINS {
+  color: black;
+  background-color: #c0c0c0;
+}
+
+/* ######################################################## */
+/* ################ TEI.2 ##################### */
+/* ######################################################## */
+
+TEI\.2:before {
+  content: "[id]: " attr(id) " [n]: " attr(n);
+  color: #FFFFFF;
+  background-color: #CC0000;
+  font-size: 14pt;
+}
+
+
+/* ######################################################## */
+/* ################ HEADER ##################### */
+/* ######################################################## */
+
+
+teiHeader {
+  display: block;
+  color: #000000;
+  background-color: #99CCCC;
+  border: thin black solid;
+  margin-bottom: 2em;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+titleStmt > author {
+  display: block;
+  margin-bottom: 1em;
+}
+
+authority {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+availability {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+
+fileDesc {
+  display: block;
+  margin-bottom: 1em;
+}
+
+sourceDesc {
+  display: block;
+  border: thin black solid;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+revisionDesc {
+  display: block;
+  margin-bottom: 1em;
+}
+catDesc {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+
+encodingDesc {
+  display: block;
+  margin-bottom: 1em;
+}
+
+profileDesc {
+  display: block;
+  margin-bottom: 1em;
+}
+
+projectDesc {
+  display: block;
+  margin-bottom: 1em;
+}
+
+
+        
+docDate {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+    
+docImprint docDate {
+  display: inline;
+}
+
+    
+docEdition {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+docImprint {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+docTitle {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+
+/* ######################################################## */
+/* ################ MAIN SECTIONS ##################### */
+/* ######################################################## */
+
+group {
+  display: block;
+  margin-bottom: 1em;
+  border: thin black solid;
+  background-color: #cccccc;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+group>group {
+  display: block;
+  margin-bottom: 1em;
+  background-color: #dddddd;
+  color: #000000;
+}
+
+group>group>group {
+  display: block;
+  margin-bottom: 1em;
+  background-color: #ff33ff;
+  color: #000000;
+}
+
+group>text {
+  display: block;
+  margin-bottom: 1em;
+  border: thin black solid;
+  background-color: #fffff0;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+text {
+  display: block;
+  margin-bottom: 1em;
+  border: thin black solid;
+  background-color: #fffff0;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+text:before {
+  content: "[id]: " attr(id);
+  color: #FFFFFF;
+  background-color: #ff0000;
+  font-size: 12pt;
+}
+
+/* ######################################################## */
+/* ################ DOCUMENT TITLE ##################### */
+/* ######################################################## */
+
+body > head {
+  display: block;
+  font-size: 16pt;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #666699;
+  color: #ffffff;
+  border: thin black solid;
+}
+
+/* ######################################################## */
+/* ################ DIVISION HEADINGS ##################### */
+/* ######################################################## */
+
+body {
+  font-family: serif;
+  font-size: 12pt;
+  margin-top: 5px;
+  margin-left: 5px;
+  display: block;
+}
+
+head[type="subordinate"] {
+  display: block;
+  margin-bottom: 1em;
+  font-size: 12pt;
+  background-color: #cccccc;
+  color: #fffffd;
+  border: thin black solid;
+}
+
+div[type="box"] {
+  display: block; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: thin black solid;
+  background-color: #ddddcc;
+  color: #000000;
+}
+
+
+/* FIRST LEVEL OF DIVS */
+/* ___________________ */
+
+body>div {
+  display: block; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  counter-increment: section1;
+  counter-reset: section2;
+  border: thin black solid;
+  background-color: #fffff0;
+}
+body>div:before {
+  content: "[" counter(section1) "] ";
+  background-color: #ff9933;
+  color: #000000;
+  font-size: 12pt;
+  font-weight: bold;
+}
+body>div>head {
+  display: block;
+  margin-bottom: 1em;
+  font-size: 16pt;
+  color: #CC0000;
+  border: thin black solid;
+}
+body>div>head:before {
+  color: #000000;
+}
+
+/* SECOND LEVEL OF DIVS */
+/* ___________________ */
+
+body>div>div {
+  display: block; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  counter-increment: section2;
+  counter-reset: section3;
+}
+body>div>div:before {
+  content: "[" counter(section1) ". " counter(section2) "] ";
+  background-color: #ff9933;
+  color: #000000;
+  font-size: 8pt;
+  font-weight: bold;
+} 
+body>div>div>head {
+  display: block;
+  margin-bottom: 1em;
+  font-size: 14pt;
+  background-color: #666666;
+  color: #ffffff;
+  border: thin black solid;
+}
+body>div>div>head:before {
+  color: #000000;
+}
+
+/* THIRD LEVEL OF DIVS */
+/* ___________________ */
+
+body>div>div>div {
+  display: block; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  counter-increment: section3;
+  counter-reset: section4;
+} 
+body>div>div>div:before {
+  content: "[" counter(section1) "-" counter(section2) "-" counter(section3, lower-roman) "] ";
+  background-color: #ff9933;
+  color: #000000;
+  font-size: 8pt;
+  font-weight: bold;
+} 
+body>div>div>div>head:before {
+  color: #000000;
+}
+body>div>div>div>head {
+  background-color: #999999;
+  color: #ffffff;
+  font-size:14pt;
+  font-weight: bold;
+  display: block;
+  border: thin black solid;
+}
+
+/* FOURTH LEVEL OF DIVS */
+/* ___________________ */
+
+body>div>div>div>div {
+  display: block; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  counter-increment: section4;
+  counter-reset: section5;
+} 
+body>div>div>div>div:before {
+  content: "[" counter(section1) "-" counter(section2) "-" counter(section3, lower-roman) "-" counter(section4, lower-alpha) "] ";
+  background-color: #ff9933;
+  color: #000000;
+  font-size: 8pt;
+  font-weight: bold;
+} 
+body>div>div>div>div>head:before {
+  color: #000000;
+}
+body>div>div>div>div>head {
+  background-color: #dddddd;
+  color: #000000;
+  font-size:12pt;
+  font-weight: bold;
+  display: block;
+  border: thin black solid;
+}
+
+/* FIFTH LEVEL OF DIVS */
+/* ___________________ */
+
+body>div>div>div>div>div {
+  display: block; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  counter-increment: section5;
+  counter-reset: section6;
+} 
+body>div>div>div>div>div:before {
+  content: "[" counter(section1) "-" counter(section2) "-" counter(section3, lower-roman) "-" counter(section4, lower-alpha) "-" counter(section5, lower-roman) "] ";
+  background-color: #ffcc99;
+  color: #000000;
+  font-size: 8pt;
+  font-weight: bold;
+} 
+body>div>div>div>div>div>head:before {
+  color: #000000;
+}
+body>div>div>div>div>div>head {
+  background-color: #cccccc;
+  color: #000000;
+  font-size:12pt;
+  font-weight: bold;
+  display: block;
+  border: thin black solid;
+}
+
+/* SIXTH LEVEL OF DIVS */
+/* ___________________ */
+
+body>div>div>div>div>div>div {
+  display: block; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  counter-increment: section6;
+  counter-reset: section7;
+} 
+body>div>div>div>div>div>div:before {
+  content: "[" counter(section1) "-" counter(section2) "-" counter(section3, lower-roman) "-" counter(section4, lower-alpha) "-" counter(section5, lower-roman) "-" counter(section6) "] ";
+  background-color: #ffcc99;
+  color: #000000;
+  font-size: 8pt;
+  font-weight: bold;
+} 
+body>div>div>div>div>div>div>head:before {
+  color: #000000;
+}
+body>div>div>div>div>div>div>head {
+  background-color: #cccccc;
+  color: #000000;
+  font-size:12pt;
+  font-weight: bold;
+}
+
+/* SEVENTH LEVEL OF DIVS */
+/* ___________________ */
+
+body>div>div>div>div>div>div>div {
+  display: block; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  counter-increment: section7;
+  counter-reset: section8;
+} 
+body>div>div>div>div>div>div>div:before {
+  content: "[" counter(section1) "-" counter(section2) "-" counter(section3, lower-roman) "-" counter(section4, lower-alpha) "-" counter(section5, lower-roman) "-" counter(section6) "-" counter(section7, lower-alpha) "] ";
+  background-color: #ffcc99;
+  color: #000000;
+  font-size: 8pt;
+  font-weight: bold;
+} 
+body>div>div>div>div>div>div>div>head:before {
+  color: #000000;
+}
+body>div>div>div>div>div>div>div>head {
+  background-color: #cccccc;
+  color: #000000;
+  font-size:12pt;
+  font-weight: bold;
+}
+
+/* EIGHTH LEVEL OF DIVS */
+/* ___________________ */
+
+body>div>div>div>div>div>div>div>div {
+  display: block; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  counter-increment: section8;
+  counter-reset: section9;
+} 
+body>div>div>div>div>div>div>div>div:before {
+  content: "[" counter(section1) "-" counter(section2) "-" counter(section3, lower-roman) "-" counter(section4, lower-alpha) "-" counter(section5, lower-roman) "-" counter(section6) "-" counter(section7, lower-alpha) "-" counter(section8, lower-roman) "] ";
+  background-color: #ffcc99;
+  color: #000000;
+  font-size: 8pt;
+  font-weight: bold;
+} 
+body>div>div>div>div>div>div>div>div>head:before {
+  color: #000000;
+}
+body>div>div>div>div>div>div>div>div>head {
+  background-color: #cccccc;
+  color: #000000;
+  font-size:12pt;
+  font-weight: bold;
+}
+
+/* NINTH LEVEL OF DIVS */
+/* ___________________ */
+
+body>div>div>div>div>div>div>div>div>div {
+  display: block; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  counter-increment: section9;
+  counter-reset: section10;
+} 
+body>div>div>div>div>div>div>div>div>div:before {
+  content: "WARNING: NEED NEW COUNTERS IN STYLESHEET AT THIS LEVEL!";
+  color: #ff0000;
+  font-size: 8pt;
+  font-weight: bold;
+} 
+body>div>div>div>div>div>div>div>div>div>head:before {
+  color: #000000;
+}
+body>div>div>div>div>div>div>div>div>div>head {
+  background-color: #cccccc;
+  color: #000000;
+  font-size:12pt;
+  font-weight: bold;
+}
+
+
+
+/* ######################################################## */
+/* ################ BLOCK-LEVEL ##################### */
+/* ######################################################## */
+
+/* --------------- */
+/*  PARAS  */
+/* --------------- */
+
+p {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+p[rend="pre"] {
+  display: block;
+  margin-bottom: 0.5em;
+  color: #000000;
+  background-color: #99CCCC;
+  border: thin black solid;
+}
+
+p[rend="comment"] {
+  display: block;
+  margin-bottom: 0.5em;
+  margin-left: 3em;
+  margin-right: 3em;
+  color: #000000;
+  background-color: #cccccc;
+}
+
+/* --------------- */
+/*  LISTS  */
+/* --------------- */
+
+list {
+  list-style-type: disc;
+  list-style-position: outside;
+  display: block;
+  list-style-type: none;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+    
+list[rend="runon"] {
+  display: inline;
+}
+
+    
+list[type="bulleted"] {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+list[type="unordered"] {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+    
+list[type="ordered"] {
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+
+    
+list[type="numbered"] {
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+
+label {
+  display: inline;
+  font-weight: bold;
+}
+
+
+/* --------------- */
+/*  TABLES  */
+/* --------------- */
+
+table {
+  margin-bottom: 2em;
+  margin-top: 2em;  
+  text-align: left;
+  display: table;
+  margin-left: 2em;
+  margin-right: 2em;
+    padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  color: black;
+  background-color: #eeeeee;
+  border: thin black solid;
+}
+  
+row {
+  display: table-row;
+}
+
+cell {
+  display: table-cell;
+}
+
+cell[role="label"] {
+  display: table-cell;
+  background-color: #cccccc;
+  font-weight: bold;
+}
+
+
+/* --------------- */
+/*  ADDRESSES  */
+/* --------------- */
+
+address {
+  display: block;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+addrLine {
+  display: block;
+  white-space: nowrap;
+}
+
+/* --------------- */
+/*  BIBLIO  */
+/* --------------- */
+
+listBibl {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+biblGroup {
+  display: block; 
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: thin black solid;
+  background-color: #FFFF99;
+}
+
+bibl {
+  display: block; 
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: thin black solid;
+  background-color: #fffff0;
+}
+
+wip {
+  display: block; 
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: thin black solid;
+  background-color: #fffff0;
+}
+
+album {
+  display: block; 
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: thin black solid;
+  background-color: #fffff0;
+}
+
+listBibl>bibl {
+  display: list-item;
+  list-style-type: disc;
+}
+
+title {
+  display: inline;
+}
+
+author {
+  display: inline;
+}
+
+/* --------------- */
+/*  QUOTATIONS  */
+/* --------------- */
+
+q {
+  display: inline;
+  quotes: '"' '"' "'" "'";
+  margin-top: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-bottom: 0em;
+  background-color: #eeeeee;
+  color: #000000;
+}
+
+q[rend="display"], argument > q, body > q, cit > q, div > q, div0 > q, div1 > q, div2 > q, div3 > q, div4 > q, div5 > q, div6 > q, div7 > q, epigraph > q {
+  display: block;
+  margin-bottom: 0.5em;
+  margin-left: 3em;
+  margin-right: 3em;
+  quotes: none;
+}
+    
+q:before {
+  content: open-quote;
+}
+    
+q:after {
+  content: close-quote;
+}
+
+/* ######################################################## */
+/* ################ PHRASE LEVEL ##################### */
+/* ######################################################## */
+
+/* --------------- */
+/*  FOOTNOTES  */
+/* --------------- */
+
+note {
+  display: block;
+  border: thin black solid;
+  font-size: 75%;
+  background-color: #FFCCCC;
+  color: #000000;
+  counter-increment: sectionX;
+}
+
+note:before {
+  content: "[ " counter(sectionX) "] ";
+
+  background-color: #ccccff;
+  color: #003300;
+}
+   
+note[place="left"] {
+  float: left;
+}
+
+    
+note[place="right"] {
+  float: right;
+}
+
+    
+note[place="inline"], note[place="unspecified"] {
+  display: inline;
+}
+
+/* --------------- */
+/*  BASIC FONT  */
+/* --------------- */
+
+hi[rend="italic"] {
+  display: inline;
+  font-style: italic;
+}
+
+    
+hi[rend="bold"] {
+  display: inline;
+  font-weight: bold;
+}
+
+hi[rend="bolditalic"] {
+  display: inline;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* --------------- */
+/*  FOREIGN  */
+/* --------------- */
+
+foreign {
+  display: inline;
+  font-style: italic;
+}
+
+/* --------------- */
+/*  TERMS AND GLOSSES  */
+/* --------------- */
+
+term {
+  background-color: #CC0000;
+  color: #FFFFFF;
+  display: inline;
+}
+
+gloss {
+  display: inline;
+  background-color: #FFFFFF;
+  color: #0000ff;
+}
+
+/* --------------- */
+/*  SEARCHABLES  */
+/* --------------- */
+
+rs {
+  display: inline;
+  background-color: #FFFFFF;
+  color: #006600;
+}
+
+rs[type="att"] {
+  display: inline;
+  font-family: Monospace;
+  background-color: #ffee99;
+  color: #000000;
+}
+
+rs[type="elem"] {
+  display: inline;
+  font-family: Monospace;
+  background-color: #000099;
+  color: #ffffff;
+}
+
+/* --------------- */
+/*  SEGMENTS  */
+/* --------------- */
+
+seg {
+  display: block;
+  background-color: #ffff33;
+  color: #000000;
+  border: thin black solid;
+}
+
+/* --------------- */
+/*  ANCHORS AND LINKS  */
+/* --------------- */
+
+    
+ref {
+  display: inline;
+  color: blue;
+  text-decoration: underline;
+}
+
+
+xref {
+  display: inline;
+  background-color: #ffffff;
+  color: blue;
+  text-decoration: underline;
+}
+
+    
+xref:hover {
+  background-color: blue;
+  color: white;
+}
+
+
+anchor:before {
+  content: "[#" attr(id) "] ";
+  vertical-align: super;
+  background-color: #ffffff;
+  color: #663366;
+}
+
+
+/* ######################################################## */
+/* ################ SORTED UP TO HERE  zak ##################### */
+/* ######################################################## */
+
+item {
+  display: list-item;
+  margin-left: 12pt;
+}
+    
+abbr {
+  display: inline;
+}
+
+add {
+  display: inline;
+  color: green;
+  text-decoration: underline;
+}
+
+argument {
+  display: block;
+  margin-bottom: 0.5em;
+}
+    
+back {
+  display: block;
+  border: thin black solid;
+  margin-top: 1em;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+    
+argument > bibl, body > bibl, cit > bibl, div > bibl, div0 > bibl, div1 > bibl, div2 > bibl, div3 > bibl, div4 > bibl, div5 > bibl, div6 > bibl, div7 > bibl, epigraph > bibl, listBibl > bibl > bibl, taxonomy > bibl {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+biblFull {
+  display: inline;
+}
+
+    
+argument > biblFull, body > biblFull, cit > biblFull, div > biblFull, div0 > biblFull, div1 > biblFull, div2 > biblFull, div3 > biblFull, div4 > biblFull, div5 > biblFull, div6 > biblFull, div7 > biblFull, epigraph > biblFull, listBibl > biblFull > biblFull, taxonomy > biblFull {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+biblScope {
+  display: inline;
+}
+
+    
+imprint > biblScope {
+  display: block;
+}
+
+    
+byline {
+  display: block;
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+category {
+  display: block;
+  margin-bottom: 1em;
+}
+
+change {
+  display: block;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+cit {
+  display: inline;
+}
+
+    
+argument > cit, body > cit, div > cit, div0 > cit, div1 > cit, div2 > cit, div3 > cit, div4 > cit, div5 > cit, div6 > cit, div7 > cit, epigraph > cit {
+  display: block;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+classCode {
+  display: block;
+}
+
+classDecl {
+  display: block;
+  margin-bottom: 1em;
+}
+
+closer {
+  display: block;
+  margin-bottom: 1em;
+}
+
+code {
+  display: inline;
+  font-family: monospace;
+}
+
+corr {
+  display: inline;
+  color: green;
+}
+
+creation {
+  display: block;
+}
+
+date {
+  display: inline;
+}
+
+    
+change > date, publicationStmt > date {
+  display: block;
+  font-weight: bold;
+}
+
+dateline {
+  display: inline;
+}
+
+del {
+  display: inline;
+  color: red;
+  text-decoration: line-through;
+}
+
+distributor {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+docAuthor {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+    
+byline docAuthor {
+  display: inline;
+}
+
+    
+titlePage docAuthor {
+  font-size: 150%;
+}
+    
+titlePage docTitle {
+  font-size: 200%;
+}
+
+    
+edition {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+    
+bibl edition {
+  display: inline;
+}  
+  
+wip edition {
+  display: inline;
+}    
+
+album edition {
+  display: inline;
+} 
+    
+editionStmt {
+  display: block;
+  margin-bottom: 1em;
+}
+
+editor {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+    
+bibl editor {
+  display: inline;
+}
+
+    
+editorialDecl {
+  display: block;
+  margin-bottom: 1em;
+}
+
+eg {
+  font-family: monospace;
+  padding-top: 3mm;
+  padding-left: 4pt;
+  padding-bottom: 2pt;
+  display: block;
+  margin-top: 12pt;
+  margin-bottom: 12pt;
+  white-space: pre;
+  background-color: #FFCC99;
+}
+
+    
+argument > eg, body > eg, div > eg, div0 > eg, div1 > eg, div2 > eg, div3 > eg, div4 > eg, div5 > eg, div6 > eg, div7 > eg, epigraph > eg {
+  display: block;
+  margin-bottom: 1em;
+}
+
+emph {
+  display: inline;
+  font-style: italic;
+}
+
+epigraph {
+  display: block;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+    
+extent {
+  display: block;
+  margin-bottom: 1em;
+}
+
+    
+bibl extent {
+  display: inline;
+}
+
+    
+figure {
+  display: block;
+  margin-bottom: 1em;
+}
+    figure:after {
+	content: attr(figDesc); 
+	}
+
+
+
+formula {
+  display: inline;
+  font-style: italic;
+}
+
+front {
+  display: block;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+funder {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+    
+gap:after {
+  content: "[...]";
+  font-style: italic;
+}
+
+gi {
+  display: inline;
+  font-family: sans-serif;
+  color: blue;
+}
+
+    
+gi:before {
+  content: "<";
+}
+
+    
+gi:after {
+  content: ">";
+}
+
+ident {
+  display: inline;
+  font-family: monospace;
+}
+
+idno {
+  display: block;
+  margin-bottom: 1em;
+}
+
+    
+bibl idno {
+  display: inline;
+}
+
+        
+imprint {
+  display: inline;
+}
+    
+change item {
+  display: block;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+
+keywords {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+kw {
+  display: inline;
+  font-style: italic;
+}
+
+l {
+  display: block;
+  white-space: nowrap;
+}
+
+
+
+    
+argument > label, body > label, div > label, div0 > label, div1 > label, div2 > label, div3 > label, div4 > label, div5 > label, div6 > label, div7 > label, epigraph > label {
+  display: block;
+  font-weight: bold;
+}
+
+langUsage {
+  display: block;
+  margin-bottom: 1em;
+}
+
+lb {
+  display: block;
+}
+
+lg {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+    
+
+
+mentioned {
+  display: inline;
+  font-style: italic;
+}
+
+name {
+  display: inline;
+}
+  
+
+
+notesStmt {
+  display: block;
+  margin-bottom: 1em;
+}
+
+num {
+  display: inline;
+}
+
+opener {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+orig {
+  display: inline;
+}
+
+
+pb {
+  display: block;
+}
+
+    
+pb:after {
+  content: attr(n);
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+    
+principal {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+
+
+publicationStmt {
+  display: block;
+  margin-bottom: 1em;
+}
+
+publisher {
+  display: inline;
+}
+
+    
+imprint > publisher, publicationStmt > publisher {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+pubPlace {
+  display: inline;
+}
+
+    
+imprint > pubPlace, publicationStmt > pubPlace {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+
+
+refsDecl {
+  display: block;
+  margin-bottom: 1em;
+}
+
+reg {
+  display: inline;
+  font-style: italic;
+}
+
+rendition {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+resp {
+  display: inline;
+}
+
+respStmt {
+  display: block;
+}
+
+    
+bibl respStmt {
+  display: inline;
+}
+
+s {
+  display: inline;
+}
+
+salute {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+samplingDecl {
+  display: block;
+  margin-bottom: 1em;
+}
+
+
+seriesStmt {
+  display: block;
+  margin-bottom: 1em;
+}
+
+sic {
+  display: inline;
+color:#339900;
+}
+
+    
+sic:after {
+}
+
+signed {
+  display: block;
+  text-align: right;
+}
+
+soCalled {
+  display: inline;
+  font-style: italic;
+  quotes: "'" "'";
+}
+
+    
+soCalled:before {
+  content: open-quote;
+}
+
+    
+soCalled:after {
+  content: close-quote;
+}
+
+    
+sp {
+  display: block;
+  margin-bottom: 0.5em;
+  margin-left: 2em;
+}
+
+speaker {
+  display: inline;
+  font-weight: bold;
+}
+
+sponsor {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+stage {
+  display: inline;
+  font-style: italic;
+}
+
+tagsDecl {
+  display: block;
+  margin-bottom: 1em;
+}
+
+tagUsage {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+taxonomy {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+
+textClass {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+time {
+  display: inline;
+}
+
+titlePage {
+  display: block;
+  border: thin black solid;
+  margin-bottom: 2em;
+  text-align: center;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+titlePart {
+  display: block;
+}
+
+titleStmt {
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+trailer {
+  display: block;
+  margin-bottom: 1em;
+}
+
+unclear {
+  display: inline;
+  color: silver;
+  font-style: italic;
+}
+
+
+
+/* OUCS additions */
+Button {
+	  font-family: monospace;
+	  color: red;
+	  font-weight: bold;
+	  background-color: rgb(75%,75%,75%)
+	  ;
+}
+
+Value {
+	  font-family: monospace;
+	  color: green;
+	  }
+
+
+Code {
+	  font-family: monospace;
+	  color: red;
+	  }
+
+Field {
+	   font-family: monospace;
+	   color: red;
+	   }
+
+Filespec {
+	      font-family: monospace;
+	      color: red;
+	      }
+
+Input {
+	   font-family: monospace;
+	   color: green;
+	   }
+Key {
+	 font-family: monospace;
+         text-decoration: underline;
+	 color: green;
+	 }
+Link {
+	  font-family: monospace;
+	  color: green;
+	  text-decoration: underline;
+	  }
+Menu {
+	  font-family: monospace;
+	  color: red;
+	  }
+Output {
+	    font-family: monospace;
+	    color: red;
+	    }
+Screen {
+  font-family: monospace;
+  padding-top: 3mm;
+  padding-left: 4pt;
+  padding-bottom: 2pt;
+  display: block;
+  margin-top: 12pt;
+  margin-bottom: 12pt;
+  white-space: pre;
+  background-color: #FFCC99;
+   }
+key:before{
+color:#000099;
+content:attr(lang);
+}

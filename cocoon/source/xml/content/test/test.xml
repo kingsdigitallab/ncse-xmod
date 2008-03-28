@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2
+  SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="test">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Test page</title>
+                <author>Programmer</author>
+                <respStmt>
+                    <resp>RespStmt</resp>
+                    <name>RespName</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
+                    <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                    <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2003-10-27</date>
+                <respStmt>
+                    <name>JG</name>
+                </respStmt>
+                <item>changed contents</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Body Contents</head>
+            <div part="N" sample="complete" org="uniform">
+                <head>Test material</head>
+                <p>Put test markup here</p>
+                <list type="bulleted">
+                    <item>An item</item>
+                    <item>An item</item>
+                    <item>An item</item>
+                </list>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce tincidunt urna a nibh. In pretium augue at arcu. Morbi suscipit, pede eget condimentum pretium, urna lectus tincidunt felis, et scelerisque augue magna id lorem. Morbi vitae nulla. Donec vel risus. Nullam lacinia magna non neque. In hac habitasse platea dictumst. Nulla iaculis arcu sit amet turpis luctus nonummy. Integer lacus. In egestas tempor arcu. Maecenas posuere arcu eget ipsum. Vivamus in dolor. Proin eleifend arcu nec lectus. Praesent sodales quam in leo. Curabitur sem. Fusce augue. Nam porttitor arcu id felis. Praesent quis nisl et sem suscipit ullamcorper. Praesent molestie dui laoreet neque. Fusce faucibus justo sed enim.</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce tincidunt urna a nibh. In pretium augue at arcu. Morbi suscipit, pede eget condimentum pretium, urna lectus tincidunt felis, et scelerisque augue magna id lorem. Morbi vitae nulla. Donec vel risus. Nullam lacinia magna non neque. In hac habitasse platea dictumst. Nulla iaculis arcu sit amet turpis luctus nonummy. Integer lacus. In egestas tempor arcu. Maecenas posuere arcu eget ipsum. Vivamus in dolor. Proin eleifend arcu nec lectus. Praesent sodales quam in leo. Curabitur sem. Fusce augue. Nam porttitor arcu id felis. Praesent quis nisl et sem suscipit ullamcorper. Praesent molestie dui laoreet neque. Fusce faucibus justo sed enim.</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce tincidunt urna a nibh. In pretium augue at arcu. Morbi suscipit, pede eget condimentum pretium, urna lectus tincidunt felis, et scelerisque augue magna id lorem. Morbi vitae nulla. Donec vel risus. Nullam lacinia magna non neque. In hac habitasse platea dictumst. Nulla iaculis arcu sit amet turpis luctus nonummy. Integer lacus. In egestas tempor arcu. Maecenas posuere arcu eget ipsum. Vivamus in dolor. Proin eleifend arcu nec lectus. Praesent sodales quam in leo. Curabitur sem. Fusce augue. Nam porttitor arcu id felis. Praesent quis nisl et sem suscipit ullamcorper. Praesent molestie dui laoreet neque. Fusce faucibus justo sed enim.</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce tincidunt urna a nibh. In pretium augue at arcu. Morbi suscipit, pede eget condimentum pretium, urna lectus tincidunt felis, et scelerisque augue magna id lorem. Morbi vitae nulla. Donec vel risus. Nullam lacinia magna non neque. In hac habitasse platea dictumst. Nulla iaculis arcu sit amet turpis luctus nonummy. Integer lacus. In egestas tempor arcu. Maecenas posuere arcu eget ipsum. Vivamus in dolor. Proin eleifend arcu nec lectus. Praesent sodales quam in leo. Curabitur sem. Fusce augue. Nam porttitor arcu id felis. Praesent quis nisl et sem suscipit ullamcorper. Praesent molestie dui laoreet neque. Fusce faucibus justo sed enim.</p>
+            </div>
+        </body>
+    </text>
+</TEI.2>

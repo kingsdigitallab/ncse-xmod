@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<!DOCTYPE authorityList SYSTEM "../../dtd/alist/AL_navbar.dtd">
+<authorityList id="AL_navbar" month="_unspecified" day="_unspecified" resp="ADD HERE" year="2003">
+  <header>
+    <title>PROJNAME navbar XML</title>
+    <changeNotes>
+      <changeItem>
+        <name/>
+        <p/>
+      </changeItem>
+    </changeNotes>
+    <comments>
+      <list>
+        <li>
+          <label>ROOT element</label>
+          <con>The date attributes specify the last edit date.</con>
+        </li>
+      </list>
+    </comments>
+  </header>
+  <body topNav="off">
+    <layout id="main">
+      <line/>
+      <heading>Main sections</heading>
+      <line/>
+      
+      <navGroup>
+        
+        <level01 id="NOT_NECESSARY">
+          <label>Home</label>
+          <default ref="p0"/>
+        </level01>
+        <level01>
+          <label>Access NCSE</label>
+          <default type="external" ref="http://viewpoint.ncse.ac.uk"/>
+          </level01>
+          <level01>
+           
+          <label>About us</label>
+          <default ref="p1_0"/>
+            <active>
+              <file start="p1_"/>
+            </active>
+            
+            <sub02>
+           
+            <level02>
+              <label>Welcome to ncse</label>
+              <default ref="p1_1"/>
+            </level02>
+              <level02>
+                <label>Technical Introduction</label>
+                <default ref="p1_2"/>
+              </level02><level02>
+              
+              
+                <label>FAQs / Help</label>
+              <default ref="p1_3"/>
+              </level02>
+              <level02>
+                <label>Contact us</label>
+                <default ref="p1_4"/>
+              </level02>
+              <level02>
+                <label>Feedback form</label>
+                <default ref="p1_5"/>
+              </level02>
+              
+            </sub02>
+            
+          </level01>
+        <level01>
+          <label>Type02</label>
+          <default ref="idx02_auth"/>
+          <active>
+            <file start="tp"/>
+            <file start="idx02_"/>
+          </active>
+          <sub02>
+            <level02>
+              <label>Keyword index</label>
+              <default ref="idx02_foreign"/>
+            </level02>
+            <level02>
+              <label>A-Z Keyword index</label>
+              <default ref="idx02_foreign_az"/>
+            </level02>
+            <level02>
+              <label>Keyword index with Authority List</label>
+              <default ref="idx02_foreign_key"/>
+            </level02>
+          </sub02>
+        </level01>
+        <level01>
+          <label>Type03</label>
+          <default ref="idx03_auth"/>
+          <active>
+            <file start="g4"/>
+            <file start="p4"/>
+            <file start="idx03_"/>
+          </active>
+          <sub02>
+            <level02>
+              <label>Keyword index</label>
+              <default ref="idx03_foreign"/>
+            </level02>
+            <!--<level02><label>Keyword index with Authority List</label><default ref="idx03_foreign_key"/></level02>-->
+          </sub02>
+        </level01>
+        <level01>
+          <label>Test</label>
+          <default ref="test"/>
+        </level01>
+      </navGroup>
+    </layout>
+  </body>
+</authorityList>

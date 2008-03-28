@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2
+  SYSTEM "../../../dtd/tei/cch_tei.dtd">
+  <TEI.2 id="p1_6">
+      <teiHeader status="new" type="text">
+          <fileDesc>
+              <titleStmt>
+                  <title>Thank you</title>
+                  
+              </titleStmt>
+              <publicationStmt>
+                  <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                  <address>
+                      <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                      <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+                  </address>
+              </publicationStmt>
+              <sourceDesc default="NO">
+                  <p>No source: created in electronic format.</p>
+              </sourceDesc>
+          </fileDesc>
+          <encodingDesc>
+              <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+          </encodingDesc>
+          <revisionDesc>
+              <change>
+                  <date>2008-03-27</date>
+                  <respStmt>
+                      <name>EL</name>
+                  </respStmt>
+                  <item>created file</item>
+              </change>
+              
+              
+          </revisionDesc>
+      </teiHeader>
+      
+      <text>
+          <body>
+              
+              <head>Thank you</head>
+              
+              <p>Thank you for sending us your feedback, we will follow up as soon as possible.</p>
+              
+          
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+          </body>
+      </text>
+  </TEI.2>
+  
+  
+  
+  

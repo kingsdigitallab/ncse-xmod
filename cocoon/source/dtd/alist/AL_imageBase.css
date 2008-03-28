@@ -1,0 +1,310 @@
+/* ============================================================
+CSS file for imageBase
+  last changed PJS 2003-05-20 @ 10:25
+============================================================ */
+
+/* Use Times New Roman for default font */
+$DOCUMENT
+{
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+$COMMENT {
+  display: block;
+  color: purple;
+  white-space: pre;
+}
+
+$PROCINS {
+  color: black;
+  background-color: #c0c0c0;
+}
+
+
+/* ######################################################## */
+/* ################ ROOT ##################### */
+/* ######################################################## */
+
+authorityList:before {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  content: "Last edited attr(year) - attr(month) - attr(day) attr(resp)" ;
+  background-color: #cc0000;
+  color: #ffffff;
+  border: thin solid black;
+}
+
+/* ######################################################## */
+/* ################ HEADER ##################### */
+/* ######################################################## */
+
+
+header {
+  display: block;
+  color: #ffffff;
+  background-color: #ffcccc;
+  border: thin black solid;
+  margin-bottom: 2em;
+
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+title {
+  display: block;
+  font-weight: bold;
+  font-size: 24pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2em;
+  margin-right: 2em;
+  border: thin black solid;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+changeNotes {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: thin black solid;
+  color: #000000;
+  background-color: #cccccc;
+}
+
+comments {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: thin black solid;
+  color: #000000;
+  background-color: #cccccc;
+  font-style: "Courier";
+  font-size: 10pt;
+}
+
+
+changeItem {
+  display: block;
+  background-color: #ffffff;
+}
+
+
+
+/* ######################################################## */
+/* ################ GROUP SECTIONS ##################### */
+/* ######################################################## */
+
+
+group>group>group {
+  display: block;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  border: thin black solid;
+  background-color: #ffffff;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+group>group>group:before {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  content: " [id]: " attr(id) ;
+  background-color: #cc0000;
+  color: #ffffff;
+  border: thin solid black;
+}
+
+group>group {
+  display: block;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  border: thin black solid;
+  background-color: #cccccc;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+group>group:before {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  content: " [id]: " attr(id) ;
+  background-color: #cc0000;
+  color: #ffffff;
+  border: thin solid black
+}
+
+group {
+  display: block;
+  margin-bottom: 1em;
+  border: thin black solid;
+  background-color: #999999;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+group:before {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  content: " [id]: " attr(id) ;
+  background-color: #cc0000;
+  color: #ffffff;
+  border: thin solid black;
+}
+
+
+groupHead {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #cccc99;
+  color: #000000;
+  border: thin black solid;
+ }
+
+groupTitle {
+  display: block;
+}
+
+groupFolder {  
+  display: block;
+}
+
+/* ######################################################## */
+/* ################ MAIN SECTIONS ##################### */
+/* ######################################################## */
+
+image {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #fffff0;
+  border: thin black solid;
+ }
+
+image:before {
+  display: block;
+  content: "[id]: " attr(id);
+  background-color: #ff3333;
+  color: #FFFFFF;
+  border: thin solid black;
+}
+
+/* ########## */
+
+
+image>title {
+  display: block;
+  font-size: 12pt;
+}
+
+imgTitle {
+  display: block;
+  font-size: 12pt;
+}
+
+caption {
+  display: block;
+}
+
+path {
+  display: block;
+}
+
+desc {
+  display: block;
+}
+
+width {
+  display: block;
+}
+
+height {
+  display: block;
+}
+
+ext {
+  display: block;
+}
+
+
+
+creator {
+  display: block;
+  border: thin black solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+copyright {
+  display: block;
+  border: thin black solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+rend {
+  display: block;
+}
+
+notes {
+  display: block;
+  border: thin black solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+internal {
+  display: block;
+  border: thin black solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+creator>url {
+  display: block;
+}
+
+/* ######################################################## */
+/* ################ BLOCK AND PHRASE LEVEL ##################### */
+/* ######################################################## */
+
+p {
+  display: block;
+ }
+
+li {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+ }
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+con {
+  display: block;
+ }
+
+url {
+  color: #0000ff;
+ }
+
+/* ###################   END   ######################### */

@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="glossary01" TEIform="TEI.2">
+    <teiHeader status="new" TEIform="teiHeader" type="text">
+        <fileDesc TEIform="fileDesc">
+            <titleStmt TEIform="titleStmt">
+                <title TEIform="title">Glossary</title>
+            </titleStmt>
+            <publicationStmt TEIform="publicationStmt">
+                <publisher TEIform="publisher">Centre for Computing in the Humanities, King's College London</publisher>
+                <address TEIform="address">
+        <addrLine TEIform="addrLine">Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+        <addrLine TEIform="addrLine">http://www.kcl.ac.uk/cch/</addrLine>
+      </address>
+            </publicationStmt>
+            <sourceDesc TEIform="sourceDesc" default="NO">
+                <p TEIform="p"/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc TEIform="encodingDesc">
+            <p TEIform="p">Encoding according to the CCH TEI Guidelines</p>
+        </encodingDesc>
+        <revisionDesc TEIform="revisionDesc">
+            <change TEIform="change">
+                <date TEIform="date">2006-01-19</date>
+                <respStmt TEIform="respStmt">
+                    <name TEIform="name">Lorna G</name>
+                </respStmt>
+                <item TEIform="item">inserted bold</item>
+            </change>
+            <change TEIform="change">
+                <date TEIform="date">2006-01-17</date>
+                <respStmt TEIform="respStmt">
+                    <name TEIform="name">Lorna G</name>
+                </respStmt>
+                <item TEIform="item">inserted SD's glossary</item>
+            </change>
+            <change TEIform="change">
+                <date TEIform="date">2005-12-06</date>
+                <respStmt TEIform="respStmt">
+                    <name TEIform="name">Lorna G</name>
+                </respStmt>
+                <item TEIform="item">updated text</item>
+            </change>
+            <change TEIform="change">
+                <date TEIform="date">2005-12-05</date>
+                <respStmt TEIform="respStmt">
+                    <name TEIform="name">Lorna G</name>
+                </respStmt>
+                <item TEIform="item">created page</item>
+            </change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text TEIform="text">
+        <body TEIform="body">
+
+
+            <head TEIform="head">Glossary</head>
+
+            <p TEIform="p">
+                <list type="gloss" TEIform="list">
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e1">Access Grid</term>
+                        </label>
+                        <gloss TEIform="gloss">an Advanced Collaborative Environment that brings people and resources together. It constitutes a
+                            global network of 3400 locations, or Access Grid nodes, which provide large-screen multimedia information digitization and
+                            exchange in real time. The aim of the Access Grid is to provide an effective environment for remote group-to-group
+                            collaborations by providing a sense of presence that approaches that experienced during face-to-face meetings. Access Grid
+                            is often described at the next generation of videoconferencing, but whereas videoconferencing can deliver only one-to-one
+                            conversations, Access Grid can facilitate a conversation between many nodes at the same time.<xref
+                                url="http://www.accessgrid.org" to="DITTO" type="external" from="ROOT" targOrder="U" TEIform="xref">
+                                http://www.accessgrid.org</xref></gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e2">Access Grid Node</term>
+                        </label>
+                        <gloss TEIform="gloss">the physical location of Access Grid technology, from which user groups conduct meetings Analysis The
+                            extraction of information/knowledge/meaning from a resource.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e3">Collaborative Technology</term>
+                        </label>
+                        <gloss TEIform="gloss">see <ref target="e26" targOrder="U" TEIform="ref">Grid</ref>.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e4">Computational Grid </term>
+                        </label>
+                        <gloss TEIform="gloss">the sharing of processing power via a network of computers. This is only occasionally relevant to the
+                            Arts and Humanities, but there are some potential uses.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e5">Cyberinfrastructure</term>
+                        </label>
+                        <gloss TEIform="gloss">see Virtual Research Environment.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e6">Data</term>
+                        </label>
+                        <gloss TEIform="gloss">the primary resource produced directly by the research process. It may or may not be readable by a
+                            computer. Data that is not machine-readable can be made so by using digitisation. By a process of analysis, data in any
+                            form can be developed into information.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e7">Data Grid</term>
+                        </label>
+                        <gloss TEIform="gloss">data grid provides the tools for large-scale data management and sharing, and will be a vital means of
+                            meeting the present grand challenge to Arts and Humanities e-Science: how to locate, access and integrate the content of
+                            resources that embrace text, still and moving images and sound, are highly distributed, of variable quality, encoded and
+                            described using different standards, and often incomplete, fuzzy, and complex.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e8">Data Modelling</term>
+                        </label>
+                        <gloss TEIform="gloss">the means by which data objects (e.g. records, images, parts of a text) can be organised to form a
+                            coherent entity. A common example of a data model is the database.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e9">Database </term>
+                        </label>
+                        <gloss TEIform="gloss">a collection or grouping of similar or related data, usually assembled as a matter of record, or for
+                            research. Also called a dataset.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e10">Digital Library</term>
+                        </label>
+                        <gloss TEIform="gloss">a collection of archive materials on any subject converted to machine-readable format for preservation
+                            or to provide electronic access. Also library materials produced in electronic formats, including e-zines, e-journals,
+                            e-books, reference works published online and on CD-ROM, bibliographic databases, and other Web-based resources.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e11">Digital Preservation</term>
+                        </label>
+                        <gloss TEIform="gloss">the active process of maintaining, in a condition suitable for use or reuse, digital data, thus
+                            offsetting the dangers caused to digital material by changing file formats, deteriorating media (e.g. CDs, floppy discs)
+                            and changing software and hardware environments. For outputs created via AHRC funding, this role is carried out by the
+                                <xref url="http://ahds.ac.uk" to="DITTO" type="external" from="ROOT" targOrder="U" TEIform="xref">Arts and Humanities
+                                Data Service</xref>.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e12">Digital Resource</term>
+                        </label>
+                        <gloss TEIform="gloss">a general term to describe any programme, application, database etc which can be used to assist in
+                            research and teaching; or any element of the physical infrastructure which enables such resolution, usage or
+                        sharing.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e13">Digitisation/Data Capture</term>
+                        </label>
+                        <gloss TEIform="gloss">digitisation can refer to the general process of creating a digital resource, or be a synonym for data
+                            capture, the more precise procedure of creating digital objects from analogue data or real-world objects. See the AHDS
+                            paper <xref url="http://ahds.ac.uk/creating/information-papers/creating-introduction/" to="DITTO" type="external"
+                                from="ROOT" targOrder="U" TEIform="xref">Introduction to Creating Digital Resources</xref>.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e14">Dissemination</term>
+                        </label>
+                        <gloss TEIform="gloss">the presentation and dissemination/communication of the results of a research project. Dissemination
+                            via the internet is distinct from e-publication, in that it does not imply the same degree of editorial control and/or
+                            peer-review.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e15">E</term>
+                        </label>
+                        <gloss TEIform="gloss">anything in electronic, or more exactly in digital form: stored for use on a computer in electronic
+                            bits, conventionally represented as the digits 0 or 1 see also digitisation). The opposite of digital is analogue: a music
+                            CD is digital, a cassette tape is analogue.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e16">E-Book</term>
+                        </label>
+                        <gloss TEIform="gloss">in the broadest sense, any books published in digital form. Commonly used for digital versions of
+                            printed books in formats that allow reading and browsing, but not manipulation or analysisfor reading, for instance, on a
+                            Pocket PC. But there are also more innovative e-books that make much more powerful use of digital resources, by combining
+                            text with images (moving or still) and/or sound in multi-media systems. These may be the e-books of the future.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e17">E-Edition</term>
+                        </label>
+                        <gloss TEIform="gloss">a particularly powerful application of digital technology to replace printed critical editions of
+                            primary texts. E-editions can use hyperlinks to connect the text of a critical edition with images and transcriptions of
+                            the printed books or manuscripts it is based on, all within a single system.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e18">E-Journal </term>
+                        </label>
+                        <gloss TEIform="gloss">a common form of e-publication. Currently a major subject of debate, since they can offer an
+                            alternative to high-cost conventionally published scientific journals. Many e-journals are charged for by commercial
+                            publishers at subscription rates similar to their printed equivalents, or ‘bundled’ under expensive licensing arrangements
+                            providing access to entire journal collections. But some e-journals are freely available on open access, the cost of
+                            production being met by the producer, sometimes with, sometimes without, contributions from authors. There is now a strong
+                            movement in favour of shifting payment for e-journals from the reader (or usually, the library) to the author (or
+                            probably, the author's institution or grant-awarder), particularly in the sciences. There are arguments for and against
+                            this: the advantages of free access to readers are obvious, but the commercial publishing market has played a major role
+                            in journal development, there are substantial overseas earnings, learned societies have benefited significantly from
+                            journal royalties, and the prospects of authors being charged for publications raises all sorts of problems, especially in
+                            the arts and humanities.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e19">E-Monograph</term>
+                        </label>
+                        <gloss TEIform="gloss">some presses are making printed monographs available for purchase or subscription in digital form. As a
+                            cheaper alternative for the publication of highly specialized research, in particular, this clearly merits further
+                            development. But again, from an academic/RAE point of view it is important to ensure adequate processes of refereeing and
+                            editorial control. There is much more to be done in this respect.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e20">E-Learning</term>
+                        </label>
+                        <gloss TEIform="gloss">the use of digital resources for teaching and learning: currently a major agenda item for the DfES and
+                            HEFCE. Considerable resources were recently put into the ill-fated UK e-University, which aimed to generate overseas
+                            earnings through distance learning. The current emphasis is on ‘mixed-mode’ e-leaning, combining the use of digital
+                            resources with direct-contact teaching. Universities now make extensive use of Virtual Learning Environments (VLEs),
+                            software systems (e.g. Blackboard) for managing and delivering digital resources for teaching and learning. A VLE can in
+                            turn be part of a Managed Learning Environment (MLE), a larger-scale system that makes all the datasets relevant to a
+                            student’s learning process seamlessly accessible through a single portal: student records and registration, information on
+                            university programmes and facilities, library catalogues, etc., as well as the VLE. There are interesting potential
+                            overlaps between the development of MLEs and Virtual Research Environments.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e21">E-Publication</term>
+                        </label>
+                        <gloss TEIform="gloss">in the broadest sense, anything made public in digital form. Thus a personal web page or a [we]blog
+                            could count as an e-publication. However, since ‘publication’ usually implies a process of editorial quality control,
+                            often including peer-review, the term e-publication is probably best reserved for materials that can lay claim to this. In
+                            the context of the current debate, ‘e-publications’ usually refers to digital versions of conventional forms of printed
+                            output: e-journals, e-monographs, etc.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e22">E-Science</term>
+                        </label>
+                        <gloss TEIform="gloss">e-Science involves developing shared access to distributed computational resources (both
+                            high-performance computing and large data collections), which enables bigger, better and different research to take place.
+                            This is also known as grid computing. E-Science encourages multidisciplinary research by distributed, collaborative
+                            research teams. Under the broader umbrella of e-research, e-Science is capable of making substantial differences to
+                            research within the Arts and Humanities. Click <xref url="http://www.ahrc.ac.uk/e-science." to="DITTO" type="external"
+                                from="ROOT" targOrder="U" TEIform="xref">here</xref> for further information about the AHRC's e-science
+                        initiative.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e23">E-Science Core Programme</term>
+                        </label>
+                        <gloss TEIform="gloss">the inter-Research Council body established in 2000 to develop lead the national agenda for E-Science
+                            in the UK. Click <xref url="http://www.rcuk.ac.uk/escience" to="DITTO" type="external" from="ROOT" targOrder="U"
+                                TEIform="xref">here</xref>.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e24">E-Theses </term>
+                        </label>
+                        <gloss TEIform="gloss">electronic versions of doctoral and masters theses, increasingly made available by institutions through
+                            institutional repositories or other Open Archives.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e25">Geographical Information Systems (GIS)</term>
+                        </label>
+                        <gloss TEIform="gloss">GIS allows for the analysis and visualisation of data with a spatial context. Click <xref
+                                url="http://ads.ahds.ac.uk/project/goodguides/gis/index.html." to="DITTO" type="external" from="ROOT" targOrder="U"
+                                TEIform="xref">here</xref> for further information.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e26">Grid (Grid computing)</term>
+                        </label>
+                        <gloss TEIform="gloss">see also Computational Grid, Data Grid and Access Grid. The computing infrastructure for e-Science.
+                            Grids provides a way of utilising computing power that may be distributed across the internet. The term originally derives
+                            from the electricity grid, where you access power from a socket without knowing where or by whom it is generated.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e27">ICT</term>
+                        </label>
+                        <gloss TEIform="gloss">Information and Communication Technology.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e28">Metadata</term>
+                        </label>
+                        <gloss TEIform="gloss">most commonly described as “data about data”. This is information that describes key information about
+                            a digital object or collection of digital objects, including information on the creator, time and date of creation, rights
+                            issues, accessing history etc. There are many different standards for metadata, and data creators can choose and even
+                            amend various standards according to whether they are describing images, texts, webpages, databases etc. A common baseline
+                            standard is Dublin Core developed and maintained by the Dublin Core Metadata Initiative (DCMI). The AHDS provides an
+                            article on Metadata for your Digital Resource. Services such as the Humbul Humanities Hub or Artifact use Dublin Core to
+                            describe Web sites.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e29">Middleware </term>
+                        </label>
+                        <gloss TEIform="gloss">software which connects two applications online via a network: it is sometimes referred to informally
+                            as “plumbing”. Middleware can be respective elements of two applications which allow connectivity between them, or a third
+                            piece of software which connects two separate products. It must not therefore be confused with the Import/Export
+                            facilities available in many packages: these merely deal with the translation and transference of data from one place to
+                            another, not the combining or linking of the applications themselves.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e30">Open Access</term>
+                        </label>
+                        <gloss TEIform="gloss">commonly used to refer to digital objects (e.g. research outputs, images, finding aids, learning
+                            objects), which have been made freely available by an institution or organisation through an Open Access Archive.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e31">Open Access Archive</term>
+                        </label>
+                        <gloss TEIform="gloss">an online service or repository, which provides Open Access to digital objects or metadata.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e32">Open Source Software</term>
+                        </label>
+                        <gloss TEIform="gloss">software applications which are distributed together with the underlying programming code ("source
+                            code") and which may be freely copied, reused, and modified according to the terms of an Open Source Software licence.
+                            Most Open Source Software is distributed free of charge though the concept of 'free' when applied to Open Source Software
+                            actually refers to the freedoms protected within an Open Source Software licence. The JISC-funded OSS Watch provides
+                            unbiased advice and guidance about free and open source software for UK higher education.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e33">Portal </term>
+                        </label>
+                        <gloss TEIform="gloss">a portal is an online service which brings together content from diverse distributed resources using
+                            functionality such as cross searching, linking and aggregation, newsfeeds, and alerting services. Generally a portal
+                            allows for a degree of personalisation of what content and services are available and presents information via a Web site.
+                            Technically, portals can comprise frameworks and portlets. The latter have the potential to be re-presented in other
+                            online services, for example, an institutional portal or virtual learning environment. The success of any portal depends
+                            on both delivering a service from the user's own preferred starting point and ensuring the functionality and content
+                            conforms to open standards.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e34">Preservation </term>
+                        </label>
+                        <gloss TEIform="gloss">see Digital Preservation.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e35">Semantic Web</term>
+                        </label>
+                        <gloss TEIform="gloss">an extension to the World Wide Web which contains “Machine Understandable” data. At its most basic
+                            level, this in information which allows computers, not just human beings, to access and navigate the internet.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e36">Shared Whiteboards</term>
+                        </label>
+                        <gloss TEIform="gloss">these interactive, collaborative tools allow people to share text and drawings over the Internet on a
+                            shared drawing surface, like a normal white or blackboard, except that the users may not be in the same physical location.
+                            Typical shared whiteboards are designed for informal conversation, but they may also serve structured communications or
+                            more sophisticated drawing tasks, such as collaborative graphic design, publishing or engineering applications. Click
+                                <xref url="http://www.ncess.ac.uk/resources/tutorials/fasttrack/resources/q0.html" to="DITTO" type="external"
+                                from="ROOT" targOrder="U" TEIform="xref">here</xref> for an example of a Shared Whiteboard. </gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e37">Structuring and Enhancement</term>
+                        </label>
+                        <gloss TEIform="gloss">the organisation and integration of the data captured from one or various sources into a uniform
+                            conceptual framework. This would typically include the design of the resource's information structure/data model as well
+                            as the normalisation, standardisation and enhancement of its data.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e38">Taxonomy of Computational Methods</term>
+                        </label>
+                        <gloss TEIform="gloss">a schema developed by the Arts and Humanities Data Service for classifying ICT methods in the Arts and
+                            Humanities. Click <xref url="http://ahds.ac.uk/about/projects/documents/pmdb_taxonomy_v1_3_1.pdf" to="DITTO"
+                                type="external" from="ROOT" targOrder="U" TEIform="xref">here</xref> for further details.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e39">Videoconferencing</term>
+                        </label>
+                        <gloss TEIform="gloss">a collection of technologies that integrate video with audio and to some extent, data sharing, to
+                            enable communication and meetings between participants at physically separated sites. Either IP or ISDN networks are used
+                            to carry the audio and video streams with participants having a camera(s), microphone(s) and speakers. The Access Grid
+                            provides a more advanced form of videoconferencing, using better quality display and integrating other forms of data
+                            sharing, helping to provide a more immersive experience for participants. Click <xref
+                                url="http://www.ncess.ac.uk/resources//tutorials/fasttrack/resources/q0.html" to="DITTO" type="external" from="ROOT"
+                                targOrder="U" TEIform="xref">here</xref> for further information.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e40">Virtual Communities </term>
+                        </label>
+                        <gloss TEIform="gloss">groups of people joined by using the same electronic conferencing system.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e41">Virtual Organisations</term>
+                        </label>
+                        <gloss TEIform="gloss">groups which collaborate within an e-Science research activity, often within a grid computing
+                            environment.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e42">Virtual Reality</term>
+                        </label>
+                        <gloss TEIform="gloss">Virtual Reality 'worlds' are computer-based three-dimensional environments. They represent real-world
+                            or conceptual environments that can be navigated through, interacted with and updated in real-time.</gloss>
+                    </item>
+                    <item TEIform="item">
+                        <label TEIform="label">
+                            <term id="e43">Virtual Research Environment (VRE)</term>
+                        </label>
+                        <gloss TEIform="gloss">a coherent set of online services, tools, systems or processes interoperating to facilitate or enhance
+                            the research lifecycle within and beyond institutional boundaries. A VRE may be institutional or subject-specific. Four
+                            VRE demonstrator projects funded by the JISC are located in the Arts and Humanities domains. Click<xref
+                                url="http://www.ahrcict.rdg.ac.uk/vre" to="DITTO" type="external" from="ROOT" targOrder="U" TEIform="xref">
+                            here</xref> for further information.</gloss>
+                    </item>
+                </list>
+            </p>
+
+        </body>
+    </text>
+</TEI.2>
