@@ -1,15 +1,14 @@
-<?xml version="1.0" ?>
-<!-- $Id: proj_type01_tpkey.xsl 600 2007-09-04 11:04:05Z zau $ -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:saxon="http://icl.com/saxon"
-  xmlns="http://www.w3.org/1999/xhtml" extension-element-prefixes="saxon"
-  exclude-result-prefixes="saxon" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SVN: $Id$
+-->
+<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <xsl:strip-space elements="group"/>
+  <xsl:strip-space elements="group" />
 
   <xsl:template match="TEI.2">
-    <xsl:call-template name="html_tpl"/>
+    <xsl:call-template name="html_tpl" />
   </xsl:template>
-
 
   <!--   MAIN AREAS OF SITE     -->
   <!-- All calls come from proj_tpl.xsl -->
@@ -38,38 +37,31 @@
     </div>
   </xsl:template>
 
-
   <xsl:variable name="pagehead">
-    <xsl:apply-templates select="/aggregation/TEI.2/teiHeader/fileDesc/titleStmt/title[1]" mode="htmltitle"/>    
+    <xsl:apply-templates mode="htmltitle" select="/aggregation/TEI.2/teiHeader/fileDesc/titleStmt/title[1]" />
   </xsl:variable>
-  <xsl:template match="note" mode="htmltitle"/>
-  
-  <xsl:template name="ctpl_pagehead">
+  <xsl:template match="note" mode="htmltitle" />
 
+  <xsl:template name="ctpl_pagehead">
     <div class="pageHeader">
       <div class="t01">
         <h1>
-          <xsl:apply-templates select="/aggregation/TEI.2/teiHeader/fileDesc/titleStmt/title[1]" mode="pagehead"
-          />
+          <xsl:apply-templates mode="pagehead" select="/aggregation/TEI.2/teiHeader/fileDesc/titleStmt/title[1]" />
         </h1>
 
         <!-- START test for subtitle. -->
         <xsl:if test="/aggregation/TEI.2/teiHeader/fileDesc/titleStmt/title[@type='sub']">
           <h2>
-            <xsl:apply-templates select="/aggregation/TEI.2/teiHeader/fileDesc/titleStmt/title[@type='sub']"
-              mode="pagehead"/>
+            <xsl:apply-templates mode="pagehead" select="/aggregation/TEI.2/teiHeader/fileDesc/titleStmt/title[@type='sub']" />
           </h2>
         </xsl:if>
         <!-- END test for subtitle. -->
 
         <!-- START test for author or editor. -->
-        <xsl:if
-          test="/aggregation/TEI.2/teiHeader/fileDesc/titleStmt/author or /TEI.2/teiHeader/fileDesc/titleStmt/editor">
+        <xsl:if test="/aggregation/TEI.2/teiHeader/fileDesc/titleStmt/author or /TEI.2/teiHeader/fileDesc/titleStmt/editor">
           <p>
             <xsl:text>(</xsl:text>
-            <xsl:apply-templates
-              select="/aggregation/TEI.2/teiHeader/fileDesc/titleStmt/*[self::author|self::editor]"
-              mode="pagehead"/>
+            <xsl:apply-templates mode="pagehead" select="/aggregation/TEI.2/teiHeader/fileDesc/titleStmt/*[self::author|self::editor]" />
             <xsl:text>)</xsl:text>
           </p>
         </xsl:if>
@@ -96,7 +88,7 @@
   <xsl:template name="ctpl_rhcontent">
     <!-- Sets right hand content variable within correct context -->
     <xsl:variable name="rhcontent">
-      <xsl:call-template name="tpl_rhcontent"/>
+      <xsl:call-template name="tpl_rhcontent" />
     </xsl:variable>
     <xsl:choose>
       <xsl:when test="$rhcontent='on'">
@@ -114,7 +106,7 @@
                     <li>
                       <a href="#{generate-id()}">
                         <span>
-                          <xsl:apply-templates select="." mode="toc"/>
+                          <xsl:apply-templates mode="toc" select="." />
                         </span>
                       </a>
                     </li>
@@ -162,25 +154,19 @@
             <!-- e.g. img001.gif -->
 
             <!-- folder info -->
-            <xsl:variable name="img-group-folder"
-              select="//imagebase//image[@id=current()/@url]/parent::*/groupHead/groupFolder"/>
-            <xsl:variable name="img-subpath-full" select="'full/'"/>
-            <xsl:variable name="img-subpath-thumb" select="'thumb/'"/>
+            <xsl:variable name="img-group-folder" select="//imagebase//image[@id=current()/@url]/parent::*/groupHead/groupFolder" />
+            <xsl:variable name="img-subpath-full" select="'full/'" />
+            <xsl:variable name="img-subpath-thumb" select="'thumb/'" />
             <!-- file info -->
-            <xsl:variable name="img-id" select="//imagebase//image[@id=current()/@url]/@id"/>
-            <xsl:variable name="img-ext"
-              select="//imagebase//image[@id=current()/@url]/ext/@n"/>
-            <xsl:variable name="img-src" select="concat($img-id, '.', $img-ext)"/>
-            <xsl:variable name="img-thm-prefix" select="'thm_'"/>
+            <xsl:variable name="img-id" select="//imagebase//image[@id=current()/@url]/@id" />
+            <xsl:variable name="img-ext" select="//imagebase//image[@id=current()/@url]/ext/@n" />
+            <xsl:variable name="img-src" select="concat($img-id, '.', $img-ext)" />
+            <xsl:variable name="img-thm-prefix" select="'thm_'" />
             <!-- other info -->
-            <xsl:variable name="img-caption"
-              select="//imagebase//image[@id=current()/@url]/caption"/>
-            <xsl:variable name="img-desc"
-              select="//imagebase//image[@id=current()/@url]/desc"/>
-            <xsl:variable name="img-width"
-              select="//imagebase//image[@id=current()/@url]/width"/>
-            <xsl:variable name="img-height"
-              select="//imagebase//image[@id=current()/@url]/height"/>
+            <xsl:variable name="img-caption" select="//imagebase//image[@id=current()/@url]/caption" />
+            <xsl:variable name="img-desc" select="//imagebase//image[@id=current()/@url]/desc" />
+            <xsl:variable name="img-width" select="//imagebase//image[@id=current()/@url]/width" />
+            <xsl:variable name="img-height" select="//imagebase//image[@id=current()/@url]/height" />
 
 
             <div class="t01">
@@ -188,10 +174,9 @@
               <!-- Target output -->
               <dl>
                 <dt>
-                  <img title="" alt="" width="150">
-                    <xsl:attribute name="src"><xsl:value-of
-                        select="$pubimgswitch"/><xsl:value-of select="$img-subpath-full"
-                    />img001.jpg</xsl:attribute>
+                  <img alt="" title="" width="150">
+                    <xsl:attribute name="src"><xsl:value-of select="$pubimgswitch" /><xsl:value-of select="$img-subpath-full"
+                     />img001.jpg</xsl:attribute>
                   </img>
                 </dt>
                 <dd>
@@ -230,24 +215,24 @@
           <!-- End of RH options -->
         </div>
       </xsl:when>
-      <xsl:otherwise/>
+      <xsl:otherwise />
     </xsl:choose>
   </xsl:template>
 
 
 
   <xsl:template name="ctpl_content">
-    <xsl:apply-templates/>
+    <xsl:apply-templates />
   </xsl:template>
 
 
 
   <xsl:template name="ctpl_toc1">
-    <xsl:call-template name="ctpl_toc"/>
+    <xsl:call-template name="ctpl_toc" />
   </xsl:template>
 
   <xsl:template name="ctpl_toc2">
-    <xsl:call-template name="ctpl_toc"/>
+    <xsl:call-template name="ctpl_toc" />
   </xsl:template>
 
   <!-- OPTIONS: As default, a TOC is only output if there are actually any divisional headings. Footnotes are not included in the TOC. -->
@@ -263,7 +248,7 @@
               <li>
                 <a href="#{generate-id()}">
                   <span>
-                    <xsl:apply-templates select="." mode="toc"/>
+                    <xsl:apply-templates mode="toc" select="." />
                   </span>
                 </a>
               </li>
@@ -285,17 +270,17 @@
           <xsl:for-each select="//TEI.2//note">
             <!-- Variables -->
             <xsl:variable name="fnnum">
-              <xsl:number level="any"/>
+              <xsl:number level="any" />
             </xsl:variable>
             <xsl:variable name="fnnumfull">
-              <xsl:number level="any" format="01"/>
+              <xsl:number format="01" level="any" />
             </xsl:variable>
             <!-- Output -->
-            <dt id="fn{$fnnumfull}"><xsl:value-of select="$fnnum"/>.</dt>
+            <dt id="fn{$fnnumfull}"><xsl:value-of select="$fnnum" />.</dt>
             <dd>
-              <xsl:apply-templates/>
+              <xsl:apply-templates />
               <xsl:text> </xsl:text>
-              <a href="#fnLink{$fnnumfull}" class="back">Back to context...</a>
+              <a class="back" href="#fnLink{$fnnumfull}">Back to context...</a>
             </dd>
           </xsl:for-each>
           <!-- END model for each footnote -->
@@ -309,7 +294,7 @@
   <xsl:template name="ctpl_options1">
     <div class="options">
       <div class="t01">
-        <xsl:call-template name="ctpl_option"/>
+        <xsl:call-template name="ctpl_option" />
       </div>
     </div>
   </xsl:template>
@@ -317,7 +302,7 @@
   <xsl:template name="ctpl_options2">
     <div class="options">
       <div class="t02">
-        <xsl:call-template name="ctpl_option"/>
+        <xsl:call-template name="ctpl_option" />
       </div>
     </div>
   </xsl:template>
@@ -325,61 +310,60 @@
   <xsl:template name="ctpl_option">
     <ul>
       <li>
-        <a href="" class="s01">
+        <a class="s01" href="">
           <span>First Page</span>
         </a>
       </li>
       <li>
-        <a href="" class="s02">
+        <a class="s02" href="">
           <span>Previous Page</span>
         </a>
       </li>
       <li>
-        <a href="" class="s03">
+        <a class="s03" href="">
           <span>Next Page</span>
         </a>
       </li>
       <li>
-        <a href="" class="s04">
+        <a class="s04" href="">
           <span>Last Page</span>
         </a>
       </li>
       <li>
-        <a href="" class="s05">
+        <a class="s05" href="">
           <span>1</span>
         </a>
       </li>
       <li>
-        <a href="" class="s06">
+        <a class="s06" href="">
           <span>Previous</span>
         </a>
       </li>
       <li>
-        <a href="" class="s07">
+        <a class="s07" href="">
           <span>Next</span>
         </a>
       </li>
       <li>
-        <a href="" class="s08">
+        <a class="s08" href="">
           <span>Search</span>
         </a>
       </li>
       <li>
-        <a href="" class="s09">
+        <a class="s09" href="">
           <span>Search Again</span>
         </a>
       </li>
       <li>
-        <a href="" class="s10">
+        <a class="s10" href="">
           <span>Refine Search</span>
         </a>
       </li>
       <li>
-        <a href="" class="s11">
+        <a class="s11" href="">
           <span>Print this Page</span>
         </a>
       </li>
     </ul>
   </xsl:template>
-
 </xsl:stylesheet>
