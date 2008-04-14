@@ -171,7 +171,7 @@
         </internal>
       </item>
       
-      <item id="idx03_auth">
+ <!--     <item id="idx03_auth">
         <router/>
         <fileName>idx_auth_03</fileName>
         <fileTitle>Type03 Listing of Titles by Author</fileTitle>
@@ -202,7 +202,7 @@
         <internal>
           <p/>
         </internal>
-      </item>
+      </item>-->
       <!--<item id="idx03_foreign_key">
                 <router/>
                 <fileName>idx_foreign_key_03</fileName>
@@ -219,17 +219,97 @@
                 </internal>
             </item>-->
     </group>
-    <group id="g2" default="p2_0" parRef="p0" level="2">
+    <group id="g2" default="p2_1" parRef="p0" level="2">
       <groupHead>
-        <groupTitle>About section</groupTitle>
-        <groupFolder>/about</groupFolder>
+        <groupTitle>Headnotes</groupTitle>
+        <groupFolder>/headnotes</groupFolder>
         <rhcontent/>
         <theme/>
       </groupHead>
-      <item id="p2_0">
+      <item id="p2_1">
         <router/>
-        <fileName>index</fileName>
-        <fileTitle>About us</fileTitle>
+        <fileName>mrp</fileName>
+        <fileTitle>Monthly Repository</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p2_2">
+        <router/>
+        <fileName>nss</fileName>
+        <fileTitle>Northern Star</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p2_3">
+        <router/>
+        <fileName>ldr</fileName>
+        <fileTitle>Leader</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p2_4">
+        <router/>
+        <fileName>ewj</fileName>
+        <fileTitle>English Woman’s Journal</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p2_5">
+        <router/>
+        <fileName>ttw</fileName>
+        <fileTitle>Tomahawk</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel/>
+        </relations>
+        <notes>
+          <p/>
+        </notes>
+        <internal>
+          <p/>
+        </internal>
+      </item>
+      <item id="p2_6">
+        <router/>
+        <fileName>tec</fileName>
+        <fileTitle>Publishers’ Circular</fileTitle>
         <rhcontent/>
         <theme/>
         <relations>
@@ -244,6 +324,7 @@
       </item>
     </group>
 
+    
     <group id="g3">
       <groupHead>
         <groupTitle>Type02</groupTitle>

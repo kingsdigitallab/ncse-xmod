@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!-- 
+  Project aggregation sitemap. 
+  SVN: $Id$
+-->
+<map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
+
+  <!-- =========================== Pipelines ================================= -->
+
+  <map:pipelines>
+    <map:pipeline>
+      <!-- Core Authority Lists -->
+      <map:match pattern="coreAL">
+        <map:aggregate element="coreAL">
+          <map:part element="navbar" src="{global:project-alist}/AL_navbar.xml" />
+          <map:part element="filebase" src="{global:project-alist}/AL_fileBase.xml" />
+          <map:part element="imagebase" src="{global:project-alist}/AL_imageBase.xml" />
+        </map:aggregate>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Project specific Authority lists -->
+      <map:match pattern="projAL">
+        <map:aggregate element="projAL">
+          <map:part src="{global:project-xml}/glossary/glossary.xml" />
+        </map:aggregate>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- XML directory pages -->
+      <map:match pattern="dir-02">
+        <map:generate src="{global:project-type02}" type="directory" />
+        <map:serialize type="xml" />
+      </map:match>
+            
+      <map:match pattern="dir-type02">
+        <map:generate src="{global:project-type02}" type="xpathdirectory">
+          <map:parameter name="xpath" value="/TEI.2/@id|/TEI.2/teiHeader//titleStmt" />
+          <map:parameter name="xmlFiles" value="\.xml" />
+        </map:generate>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <map:match pattern="dir-type03">
+        <map:generate src="{global:project-type03}" type="xpathdirectory">
+          <map:parameter name="xpath" value="/TEI.2/@id|/TEI.2/teiHeader//titleStmt" />
+          <map:parameter name="xmlFiles" value="\.xml" />
+        </map:generate>
+        <map:serialize type="xml" />
+      </map:match>
+      
+      <!-- ========================= Automount ============================= -->
+      <map:match pattern="*/**">
+        <map:mount check-reload="yes" src="{1}/" uri-prefix="{1}" />
+      </map:match>
+    </map:pipeline>
+  </map:pipelines>
+</map:sitemap>
