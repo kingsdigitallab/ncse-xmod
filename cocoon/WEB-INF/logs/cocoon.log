@@ -30,3 +30,9 @@ INFO  (2008-04-15) 10:04.53:390 [access] (/ncse/Assets/g/i/h1_accent.png) http-8
 INFO  (2008-04-15) 10:04.53:406 [access] (/ncse/Assets/g/i/sidenav_bg.png) http-8080-Processor21/CocoonServlet: 'Assets/g/i/sidenav_bg.png' Processed by Apache Cocoon 2.1.11 in 16 milliseconds.
 INFO  (2008-04-15) 10:04.53:406 [access] (/ncse/Assets/g/i/pn1_bg_off.png) http-8080-Processor20/CocoonServlet: 'Assets/g/i/pn1_bg_off.png' Processed by Apache Cocoon 2.1.11 in 0 milliseconds.
 INFO  (2008-04-15) 10:04.53:406 [access] (/ncse/Assets/g/i/xModOff.png) http-8080-Processor22/CocoonServlet: 'Assets/g/i/xModOff.png' Processed by Apache Cocoon 2.1.11 in 0 milliseconds.
+WARN  (2008-04-15) 10:30.25:703 [sitemap] (Unknown-URI) Unknown-Thread/ExcaliburComponentManager: disposing of handler for unreleased component. role [org.apache.cocoon.selection.SelectorSelector]
+INFO  (2008-04-15) 10:30.25:703 [core.store] (Unknown-URI) Unknown-Thread/EHDefaultStore: Disposing EHCache cache "cocoon-ehcache-1".
+WARN  (2008-04-15) 10:30.25:734 [core.manager] (Unknown-URI) Unknown-Thread/ExcaliburComponentManager: disposing of handler for unreleased component. role [org.apache.excalibur.store.Store/TransientStore]
+WARN  (2008-04-15) 10:30.25:734 [core.manager] (Unknown-URI) Unknown-Thread/ExcaliburComponentManager: disposing of handler for unreleased component. role [org.apache.excalibur.store.StoreJanitor]
+WARN  (2008-04-15) 10:30.25:734 [core.manager] (Unknown-URI) Unknown-Thread/ExcaliburComponentManager: disposing of handler for unreleased component. role [org.apache.avalon.excalibur.logger.LoggerManager]
+WARN  (2008-04-15) 10:30.25:734 [core.manager] (Unknown-URI) Unknown-Thread/ExcaliburComponentManager: disposing of handler for unreleased component. role [org.apache.cocoon.components.thread.RunnableManager]
