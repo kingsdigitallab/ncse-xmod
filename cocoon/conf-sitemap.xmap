@@ -30,7 +30,7 @@
         <project-root></project-root>
         
         <!-- Project path -->
-        <project-path>./</project-path>
+        <project-path></project-path>
 
         <!-- Root location of DTD files -->
         <project-dtd>source/dtd</project-dtd>
