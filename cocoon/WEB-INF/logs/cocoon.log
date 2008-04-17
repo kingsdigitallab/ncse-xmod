@@ -1,4 +1,0 @@
-INFO  (2008-04-17) 11:59.56:244 [access] (Unknown-URI) Unknown-Thread/CocoonServlet: Reloading from: jndi:/localhost/ncse/WEB-INF/cocoon.xconf
-INFO  (2008-04-17) 11:59.56:483 [core.runnable] (Unknown-URI) Unknown-Thread/DefaultRunnableManager: ThreadPool named "default" created with maximum queue-size=2147483647,max-pool-size=5,min-pool-size=5,priority=5,isDaemon=false,keep-alive-time-ms=60000,block-policy="ABORT",shutdown-wait-time-ms=-1
-INFO  (2008-04-17) 11:59.56:485 [core.runnable] (Unknown-URI) Unknown-Thread/DefaultRunnableManager: ThreadPool named "daemon" created with no queue,max-pool-size=2147483647,min-pool-size=1,priority=5,isDaemon=true,keep-alive-time-ms=60000,block-policy=ABORT,shutdown-wait-time-ms=-1
-INFO  (2008-04-17) 11:59.56:662 [core.store] (Unknown-URI) Unknown-Thread/EHDefaultStore: EHCache cache "cocoon-ehcache-1" initialized
