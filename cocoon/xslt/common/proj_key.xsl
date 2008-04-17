@@ -32,22 +32,16 @@
 
     <!-- CSS calls -->
     <link href="{$scriptswitch}/c/default.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <!--<link rel="stylesheet" type="text/css" media="screen, projection"
-      href="{$scriptpers}/c/personality.css"/>-->
+    <link href="{$scriptpers}/c/personality.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="{$scriptswitch}/c/print.css" media="print" rel="stylesheet" type="text/css" />
 
     <!-- IE browser specific css and script -->
-    <!--<xsl:comment>[if LTE IE 6]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of
-      select="$scriptpers"/>/c/compat_MSIE_6_0_lte.css"/> &lt;![endif]</xsl:comment>
     <xsl:comment>[if GTE IE 7]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of
-      select="$scriptpers"/>/c/compat_MSIE_7_0_gte.css"/> &lt;![endif]</xsl:comment>-->
-    <xsl:comment>[if IE]&gt; &lt;script src="<xsl:value-of select="$scriptswitch" />/s/compat.js" type="text/javascript" &gt; &#160;
-      &lt;/script&gt; &lt;![endif]</xsl:comment>
+      select="$scriptpers"/>/c/compat.css"/> &lt;![endif]</xsl:comment>
 
     <!-- script -->
-    <script src="{$scriptswitch}/s/corelib.js" type="text/javascript">&#160;</script>
+    <script src="{$scriptswitch}/g/j/jquery-1.2.3.pack.js" type="text/javascript">&#160;</script>
     <script src="{$scriptpers}/s/config.js" type="text/javascript">&#160;</script>
-    <script src="{$scriptswitch}/s/init.js" type="text/javascript">&#160;</script>
   </xsl:template>
 
 
@@ -68,30 +62,6 @@
               <a accesskey="c" href="" title="Link to contact information">
                 <span>Contact Info</span>
               </a>
-
-              <!--Start form code -->
-              <!--<xsl:text>&#xA;</xsl:text>
-              <form action="completeMe">
-                <xsl:text>&#xA;</xsl:text>
-                <fieldset>
-                  <xsl:text>&#xA;</xsl:text>
-                  <label for="siteSearch">Search</label>
-                  <xsl:text>&#xA;</xsl:text>
-                  <input type="hidden" name="sitesearch" value="kcl.ac.uk"/>
-                  <xsl:text>&#xA;</xsl:text>
-                  <input type="hidden" name="domains" value="kcl.ac.uk"/>
-                  <xsl:text>&#xA;</xsl:text>
-                  <input id="siteSearch" type="text" name="siteSearch" tabindex="3" accesskey="s"
-                    class="s01"/>
-                  <xsl:text>&#xA;</xsl:text>
-                  <button type="submit">
-                    <span>Search</span>
-                  </button>
-                  <xsl:text>&#xA;</xsl:text>
-                </fieldset>
-                <xsl:text>&#xA;</xsl:text>
-              </form>-->
-              <!-- End form code -->
             </div>
           </div>
           <div id="decalRight">
