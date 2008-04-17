@@ -106,7 +106,6 @@
           <p></p>
         </internal>
       </item>
-      
       <item id="p1_4">
         <router></router>
         <fileName>contact</fileName>
@@ -155,54 +154,6 @@
           <p></p>
         </internal>
       </item>
-      
- <!--     <item id="idx03_auth">
-        <router/>
-        <fileName>idx_auth_03</fileName>
-        <fileTitle>Type03 Listing of Titles by Author</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
-      </item>
-      <item id="idx03_foreign">
-        <router/>
-        <fileName>idx_foreign_03</fileName>
-        <fileTitle>Keyword index type03</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
-      </item>-->
-      <!--<item id="idx03_foreign_key">
-                <router/>
-                <fileName>idx_foreign_key_03</fileName>
-                <fileTitle>Keyword index type03 with Authority List</fileTitle>
-<rhcontent/>
-                <theme/><relations>
-                    <rel/>
-                </relations>
-                <notes>
-                    <p/>
-                </notes>
-                <internal>
-                    <p/>
-                </internal>
-            </item>-->
     </group>
     <group id="g2" default="p2_1" parRef="p0" level="2">
       <groupHead>
@@ -308,7 +259,78 @@
         </internal>
       </item>
     </group>
-
+    <group default="p4_0" id="g4" level="2" parRef="p0">
+      <groupHead>
+        <groupTitle>Search</groupTitle>
+        <groupFolder>/search</groupFolder>
+        <rhcontent />
+        <theme />
+      </groupHead>
+      <item id="p4_0">
+        <router />
+        <fileName>search</fileName>
+        <fileTitle>Search</fileTitle>
+        <rhcontent />
+        <theme />
+        <relations>
+          <rel />
+        </relations>
+        <notes>
+          <p />
+        </notes>
+        <internal>
+          <p />
+        </internal>
+      </item>
+      <item id="search_entity">
+        <router />
+        <fileName>entity-search</fileName>
+        <fileTitle>Entity Search</fileTitle>
+        <rhcontent />
+        <theme />
+        <relations>
+          <rel />
+        </relations>
+        <notes>
+          <p />
+        </notes>
+        <internal>
+          <p />
+        </internal>
+      </item>
+      <item id="search_thesaurus">
+        <router />
+        <fileName>thesaurus-search</fileName>
+        <fileTitle>Thesaurus Search</fileTitle>
+        <rhcontent />
+        <theme />
+        <relations>
+          <rel />
+        </relations>
+        <notes>
+          <p />
+        </notes>
+        <internal>
+          <p />
+        </internal>
+      </item>
+      <item id="search_advanced">
+        <router />
+        <fileName>advanced-search</fileName>
+        <fileTitle>Advanced Search</fileTitle>
+        <rhcontent />
+        <theme />
+        <relations>
+          <rel />
+        </relations>
+        <notes>
+          <p />
+        </notes>
+        <internal>
+          <p />
+        </internal>
+      </item>
+    </group>
     <group id="g8">
       <groupHead>
         <groupTitle>Help</groupTitle>
@@ -333,121 +355,5 @@
         </internal>
       </item>
     </group>
-    
-    <!--<group id="g3">
-      <groupHead>
-        <groupTitle>Type02</groupTitle>
-        <groupFolder>/type02</groupFolder>
-        <rhcontent value="off"/>
-        <theme/>
-      </groupHead>
-
-    </group>-->
-    <!--<group id="g3_01">
-      <groupHead>
-        <groupTitle>Type02 indices</groupTitle>
-        <groupFolder>/indices-type02</groupFolder>
-        <rhcontent value="off"/>
-        <theme/>
-      </groupHead>
-      <item id="idx02_auth">
-        <router/>
-        <fileName>idx_auth_02</fileName>
-        <fileTitle>Type02 Listing of Titles by Author</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
-      </item>
-      <item id="idx02_foreign">
-        <router/>
-        <fileName>idx_foreign_02</fileName>
-        <fileTitle>Keyword index type02</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
-      </item>
-
-      <item id="idx02_foreign_az">
-        <router/>
-        <fileName>idx_foreign_az_02</fileName>
-        <fileTitle>A-Z Keyword index type02</fileTitle>
-        <rhcontent value="off"/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
-      </item>
-      <item id="idx02_foreign_key">
-        <router/>
-        <fileName>idx_foreign_key_02</fileName>
-        <fileTitle>Keyword index type02 with Authority List</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
-      </item>
-    </group>
-    <group id="g4">
-      <groupHead>
-        <groupTitle>Type03</groupTitle>
-        <groupFolder>/type03</groupFolder>
-        <rhcontent/>
-        <theme value="th1"/>
-      </groupHead>
-
-    </group>-->
-    <!--<group id="p_test" parRef="p0" level="2">
-      <groupHead>
-        <groupTitle>About section</groupTitle>
-        <groupFolder>/test</groupFolder>
-        <rhcontent/>
-        <theme/>
-      </groupHead>
-      <item id="test">
-        <router/>
-        <fileName>test</fileName>
-        <fileTitle>Test page- not for final output</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
-      </item>
-    </group>-->
   </body>
 </authorityList>
