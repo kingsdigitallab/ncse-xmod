@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<!-- $Id: proj_type03_tpkey.xsl 629 2007-09-06 14:51:43Z zau $ -->
+<!-- $Id$ -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:saxon="http://icl.com/saxon"
   xmlns="http://www.w3.org/1999/xhtml" extension-element-prefixes="saxon"
   exclude-result-prefixes="saxon" version="1.1">
