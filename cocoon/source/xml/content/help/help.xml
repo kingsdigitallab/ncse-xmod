@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TEI.2
   SYSTEM "../../../dtd/tei/cch_tei.dtd">
-  <TEI.2 id="p2_2">
+  <TEI.2 id="p8">
       <teiHeader status="new" type="text">
           <fileDesc>
               <titleStmt>
-                  <title>Northern Star (1837-1852)</title>
+                  <title>FAQ and Help</title>
                   
               </titleStmt>
               <publicationStmt>
@@ -24,7 +24,7 @@
           </encodingDesc>
           <revisionDesc>
               <change>
-                  <date>2008-03-31</date>
+                  <date>2008-03-27</date>
                   <respStmt>
                       <name>EL</name>
                   </respStmt>
@@ -38,20 +38,11 @@
       <text>
           <body>
               
-              <head>Northern Star (1837-1852)</head>
+              <head>FAQ and Help</head>
               
-            <div>  <p>please populate</p>
               <p>please populate</p>
-              <p>please populate</p></div>
-              <div><p>please populate</p>
-              <p>please populate</p>
-              <p>please populate</p>
-                  <table rend="thumbnail">
-                  <row><cell><figure url="nssp01" type="thumb"/></cell></row>
-              </table>
-              </div>
               
-
+              
               
               
               
@@ -65,6 +56,4 @@
           </body>
       </text>
   </TEI.2>
-  
-  
   
