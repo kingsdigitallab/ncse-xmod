@@ -20,16 +20,16 @@
   </header>
   <body topNav="off">
 
-    <layout id="other">
+   <!-- <layout id="other">
       <navGroup>
         <level01>
           <label>Access NCSE (Olive)</label>
           <default type="external" ref="http://viewpoint.ncse.ac.uk"/>
         </level01>
       </navGroup>
-    </layout>
+    </layout>-->
 
-    <layout id="main">
+    <layout>
       <heading>Main site:</heading>
       <navGroup>
         <level01 id="NOT_NECESSARY">
