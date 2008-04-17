@@ -33,7 +33,11 @@
         </level01>
         <level01>
           <label>Search</label>
-          <default ref="p4"/>
+          <default ref="p4_0"/>
+          <active>
+            <file start="p4_"/>
+            <file start="search_"/>
+          </active>
         </level01>    
         <level01>
           <label>FAQs / Help</label>
