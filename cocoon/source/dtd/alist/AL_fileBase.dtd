@@ -86,12 +86,12 @@
 	parRef IDREF #IMPLIED
 	level (0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | _unspecified) "_unspecified">
 
-<!ELEMENT groupHead (groupTitle, groupFolder, rhcontent, theme)>
+<!ELEMENT groupHead (groupTitle, groupFolder, rhcontent?, theme?)>
 
 <!ELEMENT groupTitle (#PCDATA)>
 <!ELEMENT groupFolder (#PCDATA)>
 
-<!ELEMENT item (router, fileName, fileTitle, rhcontent, theme, relations, notes, internal)>
+<!ELEMENT item (router?, fileName, fileTitle?, rhcontent?, theme?, relations?, notes?, internal?)>
 <!ATTLIST item
 	id ID #REQUIRED
         print CDATA #IMPLIED
