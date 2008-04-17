@@ -58,7 +58,7 @@
   <xsl:variable name="scriptswitch" select="'Assets/g'" />
   <!-- e.g. /Assets/p/04 -->
   <!-- CHANGE ME -->
-  <xsl:variable name="scriptpers" select="'Assets/l'" />
+  <xsl:variable name="scriptpers" select="'Assets/p/23'" />
 
 
 
