@@ -49,52 +49,49 @@
                 <p>please populate</p>
                 <p>please populate</p>
                 <p>please populate</p>
-                <table rend="thumbnail">
-                    <row>
-                        <cell>
+                <table type="thumbnail" rend="img">
+                    <head>Portraits</head>
+                    <row role="data">
+                        <cell role="data" cols="1" rows="1">
                             <figure url="nssp01" type="thumb"/>
                         </cell>
-                        <cell>
+                        <cell role="data" cols="1" rows="1">
                             <figure url="nssp01" type="thumb"/>
                         </cell>
-                        <cell>
+                        <cell role="data" cols="1" rows="1">
                             <figure url="nssp01" type="thumb"/>
                         </cell>
-                        <cell>
+                        <cell role="data" cols="1" rows="1">
                             <figure url="nssp01" type="thumb"/>
                         </cell>
-                        
-                    </row>
-                    <row>
-                        <cell>
+                        <cell role="data" cols="1" rows="1">
                             <figure url="nssp01" type="thumb"/>
                         </cell>
-                        <cell>
+                        <cell role="data" cols="1" rows="1">
                             <figure url="nssp01" type="thumb"/>
                         </cell>
-                        <cell>
+                        <cell role="data" cols="1" rows="1">
                             <figure url="nssp01" type="thumb"/>
                         </cell>
-                        <cell>
+                        <cell role="data" cols="1" rows="1">
                             <figure url="nssp01" type="thumb"/>
                         </cell>
-                        
-                    </row>
-                    <row>
-                        <cell>
+                        <cell role="data" cols="1" rows="1">
                             <figure url="nssp01" type="thumb"/>
                         </cell>
-                        <cell>
+                        <cell role="data" cols="1" rows="1">
                             <figure url="nssp01" type="thumb"/>
                         </cell>
-                        <cell>
+                        <cell role="data" cols="1" rows="1">
                             <figure url="nssp01" type="thumb"/>
                         </cell>
-                        <cell>
+                        <cell role="data" cols="1" rows="1">
                             <figure url="nssp01" type="thumb"/>
                         </cell>
-                        
-                    </row>
+                        <cell role="data" cols="1" rows="1">
+                            <figure url="nssp01" type="thumb"/>
+                        </cell>
+                        </row>
                 </table>
             </div>
 
