@@ -47,7 +47,7 @@
             <xsl:value-of select="normalize-space($themebn)" />
           </xsl:if>
           <!-- Output sideNave value -->
-          <xsl:value-of select="$sideNav" />
+          <xsl:text>sn1</xsl:text>
         </xsl:attribute>
 
         <div id="wrapper">
@@ -60,7 +60,6 @@
           <table cellpadding="0" cellspacing="0" id="xlt" summary="">
 
             <!-- TOP NAVIGATION ROW -->
-            <xsl:if test="$topNav = 'on'">
               <xsl:comment>CTPL_TOPNAV STARTS</xsl:comment>
               <tr class="r01">
                 <td colspan="2" id="topnav">
@@ -68,16 +67,15 @@
                 </td>
               </tr>
               <xsl:comment>CTPL_TOPNAV ENDS</xsl:comment>
-            </xsl:if>
 
             <!--  BREADCRUMB ROW -->
-            <tr class="r01">
+<!--            <tr class="r01">
               <td colspan="2" id="breadcrumb">
                 <xsl:comment>CTPL_BREAD STARTS</xsl:comment>
                 <xsl:call-template name="ctpl_bread" />
                 <xsl:comment>CTPL_BREAD ENDS</xsl:comment>
               </td>
-            </tr>
+            </tr>-->
 
             <!--  ROW FOR EVERYTHING ELSE -->
             <tr class="r02">

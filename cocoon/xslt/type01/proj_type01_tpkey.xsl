@@ -14,7 +14,7 @@
   <!-- All calls come from proj_tpl.xsl -->
 
   <xsl:template name="ctpl_submenu">
-    <div class="submenu">
+    <!--<div class="submenu">
       <div class="t01">
         <ul>
           <li>
@@ -34,7 +34,7 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div>-->
   </xsl:template>
 
   <xsl:variable name="pagehead">
@@ -292,19 +292,19 @@
 
 
   <xsl:template name="ctpl_options1">
-    <div class="options">
+    <!--<div class="options">
       <div class="t01">
         <xsl:call-template name="ctpl_option" />
       </div>
-    </div>
+    </div>-->
   </xsl:template>
 
   <xsl:template name="ctpl_options2">
-    <div class="options">
+  <!--  <div class="options">
       <div class="t02">
         <xsl:call-template name="ctpl_option" />
       </div>
-    </div>
+    </div>-->
   </xsl:template>
 
   <xsl:template name="ctpl_option">

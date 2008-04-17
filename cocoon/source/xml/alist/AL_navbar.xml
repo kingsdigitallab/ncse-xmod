@@ -2,7 +2,7 @@
 <!DOCTYPE authorityList SYSTEM "../../dtd/alist/AL_navbar.dtd">
 <authorityList id="AL_navbar" month="_unspecified" day="_unspecified" resp="ADD HERE" year="2003">
   <header>
-    <title>PROJNAME navbar XML</title>
+    <title>NCSE navbar XML</title>
     <changeNotes>
       <changeItem>
         <name/>
@@ -18,35 +18,43 @@
       </list>
     </comments>
   </header>
-  <body topNav="off">
-
-   <!-- <layout id="other">
+  <body topNav="on">
+    <layout id="topNav">
       <navGroup>
         <level01>
           <label>Access NCSE (Olive)</label>
           <default type="external" ref="http://viewpoint.ncse.ac.uk"/>
         </level01>
       </navGroup>
-    </layout>-->
+      <navGroup>
+        <level01>
+          <label>Browse</label>
+          <default ref="p3"/>
+        </level01>
+        <level01>
+          <label>Search</label>
+          <default ref="p4"/>
+        </level01>    
+        <level01>
+          <label>FAQs / Help</label>
+          <default ref="p8"/>
+        </level01>    
+      </navGroup>
+    </layout>
 
-    <layout>
-      <heading>Main site:</heading>
+    <layout id="sideNav">
       <navGroup>
         <level01 id="NOT_NECESSARY">
           <label>Home</label>
           <default ref="p0"/>
         </level01>
-
         <level01>
-
           <label>About ncse</label>
           <default ref="p1_0"/>
           <active>
             <file start="p1_"/>
           </active>
-
           <sub02>
-
             <level02>
               <label>Welcome to ncse</label>
               <default ref="p1_1"/>
@@ -56,12 +64,6 @@
               <default ref="p1_2"/>
             </level02>
             <level02>
-
-
-              <label>FAQs / Help</label>
-              <default ref="p1_3"/>
-            </level02>
-            <level02>
               <label>Contact us</label>
               <default ref="p1_4"/>
             </level02>
@@ -69,9 +71,11 @@
               <label>Feedback form</label>
               <default ref="p1_5"/>
             </level02>
-
           </sub02>
-
+        </level01>
+        <level01>
+          <label>Reference</label>
+          <default ref="p7"/>
         </level01>
         <level01>
           <label>Editorial Commentary</label>
@@ -82,7 +86,6 @@
           <default ref="p6"/>
         </level01>
       </navGroup>
-
       <heading>About the titles:</heading>
       <navGroup>
         <level01>
@@ -110,71 +113,6 @@
           <default ref="p2_6"/>
         </level01>
       </navGroup>
-      <heading>Other resources:</heading>
-      <navGroup>
-        <level01>
-          <label>Browse</label>
-          <default ref="p3"/>
-        </level01>
-        <level01>
-          <label>Search</label>
-          <default ref="p4"/>
-        </level01>
-
-        <level01>
-          <label>Reference</label>
-          <default ref="p7"/>
-        </level01>
-
-      </navGroup>
-
-
-
-      <!--<navGroup>
-      
-      <level01>
-          <label>Type02</label>
-          <default ref="idx02_auth"/>
-          <active>
-            <file start="tp"/>
-            <file start="idx02_"/>
-          </active>
-          <sub02>
-            <level02>
-              <label>Keyword index</label>
-              <default ref="idx02_foreign"/>
-            </level02>
-            <level02>
-              <label>A-Z Keyword index</label>
-              <default ref="idx02_foreign_az"/>
-            </level02>
-            <level02>
-              <label>Keyword index with Authority List</label>
-              <default ref="idx02_foreign_key"/>
-            </level02>
-          </sub02>
-        </level01>
-        <level01>
-          <label>Type03</label>
-          <default ref="idx03_auth"/>
-          <active>
-            <file start="g4"/>
-            <file start="p4"/>
-            <file start="idx03_"/>
-          </active>
-          <sub02>
-            <level02>
-              <label>Keyword index</label>
-              <default ref="idx03_foreign"/>
-            </level02>
-          <level02><label>Keyword index with Authority List</label><default ref="idx03_foreign_key"/></level02>
-          </sub02>
-        </level01>
-        <level01>
-          <label>Test</label>
-          <default ref="test"/>
-        </level01>
-      </navGroup>-->
     </layout>
   </body>
 </authorityList>
