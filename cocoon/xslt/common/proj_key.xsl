@@ -208,13 +208,13 @@
             <li>
               <xsl:choose>
                 <!-- First -->
-                <xsl:when test="not(preceding::level01)">
+                <xsl:when test="not(preceding-sibling::level01)">
                   <xsl:attribute name="class">
                     <xsl:text>s01</xsl:text>
                   </xsl:attribute>
                 </xsl:when>
                 <!-- Last -->
-                <xsl:when test="not(following::level01)">
+                <xsl:when test="not(following-sibling::level01)">
                   <xsl:attribute name="class">
                     <xsl:text>s02</xsl:text>
                   </xsl:attribute>
