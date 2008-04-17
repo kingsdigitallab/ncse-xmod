@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<!-- $Id: proj_indices_spec.xsl 594 2007-08-31 16:13:54Z zau $ -->
+<!-- $Id$ -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:saxon="http://icl.com/saxon"
   xmlns="http://www.w3.org/1999/xhtml" extension-element-prefixes="saxon"
   xmlns:dir="http://apache.org/cocoon/directory/2.0" exclude-result-prefixes="saxon dir"
