@@ -106,22 +106,7 @@
           <p></p>
         </internal>
       </item>
-      <item id="p1_3">
-        <router></router>
-        <fileName>help</fileName>
-        <fileTitle>FAQ and Help</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel></rel>
-        </relations>
-        <notes>
-          <p></p>
-        </notes>
-        <internal>
-          <p></p>
-        </internal>
-      </item>
+      
       <item id="p1_4">
         <router></router>
         <fileName>contact</fileName>
@@ -324,8 +309,32 @@
       </item>
     </group>
 
+    <group id="g8">
+      <groupHead>
+        <groupTitle>Help</groupTitle>
+        <groupFolder>/help</groupFolder>
+        <rhcontent value="off"/>
+        <theme/>
+      </groupHead>
+      <item id="p8">
+        <router></router>
+        <fileName>index</fileName>
+        <fileTitle>FAQ and Help</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel></rel>
+        </relations>
+        <notes>
+          <p></p>
+        </notes>
+        <internal>
+          <p></p>
+        </internal>
+      </item>
+    </group>
     
-    <group id="g3">
+    <!--<group id="g3">
       <groupHead>
         <groupTitle>Type02</groupTitle>
         <groupFolder>/type02</groupFolder>
@@ -333,8 +342,8 @@
         <theme/>
       </groupHead>
 
-    </group>
-    <group id="g3_01">
+    </group>-->
+    <!--<group id="g3_01">
       <groupHead>
         <groupTitle>Type02 indices</groupTitle>
         <groupFolder>/indices-type02</groupFolder>
@@ -415,8 +424,8 @@
         <theme value="th1"/>
       </groupHead>
 
-    </group>
-    <group id="p_test" parRef="p0" level="2">
+    </group>-->
+    <!--<group id="p_test" parRef="p0" level="2">
       <groupHead>
         <groupTitle>About section</groupTitle>
         <groupFolder>/test</groupFolder>
@@ -439,6 +448,6 @@
           <p/>
         </internal>
       </item>
-    </group>
+    </group>-->
   </body>
 </authorityList>
