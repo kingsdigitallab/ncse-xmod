@@ -415,6 +415,12 @@
           <xsl:text>s03</xsl:text>
         </xsl:attribute>
       </xsl:if>
+      <!-- Special case added for search -->
+      <xsl:if test=".//file[@ref = $context-id or starts-with($context-id, @start) and string(@start)]">
+        <xsl:attribute name="class">
+          <xsl:text>s03</xsl:text>
+        </xsl:attribute>
+      </xsl:if>
       <!-- External page Class -->
       <xsl:if test="default/@type='external'">
         <xsl:attribute name="class">
