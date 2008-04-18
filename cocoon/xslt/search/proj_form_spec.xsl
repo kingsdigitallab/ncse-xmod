@@ -17,13 +17,15 @@
                   <label for="field1Sel">Search in:</label>
                   <select id="field1Sel" name="field1Sel">
                     <xsl:call-template name="tpl-entity-select">
-                      <xsl:with-param name="selected" select="'name'" />
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'field1Sel:')], ':')" />
                     </xsl:call-template>
                   </select>
-                  <input id="field1Txt" name="field1Txt" type="text" value="" />
+                  <input id="field1Txt" name="field1Txt" type="text"
+                    value="{substring-after(//refine/parameters/parameter[starts-with(., 'field1Txt:')], ':')}" />
                   <select id="similarity1Sel" name="similarity1Sel">
                     <xsl:call-template name="tpl-similarity-select">
-                      <xsl:with-param name="selected" select="'1'" />
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'similarity1Sel:')], ':')"
+                       />
                     </xsl:call-template>
                   </select>
                 </fieldset>
@@ -33,18 +35,21 @@
                   <legend>Secondary Search Criteria</legend>
                   <select id="booleanOp2Sel" name="booleanOp2Sel">
                     <xsl:call-template name="tpl-search-mode">
-                      <xsl:with-param name="selected" select="'and'" />
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOp2Sel:')], ':')"
+                       />
                     </xsl:call-template>
                   </select>
                   <select id="field2Sel" name="field2Sel">
                     <xsl:call-template name="tpl-entity-select">
-                      <xsl:with-param name="selected" select="'institution'" />
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'field2Sel:')], ':')" />
                     </xsl:call-template>
                   </select>
-                  <input id="field2Txt" name="field2Txt" type="text" value="" />
+                  <input id="field2Txt" name="field2Txt" type="text"
+                    value="{substring-after(//refine/parameters/parameter[starts-with(., 'field2Txt:')], ':')}" />
                   <select id="similarity2Sel" name="similarity2Sel">
                     <xsl:call-template name="tpl-similarity-select">
-                      <xsl:with-param name="selected" select="'1'" />
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'similarity2Sel:')], ':')"
+                       />
                     </xsl:call-template>
                   </select>
                   <label class="s02" for="field2Txt">(optional)</label>
@@ -55,18 +60,21 @@
                   <legend>Tertiary Search Criteria</legend>
                   <select id="booleanOp3Sel" name="booleanOp3Sel">
                     <xsl:call-template name="tpl-search-mode">
-                      <xsl:with-param name="selected" select="'and'" />
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOp3Sel:')], ':')"
+                       />
                     </xsl:call-template>
                   </select>
                   <select id="field3Sel" name="field3Sel">
                     <xsl:call-template name="tpl-entity-select">
-                      <xsl:with-param name="selected" select="'place'" />
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'field3Sel:')], ':')" />
                     </xsl:call-template>
                   </select>
-                  <input id="field3Txt" name="field3Txt" type="text" value="" />
+                  <input id="field3Txt" name="field3Txt" type="text"
+                    value="{substring-after(//refine/parameters/parameter[starts-with(., 'field3Txt:')], ':')}" />
                   <select id="similarity3Sel" name="similarity3Sel">
                     <xsl:call-template name="tpl-similarity-select">
-                      <xsl:with-param name="selected" select="'1'" />
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'similarity3Sel:')], ':')"
+                       />
                     </xsl:call-template>
                   </select>
                   <label class="s02" for="field3Txt">(optional)</label>
@@ -77,19 +85,21 @@
                   <legend>Date Range</legend>
                   <select id="booleanOpDateSel" name="booleanOpDateSel">
                     <xsl:call-template name="tpl-search-mode">
-                      <xsl:with-param name="selected" select="'0'" />
+                      <xsl:with-param name="selected"
+                        select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOpDateSel:')], ':')" />
                     </xsl:call-template>
                   </select>
                   <label class="s01" for="lowerDateSel">From</label>
                   <select id="lowerDateSel" name="lowerDateSel">
                     <xsl:call-template name="tpl-year">
-                      <xsl:with-param name="year" select="'0'" />
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'lowerDateSel:')], ':')" />
                     </xsl:call-template>
                   </select>
                   <label class="s01" for="higherDateSel">To</label>
                   <select id="higherDateSel" name="higherDateSel">
                     <xsl:call-template name="tpl-year">
-                      <xsl:with-param name="year" select="'0'" />
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'higherDateSel:')], ':')"
+                       />
                     </xsl:call-template>
                   </select>
                   <label class="s02" for="higherDateSel">(optional)</label>
@@ -100,13 +110,15 @@
                   <legend>Publication</legend>
                   <select id="booleanOpPublicationSel" name="booleanOpPublicationSel">
                     <xsl:call-template name="tpl-search-mode">
-                      <xsl:with-param name="selected" select="'0'" />
+                      <xsl:with-param name="selected"
+                        select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOpPublicationSel:')], ':')" />
                     </xsl:call-template>
                   </select>
                   <label class="s01" for="publicationSel">Publication</label>
                   <select id="publicationSel" name="publicationSel">
                     <xsl:call-template name="tpl-publications">
-                      <xsl:with-param name="selected" select="''" />
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'publicationSel:')], ':')"
+                       />
                     </xsl:call-template>
                   </select>
                 </fieldset>
@@ -116,17 +128,35 @@
                   <legend>Results Sorting</legend>
                   <label class="s01" for="sortByRelevance">Sort results by</label>
                   <ol>
+                    <xsl:variable name="sort-by" select="substring-after(//refine/parameters/parameter[starts-with(., 'sortBy:')], ':')" />
                     <li class="clfx-b">
                       <label for="sortByRelevance">by relevance</label>
-                      <input checked="checked" class="f02" id="sortByRelevance" name="sortBy" type="radio" value="" />
+                      <input class="f02" id="sortByRelevance" name="sortBy" type="radio" value="">
+                        <xsl:choose>
+                          <xsl:when test="not(string($sort-by))">
+                            <xsl:attribute name="checked">checked</xsl:attribute>
+                          </xsl:when>
+                          <xsl:when test="$sort-by = ''">
+                            <xsl:attribute name="checked">checked</xsl:attribute>
+                          </xsl:when>
+                        </xsl:choose>
+                      </input>
                     </li>
                     <li class="clfx-b">
                       <label for="sortByDate">by date</label>
-                      <input class="f02" id="sortByDate" name="sortBy" type="radio" value="by-date" />
+                      <input class="f02" id="sortByDate" name="sortBy" type="radio" value="by-date">
+                        <xsl:if test="$sort-by = 'by-date'">
+                          <xsl:attribute name="checked">checked</xsl:attribute>
+                        </xsl:if>
+                      </input>
                     </li>
                     <li class="clfx-b">
                       <label for="any">by publication</label>
-                      <input class="f02" id="sortByPub" name="sortBy" type="radio" value="by-pub" />
+                      <input class="f02" id="sortByPub" name="sortBy" type="radio" value="by-pub">
+                        <xsl:if test="$sort-by = 'by-pub'">
+                          <xsl:attribute name="checked">checked</xsl:attribute>
+                        </xsl:if>
+                      </input>
                     </li>
                   </ol>
                 </fieldset>
@@ -169,16 +199,41 @@
       <xsl:text>Places</xsl:text>
     </option>
   </xsl:template>
-  
+
   <xsl:template name="tpl-similarity-select">
     <xsl:param name="selected" required="yes" />
-    
+
     <option value="1.0">Similarity...</option>
-    <option value="0.9">90%</option>
-    <option value="0.8">80%</option>
-    <option value="0.7">70%</option>
-    <option value="0.6">60%</option>
-    <option value="0.5">50%</option>
+    <option value="0.9">
+      <xsl:if test="$selected = '0.9'">
+        <xsl:attribute name="selected">selected</xsl:attribute>
+      </xsl:if>
+      <xsl:text>90%</xsl:text>
+    </option>
+    <option value="0.8">
+      <xsl:if test="$selected = '0.8'">
+        <xsl:attribute name="selected">selected</xsl:attribute>
+      </xsl:if>
+      <xsl:text>80%</xsl:text>
+    </option>
+    <option value="0.7">
+      <xsl:if test="$selected = '0.7'">
+        <xsl:attribute name="selected">selected</xsl:attribute>
+      </xsl:if>
+      <xsl:text>70%</xsl:text>
+    </option>
+    <option value="0.6">
+      <xsl:if test="$selected = '0.6'">
+        <xsl:attribute name="selected">selected</xsl:attribute>
+      </xsl:if>
+      <xsl:text>60%</xsl:text>
+    </option>
+    <option value="0.5">
+      <xsl:if test="$selected = '0.5'">
+        <xsl:attribute name="selected">selected</xsl:attribute>
+      </xsl:if>
+      <xsl:text>50%</xsl:text>
+    </option>
   </xsl:template>
 
   <xsl:template name="tpl-search-mode">
@@ -205,11 +260,14 @@
   </xsl:template>
 
   <xsl:template name="tpl-year">
-    <xsl:param name="year" required="yes" />
+    <xsl:param name="selected" required="yes" />
 
     <option value="">Year...</option>
     <xsl:for-each select="1806 to 1890">
       <option value="{.}">
+        <xsl:if test="number($selected) = .">
+          <xsl:attribute name="selected">selected</xsl:attribute>
+        </xsl:if>
         <xsl:value-of select="." />
       </option>
     </xsl:for-each>
