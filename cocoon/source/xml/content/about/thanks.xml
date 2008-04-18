@@ -36,25 +36,8 @@
       </teiHeader>
       
       <text>
-          <body>
-              
-              <head>Thank you</head>
-              
-              <p>Thank you for sending us your feedback, we will follow up as soon as possible.</p>
-              
-          
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-          </body>
-      </text>
+          <body><head>Feedback form received</head> 
+              <p>Thank you for completing the form. </p><p>Your feedback has been received by the ncse project team. Click <xref type="internal" from="p0">here</xref> to return to the home page.</p></body></text>
   </TEI.2>
   
   
