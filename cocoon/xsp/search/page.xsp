@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  @author miguel 
+  @version $Id$ 
+-->
+<xsp:page language="java" 
+  xmlns:xsp="http://apache.org/xsp" 
+  xmlns:xsp-request="http://apache.org/xsp/request/2.0"
+  xmlns:xsp-session="http://apache.org/xsp/session/2.0"
+  create-session="true">
+  
+  <xsp:structure>
+    <xsp:include>uk.ac.kcl.cch.ereuna.projects.ncse.NCSEIndexConstants</xsp:include>
+    <xsp:include>uk.ac.kcl.cch.ereuna.projects.ncse.cocoon.helpers.IndexSearcherHelper</xsp:include>
+  </xsp:structure>
+  
+  <search-results>
+    <session-id><xsp:expr>request.getSession(true).getId()</xsp:expr></session-id>
+    <search-link><xsp:expr>request.getSession(false).getAttribute(NCSEIndexConstants.SEARCH_LINK)</xsp:expr></search-link>
+    
+    <xsp:logic>
+      int page = 1; 
+      
+      try {
+        page = Integer.parseInt(parameters.getParameter("page"));
+      } catch (Exception e) {
+        e.printStackTrace();
+      }
+    </xsp:logic>
+    
+    <xsp:expr>IndexSearcherHelper.getParameters(NCSEIndexConstants.DISPLAY_SEARCH_PARAMETERS, request.getSession(false), context)</xsp:expr>
+    <total><xsp:expr>IndexSearcherHelper.getHits(request.getSession(false), context)</xsp:expr></total>
+    <xsp:expr>IndexSearcherHelper.page(page, request.getSession(false), context)</xsp:expr>
+  </search-results>
+</xsp:page>
