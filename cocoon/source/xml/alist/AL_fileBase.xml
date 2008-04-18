@@ -331,6 +331,19 @@
         </internal>
       </item>
     </group>
+    <group id="g7">
+      <groupHead>
+        <groupTitle>Reference</groupTitle>
+        <groupFolder>/reference</groupFolder>
+        <rhcontent value="off"/>
+      </groupHead>
+      <item id="p7_0">
+        <fileName>index</fileName>
+        <fileTitle>Reference</fileTitle>
+      </item>
+      
+    </group>
+    
     <group id="g8">
       <groupHead>
         <groupTitle>Help</groupTitle>

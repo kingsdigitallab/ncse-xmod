@@ -40,7 +40,7 @@
           </active>
         </level01>    
         <level01>
-          <label>FAQs / Help</label>
+          <label>Help</label>
           <default ref="p8"/>
         </level01>    
       </navGroup>
@@ -78,10 +78,6 @@
           </sub02>
         </level01>
         <level01>
-          <label>Reference</label>
-          <default ref="p7"/>
-        </level01>
-        <level01>
           <label>Editorial Commentary</label>
           <default ref="p5"/>
         </level01>
@@ -89,6 +85,27 @@
           <label>History of the Project</label>
           <default ref="p6"/>
         </level01>
+        <level01>
+          <label>Reference</label>
+          <default ref="p7_0"/>
+          <active>
+            <file start="p7_"/>
+          </active>
+          <sub02>
+            <level02>
+              <label>Bibliography</label>
+              <default ref="p7_1"/>
+            </level02>
+            <level02>
+              <label>Related Projects</label>
+              <default ref="p7_2"/>
+            </level02>
+            <level02>
+              <label>Links</label>
+              <default ref="p7_3"/>
+              </level02>
+            </sub02>
+      </level01>
       </navGroup>
       <heading>About the titles:</heading>
       <navGroup>
