@@ -8,96 +8,68 @@
   <!-- =========================== Pipelines ================================= -->
 
   <map:pipelines>
+    <map:pipeline type="noncaching">
+      <!-- Search pages -->
+      <map:match pattern="search/*-search.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/coreAL" />
+        </map:aggregate>
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+          <map:parameter name="sm-context-id" value="search_{1}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+
+      <!-- Executes the search -->
+      <map:match pattern="**/do-*-search">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/coreAL" />
+          <map:part src="cocoon:/{2}-search-xsp" />
+        </map:aggregate>
+        <!--<map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+          <map:parameter name="sm-context-id" value="search_{2}" />
+        </map:transform>-->
+        <map:serialize type="xml" />
+      </map:match>
+      
+      <map:match pattern="*-search-xsp">
+        <map:generate src="xsp/search/{1}-search.xsp" type="serverpages" />
+        <map:transform label="content" src="xsp/search/search-results.pagesheet" type="paginate">
+          <map:parameter name="page" value="1" />
+        </map:transform>
+        <map:serialize type="xml" />
+      </map:match>
+      
+      <!-- Search pagination -->
+      <map:match pattern="**/page(*)">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/coreAL" />
+          <map:part src="cocoon:/page-xsp({2})" />
+        </map:aggregate>
+        <!--<map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+          <map:parameter name="sm-context-id" value="search_{2}" />
+          </map:transform>-->
+        <map:serialize type="xml" />
+      </map:match>
+      
+      <map:match pattern="page-xsp(*)">
+        <map:generate src="xsp/search/page.xsp" type="serverpages">
+          <map:parameter name="page" value="{1}" />
+        </map:generate>
+        <map:transform label="content" src="xsp/search/search-results.pagesheet" type="paginate">
+          <map:parameter name="page" value="{1}" />
+        </map:transform>
+        <map:serialize type="xml" />
+      </map:match>
+    </map:pipeline>
+
     <map:pipeline>
       <map:match pattern="">
         <!-- Redirect request to the root path to the index page -->
         <map:redirect-to uri="index.html" />
-      </map:match>
-
-      <map:match pattern="type02/*.html">
-        <map:aggregate element="aggregation">
-          <map:part src="cocoon:/coreAL" />
-          <map:part element="projDIR" src="cocoon:/dir-02" />
-          <map:part src="{global:project-path}{global:project-type02}/{1}.xml" />
-        </map:aggregate>
-        <map:transform src="xslt/preprocess/kw_id.xsl" type="xslt" />
-        <map:transform src="xslt/type02/proj_type02_DR.xsl" type="xslt">
-          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
-        </map:transform>
-        <map:serialize type="xml" />
-      </map:match>
-
-      <map:match pattern="type03/*/*.html">
-        <map:aggregate element="aggregation">
-          <map:part src="cocoon:/coreAL" />
-          <map:part src="{global:project-path}{global:project-type03}/{1}.xml" />
-        </map:aggregate>
-        <map:transform src="xslt/preprocess/kw_id.xsl" type="xslt" />
-        <map:transform src="xslt/type03/proj_type03_DR.xsl" type="xslt">
-          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
-          <map:parameter name="sm-context-id" value="{2}" />
-        </map:transform>
-        <map:serialize type="xhtml" />
-      </map:match>
-
-      <map:match pattern="**/idx_auth_*.html">
-        <map:aggregate element="aggregation">
-          <map:part src="cocoon:/coreAL" />
-          <map:part element="projDIR" src="cocoon:/dir-type{2}" />
-        </map:aggregate>
-        <map:transform src="xslt/indices/proj_indices_DR.xsl" type="xslt">
-          <map:parameter name="sm-context-id" value="idx{2}_auth" />
-          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
-        </map:transform>
-        <map:serialize type="xhtml" />
-      </map:match>
-
-      <map:match pattern="**/idx_foreign_key_02.html">
-        <map:aggregate element="aggregation">
-          <map:part src="cocoon:/coreAL" />
-          <map:part src="{global:project-path}{global:project-materials}/{1}/type02_foreign_kw.xml" />
-        </map:aggregate>
-        <map:transform src="xslt/indices/proj_indices_DR.xsl" type="xslt">
-          <map:parameter name="sm-context-id" value="idx02_foreign_key" />
-          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
-        </map:transform>
-        <map:serialize type="xhtml" />
-      </map:match>
-
-      <map:match pattern="**/idx_foreign_az_02.html">
-        <map:aggregate element="aggregation">
-          <map:part src="cocoon:/coreAL" />
-          <map:part src="{global:project-path}{global:project-materials}/{1}/type02_foreign_kw.xml" />
-        </map:aggregate>
-        <map:transform src="xslt/indices/proj_indices_DR.xsl" type="xslt">
-          <map:parameter name="sm-context-id" value="idx02_foreign_az" />
-          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
-        </map:transform>
-        <map:serialize type="xhtml" />
-      </map:match>
-
-      <map:match pattern="**/idx_*_*.html">
-        <map:aggregate element="aggregation">
-          <map:part src="cocoon:/coreAL" />
-          <map:part src="{global:project-path}{global:project-materials}/{1}/type{3}_foreign_kw.xml" />
-        </map:aggregate>
-        <map:transform src="xslt/indices/proj_indices_DR.xsl" type="xslt">
-          <map:parameter name="sm-context-id" value="idx{3}_{2}" />
-          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
-        </map:transform>
-        <map:serialize type="xhtml" />
-      </map:match>
-
-      <map:match pattern="**/glossary.html">
-        <map:aggregate element="aggregation">
-          <map:part src="cocoon:/coreAL" />
-          <map:part src="{global:project-path}{global:project-materials}/{1}/glossary.xml" />
-          <map:part src="cocoon:/projAL" />
-        </map:aggregate>
-        <map:transform src="xslt/type01/proj_type01_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
-        </map:transform>
-        <map:serialize type="xhtml" />
       </map:match>
 
       <map:match pattern="*.html">
@@ -110,7 +82,7 @@
         </map:transform>
         <map:serialize type="xhtml" />
       </map:match>
-      
+
       <map:match pattern="**/*.html">
         <map:aggregate element="aggregation">
           <map:part src="cocoon:/coreAL" />
@@ -121,6 +93,94 @@
         </map:transform>
         <map:serialize type="xhtml" />
       </map:match>
+
+      <!--
+        <map:match pattern="type02/*.html">
+        <map:aggregate element="aggregation">
+        <map:part src="cocoon:/coreAL" />
+        <map:part element="projDIR" src="cocoon:/dir-02" />
+        <map:part src="{global:project-path}{global:project-type02}/{1}.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/preprocess/kw_id.xsl" type="xslt" />
+        <map:transform src="xslt/type02/proj_type02_DR.xsl" type="xslt">
+        <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+        </map:transform>
+        <map:serialize type="xml" />
+        </map:match>
+        
+        <map:match pattern="type03/*/*.html">
+        <map:aggregate element="aggregation">
+        <map:part src="cocoon:/coreAL" />
+        <map:part src="{global:project-path}{global:project-type03}/{1}.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/preprocess/kw_id.xsl" type="xslt" />
+        <map:transform src="xslt/type03/proj_type03_DR.xsl" type="xslt">
+        <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+        <map:parameter name="sm-context-id" value="{2}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+        </map:match>
+        
+        <map:match pattern="**/idx_auth_*.html">
+        <map:aggregate element="aggregation">
+        <map:part src="cocoon:/coreAL" />
+        <map:part element="projDIR" src="cocoon:/dir-type{2}" />
+        </map:aggregate>
+        <map:transform src="xslt/indices/proj_indices_DR.xsl" type="xslt">
+        <map:parameter name="sm-context-id" value="idx{2}_auth" />
+        <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+        </map:match>
+        
+        <map:match pattern="**/idx_foreign_key_02.html">
+        <map:aggregate element="aggregation">
+        <map:part src="cocoon:/coreAL" />
+        <map:part src="{global:project-path}{global:project-materials}/{1}/type02_foreign_kw.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/indices/proj_indices_DR.xsl" type="xslt">
+        <map:parameter name="sm-context-id" value="idx02_foreign_key" />
+        <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+        </map:match>
+        
+        <map:match pattern="**/idx_foreign_az_02.html">
+        <map:aggregate element="aggregation">
+        <map:part src="cocoon:/coreAL" />
+        <map:part src="{global:project-path}{global:project-materials}/{1}/type02_foreign_kw.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/indices/proj_indices_DR.xsl" type="xslt">
+        <map:parameter name="sm-context-id" value="idx02_foreign_az" />
+        <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+        </map:match>
+        
+        <map:match pattern="**/idx_*_*.html">
+        <map:aggregate element="aggregation">
+        <map:part src="cocoon:/coreAL" />
+        <map:part src="{global:project-path}{global:project-materials}/{1}/type{3}_foreign_kw.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/indices/proj_indices_DR.xsl" type="xslt">
+        <map:parameter name="sm-context-id" value="idx{3}_{2}" />
+        <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+        </map:match>
+        
+        <map:match pattern="**/glossary.html">
+        <map:aggregate element="aggregation">
+        <map:part src="cocoon:/coreAL" />
+        <map:part src="{global:project-path}{global:project-materials}/{1}/glossary.xml" />
+        <map:part src="cocoon:/projAL" />
+        </map:aggregate>
+        <map:transform src="xslt/type01/proj_type01_DR.xsl" type="saxon">
+        <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+        </map:match>
+      -->
     </map:pipeline>
 
     <map:pipeline type="noncaching">
