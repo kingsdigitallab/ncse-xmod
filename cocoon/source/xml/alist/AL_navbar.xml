@@ -35,8 +35,8 @@
           <label>Search</label>
           <default ref="p4_0"/>
           <active>
-            <file start="p4_"/>
             <file start="search_"/>
+            <file start="p4_"/>
           </active>
         </level01>    
         <level01>
