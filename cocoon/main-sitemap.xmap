@@ -27,10 +27,10 @@
           <map:part src="cocoon:/coreAL" />
           <map:part src="cocoon:/{2}-search-xsp" />
         </map:aggregate>
-        <!--<map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
           <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
-          <map:parameter name="sm-context-id" value="search_{2}" />
-        </map:transform>-->
+          <map:parameter name="sm-context-id" value="search_results" />
+        </map:transform>
         <map:serialize type="xml" />
       </map:match>
       
@@ -48,9 +48,9 @@
           <map:part src="cocoon:/coreAL" />
           <map:part src="cocoon:/page-xsp({2})" />
         </map:aggregate>
-        <!--<map:transform src="xslt/search/proj_search_DR.xsl" type="xslt">
+        <!--<map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
           <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
-          <map:parameter name="sm-context-id" value="search_{2}" />
+          <map:parameter name="sm-context-id" value="search_results" />
           </map:transform>-->
         <map:serialize type="xml" />
       </map:match>
