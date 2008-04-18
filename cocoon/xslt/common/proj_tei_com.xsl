@@ -1514,10 +1514,10 @@
     <xsl:variable name="img-max-height-full">
       <xsl:for-each select="ancestor::list[starts-with(@type, 'figure')]/item">
         <xsl:sort data-type="number" order="descending"
-          select="document('../../xml/03_alist/AL_imageBase.xml')//image[@id=current()/figure/@url]/height" />
+          select="//imagebase//image[@id=current()/figure/@url]/height" />
 
         <xsl:variable name="cur-img-url" select="figure/@url" />
-        <xsl:variable name="cur-img-height" select="number(document('../../xml/03_alist/AL_imageBase.xml')//image[@id=$cur-img-url]/height)" />
+        <xsl:variable name="cur-img-height" select="number(//imagebase//image[@id=$cur-img-url]/height)" />
 
         <xsl:if test="position()=1">
           <xsl:value-of select="$cur-img-height" />
@@ -1527,10 +1527,10 @@
     <xsl:variable name="img-max-height-thumb">
       <xsl:for-each select="ancestor::list[not(@type='figure-list')][starts-with(@type, 'figure')]/item">
         <xsl:sort data-type="number" order="descending"
-          select="document('../../xml/03_alist/AL_imageBase.xml')//image[@id=current()/figure/@url]/thmHeight" />
+          select="//imagebase//image[@id=current()/figure/@url]/thmHeight" />
 
         <xsl:variable name="cur-img-url" select="figure/@url" />
-        <xsl:variable name="cur-img-height" select="number(document('../../xml/03_alist/AL_imageBase.xml')//image[@id=$cur-img-url]/thmHeight)" />
+        <xsl:variable name="cur-img-height" select="number(//imagebase//image[@id=$cur-img-url]/thmHeight)" />
 
         <xsl:if test="position()=1">
           <xsl:value-of select="$cur-img-height" />
