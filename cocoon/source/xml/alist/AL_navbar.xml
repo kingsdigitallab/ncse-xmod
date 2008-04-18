@@ -23,7 +23,7 @@
       <navGroup>
         <level01>
           <label>Access NCSE (Olive)</label>
-          <default type="external" ref="http://viewpoint.ncse.ac.uk"/>
+          <default type="external" ref="http://137.73.123.44/kingscollege/"/>
         </level01>
       </navGroup>
       <navGroup>
