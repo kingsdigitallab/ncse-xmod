@@ -196,7 +196,7 @@
       </div>
     </div>
   </xsl:template>
-
+  
   <xsl:template name="tpl-search-advanced-form">
     <div class="form">
       <div class="t02">
@@ -256,9 +256,9 @@
                       <xsl:with-param name="selected" select="'semantic'"/>
                     </xsl:call-template>
                   </select>
-
+                  
                   <input name="field3Key" value="" type="hidden"/>
-
+                  
                   <input onchange="document.forms.searchForm.field3Key.value = '';" id="field3Txt"
                     name="field3Txt" readonly="readonly" class="f01 s01" size="32"
                     value="Filled from Thesaurus" type="text"/>
@@ -365,7 +365,7 @@
                   <div>
                     <button type="submit">Search</button>
                     <button onclick="location.href='entity-search.html';" type="reset">Reset
-                    Form</button>
+                      Form</button>
                   </div>
                 </fieldset>
               </li>
@@ -375,7 +375,169 @@
       </div>
     </div>
   </xsl:template>
-
+  
+  
+  
+  <xsl:template name="tpl-search-thesaurus-form">
+    <div class="form">
+      <div class="t02">
+        <form action="do-advanced-search" id="frmSearch" method="POST" name="frmSearch">
+          <fieldset class="s01">
+            <legend>Type in Text</legend>
+            <ol>
+              <li class="clfx-b">
+                <fieldset class="f05 n01">
+                  <legend>Primary Search Criteria</legend>
+                  <select id="booleanOp3Sel" name="booleanOp3Sel">
+                    <xsl:call-template name="tpl-search-mode">
+                      <xsl:with-param name="selected" select="'and'"/>
+                    </xsl:call-template>
+                  </select>
+                  <select id="field3Sel" name="field3Sel">
+                    <xsl:call-template name="tpl-thesaurus-select">
+                      <xsl:with-param name="selected" select="'semantic'"/>
+                    </xsl:call-template>
+                  </select>
+                  <input name="field3Key" value="" type="hidden"/>
+                  <input onchange="document.forms.searchForm.field3Key.value = '';" id="field3Txt"
+                    name="field3Txt" readonly="readonly" class="f01 s01" size="32"
+                    value="Filled from Thesaurus" type="text"/>
+                  <a class="s01" title="Look up a search term in the thesaurus"
+                    href="javascript:openThesaurus(2, document.forms.frmSimple.field2.options[document.forms.frmSimple.field2.selectedIndex].value);">
+                    <span>Thesaurus...</span>
+                  </a>
+                </fieldset>
+              </li>
+              <li class="clfx-b">
+                <fieldset class="f05 n02">
+                  <legend>Secondary Search Criteria</legend>
+                  <select id="booleanOp3Sel" name="booleanOp3Sel">
+                    <xsl:call-template name="tpl-search-mode">
+                      <xsl:with-param name="selected" select="'and'"/>
+                    </xsl:call-template>
+                  </select>
+                  <select id="field3Sel" name="field3Sel">
+                    <xsl:call-template name="tpl-thesaurus-select">
+                      <xsl:with-param name="selected" select="'image'"/>
+                    </xsl:call-template>
+                  </select>
+                  <input name="field3Key" value="" type="hidden"/>
+                  <input onchange="document.forms.searchForm.field3Key.value = '';" id="field3Txt"
+                    name="field3Txt" readonly="readonly" class="f01 s01" size="32"
+                    value="Filled from Thesaurus" type="text"/>
+                  <a class="s01" title="Look up a search term in the thesaurus"
+                    href="javascript:openThesaurus(2, document.forms.frmSimple.field2.options[document.forms.frmSimple.field2.selectedIndex].value);">
+                    <span>Thesaurus...</span>
+                  </a>
+                </fieldset>
+              </li>
+              <li class="clfx-b">
+                <fieldset class="f05 n03">
+                  <legend>Tertiary Search Criteria</legend>
+                  <select id="booleanOp3Sel" name="booleanOp3Sel">
+                    <xsl:call-template name="tpl-search-mode">
+                      <xsl:with-param name="selected" select="'and'"/>
+                    </xsl:call-template>
+                  </select>
+                  <select id="field3Sel" name="field3Sel">
+                    <xsl:call-template name="tpl-thesaurus-select">
+                      <xsl:with-param name="selected" select="'semantic'"/>
+                    </xsl:call-template>
+                  </select>
+                  <input name="field3Key" value="" type="hidden"/>
+                  <input onchange="document.forms.searchForm.field3Key.value = '';" id="field3Txt"
+                    name="field3Txt" readonly="readonly" class="f01 s01" size="32"
+                    value="Filled from Thesaurus" type="text"/>
+                  <a class="s01" title="Look up a search term in the thesaurus"
+                    href="javascript:openThesaurus(2, document.forms.frmSimple.field2.options[document.forms.frmSimple.field2.selectedIndex].value);">
+                    <span>Thesaurus...</span>
+                  </a>
+                </fieldset>
+              </li>
+              <li class="clfx-b">
+                <fieldset class="f06 n04">
+                  <legend>Date Range</legend>
+                  <select id="booleanOpDateSel" name="booleanOpDateSel">
+                    <xsl:call-template name="tpl-search-mode">
+                      <xsl:with-param name="selected"
+                        select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOpDateSel:')], ':')"
+                      />
+                    </xsl:call-template>
+                  </select>
+                  <label class="s01" for="lowerDateSel">From</label>
+                  <select id="lowerDateSel" name="lowerDateSel">
+                    <xsl:call-template name="tpl-year">
+                      <xsl:with-param name="selected"
+                        select="substring-after(//refine/parameters/parameter[starts-with(., 'lowerDateSel:')], ':')"
+                      />
+                    </xsl:call-template>
+                  </select>
+                  <label class="s01" for="higherDateSel">To</label>
+                  <select id="higherDateSel" name="higherDateSel">
+                    <xsl:call-template name="tpl-year">
+                      <xsl:with-param name="selected"
+                        select="substring-after(//refine/parameters/parameter[starts-with(., 'higherDateSel:')], ':')"
+                      />
+                    </xsl:call-template>
+                  </select>
+                  <label class="s02" for="higherDateSel">(optional)</label>
+                </fieldset>
+              </li>
+              <li class="clfx-b">
+                <fieldset class="f06 n05">
+                  <legend>Publication</legend>
+                  <select id="booleanOpPublicationSel" name="booleanOpPublicationSel">
+                    <xsl:call-template name="tpl-search-mode">
+                      <xsl:with-param name="selected" select="'0'"/>
+                    </xsl:call-template>
+                  </select>
+                  <label class="s01" for="publicationSel">Publication</label>
+                  <select id="publicationSel" name="publicationSel">
+                    <xsl:call-template name="tpl-publications">
+                      <xsl:with-param name="selected" select="''"/>
+                    </xsl:call-template>
+                  </select>
+                </fieldset>
+              </li>
+              <li class="clfx-b">
+                <fieldset class="f10 n06">
+                  <legend>Results Sorting</legend>
+                  <label class="s01" for="sortByRelevance">Sort results by</label>
+                  <ol>
+                    <li class="clfx-b">
+                      <label for="sortByRelevance">by relevance</label>
+                      <input checked="checked" class="f02" id="sortByRelevance" name="sortBy"
+                        type="radio" value=""/>
+                    </li>
+                    <li class="clfx-b">
+                      <label for="sortByDate">by date</label>
+                      <input class="f02" id="sortByDate" name="sortBy" type="radio" value="by-date"
+                      />
+                    </li>
+                    <li class="clfx-b">
+                      <label for="any">by publication</label>
+                      <input class="f02" id="sortByPub" name="sortBy" type="radio" value="by-pub"/>
+                    </li>
+                  </ol>
+                </fieldset>
+              </li>
+              <li class="clfx-b">
+                <fieldset class="f06 n07">
+                  <legend>Submit Search</legend>
+                  <div>
+                    <button type="submit">Search</button>
+                    <button onclick="location.href='entity-search.html';" type="reset">Reset
+                      Form</button>
+                  </div>
+                </fieldset>
+              </li>
+            </ol>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </xsl:template>
+  
   <xsl:template name="tpl-thesaurus-select">
     <xsl:param name="selected"/>
     <option value="semantic">
