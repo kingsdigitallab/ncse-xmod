@@ -33,6 +33,18 @@
    </context-param-->
 
   <!-- Servlet Configuration ========================================== -->
+  
+  <servlet>
+    <servlet-name>NCSEServlet</servlet-name>
+    <servlet-class>uk.ac.kcl.cch.ereuna.projects.ncse.NCSEServlet</servlet-class>
+    
+    <init-param>
+      <param-name>properties</param-name>
+      <param-value>/Users/miguel/Developer/KCL/projects/ncse/website/cocoon/WEB-INF/ereuna.properties</param-value>
+    </init-param>
+    
+    <load-on-startup>10</load-on-startup>
+  </servlet>
 
   <servlet>
     <servlet-name>Cocoon</servlet-name>
