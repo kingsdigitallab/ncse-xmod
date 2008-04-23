@@ -10,19 +10,7 @@
       </changeItem>
     </changeNotes>
     <comments>
-      <list>
-        <li>
-          <label>ROOT element</label>
-          <con>The date attributes specify the last edit date.</con>
-        </li>
-        <li>
-          <label>group</label>
-          <con>This groups elements according to the directories on the web-site. 'group' elements
-            can now have a 'print' attribute, because each NG is given a group element, before being
-            broken down into individual webpages, but the PDFs are for the whole NG.</con>
-        </li>
-      </list>
-    </comments>
+   </comments>
   </header>
   <body>
     <rhcontent value="on"/>
@@ -31,304 +19,93 @@
       <groupHead>
         <groupTitle>Home</groupTitle>
         <groupFolder/>
-        <rhcontent/>
         <theme type01="th1"/>
       </groupHead>
       <item id="p0">
-        <router/>
         <fileName>index</fileName>
         <fileTitle>Home</fileTitle>
-        <rhcontent value="off"/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
-      </item>
+       </item>
     </group>
     <group id="g1" default="p1_0" parRef="p0" level="2">
       <groupHead>
         <groupTitle>About</groupTitle>
         <groupFolder>/about</groupFolder>
-        <rhcontent/>
-        <theme/>
-      </groupHead>
+       </groupHead>
       <item id="p1_0">
-        <router/>
         <fileName>index</fileName>
         <fileTitle>About ncse</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
       </item>
       <item id="p1_1">
-        <router/>
         <fileName>welcome</fileName>
         <fileTitle>Welcome to ncse</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
-      </item>
+       </item>
       <item id="p1_2">
-        <router></router>
         <fileName>technical</fileName>
         <fileTitle>Technical Introduction</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel></rel>
-        </relations>
-        <notes>
-          <p></p>
-        </notes>
-        <internal>
-          <p></p>
-        </internal>
       </item>
       <item id="p1_4">
-        <router></router>
         <fileName>contact</fileName>
         <fileTitle>Contact Us</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel></rel>
-        </relations>
-        <notes>
-          <p></p>
-        </notes>
-        <internal>
-          <p></p>
-        </internal>
       </item>
       <item id="p1_5">
-        <router></router>
         <fileName>feedback</fileName>
         <fileTitle>Feedback form</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel></rel>
-        </relations>
-        <notes>
-          <p></p>
-        </notes>
-        <internal>
-          <p></p>
-        </internal>
-      </item>
+     </item>
       <item id="p1_6">
-        <router></router>
-        <fileName>thanks</fileName>
+     <fileName>thanks</fileName>
         <fileTitle>Thank you</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel></rel>
-        </relations>
-        <notes>
-          <p></p>
-        </notes>
-        <internal>
-          <p></p>
-        </internal>
       </item>
     </group>
     <group id="g2" default="p2_1" parRef="p0" level="2">
       <groupHead>
         <groupTitle>Headnotes</groupTitle>
         <groupFolder>/headnotes</groupFolder>
-        <rhcontent/>
-        <theme/>
-      </groupHead>
+       </groupHead>
       <item id="p2_1">
-        <router/>
         <fileName>mrp</fileName>
         <fileTitle>Monthly Repository</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
       </item>
       <item id="p2_2">
-        <router/>
         <fileName>nss</fileName>
         <fileTitle>Northern Star</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
-      </item>
+       </item>
       <item id="p2_3">
-        <router/>
         <fileName>ldr</fileName>
         <fileTitle>Leader</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
       </item>
       <item id="p2_4">
-        <router/>
         <fileName>ewj</fileName>
         <fileTitle>English Woman’s Journal</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
       </item>
       <item id="p2_5">
-        <router/>
         <fileName>ttw</fileName>
         <fileTitle>Tomahawk</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
       </item>
       <item id="p2_6">
-        <router/>
         <fileName>tec</fileName>
         <fileTitle>Publishers’ Circular</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel/>
-        </relations>
-        <notes>
-          <p/>
-        </notes>
-        <internal>
-          <p/>
-        </internal>
       </item>
     </group>
     <group default="p4_0" id="g4" level="2" parRef="p0">
       <groupHead>
         <groupTitle>Search</groupTitle>
         <groupFolder>/search</groupFolder>
-        <rhcontent />
-        <theme />
       </groupHead>
       <item id="p4_0">
-        <router />
         <fileName>search</fileName>
         <fileTitle>Search</fileTitle>
-        <rhcontent />
-        <theme />
-        <relations>
-          <rel />
-        </relations>
-        <notes>
-          <p />
-        </notes>
-        <internal>
-          <p />
-        </internal>
       </item>
       <item id="search_entity">
-        <router />
         <fileName>entity-search</fileName>
         <fileTitle>Entity Search</fileTitle>
-        <rhcontent />
-        <theme />
-        <relations>
-          <rel />
-        </relations>
-        <notes>
-          <p />
-        </notes>
-        <internal>
-          <p />
-        </internal>
-      </item>
+       </item>
       <item id="search_thesaurus">
-        <router />
         <fileName>thesaurus-search</fileName>
         <fileTitle>Thesaurus Search</fileTitle>
-        <rhcontent />
-        <theme />
-        <relations>
-          <rel />
-        </relations>
-        <notes>
-          <p />
-        </notes>
-        <internal>
-          <p />
-        </internal>
       </item>
       <item id="search_advanced">
-        <router />
         <fileName>advanced-search</fileName>
         <fileTitle>Advanced Search</fileTitle>
-        <rhcontent />
-        <theme />
-        <relations>
-          <rel />
-        </relations>
-        <notes>
-          <p />
-        </notes>
-        <internal>
-          <p />
-        </internal>
       </item>
     </group>
     <group id="g7">
@@ -341,31 +118,16 @@
         <fileName>index</fileName>
         <fileTitle>Reference</fileTitle>
       </item>
-      
     </group>
-    
     <group id="g8">
       <groupHead>
         <groupTitle>Help</groupTitle>
         <groupFolder>/help</groupFolder>
         <rhcontent value="off"/>
-        <theme/>
       </groupHead>
       <item id="p8">
-        <router></router>
         <fileName>index</fileName>
         <fileTitle>FAQ and Help</fileTitle>
-        <rhcontent/>
-        <theme/>
-        <relations>
-          <rel></rel>
-        </relations>
-        <notes>
-          <p></p>
-        </notes>
-        <internal>
-          <p></p>
-        </internal>
       </item>
     </group>
   </body>
