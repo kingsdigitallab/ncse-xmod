@@ -42,8 +42,8 @@
               
               <p>Browse indexes:
               <list>
-                  <item><xref from="p3_1" type="internal">by subject</xref></item>
-                  <item><xref from="p3_2" type="internal">by image metadata</xref></item>
+                  <item><xref from="browse_subject" type="internal">by subject</xref></item>
+                  <item><xref from="browse_image_meta" type="internal">by image metadata</xref></item>
               </list></p>
               
               
