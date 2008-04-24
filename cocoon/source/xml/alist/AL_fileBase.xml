@@ -95,7 +95,14 @@
         <fileName>index</fileName>
         <fileTitle>Browse Index</fileTitle>
       </item>
-      
+      <item id="browse_subject">
+        <fileName>subject</fileName>
+        <fileTitle>Browse by Subject</fileTitle>
+      </item>
+      <item id="browse_image_meta">
+        <fileName>image_meta</fileName>
+        <fileTitle>Browse by Image Metadata</fileTitle>
+      </item>
     </group>
     
     <group default="p4_0" id="g4" level="2" parRef="p0">
