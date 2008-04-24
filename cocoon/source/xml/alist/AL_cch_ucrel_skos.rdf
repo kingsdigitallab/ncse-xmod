@@ -37,7 +37,35 @@
         <skos:prefLabel xml:lang="en">General and Abstract Terms</skos:prefLabel>
         <skos:narrower>
             <skos:orderedCollection>
-                <skos:memberList rdf:parseType="Collection"> </skos:memberList>
+                <skos:memberList rdf:parseType="Collection">
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A3"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A4"/>
+                    
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5"/>
+                  
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A6"/>
+                   
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A7"/>
+                    
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A8"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A9"/>
+                   
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A10"/>
+                   
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A11"/>
+                    
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A12"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A13"/>
+                    
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A14"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A15"/>
+                 
+                 
+                    
+                    
+                </skos:memberList>
             </skos:orderedCollection>
         </skos:narrower>
     </skos:Concept>
@@ -51,15 +79,13 @@
                   
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B1"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B2-"/>
+                    
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B3-"/>
+                   
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B4+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B4-"/>
+                    
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B5"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B5-"/>
+                  
                     
                 </skos:memberList>
             </skos:orderedCollection>
@@ -85,28 +111,18 @@
                 <skos:memberList rdf:parseType="Collection">
                     
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E1+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E3+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E3-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E5"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E5+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E5-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E6"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E6+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E6-"/>
                     
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E2"/>
+                    
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E3"/>
+                    
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4"/>
+                    
+                   
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E5"/>
+                    
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E6"/>
+                                     
                 </skos:memberList>
             </skos:orderedCollection>
         </skos:narrower>
@@ -118,18 +134,15 @@
         <skos:narrower>
             <skos:orderedCollection>
                 <skos:memberList>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F"/>
+                  
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F1+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F1-"/>
+               
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F2-"/>
+                    
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F3+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F3-"/>
+                    
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F4-"/>
+                
                 </skos:memberList>
             </skos:orderedCollection>
         </skos:narrower>
@@ -143,19 +156,11 @@
                     
                     
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G1.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G1.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G1.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G1.2-"/>
+                    
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2.1+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2.2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2.2-"/>
+               
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G3-"/>
+                    
                     
                 </skos:memberList>
             </skos:orderedList>
@@ -176,9 +181,9 @@
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/H2"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/H3"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/H4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/H4-"/>
+                  
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/H5"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/H5-"/>
+                    
                     
                 </skos:memberList>
             </skos:orderedList>
@@ -193,28 +198,14 @@
             <skos:orderedList>
                 <skos:memberList>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3-"/>
+                    
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I2.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I2.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I2.2"/>
+                 
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I3.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I3.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I3.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I3.2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I3.2-"/>
+                   
+                   
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I4-"/>
-
+                 
 
 
                 </skos:memberList>
@@ -235,8 +226,7 @@
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/K3"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/K4"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/K5"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/K5.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/K5.2"/>
+                 
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/K6"/>
                     
                 </skos:memberList>
@@ -253,13 +243,11 @@
                     
                 
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L1+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L1-"/>
+               
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L3-"/>
                     
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L3"/>
+                     
                     
                 </skos:memberList>
             </skos:orderedList>
@@ -278,7 +266,6 @@
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/M2"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/M3"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/M4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/M4-"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/M5"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/M6"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/M7"/>
@@ -301,40 +288,13 @@
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N1"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N2"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.4+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.4-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.5"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.5+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.5-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.6"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.6+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.8"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.8+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.8-"/>
+                    
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N4-"/>
+                    
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5.1+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5.2+"/>
+                   
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N6"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N6+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N6-"/>
+               
                     
                 </skos:memberList>
             </skos:orderedList>
@@ -350,26 +310,11 @@
                 <skos:memberList>
                     
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O1.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O1.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O1.2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O1.3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O1.3-"/>
+                   
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O2"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O3"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.5"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6-"/>
-                    
-                </skos:memberList>
+                 </skos:memberList>
             </skos:orderedList>
         </skos:narrower>
         
@@ -382,7 +327,6 @@
                 <skos:memberList>
                     
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/P1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/P1-"/>
                     
                 </skos:memberList>
             </skos:orderedList>
@@ -399,23 +343,13 @@
                     
                     
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q1.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q1.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q1.2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q1.3"/>
+                 
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.1+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.2-"/>
+               
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q3-"/>
+                   
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q4.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q4.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q4.3"/>
-                    
+                  
                 </skos:memberList>
             </skos:orderedList>
         </skos:narrower>
@@ -429,73 +363,24 @@
                 <skos:memberList>
                     
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.3+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.3-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.4+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.4-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.1+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.3+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.3-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.4+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.4-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.6"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.6+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.6-"/>
+                 
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S2.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S2.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S2.2"/>
+                 
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S3.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S3.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S3.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S3.2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S3.2-"/>
+               
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S4-"/>
+                   
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S5"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S5+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S5-"/>
+                  
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S6"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S6+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S6-"/>
+                    
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.3+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.3-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.4+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.4-"/>
+                    
+                   
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S8"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S8+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S8-"/>
+            
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S9"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S9-"/>
+            
                 </skos:memberList>
             </skos:orderedList>
         </skos:narrower>
@@ -509,24 +394,13 @@
                 <skos:memberList>
 
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1.2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1.3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3-"/>
+                   
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T2-"/>
+                    
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T3+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T3-"/>
+                
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T4+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T4-"/>
+                  
 
                 </skos:memberList>
             </skos:orderedList>
@@ -543,7 +417,7 @@
                     
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/W1"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/W2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/W2-"/>
+                  
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/W3"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/W4"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/W5"/>
@@ -563,62 +437,22 @@
                     
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X1"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.3+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.4+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.4-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.5"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.5+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.5-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.6"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.6+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.6-"/>
+                    
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.1+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.2-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.3"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.4+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.4-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.5"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.5-"/>
+                    
+                   
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X4"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X4.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X4.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X4.2"/>
+                  
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5.1+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5.2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5.2-"/>
+                   
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X6"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X6+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X6-"/>
+                   
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X7"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X7+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X7-"/>
+                
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X8"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X8+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X8-"/>
+                  
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9.1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9.1+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9.1-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9.2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9.2+"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9.2-"/>
+                
                     
                 </skos:memberList>
             </skos:orderedList>
@@ -634,9 +468,9 @@
                     
            
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Y1"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Y1-"/>
+                   
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Y2"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Y2-"/>
+            
                 </skos:memberList>
             </skos:orderedList>
         </skos:narrower>
@@ -658,8 +492,7 @@
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Z5"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Z6"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Z7"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Z7-"/>
-                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Z8"/>
+                   <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Z8"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Z9"/>
                     <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Z99"/>
                     
@@ -678,7 +511,36 @@
 
         <skos:narrower>
             <skos:orderedCollection>
-                <skos:memberList rdf:parseType="Collection"> </skos:memberList>
+                <skos:memberList rdf:parseType="Collection">
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.1.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.1.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.1.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.1.2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.3"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.3+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.3-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.4"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.4+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.4-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5.1+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5.2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.6"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.7+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.7-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.8+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.8-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.9"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A1.9-"/>
+                    
+                </skos:memberList>
             </skos:orderedCollection>
         </skos:narrower>
     </skos:Concept>
@@ -793,6 +655,19 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A2">
         <skos:prefLabel xml:lang="x-notation">A2 </skos:prefLabel>
         <skos:prefLabel xml:lang="en">Affect </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A2.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A2.1+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A2.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A2.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A2.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A2.2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
+        
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A2.1">
         <skos:prefLabel xml:lang="x-notation">A2.1 </skos:prefLabel>
@@ -821,6 +696,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A3">
         <skos:prefLabel xml:lang="x-notation">A3 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Being </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A3+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A3-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A3+">
         <skos:prefLabel xml:lang="x-notation">A3+ </skos:prefLabel>
@@ -833,6 +716,17 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A4">
         <skos:prefLabel xml:lang="x-notation">A4 </skos:prefLabel>
         <skos:prefLabel xml:lang="en">Classification </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A4.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A4.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A4.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A4.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A4.2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A4.1">
         <skos:prefLabel xml:lang="x-notation">A4.1 </skos:prefLabel>
@@ -857,6 +751,22 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5">
         <skos:prefLabel xml:lang="x-notation">A5 </skos:prefLabel>
         <skos:prefLabel xml:lang="en">Evaluation </skos:prefLabel>
+        <skos:narrower><skos:orderedCollection><skos:memberList>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1"/>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1+"/>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1-"/>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5.2"/>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5.2+"/>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5.2-"/>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5.3"/>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5.3+"/>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5.3-"/>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5.4"/>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5.4+"/>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5.4-"/>
+        </skos:memberList>
+        </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1">
         <skos:prefLabel xml:lang="x-notation">A5.1 </skos:prefLabel>
@@ -905,9 +815,27 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A5.4-">
         <skos:prefLabel xml:lang="x-notation">A5.4- </skos:prefLabel>
         <skos:prefLabel xml:lang="en">Evaluation: Unauthentic </skos:prefLabel>
-    </skos:Concept> \\ <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A6">
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A6">
         <skos:prefLabel xml:lang="x-notation">A6 </skos:prefLabel>
         <skos:prefLabel xml:lang="en">Comparing </skos:prefLabel>
+    
+    <skos:narrower>
+        <skos:orderedCollection>
+            <skos:memberList>
+                <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A6.1"/>
+                <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A6.1+"/>
+                <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A6.1-"/>
+                <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A6.2"/>
+                <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A6.2+"/>
+                <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A6.2-"/>
+                <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A6.3"/>
+                <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A6.3+"/>
+                <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A6.3-"/>
+            </skos:memberList>
+        </skos:orderedCollection>
+    </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A6.1">
         <skos:prefLabel xml:lang="x-notation">A6.1 </skos:prefLabel>
@@ -948,6 +876,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A7">
         <skos:prefLabel xml:lang="x-notation">A7 </skos:prefLabel>
         <skos:prefLabel xml:lang="en">Probability </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A7+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A7-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A7+">
         <skos:prefLabel xml:lang="x-notation">A7+ </skos:prefLabel>
@@ -964,6 +900,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A9">
         <skos:prefLabel xml:lang="x-notation">A9 </skos:prefLabel>
         <skos:prefLabel xml:lang="en">Getting and giving; possession </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A9+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A9-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A9+">
         <skos:prefLabel xml:lang="x-notation">A9+ </skos:prefLabel>
@@ -976,6 +920,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A10">
         <skos:prefLabel xml:lang="x-notation">A10 </skos:prefLabel>
         <skos:prefLabel xml:lang="en">Open/closed; Hiding/Hidden; Finding; Showing </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A10+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A10-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A10+">
         <skos:prefLabel xml:lang="x-notation">A10+ </skos:prefLabel>
@@ -988,6 +940,18 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A11">
         <skos:prefLabel xml:lang="x-notation">A11 </skos:prefLabel>
         <skos:prefLabel xml:lang="en">Importance </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A11.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A11.1+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A11.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A11.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A11.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A11.2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A11.1">
         <skos:prefLabel xml:lang="x-notation">A11.1 </skos:prefLabel>
@@ -1016,18 +980,39 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A12">
         <skos:prefLabel xml:lang="x-notation">A12 </skos:prefLabel>
         <skos:prefLabel xml:lang="en">Easy/difficult </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A12+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A12-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A12+">
-        <skos:prefLabel xml:lang="x-notation">A12+ </skos:prefLabel>
+        <skos:prefLabel xml:lang="x-notation">A12+</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Easy </skos:prefLabel>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A12- Difficult">
-        <skos:prefLabel xml:lang="x-notation">A12- Difficult </skos:prefLabel>
-        <skos:prefLabel xml:lang="en"> </skos:prefLabel>
+        <skos:prefLabel xml:lang="x-notation">A12-</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Difficult</skos:prefLabel>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A13">
         <skos:prefLabel xml:lang="x-notation">A13 </skos:prefLabel>
         <skos:prefLabel xml:lang="en">Degree </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A13.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A13.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A13.3"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A13.4"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A13.5"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A13.6"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A13.7"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A13.1">
         <skos:prefLabel xml:lang="x-notation">A13.1 </skos:prefLabel>
@@ -1064,6 +1049,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A15">
         <skos:prefLabel xml:lang="x-notation">A15 </skos:prefLabel>
         <skos:prefLabel xml:lang="en">Safety/Danger </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A15+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A15-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/A15+">
         <skos:prefLabel xml:lang="x-notation">A15+ </skos:prefLabel>
@@ -1081,6 +1074,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B2">
         <skos:prefLabel xml:lang="x-notation">B2 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Health and disease </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B2+">
         <skos:prefLabel xml:lang="x-notation">B2+ </skos:prefLabel>
@@ -1093,6 +1094,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B3">
         <skos:prefLabel xml:lang="x-notation">B3 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Medicines and medical treatment </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B3-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B3-">
         <skos:prefLabel xml:lang="x-notation">B3- </skos:prefLabel>
@@ -1101,6 +1109,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B4">
         <skos:prefLabel xml:lang="x-notation">B4 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Cleaning and personal care </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B4+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B4-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B4+">
         <skos:prefLabel xml:lang="x-notation">B4+ </skos:prefLabel>
@@ -1113,6 +1129,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B5">
         <skos:prefLabel xml:lang="x-notation">B5 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Clothes and personal belongings </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B5-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/B5-">
         <skos:prefLabel xml:lang="x-notation">B5- </skos:prefLabel>
@@ -1125,7 +1148,16 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E1">
         <skos:prefLabel xml:lang="x-notation">E1 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Emotional Actions, States And Processes General
+            
         </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E1+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E1-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E1+">
         <skos:prefLabel xml:lang="x-notation">E1+ </skos:prefLabel>
@@ -1138,6 +1170,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E2">
         <skos:prefLabel xml:lang="x-notation">E2 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Liking </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E2+">
         <skos:prefLabel xml:lang="x-notation">E2+ </skos:prefLabel>
@@ -1150,6 +1190,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E3">
         <skos:prefLabel xml:lang="x-notation">E3 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Calm/Violent/Angry </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E3+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E3-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E3+">
         <skos:prefLabel xml:lang="x-notation">E3+ </skos:prefLabel>
@@ -1160,8 +1208,20 @@
         <skos:prefLabel xml:lang="en"> Violent/Angry </skos:prefLabel>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4">
-        <skos:prefLabel xml:lang="x-notation">E4 </skos:prefLabel>
-        <skos:prefLabel xml:lang="en"> Happiness and Contentment </skos:prefLabel>
+        <skos:prefLabel xml:lang="x-notation">E4</skos:prefLabel>
+        <skos:prefLabel xml:lang="en"> Happiness and Contentment</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+            <skos:memberList>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1"/>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1+"/>
+            <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1-"/>
+                <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.2"/>
+                <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.2+"/>
+                <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.2-"/>
+            </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1">
         <skos:prefLabel xml:lang="x-notation">E4.1 </skos:prefLabel>
@@ -1190,6 +1250,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E5">
         <skos:prefLabel xml:lang="x-notation">E5 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Bravery and Fear </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E5+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E5-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E5+">
         <skos:prefLabel xml:lang="x-notation">E5+ </skos:prefLabel>
@@ -1202,6 +1270,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E6">
         <skos:prefLabel xml:lang="x-notation">E6 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Worry and confidence </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E6+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E6-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E6+">
         <skos:prefLabel xml:lang="x-notation">E6+ </skos:prefLabel>
@@ -1214,6 +1290,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F1">
         <skos:prefLabel xml:lang="x-notation">F1 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Food </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F1+"/>
+                <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F1-"/>
+                 </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F1+">
         <skos:prefLabel xml:lang="x-notation">F1+ </skos:prefLabel>
@@ -1226,6 +1310,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F2">
         <skos:prefLabel xml:lang="x-notation">F2 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Drinks and alcohol </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F2+">
         <skos:prefLabel xml:lang="x-notation">F2+ </skos:prefLabel>
@@ -1238,6 +1330,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F3">
         <skos:prefLabel xml:lang="x-notation">F3 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Smoking and non-medical drugs </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F3+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F3-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F3+">
         <skos:prefLabel xml:lang="x-notation">F3+ </skos:prefLabel>
@@ -1250,6 +1350,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F4">
         <skos:prefLabel xml:lang="x-notation">F4 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Farming &amp; Horticulture </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F4-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/F4-">
         <skos:prefLabel xml:lang="x-notation">F4- </skos:prefLabel>
@@ -1258,6 +1365,16 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G1">
         <skos:prefLabel xml:lang="x-notation">G1 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Government and Politics </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G1.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G1.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G1.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G1.2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G1.1">
         <skos:prefLabel xml:lang="x-notation">G1.1 </skos:prefLabel>
@@ -1278,6 +1395,18 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2">
         <skos:prefLabel xml:lang="x-notation">G2 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Crime, law and order </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2.1+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2.2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G2.1">
         <skos:prefLabel xml:lang="x-notation">G2.1 </skos:prefLabel>
@@ -1306,6 +1435,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G3">
         <skos:prefLabel xml:lang="x-notation">G3 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Warfare, defence and the army; weapons </skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G3-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/G3-">
         <skos:prefLabel xml:lang="x-notation">G3- </skos:prefLabel>
@@ -1326,6 +1462,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/H4">
         <skos:prefLabel xml:lang="x-notation">H4 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Residence</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/H4-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/H4-">
         <skos:prefLabel xml:lang="x-notation">H4- </skos:prefLabel>
@@ -1334,6 +1477,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/H5">
         <skos:prefLabel xml:lang="x-notation">H5 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Furniture and household fittings</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/H5-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/H5-">
         <skos:prefLabel xml:lang="x-notation">H5- </skos:prefLabel>
@@ -1342,6 +1492,21 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1">
         <skos:prefLabel xml:lang="x-notation">I1 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Money generally</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1">
         <skos:prefLabel xml:lang="x-notation">I1.1 </skos:prefLabel>
@@ -1382,6 +1547,15 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I2">
         <skos:prefLabel xml:lang="x-notation">I2 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Business</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I2.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I2.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I2.2"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I2.1">
         <skos:prefLabel xml:lang="x-notation">I2.1 </skos:prefLabel>
@@ -1398,6 +1572,17 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I3">
         <skos:prefLabel xml:lang="x-notation">I3 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Work and employment</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I3.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I3.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I3.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I3.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I3.2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I3.1">
         <skos:prefLabel xml:lang="x-notation">I3.1 </skos:prefLabel>
@@ -1422,6 +1607,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I4">
         <skos:prefLabel xml:lang="x-notation">I4 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Industry</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I4-"/>
+                    
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/I4-">
         <skos:prefLabel xml:lang="x-notation">I4- </skos:prefLabel>
@@ -1446,6 +1639,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/K5">
         <skos:prefLabel xml:lang="x-notation">K5 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Sports and games generally</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/K5.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/K5.2"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/K5.1">
         <skos:prefLabel xml:lang="x-notation">K5.1 </skos:prefLabel>
@@ -1462,6 +1663,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L1">
         <skos:prefLabel xml:lang="x-notation">L1 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Life and living things</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L1+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L1-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L1+">
         <skos:prefLabel xml:lang="x-notation">L1+ </skos:prefLabel>
@@ -1474,6 +1683,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L2">
         <skos:prefLabel xml:lang="x-notation">L2 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Living creatures: animals, birds, etc.</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L2-">
         <skos:prefLabel xml:lang="x-notation">L2- </skos:prefLabel>
@@ -1482,6 +1698,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L3">
         <skos:prefLabel xml:lang="x-notation">L3 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Plants</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L3-"/>
+                 </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/L3-">
         <skos:prefLabel xml:lang="x-notation">L3- </skos:prefLabel>
@@ -1502,6 +1725,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/M4">
         <skos:prefLabel xml:lang="x-notation">M4 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Sailing, swimming, etc.</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/M4-"/>
+                 </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/M4-">
         <skos:prefLabel xml:lang="x-notation">M4- </skos:prefLabel>
@@ -1534,6 +1764,33 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3">
         <skos:prefLabel xml:lang="x-notation">N3 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Measurement</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.4"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.4+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.4-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.5"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.5+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.5-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.6"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.6+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.8"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.8+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.8-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N3.1">
         <skos:prefLabel xml:lang="x-notation">N3.1 </skos:prefLabel>
@@ -1622,6 +1879,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N4">
         <skos:prefLabel xml:lang="x-notation">N4 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Linear order</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N4-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N4-">
         <skos:prefLabel xml:lang="x-notation">N4- </skos:prefLabel>
@@ -1630,6 +1894,19 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5">
         <skos:prefLabel xml:lang="x-notation">N5 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Quantities</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5.1+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5.2+"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N5+">
         <skos:prefLabel xml:lang="x-notation">N5+ </skos:prefLabel>
@@ -1662,6 +1939,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N6">
         <skos:prefLabel xml:lang="x-notation">N6 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Frequency</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N6+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N6-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/N6+">
         <skos:prefLabel xml:lang="x-notation">N6+ </skos:prefLabel>
@@ -1674,6 +1959,17 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O1">
         <skos:prefLabel xml:lang="x-notation">O1 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Substances and materials generally</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O1.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O1.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O1.2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O1.3"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O1.3-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O1.1">
         <skos:prefLabel xml:lang="x-notation">O1.1 </skos:prefLabel>
@@ -1706,6 +2002,22 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4">
         <skos:prefLabel xml:lang="x-notation">O4 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Physical attributes</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.3"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.4"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.5"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/O4.1">
         <skos:prefLabel xml:lang="x-notation">O4.1 </skos:prefLabel>
@@ -1750,6 +2062,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/P1">
         <skos:prefLabel xml:lang="x-notation">P1 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Education in general</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/P1-"/>
+                 </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/P1-">
         <skos:prefLabel xml:lang="x-notation">P1- </skos:prefLabel>
@@ -1759,6 +2078,16 @@
         <skos:prefLabel xml:lang="x-notation">Q1 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Linguistic Actions, States And Processes;
         Communication</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q1.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q1.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q1.2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q1.3"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q1.1">
         <skos:prefLabel xml:lang="x-notation">Q1.1 </skos:prefLabel>
@@ -1780,6 +2109,17 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q2">
         <skos:prefLabel xml:lang="x-notation">Q2 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Speech</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.1+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.1">
         <skos:prefLabel xml:lang="x-notation">Q2.1 </skos:prefLabel>
@@ -1804,6 +2144,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q3">
         <skos:prefLabel xml:lang="x-notation">Q3 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Language, speech and grammar</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q3-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q3-">
         <skos:prefLabel xml:lang="x-notation">Q3- </skos:prefLabel>
@@ -1812,6 +2159,15 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q4">
         <skos:prefLabel xml:lang="x-notation">Q4 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> The Media</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q4.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q4.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q4.3"/>
+                 </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Q4.1">
         <skos:prefLabel xml:lang="x-notation">Q4.1 </skos:prefLabel>
@@ -1828,6 +2184,42 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1">
         <skos:prefLabel xml:lang="x-notation">S1 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Social Actions, States And Processes</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.3"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.3+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.3-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.4"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.4+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.4-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.1+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.3"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.3+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.3-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.4"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.4+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.4-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.6"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.6+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.6-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1">
         <skos:prefLabel xml:lang="x-notation">S1.1 </skos:prefLabel>
@@ -1952,6 +2344,16 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S2">
         <skos:prefLabel xml:lang="x-notation">S2 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> People</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S2.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S2.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S2.2"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S2-">
         <skos:prefLabel xml:lang="x-notation">S2- </skos:prefLabel>
@@ -1972,6 +2374,17 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S3">
         <skos:prefLabel xml:lang="x-notation">S3 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Relationship</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S3.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S3.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S3.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S3.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S3.2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S3.1">
         <skos:prefLabel xml:lang="x-notation">S3.1 </skos:prefLabel>
@@ -1996,6 +2409,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S4">
         <skos:prefLabel xml:lang="x-notation">S4 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Kin</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S4-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S4-">
         <skos:prefLabel xml:lang="x-notation">S4- </skos:prefLabel>
@@ -2004,6 +2424,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S5">
         <skos:prefLabel xml:lang="x-notation">S5 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Groups and affiliation</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S5+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S5-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S5+">
         <skos:prefLabel xml:lang="x-notation">S5+ </skos:prefLabel>
@@ -2016,6 +2444,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S6">
         <skos:prefLabel xml:lang="x-notation">S6 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Obligation and necessity</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S6+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S6-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S6+">
         <skos:prefLabel xml:lang="x-notation">S6+ </skos:prefLabel>
@@ -2028,6 +2464,24 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7">
         <skos:prefLabel xml:lang="x-notation">S7 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Power relationship</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.3"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.3+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.3-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.4"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.4+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.4-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1">
         <skos:prefLabel xml:lang="x-notation">S7.1 </skos:prefLabel>
@@ -2080,6 +2534,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S8">
         <skos:prefLabel xml:lang="x-notation">S8 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Helping/hindering</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S8+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S8-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S8+">
         <skos:prefLabel xml:lang="x-notation">S8+ </skos:prefLabel>
@@ -2092,6 +2554,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S9">
         <skos:prefLabel xml:lang="x-notation">S9 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Religion and the supernatural</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S9-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/S9-">
         <skos:prefLabel xml:lang="x-notation">S9- </skos:prefLabel>
@@ -2100,6 +2569,21 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1">
         <skos:prefLabel xml:lang="x-notation">T1 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Time</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1.2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1.3"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1">
         <skos:prefLabel xml:lang="x-notation">T1.1 </skos:prefLabel>
@@ -2140,6 +2624,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T2">
         <skos:prefLabel xml:lang="x-notation">T2 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Time: Beginning and ending</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T2+">
         <skos:prefLabel xml:lang="x-notation">T2+ </skos:prefLabel>
@@ -2152,6 +2644,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T3">
         <skos:prefLabel xml:lang="x-notation">T3 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Time: Old, new and young; age</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T3+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T3-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T3+">
         <skos:prefLabel xml:lang="x-notation">T3+ </skos:prefLabel>
@@ -2164,6 +2664,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T4">
         <skos:prefLabel xml:lang="x-notation">T4 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Time: Early/late</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T4+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T4-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/T4+">
         <skos:prefLabel xml:lang="x-notation">T4+ </skos:prefLabel>
@@ -2180,6 +2688,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/W2">
         <skos:prefLabel xml:lang="x-notation">W2 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Light</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/W2-"/>
+                </skos:memberList>            
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/W2-">
         <skos:prefLabel xml:lang="x-notation">W2- </skos:prefLabel>
@@ -2204,6 +2719,28 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2">
         <skos:prefLabel xml:lang="x-notation">X2 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Mental actions and processes</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.3"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.3+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.4"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.4+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.4-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.5"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.5+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.5-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.6"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.6+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.6-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X2.1">
         <skos:prefLabel xml:lang="x-notation">X2.1 </skos:prefLabel>
@@ -2272,6 +2809,24 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3">
         <skos:prefLabel xml:lang="x-notation">X3 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Sensory</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.1+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.2-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.3"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.4"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.4+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.4-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.5"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.5-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X3.1">
         <skos:prefLabel xml:lang="x-notation">X3.1 </skos:prefLabel>
@@ -2324,6 +2879,15 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X4">
         <skos:prefLabel xml:lang="x-notation">X4 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Mental object</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X4.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X4.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X4.2"/>
+                </skos:memberList>            
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X4.1">
         <skos:prefLabel xml:lang="x-notation">X4.1 </skos:prefLabel>
@@ -2340,6 +2904,18 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5">
         <skos:prefLabel xml:lang="x-notation">X5 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Attention</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5.1+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5.2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X5.1">
         <skos:prefLabel xml:lang="x-notation">X5.1 </skos:prefLabel>
@@ -2368,6 +2944,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X6">
         <skos:prefLabel xml:lang="x-notation">X6 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Deciding</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X6+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X6-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X6+">
         <skos:prefLabel xml:lang="x-notation">X6+ </skos:prefLabel>
@@ -2380,6 +2964,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X7">
         <skos:prefLabel xml:lang="x-notation">X7 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Wanting; planning; choosing</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X7+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X7-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X7+">
         <skos:prefLabel xml:lang="x-notation">X7+ </skos:prefLabel>
@@ -2392,6 +2984,14 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X8">
         <skos:prefLabel xml:lang="x-notation">X8 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Trying</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X8+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X8-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X8+">
         <skos:prefLabel xml:lang="x-notation">X8+ </skos:prefLabel>
@@ -2404,6 +3004,18 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9">
         <skos:prefLabel xml:lang="x-notation">X9 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Ability</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9.1"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9.1+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9.1-"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9.2"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9.2+"/>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9.2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/X9.1">
         <skos:prefLabel xml:lang="x-notation">X9.1 </skos:prefLabel>
@@ -2432,6 +3044,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Y1">
         <skos:prefLabel xml:lang="x-notation">Y1 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Science and technology in general</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Y1-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Y1-">
         <skos:prefLabel xml:lang="x-notation">Y1- </skos:prefLabel>
@@ -2440,6 +3059,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Y2">
         <skos:prefLabel xml:lang="x-notation">Y2 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Information technology and computing</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Y2-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Y2-">
         <skos:prefLabel xml:lang="x-notation">Y2- </skos:prefLabel>
@@ -2476,6 +3102,13 @@
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Z7">
         <skos:prefLabel xml:lang="x-notation">Z7 </skos:prefLabel>
         <skos:prefLabel xml:lang="en"> If</skos:prefLabel>
+        <skos:narrower>
+            <skos:orderedCollection>
+                <skos:memberList>
+                    <skos:member rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Z7-"/>
+                </skos:memberList>
+            </skos:orderedCollection>
+        </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/Z7-">
         <skos:prefLabel xml:lang="x-notation">Z7- </skos:prefLabel>
