@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2
+  SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p5_3">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>History of the project</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
+                      <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                      <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+                  </address>
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-03-27</date>
+                <respStmt>
+                    <name>EL</name>
+                </respStmt>
+                <item>created file</item>
+            </change>
+
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+
+
+        <body>
+            <div>
+                <head>
+                    <hi>Metadata</hi>
+                </head>
+                <p>The addition of metadata to the contents of <hi>ncse </hi>was challenging. Not
+                    only was there around 100,000 pages of content to which we had to add
+                    information, but this content was structured in a complex hierarchy, creating
+                    tiers of metadata at edition, title, volume, department and article level. This
+                    page gives an account of how we addressed this challenge, as well as full
+                    details of the resulting <hi>ncse </hi>metadata schema.</p>
+                <p>[internal jump-to list]</p>
+                <list type="bulleted">
+                    <item>
+                        <p>ncse metadata schema [internal link]</p>
+                    </item>
+                    <item>
+                        <p>History of the ncse metadata schema [internal link]</p>
+                    </item>
+                    <item>
+                        <p>Adding metadata during segmentation [internal link]</p>
+                    </item>
+                    <item>
+                        <p>Adding metadata through Olive’s Content Administrator [internal link]</p>
+                    </item>
+                    <item>
+                        <p>Creating advanced metadata through named entity extraction, text mining
+                            and semantic tagging [internal link]</p>
+                    </item>
+                </list>
+                <div>
+                    <head>
+                        <hi>ncse Metadata Schema</hi>
+                        <hi> </hi>
+                    </head>
+                    <p>The existing ncse metadata scheme is as follows:</p>
+                    <table>
+                        <row>
+                            <cell role="label"> Field: </cell>
+                            <cell role="label"> Description: </cell>
+                            <cell role="label"> Method </cell>
+                            <cell role="label"> Applies to: </cell>
+                        </row>
+                        <row>
+                            <cell>Uniform periodical title</cell>
+                            <cell>This describes the label given to the whole of a title, regardless
+                                of changes over the run.</cell>
+                            <cell>hand</cell>
+                            <cell>issue &gt; department &gt; item</cell>
+                        </row>
+                        <row>
+                            <cell>Actual periodical title</cell>
+                            <cell>Gives the title as it appears on the masthead. Equivalent to
+                                Dublin Core ‘Title.’</cell>
+                            <cell>hand</cell>
+                            <cell>issue &gt; department &gt; item</cell>
+                        </row>
+                        <row>
+                            <cell>Date</cell>
+                            <cell>Gives the date of publication (as far as known). Equivalent to
+                                Dublin Core ‘Date.’</cell>
+                            <cell>hand</cell>
+                            <cell>issue &gt; department &gt; item</cell>
+                        </row>
+                        <row>
+                            <cell>Source</cell>
+                            <cell>Labels content as part of ncse Equivalent to Dublin Core ‘Source.’ </cell>
+                            <cell>hand</cell>
+                            <cell>issue &gt; department &gt; item</cell>
+                        </row>
+                        <row>
+                            <cell>Volume number</cell>
+                            <cell>Gives the volume and series number of the issue</cell>
+                            <cell>hand</cell>
+                            <cell>issue &gt; department &gt; item</cell>
+                        </row>
+                        <row>
+                            <cell>Issue number</cell>
+                            <cell>Gives the number of the issue</cell>
+                            <cell>hand</cell>
+                            <cell>issue &gt; department &gt; item</cell>
+                        </row>
+                        <row>
+                            <cell>Edition</cell>
+                            <cell>Labels the issue as being a particular edition (town, country,
+                                1-9)</cell>
+                            <cell>hand</cell>
+                            <cell>issue &gt; department &gt; item</cell>
+                        </row>
+                        <row>
+                            <cell>Number of editions</cell>
+                            <cell>Give the number of editions of an issue.</cell>
+                            <cell>hand</cell>
+                            <cell>issue &gt; department &gt; item</cell>
+                        </row>
+                        <row>
+                            <cell>Image description</cell>
+                            <cell>Gives a number of keywords that describe what the image contains.
+                                Drawn from DMVI schema.</cell>
+                            <cell>hand</cell>
+                            <cell>item</cell>
+                        </row>
+                        <row>
+                            <cell>Price</cell>
+                            <cell>Gives the price of an issue if known.</cell>
+                            <cell>hand</cell>
+                            <cell>issue &gt; department &gt; item</cell>
+                        </row>
+                        <row>
+                            <cell>Bibliographic location</cell>
+                            <cell>Labels an article as appearing in the wrapper or in the issue
+                                itself.</cell>
+                            <cell>hand</cell>
+                            <cell>department &gt; item</cell>
+                        </row>
+                        <row>
+                            <cell>Size</cell>
+                            <cell>Gives the paper size of an issue. Equivalent to Dublin Core
+                                ‘Size.’</cell>
+                            <cell>hand</cell>
+                            <cell>issue &gt; department &gt; item</cell>
+                        </row>
+                        <row>
+                            <cell>Editor</cell>
+                            <cell>Labels issues with the name of their editor.</cell>
+                            <cell>hand</cell>
+                            <cell>not used</cell>
+                        </row>
+                        <row>
+                            <cell>Publisher</cell>
+                            <cell>Labels issues with the name of their publisher.</cell>
+                            <cell>hand</cell>
+                            <cell>not used</cell>
+                        </row>
+                        <row>
+                            <cell>Department genre</cell>
+                            <cell>Labels departments with a genre descriptor.</cell>
+                            <cell>hand / text mining</cell>
+                            <cell>not used</cell>
+                        </row>
+                        <row>
+                            <cell>Department title</cell>
+                            <cell>Labels departments with a title.</cell>
+                            <cell>hand</cell>
+                            <cell>not used</cell>
+                        </row>
+                        <row>
+                            <cell>Page number</cell>
+                            <cell>provides a page label that corresponds to that printed</cell>
+                            <cell>hand / script</cell>
+                            <cell>page</cell>
+                        </row>
+                        <row>
+                            <cell>Names</cell>
+                            <cell>Identifies all the people mentioned in the edition </cell>
+                            <cell>named entity extraction</cell>
+                            <cell>item</cell>
+                        </row>
+                        <row>
+                            <cell>Institutions</cell>
+                            <cell>Identifies all the institutions mentioned in the edition</cell>
+                            <cell>named entity extraction</cell>
+                            <cell>item</cell>
+                        </row>
+                        <row>
+                            <cell>Places</cell>
+                            <cell>Identifies all the places mentioned in the edition</cell>
+                            <cell>named entity extraction</cell>
+                            <cell>item</cell>
+                        </row>
+                        <row>
+                            <cell>Genre</cell>
+                            <cell>Marks up items that correspond to a list of predefined genre</cell>
+                            <cell>text mining</cell>
+                            <cell>item</cell>
+                        </row>
+                        <row>
+                            <cell>Events</cell>
+                            <cell>Marks up items that correspond to a list of predefined events</cell>
+                            <cell>text mining</cell>
+                            <cell>item</cell>
+                        </row>
+                        <row>
+                            <cell>Subject</cell>
+                            <cell>Labels items with subject keywords. Drawn from USAS.</cell>
+                            <cell>USAS semantic tagger</cell>
+                            <cell>item</cell>
+                        </row>
+                    </table>
+                    <p>When making the decision whether or not to include multiple editions (for
+                        information on this decision click <xref type="internal" from="p5_6"
+                        >here</xref>) we also explored a variety of strategies to automate as much
+                        of the metadata entry as possible. There were three moments when metadata
+                        was added to content, and at each moment a combination of human and
+                        automated input was employed. Where a field was not used, this was usually
+                        because experiments proved unsuccessful or we did not have the time to do
+                        the necessary research. Full details of these methods are below; however,
+                        one of the strategies we implemented in order to save labour is relevant
+                        here. In order to reduce the amount of manual data entry we designed the
+                        facility for metadata to be inherited from issue to department and then to
+                        item level. In the schema above, you can see the ways in which we took
+                        advantage of this so as not to have to fill the same field for each item
+                        within a department or issue. </p>
+                </div>
+                <div>
+                    <head>
+                        <hi>History of the ncse metadata schema</hi>
+                        <hi> </hi>
+                    </head>
+                    <p>In the early stages of the project we undertook a survey of the material to
+                        try and understand what possible data categories we could identify in
+                        serials and how they related to each other. The result was a very complex
+                        diagram that can be downloaded <xref type="redist" from="data_map.pdf">here</xref> [link to data_map.pdf]. Even given our
+                        initial estimates of the scale of <hi rend="bold">ncse </hi>we recognized
+                        that this was an unreasonable amount of data and set about creating a more
+                        manageable schema.</p>
+                    <p>Our early designs broke the diagram down into a number of areas:
+                        bibliographic metadata; structural metadata; generic metadata; advanced
+                        metadata; and concept mapping:</p>
+                    <div>
+                        <head> Bibliographic metadata </head>
+                        <p>This applied both to the serials and the digital resource. Fields
+                            included ‘title’ (of article), ‘creator’ (of article or digital
+                            resource), ‘date’ (of article or digital resource), ‘publisher’ (name
+                            and place of publisher of article), ‘printer’ (name and place of printer
+                            of article), ‘editor’ (or article or digital resource), ‘pagination’
+                            (span of the article), ‘price’ (of the issue), ‘creator’ (of digital
+                            resource), ‘format’ (of digital resource), ‘origin’ (of digital
+                            resource, i.e. ncse). In creating these fields we referred to the Dublin
+                            Core schema in attempt to ensure compatibility.</p>
+                    </div>
+                    <div>
+                        <head> Structural metadata </head>
+                        <p>The structural metadata fields were designed to indicate where a
+                            particular item occurred in the edition and what its relationships to
+                            other constituent parts were. Fields included ‘given title’ (of whole
+                            run), ‘actual title’ (i.e. that printed on the masthead of a single
+                            issue), ‘series number’, ‘volume number’, ‘edition’ (intended to label
+                            which edition a particular component occurred within), ‘prelims /
+                            numbers’ (designed to distinguish between items that appeared on front
+                            matter and those within issues themselves) label what we would later
+                            call front matter), ‘department’, ‘item’</p>
+                    </div>
+                    <div>
+                        <head> Formal metadata </head>
+                        <p>This category was principally designed to accommodate images. Initially
+                            we were simply concerned to specify a field that would mark up images,
+                            but when combined with bibliographic and advanced metadata we would
+                            achieve a fuller description.</p>
+                    </div>
+                    <div>
+                        <head> Generic metadata </head>
+                        <p>This was a single field that would label each item with a genre such as
+                            advertisements, obituaries, correspondence, leading articles, news etc.
+                            We kept this field and used it to explore text mining techniques
+                            strategies for <xref type="internal" from="p5_7">metadata
+                        entry</xref>.</p>
+                    </div>
+                    <div>
+                        <head>Advanced Metadata</head>
+                        <p>Advanced metadata described those categories that described the content
+                            of articles. Initially we conceived these fields as being a form of
+                            index, populated by the content of the periodicals. The categories were
+                            ‘people’, ‘places’, ‘events’, ‘objects’, ‘publications’, and
+                            ‘institutions.’ Although we attempted some experiments to see how long
+                            these indexes would take to create by hand, our decision to include
+                            multiple editions and so edit an edition of c100,000 pages rendered this
+                            impractical. We pursued the advanced metadata categories through other
+                            means, however, as you can read in Creating advanced metadata through
+                            named entity extraction, text mining and semantic tagging [internal
+                            link].</p>
+                    </div>
+                    <div>
+                        <head>Concept Mapping</head>
+                        <p>Concept mapping was intended to map thematic concepts across different
+                            types of content in the edition. For a description of our work in this
+                            area click <xref type="internal" from="p5_10">here</xref>. For an
+                            account of how we actually implemented thematic metadata go to Creating
+                            advanced metadata through named entity extraction, text mining and
+                            semantic tagging [internal link].</p>
+                        <p>This metadata system was fairly loosely conceived as we designed it
+                            alongside experiments in segmentation. Without a clear idea of how we
+                            were going to produce digital copy, the form this would take, and the
+                            way different components were linked to each other, we could not design
+                            a metadata schema or the means for implementing it. </p>
+                        <p>As we began to progress with the preparation of content and the
+                            segmentation, we also began to refine the metadata schema.. Over the
+                            course of Autumn 2006 we developed it into a form that more closely
+                            resembles the one given above. To download this earlier schema, click
+                            here [link to 06.12.28_metadata_table.pdf]; to see a visual
+                            representation of it click here [link to 06.12.28_metadata_diagram.pdf].
+                            As you may note, we had already separated the advanced metadata
+                            categories out, and had begun to think carefully about the values that
+                            would appear in each field. This was especially problematic for subject
+                            and image. At this stage we were not sure how we could classify the
+                            content for each category and were exploring various existing schemes,
+                            as well as our own concept maps, in order to decide on a strategy that
+                            was suitable for the project’s requirements. Accounts of how we
+                            developed subject metadata can be read <xref type="internal"
+                                from="p5_10">here</xref> and image metadata <xref type="internal"
+                                from="p5_4">here</xref>.</p>
+                    </div>
+                </div>
+                <div>
+                    <head>Adding metadata during segmentation</head>
+                    <p>Once we established the methodology for the production of ncse, we began to
+                        analyze the points at which we could implement our metadata schema. Having a
+                        more developed workflow allowed us to begin to conceptualize what elements
+                        of the structure would be encoded into the xml, and what relationship needed
+                        to be labelled with metadata. The first place where we could begin to add
+                        metadata was when working with the segmented pdfs to amend the segmentation
+                        applied by Olive Software. At this stage we were mainly working to correct
+                        the content: making sure the right pages were bound into the right issues;
+                        that items were correctly distinguished from each other; and that
+                        departments were correctly labelled. The Olive plugin for Adobe Acrobat
+                        permits the addition of metadata but, rather than add all the metadata at
+                        this stage, we simply used the plugin to make any changes to the page
+                        numbers that were allocated to the pages of each pdf document. For more
+                        information about page numbers, click <xref type="internal" from="p5_2"
+                        >here</xref> .</p>
+                    <p>The Olive Administrator Application is a web application that allows you to
+                        both organize the content of data repositories and add metadata to parts of
+                        it. While the pdfs were being segmented, output by Olive in Israel, and the
+                        resulting data then being uploaded onto the server at King’s, we went over
+                        the content in order to resolve any outstanding values that needed to be
+                        finalized. These lists of values were then loaded into the Olive
+                        Administrator Application, allowing our editorial assistants to insert
+                        metadata into the xml through a relatively easy to use interface and
+                        reducing the amount of metadata entered without a controlled vocabulary. We
+                        conceived of the metadata task as two sweeps: one for bibliographic metadata
+                        and one for image metadata. We began adding metadata at the end of November
+                        2007 and this took a team of six part time editorial assistants until March
+                        2008 to complete. For more information about the generation of the
+                        vocabulary for the addition of image metadata, click <xref type="internal"
+                            from="p5_4">here</xref>.</p>
+                    <p>The fields completed at this stage were ‘Uniform periodical title’, ‘Actual
+                        periodical title’, ‘Date’, ‘Source’, ‘Volume number’, ‘Issue number’,
+                        ‘Edition’, ‘Number of editions’, ‘Image description’, ‘Price’,
+                        ‘Bibliographic location’, ‘Size.’ As you can see from the schema above and
+                        from Viewpoint, this is the bulk of the metadata in <hi rend="bold"
+                        >ncse</hi>, and all the metadata that we entered by hand. These fields
+                        attach important bibliographic metadata to all items within the edition that
+                        labels them as to their relationship with each other, allowing complex
+                        searches across the edition and the production of bibliographic citations in
+                        search results.</p>
+                </div>
+                <div>
+                    <head>Creating advanced metadata through named entity extraction, text mining
+                        and semantic tagging</head>
+                    <p>The fields that remained were those that started out as advanced metadata and
+                        concept mapping. For an account of concept mapping click <xref
+                            type="internal" from="p5_10">here</xref>. Of the advanced metadata
+                        categories - ‘people’, ‘places’, ‘events’, ‘objects’, ‘publications’, and
+                        ‘institutions’ – we had selected ‘people’ (as ‘names’), ‘places’,
+                        ‘institutions’, ‘genre’, ‘events’, and ‘subject’ to pursue. We used <xref
+                            type="external" url="http://gate.ac.uk/">GATE</xref> to extract a list
+                        of proper nouns, which we sorted using a combination of sources including
+                        the indices from John North’s <title>
+                            <xref type="external" url="http://www.victorianperiodicals.com/"
+                                >Waterloo Directory of English Periodicals and Newspapers,
+                            1800-1900</xref>
+                        </title>. On the basis of this work we were confident on producing indexes
+                        of names, places and institutions. We attempted to use text mining
+                        techniques to see if we could find a way of marking up ‘events’ and ‘genre’,
+                        but were unable to obtain results that could be applied across the edition.
+                        For ‘subjects’ we used UCREL’s (University Centre for Corpus Research on
+                        Language) <xref type="external" url="http://ucrel.lancs.ac.uk/usas/"
+                        >USAS</xref> (UCREL Semantic Analysis System) tagger to provide semantic
+                        tags for individual articles, which we then refined to present to users. For
+                        a fuller account of this research click <xref type="internal" from="p5_7"
+                            >here</xref>.</p>
+                </div>
+            </div>
+        </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </text>
+</TEI.2>

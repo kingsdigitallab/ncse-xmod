@@ -99,6 +99,10 @@
         <fileName>editorial</fileName>
         <fileTitle>Editorial Decisions</fileTitle>
       </item>
+      <item id="p5_3">
+        <fileName>terminology</fileName>
+        <fileTitle>Terminology</fileTitle>
+      </item>
       
     </group>
     <group id="g6">
