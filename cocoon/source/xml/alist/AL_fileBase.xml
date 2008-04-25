@@ -95,6 +95,10 @@
         <fileName>index</fileName>
         <fileTitle>Editorial Commentary</fileTitle>
       </item>
+      <item id="p5_2">
+        <fileName>editorial</fileName>
+        <fileTitle>Editorial Decisions</fileTitle>
+      </item>
       
     </group>
     <group id="g6">
