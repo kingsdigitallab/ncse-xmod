@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2
+  SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p5">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Editorial Commentary</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
+                      <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                      <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+                  </address>
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-03-27</date>
+                <respStmt>
+                    <name>EL</name>
+                </respStmt>
+                <item>created file</item>
+            </change>
+
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <p>From the outset it became clear that when editing an edition of periodicals and
+                newspapers we would have to accommodate a range of different types of material. This
+                section contains accounts of various features of <hi rend="bold">ncse</hi>,
+                outlining our methodological approaches and the editorial principles that informed
+                them.</p>
+            <list>
+                <item><xref type="internal" from="p5_1">Choice of the cluster</xref></item>
+                <item><xref type="internal" from="p5_2">Editorial decisions</xref></item>
+                <item><xref type="internal" from="p5_3">Terminology</xref></item>
+                <item><xref type="internal" from="p5_4">Visual material</xref></item>
+                <item><xref type="internal" from="p5_5">Paratextual material</xref></item>
+                <item><xref type="internal" from="p5_6">Multiple editions</xref> </item>
+                <item><xref type="internal" from="p5_7">Text mining</xref></item>
+                <item><xref type="internal" from="p5_8">Runs</xref></item>
+                <item><xref type="internal" from="p5_9">Metadata</xref></item>
+                <item><xref type="internal" from="p5_10">The core</xref></item>
+                <item><xref type="internal" from="p5_11">Concept mapping</xref></item>
+            </list>
+        </body>
+    </text>
+</TEI.2>

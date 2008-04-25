@@ -36,25 +36,43 @@
   <text>
     <body>
       <head>Home</head>
-      <p>Funded by the AHRC, ncse is a partnership between Birkbeck College, King’s College London,
-        the British Library and Olive Software Inc. Its remit is to develop an exemplary edition of
-        six nineteenth-century newspaper and periodical titles in electronic form..</p>
-      <list>
-        <item>Publishers’ Circular (1880-1890)</item>
-        <item>Tomahawk (1867-1870)</item>
-        <item>English Woman’s Journal (1858-1864)</item>
-        <item>Leader (1850-1859)</item>
-        <item>Northern Star (1837-1852)</item>
-        <item>Monthly Repository of Theology and General Literature (1806-1838)</item></list>
-        <p>The edition will feature full-text facsimiles, including adverts, illustrations,
-          supplements, portraits and multiple editions, and provide sophisticated searching and
-          indexing functions. This resource, developed in collaboration with the Centre for
-          Computing in the Humanities at King’s College London and Olive Software, will facilitate
-          extensive research within titles and across the cluster. Challenging conventional uses of
-          print media by emphasizing its interconnectedness, <hi rend="bold">ncse</hi> provides a
-          new technical and methodological model for electronic editions and a new conceptual
-          framework for researchers.</p>
-      
+      <p>The Nineteenth-Century Serials Edition (<hi rend="bold">ncse</hi>) is a free, online
+        edition of six nineteenth-century periodicals and newspapers:</p>
+      <list type="bulleted">
+        <item>
+          <xref type="internal" from="p2_1"><title>Monthly Repository</title> (1806-1837) and <title>Unitarian Chronicle</title>
+            (1832-1833)</xref>
+        </item>
+        <item>
+          <xref type="internal" from="p2_2"><title>Northern Star</title> (1838-1852)</xref>
+        </item>
+        <item>
+          <xref type="internal" from="p2_3"><title>Leader</title> (1850-1860)</xref>
+        </item>
+        <item>
+          <xref type="internal" from="p2_4"><title>English Woman’s Journal</title> (1858-1864)</xref>
+        </item>
+        <item>
+          <xref type="internal" from="p2_5"><title>Tomahawk</title> (1867-1870)</xref>
+        </item>
+        <item>
+          <xref type="internal" from="p2_6"><title>Publishers’ Circular</title> (1880-1890)</xref>
+        </item>
+      </list>
+      <p><hi rend="bold">ncse</hi> includes full runs of the first five titles, and a decade only of
+        the <title>Publishers’ Circular</title>. Titles are represented as completely as possible, including
+        multiple editions, advertisements, wrappers, and supplements where we could find them.</p>
+      <p>The edition features full-page facsimiles and textual transcripts generated through OCR.
+        All six journals are segmented to article level, and can be downloaded freely. There is
+        rich, fully-searchable metadata attached to titles, volumes, issues, departments and
+        articles within the edition.</p> <p>To browse or search the edition by image, subject, name or
+      place, use the links above; to begin browsing and searching the journals themselves follow the
+      link below.</p>
+    
+    <table type="thumbnails"><head>please insert logos</head>
+      <row><cell><figure></figure></cell></row>
+     
+    </table>
     </body>
   </text>
 </TEI.2>

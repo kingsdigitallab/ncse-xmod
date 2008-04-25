@@ -86,6 +86,29 @@
         <fileTitle>Publishers’ Circular</fileTitle>
       </item>
     </group>
+    <group id="g5" default="p5">
+      <groupHead>
+        <groupTitle>Editorial Commentary</groupTitle>
+        <groupFolder>/commentary</groupFolder>
+      </groupHead>
+      <item id="p5">
+        <fileName>index</fileName>
+        <fileTitle>Editorial Commentary</fileTitle>
+      </item>
+      
+    </group>
+    <group id="g6">
+      <groupHead>
+        <groupTitle>History</groupTitle>
+        <groupFolder>/history</groupFolder>
+      </groupHead>
+      <item id="p6">
+        <fileName>index</fileName>
+        <fileTitle>History of the Project</fileTitle>
+      </item>
+      
+    </group>
+    
     <group id="g3" default="p3">
       <groupHead>
         <groupTitle>Browse</groupTitle>

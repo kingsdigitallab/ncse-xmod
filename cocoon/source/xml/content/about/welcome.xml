@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Welcome to ncse</title>
-                
+
             </titleStmt>
             <publicationStmt>
                 <publisher>Centre for Computing in the Humanities, King's College London</publisher>
@@ -30,7 +30,7 @@
                 </respStmt>
                 <item>created file</item>
             </change>
-            
+
 
         </revisionDesc>
     </teiHeader>
@@ -38,9 +38,41 @@
     <text>
         <body>
 
-            <head>Welcome to ncse</head>
-            
-            <p>please populate</p>
+           <div>
+
+            <p>Like all editions, ncse makes an argument about its contents. The project team saw
+                the project as a chance to explore two research questions: how can you edit
+                nineteenth-century serials in a scholarly edition; and how can digital resources be
+                best used to model nineteenth-century serials in paper? ncse provides an answer to
+                both of these questions. We approached the serials as objects to be edited in their
+                own right, rejecting approaches that would privilege certain types of content,
+                certain periods, or certain figures. We then explored how to represent these data
+                structures in digital form, working with Olive Software to adapt their Viewpoint
+                application and with the Centre for Computing in the Humanities to integrate it with
+                our own bespoke site with its own metadata and search functions. For further
+                information about our methdology, click <xref type="internal" from="p5">here</xref>
+                for the editorial commentary and <xref type="internal" from="p6">here</xref> for the
+                history of the project.</p>
+            <p>The majority of our content was contributed by the British Library. However, this
+                material was supplemented from a variety of institutions and individuals: the
+                    <title>Northern Star</title> portraits came from the National Portrait Gallery
+                and from the collection of Dorothy Thompson; the 1827 volume of the <title>Monthly
+                    Repository</title> and issues 165-173 of <title>Tomahawk</title> came from the
+                Bodleian; and the <title>English Woman’s Journal</title> is from the Women’s
+                Library. John North generously helped us build our advanced metadata with his
+                indices from the <title>
+                    <xref type="external" url="http://www.victorianperiodicals.com">Waterloo
+                        Directory of English Periodicals and Newspapers</xref>
+                </title> and J. Thomas, P. T. Killick, A. A. Mandal, and D. J. Skilton generously
+                let us adapt the iconographic schema from their <title>
+                    <xref type="external" url="http://www.dmvi.cf.ac.uk">Database of Mid-Victorian
+                        wood-engraved Illustration</xref>
+                </title> for our image metadata.</p>
+               <div><head>Project Partners:</head>
+                   <p>[Logos of stakeholders: AHRC, BL, BBK, KCL, CCH, Olive]</p></div>
+               <div><head>Contributors:</head>
+                   <p>[Logos of contributors: University of Birmingham, Women’s Library, NPG, Waterloo Directory, Bodleian]</p></div>
+           </div>
 
 
 
