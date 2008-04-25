@@ -2,38 +2,63 @@
 <!DOCTYPE TEI.2
   SYSTEM "../../../dtd/tei/cch_tei.dtd">
 <TEI.2 id="p1_0">
-<teiHeader status="new" type="text">
-<fileDesc>
-<titleStmt>
-<title>About us</title>
-</titleStmt>
-<publicationStmt>
-      <publisher>Centre for Computing in the Humanities, King's College London</publisher>
-      <address>
+  <teiHeader status="new" type="text">
+    <fileDesc>
+      <titleStmt>
+        <title>About us</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+        <address>
         <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
         <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
       </address>
-    </publicationStmt>
-<sourceDesc default="NO">
-      <p>No source: created in electronic format.</p>
-    </sourceDesc>
-</fileDesc>
-<encodingDesc>
-    <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
-  </encodingDesc><revisionDesc> 
-    <change>
-      <date>2008-03-27</date>
-      <respStmt>
-        <name>EL</name>
-      </respStmt>
-      <item>created file</item>
-    </change>
-     
-   </revisionDesc></teiHeader>
+      </publicationStmt>
+      <sourceDesc default="NO">
+        <p>No source: created in electronic format.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+    </encodingDesc>
+    <revisionDesc>
+      <change>
+        <date>2008-03-27</date>
+        <respStmt>
+          <name>EL</name>
+        </respStmt>
+        <item>created file</item>
+      </change>
 
-<text>
-<body><head>About us</head> 
-			 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce tincidunt urna a nibh. In pretium augue at arcu. Morbi suscipit, pede eget condimentum pretium, urna lectus tincidunt felis, et scelerisque augue magna id lorem. Morbi vitae nulla. Donec vel risus. Nullam lacinia magna non neque. In hac habitasse platea dictumst. Nulla iaculis arcu sit amet turpis luctus nonummy. Integer lacus. In egestas tempor arcu. Maecenas posuere arcu eget ipsum. Vivamus in dolor. Proin eleifend arcu nec lectus. Praesent sodales quam in leo. Curabitur sem. Fusce augue. Nam porttitor arcu id felis. Praesent quis nisl et sem suscipit ullamcorper. Praesent molestie dui laoreet neque. Fusce faucibus justo sed enim. </p><p>Nunc eleifend molestie odio. Fusce egestas velit in nulla. Proin convallis adipiscing eros. Nulla ut elit sed diam convallis tempus. Donec scelerisque, dui ut hendrerit tristique, ipsum magna placerat lorem, eu congue erat dui a nulla. Nunc eu arcu ut lectus pharetra porta. Fusce dui nulla, eleifend at, malesuada ac, rhoncus eget, risus. Ut leo. Sed ornare mi in dui. Maecenas erat. Nulla varius euismod mauris. Nullam vel augue sed felis volutpat aliquam. </p><p>Nullam ante. Nunc ullamcorper viverra mi. Curabitur malesuada iaculis sapien. Nulla facilisi. Morbi pretium ante eget dui. Sed augue. Suspendisse rhoncus pharetra lacus. Donec ipsum. Nulla consectetuer tempor pede. Sed quis ligula sit amet sapien venenatis suscipit. </p><p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam mauris wisi, dictum eu, dignissim nec, iaculis sit amet, dui. Sed wisi neque, iaculis sit amet, congue eget, sagittis a, purus. Donec sed neque quis enim tincidunt consectetuer. Quisque diam nunc, fermentum a, facilisis ac, elementum eget, leo. Ut commodo, magna quis volutpat dictum, enim mauris vulputate wisi, ut consequat lectus mi a velit. Aliquam neque enim, consectetuer a, molestie eu, tristique vitae, nibh. Praesent hendrerit dui in urna. Nulla nisl velit, blandit vel, hendrerit et, auctor nec, magna. Vivamus lacus felis, vestibulum quis, tempus a, pretium ut, mi. Integer non ante a lacus vehicula commodo. Donec non nisl id massa sagittis commodo. </p><p>Etiam eleifend mi nec justo. Proin convallis elementum nibh. Quisque in dolor sed purus congue placerat. Nam volutpat mollis leo. Sed tristique. Vestibulum vitae risus rhoncus nisl fringilla mollis. Maecenas libero. Praesent nibh wisi, pretium eget, fringilla sit amet, venenatis vitae, odio. Donec adipiscing lacus a dolor. Etiam wisi pede, vehicula nec, elementum eget, euismod in, tortor. Donec sapien ante, bibendum ac, condimentum at, ultrices dapibus, tellus. Vivamus et metus. Donec pellentesque ligula in orci. Cras risus nibh, elementum vel, nonummy sit amet, nonummy eu, neque. Vivamus ornare adipiscing leo. </p> 
-			 </body>
-</text>
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      
+      <div><p>The <hi rend="italic">Nineteenth-Century Serials Edition</hi> (<hi rend="bold">ncse</hi>)
+        is a free, online scholarly edition of six nineteenth-century periodicals and newspapers. It
+        is a collaboration between Birkbeck College, King’s College London (Centre for Computing in
+        the Humanities and the Department of English), the British Library, and Olive Software. It
+        was funded from January 2005 to December 2007 by the Arts and Humanities Research Council.</p>
+      <p>The edition is intended to be of use for anybody with an interest in nineteenth-century
+        literature, history or culture, as well as those interested in the history of the press, or
+        print culture more broadly. It combines easy to use browse functions with advanced searching
+        of the content and the metadata. For an overview of the edition, please see the
+        following:</p>
+      <div><head>Welcome to ncse</head>
+      <p>For a brief overview of the project, click <xref type="internal" from="p1_1">here</xref>.</p></div>
+        <div><head>Technical Introduction</head>
+          <p>For an account of the technical production of ncse, click <xref type="internal" from="p1_2">here</xref>.</p></div>
+        <div><head>FAQs / Help</head>
+          <p>For answers to common questions and general help documents, click <xref type="internal" from="p8">here</xref>.</p></div>
+      <div><head>Contact us</head>
+        <p>To contact us, please click <xref type="internal" from="p1_4">here</xref> for a link to our feedback form.</p></div>
+    
+      
+      
+    
+      </div>
+    </body>
+  </text>
 </TEI.2>
