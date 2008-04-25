@@ -36,7 +36,7 @@
   <text>
     <body>
       
-      <div><p>The <hi rend="italic">Nineteenth-Century Serials Edition</hi> (<hi rend="bold">ncse</hi>)
+      <p>The <hi rend="italic">Nineteenth-Century Serials Edition</hi> (<hi rend="bold">ncse</hi>)
         is a free, online scholarly edition of six nineteenth-century periodicals and newspapers. It
         is a collaboration between Birkbeck College, King’s College London (Centre for Computing in
         the Humanities and the Department of English), the British Library, and Olive Software. It
@@ -58,7 +58,7 @@
       
       
     
-      </div>
+      
     </body>
   </text>
 </TEI.2>
