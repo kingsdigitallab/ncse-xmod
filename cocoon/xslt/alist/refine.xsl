@@ -3,7 +3,10 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#" version="2.0">
 
+  <!-- Change depending on which filtered list is being run -->
   <xsl:param name="type" select="'image'"/>
+
+
 
   <xsl:variable name="sub-string">
     <xsl:choose>
@@ -98,6 +101,9 @@
 
         <xsl:choose>
           <xsl:when test="$cur-key = $top-level//level">
+            <xsl:comment>
+              <xsl:value-of select="preceding-sibling::comment()[1]" />
+            </xsl:comment>
             <xsl:copy>
               <xsl:copy-of select="@*"/>
               <xsl:sequence select="*[not(name() = 'skos:narrower')]"/>
@@ -117,6 +123,9 @@
             </xsl:copy>
           </xsl:when>
           <xsl:when test="$cur-key = $doc-key//key/@id or $cur-key = $doc-key//key/@third">
+            <xsl:comment>
+              <xsl:value-of select="preceding-sibling::comment()[1]" />
+            </xsl:comment>
             <xsl:copy>
               <xsl:copy-of select="@*"/>
               <xsl:sequence select="*[not(name() = 'skos:narrower')]"/>
