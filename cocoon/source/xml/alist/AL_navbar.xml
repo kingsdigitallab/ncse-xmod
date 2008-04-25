@@ -80,6 +80,17 @@
         <level01>
           <label>Editorial Commentary</label>
           <default ref="p5"/>
+          <active>
+            <file start="p5"/>
+          </active>
+          
+          <sub02>
+            <level02>
+              <label>Editorial Decisions</label>
+              <default ref="p5_2"/>
+            </level02>
+          </sub02>
+          
         </level01>
         <level01>
           <label>History of the Project</label>
