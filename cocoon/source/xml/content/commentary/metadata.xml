@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TEI.2
   SYSTEM "../../../dtd/tei/cch_tei.dtd">
-<TEI.2 id="p5_3">
+<TEI.2 id="p5_11">
     <teiHeader status="new" type="text">
         <fileDesc>
             <titleStmt>
-                <title>History of the project</title>
+                <title>Metadata</title>
 
             </titleStmt>
             <publicationStmt>
@@ -39,10 +39,8 @@
 
 
         <body>
-            <div>
-                <head>
-                    <hi>Metadata</hi>
-                </head>
+            
+               
                 <p>The addition of metadata to the contents of <hi>ncse </hi>was challenging. Not
                     only was there around 100,000 pages of content to which we had to add
                     information, but this content was structured in a complex hierarchy, creating
@@ -410,7 +408,7 @@
                         a fuller account of this research click <xref type="internal" from="p5_7"
                             >here</xref>.</p>
                 </div>
-            </div>
+            
         </body>
 
 
