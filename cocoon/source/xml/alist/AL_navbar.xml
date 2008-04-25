@@ -89,6 +89,11 @@
               <label>Editorial Decisions</label>
               <default ref="p5_2"/>
             </level02>
+            <level02>
+              <label>Terminology</label>
+              <default ref="p5_3"/>
+            </level02>
+            
           </sub02>
           
         </level01>
