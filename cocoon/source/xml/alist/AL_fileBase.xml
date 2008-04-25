@@ -103,6 +103,10 @@
         <fileName>terminology</fileName>
         <fileTitle>Terminology</fileTitle>
       </item>
+      <item id="p5_11">
+        <fileName>metadata</fileName>
+        <fileTitle>Metadata</fileTitle>
+      </item>
       
     </group>
     <group id="g6">
