@@ -3,7 +3,7 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#" version="2.0">
 
-  <!-- Change depending on which filtered list is being run -->
+  <!-- Change depending on which filtered list is being run either 'subject' or 'image' -->
   <xsl:param name="type" select="'image'"/>
 
 
@@ -79,22 +79,22 @@
     </top>
   </xsl:variable>
 
-  <xsl:template match="/">
+  <xsl:variable name="refined" as="element()">
     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
       xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
       xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
       <skos:ConceptScheme rdf:nodeID="schemenode">
-        <xsl:copy-of select="rdf:RDF/skos:ConceptScheme/*[not(name() = 'skos:hasTopConcept')]"/>
+        <xsl:copy-of select="/rdf:RDF/skos:ConceptScheme/*[not(name() = 'skos:hasTopConcept')]"/>
 
-        <xsl:for-each select="rdf:RDF/skos:ConceptScheme/skos:hasTopConcept">
+        <xsl:for-each select="/rdf:RDF/skos:ConceptScheme/skos:hasTopConcept">
           <xsl:if test="substring-after(@rdf:resource, $sub-string) = $top-level//level">
             <xsl:sequence select="self::node()"/>
           </xsl:if>
         </xsl:for-each>
       </skos:ConceptScheme>
 
-      <xsl:for-each select="rdf:RDF/skos:Concept">
+      <xsl:for-each select="/rdf:RDF/skos:Concept">
         <xsl:variable name="cur-key">
           <xsl:value-of select="normalize-space(skos:prefLabel[@xml:lang='x-notation'])"/>
         </xsl:variable>
@@ -102,7 +102,7 @@
         <xsl:choose>
           <xsl:when test="$cur-key = $top-level//level">
             <xsl:comment>
-              <xsl:value-of select="preceding-sibling::comment()[1]" />
+              <xsl:value-of select="preceding-sibling::comment()[1]"/>
             </xsl:comment>
             <xsl:copy>
               <xsl:copy-of select="@*"/>
@@ -122,9 +122,9 @@
               </xsl:if>
             </xsl:copy>
           </xsl:when>
-          <xsl:when test="$cur-key = $doc-key//key/@id or $cur-key = $doc-key//key/@third">
+          <xsl:when test="$cur-key = $Ln//level or $cur-key = $doc-key//key/@id or $cur-key = $doc-key//key/@third">
             <xsl:comment>
-              <xsl:value-of select="preceding-sibling::comment()[1]" />
+              <xsl:value-of select="preceding-sibling::comment()[1]"/>
             </xsl:comment>
             <xsl:copy>
               <xsl:copy-of select="@*"/>
@@ -147,5 +147,57 @@
         </xsl:choose>
       </xsl:for-each>
     </rdf:RDF>
+  </xsl:variable>
+  
+  
+  
+  <xsl:template match="/">
+    <r:RDF xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:s="http://www.w3.org/2004/02/skos/core#"
+      xmlns:rs="http://www.w3.org/2000/01/rdf-schema#"
+      xml:base="http://www.cch.kcl.ac.uk/ncse/dmvi/AL_cch_dmvi_skos.rdf">
+      
+      <xsl:for-each select="$refined//skos:hasTopConcept">
+        <xsl:variable name="top-con" select="@rdf:resource" />
+        <xsl:for-each select="$refined//skos:Concept[@rdf:about = $top-con]">
+          <s:Concept>
+            <xsl:attribute name="r:about">
+              <xsl:value-of select="normalize-space(skos:prefLabel[@xml:lang='x-notation'])"/>
+            </xsl:attribute>
+            <xsl:attribute name="r:label">
+              <xsl:value-of select="normalize-space(skos:prefLabel[not(@xml:lang='x-notation')])"/>
+            </xsl:attribute>
+            <xsl:if test="skos:narrower">
+              <xsl:call-template name="narrower" />
+            </xsl:if>
+          </s:Concept>
+        </xsl:for-each>
+        </xsl:for-each>
+    </r:RDF>
+  </xsl:template>
+  
+  <xsl:template name="narrower" xmlns:s="http://www.w3.org/2004/02/skos/core#" xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <s:narrower>
+      <s:orderedCollection>
+        <s:memberList r:parseType="Collection">
+          <xsl:for-each select=".//skos:member">
+            <xsl:variable name="cur-mem" select="@rdf:about" />
+            <xsl:for-each select="$refined//skos:Concept[@rdf:about = $cur-mem]">
+              <s:Concept>
+                <xsl:attribute name="r:about">
+                  <xsl:value-of select="normalize-space(skos:prefLabel[@xml:lang='x-notation'])"/>
+                </xsl:attribute>
+                <xsl:attribute name="r:label">
+                  <xsl:value-of select="normalize-space(skos:prefLabel[not(@xml:lang='x-notation')])"/>
+                </xsl:attribute>
+                <xsl:if test="skos:narrower">
+                  <xsl:call-template name="narrower" />
+                </xsl:if>
+              </s:Concept>
+            </xsl:for-each>
+          </xsl:for-each>
+        </s:memberList>
+      </s:orderedCollection>
+    </s:narrower>
   </xsl:template>
 </xsl:stylesheet>
