@@ -38,7 +38,14 @@
   </xsl:variable>
 
   <xsl:template match="/">
-    <xsl:call-template name="html_tpl" />
+    <xsl:choose>
+      <xsl:when test="$context-id = 'search_thesaurus_window'">
+        <xsl:call-template name="tpl-thesaurus-window" />
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:call-template name="html_tpl" />        
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template name="ctpl_submenu">
