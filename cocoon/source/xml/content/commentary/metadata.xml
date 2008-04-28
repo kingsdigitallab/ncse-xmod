@@ -47,29 +47,12 @@
                     tiers of metadata at edition, title, volume, department and article level. This
                     page gives an account of how we addressed this challenge, as well as full
                     details of the resulting <hi>ncse </hi>metadata schema.</p>
-                <p>[internal jump-to list]</p>
-                <list type="bulleted">
-                    <item>
-                        <p>ncse metadata schema [internal link]</p>
-                    </item>
-                    <item>
-                        <p>History of the ncse metadata schema [internal link]</p>
-                    </item>
-                    <item>
-                        <p>Adding metadata during segmentation [internal link]</p>
-                    </item>
-                    <item>
-                        <p>Adding metadata through Olive’s Content Administrator [internal link]</p>
-                    </item>
-                    <item>
-                        <p>Creating advanced metadata through named entity extraction, text mining
-                            and semantic tagging [internal link]</p>
-                    </item>
-                </list>
-                <div>
+                
+                
+                <div id="sch">
                     <head>
-                        <hi>ncse Metadata Schema</hi>
-                        <hi> </hi>
+                        ncse Metadata Schema
+                         
                     </head>
                     <p>The existing ncse metadata scheme is as follows:</p>
                     <table>
@@ -240,15 +223,15 @@
                         advantage of this so as not to have to fill the same field for each item
                         within a department or issue. </p>
                 </div>
-                <div>
+                <div id="his">
                     <head>
-                        <hi>History of the ncse metadata schema</hi>
-                        <hi> </hi>
+                        History of the ncse metadata schema
+                        
                     </head>
                     <p>In the early stages of the project we undertook a survey of the material to
                         try and understand what possible data categories we could identify in
                         serials and how they related to each other. The result was a very complex
-                        diagram that can be downloaded <xref type="redist" from="data_map.pdf">here</xref> [link to data_map.pdf]. Even given our
+                        diagram that can be downloaded <xref type="redist" from="pdf/data_map.pdf">here</xref>. Even given our
                         initial estimates of the scale of <hi rend="bold">ncse </hi>we recognized
                         that this was an unreasonable amount of data and set about creating a more
                         manageable schema.</p>
@@ -322,11 +305,11 @@
                             way different components were linked to each other, we could not design
                             a metadata schema or the means for implementing it. </p>
                         <p>As we began to progress with the preparation of content and the
-                            segmentation, we also began to refine the metadata schema.. Over the
+                            segmentation, we also began to refine the metadata schema. Over the
                             course of Autumn 2006 we developed it into a form that more closely
                             resembles the one given above. To download this earlier schema, click
-                            here [link to 06.12.28_metadata_table.pdf]; to see a visual
-                            representation of it click here [link to 06.12.28_metadata_diagram.pdf].
+                            <xref type="redist" from="pdf/06.12.28_metadata_table.pdf">here</xref>; to see a visual
+                            representation of it click <xref type="redist" from="pdf/06.12.28_metadata_diagram.pdf">here</xref>.
                             As you may note, we had already separated the advanced metadata
                             categories out, and had begun to think carefully about the values that
                             would appear in each field. This was especially problematic for subject
@@ -339,7 +322,7 @@
                                 from="p5_4">here</xref>.</p>
                     </div>
                 </div>
-                <div>
+                <div id="add">
                     <head>Adding metadata during segmentation</head>
                     <p>Once we established the methodology for the production of ncse, we began to
                         analyze the points at which we could implement our metadata schema. Having a
@@ -382,7 +365,7 @@
                         searches across the edition and the production of bibliographic citations in
                         search results.</p>
                 </div>
-                <div>
+                <div id="cre">
                     <head>Creating advanced metadata through named entity extraction, text mining
                         and semantic tagging</head>
                     <p>The fields that remained were those that started out as advanced metadata and
@@ -410,15 +393,6 @@
                 </div>
             
         </body>
-
-
-
-
-
-
-
-
-
 
 
 

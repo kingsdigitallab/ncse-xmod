@@ -41,67 +41,29 @@
 
 
         <body>
-            
-                
-                <p>
-                    <hi rend="bold">ncse</hi> is one of the first editorial projects to edit a
-                    corpus of periodicals and newspapers of this size so closely. Editing serials is
-                    complex due to their mutability over the course of their run and the
-                    hierarchical nature of the archive that results. In order to conceptualize such
-                    a diversity of form, we came up with a systematic vocabulary that we have used
-                    throughout the resource. Below is a glossary that provides definitions of the
-                    terms that we employ. </p>
-                <p>[internal jump-to list]</p>
-                <list type="bulleted">
-                    <item>
-                        <p>Concept map</p>
-                    </item>
-                    <item>
-                        <p>Issue </p>
-                    </item>
-                    <item>
-                        <p>Named entity extraction</p>
-                    </item>
-                    <item>
-                        <p>Number</p>
-                    </item>
-                    <item>
-                        <p>Run</p>
-                    </item>
-                    <item>
-                        <p>Segmentation</p>
-                    </item>
-                    <item>
-                        <p>Semantic tagger</p>
-                    </item>
-                    <item>
-                        <p>Serials, periodicals and newspapers</p>
-                    </item>
-                    <item>
-                        <p>Supplement</p>
-                    </item>
-                    <item>
-                        <p>Text mining</p>
-                    </item>
-                    <item>
-                        <p>Title</p>
-                    </item>
-                    <item>
-                        <p>Volume</p>
-                    </item>
-                </list>
-            
+
+
+            <p>
+                <hi rend="bold">ncse</hi> is one of the first editorial projects to edit a corpus of
+                periodicals and newspapers of this size so closely. Editing serials is complex due
+                to their mutability over the course of their run and the hierarchical nature of the
+                archive that results. In order to conceptualize such a diversity of form, we came up
+                with a systematic vocabulary that we have used throughout the resource. Below is a
+                glossary that provides definitions of the terms that we employ. </p>
+
+
             <div>
                 <head>Concept map</head>
                 <p>The original project brief specified concept maps as a way of tracing thematic
                     information across the edition. We constructed a concept map for the edition in
                     a series of seminars throughout 2005 with a view to it providing the mechanism
-                    for grouping content by concept. To read more about this process click <xref type="internal" from="p5_10">here</xref>. As the map had been constructed from the texts up, we
-                    did not feel confident about its ability to capture all of the content in
-                        <hi>ncse</hi>. This, combined with the fact that the map required human
-                    intervention to link concepts and texts, meant that we were not able to apply it
-                    to the edition. Instead, we used a semantic tagger (see below) to produce a
-                    keyword subject index.</p>
+                    for grouping content by concept. To read more about this process click <xref
+                        type="internal" from="p5_10">here</xref>. As the map had been constructed
+                    from the texts up, we did not feel confident about its ability to capture all of
+                    the content in <hi>ncse</hi>. This, combined with the fact that the map required
+                    human intervention to link concepts and texts, meant that we were not able to
+                    apply it to the edition. Instead, we used a semantic tagger (see below) to
+                    produce a keyword subject index.</p>
             </div>
             <div>
                 <head>Issue</head>
@@ -123,10 +85,11 @@
             <div>
                 <head>Named entity extraction</head>
                 <p>This is a process carried out to obtain a list of all the proper nouns within the
-                    textual transcript of <hi>ncse</hi>. We used <xref type="external" url="http://gate.ac.uk/">GATE</xref> to identify and then discriminate between
-                    personal names, places and institutions within our corpus. These lists were also
-                    evaluated against other extant authority lists, and were then used to popular
-                    the ‘Names’, ‘Institutions’ and ‘Places’ metadata fields.</p>
+                    textual transcript of <hi>ncse</hi>. We used <xref type="external"
+                        url="http://gate.ac.uk/">GATE</xref> to identify and then discriminate
+                    between personal names, places and institutions within our corpus. These lists
+                    were also evaluated against other extant authority lists, and were then used to
+                    popular the ‘Names’, ‘Institutions’ and ‘Places’ metadata fields.</p>
             </div>
             <div>
                 <head>Number</head>
@@ -159,27 +122,30 @@
                     possible to obtain some good results, the preparation and evaluation of the
                     process was too time-consuming, particularly when applied to material that
                     changes over time like nineteenth-century serials. Ultimately, Olive processed
-                    the pdfs using <xref type="internal" from="p5_2">segmentation profiles</xref> prepared by us.
-                    We then went over the segmented pdfs and made sure that all items were correctly
-                    delineated and that any items that marked the beginning of a headline were
-                    identified. </p>
+                    the pdfs using <xref type="internal" from="p5_2">segmentation profiles</xref>
+                    prepared by us. We then went over the segmented pdfs and made sure that all
+                    items were correctly delineated and that any items that marked the beginning of
+                    a headline were identified. </p>
             </div>
             <div>
                 <head>
-                    <hi>Semantic tagger</hi>
+                    Semantic tagger
                 </head>
                 <p>Once we had decided to include the multiple editions in <hi>ncse</hi>, it became
                     apparent that we did not have the resources to enter metadata at item level. Our
                     concept map required human interpretation of the text and the decision to expand
-                    the edition made this methodology impractical. Instead, we ran the <xref type="external" url="http://ucrel.lancs.ac.uk/">UCREL</xref>’s
-                    (University Centre for Computer Corpus Research on Language) <xref type="external" url="http://ucrel.lancs.ac.uk/usas/">USAS</xref> (UCREL Semantic Analysis System)
-                    tagger. This provided sets of semantic
-                    tags for every article within <hi rend="bold">ncse</hi>. After evaluation, these were used
-                    to provide subject metadata values. To read more about this, click <xref type="internal" from="p5_7">here</xref>.</p>
+                    the edition made this methodology impractical. Instead, we ran the <xref
+                        type="external" url="http://ucrel.lancs.ac.uk/">UCREL</xref>’s (University
+                    Centre for Computer Corpus Research on Language) <xref type="external"
+                        url="http://ucrel.lancs.ac.uk/usas/">USAS</xref> (UCREL Semantic Analysis
+                    System) tagger. This provided sets of semantic tags for every article within <hi
+                        rend="bold">ncse</hi>. After evaluation, these were used to provide subject
+                    metadata values. To read more about this, click <xref type="internal"
+                        from="p5_7">here</xref>.</p>
             </div>
             <div>
                 <head>
-                    <hi>Serials, periodicals and newspapers</hi>
+                    Serials, periodicals and newspapers
                 </head>
                 <p>A serial is any publication that is published in parts. It thus includes parts
                     that result in a book as well as periodicals and newspapers. However, it is
@@ -218,7 +184,8 @@
             <div>
                 <head>Supplement</head>
                 <p>A supplement is anything that is issued in addition to the regular dated and
-                    numbered issues. For more on supplements click <xref type="internal" from="p5_5">here</xref>.</p>
+                    numbered issues. For more on supplements click <xref type="internal" from="p5_5"
+                        >here</xref>.</p>
             </div>
             <div>
                 <head>Text mining</head>
@@ -227,13 +194,15 @@
                     metadata (‘Names’, ‘Places’, ‘Institutions’, ‘Subjects’, ‘Genre’ and ‘Events’),
                     and obtained good results for most of these categories. For ‘Names’, ‘Places’,
                     and ‘Institutions’ we used named entity extraction [internal link]; for
-                    ‘Subjects’ we used the <xref type="external" url="http://ucrel.lancs.ac.uk/usas/">USAS</xref> semantic tagger. We were not so successful with
-                    ‘Genre’ and ‘Events.’ Events are difficult as they are often discussed in texts
-                    in a variety of different ways and, the more abstract, the more to difficult to
-                    recover. For ‘Genre’, we attempted to see whether certain genre could be
-                    identified by characteristic word use. To use these statistical methods requires
-                    the production of substantial amounts of training data: work that will continue
-                    for us after the project launch in May 2008. To read more about this, click <xref type="internal" from="p5_7">here</xref>.</p>
+                    ‘Subjects’ we used the <xref type="external"
+                        url="http://ucrel.lancs.ac.uk/usas/">USAS</xref> semantic tagger. We were
+                    not so successful with ‘Genre’ and ‘Events.’ Events are difficult as they are
+                    often discussed in texts in a variety of different ways and, the more abstract,
+                    the more to difficult to recover. For ‘Genre’, we attempted to see whether
+                    certain genre could be identified by characteristic word use. To use these
+                    statistical methods requires the production of substantial amounts of training
+                    data: work that will continue for us after the project launch in May 2008. To
+                    read more about this, click <xref type="internal" from="p5_7">here</xref>.</p>
             </div>
             <div>
                 <head>Title</head>
