@@ -2,7 +2,8 @@
 <!--
   SVN: $Id$
 -->
-<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:template name="tpl-search-entity-form">
     <div class="form">
@@ -663,5 +664,117 @@
         </form>
       </div>
     </div>
+  </xsl:template>
+
+  <xsl:template name="tpl-thesaurus-window">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+        <link href="{$scriptswitch}/i/favicon.ico" rel="shortcut icon" />
+
+        <link href="{$scriptswitch}/c/default.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="{$scriptpers}/c/personality.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="{$scriptswitch}/c/print.css" media="print" rel="stylesheet" type="text/css" />
+
+        <!-- IE browser specific css and script -->
+        <xsl:comment>[if GTE IE 7]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of select="$scriptpers" />/c/compat.css"/>
+          &lt;![endif]</xsl:comment>
+
+        <!-- script -->
+        <script src="{$scriptswitch}/j/jquery-1.2.3.pack.js" type="text/javascript">&#160;</script>
+        <script src="{$scriptpers}/s/jquery.dimensions.js" type="text/javascript">&#160;</script>
+        <script src="{$scriptpers}/s/jquery.accordion.js" type="text/javascript">&#160;</script>
+        <script src="{$scriptpers}/s/config.js" type="text/javascript">&#160;</script>
+        <script src="{$scriptpers}/s/thesaurus.js" type="text/javascript">&#160;</script>
+
+        <title>Thesaurus</title>
+      </head>
+
+      <body id="xmd">
+        <xsl:attribute name="class">v1 r3 pu</xsl:attribute>
+
+        <div id="mainContent">
+          <div class="form">
+            <div class="t02">
+              <form method="GET" name="frmThesaurus" onSubmit="javascript:addTerms(); return false;">
+                <div>
+                  <xsl:text>Sematic Tag Thesaurus</xsl:text>
+                </div>
+
+                <fieldset class="s01">
+                  <legend>Semantic tag thesaurus</legend>
+                  <ol>
+                    <li class="clfx-b">
+                      <fieldset class="f05 n01">
+                        <legend>Thesaurus</legend>
+                        <div class="unorderedList">
+                          <div class="t02">
+                            <xsl:for-each select="//projAL/rdf:RDF">
+                              <xsl:call-template name="tpl-thesaurus-semtag" />
+                            </xsl:for-each>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </li>
+                    <li class="clfx-b">
+                      <fieldset class="f06 n07">
+                        <legend>Submit Search</legend>
+                        <div>
+                          <button type="submit">Insert</button>
+                          <button type="reset">Reset</button>
+                          <button onclick="javascript:window.close(); return false;">Close</button>
+                        </div>
+                      </fieldset>
+                    </li>
+                  </ol>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+  </xsl:template>
+
+  <xsl:template name="tpl-thesaurus-semtag">
+    <xsl:param name="ul-class" />
+
+    <ul>
+      <!--
+      <xsl:if test="string($ul-class)">
+        <xsl:attribute name="class">
+          <xsl:value-of select="$ul-class" />
+        </xsl:attribute>
+      </xsl:if>
+      -->
+      
+      <xsl:for-each select="skos:Concept">
+        <li>
+          <xsl:choose>
+            <xsl:when test="skos:narrower">
+              <!--<a class="x70 z03">-->
+                <input class="f02" id="thesCheck" type="checkbox" value="{@rdf:about}" />
+                <label for="{@rdf:about}" id="{@rdf:about}" title="{@rdf:label}">
+                  <strong>
+                    <xsl:value-of select="@rdf:label" />
+                  </strong>
+                </label>
+              <!--</a>-->
+              <xsl:for-each select="skos:narrower/skos:orderedCollection/skos:memberList">
+                <xsl:call-template name="tpl-thesaurus-semtag">
+                  <!--<xsl:with-param name="ul-class" select="'s02'" />-->
+                </xsl:call-template>
+              </xsl:for-each>
+            </xsl:when>
+            <xsl:otherwise>
+              <input class="f02" id="thesCheck" type="checkbox" value="{@rdf:about}" />
+              <label for="{@rdf:about}" id="{@rdf:about}" title="{@rdf:label}">
+                <xsl:value-of select="@rdf:label" />
+              </label>
+            </xsl:otherwise>
+          </xsl:choose>
+        </li>
+      </xsl:for-each>
+    </ul>
   </xsl:template>
 </xsl:stylesheet>
