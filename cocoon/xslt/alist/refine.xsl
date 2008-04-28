@@ -4,7 +4,7 @@
   xmlns:skos="http://www.w3.org/2004/02/skos/core#" version="2.0">
 
   <!-- Change depending on which filtered list is being run either 'subject' or 'image' -->
-  <xsl:param name="type" select="'image'"/>
+  <xsl:param name="type" select="'subject'"/>
 
 
 
