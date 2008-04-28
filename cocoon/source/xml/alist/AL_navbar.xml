@@ -104,6 +104,21 @@
         <level01>
           <label>History of the Project</label>
           <default ref="p6"/>
+          <active>
+            <file start="p6"/>
+          </active>
+          <sub02>
+            <level02>
+              <label>Publications</label>
+              <default ref="p6_2"/>
+            </level02>
+            <level02>
+              <label>Conferences</label>
+              <default ref="p6_3"/>
+            </level02>
+            
+          </sub02>
+          
         </level01>
         <level01>
           <label>Reference</label>
