@@ -118,6 +118,14 @@
         <fileName>index</fileName>
         <fileTitle>History of the Project</fileTitle>
       </item>
+      <item id="p6_2">
+        <fileName>publications</fileName>
+        <fileTitle>Publications</fileTitle>
+      </item>
+      <item id="p6_3">
+        <fileName>conferences</fileName>
+        <fileTitle>Conferences</fileTitle>
+      </item>
       
     </group>
     
