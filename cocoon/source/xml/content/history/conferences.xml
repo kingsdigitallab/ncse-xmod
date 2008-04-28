@@ -1,0 +1,359 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p6_3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Conferences</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+        <address>
+        <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+        <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+      </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+    </encodingDesc>
+    <revisionDesc>
+      <change>
+        <date>2008-04-21</date>
+        <respStmt>
+          <name>JM</name>
+        </respStmt>
+        <item>Changed for project site</item>
+      </change>
+      <change>
+        <date>2006-07-24</date>
+        <respStmt>
+          <name>SP</name>
+        </respStmt>
+        <item>edited content</item>
+      </change>
+      <change>
+        <date>2006-12-20</date>
+        <respStmt>
+          <name>JM</name>
+        </respStmt>
+        <item>edited content</item>
+      </change>
+      <change>
+        <date>2006-12-15</date>
+        <respStmt>
+          <name>SP</name>
+        </respStmt>
+        <item>edited content</item>
+      </change>
+      <change>
+        <date>2006-06-11</date>
+        <respStmt>
+          <name>SP</name>
+        </respStmt>
+        <item>edited content</item>
+      </change>
+      <change>
+        <date>2006-05-13</date>
+        <respStmt>
+          <name>SP</name>
+        </respStmt>
+        <item>edited content</item>
+      </change>
+      <change>
+        <date>2006-04-13</date>
+        <respStmt>
+          <name>SP</name>
+        </respStmt>
+        <item>edited content</item>
+      </change>
+      <change>
+        <date>2005-11-28</date>
+        <respStmt>
+          <name>JM</name>
+        </respStmt>
+        <item>nines report</item>
+      </change>
+      <change>
+        <date>2005-10-18</date>
+        <respStmt>
+          <name>JM</name>
+        </respStmt>
+        <item>links to papers</item>
+      </change>
+      <change>
+        <date>2005-06-20</date>
+        <respStmt>
+          <name>AC</name>
+        </respStmt>
+        <item>changed order of dates</item>
+      </change>
+      <change>
+        <date>2005-05-18</date>
+        <respStmt>
+          <name>AP</name>
+        </respStmt>
+        <item>created XML docs</item>
+      </change>
+      <change>
+        <date>2005-03-18</date>
+        <respStmt>
+          <name>AP</name>
+        </respStmt>
+        <item>created XML docs</item>
+      </change>
+      <change>
+        <date>2005-03-18</date>
+        <respStmt>
+          <name>AC</name>
+        </respStmt>
+        <item>created XML</item>
+      </change>
+
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <head>Conferences</head>
+      <p>Over the course of <hi rend="bold">ncse</hi>, members of the team gave a number of papers
+        about the project. Below is a list of the events at which papers were presented, along with
+        links to the papers themselves:</p>
+      <div>
+        <head>Research Society for Victorian Periodicals</head>
+        <div>
+          <head type="sub">Virginia Commonwealth University, 15 September 2007</head>
+          <p>Laurel Brake: 'Ephemera? Time-management and serial publication'</p>
+        </div>
+      </div>
+      <div>
+        <head>British Association for Victorian Studies</head>
+        <div>
+          <head type="sub">University of Salford, 30 August - 1 September 2007</head>
+          <p> Jim Mussell and Suzanne Paylor: '<hi rend="bold">ncse</hi> and the Production of
+            Victorian Text in the Digital Age'. To download the paper <xref type="redist"
+              from="pdf/2007_bavs_paper.pdf">click here</xref> and the presentation <xref
+              from="pdf/2007_bavs_presentation.pdf" type="redist">click here</xref>.</p>
+          <p>Laurel Brake: 'Imagining the Press: Occasional Notes'</p>
+        </div>
+      </div>
+      <div>
+        <head>British Library Early and Printed Collections Seminar</head>
+        <div>
+          <head type="sub">British Library, 28 June 2007</head>
+          <p> Jim Mussell and Suzanne Paylor: 'From Life on the Shelves to Digital Shelf-Life: ncse
+            and Digitizing Periodicals'.To download the paper <xref type="redist"
+              from="pdf/2007_bl_paper.pdf">click here</xref> and the presentation <xref
+              type="redist" from="pdf/2007_bl_presentation.pdf">click here</xref>.</p>
+        </div>
+      </div>
+      <div>
+        <head>Victorian Studies: Past and Futures</head>
+        <div>
+          <head type="sub">University of Leicester, 31 March 2007</head>
+          <p> Jim Mussell and Suzanne Paylor: Interactive digital workshop <title level="a"
+              >‘Nineteenth-Century Serials Edition’</title>'.To download our discussion paper <xref
+              type="redist" from="pdf/2007_leicester_paper.pdf">click here</xref> and the
+            presentation <xref type="redist" from="pfd/2007_leicester_presentation.pdf">click
+            here</xref></p>
+        </div>
+      </div>
+      <div>
+        <head>Society for Textual Scholarship</head>
+        <p>[<xref url="http://www.textual.org/">http://www.textual.org/</xref>]</p>
+        <div>
+          <head type="sub">New York University, 14-17 March 2007</head>
+          <p>Laurel Brake, Jim Mussell , Suzanne Paylor, John Stokes and Mark Turner (Panel):
+            'Editing Journalism: the Past in the Present'.</p>
+          <p>Laurel Brake: 'Periodical problems: clusters, runs, and editions'.</p>
+          <p>Suzanne Paylor and Jim Mussell: 'From Life on the Shelves to Digital Shelf-Life:
+            Representing Journalism as an Historical Artefact in the Digital Domain'. To download
+            the paper <xref type="redist" from="pdf/2007_sts_paper.pdf">click here</xref> and the
+            presentation <xref type="redist" from="pdf/2007_sts_presentation.pdf">click here</xref>.</p>
+          <p>Mark Turner and John Stokes: 'Editing Journalism: The Case of Oscar Wilde'.</p>
+        </div>
+      </div>
+      <div>
+        <head>
+          <bibl>
+            <hi rend="bold">ncse</hi> Symposium 2007: Digitising Journalism</bibl>
+        </head>
+        <div>
+          <head type="sub">King's College London, 24th February 2007</head>
+          <p> Jim Mussell and Suzanne Paylor: ' <title level="a"><hi rend="bold">ncse</hi>: Where we
+              Are and Where we Are Going</title>. To download the paper <xref type="redist"
+              from="pdf/2007_ncse_symposium_jm_paper.pdf">click here</xref> and the presentation
+              <xref type="redist" from="pdf/2007_ncse_symposium_jm_presentation.pdf">click
+            here</xref>'.</p>
+          <p> Laurel Brake: <title>' All Change: <hi rend="bold">ncse</hi> in Year 2'</title> , To
+            download the paper <xref type="redist" from="pdf/2007_ncse_symposium_lb.pdf">click
+            here</xref>.</p>
+        </div>
+      </div>
+      <div>
+        <head>Open University Book History and Bibliography Research Group, Institute of English
+          Studies</head>
+        <p>[<xref url="http://www2.sas.ac.uk/ies/index.htm"
+          >http://www2.sas.ac.uk/ies/index.htm</xref>]</p>
+        <div>
+          <head type="sub">Institute of English Studies, University of London, 29 January 2007</head>
+          <p>Jim Mussell and Suzanne Paylor: 'A Picture or a Thousand Words? The use of images in
+            the nineteenth-century periodical press, and how they are reproduced digitally today'.
+            To download the paper <xref type="redist" from="pdf/2007_book_history_jm_paper.pdf"
+              >click here</xref> and the presentation <xref type="redist"
+              from="pdf/2007_book_history_jm_presentation.pdf">click here</xref>.</p>
+        </div>
+      </div>
+      <div>
+        <head>Open University Book History and Bibliography Research Group, Institute of English
+          Studies</head>
+        <p>[<xref url="http://www2.sas.ac.uk/ies/index.htm"
+          >http://www2.sas.ac.uk/ies/index.htm</xref>]</p>
+        <div>
+          <head type="sub">Institute of English Studies, University of London, 23 October 2006</head>
+          <p>Laurel Brake: 'Town and Country? Bibliography and multiple editions of two 19C
+            newspapers'. To download this paper <xref type="redist"
+              from="pdf/2006_book_history_lb.pdf">click here</xref>.</p>
+        </div>
+      </div>
+      <div>
+        <head>Research Society for Victorian Periodicals: Victorian Geographies</head>
+        <p>[<xref url="http://www.rs4vp.org/">http://www.rs4vp.org/</xref>]</p>
+        <div>
+          <head type="sub">City University of New York , 14-15 September 2006</head>
+          <p>Laurel Brake: 'Multiple Editions and the Public Sphere, 1838-52: the Leader and the
+            Northern Star'</p>
+        </div>
+      </div>
+      <div>
+        <head>British Association for Victorian Studies</head>
+        <p>[<xref url="http://www.bavsuk.org/">http://www.bavsuk.org/</xref>]</p>
+        <div>
+          <head type="sub">University of Liverpool, 7-9 September 2006</head>
+          <p>Jim Mussell and Suzanne Paylor: 'Conflict and Competition in Nineteenth-Century
+            Advertising'. To download the paper <xref type="redist" from="pdf/2006_bavs_paper.pdf"
+              >click here</xref> and the presentation <xref type="redist"
+              from="pdf/2006_bavs_presentation.pdf">click here</xref>.</p>
+        </div>
+      </div>
+      <div>
+        <head>Historical Text Mining Workshop</head>
+        <p>[<xref url="http://ucrel.lancs.ac.uk/events/htm06/"
+            >http://ucrel.lancs.ac.uk/events/htm06/</xref>]</p>
+        <div>
+          <head type="sub">University of Lancaster, 20-21 July 2006</head>
+          <p> Jim Mussell and Suzanne Paylor: 'Historical Text Mining and <hi rend="bold"
+            >ncse</hi>'. To download the paper <xref type="redist"
+              from="pdf/2006_text_mining_paper.pdf">click here</xref> and for the presentation <xref
+              type="redist" from="pdf/2006_text_mining_presentation.pdf">click here</xref>.</p>
+        </div>
+      </div>
+      <div>
+        <head>Text Editing, Scholarship, Print, and the Digital World</head>
+        <p>[<xref url="http://www.methodsnetwork.ac.uk/redist/pdf/es3_2report.pdf"
+            >http://www.methodsnetwork.ac.uk/redist/pdf/es3_2report.pdf</xref>]</p>
+        <div>
+          <head type="sub">Centre for Computing in the Humanities at King’s College London, 29 June
+            2006</head>
+          <p>Jim Mussell and Suzanne Paylor: 'Editions and archives: textual editing and the
+            Nineteenth-Century Serials Edition'. To download the paper <xref type="redist"
+              from="pdf/2006_text_editing_paper.pdf">click here</xref> and the presentation <xref
+              type="redist" from="pdf/2006_text_editing_presentation.pdf">click here</xref>.</p>
+        </div>
+      </div>
+      <div>
+        <head>The Verbal and the Visual in Nineteenth-Century Culture</head>
+        <p>[<xref url="http://www.bbk.ac.uk/english/19c/Default.html"
+            >http://www.bbk.ac.uk/english/19c/</xref>]</p>
+        <div>
+          <head type="sub">Institute of English Studies, London, 23- 24 June 2006</head>
+          <p>Jim Mussell and Suzanne Paylor: (Workshop) 'A Picture or a Thousand Words? The use of
+            images in the nineteenth-century periodical press, and how they are reproduced digitally
+            today'. To download the workshop pack <xref type="redist"
+              from="pdf/2006_verbvis_pack.pdf">click here</xref> and to download the accompanying
+            image pack <xref type="redist" from="pdf/2006_verbvis_images.pdf">click here</xref>.</p>
+        </div>
+      </div>
+      <div>
+        <head>Presse, Identites Nationales et Transferts Culturels au XIXeme Siecle</head>
+        <div>
+          <head type="sub">Montpelier, 18 May 2006 </head>
+          <p>Laurel Brake: 'Stop Press: Digital work on the 19C British Press Now'.</p>
+        </div>
+      </div>
+      <div>
+        <head><hi rend="bold">ncse</hi> Symposium 2006: Going Digital</head>
+        <div>
+          <head type="sub">Birkbeck College, University of London, 25 February 2006</head>
+          <p>Jim Mussell and Suzanne Paylor: '<hi rend="bold">ncse</hi>: Selecting the Core'. To
+            download this paper <xref type="redist" from="pdf/2006_ncse_symposium.pdf">click
+            here</xref>.</p>
+        </div>
+      </div>
+      <div>
+        <head>Mapping the Magazine</head>
+        <p>[<xref url="http://www.cardiff.ac.uk/jomec/">http://www.cardiff.ac.uk/jomec/</xref>]</p>
+        <div>
+          <head type="sub">Cardiff University, 15-16 September 2005</head>
+          <p>Jim Mussell: '"A Word with our Critics": Doing Media History with Electronic
+            Resources', Mapping the Magazine, Cardiff University. To download this paper <xref
+              type="redist" from="pdf/2005_mapping.pdf">click here</xref>.</p>
+        </div>
+      </div>
+      <div>
+        <head>British Association for Victorian Studies</head>
+        <p>[<xref url="http://www.bavsuk.org">http://www.bavsuk.org</xref>]</p>
+        <div>
+          <head type="sub">University of Gloucestershire, 5-7 September 2005</head>
+          <p><hi rend="bold">nsce</hi> panel: 'Nineteenth-Century Periodicals in the Long View'.</p>
+          <p>Chair:<list>
+              <item>Isobel Armstrong</item>
+            </list>
+          </p>
+          <p>Speakers:<list>
+              <item>Laurel Brake, 'Capturing the Leader : from Template to Snapshot'. To download
+                this paper <xref type="redist" from="pdf/2005_bavs_lb.pdf">click here</xref>.</item>
+              <item>Jim Mussell, '<hi rend="bold">ncse</hi>: Publishing the Nineteenth-Century
+                Periodical Today'. To download this paper <xref type="redist"
+                  from="pdf/2005_bavs_jm.pdf">click here</xref>.</item>
+              <item>Mark Turner, 'Editing Wilde’s Journalism'.</item>
+            </list></p>
+        </div>
+      </div>
+      <div>
+        <head>Digital Resources in the Humanities </head>
+        <p>[<xref url="http://www.drh.org.uk/">http://www.drh.org.uk/</xref>]</p>
+        <div>
+          <head type="sub">University of Lancaster, 4-7 September 2005</head>
+          <p>Suzanne Paylor: 'Ma(r)king the Text? The Nineteenth-Century Serials Edition and the
+            Role of Humanities Scholars in the Digitisation of Print Archives'.</p>
+        </div>
+      </div>
+      <div>
+        <head>Networked Interface for Nineteenth-Century Electronic Scholarship</head>
+        <p>[<xref url="http://www.nines.org/">http://www.nines.org/</xref>]</p>
+        <div>
+          <head type="sub">University of Virginia, 11-15 July 2005</head>
+          <p>Jim Mussell and Suzanne Paylor: (workshop) 'Materials Analysis and Preliminary
+            Digitization: Best Practices in OCR, Transcription and Imaging'. To download a report of
+            the workshop, <xref type="redist" from="pdf/2005_nines_report.pdf">click
+          here</xref>.</p>
+        </div>
+      </div>
+      <div>
+        <head>Centre for Nineteenth Century Studies</head>
+        <p>[<xref url="http://www.bbk.ac.uk/eh/research/centreforc19thstudies"
+            >http://www.bbk.ac.uk/eh/research/centreforc19thstudies</xref>]</p>
+        <div>
+          <head type="sub">Birkbeck College, 6 May 2005</head>
+          <p>Jim Mussell and Suzanne Paylor: 'Mapping the "Mighty Maze": the <hi>Nineteenth-Century
+              Serials Edition</hi>'. This has been published <xref url="http://www.19.bbk.ac.uk/"
+              >here</xref>.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI.2>

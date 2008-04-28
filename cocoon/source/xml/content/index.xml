@@ -69,10 +69,15 @@
       place, use the links above; to begin browsing and searching the journals themselves follow the
       link below.</p>
     
-    <table type="thumbnails"><head>please insert logos</head>
-      <row><cell><figure></figure></cell></row>
-     
-    </table>
+      <div part="N" sample="complete" org="uniform">
+        <table type="logo">
+          <row>
+            <cell>
+              <xref type="external" url="http://137.73.123.44/kingscollege/" to="DITTO" from="ROOT" targOrder="U">
+                <figure url="olive"/>
+              </xref>
+              
+            </cell></row></table></div>
     </body>
   </text>
 </TEI.2>
