@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-    Project Variables
-    SVN: $Id: sitemap.xmap 624 2007-09-05 10:37:39Z zau $
+    Project configuration file.
+    SVN: $Id$
 -->
 <map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
   
