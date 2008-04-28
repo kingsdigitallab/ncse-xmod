@@ -2,12 +2,39 @@
 <!--
   SVN: $Id$
 -->
-<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns:page="http://apache.org/cocoon/paginate/1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:variable name="pagehead">
-    <xsl:value-of select="upper-case(substring($context-id, 8, 1))" />
-    <xsl:value-of select="substring($context-id, 9)" />
-    <xsl:text> Search</xsl:text>
+    <xsl:choose>
+      <xsl:when test="$context-id = 'search_results'">
+        <xsl:variable name="rpp" select="number(20)" />
+        <xsl:variable name="page" select="//search-results/page:page/@current" />
+        <xsl:variable name="total" select="//search-results/total" />
+
+        <div class="s01">
+          <xsl:text>Search Results </xsl:text>
+          <xsl:value-of select="$page * $rpp - 19" />
+          <xsl:text> - </xsl:text>
+          <xsl:choose>
+            <xsl:when test="$page * $rpp > $total">
+              <xsl:value-of select="$total" />
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="$page * $rpp" />
+            </xsl:otherwise>
+          </xsl:choose>
+          <xsl:text> (of </xsl:text>
+          <xsl:value-of select="$total" />
+          <xsl:text>)</xsl:text>
+        </div>
+      </xsl:when>
+      <xsl:when test="$context-id != 'view_issue'">
+        <xsl:value-of select="upper-case(substring($context-id, 8, 1))" />
+        <xsl:value-of select="substring($context-id, 9)" />
+        <xsl:text> Search</xsl:text>
+      </xsl:when>
+    </xsl:choose>
   </xsl:variable>
 
   <xsl:template match="/">
@@ -15,17 +42,19 @@
   </xsl:template>
 
   <xsl:template name="ctpl_submenu">
-    <xsl:if test="$context-id = 'search_results'">
-      <div class="submenu">
-        <div class="t01">
-          <ul>
-            <li>
-              <a href="refine-{//search-results/search-link}.html">Modify search</a>
-            </li>
-          </ul>
+    <xsl:choose>
+      <xsl:when test="$context-id = 'view_issue'">
+        <div class="submenu">
+          <div class="t01">
+            <ul>
+              <li>
+                <a href="page(1)">Back to search results</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </xsl:if>
+      </xsl:when>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template name="ctpl_pagehead">
@@ -63,6 +92,9 @@
       </xsl:when>
       <xsl:when test="$context-id = 'search_results'">
         <xsl:call-template name="tpl-search-results" />
+      </xsl:when>
+      <xsl:when test="$context-id = 'view_issue'">
+        <xsl:call-template name="tpl-view-issue" />
       </xsl:when>
     </xsl:choose>
   </xsl:template>
