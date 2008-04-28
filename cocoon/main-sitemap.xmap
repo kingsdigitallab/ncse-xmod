@@ -118,6 +118,18 @@
         </map:transform>
         <map:serialize type="xml" />
       </map:match>
+      
+      <map:match pattern="search/*-key-thesaurus.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/coreAL" />
+          <map:part src="{global:project-path}{global:project-alist}/subject-refined.xml" element="projAL" />
+        </map:aggregate>
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+          <map:parameter name="sm-context-id" value="search_thesaurus_window" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
     </map:pipeline>
     
     <!-- Browsing -->
