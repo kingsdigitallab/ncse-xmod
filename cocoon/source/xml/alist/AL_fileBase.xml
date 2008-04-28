@@ -1,36 +1,35 @@
 <?xml version="1.0"?>
 <!DOCTYPE authorityList SYSTEM "../../dtd/alist/AL_fileBase.dtd">
-<authorityList id="AL_fileBase" month="_unspecified" day="_unspecified" resp="ADD HERE" year="2003">
+<authorityList day="_unspecified" id="AL_fileBase" month="_unspecified" resp="ADD HERE" year="2003">
   <header>
     <title>Filebase for PROJNAME</title>
     <changeNotes>
       <changeItem>
-        <name/>
-        <p/>
+        <name />
+        <p />
       </changeItem>
     </changeNotes>
-    <comments>
-   </comments>
+    <comments> </comments>
   </header>
   <body>
-    <rhcontent value="on"/>
-    <theme/>
-    <group id="g0" default="p0" level="0">
+    <rhcontent value="on" />
+    <theme />
+    <group default="p0" id="g0" level="0">
       <groupHead>
         <groupTitle>Home</groupTitle>
-        <groupFolder/>
-        <theme type01="th1"/>
+        <groupFolder />
+        <theme type01="th1" />
       </groupHead>
       <item id="p0">
         <fileName>index</fileName>
         <fileTitle>Home</fileTitle>
-       </item>
+      </item>
     </group>
-    <group id="g1" default="p1_0" parRef="p0" level="2">
+    <group default="p1_0" id="g1" level="2" parRef="p0">
       <groupHead>
         <groupTitle>About</groupTitle>
         <groupFolder>/about</groupFolder>
-       </groupHead>
+      </groupHead>
       <item id="p1_0">
         <fileName>index</fileName>
         <fileTitle>About ncse</fileTitle>
@@ -38,7 +37,7 @@
       <item id="p1_1">
         <fileName>welcome</fileName>
         <fileTitle>Welcome to ncse</fileTitle>
-       </item>
+      </item>
       <item id="p1_2">
         <fileName>technical</fileName>
         <fileTitle>Technical Introduction</fileTitle>
@@ -50,17 +49,17 @@
       <item id="p1_5">
         <fileName>feedback</fileName>
         <fileTitle>Feedback form</fileTitle>
-     </item>
+      </item>
       <item id="p1_6">
-     <fileName>thanks</fileName>
+        <fileName>thanks</fileName>
         <fileTitle>Thank you</fileTitle>
       </item>
     </group>
-    <group id="g2" default="p2_1" parRef="p0" level="2">
+    <group default="p2_1" id="g2" level="2" parRef="p0">
       <groupHead>
         <groupTitle>Headnotes</groupTitle>
         <groupFolder>/headnotes</groupFolder>
-       </groupHead>
+      </groupHead>
       <item id="p2_1">
         <fileName>mrp</fileName>
         <fileTitle>Monthly Repository</fileTitle>
@@ -68,7 +67,7 @@
       <item id="p2_2">
         <fileName>nss</fileName>
         <fileTitle>Northern Star</fileTitle>
-       </item>
+      </item>
       <item id="p2_3">
         <fileName>ldr</fileName>
         <fileTitle>Leader</fileTitle>
@@ -84,6 +83,47 @@
       <item id="p2_6">
         <fileName>tec</fileName>
         <fileTitle>Publishers’ Circular</fileTitle>
+      </item>
+    </group>
+    <group default="p3" id="g3">
+      <groupHead>
+        <groupTitle>Browse</groupTitle>
+        <groupFolder>/browse</groupFolder>
+      </groupHead>
+      <item id="p3">
+        <fileName>index</fileName>
+        <fileTitle>Browse Index</fileTitle>
+      </item>
+      <item id="browse_subject">
+        <fileName>subject</fileName>
+        <fileTitle>Browse by Subject</fileTitle>
+      </item>
+      <item id="browse_image_meta">
+        <fileName>image_meta</fileName>
+        <fileTitle>Browse by Image Metadata</fileTitle>
+      </item>
+    </group>
+    <group default="p4_0" id="g4" level="2" parRef="p0">
+      <groupHead>
+        <groupTitle>Search</groupTitle>
+        <groupFolder>/search</groupFolder>
+        <rhcontent value="off" />
+      </groupHead>
+      <item id="p4_0">
+        <fileName>search</fileName>
+        <fileTitle>Search</fileTitle>
+      </item>
+      <item id="search_entity">
+        <fileName>entity-search</fileName>
+        <fileTitle>Entity Search</fileTitle>
+      </item>
+      <item id="search_thesaurus">
+        <fileName>thesaurus-search</fileName>
+        <fileTitle>Thesaurus Search</fileTitle>
+      </item>
+      <item id="search_advanced">
+        <fileName>advanced-search</fileName>
+        <fileTitle>Advanced Search</fileTitle>
       </item>
     </group>
     <group id="g5" default="p5">
@@ -107,7 +147,6 @@
         <fileName>metadata</fileName>
         <fileTitle>Metadata</fileTitle>
       </item>
-      
     </group>
     <group id="g6">
       <groupHead>
@@ -126,56 +165,12 @@
         <fileName>conferences</fileName>
         <fileTitle>Conferences</fileTitle>
       </item>
-      
-    </group>
-    
-    <group id="g3" default="p3">
-      <groupHead>
-        <groupTitle>Browse</groupTitle>
-        <groupFolder>/browse</groupFolder>
-      </groupHead>
-      <item id="p3">
-        <fileName>index</fileName>
-        <fileTitle>Browse Index</fileTitle>
-      </item>
-      <item id="browse_subject">
-        <fileName>subject</fileName>
-        <fileTitle>Browse by Subject</fileTitle>
-      </item>
-      <item id="browse_image_meta">
-        <fileName>image_meta</fileName>
-        <fileTitle>Browse by Image Metadata</fileTitle>
-      </item>
-    </group>
-    
-    <group default="p4_0" id="g4" level="2" parRef="p0">
-      <groupHead>
-        <groupTitle>Search</groupTitle>
-        <groupFolder>/search</groupFolder>
-        <rhcontent value="off"/>
-      </groupHead>
-      <item id="p4_0">
-        <fileName>search</fileName>
-        <fileTitle>Search</fileTitle>
-      </item>
-      <item id="search_entity">
-        <fileName>entity-search</fileName>
-        <fileTitle>Entity Search</fileTitle>
-       </item>
-      <item id="search_thesaurus">
-        <fileName>thesaurus-search</fileName>
-        <fileTitle>Thesaurus Search</fileTitle>
-      </item>
-      <item id="search_advanced">
-        <fileName>advanced-search</fileName>
-        <fileTitle>Advanced Search</fileTitle>
-      </item>
     </group>
     <group id="g7">
       <groupHead>
         <groupTitle>Reference</groupTitle>
         <groupFolder>/reference</groupFolder>
-        <rhcontent value="off"/>
+        <rhcontent value="off" />
       </groupHead>
       <item id="p7_0">
         <fileName>index</fileName>
@@ -186,7 +181,7 @@
       <groupHead>
         <groupTitle>Help</groupTitle>
         <groupFolder>/help</groupFolder>
-        <rhcontent value="off"/>
+        <rhcontent value="off" />
       </groupHead>
       <item id="p8">
         <fileName>index</fileName>
