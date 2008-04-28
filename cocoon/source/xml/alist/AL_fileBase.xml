@@ -12,7 +12,7 @@
     <comments> </comments>
   </header>
   <body>
-    <rhcontent value="on" />
+    <rhcontent value="off" />
     <theme />
     <group default="p0" id="g0" level="0">
       <groupHead>
