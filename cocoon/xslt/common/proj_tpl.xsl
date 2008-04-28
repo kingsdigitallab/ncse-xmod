@@ -30,14 +30,13 @@
         <xsl:variable name="body-global-class" select="'v1 r3'" />
         <xsl:attribute name="id">xmd</xsl:attribute>
         <xsl:attribute name="class">
+          <xsl:value-of select="$body-global-class" />
           <!-- Defines whether or not there is space for a right-hand box -->
           <xsl:choose>
-            <xsl:when test="$rhcontent='on'">
-              <xsl:value-of select="$body-global-class" />
+            <xsl:when test="$rhcontent = 'on'">
               <xsl:text> rc1</xsl:text>
             </xsl:when>
             <xsl:otherwise>
-              <xsl:value-of select="$body-global-class" />
               <xsl:text> rc0</xsl:text>
             </xsl:otherwise>
           </xsl:choose>
@@ -47,7 +46,7 @@
             <xsl:value-of select="normalize-space($themebn)" />
           </xsl:if>
           <!-- Output sideNave value -->
-          <xsl:text>sn1</xsl:text>
+          <xsl:text> sn1</xsl:text>
         </xsl:attribute>
 
         <div id="wrapper">
