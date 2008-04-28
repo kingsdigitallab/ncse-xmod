@@ -144,6 +144,7 @@
       <groupHead>
         <groupTitle>Search</groupTitle>
         <groupFolder>/search</groupFolder>
+        <rhcontent value="off"/>
       </groupHead>
       <item id="p4_0">
         <fileName>search</fileName>
