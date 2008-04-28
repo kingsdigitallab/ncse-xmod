@@ -231,9 +231,9 @@
     <xsl:call-template name="ctpl_toc" />
   </xsl:template>
 
-  <xsl:template name="ctpl_toc2">
+  <!--<xsl:template name="ctpl_toc2">
     <xsl:call-template name="ctpl_toc" />
-  </xsl:template>
+  </xsl:template>-->
 
   <!-- OPTIONS: As default, a TOC is only output if there are actually any divisional headings. Footnotes are not included in the TOC. -->
   <!-- If top and bottom TOC content need to differ change in the separate templates above.  -->
@@ -288,8 +288,6 @@
       </div>
     </xsl:if>
   </xsl:template>
-
-
 
   <xsl:template name="ctpl_options1">
     <!--<div class="options">
