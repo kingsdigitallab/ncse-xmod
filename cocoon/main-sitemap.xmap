@@ -119,24 +119,9 @@
         <map:serialize type="xml" />
       </map:match>
     </map:pipeline>
-
-    <map:pipeline>
-      <map:match pattern="">
-        <!-- Redirect request to the root path to the index page -->
-        <map:redirect-to uri="index.html" />
-      </map:match>
-
-      <map:match pattern="*.html">
-        <map:aggregate element="aggregation">
-          <map:part src="cocoon:/coreAL" />
-          <map:part src="{global:project-path}{global:project-materials}/{1}.xml" />
-        </map:aggregate>
-        <map:transform src="xslt/type01/proj_type01_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
-        </map:transform>
-        <map:serialize type="xhtml" />
-      </map:match>
-      
+    
+    <!-- Browsing -->
+    <map:pipeline type="noncaching">
       <map:match pattern="browse/index.html">
         <map:aggregate element="aggregation">
           <map:part src="cocoon:/coreAL" />
@@ -156,6 +141,37 @@
         <map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
           <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="browse_{1}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+      
+      <map:match pattern="browse/subject-*-*">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/coreAL" />
+          <map:part src="{global:project-path}{global:project-alist}/subject-refined.xml" element="projAL" />
+          <map:part src="cocoon:/thesaurus-search-xsp?field1Sel=semtag-key&amp;field1Key={1}*&amp;field1Txt={2}" />
+        </map:aggregate>
+        <!--<map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+          <map:parameter name="sm-context-id" value="browse_{1}" />
+        </map:transform>-->
+        <map:serialize type="xml" />
+      </map:match>
+    </map:pipeline>
+
+    <map:pipeline>
+      <map:match pattern="">
+        <!-- Redirect request to the root path to the index page -->
+        <map:redirect-to uri="index.html" />
+      </map:match>
+
+      <map:match pattern="*.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/coreAL" />
+          <map:part src="{global:project-path}{global:project-materials}/{1}.xml" />
+        </map:aggregate>
+        <map:transform src="xslt/type01/proj_type01_DR.xsl" type="saxon">
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
         </map:transform>
         <map:serialize type="xhtml" />
       </map:match>
