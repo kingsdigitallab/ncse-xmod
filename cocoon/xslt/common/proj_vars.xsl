@@ -227,7 +227,7 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:variable name="rhc-item" select="//filebase//item[@id=$loc-id]/rhcontent/@value" />
+    <xsl:variable name="rhc-item" select="//filebase//item[@id=$context-id]/rhcontent/@value" />
 
     <xsl:choose>
       <!-- Type02 and Type03 file specific -->
