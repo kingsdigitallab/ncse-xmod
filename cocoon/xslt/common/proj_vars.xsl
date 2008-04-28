@@ -269,7 +269,6 @@
         <xsl:text>off</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
-
   </xsl:template>
 
   <!-- DEFINE THEME -->
@@ -343,7 +342,7 @@
       <xsl:when test="string($th-site)">
         <xsl:value-of select="$th-site" />
       </xsl:when>
-      <xsl:otherwise> </xsl:otherwise>
+      <xsl:otherwise>th0</xsl:otherwise>
     </xsl:choose>
 
   </xsl:template>
