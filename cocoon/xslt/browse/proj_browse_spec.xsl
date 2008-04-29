@@ -21,11 +21,103 @@
     </ul>
   </xsl:template>
 
-  <xsl:template name="tpl-browse-image-start"/>
+  <xsl:template name="tpl-browse-image-start">
+    <ul>
+      <xsl:for-each select="//r:RDF/s:Concept">
+        <li>
+          <a href="image-{encode-for-uri(@r:about)}-{encode-for-uri(@r:label)}">
+            <xsl:value-of select="@r:label"/>
+          </a>
+        </li>
+      </xsl:for-each>
+    </ul>
+  </xsl:template>
 
   <xsl:template name="tpl-browse-results">
+    <xsl:variable name="rpp" select="number(20)"/>
+    <xsl:variable name="page" select="//search-results/page:page/@current"/>
+    <xsl:variable name="total" select="//search-results/total"/>
 
-   
+    <div class="searchSummary">
+      <div class="t01">
+        <!-- page navigation -->
+        <div class="s02">
+          <xsl:variable name="page-link">
+            <xsl:value-of select="$collection"/>
+            <xsl:text>-page</xsl:text>
+          </xsl:variable>
+          <xsl:if test="$total > $rpp">
+            <ul class="s01">
+              <xsl:for-each select="//page:page">
+                <xsl:variable name="current-page" select="number(@current)"/>
+
+                <xsl:choose>
+                  <xsl:when test="page:link[@type = 'prev'][position() = last()]">
+                    <li>
+                      <a href="{$page-link}(1)">&#8249;&#8249; first</a>
+                    </li>
+                    <li>
+                      <a href="{$page-link}({page:link[@type = 'prev'][position() = last()]/@page})"
+                        >&#8249; prev</a>
+                    </li>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <li>
+                      <span class="s02">&#8249;&#8249; first</span>
+                    </li>
+                    <li>
+                      <span class="s02">&#8249; prev</span>
+                    </li>
+                  </xsl:otherwise>
+                </xsl:choose>
+
+                <xsl:for-each select="page:link[$current-page > number(@page)]">
+                  <li>
+                    <a href="{$page-link}({@page})">
+                      <xsl:value-of select="@page"/>
+                    </a>
+                  </li>
+                </xsl:for-each>
+
+                <li>
+                  <span class="s02">
+                    <xsl:value-of select="$current-page"/>
+                  </span>
+                </li>
+
+                <xsl:for-each select="page:link[number(@page) > $current-page]">
+                  <li>
+                    <a href="{$page-link}({@page})">
+                      <xsl:value-of select="@page"/>
+                    </a>
+                  </li>
+                </xsl:for-each>
+
+                <xsl:choose>
+                  <xsl:when test="page:link[@type = 'next'][position() = 1]">
+                    <li>
+                      <a href="{$page-link}({page:link[@type = 'next'][position() = 1]/@page})">next
+                        &#8250;</a>
+                    </li>
+                    <li>
+                      <a href="{$page-link}({@total})">&#8250;&#8250; last</a>
+                    </li>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <li>
+                      <span class="s02">next &#8250;</span>
+                    </li>
+                    <li>
+                      <span class="s02">&#8250;&#8250; last</span>
+                    </li>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:for-each>
+            </ul>
+          </xsl:if>
+        </div>
+      </div>
+    </div>
 
     <div class="resourceList">
       <div class="t02">
