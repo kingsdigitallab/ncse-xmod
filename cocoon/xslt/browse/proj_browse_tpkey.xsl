@@ -6,6 +6,28 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:s="http://www.w3.org/2004/02/skos/core#">
+  
+  <xsl:variable name="collection">
+    <xsl:choose>
+      <xsl:when test="string(substring-before($context-id, '_result'))">
+        <xsl:value-of select="substring-before(substring-after($context-id, 'browse_'), '_result')" />
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="substring-after($context-id, 'browse_')" />
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:variable>
+  
+  <xsl:variable name="col-key">
+    <xsl:choose>
+      <xsl:when test="$collection = 'subject'">
+        <xsl:text>semtag</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$collection" />
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:variable>
 
   <xsl:variable name="pagehead">
     <xsl:value-of select="//filebase//item[@id = $context-id]/fileTitle"/>
@@ -127,7 +149,7 @@
     <ul>
       <xsl:for-each select="s:narrower/s:orderedCollection/s:memberList/s:Concept">
         <li>
-          <a href="add-browse-subject?field=semtag-key&amp;value={encode-for-uri(@r:about)}&amp;display={encode-for-uri(@r:label)}&amp;pos=0">
+          <a href="add-browse-{$collection}?field={$col-key}-key&amp;value={encode-for-uri(@r:about)}&amp;display={encode-for-uri(@r:label)}&amp;pos=0">
             <xsl:value-of select="@r:label"/>
           </a>
           <xsl:if test="s:narrower/s:orderedCollection/s:memberList/s:Concept">
@@ -156,7 +178,7 @@
       <xsl:when test="$context-id = 'browse_subject'">
         <xsl:call-template name="tpl-browse-subject-start"/>
       </xsl:when>
-      <xsl:when test="$context-id = 'browse_image_meta'">
+      <xsl:when test="$context-id = 'browse_image'">
         <xsl:call-template name="tpl-browse-image-start"/>
       </xsl:when>
     </xsl:choose>
