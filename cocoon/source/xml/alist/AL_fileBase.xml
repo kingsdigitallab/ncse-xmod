@@ -98,12 +98,16 @@
         <fileName>subject</fileName>
         <fileTitle>Browse by Subject</fileTitle>
       </item>
+      <item id="browse_image">
+        <fileName>image</fileName>
+        <fileTitle>Browse by Image Metadata</fileTitle>
+      </item>
       <item id="browse_subject_result">
         <fileName>subject</fileName>
         <fileTitle>Browse by Subject Result</fileTitle>
         <rhcontent value="on" />
       </item>
-      <item id="browse_image_meta_result">
+      <item id="browse_image_result">
         <fileName>image_meta</fileName>
         <fileTitle>Browse by Image Metadata</fileTitle>
         <rhcontent value="on" />
