@@ -104,7 +104,7 @@
       </item>
       <item id="browse_subject_result">
         <fileName>subject</fileName>
-        <fileTitle>Browse by Subject Result</fileTitle>
+        <fileTitle>Browse by Subject</fileTitle>
         <rhcontent value="on" />
       </item>
       <item id="browse_image_result">
