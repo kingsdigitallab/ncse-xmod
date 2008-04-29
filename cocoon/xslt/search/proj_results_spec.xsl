@@ -14,7 +14,16 @@
             <dt>You searched for:</dt>
             <dd>
               <xsl:for-each select="//search-results/display-parameters/parameter">
-                <xsl:value-of select="." />
+                <xsl:variable name="par" select="." />
+                
+                <xsl:choose>
+                  <xsl:when test="contains($par, '::')">
+                    <xsl:value-of select="substring-after($par, '::')" />
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="." />                    
+                  </xsl:otherwise>
+                </xsl:choose>
 
                 <xsl:if test="position() != last()">
                   <xsl:text>, </xsl:text>
@@ -28,7 +37,18 @@
                 <dd>
                   <a href="remove-search-clause?clause={position()}">Remove</a>
                   <xsl:text> </xsl:text>
-                  <xsl:value-of select="." />
+                  
+                  <xsl:variable name="par" select="." />
+                  
+                  <xsl:choose>
+                    <xsl:when test="contains($par, '::')">
+                      <xsl:value-of select="substring-after($par, '::')" />
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:value-of select="." />                    
+                    </xsl:otherwise>
+                  </xsl:choose>
+                  
                   <xsl:text> (chosen from: </xsl:text>
 
                   <!-- Floating results -->
