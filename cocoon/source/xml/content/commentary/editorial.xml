@@ -60,19 +60,20 @@
                 <p>Serials are not well-ordered objects from which to begin a digitization project.
                     The historical production and preservation of serials means that it is difficult
                     to identify one distinct manifestation of their form. Serials consist of
-                    articles, often themselves consisting of different types of print and images
-                    [internal link], gathered into departments, published in issues, and often bound
-                    in volumes [internal link]. There is a tendency to consider volumes [internal
-                    link] as discrete uniform objects that gather together diverse content. However,
-                    as many critics have noted, the process of binding individual issues, plus any
-                    front or end matter [internal link] that might also be issued, involved a
-                    considerable transformation. Part of this was the common practice of stripping
-                    out matter that pertains to the selling of individual issues, most notoriously
-                    <ref target="adv">advertisements</ref>, but also <ref target="mul">multiple editions</ref>,
-                    supplements [internal link], and <ref target="wra">wrappers</ref> [internal link]. Equally, just as a
-                    volume is something different than a combination of the year’s issues, so issues
-                    are more than a series of articles. Items in the periodical and newspaper press
-                    are remarkably diverse, including advertisements, filler, title pages and
+                    articles, often themselves consisting of different types of print and <ref
+                        target="ima">images</ref>, gathered into departments, published in issues,
+                    and often bound in <ref target="vol">volumes</ref>. There is a tendency to
+                    consider <ref target="vol">volumes</ref> as discrete uniform objects that gather
+                    together diverse content. However, as many critics have noted, the process of
+                    binding individual issues, plus any <ref target="fro">front or end matter</ref>
+                    that might also be issued, involved a considerable transformation. Part of this
+                    was the common practice of stripping out matter that pertains to the selling of
+                    individual issues, most notoriously <ref target="adv">advertisements</ref>, but
+                    also <ref target="mul">multiple editions</ref>, supplements<hi rend="bold">
+                        [internal link]</hi>, and <ref target="wra">wrappers</ref>. Equally, just as
+                    a volume is something different than a combination of the year’s issues, so
+                    issues are more than a series of articles. Items in the periodical and newspaper
+                    press are remarkably diverse, including advertisements, filler, title pages and
                     imprints, headings and signatures, news, leaders, correspondence, literature,
                     reviews, essays, science, and tables. Visual material might comprise the cover
                     design, mastheads, illustrations, graphic devices such as ornaments, rules, or
@@ -101,8 +102,8 @@
 
             <div id="clu">
                 <head>Choice of the Cluster</head>
-                <p>For details about why these six titles were chosen, click here [link to
-                    05_01_choice]</p>
+                <p>For details about why these six titles were chosen, click <xref type="internal"
+                        from="p5_1">here</xref></p>
             </div>
 
             <div id="mul">
@@ -179,8 +180,7 @@
                 <head>Structure of the Edition</head>
                 <p>In the early stages of the project we attempted to map all the types of data that
                     we felt were important and how they related to each other. Needless to say, this
-                    resulted in an incredibly complex map, which you can download here [link to
-                    data_map.pdf]. While we were undertook this exercise, we were also working with
+                    resulted in an incredibly complex map, which you can download <xref type="redist" from="pdf/data_map.pdf">here</xref>. While we were undertook this exercise, we were also working with
                     Olive Software to investigate the degree of accuracy with which a computer
                     program could identify units of content and their relationship according to a
                     set of predefined rules. Although the system had some success distinguishing
@@ -197,30 +197,32 @@
                     it to distinguish between items on a page. We included some rules to identify
                     how to recognize an item that signalled a change in department, but these were
                     largely for the guidance of human editors who checked the output. These sets of
-                    rules were called segmentation policies [internal link]. For a definition of our
-                    terminology, click here [link to 05_03_terminology].</p>
+                    rules were called <ref target="seg">segmentation policies</ref>. For a
+                    definition of our terminology, click <xref type="internal" from="p5_3"
+                        >departments</xref>.</p>
             </div>
 
 
             <div id="dep">
                 <head>Departments / Items</head>
-                <p>The organization of articles into sections that we call departments [link to
-                    05_03_terminology] was common across nineteenth-century newspapers and
-                    magazines. As an important structural demarcation, we felt we had to encode this
-                    into the edition and, according to our editorial principles, it had to be done
-                    according to each title’s own categories. Olive Software’s applications
-                    supported a ‘Table of Components’ that would list each article in a journal and
-                    could also group them into sections. However, in order to do this, we would have
-                    to segment a page in a way that would identify whole articles. This was
-                    certainly possible but a page of a periodical or newspaper is not constituted
-                    solely by the articles upon it: rather, it contains a range of items including
-                    headlines, mastheads, lists of contents, advertisements, rules etc. Isolating
-                    articles from this miscellaneous collection of content would privilege one type
-                    of material above another. Instead, we nominated <title>items </title>[link to
-                    05_03_terminology] as our basic unit within the edition, and defined articles as
-                    one type of item amongst others. A department then would be a collection of
-                    items, most of which would be articles, but might also be headlines,
-                    advertisements, or other types of content.</p>
+                <p>The organization of articles into sections that we call <xref type="internal"
+                        from="p5_3">departments</xref> was common across nineteenth-century
+                    newspapers and magazines. As an important structural demarcation, we felt we had
+                    to encode this into the edition and, according to our editorial principles, it
+                    had to be done according to each title’s own categories. Olive Software’s
+                    applications supported a ‘Table of Components’ that would list each article in a
+                    journal and could also group them into sections. However, in order to do this,
+                    we would have to segment a page in a way that would identify whole articles.
+                    This was certainly possible but a page of a periodical or newspaper is not
+                    constituted solely by the articles upon it: rather, it contains a range of items
+                    including headlines, mastheads, lists of contents, advertisements, rules etc.
+                    Isolating articles from this miscellaneous collection of content would privilege
+                    one type of material above another. Instead, we nominated <xref type="internal" from="p5_3"
+                        ><hi rend="italic">items</hi></xref>
+                    as our basic unit within the edition, and
+                    defined articles as one type of item amongst others. A department then would be
+                    a collection of items, most of which would be articles, but might also be
+                    headlines, advertisements, or other types of content.</p>
                 <p>We investigated the potential for software to identify different items on a page
                     with a view to automating as much of the classification and subsequent
                     structuring into a hierarchy as possible. However, although some of these
@@ -230,29 +232,29 @@
                     programmes and then review the results. Once we made the decision to keep
                     multiple editions within the edition, we were committed to processing c100,000
                     pages (although to see a report on our proposed alternative – the core – click
-                    here [link to 05_09_core]). We had the greatest success setting parameters that
-                    would distinguish between every item on the page. This included all the
-                    articles, whatever their content, as well as things like advertisements,
-                    mastheads, filler, publisher’s imprints, etc… We recognized that some users
-                    would not find a ‘Table of Components’ that contained all this diverse material
-                    very useful and, as some issues contained over two hundred items, such a table
-                    would be too long to navigate easily. In addition, early pilots of the Olive
-                    application populated the Table of Components from the OCR transcript that was
-                    produced during processing. Because of the quality of the surviving newsprint,
-                    we knew our OCR transcript would be too inaccurate to display in an uncorrected
-                    form and, as we were dealing with 100,000 pages, we would not have time to
-                    undertake its correction. Instead, we decided to restrict the Table of
-                    Components to department level, and populate it with images of department
-                    headers rather than text strings from the OCR transcript. This also suited one
-                    of our primary aims in the edition, to foreground the structure of serials and
-                    not only what is normally defined as their ‘contents’. </p>
+                        <xref type="internal" from="p5_9">here</xref>). We had the greatest success
+                    setting parameters that would distinguish between every item on the page. This
+                    included all the articles, whatever their content, as well as things like
+                    advertisements, mastheads, filler, publisher’s imprints, etc… We recognized that
+                    some users would not find a ‘Table of Components’ that contained all this
+                    diverse material very useful and, as some issues contained over two hundred
+                    items, such a table would be too long to navigate easily. In addition, early
+                    pilots of the Olive application populated the Table of Components from the OCR
+                    transcript that was produced during processing. Because of the quality of the
+                    surviving newsprint, we knew our OCR transcript would be too inaccurate to
+                    display in an uncorrected form and, as we were dealing with 100,000 pages, we
+                    would not have time to undertake its correction. Instead, we decided to restrict
+                    the Table of Components to department level, and populate it with images of
+                    department headers rather than text strings from the OCR transcript. This also
+                    suited one of our primary aims in the edition, to foreground the structure of
+                    serials and not only what is normally defined as their ‘contents’. </p>
                 <p>The distinction between items and departments in <hi>ncse</hi> is encoded into
                     the way each issue is structured. When we corrected the segmentation of each
                     issue, we identified which items – usually in this case a headline – signalled
                     the beginning of a department. These then appeared in the Table of Components,
                     and all the items that followed it were associated with that department. This
-                    structure was vital in order to allow us to populate the edition with metadata
-                    [internal link].</p>
+                    structure was vital in order to allow us to populate the edition with<hi rend="bold"> metadata
+                    [internal link].</hi></p>
             </div>
 
             <div id="seg">
@@ -268,19 +270,14 @@
                     <head>Monthly Repository:</head>
                     <list type="bulleted">
                         <item>
-                            <p>Monthly Repository Segmentation Guidelines [link to
-                                07.03.07_mr_segmentation_policy.pdf and rename
-                                ‘mr_segmentation_policy.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/mr_segmentation_policy.pdf">Monthly
+                                Repository Segmentation Guidelines</xref> (pdf document) </item>
                         <item>
-                            <p>2 July 1809 (pdf document) [link to 041-MRP-1809-07-02-001-SINGLE.PDF
-                                and rename ‘mr_segmentation_1809.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/mr_segmentation_1809.pdf">2 July
+                            1809</xref> (pdf document) </item>
                         <item>
-                            <p>31 December 1826 (pdf document) [link to
-                                041-MRP-1826-12-31-001-SINGLE.PDF and rename
-                                ‘mr_segmentation_1826.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/mr_segmentation_1826.pdf">31 December
+                            1826</xref> (pdf document) </item>
                     </list>
                 </div>
 
@@ -288,32 +285,23 @@
                     <head>Northern Star:</head>
                     <list type="bulleted">
                         <item>
-                            <p>Northern Star Segmentation Guidelines [link to
-                                07.01.19_ns_segmentation_policy.pdf and rename
-                                ‘ns_segmentation_policy.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/ns_segmentation_policy.pdf">Northern Star
+                                Segmentation Guidelines</xref> (pdf document) </item>
                         <item>
-                            <p>26 Sepetember 1840 (pdf document) [link to
-                                041-NSS-1840-09-26-001-SINGLE.PDF and rename
-                                ‘ns_segmentation_1840.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/ns_segmentation_1840.pdf">26 Sepetember
+                                1840</xref> (pdf document) </item>
                         <item>
-                            <p>29 December 1845 (pdf document) [link to
-                                041-NSS-1845-12-29-001-SINGLE.PDF and rename
-                                ‘ns_segmentation_1845.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/ns_segmentation_1845.pdf">29 December
+                            1845</xref> (pdf document) </item>
                         <item>
-                            <p>9 June 1849 (pdf document) [link to 041-NSS-1849-06-09-001-SINGLE.PDF
-                                and rename ‘ns_segmentation_1849.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/ns_segmentation_1849.pdf">9 June
+                            1849</xref> (pdf document) </item>
                         <item>
-                            <p>26 June 1852 (pdf document) [link to
-                                041-NSS-1852-06-26-001-SINGLE.PDF and rename]</p>
-                        </item>
+                            <xref type="redist" from="pdf/mr_segmentation_1852a.pdf">26 June
+                            1852</xref> (pdf document) </item>
                         <item>
-                            <p>25 September 1852 (pdf document) [link to
-                                041-NSS-1852-09-25-001-SINGLE.PDF and rename]</p>
-                        </item>
+                            <xref type="redist" from="pdf/mr_segmentation_1852b.pdf">25 September
+                                1852</xref> (pdf document) </item>
                     </list>
                 </div>
 
@@ -321,17 +309,15 @@
                     <head>Leader:</head>
                     <list type="bulleted">
                         <item>
-                            <p>Leader Segmentation Guidelines [link to
-                            ldr_segmentation_guide.pdf]</p>
+                            <xref type="redist" from="pdf/ldr_segmentation_guide.pdf">Leader
+                                Segmentation Guidelines (pdf document)</xref>
                         </item>
                         <item>
-                            <p>4 May 1850 (pdf document) [link to ldr_segmentation2.pdf and rename
-                                ‘ldr_segmentation_1850.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/ldr_segmentation_1850.pdf">4 May
+                            1850</xref> (pdf document) </item>
                         <item>
-                            <p>9 October 1858 (pdf document) [link to ldr_segmentation1.pdf and
-                                rename ‘ldr_segmentation_1858.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/ldr_segmentation_1858.pdf">9 October
+                            1858</xref> (pdf document) </item>
                     </list>
                 </div>
 
@@ -339,14 +325,13 @@
                     <head>English Womans' Journal:</head>
                     <list type="bulleted">
                         <item>
-                            <p>English Womans' Journal Segmentation Guidelines [link to
-                                07.04.02_ewj_segmentation_policy.pdf and rename
-                                ‘ewj_segmentation_policy.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/">English Womans' Journal Segmentation
+                                Guidelines</xref> (pdf document) [link to
+                            07.04.02_ewj_segmentation_policy.pdf and rename
+                            ‘ewj_segmentation_policy.pdf’] </item>
                         <item>
-                            <p>1 July 1861 (pdf document) [link to 041-EWJ-1861-07-01-001-SINGLE.PDF
-                                and rename ‘ewj_segmentation_1861.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/ewj_segmentation_1861.pdf">1 July
+                            1861</xref> (pdf document) </item>
                     </list>
                 </div>
 
@@ -354,29 +339,21 @@
                     <head>Tomahawk:</head>
                     <list type="bulleted">
                         <item>
-                            <p>
-                                <title>Tomahawk</title> Segmentation Guidelines [link to
-                                07.02.17_th_segmentation_policy.pdf and rename
-                                ‘thk_segmentation_policy.pdf’]</p>
-                        </item>
+                            <title>Tomahawk</title>
+                            <xref type="redist" from="pdf/thk_segmentation_policy.pdf">Segmentation
+                                Guidelines</xref> (pdf document) </item>
                         <item>
-                            <p>10 May 1867 (pdf document) [link to 041-TTW-1867-05-10-001-SINGLE.PDF
-                                and rename ‘thk_segmentation_1867.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/thk_segmentation_1867.pdf">10 May
+                            1867</xref> (pdf document) </item>
                         <item>
-                            <p>Index 1868 (pdf document) [link to 041-TTW-1868-01-01-001-SINGLE.PDF
-                                and rename ‘thk_segmentation_index.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/thk_segmentation_index.pdf">Index
+                            1868</xref> (pdf document) </item>
                         <item>
-                            <p>Almanack 1869 (pdf document) [link to
-                                041-TTW-1869-01-01-001-SINGLE.PDF and rename
-                                ‘thk_segmentation_almanack.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/thk_segmentation_almanack.pdf">Almanack
+                                1869</xref> (pdf document) </item>
                         <item>
-                            <p>20 August 1870 (pdf document) [link to
-                                041-TTW-1870-08-20-001-SINGLE.PDF and rename
-                                ‘thk_segmentaion_1870.pdf’]</p>
-                        </item>
+                            <xref type="redist" from="pdf/thk_segmentaion_1870.pdf">20 August
+                            1870</xref> (pdf document) </item>
                     </list>
                 </div>
 
@@ -384,22 +361,18 @@
                     <head>Publishers' Circular:</head>
                     <list type="bulleted">
                         <item>
-                            <p>
-                                <title>Publishers' Circular</title> Segmenation Guidelines [link to
-                                pc_segmentation_guide.pdf and rename
-                            ‘pc_segmentation_policy.pdf’]</p>
-                        </item>
+                            <title>Publishers' Circular</title>
+                            <xref type="redist" from="pdf/pc_segmentation_policy.pdf">Segmentation
+                                Guidelines</xref> (pdf document) </item>
                         <item>
-                            <p>15 April 1887 [link to pc_segmentation_1887.pdf]</p>
-                        </item>
+                            <xref type="redist" from="pdf/pc_segmentation_1887.pdf">15 April
+                            1887</xref> (pdf document) </item>
                         <item>
-                            <p>English Catalogue of Books, 1887 [link to
-                            pc_segmentation_engcat.pdf]</p>
-                        </item>
+                            <xref type="redist" from="pdf/pc_segmentation_engcat.pdf">English
+                                Catalogue of Books, 1887</xref> (pdf document) </item>
                         <item>
-                            <p>6 December 1888 (Christmas Number) [link to
-                                pc_segmentation_xmas1888.pdf]</p>
-                        </item>
+                            <xref type="redist" from="pdf/pc_segmentation_xmas1888.pdf">6 December
+                                1888 (Christmas Number)</xref> (pdf document) </item>
                     </list>
                 </div>
             </div>
@@ -409,32 +382,34 @@
                 <p>Although we were committed to recording the histories of our titles up to the
                     point at which we digitized them, we were also conscious that we had to make
                     editorial interventions in order to present the material in a way that would
-                    make sense to users. Our proposed structure of the edition [internal link] set
-                    out how each element in the hierarchy related to all the others, but the actual
-                    condition of the hard copy did not always fall neatly into the categories that
-                    we set out. This was particularly the case with the internal arrangement of
-                    content within volumes. </p>
-                <p>Even though nearly all the hard copy from which we sourced <hi>ncse </hi>was in
-                    volume form, these bound volumes were not consistent in terms of their contents
-                    or appearance. Often the volumes had been bound in different ways according to
-                    individual binders – both within the same institution and when compared between
-                    insitutions – and binding practices altered with the content over time. Although
-                    we could leave the content in the condition in which we found it, thus
-                    preserving the history of the particular bound volume’s production and
-                    preservation, our decision to merge runs from different sources meant we were
-                    already committed to radically altering the ‘found’ state of large parts of the
-                    edition. For instance, our run of <title>Tomahawk </title>consists of two
-                    separate runs: one stored by the British Library at St Pancras and one by the
-                    British Library at Colindale. While the run at St Pancras is more complete in
-                    terms of issues than the one at Colindale, it lacks all of the advertising
+                    make sense to users. Our proposed structure of the <ref target="str"
+                    >edition</ref> set out how each element in the hierarchy related to all the
+                    others, but the actual condition of the hard copy did not always fall neatly
+                    into the categories that we set out. This was particularly the case with the
+                    internal arrangement of content within volumes. </p>
+                <p>Even though nearly all the hard copy from which we sourced <hi rend="bold">ncse
+                    </hi>was in volume form, these bound volumes were not consistent in terms of
+                    their contents or appearance. Often the volumes had been bound in different ways
+                    according to individual binders – both within the same institution and when
+                    compared between insitutions – and binding practices altered with the content
+                    over time. Although we could leave the content in the condition in which we
+                    found it, thus preserving the history of the particular bound volume’s
+                    production and preservation, our decision to merge runs from different sources
+                    meant we were already committed to radically altering the ‘found’ state of large
+                    parts of the edition. For instance, our run of <title>Tomahawk </title>consists
+                    of two separate runs: one stored by the British Library at St Pancras and one by
+                    the British Library at Colindale. While the run at St Pancras is more complete
+                    in terms of issues than the one at Colindale, it lacks all of the advertising
                     wrappers; the run at Colindale is not as complete as that at St Pancras, but it
                     has the advertising wrappers and a few issues missing from the St Pancras run.
                     By merging the two runs we were committed to reconstructing the form of the
                     volume, and so had to come up with a model of what a volume might be. We adopted
                     the following basic model:</p>
-                <p>Front matter </p>
-                <p>Issues</p>
-                <p>End matter</p>
+                <list type="bulleted">
+                    <item>Front matter</item>
+                    <item>Issues</item>
+                    <item>End matter</item>
+                </list>
                 <p>Front matter contains things like prefaces, volume title pages, volume tables of
                     contents, or any illustrative material that was intended to be bound at the
                     beginning of a volume. Issues contain the run of issues defined by the number
@@ -507,24 +482,24 @@
                 <p>We were committed to including wrappers in <hi rend="bold">ncse </hi>but had to
                     devise a way in which content in wrappers could be distinguished from that from
                     within issues. As all content in <hi>ncse</hi> is taken from pdf documents that
-                    correspond to whole issues, there was no distinction between wrappers and issues
-                    at this level [internal link]. We structured content within issues with
-                    segmentation that distinguished between items and then grouped items into
-                    departments [internal link]. By inserting a metadata field called ‘Bibliographic
-                    location’ with two values, ‘number contents’ and ‘wrapper’, it was possible to
-                    mark up items with their location on the wrapper or in the issue. This still
-                    left us with a potential problem as this was a metadata field that needed to be
-                    applied to all the items in the edition. However, using a combination of
-                    segmentation and metadata, we devised a way to avoid having to enter this
-                    information manually to all the content. First of all we marked all content as
-                    ‘number contents’ and then we segmented wrappers so that we could easily change
-                    this value later. The way we did this was to segment wrappers so that the first
-                    item on a wrapper marked a new department. By ensuring that the first item in an
-                    issue marked the next department, it was possible to label the first item on a
-                    wrapper as ‘wrapper’ and have that information inherited to all the other items
-                    on the wrapper up to the department that marked the beginning of the number. For
-                    more information on metadata, click <xref type="internal" from="p5_11"
-                    >here</xref>.</p>
+                    correspond to whole issues, there was no distinction between wrappers and <ref
+                        target="iss">issues</ref> at this level. We structured content within issues
+                    with segmentation that distinguished between items and then grouped items into
+                        <ref target="dep">departments</ref>. By inserting a metadata field called
+                    ‘Bibliographic location’ with two values, ‘number contents’ and ‘wrapper’, it
+                    was possible to mark up items with their location on the wrapper or in the
+                    issue. This still left us with a potential problem as this was a metadata field
+                    that needed to be applied to all the items in the edition. However, using a
+                    combination of segmentation and metadata, we devised a way to avoid having to
+                    enter this information manually to all the content. First of all we marked all
+                    content as ‘number contents’ and then we segmented wrappers so that we could
+                    easily change this value later. The way we did this was to segment wrappers so
+                    that the first item on a wrapper marked a new department. By ensuring that the
+                    first item in an issue marked the next department, it was possible to label the
+                    first item on a wrapper as ‘wrapper’ and have that information inherited to all
+                    the other items on the wrapper up to the department that marked the beginning of
+                    the number. For more information on metadata, click <xref type="internal"
+                        from="p5_11">here</xref>.</p>
             </div>
             <div id="adv">
                 <head>Advertisements</head>
@@ -551,22 +526,22 @@
             </div>
             <div id="ima">
                 <head>Images</head>
-                <p>Images, like advertisements [internal link], are demarcated as a one of three
-                    types of content (articles is the third) by Olive during segmentation. However,
-                    images might occur within articles and, if this is the case, this relationship
-                    should be preserved. Olive’s segmentation tool permits images to be embedded
-                    within articles: what this means for <hi>ncse </hi>is that it is possible for an
-                    image to be embedded into an item, allowing users to either view the item as a
-                    whole (with the image within it) in the component viewer, or to simply view the
-                    image.</p>
+                <p>Images, like <ref target="adv">advertisements</ref>, are demarcated as a one of
+                    three types of content (articles is the third) by Olive during segmentation.
+                    However, images might occur within articles and, if this is the case, this
+                    relationship should be preserved. Olive’s segmentation tool permits images to be
+                    embedded within articles: what this means for <hi>ncse </hi>is that it is
+                    possible for an image to be embedded into an item, allowing users to either view
+                    the item as a whole (with the image within it) in the component viewer, or to
+                    simply view the image.</p>
                 <p>For information on how we labelled images with image metadata, click <xref
-                        type="internal" from="p5_11">here</xref> to view the schema, and here [link
-                    to 05_04_visual] for how we applied it.</p>
+                        type="internal" from="p5_11">here</xref> to view the schema, and <xref
+                        type="internal" from="p5_4">here</xref> for how we applied it.</p>
             </div>
 
             <div id="fro">
                 <head>Front and end matter</head>
-                <p>See Division of content into <ref n="iss">issues</ref> [internal link] above.</p>
+                <p>See Division of content into <ref target="iss">issues</ref> above.</p>
             </div>
 
 
