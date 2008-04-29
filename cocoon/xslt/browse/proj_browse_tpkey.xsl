@@ -41,7 +41,64 @@
 
   <xsl:template name="ctpl_rhcontent">
     <div id="rightContent">
+            
       <div class="facetBrowse">
+        <div class="facetBrowseSummary">
+          <h3>Filtering by:</h3>
+          <dl>
+            <xsl:for-each select="//search-results/display-parameters/parameter">
+              <dt>
+                <!--<a href="#" title="Remove this category from the filter">Remove</a>-->
+                <xsl:value-of select="."/>
+              </dt>
+            </xsl:for-each>
+            <xsl:for-each-group select="//search-results/search-clauses-parameters/parameter" group-by=".">
+              <dt>
+                <!--<a href="#" title="Remove this category from the filter">Remove</a>-->
+                <xsl:value-of select="."/>
+              </dt>
+            </xsl:for-each-group>
+            <!--        <dd>
+              <ul>
+              <li>
+              <a href="#">
+              <span>Sub Term</span>
+              </a>
+              <ul>
+              <li>
+              <a href="#">
+              <span>Sub Sub Term</span>
+              </a>
+              <ul>
+              <li>
+              <span class="s02">Sub Sub Sub Term</span>
+              </li>
+              </ul>
+              </li>
+              </ul>
+              </li>
+              </ul>
+              </dd>-->
+            <!--<dt><a href="#" title="Remove this category from the filter">Remove</a>General and Abstract
+              Terms</dt>
+              <dd>
+              <ul>
+              <li>
+              <a href="#">
+              <span>Sub Term</span>
+              </a>
+              <ul>
+              <li>
+              <span class="s02">Sub Sub Term</span>
+              </li>
+              </ul>
+              </li>
+              </ul>
+              </dd>-->
+          </dl>
+        </div>
+        
+        
         <div class="facetPanel">
           <h3>Categories</h3>
           <dl>
