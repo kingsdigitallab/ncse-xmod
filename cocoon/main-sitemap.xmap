@@ -157,30 +157,57 @@
         <map:serialize type="xhtml" />
       </map:match>
       
+      <map:match pattern="browse/image-*-*">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/coreAL" />
+          <map:part src="{global:project-path}{global:project-alist}/image-refined.xml" element="projAL" />
+          <map:part src="cocoon:/thesaurus-search-xsp?field1Sel=image-key&amp;field1Key={1}*&amp;field1Txt={2}" />
+        </map:aggregate>
+                <map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+          <map:parameter name="sm-context-id" value="browse_image_result" />
+          </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+      
       <map:match pattern="browse/subject-*-*">
         <map:aggregate element="aggregation">
           <map:part src="cocoon:/coreAL" />
           <map:part src="{global:project-path}{global:project-alist}/subject-refined.xml" element="projAL" />
           <map:part src="cocoon:/thesaurus-search-xsp?field1Sel=semtag-key&amp;field1Key={1}*&amp;field1Txt={2}" />
         </map:aggregate>
-        <map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
-          <map:parameter name="sm-context-id" value="browse_subject_result" />
-        </map:transform>
-        <map:serialize type="xhtml" />
-      </map:match>
-      
-      <map:match pattern="browse/*-browse-subject">
-        <map:aggregate element="aggregation">
-          <map:part src="cocoon:/coreAL" />
-          <map:part src="{global:project-path}{global:project-alist}/subject-refined.xml" element="projAL" />
-          <map:part src="cocoon:/{1}-search-clause-xsp" />
-        </map:aggregate>
-        <!--<map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
+<!--        <map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
           <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="browse_subject_result" />
         </map:transform>-->
         <map:serialize type="xml" />
+      </map:match>
+      
+      <map:match pattern="browse/*-browse-*">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/coreAL" />
+          <map:part src="{global:project-path}{global:project-alist}/{2}-refined.xml" element="projAL" />
+          <map:part src="cocoon:/{1}-search-clause-xsp" />
+        </map:aggregate>
+        <map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+          <map:parameter name="sm-context-id" value="browse_{2}_result" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+      
+      <!-- Browse pagination -->
+      <map:match pattern="**/*-page(*)">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon:/coreAL" />
+          <map:part src="{global:project-path}{global:project-alist}/{2}-refined.xml" element="projAL" />
+          <map:part src="cocoon:/page-xsp({3})" />
+        </map:aggregate>
+        <map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+          <map:parameter name="sm-context-id" value="browse_{2}_result" />
+        </map:transform>
+        <map:serialize type="xhtml" />
       </map:match>
     </map:pipeline>
 
