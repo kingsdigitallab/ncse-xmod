@@ -24,52 +24,9 @@
   <xsl:template name="tpl-browse-image-start"/>
 
   <xsl:template name="tpl-browse-results">
-    
-    <div class="facetBrowseSummary">
-      <h3>Filtering by:</h3>
-      <dl>
-        <dt><a href="#" title="Remove this category from the filter">Remove</a>General and
-          Abstract Terms</dt>
-        <dd>
-          <ul>
-            <li>
-              <a href="#">
-                <span>Sub Term</span>
-              </a>
-              <ul>
-                <li>
-                  <a href="#">
-                    <span>Sub Sub Term</span>
-                  </a>
-                  <ul>
-                    <li>
-                      <span class="s02">Sub Sub Sub Term</span>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </dd>
-        <dt><a href="#" title="Remove this category from the filter">Remove</a>General and
-          Abstract Terms</dt>
-        <dd>
-          <ul>
-            <li>
-              <a href="#">
-                <span>Sub Term</span>
-              </a>
-              <ul>
-                <li>
-                  <span class="s02">Sub Sub Term</span>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </dd>
-      </dl>
-    </div>
-    
+
+   
+
     <div class="resourceList">
       <div class="t02">
         <ul>
