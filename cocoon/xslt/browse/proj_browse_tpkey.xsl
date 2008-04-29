@@ -5,26 +5,27 @@
 <xsl:stylesheet exclude-result-prefixes="#all" version="2.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:s="http://www.w3.org/2004/02/skos/core#">
-  
+  xmlns:page="http://apache.org/cocoon/paginate/1.0" xmlns:s="http://www.w3.org/2004/02/skos/core#">
+
   <xsl:variable name="collection">
     <xsl:choose>
       <xsl:when test="string(substring-before($context-id, '_result'))">
-        <xsl:value-of select="substring-before(substring-after($context-id, 'browse_'), '_result')" />
+        <xsl:value-of select="substring-before(substring-after($context-id, 'browse_'), '_result')"
+        />
       </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="substring-after($context-id, 'browse_')" />
+        <xsl:value-of select="substring-after($context-id, 'browse_')"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
-  
+
   <xsl:variable name="col-key">
     <xsl:choose>
       <xsl:when test="$collection = 'subject'">
         <xsl:text>semtag</xsl:text>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="$collection" />
+        <xsl:value-of select="$collection"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
@@ -52,10 +53,30 @@
   </xsl:template>
 
   <xsl:template name="ctpl_pagehead">
+    <xsl:variable name="rpp" select="number(20)"/>
+    <xsl:variable name="page" select="//search-results/page:page/@current"/>
+    <xsl:variable name="total" select="//search-results/total"/>
+
     <div class="pageHeader">
       <div class="t01">
         <h1>
           <xsl:value-of select="$pagehead"/>
+          <xsl:if test="contains($context-id, 'result')">
+            <xsl:text>: </xsl:text>
+            <xsl:value-of select="$page * $rpp - 19"/>
+            <xsl:text> - </xsl:text>
+            <xsl:choose>
+              <xsl:when test="$page * $rpp > $total">
+                <xsl:value-of select="$total"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="$page * $rpp"/>
+              </xsl:otherwise>
+            </xsl:choose>
+            <xsl:text> (of </xsl:text>
+            <xsl:value-of select="$total"/>
+            <xsl:text>)</xsl:text>
+          </xsl:if>
         </h1>
       </div>
     </div>
@@ -63,64 +84,9 @@
 
   <xsl:template name="ctpl_rhcontent">
     <div id="rightContent">
-            
+
       <div class="facetBrowse">
-        <div class="facetBrowseSummary">
-          <h3>Filtering by:</h3>
-          <dl>
-            <xsl:for-each select="//search-results/display-parameters/parameter">
-              <dt>
-                <!--<a href="#" title="Remove this category from the filter">Remove</a>-->
-                <xsl:value-of select="."/>
-              </dt>
-            </xsl:for-each>
-            <xsl:for-each-group select="//search-results/search-clauses-parameters/parameter" group-by=".">
-              <dt>
-                <!--<a href="#" title="Remove this category from the filter">Remove</a>-->
-                <xsl:value-of select="."/>
-              </dt>
-            </xsl:for-each-group>
-            <!--        <dd>
-              <ul>
-              <li>
-              <a href="#">
-              <span>Sub Term</span>
-              </a>
-              <ul>
-              <li>
-              <a href="#">
-              <span>Sub Sub Term</span>
-              </a>
-              <ul>
-              <li>
-              <span class="s02">Sub Sub Sub Term</span>
-              </li>
-              </ul>
-              </li>
-              </ul>
-              </li>
-              </ul>
-              </dd>-->
-            <!--<dt><a href="#" title="Remove this category from the filter">Remove</a>General and Abstract
-              Terms</dt>
-              <dd>
-              <ul>
-              <li>
-              <a href="#">
-              <span>Sub Term</span>
-              </a>
-              <ul>
-              <li>
-              <span class="s02">Sub Sub Term</span>
-              </li>
-              </ul>
-              </li>
-              </ul>
-              </dd>-->
-          </dl>
-        </div>
-        
-        
+
         <div class="facetPanel">
           <h3>Categories</h3>
           <dl>
@@ -149,7 +115,8 @@
     <ul>
       <xsl:for-each select="s:narrower/s:orderedCollection/s:memberList/s:Concept">
         <li>
-          <a href="add-browse-{$collection}?field={$col-key}-key&amp;value={encode-for-uri(@r:about)}&amp;display={encode-for-uri(@r:label)}&amp;pos=0">
+          <a
+            href="add-browse-{$collection}?field={$col-key}-key&amp;value={encode-for-uri(@r:about)}&amp;display={encode-for-uri(@r:label)}&amp;pos=0">
             <xsl:value-of select="@r:label"/>
           </a>
           <xsl:if test="s:narrower/s:orderedCollection/s:memberList/s:Concept">

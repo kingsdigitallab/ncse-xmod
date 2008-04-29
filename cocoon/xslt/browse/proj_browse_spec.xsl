@@ -40,6 +40,35 @@
 
     <div class="searchSummary">
       <div class="t01">
+        <div class="facetBrowseSummary">
+          <h3>Filtering by:</h3>
+          <dl>
+            <xsl:for-each select="//search-results/display-parameters/parameter">
+              <xsl:variable name="key" select="translate(substring-before(., '::'), '*', '')"/>
+              <dt>
+                <xsl:for-each
+                  select="//projAL//s:Concept[descendant-or-self::node()[@r:about = $key]]">
+                  <xsl:value-of select="@r:label"/>
+                </xsl:for-each>
+              </dt>
+            </xsl:for-each>
+            <xsl:for-each select="//search-results/search-clauses-parameters/parameter">
+              <xsl:variable name="key" select="substring-before(., '::')"/>
+              <dt>
+                <a
+                  href="remove-browse-{$collection}?clause={position()}"
+                  title="Remove this category from the filter">[Remove] </a>
+                <xsl:for-each
+                  select="//projAL//s:Concept[descendant-or-self::node()[@r:about = $key]]">
+                  <xsl:value-of select="@r:label"/>
+                  <xsl:if test="not(self::node()[@r:about = $key])">
+                    <xsl:text> > </xsl:text>
+                  </xsl:if>
+                </xsl:for-each>
+              </dt>
+            </xsl:for-each>
+          </dl>
+        </div>
         <!-- page navigation -->
         <div class="s02">
           <xsl:variable name="page-link">
