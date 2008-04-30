@@ -21,7 +21,7 @@
     <search-link><xsp:expr>request.getSession(false).getAttribute(NCSEIndexConstants.SEARCH_LINK)</xsp:expr></search-link>
     
     <xsp:logic>
-      int hits = IndexSearcherHelper.thesaurusSearch(request, request.getSession(false), context);
+      int hits = IndexSearcherHelper.browse(request, request.getSession(false), context);
     </xsp:logic>
     
     <xsp:expr>IndexSearcherHelper.getParameters(NCSEIndexConstants.DISPLAY_SEARCH_PARAMETERS, request.getSession(false), context)</xsp:expr>
