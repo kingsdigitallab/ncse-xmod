@@ -28,6 +28,6 @@
       }
     </xsp:logic>
     
-    <xsp:expr>IndexSearcherHelper.page(issue, 1, request.getSession(false), context)</xsp:expr>
+    <xsp:expr>IndexSearcherHelper.page(issue, 1, request, request.getSession(false), context)</xsp:expr>
   </search-results>
 </xsp:page>

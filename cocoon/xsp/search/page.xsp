@@ -32,6 +32,6 @@
     <xsp:expr>IndexSearcherHelper.getParameters(NCSEIndexConstants.SEARCH_CLAUSES_PARAMETERS, request.getSession(false), context)</xsp:expr>
     <xsp:expr>IndexSearcherHelper.getDocuments(request.getSession(false), context)</xsp:expr>
     <total><xsp:expr>IndexSearcherHelper.getHits(request.getSession(false), context)</xsp:expr></total>
-    <xsp:expr>IndexSearcherHelper.page(page, NCSEIndexConstants.RESULTS_PER_PAGE_DEFAULT, request.getSession(false), context)</xsp:expr>
+    <xsp:expr>IndexSearcherHelper.page(page, NCSEIndexConstants.RESULTS_PER_PAGE_DEFAULT, request, request.getSession(false), context)</xsp:expr>
   </search-results>
 </xsp:page>
