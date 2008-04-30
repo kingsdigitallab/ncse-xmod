@@ -40,9 +40,6 @@
           <xref from="search_entity" type="internal">Entity search</xref>
         </item>
         <item>
-          <xref from="search_thesaurus" type="internal">Thesaurus search</xref>
-        </item>
-        <item>
           <xref from="search_advanced" type="internal">Advanced search</xref>
         </item>
       </list>
