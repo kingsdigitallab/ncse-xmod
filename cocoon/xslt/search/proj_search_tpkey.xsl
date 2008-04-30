@@ -8,25 +8,10 @@
   <xsl:variable name="pagehead">
     <xsl:choose>
       <xsl:when test="$context-id = 'search_results'">
-        <xsl:variable name="rpp" select="number(20)" />
-        <xsl:variable name="page" select="//search-results/page:page/@current" />
-        <xsl:variable name="total" select="//search-results/total" />
-
         <div class="s01">
           <xsl:text>Search Results </xsl:text>
-          <xsl:value-of select="$page * $rpp - 19" />
-          <xsl:text> - </xsl:text>
-          <xsl:choose>
-            <xsl:when test="$page * $rpp > $total">
-              <xsl:value-of select="$total" />
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="$page * $rpp" />
-            </xsl:otherwise>
-          </xsl:choose>
-          <xsl:text> (of </xsl:text>
-          <xsl:value-of select="$total" />
-          <xsl:text>)</xsl:text>
+          <!-- util/result_tpl -->
+          <xsl:call-template name="results-of" />
         </div>
       </xsl:when>
       <xsl:when test="$context-id != 'view_issue'">

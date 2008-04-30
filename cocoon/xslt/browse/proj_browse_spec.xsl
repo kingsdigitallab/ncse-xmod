@@ -67,78 +67,14 @@
           </dl>
         </div>
         <!-- page navigation -->
+        <!-- util/result_tpl.xsl -->
         <div class="s02">
-          <xsl:variable name="page-link">
-            <xsl:value-of select="$collection" />
-            <xsl:text>-page</xsl:text>
-          </xsl:variable>
-          <xsl:if test="$total > $rpp">
-            <ul class="s01">
-              <xsl:for-each select="//page:page">
-                <xsl:variable name="current-page" select="number(@current)" />
-
-                <xsl:choose>
-                  <xsl:when test="page:link[@type = 'prev'][position() = last()]">
-                    <li>
-                      <a href="{$page-link}(1)">&#8249;&#8249; first</a>
-                    </li>
-                    <li>
-                      <a href="{$page-link}({page:link[@type = 'prev'][position() = last()]/@page})">&#8249; prev</a>
-                    </li>
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <li>
-                      <span class="s02">&#8249;&#8249; first</span>
-                    </li>
-                    <li>
-                      <span class="s02">&#8249; prev</span>
-                    </li>
-                  </xsl:otherwise>
-                </xsl:choose>
-
-                <xsl:for-each select="page:link[$current-page > number(@page)]">
-                  <li>
-                    <a href="{$page-link}({@page})">
-                      <xsl:value-of select="@page" />
-                    </a>
-                  </li>
-                </xsl:for-each>
-
-                <li>
-                  <span class="s02">
-                    <xsl:value-of select="$current-page" />
-                  </span>
-                </li>
-
-                <xsl:for-each select="page:link[number(@page) > $current-page]">
-                  <li>
-                    <a href="{$page-link}({@page})">
-                      <xsl:value-of select="@page" />
-                    </a>
-                  </li>
-                </xsl:for-each>
-
-                <xsl:choose>
-                  <xsl:when test="page:link[@type = 'next'][position() = 1]">
-                    <li>
-                      <a href="{$page-link}({page:link[@type = 'next'][position() = 1]/@page})">next &#8250;</a>
-                    </li>
-                    <li>
-                      <a href="{$page-link}({@total})">&#8250;&#8250; last</a>
-                    </li>
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <li>
-                      <span class="s02">next &#8250;</span>
-                    </li>
-                    <li>
-                      <span class="s02">&#8250;&#8250; last</span>
-                    </li>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:for-each>
-            </ul>
-          </xsl:if>
+          <xsl:call-template name="page-nav">
+            <xsl:with-param name="page-sub">
+              <xsl:value-of select="$collection" />
+              <xsl:text>-</xsl:text>
+            </xsl:with-param>
+          </xsl:call-template>
         </div>
       </div>
     </div>
@@ -149,24 +85,9 @@
           <xsl:for-each select="//search-results/hits/hit">
             <xsl:variable name="pos" select="@position" />
 
-            <li class="{if ($pos mod 2 = 0) then 'z02 s01' else 'z01 s01'}">
-              <xsl:variable name="entity" select="substring-after(substring-after(substring-after(substring-after(id, '-'), '-'), '-'), '-')" />
-              <xsl:variable name="path" select="escape-html-uri(replace(substring-before(id, concat('-', $entity)), '-', '/'))" />
-
-              <h3>
-                <xsl:value-of select="tei/bibl/title[@type = 'full-title']" />
-              </h3>
-
-              <ul class="s01">
-                <li class="s01">
-                  <a href="http://137.73.123.44/KingsCollege/Default.htm?href={$path}&amp;entityid={$entity}&amp;view=entity" target="_blank">
-                    <xsl:value-of select="id" />
-                  </a>
-                </li>
-                <li class="s02">
-                  <a href="view-issue({@position})">View all article data</a>
-                </li>
-              </ul>
+            <li class="{if ($pos mod 2 = 0) then 'z02' else 'z01'}">
+              <!-- util/result_tpl -->
+              <xsl:call-template name="hits-head-link" />
             </li>
           </xsl:for-each>
         </ul>

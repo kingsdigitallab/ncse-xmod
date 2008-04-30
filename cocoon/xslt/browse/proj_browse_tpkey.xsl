@@ -53,9 +53,6 @@
   </xsl:template>
 
   <xsl:template name="ctpl_pagehead">
-    <xsl:variable name="rpp" select="number(20)"/>
-    <xsl:variable name="page" select="//search-results/page:page/@current"/>
-    <xsl:variable name="total" select="//search-results/total"/>
 
     <div class="pageHeader">
       <div class="t01">
@@ -63,19 +60,8 @@
           <xsl:value-of select="$pagehead"/>
           <xsl:if test="contains($context-id, 'result')">
             <xsl:text>: </xsl:text>
-            <xsl:value-of select="$page * $rpp - 19"/>
-            <xsl:text> - </xsl:text>
-            <xsl:choose>
-              <xsl:when test="$page * $rpp > $total">
-                <xsl:value-of select="$total"/>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="$page * $rpp"/>
-              </xsl:otherwise>
-            </xsl:choose>
-            <xsl:text> (of </xsl:text>
-            <xsl:value-of select="$total"/>
-            <xsl:text>)</xsl:text>
+            <!-- util/result_tpl -->
+            <xsl:call-template name="results-of" />
           </xsl:if>
         </h1>
       </div>
