@@ -10,7 +10,7 @@
     <ul>
       <xsl:for-each select="//r:RDF/s:Concept">
         <li>
-          <a href="subject-{encode-for-uri(@r:about)}-{encode-for-uri(@r:label)}">
+          <a href="subject/{encode-for-uri(@r:about)}-{encode-for-uri(@r:label)}">
             <xsl:value-of select="@r:about" />
             <xsl:text>: </xsl:text>
             <xsl:value-of select="@r:label" />
@@ -24,7 +24,7 @@
     <ul>
       <xsl:for-each select="//r:RDF/s:Concept">
         <li>
-          <a href="image-{encode-for-uri(@r:about)}-{encode-for-uri(@r:label)}">
+          <a href="image/{encode-for-uri(@r:about)}-{encode-for-uri(@r:label)}">
             <xsl:value-of select="@r:label" />
           </a>
         </li>
@@ -54,7 +54,7 @@
               <xsl:variable name="key" select="substring-before(., '::')" />
               <dt>
                 <xsl:text>[</xsl:text>
-                <a href="remove-browse-{$collection}?clause={position()}" title="Remove this category from the filter">Remove</a>
+                <a href="remove?clause={position()}" title="Remove this category from the filter">Remove</a>
                 <xsl:text>] </xsl:text>
                 <xsl:for-each select="//projAL//s:Concept[descendant-or-self::node()[@r:about = $key]]">
                   <xsl:value-of select="@r:label" />
@@ -69,12 +69,12 @@
         <!-- page navigation -->
         <!-- util/result_tpl.xsl -->
         <div class="s02">
-          <xsl:call-template name="page-nav">
-            <xsl:with-param name="page-sub">
+          <xsl:call-template name="page-nav" />
+            <!--<xsl:with-param name="page-sub">
               <xsl:value-of select="$collection" />
               <xsl:text>-</xsl:text>
             </xsl:with-param>
-          </xsl:call-template>
+          </xsl:call-template>-->
         </div>
       </div>
     </div>
