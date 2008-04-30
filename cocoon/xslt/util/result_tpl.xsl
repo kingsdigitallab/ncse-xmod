@@ -2,13 +2,14 @@
 <!--
   SVN: $Id: proj_results_spec.xsl 1100 2008-04-29 13:25:06Z jvieira $
 -->
-<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns:page="http://apache.org/cocoon/paginate/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  
+<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns:page="http://apache.org/cocoon/paginate/1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
   <xsl:template name="results-of">
     <xsl:variable name="rpp" select="number(20)" />
     <xsl:variable name="page" select="//search-results/page:page/@current" />
     <xsl:variable name="total" select="//search-results/total" />
-    
+
     <xsl:value-of select="$page * $rpp - 19" />
     <xsl:text> - </xsl:text>
     <xsl:choose>
@@ -25,20 +26,15 @@
   </xsl:template>
 
   <xsl:template name="page-nav">
-    <xsl:param name="page-sub"/>
-
-    <xsl:variable name="rpp" select="number(20)"/>
-    <xsl:variable name="page" select="//search-results/page:page/@current"/>
-    <xsl:variable name="total" select="//search-results/total"/>
-    <xsl:variable name="page-link">
-      <xsl:value-of select="$page-sub"/>
-      <xsl:text>page</xsl:text>
-    </xsl:variable>
+    <xsl:variable name="rpp" select="number(20)" />
+    <xsl:variable name="page" select="//search-results/page:page/@current" />
+    <xsl:variable name="total" select="//search-results/total" />
+    <xsl:variable name="page-link">page</xsl:variable>
 
     <xsl:if test="$total > $rpp">
       <ul class="s01">
         <xsl:for-each select="//page:page">
-          <xsl:variable name="current-page" select="number(@current)"/>
+          <xsl:variable name="current-page" select="number(@current)" />
 
           <xsl:choose>
             <xsl:when test="page:link[@type = 'prev'][position() = last()]">
@@ -62,21 +58,21 @@
           <xsl:for-each select="page:link[$current-page > number(@page)]">
             <li>
               <a href="{$page-link}({@page})">
-                <xsl:value-of select="@page"/>
+                <xsl:value-of select="@page" />
               </a>
             </li>
           </xsl:for-each>
 
           <li>
             <span class="s02">
-              <xsl:value-of select="$current-page"/>
+              <xsl:value-of select="$current-page" />
             </span>
           </li>
 
           <xsl:for-each select="page:link[number(@page) > $current-page]">
             <li>
               <a href="{$page-link}({@page})">
-                <xsl:value-of select="@page"/>
+                <xsl:value-of select="@page" />
               </a>
             </li>
           </xsl:for-each>
@@ -103,24 +99,54 @@
       </ul>
     </xsl:if>
   </xsl:template>
-  
+
   <xsl:template name="hits-head-link">
+    <xsl:param name="show-article-link" select="true()" />
+
     <xsl:variable name="entity" select="substring-after(substring-after(substring-after(substring-after(id, '-'), '-'), '-'), '-')" />
     <xsl:variable name="path" select="escape-html-uri(replace(substring-before(id, concat('-', $entity)), '-', '/'))" />
-    
-    <h3>
-      <xsl:value-of select="tei/bibl/title[@type = 'full-title']" />
-    </h3>
-    
-    <ul class="s01">
-      <li class="s01">
-        <a href="http://137.73.123.44/KingsCollege/Default.htm?href={$path}&amp;entityid={$entity}&amp;view=entity" target="_blank">
-          <xsl:value-of select="id" />
-        </a>
-      </li>
-      <li class="s02">
-        <a href="view-issue({@position})">View all article data</a>
-      </li>
-    </ul>
+    <xsl:variable name="id" select="id" />
+
+    <xsl:for-each select="tei/bibl">
+      <h3>
+        <xsl:value-of select="title[@type = 'short-title']" />
+      </h3>
+
+      <ul class="s01">
+        <li class="s01">
+          <xsl:value-of select="title[@type = 'full-title']" />
+          <xsl:text> Vol. </xsl:text>
+          <xsl:value-of select="biblScope[@type = 'volume']" />
+          <xsl:text> No. </xsl:text>
+          <xsl:value-of select="biblScope[@type = 'number']" />
+          <xsl:text> Pp. </xsl:text>
+          <xsl:value-of select="biblScope[@type = 'page-start']" />
+          <xsl:text> of </xsl:text>
+          <xsl:value-of select="biblScope[@type = 'page-span']" />
+        </li>
+      </ul>
+      <ul class="s01">
+        <li class="s01">
+          <xsl:value-of select="biblScope[@type = 'price']" />
+          <xsl:if test="string(extent)">
+            <xsl:text>, </xsl:text>
+            <xsl:value-of select="extent" />
+          </xsl:if>
+        </li>
+      </ul>
+
+      <ul class="s01">
+        <li class="s02">
+          <a href="http://137.73.123.44/KingsCollege/Default.htm?href={$path}&amp;entityid={$entity}&amp;view=entity" target="_blank">
+            <xsl:value-of select="$id" />
+          </a>
+        </li>
+        <xsl:if test="$show-article-link = true()">
+          <li class="s02">
+            <a href="view-issue({@position})?format=full">View article full text</a>
+          </li>
+        </xsl:if>
+      </ul>
+    </xsl:for-each>
   </xsl:template>
 </xsl:stylesheet>
