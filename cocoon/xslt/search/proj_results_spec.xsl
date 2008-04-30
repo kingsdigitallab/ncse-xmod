@@ -90,7 +90,9 @@
             
             <li class="{if ($pos mod 2 = 0) then 'z02 s01' else 'z01 s01'}">
               <!-- util/result_tpl -->
-              <xsl:call-template name="hits-head-link" />
+              <xsl:call-template name="hits-head-link">
+                <xsl:with-param name="show-article-link" select="false()" />
+              </xsl:call-template>
 
               <ul class="s02">
                 <xsl:if test="data/semtags/semtag">
@@ -190,6 +192,30 @@
                     </dl>
                   </li>
                 </xsl:if>
+                <xsl:if test="data/images/image">
+                  <li>
+                    <dl>
+                      <dt>
+                        <xsl:text>Images </xsl:text>
+                        <dfn>
+                          <xsl:text>(</xsl:text>
+                          <xsl:value-of select="count(data/images/image)" />
+                          <xsl:text>)</xsl:text>
+                        </dfn>
+                      </dt>
+                      <xsl:for-each-group group-by="@key" select="data/images/image">
+                        <dd>
+                          <a href="add-search-clause?field=image-key&amp;value={encode-for-uri(@key)}&amp;display={@key}&amp;pos={$pos}">
+                            <xsl:value-of select="lower-case(.)" />
+                            <xsl:text> (</xsl:text>
+                            <xsl:value-of select="@count" />
+                            <xsl:text>)</xsl:text>
+                          </a>
+                        </dd>
+                      </xsl:for-each-group>
+                    </dl>
+                  </li>
+                </xsl:if>
               </ul>
             </li>
           </xsl:for-each>
@@ -220,7 +246,7 @@
               <xsl:variable name="current-page" select="@current" />
               <xsl:choose>
                 <xsl:when test="page:link[@type = 'prev'][position() = last()]">
-                  <a href="{$page-link}({page:link[@type = 'prev'][position() = last()]/@page})">&#8249;&#8249; prev article</a>
+                  <a href="{$page-link}({page:link[@type = 'prev'][position() = last()]/@page})?format=full">&#8249;&#8249; prev article</a>
                 </xsl:when>
                 <xsl:otherwise>
                   <span class="s02">&#8249;&#8249; prev article</span>
@@ -233,7 +259,7 @@
 
               <xsl:choose>
                 <xsl:when test="page:link[@type = 'next'][position() = 1]">
-                  <a href="{$page-link}({page:link[@type = 'next'][position() = 1]/@page})">next article &#8250;&#8250;</a>
+                  <a href="{$page-link}({page:link[@type = 'next'][position() = 1]/@page})?format=full">next article &#8250;&#8250;</a>
                 </xsl:when>
                 <xsl:otherwise>
                   <span class="s02">next article &#8250;&#8250;</span>
@@ -279,6 +305,16 @@
               <ul>
                 <span>Places</span>
                 <xsl:for-each-group group-by="@key" select="data/places/place">
+                  <li>
+                    <xsl:value-of select="." />
+                  </li>
+                </xsl:for-each-group>
+              </ul>
+            </xsl:if>
+            <xsl:if test="data/images/image">
+              <ul>
+                <span>Images</span>
+                <xsl:for-each-group group-by="@key" select="data/images/image">
                   <li>
                     <xsl:value-of select="." />
                   </li>
