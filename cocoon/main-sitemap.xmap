@@ -161,7 +161,7 @@
         <map:aggregate element="aggregation">
           <map:part src="cocoon:/coreAL" />
           <map:part element="projAL" src="{global:project-path}{global:project-alist}/image-refined.xml" />
-          <map:part src="cocoon:/thesaurus-search-xsp?field1Sel=image-key&amp;field1Key={1}&amp;field1Txt={2}" />
+          <map:part src="cocoon:/thesaurus-search-xsp?field1Sel=image-key&amp;field1Key={1}&amp;field1Txt={2}&amp;format=slim" />
         </map:aggregate>
         <map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
           <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
@@ -174,7 +174,7 @@
         <map:aggregate element="aggregation">
           <map:part src="cocoon:/coreAL" />
           <map:part element="projAL" src="{global:project-path}{global:project-alist}/subject-refined.xml" />
-          <map:part src="cocoon:/thesaurus-search-xsp?field1Sel=semtag-key&amp;field1Key={1}*&amp;field1Txt={2}" />
+          <map:part src="cocoon:/thesaurus-search-xsp?field1Sel=semtag-key&amp;field1Key={1}*&amp;field1Txt={2}&amp;format=slim" />
         </map:aggregate>
         <map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
           <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
