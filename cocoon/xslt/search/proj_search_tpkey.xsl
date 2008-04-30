@@ -40,7 +40,7 @@
           <div class="t01">
             <ul>
               <li>
-                <a href="page(1)">Back to search results</a>
+                <a href="page(1)">Back to results</a>
               </li>
             </ul>
           </div>
