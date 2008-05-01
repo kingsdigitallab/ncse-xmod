@@ -69,13 +69,13 @@
             <xsl:with-param name="page-sub" />
           </xsl:call-template>
           
-          
           <ul class="s02">
+            <xsl:variable name="search-link" select="//search-results/search-link" />
             <li>
-              <a href="refine-{//search-results/search-link}.html">Modify search</a>
+              <a href="refine-{$search-link}.html">Modify search</a>
             </li>
             <li>
-              <a href="{//search-results/search-link}.html">New search</a>
+              <a href="{$search-link}.html">New search</a>
             </li>
           </ul>
         </div>
