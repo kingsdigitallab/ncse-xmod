@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2
+  SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p5_5">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Paratextual Material</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
+                      <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                      <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+                  </address>
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-03-27</date>
+                <respStmt>
+                    <name>EL</name>
+                </respStmt>
+                <item>created file</item>
+            </change>
+
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <p>Serials are often imagined as neat series of issues, unfolding in a linear fashion
+                and gathered into volumes at fixed intervals. This impression is reinforced by the
+                way in which many serials survive in library archives: however, often material bound
+                into volumes hints at a different publishing history. On this page you can read more
+                about such material and what it means for the print culture of both the six titles
+                in <hi rend="bold">ncse</hi> and nineteenth-century print culture more broadly.</p>
+
+            <div>
+                <head>Multiple Editions</head>
+
+                <p>Two of our six publications published more than one edition per issue. The
+                    presence of multiples editions reminds us that although individual issues were
+                    marked with a date and an issue number, there might be more than one edition of
+                    them. This means that although the issues seem to indicate that they be placed
+                    in a series, with one issue per date of publication, to create such a series
+                    would involve a decision to choose one particular edition over another to
+                    represent that issue. Often the runs that appear as bound volumes (or indeed in
+                    digital editions) are composites, consisting of different editions with their
+                    differences effaced. In <hi rend="bold">ncse</hi> we have tried to maintain the
+                    distinction between editions and, although we have had to privilege one edition
+                    in our edition, we have made all the editions that we have located available to
+                    users. For more information on multiple editions, click <xref type="internal"
+                        from="p5_6">here</xref>.</p>
+            </div>
+
+            <div>
+                <head>Supplements</head>
+
+                <p>
+                    <hi>ncse </hi>contains a range of material that is supplementary to the dated
+                    and numbered issues that make up the majority of the runs of our six titles.
+                    These supplements include ‘extra’ issues, promotional material, coverage of
+                    special projects or, in some cases, whole new publications. Although the issue
+                    numbers and dates on individual issues indicate their primacy in the series,
+                    suggesting that they are the main constituents of a title, the presence of this
+                    other published material reminds us that the identity of a particular serial
+                    does not end with the dated and numbered issues. Rather, although supplements –
+                    as supplements – are in addition to the dated and numbered issues, they still
+                    remain constitutive parts of the content of the title: indeed, often they are
+                    explicitly extensions of it, permitting the text to extend beyond the boundaries
+                    of the single issue. Supplements may be gratis or priced. The impetus for their
+                    issue is varied, perhaps celebrating an internal anniversary (their first year),
+                    or a public event (the death of Wellington or the repeal of the Newspaper Tax)
+                    or a consumer/advertising opportunity, eg Christmas Books. </p>
+                <p>The economy that underpins serial production is one of space. Proprietors are
+                    selling printed paper, and the contents of these pages determines their
+                    financial return either by attracting readers or advertisers. The space
+                    available in a single issue of a serial was predicated on the size of the sheet
+                    of paper on which it was printed. If there was more content than space, after
+                    smaller fonts, editing, and layout had been tried, then another sheet would have
+                    to be used. This recourse was only open to papers that could afford it; the
+                    titles in <hi rend="bold">ncse</hi> mainly worked to a pre-determined length,
+                    and held back copy that could not be accommodated for the following issue. As
+                    paper was a major expense in any publishing enterprise, attracting tax until
+                    1861,it was in the interests of publishers to keep waste to a minimum. In the
+                        <title>Monthly Repository</title> we have supplements from volume three
+                    onwards, with none appearing between volume six and volume thirteen. However, we
+                    know from other runs than the British Library’s that there were supplements for
+                    these volumes. The most complete run of the <title>Monthly Repository
+                    </title>that we found during our research was the one held at the Bodleian, but
+                    even this had ‘To be preserved’ written in pencil above most of supplements,
+                    suggesting that some content may have been excised from it. </p>
+                <p>The <title>Monthly Repository’s</title> supplements were increasingly used to
+                    contain reports of the Unitarian Association. In February 1832 the main sections
+                    of the journal dealing directly with Unitarian affairs were published separately
+                    as the <title>Unitarian Chronicle</title>. In the very first article within the
+                        <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1832%2F02%2F01&amp;page=2&amp;entityid=Ar00100&amp;view=entity">
+                        <title>Unitarian Chronicle</title>
+                    </xref>, the links between the two titles were stressed: ‘The Editor has
+                    endeavoured to provide for preserving the continuity of this holy chain
+                    unbroken’, the editor writes, ‘The “Unitarian Chronicle” will also be the
+                    “Companion to the Monthly Repository”, uniform in its size, form, type, and
+                    paper, so as to preserve uniformity of general appearance.’ This would permit
+                    readers to ‘bind them up together’ if they so desired but, ‘Others will prefer
+                    collecting the intelligence by itself into volumes.’ There were benefits,
+                    therefore, in supplementarity: some readers might choose to consider the
+                        <title>Unitarian Chronicle </title>an extension of the <title>Monthly
+                        Repository</title>, others to treat them as distinct titles.</p>
+                <p>The <title>Unitarian Chronicle </title>also published supplements. In June 1832
+                    they published a 16pp supplement for 3d, i.e. the same size and price of the
+                    regular issues. In July the cover price of the regular issue was doubled, and a
+                    16pp supplement provided for ‘free’. These supplements were treated by the
+                    editor as extensions of the main issues: <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=SMRP%2F1832%2F06%2F01&amp;page=1&amp;view=document"
+                        >the first article in both begins mid sentence</xref>! The issue for July
+                    1832 attempts to regularize the situation, calling itself a ‘double number’ and
+                    begging the readers for forgiveness. However, the <title>Unitarian Chronicle
+                    </title>continues as a 32pp, 6d monthly from that issue onwards.</p>
+                <p>The <title>Northern Star</title>, as a weekly newspaper, did not publish many
+                    supplements. However, we do have an ‘Extraordinary’ number of the
+                        <title>Northern Star </title>published immediately after the West Riding
+                    Meeting on Hartshead Moor on <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=SNSS%2F1838%2F10%2F16&amp;page=1&amp;view=document"
+                        >Monday 15 October 1838</xref>. As the <title>Star </title>published its
+                    <xref type="internal" from="p5_6">multiple editions</xref> over a couple of days, it could
+                    respond in a fairly timely fashion to passing events, and incorporate any new
+                    material that it received. Issues of the <title>Northern Star </title>were dated
+                    on a Saturday, but (at least in 1840) publishing began on Wednesday and ended on
+                    Friday. Rather than wait until the next issue, which – if their publishing
+                    routine was the same in 1838 – would go to press only two days after the
+                    meeting, they instead rushed out a 2pp extra number in the afternoon of the
+                    meeting in order to make Monday night’s mail.</p>
+                <p>This is the only example of this we have in <title>Northern Star</title>,
+                    suggesting that the publication opted to use its editions to keep abreast of
+                    developments rather than rush out supplementary numbers that might not reach all
+                    its readers. However, the <title>Northern Star</title> did adopt a policy of
+                    issuing supplement portraits to entice readers to subscribe. These portraits
+                    were the subject of an exhibition at the National Portrait Gallery from August
+                    2006 to January 2007. We were aware of these portraits from our reading of the
+                        <title>Northern Star</title> but, as they were issued separately, they had
+                    not been preserved along with the run at the British Library. We took advantage
+                    of the exhibition to attempt to find as many of the portraits as possible and,
+                    with the co-operation of Rab MacGibbon, Malcolm Chase and Dorothy Thompson,
+                    succeeded in including fifteen portraits in our edition. However, before we
+                    could do this, we had to work out how to incorporate them. As they were not
+                    printed as part of the <title>Northern Star</title> and were not intended to be
+                    bound within volumes of the newspaper, we did not think we could treat them like
+                    the other supplements in <hi rend="bold">ncse</hi>. Although the portraits were
+                    announced with considerable fanfare in the paper, as they were steel engravings
+                    they were produced at a much slower rate than the paper itself. This meant that
+                    distribution of a particular portrait actually spanned several issues as it was
+                    distributed to different regions of the title’s readership. We could have
+                    included them in a ‘supplements’ folder, associating them with a volume rather
+                    than a particular issue, but we decided in the end to keep them separate from
+                    the Olive components of the resource. This allowed us to use <xref type="external" url="http://www.zoomify.com/">zoomify</xref>, permitting users to better
+                    appreciate their detail. For more about the portraits, and to view them, click
+                    <xref type="internal" from="p2_2">here</xref>.</p>
+                <p>The <title>Leader </title>published at least two supplements over its run. The
+                    first, a single, 12 page, gratis supplement 16 June 1855, was to accommodate
+                    book and theatre reviews. The reasons that prompted it are unstated, although it
+                    might have been one or some combination of the following: a response to the
+                    repeal of the Stamp Duty in May; and / or an attempt to foreground its claim to
+                    Literature on the occasion of its addition of a sub-title the following week, ‘A
+                    Political and Literary Review’. This acknowledgement of the increasing
+                    attractions of the <title>literary</title> market for serial publishers is
+                    similarly marked by <title>Chambers’s Journal</title>, another weekly, which
+                    changed its title in 1854 to signal its allocation of more space for serialised
+                    fiction, embraced in its subtitle’s reference to ‘Popular Literature’. The
+                    second, dated 14 April 1860, has a more explicit purpose. It was written in
+                    response to the controversy prompted by a pamphlet accusing life assurance
+                    companies of shady practices. What is notable about both of these supplements is
+                    the lack of textual evidence for them within the regular issue that they
+                    supposedly supplement. Without such evidence, it is difficult to state whether
+                    these two supplements are the only ones published in the <title>Leader</title>,
+                    or whether others were issued that we do not have.</p>
+                <p> Although the supplements discussed so far were issued on an occasional basis
+                    with regular issues, two of our supplements were published annually. The
+                        <title>English Catalogue of Books </title>is a list of all books published
+                    for the previous year, giving details of author, title, price, size and
+                    publisher. It also gives the month in which the book was published, allowing
+                    readers to cross reference the <title>English Catalogue </title>with the
+                        <title>Publishers’ Circular </title>to find out more information about its
+                    publication. The <title>English Catalogue</title>, then, functions as an index
+                    to the <title>Publishers’ Circular</title>. At 5s, it was only a shilling less
+                    than a year’s subscription to the <title>Publishers’ Circular</title> but, as
+                    the <title>Publishers’ Circular </title>did not publish an index, it was an
+                    invaluable resource for navigating its often bulky volumes. This supplement
+                    reflects the trade paper genre of the <title>Publishers’ Circular</title>, as
+                    the <title>Catalogue</title> functioned practically within the book trade, as
+                    well as an Index to its parent publication. </p>
+                <p>The other annual supplements that appear with <hi rend="bold">ncse</hi> are the
+                        <title>Tomahawk</title> almanacks. These were based upon
+                    <title>Punch</title>’s almanacks, published in the December of each year since
+                    1846. Like <title>Punch’s </title>almanacks, <title>Tomahawk’s</title> were a
+                    separate publication published in December. They cost 3d – a penny more than
+                    regular issues of the title – but contained five colour cartoons and many other
+                    engravings. It seems that the first almanack was more difficult to produce than
+                    ´ÁBeckett realized: advertisements for the almanack began to appear from the
+                    beginning of November onwards; in issue number 30 (30 November 1867) they give 5
+                    December as a publication date; but the almanack itself did not appear until the
+                    12 December.</p>
+                <p>Although some supplements were linked to the appearance of regular issues, the
+                    extraordinary issue of the <title>Northern Star</title> and the annual
+                    supplements of <title>Tomahawk </title>and <title>Publishers’ Circular
+                    </title>complicatethe publishing rhythms of their respective titles.
+                    Publications like the almanacks and the <title>English Catalogue </title>are
+                    like front and end matter, components that appear annually, punctuating the
+                    weekly series of regular issues. Such supplements demand that we reconsider what
+                    actually constitutes the titles. Supplements such as those to the June and July
+                    1832 issues of the <title>Unitarian Chronicle </title>seem to suggest that it is
+                    the regular dated and numbered issues that are the actual contents of the
+                    journal. However, the <title>Unitarian Chronicle </title>itself is a supplement
+                    to the <title>Monthly Repository</title>, positing an identity with it even
+                    while being issued separately from it. Finally, of course, there are the annual
+                    supplements whose appearance marks another manifestation of the serial: the
+                    volume. For further comments on how the different forms of serial texts guided
+                    our editorial strategy, click <xref type="internal" from="p5_2">here</xref>.</p>
+            </div>
+            <div>
+                <head>Wrappers </head>
+                <p>Most publications in the nineteenth century carried advertisements. However,
+                    advertisements were explicitly pejoratively connected with the material world of
+                    trade and commerce, and editors frequently grouped them together in order to
+                    separate them from other types of implicitly more elevated content. The most
+                    effective way of doing this was to print advertisements on an advertising
+                    wrapper that, because it consisted of pages outside the paginated letterpress
+                    that contained the content, was easily identifiable as separate from the ‘real’
+                    issue itself. Moreover, wrappers physically protected the content inside them
+                    from damage during distribution. Such publishing strategies legitimated the
+                    practice of those archivists who habitually stripped publications of advertising
+                    material prior to binding them for preservation in libraries and archives.
+                    Publishers themselves stripped them out for their annual or bi-annual
+                    publication of periodicals in volume form. Thinner copy reduced binding expenses
+                    and cover price. Yet wrappers, carrying the bulk of the advertising material so
+                    important for financing a publication, are crucial parts of the economy of
+                    serial publication. Arguably, for the original readers, information in
+                    advertising wrappers made up part of the news and interest of issues. Moreover,
+                    publishers and editors themselves often used wrappers to publish Addresses or
+                    Notes to their readers. The wrappers, therefore, contain vital historical
+                    information about the role of the serials in nineteenth-century commodity
+                    culture.</p>
+                <p>In <hi rend="bold">ncse</hi>we are lucky in that we have some of the wrappers for two of our
+                    weeklies, <title>Publishers’ Circular </title>and <title>Tomahawk</title>. The
+                        <title>Leader </title>also chooses to rearrange its advertising department
+                    into a wrapper in July 1858. In the issue for 17 July 1858 the editors insist
+                    that this move has been at the request of readers but note that such a move will
+                    make ‘the volume more convenient for binding’ while also ‘offering additional
+                    advantages to advertisers.’ Yet the layout of the wrapper in the <title>Leader
+                    </title>is different than the wrappers in <title>Tomahawk </title>or
+                        <title>Publishers’ Circular</title>. In both of those titles the wrapper has
+                    its own pagination and so doesn’t interfere with the page sequence that runs
+                    through all the regular issues in a volume. Equally, both titles make clear with
+                    a prominent masthead where the issue ‘proper’ begins. As you can see by clicking
+                    <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=LDR%2F1858%2F07%2F24&amp;page=1&amp;view=document"
+                        >here</xref> neither of these features are taken up in the <title>Leader</title> and, to
+                    make matters more complicated, its closing wrapper covers three pages while the
+                    opening – as one would expect – only covers two. This makes the
+                    <title>Leader</title> wrapper more like two sections of advertisements that open
+                    and close the issue, rather than a form of content that represents itself as
+                    being supplementary to it. To read more about how we incorporated wrappers
+                    within the edition click <xref type="internal" from="p5_2">here</xref>.</p>
+            </div>
+        </body>
+    </text>
+</TEI.2>
