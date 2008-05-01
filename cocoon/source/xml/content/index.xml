@@ -67,17 +67,88 @@
         rich, fully-searchable metadata attached to titles, volumes, issues, departments and
         articles within the edition.</p> <p>To browse or search the edition by image, subject, name or
       place, use the links above; to begin browsing and searching the journals themselves follow the
-      link below.</p>
+      link above.</p>
     
-      <div part="N" sample="complete" org="uniform">
-        <table type="logo">
-          <row>
-            <cell>
-              <xref type="external" url="http://137.73.123.44/kingscollege/" to="DITTO" from="ROOT" targOrder="U">
-                <figure url="olive"/>
-              </xref>
+      <div>
+        <div part="N" sample="complete" org="uniform">
+          <table type="logo">
+            <row>
+              <cell>
+                <xref type="external" url="http://www.ahrc.ac.uk/" to="DITTO" from="ROOT" targOrder="U">
+                  <figure url="ahrc_logo"/>
+                </xref>
+              </cell>
+              <cell>
+                <xref type="external" url="http://www.bl.uk/" to="DITTO" from="ROOT" targOrder="U">
+                  <figure url="bl_logo"/>
+                </xref>
+                
+              </cell>
+              <cell>
+                <xref type="external" url="http://www.bbk.ac.uk/" to="DITTO" from="ROOT" targOrder="U">
+                  <figure url="bbk"/>
+                </xref>
+                
+              </cell>
+              <cell>
+                <xref type="external" url="http://www.kcl.ac.uk/" to="DITTO" from="ROOT" targOrder="U">
+                  <figure url="kcl_logo"/>
+                </xref>
+                
+              </cell>
+              <cell>
+                <xref type="external" url="http://www.kcl.ac.uk/schools/humanities/cch" to="DITTO" from="ROOT" targOrder="U">
+                  <figure url="logoCch"/>
+                </xref>
+                
+              </cell>
+              <cell>
+                <xref type="external" url="http://www.olivesoftware.com/" to="DITTO" from="ROOT" targOrder="U">
+                  <figure url="olive"/>
+                </xref>
+                
+              </cell>
+            </row>
+          </table>
+        </div></div>
+      <div>
+        <div part="N" sample="complete" org="uniform">
+          <table type="logo">
+            <row>
+              <cell>
+                <xref type="external" url="http://www.bham.ac.uk/" to="DITTO" from="ROOT" targOrder="U">
+                  <figure url="birm-logo"/>
+                </xref>
+              </cell>
+              <cell>
+                <xref type="external" url="http://www.londonmet.ac.uk/thewomenslibrary/" to="DITTO" from="ROOT" targOrder="U">
+                  <figure url="wl_logo"/>
+                </xref>
+                
+              </cell>
+              <cell>
+                <xref type="external" url="http://www.npg.org.uk/live/index.asp" to="DITTO" from="ROOT" targOrder="U">
+                  <figure url="npg_logo"/>
+                </xref>
+                
+              </cell>
+              <cell>
+                <xref type="external" url="http://www.victorianperiodicals.com/series2/default.asp" to="DITTO" from="ROOT" targOrder="U">
+                  <figure url="waterloo_logo"/>
+                </xref>
+                
+              </cell>
+              <cell>
+                <xref type="external" url="http://www.ouls.ox.ac.uk/bodley" to="DITTO" from="ROOT" targOrder="U">
+                  <figure url="bod-t"/>
+                </xref>
+                
+              </cell>
               
-            </cell></row></table></div>
+            </row>
+          </table>
+        </div>
+      </div>
     </body>
   </text>
 </TEI.2>

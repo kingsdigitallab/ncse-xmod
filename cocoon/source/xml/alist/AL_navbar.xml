@@ -94,6 +94,19 @@
               <default ref="p5_3"/>
             </level02>
             <level02>
+              <label>Visual Material</label>
+              <default ref="p5_4"/>
+            </level02>
+            <level02>
+              <label>Paratextual Material</label>
+              <default ref="p5_5"/>
+            </level02>
+            <level02>
+              <label>Multiple Editions</label>
+              <default ref="p5_6"/>
+            </level02>
+            
+            <level02>
               <label>Metadata</label>
               <default ref="p5_11"/>
             </level02>

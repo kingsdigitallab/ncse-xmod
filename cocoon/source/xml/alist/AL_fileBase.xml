@@ -153,6 +153,18 @@
         <fileName>terminology</fileName>
         <fileTitle>Terminology</fileTitle>
       </item>
+      <item id="p5_4">
+        <fileName>visual</fileName>
+        <fileTitle>Visual Material</fileTitle>
+      </item>
+      <item id="p5_5">
+        <fileName>paratextual</fileName>
+        <fileTitle>Paratextual Material</fileTitle>
+      </item>
+      <item id="p5_6">
+        <fileName>multiple</fileName>
+        <fileTitle>Multiple Editions</fileTitle>
+      </item>
       <item id="p5_11">
         <fileName>metadata</fileName>
         <fileTitle>Metadata</fileTitle>
