@@ -102,6 +102,33 @@
         <xsl:apply-templates/>
       </xsl:otherwise>
     </xsl:choose>
+    
+    <!-- Back to top -->
+    
+      <xsl:if test="count(parent::body/div[not(child::div)]) >1 or count(parent::div[parent::body]/div) >1">
+        <xsl:choose>
+          <xsl:when test="parent::body and not(child::div)">
+            <div class="backToTop">
+              <div class="t01">
+                <a href="#mainContent">
+                  <span>Back to top</span>
+                </a>
+              </div>
+            </div>
+          </xsl:when>
+          <xsl:when test="parent::div[parent::body]">
+            <div class="backToTop">
+              <div class="t01">
+                <a href="#mainContent">
+                  <span>Back to top</span>
+                </a>
+              </div>
+            </div>
+          </xsl:when>
+          <xsl:otherwise/>
+        </xsl:choose>
+      </xsl:if>
+    
   </xsl:template>
 
 
@@ -1923,7 +1950,7 @@
     <xsl:choose>
       <!-- START First option: external urls -->
       <xsl:when test="@type='external' or @rend='external'">
-        <a href="{@url}">
+        <a href="{@url}" target="blank">
           <xsl:call-template name="extWindow"/>
           <xsl:apply-templates/>
         </a>
