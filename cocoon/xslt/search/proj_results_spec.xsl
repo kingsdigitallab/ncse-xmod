@@ -117,6 +117,8 @@
                         </dfn>
                       </dt>
                       <xsl:for-each-group group-by="@key" select="data/semtags/semtag">
+                        <xsl:sort select="lower-case(.)" />
+                        
                         <dd>
                           <a
                             href="add-search-clause?field=semtag-key&amp;value={encode-for-uri(@key)}&amp;display={lower-case(.)}&amp;pos={$pos}"
@@ -218,6 +220,8 @@
                         </dfn>
                       </dt>
                       <xsl:for-each-group group-by="@key" select="data/images/image">
+                        <xsl:sort select="lower-case(.)" />
+                        
                         <dd>
                           <a href="add-search-clause?field=image-key&amp;value={encode-for-uri(@key)}&amp;display={@key}&amp;pos={$pos}"
                             title="Refine results by adding this term to the search query">
@@ -269,7 +273,7 @@
               </xsl:choose>
 
               <a href="http://137.73.123.44/KingsCollege/Default.htm?href={$path}&amp;entityid={$entity}&amp;view=entity" target="_blank">
-                <xsl:text>view article</xsl:text>
+                <xsl:text>view article full text</xsl:text>
               </a>
 
               <xsl:choose>
@@ -290,6 +294,8 @@
               <ul>
                 <span>Subjects</span>
                 <xsl:for-each-group group-by="@key" select="data/semtags/semtag">
+                  <xsl:sort select="lower-case(.)" />
+                  
                   <li>
                     <xsl:value-of select="." />
                   </li>
@@ -330,6 +336,8 @@
               <ul>
                 <span>Images</span>
                 <xsl:for-each-group group-by="@key" select="data/images/image">
+                  <xsl:sort select="lower-case(.)" />
+                  
                   <li>
                     <xsl:value-of select="." />
                   </li>
