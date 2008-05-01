@@ -24,6 +24,7 @@
       try {
         issue = Integer.parseInt(parameters.getParameter("issue"));
       } catch (Exception e) {
+        issue = 1;
         e.printStackTrace();
       }
     </xsp:logic>
