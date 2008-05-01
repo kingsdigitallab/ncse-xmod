@@ -24,6 +24,7 @@
       try {
         page = Integer.parseInt(parameters.getParameter("page"));
       } catch (Exception e) {
+        page = 1;
         e.printStackTrace();
       }
     </xsp:logic>
