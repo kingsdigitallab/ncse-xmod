@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2
+  SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p5_4">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Visual Material</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
+                      <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                      <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+                  </address>
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-03-27</date>
+                <respStmt>
+                    <name>EL</name>
+                </respStmt>
+                <item>created file</item>
+            </change>
+
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <p>In a speech in January 2006 to the Oxford Media Convention, the then Secretrary of
+                State for Culture, Media and Sport, Tessa Jowell, making the case for media literacy
+                in an age of media convergence, argued:</p>
+            <p>I do not exaggerate when I say that media literacy in its widest sense is as
+                important to our development as was universal literacy in the 19th century. Then,
+                the written word was the only passport to knowledge. Now, there are many more.  And
+                the most insidious digital divide is between those equipped to understand that and
+                those who aren't.</p>
+            <p>Even accounting for political rhetoric, Jowell’s remarks reveal a common assumption:
+                that the nineteenth century was dominated by the word. However, a glance at the
+                front pages (not to mention the wrappers) of any of the titles in <hi rend="bold"
+                    >ncse</hi> reveals this assumption to be largely false. This page provides some
+                brief accounts of both the importance of visual material in nineteenth-century print
+                culture, and our treatment of it in <hi rend="bold">ncse</hi>.</p>
+
+            <div>
+                <head>Importance of the visual</head>
+                <p>Although Jowell is trying to claim that there is something distinctly
+                    twenty-first century about media literacy, this is clearly untrue.
+                    Nineteenth-century proprietors and editors were adept at using combinations of
+                    words, blank space and images to create distinct identities for their
+                    publications that engaged with social codes and attempted to interpellate groups
+                    of readers. Even an early, relatively austere unillustrated periodical such as
+                    the <title>Monthly Repository</title> employed a visual repertoire through its
+                    typography, graphic devices to separate departments and items, icons to indicate
+                    notes, and the way words were displayed on the page. For instance, issue no. 1
+                    of the <title>Monthly Repository</title>, from January 1806, has a variety of
+                    different sizes and formats of type; uses a range of icons to indicate
+                    footnotes, and breaks up its single block of text on page 49 into two columns.
+                    Although it never brought illustrations as such into its letterpress over its 32
+                    year run, the <title>Monthly Repository</title> did issue high quality portraits
+                    and other illustrations as annual supplements, often with instructions that they
+                    be bound in at the front of the volume (for instance see the ‘Memoir of the late
+                    Dr Cogan’ in vol. 14 (1819) <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1819%2F01%2F02&amp;page=5&amp;entityid=Ar00100&amp;view=entity"
+                        >here</xref>). Although the
+                        <title>Monthly Repository</title>, which began publication in 1806, predates
+                    the expansion of the illustrated press in the 1830s, its use of visual material
+                    demonstrates the popularity of prints for its readers. The high quality
+                    illustrations celebrate notable people and buildings within the periodical’s
+                    culture, while the way they were issued links them to its serial production.</p>
+                <p>The other five periodicals in <hi rend="bold">ncse</hi> all employ visual
+                    material in different ways. This is partly related to the changing economics of
+                    print production, which reconfigured the practical demands of getting images
+                    into letterpress. The economics of different modes of reproducing images are
+                    demonstrated in the <title>Northern Star</title>. Although not cheap because it
+                    paid the newspaper stamp tax, the <title>Northern Star</title> was aimed at a
+                    working class readership and produced as cheaply as possible. The most visually
+                    striking pages in its letterpress are those containing advertisements. For
+                    instance, the front pages of the first 60 issues of the <title>Northern
+                    Star</title> (roughly up until March 1839 with the preparation of the first
+                    Chartist petition) are devoted to six columns of advertisements. Each
+                    advertisement uses a different combination of type and space in order to
+                    distinguish itself visually from the others that surround it. Many, such as
+                    those for <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=NSS%2F1838%2F04%2F07&amp;page=1&amp;view=document"
+                        >Whitehead’s</xref> Tea and Coffee shop on Briggate in Leeds (just down the
+                    road from the <title>Northern Star’s</title> offices) are high quality and used
+                    for a number of issues. Others, such as the small woodcut for Batty’s <xref
+                        type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=NSS%2F1838%2F06%2F09&amp;page=1&amp;view=document"
+                        >Circus Royal</xref> appeared for only a handful of issues, before the
+                    circus moved on. </p>
+                <p>Although the <title>Northern Star </title>did include some images to accompany
+                    its articles, these tended to be quite crude woodcuts. In the early
+                    nineteenthcentury it was difficult to commission, design and execute a woodcut
+                    within weekly publishing rhythms. A good example of this is on the front page of
+                    the <title>Northern Star </title> vol. 5, <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=NSS%2F1842%2F08%2F20&amp;page=1&amp;view=document"
+                        >issue no. 249 (18??)</xref>. The first two editions of this issue feature a
+                    blank space where a woodcut was supposed to appear. The subsequent three
+                    editions all have the woodcut. In the white space there is an explanation as to
+                    why the woodcut does not appear. The editors had been promised it would arrive
+                    from London that morning, but it was not on the expected 6 am train. The editors
+                    claimed that readers of their first edition would be ‘naturally anxious to hear
+                    the news’ so would prefer an incomplete paper than a delayed but
+                    fully-illustrated one. Of course there may be other reasons to do with
+                    distribution and printing schedules that would make such a delay unaffordable,
+                    but that the space was set, and then kept available until the last moment, gives
+                    the front page a timeliness that emphasizes its news value. The space itself is
+                    particularly suggestive of the absent image: the retention of the title and the
+                    caption allows readers to appreciate what should have been there, and the space
+                    itself indicates its size. By signalling the absent image, the editors of the
+                        <title>Northern Star </title>demonstrate the expense they have gone to in
+                    order to produce the engraving (even thought it isn’t there), while sacrificing
+                    the space by not filling it with letterpress or advertisements. The space
+                    invites readers to imagine the absent image, especially as the other relevant
+                    components on the page – the tribute to Henry Hunt printed in the space usually
+                    reserved for the proprietor Fergus O’Connor in the first column, and the other
+                    cut showing Hunt in full flow with the Peterloo Massacre raging around him at
+                    the bottom – are present. Yet the white space reminds readers that this is an
+                    incomplete version of the Northern Star and that a different, more up-to-date
+                    version exists elsewhere. This white space, therefore, does not just represent
+                    an absent image, but also reminds us of the presence of its other editions.</p>
+                <p>Where the <title>Northern Star </title>was more successful was in issuing one-off
+                    engravings as supplements. Almost from the outset it issued fine steel
+                    engravings of notable figures to encourage a particular form of accessing the
+                    paper, subscriptions, and to create a sense of unity amongst the developing
+                    Chartist movement. For more on the portraits, and to see them, click <xref type="internal" from="p2_2">here</xref>. As steel engravings the portraits were difficult to produce in the
+                    necessary numbers. Although the <title>Northern Star</title> aggressively
+                    promoted the portraits, it was often forced to issue them on a regional basis
+                    over a period of weeks in order to meet demand. As the steel plates
+                    deteriorated, so did the quality of the portraits.</p>
+                <p>By the 1860s illustrated weekly journalism was well-established. The
+                        <title>Illustrated London News</title> and <title>Punch </title>appeared in
+                    1841 and 1842 respectively, demonstrating the possibility of high-quality,
+                    timely illustrated journalism. These respectable titles were joined, in 1845, by
+                    the <title>London Journal</title>, a more down-market illustrated weekly that
+                    obtained large sales combining illustration with serial fiction. Twenty years
+                    later <xref type="internal" from="p2_5">
+                        <title>Tomahawk</title>
+                    </xref> was set up as a direct rival to <title>Punch</title> and featured a
+                    large cut (either one or two pages) in every issue. These were engraved onto
+                    separate sheets and then bound into the issue. As the reverse side of the image
+                    was left blank, they could take up to four pages of a ten to twelve page issue.
+                    The images themselves were engraved by Matt Morgan to produce combinations of
+                    black and white line against a coloured ink wash. Each cut had a caption and was
+                    also often accompanied by a satirical article in the letterpress, creating a
+                    complex dialogue between the text and image across its pages.</p>
+                <p>Aside from the tomahawks that graced its masthead and leader, the large cuts were
+                    the only illustrative material to appear within <title>Tomahawk</title>.
+                    However, the journal was issued in an advertising wrapper that was marked by a
+                    striking title page. As you can see <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=TTW%2F1869%2F01%2F16&amp;page=1&amp;view=document"
+                        >here</xref> both the wrapper and the advertisements it
+                    contains are packed with images, creating a visually dense page in stark
+                    contrast to the sparse paginated letterpres. As a trade journal, the
+                        <title>Publishers’ Circular’s </title>entire complement of images is located
+                    in its advertisements. At the end of the century a mature market for the
+                    production, distribution, and preserving of images coupled with new technologies
+                    such as photo-mechanical reproduction made it much easier to print visual
+                    material. However, as the Christmas numbers of the <title>Publishers’s
+                    Circular</title> demonstrate, there was still a substantial demand for
+                    illustration. The Christmas number was published in the first week of December
+                    in addition to the two usual fortnightly issues that month. It was intended to
+                    showcase the illustrations that were to be printed in the Christmas numbers of
+                    the illustrated press, and the abundance of visual material that this brought
+                    into the issue also made it more attractive to advertisers. These issues were
+                    usually four or five times the length of a regular issue, and included
+                    separately paginated inserts of illustrations from the periodical press that was
+                    interleaved with the regular advertisement section.</p>
+                <p>As reading necessarily entails looking, the visual is a key component of any
+                    text. As the periodical and newspapers in <hi rend="bold">ncse </hi>demonstrate,
+                    visual material is not restricted to pictures. Although they did play a part in
+                    serials throughout the nineteenth century, other aspects such as mastheads,
+                    icons, typography and layout constitute the bulk of visual material in the
+                    press. The visual is not only a decorative addition to the textual content, but
+                    is the way in which that content is presented. As such, visual material is part
+                    of the content, structuring the ways in which it is encountered. It is through
+                    the combination of visual features, as well as what verbal text says, that
+                    individual issues posit an identity that can transcend their specific, dated
+                    material, linking them to the title as a whole.</p>
+
+            </div>
+            <div>
+                <head>Images in ncse</head>
+                <p>The predominant model for digitizing printed texts is to combine facsimile page
+                    images with a textual transcript, usually generated from optical character
+                    recognition (OCR). It is the OCR transcript that provides the searchable index
+                    to a digital resource, although this is usually complemented by other searches
+                    of the metadata. As search is essentially a textual procedure – searches work by
+                    looking for text strings that are similar to that proposed by a user – it is
+                    notoriously hard to include visual material within search engines. The most
+                    straightforward way of doing this is to include some sort of textual information
+                    along with the image that can be interrogated by a search engine. As this
+                    information is interpretive – it attempts to render the picture into words – it
+                    has to be entered by a human. Not only is this time-consuming but, as most
+                    digital resources tend to be top-down models, the process has to be carefully
+                    managed in order to standardize the judgements and control the vocabulary.</p>
+                <p>As mentioned above, there are lots of different types of visual material in <hi
+                        rend="bold">ncse</hi>. Although we recognized the importance of marking-up
+                    pictures, we also wanted to signal the other types of visual material and how
+                    they interact with each other. In the early stages of the project we attempted
+                    to delineate all the possible data structures in the edition, before analyzing
+                    them to work out which could be achieved with the resources available. Olive
+                    Software’s segmentation allowed us to decide what constituted an item, and our
+                    editorial policy, which recognized that issues are more than a series of
+                    articles, prompted us to identify any textual component on a page as a single
+                    item (for more on our editorial policy click <xref type="internal" from="p5_2"
+                        >here</xref>). This means that items could be mastheads, datelines or
+                    running heads as well as whole articles. Olive Software permits items to be one
+                    of three types: articles, advertisements or pictures. Where an item is a
+                    picture, we have marked it as such; where an item contains a picture (for
+                    instance a picture within an article), we have marked the picture as a picture
+                    and then embedded it within the item. This allows users to open the item as a
+                    whole in the component viewer or, if they only want to see the image, open the
+                    image without the accompanying text. The one place where this causes
+                    difficulties is in advertisements. As noted above, advertisements are often the
+                    most visually diverse portions of an issue. However, Olive’s software does not
+                    permit pictures to be embedded within advertisements. As we did not want to
+                    exclude this important source of visual material, we ensured that images within
+                    advertisements were marked up with image metadata. Although a search made from
+                    within the edition that is delimited to images will therefore exclude any images
+                    that appear in advertisements, browsing the image metadata will produce results
+                    from all the images in the edition, whether included in advertisements or
+                    articles. You can read more about our image metadata below.</p>
+                <p>Although our segmentation policy allowed us to recognize a more diverse
+                    repertoire of content than articles and images, we were restricted in the extent
+                    to which we marked them up. <hi rend="bold">ncse </hi>contains things like
+                    handwritten notes, newspaper stamps, library accession numbers, rules,
+                    ornaments, fingerposts, mastheads – all of which constitute visual material of
+                    one kind or another. These are segmented within the edition as items, formally
+                    recognizing that they are as much part of the issue as verbal contents and
+                    conventional images. We could have also chosen to label them with metadata,
+                    distinguishing them from each other and allowing them to be included within
+                    searches. However, because of the size of the edition we were restricted in the
+                    extent to which we could add metadata at item level and, after carefully
+                    considering the benefits to users, decided to treat these types of content in
+                    the same way as other items: i.e., with metadata that is inherited from higher
+                    levels in the <hi rend="bold">ncse</hi> structural hierarchy. For more about our
+                    metadata, click <xref type="internal" from="p5_11">here</xref>.</p>
+
+            </div>
+            <div>
+                <head>Image metadata in ncse</head>
+                <p>All of our images, whether part of articles, inserts into front matter, or
+                    appearing in advertisements, are labelled with image metadata and so can be
+                    searched and browsed. It is notoriously difficult to come up with a
+                    classificatory scheme for images. We considered adapting well-known schema such
+                    as <xref type="external" url="http://www.iconclass.nl/">Iconclass</xref> as a
+                    way of labelling images in a way that would be compatible with other projects.
+                    However, because Iconclass is designed to label works of art (predominantly from
+                    a Western tradition), there are large domains that it does not cover that are
+                    crucial for labelling the types of images in <hi>ncse</hi>. For instance, a
+                    large number of our images are within advertisements and are therefore usually
+                    representations of the goods that are advertised. As Iconclass tends towards the
+                    thematic (it is, after all intended to be an iconographic schema) it cannot
+                    provide terms to label, for instance, types of bookcase.</p>
+                <p>Many projects that work with images evaluate Iconclass as a possible schema. The
+                        <xref type="external" url="http://www.dmvi.cardiff.ac.uk/">Database of
+                        Mid-Victorian Woodcut Illustration</xref> (DMVI) considered a range of
+                    possible iconographic schema, before opting to design their own. As their
+                    resultant iconographic schema was a bespoke system designed to label
+                    illustrations in nineteenth-century periodicals, it was very close to our needs.
+                    The Project Director of DMVI, Julia Thomas, kindly allowed us to use their
+                    schema for ncse.. We adapted it by selecting its more descriptive categories ,
+                    and then tested them on different types of content in order to find any areas in
+                    which we needed to supplement them. It is a testament to their schema that even
+                    when a group of editorial assistants all worked on the same content, they came
+                    up with largely the same terms. You can read more about the DMVI schema <xref
+                        type="external" url="http://www.dmvi.cardiff.ac.uk/guide/iconography.html"
+                        >here</xref>.</p>
+                <p>As any markup of images is necessarily interpretive, it is a process that
+                    involves a great deal of human input. There are over 5000 individual images
+                    scattered throughout <hi rend="bold">ncse</hi>: although we knew where most were
+                    concentrated (for instance <title>Tomahawk’s</title> central cut; advertisements
+                    etc.) and could use Olive’s image search to find many of them, we still needed
+                    to scan every page and mark up each as it was found. As images do not produce
+                    legible OCR transcripts, it was possible to speed up this process by scanning
+                    the lists of item titles that populated the tables of components in the Olive
+                    Administrator Tool. As this was the tool though which we added most of the <xref
+                        type="internal" from="p5_11">metadata</xref>, it was a particularly
+                    convenient method for finding images. In order to ensure as much consistency as
+                    possible through the edition, we carried out extensive checking of image
+                    metadata, comparing different editorial assistants’ work and keeping a log of
+                    any decisions that were made. </p>
+
+            </div>
+        </body>
+    </text>
+</TEI.2>
