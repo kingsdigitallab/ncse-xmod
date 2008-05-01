@@ -147,12 +147,14 @@
       <ul class="s01">
         <li class="s02">
           <a href="http://137.73.123.44/KingsCollege/Default.htm?href={$path}&amp;entityid={$entity}&amp;view=entity" target="_blank">
-            <xsl:value-of select="$id" />
+            <xsl:text>View article full text</xsl:text>
           </a>
         </li>
         <xsl:if test="$show-article-link = true()">
           <li class="s02">
-            <a href="view-issue({@position})?format=full">View article full text</a>
+            <a href="view-issue({@position})?format=full">
+              <xsl:text>View extracted keywords</xsl:text>
+            </a>
           </li>
         </xsl:if>
       </ul>

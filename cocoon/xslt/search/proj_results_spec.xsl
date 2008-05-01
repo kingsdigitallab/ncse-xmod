@@ -15,13 +15,13 @@
             <dd>
               <xsl:for-each select="//search-results/display-parameters/parameter">
                 <xsl:variable name="par" select="." />
-                
+
                 <xsl:choose>
                   <xsl:when test="contains($par, '::')">
                     <xsl:value-of select="substring-after($par, '::')" />
                   </xsl:when>
                   <xsl:otherwise>
-                    <xsl:value-of select="." />                    
+                    <xsl:value-of select="." />
                   </xsl:otherwise>
                 </xsl:choose>
 
@@ -30,25 +30,35 @@
                 </xsl:if>
               </xsl:for-each>
             </dd>
+            <dt>You sorted by:</dt>
+            <dd>
+              <xsl:variable name="sort" select="substring-after(//search-results/parameters/parameter[starts-with(., 'sortBy:')], 'sortBy:')" />
+
+              <xsl:choose>
+                <xsl:when test="$sort = 'by-date'">date</xsl:when>
+                <xsl:when test="$sort = 'by-pub'">publication</xsl:when>
+                <xsl:otherwise>relevance</xsl:otherwise>
+              </xsl:choose>
+            </dd>
 
             <xsl:if test="//search-results/search-clauses-parameters/parameter">
               <dt>You refined by:</dt>
               <xsl:for-each select="//search-results/search-clauses-parameters/parameter">
                 <dd>
-                  <a href="remove-search-clause?clause={position()}">Remove</a>
+                  <a href="remove-search-clause?clause={position()}" title="Remove this filter">Remove</a>
                   <xsl:text> </xsl:text>
-                  
+
                   <xsl:variable name="par" select="." />
-                  
+
                   <xsl:choose>
                     <xsl:when test="contains($par, '::')">
                       <xsl:value-of select="substring-after($par, '::')" />
                     </xsl:when>
                     <xsl:otherwise>
-                      <xsl:value-of select="." />                    
+                      <xsl:value-of select="." />
                     </xsl:otherwise>
                   </xsl:choose>
-                  
+
                   <xsl:text> (chosen from: </xsl:text>
 
                   <!-- Floating results -->
@@ -68,11 +78,11 @@
           <xsl:call-template name="page-nav">
             <xsl:with-param name="page-sub" />
           </xsl:call-template>
-          
+
           <ul class="s02">
             <xsl:variable name="search-link" select="//search-results/search-link" />
             <li>
-              <a href="refine-{$search-link}.html">Modify search</a>
+              <a href="refine-{$search-link}.html" title="Alter search criteria">Modify search</a>
             </li>
             <li>
               <a href="{$search-link}.html">New search</a>
@@ -87,7 +97,7 @@
         <ul>
           <xsl:for-each select="//search-results/hits/hit">
             <xsl:variable name="pos" select="@position" />
-            
+
             <li class="{if ($pos mod 2 = 0) then 'z02 s01' else 'z01 s01'}">
               <!-- util/result_tpl -->
               <xsl:call-template name="hits-head-link">
@@ -109,7 +119,8 @@
                       <xsl:for-each-group group-by="@key" select="data/semtags/semtag">
                         <dd>
                           <a
-                            href="add-search-clause?field=semtag-key&amp;value={encode-for-uri(@key)}&amp;display={lower-case(.)}&amp;pos={$pos}">
+                            href="add-search-clause?field=semtag-key&amp;value={encode-for-uri(@key)}&amp;display={lower-case(.)}&amp;pos={$pos}"
+                            title="Refine results by adding this term to the search query">
                             <xsl:value-of select="lower-case(.)" />
                             <xsl:text> (</xsl:text>
                             <xsl:value-of select="@count" />
@@ -124,7 +135,7 @@
                   <li>
                     <dl>
                       <dt>
-                        <xsl:text>Names </xsl:text>
+                        <xsl:text>Persons </xsl:text>
                         <dfn>
                           <xsl:text>(</xsl:text>
                           <xsl:value-of select="count(data/names/name)" />
@@ -133,7 +144,8 @@
                       </dt>
                       <xsl:for-each-group group-by="@key" select="data/names/name">
                         <dd>
-                          <a href="add-search-clause?field=name&amp;value={encode-for-uri(@key)}&amp;display={@key}&amp;pos={$pos}">
+                          <a href="add-search-clause?field=name&amp;value={encode-for-uri(@key)}&amp;display={@key}&amp;pos={$pos}"
+                            title="Refine results by adding this term to the search query">
                             <xsl:value-of select="@key" />
                             <xsl:text> (</xsl:text>
                             <xsl:value-of select="@count" />
@@ -157,7 +169,8 @@
                       </dt>
                       <xsl:for-each-group group-by="@key" select="data/institutions/institution">
                         <dd>
-                          <a href="add-search-clause?field=institution&amp;value={encode-for-uri(@key)}&amp;display={@key}&amp;pos={$pos}">
+                          <a href="add-search-clause?field=institution&amp;value={encode-for-uri(@key)}&amp;display={@key}&amp;pos={$pos}"
+                            title="Refine results by adding this term to the search query">
                             <xsl:value-of select="@key" />
                             <xsl:text> (</xsl:text>
                             <xsl:value-of select="@count" />
@@ -181,7 +194,8 @@
                       </dt>
                       <xsl:for-each-group group-by="@key" select="data/places/place">
                         <dd>
-                          <a href="add-search-clause?field=place&amp;value={encode-for-uri(@key)}&amp;display={@key}&amp;pos={$pos}">
+                          <a href="add-search-clause?field=place&amp;value={encode-for-uri(@key)}&amp;display={@key}&amp;pos={$pos}"
+                            title="Refine results by adding this term to the search query">
                             <xsl:value-of select="@key" />
                             <xsl:text> (</xsl:text>
                             <xsl:value-of select="@count" />
@@ -205,7 +219,8 @@
                       </dt>
                       <xsl:for-each-group group-by="@key" select="data/images/image">
                         <dd>
-                          <a href="add-search-clause?field=image-key&amp;value={encode-for-uri(@key)}&amp;display={@key}&amp;pos={$pos}">
+                          <a href="add-search-clause?field=image-key&amp;value={encode-for-uri(@key)}&amp;display={@key}&amp;pos={$pos}"
+                            title="Refine results by adding this term to the search query">
                             <xsl:value-of select="lower-case(.)" />
                             <xsl:text> (</xsl:text>
                             <xsl:value-of select="@count" />
@@ -283,7 +298,7 @@
             </xsl:if>
             <xsl:if test="data/names/name">
               <ul>
-                <span>People</span>
+                <span>Persons</span>
                 <xsl:for-each-group group-by="@key" select="data/names/name">
                   <li>
                     <xsl:value-of select="." />
