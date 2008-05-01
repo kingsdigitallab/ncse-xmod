@@ -106,6 +106,7 @@
     <xsl:variable name="entity" select="substring-after(substring-after(substring-after(substring-after(id, '-'), '-'), '-'), '-')" />
     <xsl:variable name="path" select="escape-html-uri(replace(substring-before(id, concat('-', $entity)), '-', '/'))" />
     <xsl:variable name="id" select="id" />
+    <xsl:variable name="issue" select="@position" />
 
     <xsl:for-each select="tei/bibl">
       <h3>
@@ -152,7 +153,7 @@
         </li>
         <xsl:if test="$show-article-link = true()">
           <li class="s02">
-            <a href="view-issue({@position})?format=full">
+            <a href="view-issue({$issue})?format=full">
               <xsl:text>View extracted keywords</xsl:text>
             </a>
           </li>
