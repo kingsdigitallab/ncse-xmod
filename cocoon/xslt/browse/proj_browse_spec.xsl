@@ -65,6 +65,7 @@
               </dt>
             </xsl:for-each>
           </dl>
+          <h3>Sorted by relevance.</h3>
         </div>
         <!-- page navigation -->
         <!-- util/result_tpl.xsl -->
