@@ -39,33 +39,32 @@
 
     <div class="searchSummary">
       <div class="t01">
-        <div class="facetBrowseSummary">
-          <h3>Filtering by:</h3>
+        <div class="s01">
           <dl>
+            <dt>Filtering by:</dt>
             <xsl:for-each select="//search-results/display-parameters/parameter">
               <xsl:variable name="key" select="translate(substring-before(., '::'), '*', '')" />
-              <dt>
+              <dd>
                 <xsl:for-each select="//projAL//s:Concept[descendant-or-self::node()[@r:about = $key]]">
                   <xsl:value-of select="@r:label" />
                 </xsl:for-each>
-              </dt>
+              </dd>
             </xsl:for-each>
             <xsl:for-each select="//search-results/search-clauses-parameters/parameter">
               <xsl:variable name="key" select="substring-before(., '::')" />
-              <dt>
-                <xsl:text>[</xsl:text>
+              <dd>
                 <a href="remove?clause={position()}" title="Remove this category from the filter">Remove</a>
-                <xsl:text>] </xsl:text>
                 <xsl:for-each select="//projAL//s:Concept[descendant-or-self::node()[@r:about = $key]]">
                   <xsl:value-of select="@r:label" />
                   <xsl:if test="not(self::node()[@r:about = $key])">
                     <xsl:text> > </xsl:text>
                   </xsl:if>
                 </xsl:for-each>
-              </dt>
+              </dd>
             </xsl:for-each>
+            <dt>Sorted by: </dt>
+            <dd>Relevance</dd>
           </dl>
-          <h3>Sorted by relevance.</h3>
         </div>
         <!-- page navigation -->
         <!-- util/result_tpl.xsl -->
