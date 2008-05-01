@@ -354,25 +354,36 @@
 
     <xsl:variable name="cur-level" select="local-name()"/>
 
+    <xsl:variable name="count-li">
+      <xsl:text>i</xsl:text>
+      <xsl:value-of select="count(preceding-sibling::*) + 1"/>
+    </xsl:variable>
+
     <xsl:choose>
       <!-- first page in the level -->
       <xsl:when test="not(preceding-sibling::*[name() = $cur-level])">
         <xsl:attribute name="class">
           <xsl:value-of select="$first"/>
+          <xsl:text> </xsl:text>
+          <xsl:value-of select="$count-li"/>
         </xsl:attribute>
       </xsl:when>
       <!-- last page in the level -->
       <xsl:when test="not(following-sibling::*[name() = $cur-level])">
         <xsl:attribute name="class">
           <xsl:value-of select="$last"/>
+          <xsl:text> </xsl:text>
+          <xsl:value-of select="$count-li"/>
         </xsl:attribute>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:if test="string($norm)">
-          <xsl:attribute name="class">
+        <xsl:attribute name="class">
+          <xsl:if test="string($norm)">
             <xsl:value-of select="$norm"/>
-          </xsl:attribute>
-        </xsl:if>
+            <xsl:text> </xsl:text>
+          </xsl:if>
+          <xsl:value-of select="$count-li"/>
+        </xsl:attribute>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
