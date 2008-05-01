@@ -115,22 +115,31 @@
       <ul class="s01">
         <li class="s01">
           <xsl:value-of select="title[@type = 'full-title']" />
-          <xsl:text> Vol. </xsl:text>
-          <xsl:value-of select="biblScope[@type = 'volume']" />
-          <xsl:text> No. </xsl:text>
-          <xsl:value-of select="biblScope[@type = 'number']" />
-          <xsl:text> Pp. </xsl:text>
-          <xsl:value-of select="biblScope[@type = 'page-start']" />
-          <xsl:text> of </xsl:text>
-          <xsl:value-of select="biblScope[@type = 'page-span']" />
+
+          <xsl:if test="string(biblScope[@type = 'volume'])">
+            <xsl:text> Vol. </xsl:text>
+            <xsl:value-of select="biblScope[@type = 'volume']" />
+          </xsl:if>
+          <xsl:if test="string(biblScope[@type = 'number'])">
+            <xsl:text> No. </xsl:text>
+            <xsl:value-of select="biblScope[@type = 'number']" />
+          </xsl:if>
+          <xsl:if test="string(biblScope[@type = 'page-start'])">
+            <xsl:text> Page </xsl:text>
+            <xsl:value-of select="biblScope[@type = 'page-start']" />
+          </xsl:if>
         </li>
       </ul>
       <ul class="s01">
         <li class="s01">
-          <xsl:value-of select="biblScope[@type = 'price']" />
           <xsl:if test="string(extent)">
-            <xsl:text>, </xsl:text>
             <xsl:value-of select="extent" />
+            <xsl:text>. </xsl:text>
+          </xsl:if>
+          <xsl:if test="string(biblScope[@type = 'price'])">
+            <xsl:text>Price </xsl:text>
+            <xsl:value-of select="biblScope[@type = 'price']" />
+            <xsl:text>.</xsl:text>
           </xsl:if>
         </li>
       </ul>
