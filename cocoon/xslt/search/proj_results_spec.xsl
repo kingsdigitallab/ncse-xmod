@@ -80,7 +80,6 @@
           </xsl:call-template>
 
           <ul class="s02">
-            <xsl:variable name="search-link" select="//search-results/search-link" />
             <li>
               <a href="refine-search.html" title="Alter search criteria">Modify search</a>
             </li>
