@@ -109,6 +109,7 @@
     <xsl:variable name="issue" select="@position" />
 
     <xsl:for-each select="tei/bibl">
+      <xsl:variable name="page" select="biblScope[@type = 'page-start']" />
       <h3>
         <xsl:value-of select="title[@type = 'short-title']" />
       </h3>
@@ -125,9 +126,9 @@
             <xsl:text> No. </xsl:text>
             <xsl:value-of select="biblScope[@type = 'number']" />
           </xsl:if>
-          <xsl:if test="string(biblScope[@type = 'page-start'])">
+          <xsl:if test="string($page)">
             <xsl:text> Page </xsl:text>
-            <xsl:value-of select="biblScope[@type = 'page-start']" />
+            <xsl:value-of select="$page" />
           </xsl:if>
         </li>
       </ul>
@@ -147,8 +148,18 @@
 
       <ul class="s01">
         <li class="s02">
-          <a href="http://137.73.123.44/KingsCollege/Default.htm?href={$path}&amp;entityid={$entity}&amp;view=entity" target="_blank">
-            <xsl:text>View article full text</xsl:text>
+          <xsl:text>View facsimile: </xsl:text>
+          <a href="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href={$path}&amp;entityid={$entity}&amp;view=entity" target="_blank">
+            <xsl:text>item</xsl:text>
+          </a>
+          <xsl:text> | </xsl:text>
+          <a href="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href={$path}&amp;page={$page}&amp;view=document"
+            target="_blank">
+            <xsl:text>page</xsl:text>
+          </a>
+          <xsl:text> | </xsl:text>
+          <a href="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href={$path}&amp;page=1&amp;view=document" target="_blank">
+            <xsl:text>issue</xsl:text>
           </a>
         </li>
         <xsl:if test="$show-article-link = true()">
