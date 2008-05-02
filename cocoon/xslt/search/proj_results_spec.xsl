@@ -82,10 +82,10 @@
           <ul class="s02">
             <xsl:variable name="search-link" select="//search-results/search-link" />
             <li>
-              <a href="refine-{$search-link}.html" title="Alter search criteria">Modify search</a>
+              <a href="refine-search.html" title="Alter search criteria">Modify search</a>
             </li>
             <li>
-              <a href="{$search-link}.html">New search</a>
+              <a href="search.html">New search</a>
             </li>
           </ul>
         </div>
