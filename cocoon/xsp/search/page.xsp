@@ -16,8 +16,7 @@
   
   <search-results>
     <session-id><xsp:expr>request.getSession(false).getId()</xsp:expr></session-id>
-    <search-link><xsp:expr>request.getSession(false).getAttribute(NCSEIndexConstants.SEARCH_LINK)</xsp:expr></search-link>
-    
+
     <xsp:logic>
       int page = 1; 
       
