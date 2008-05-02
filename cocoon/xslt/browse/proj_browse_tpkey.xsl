@@ -36,17 +36,6 @@
   </xsl:template>
 
   <xsl:template name="ctpl_submenu">
-    <!--    <xsl:if test="$context-id = 'search_results'">
-      <div class="submenu">
-        <div class="t01">
-          <ul>
-            <li>
-              <a href="refine-{//search-results/search-link}.html">Modify search</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </xsl:if>-->
   </xsl:template>
 
   <xsl:template name="ctpl_pagehead">
