@@ -22,7 +22,11 @@
     <layout id="topNav">
       <navGroup>
         <level01>
-          <label>Access NCSE (Olive)</label>
+          <label>View</label>
+          <default type="external" ref="http://ncse-viewpoint.cch.kcl.ac.uk/"/>
+        </level01>
+        <level01>
+          <label>Search</label>
           <default type="external" ref="http://ncse-viewpoint.cch.kcl.ac.uk/"/>
         </level01>
       </navGroup>

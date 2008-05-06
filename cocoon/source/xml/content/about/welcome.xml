@@ -66,7 +66,96 @@
                         wood-engraved Illustration</xref>
                 </title> for our image metadata.</p>
                
-               
+            <div><head>Project Partners</head>
+                <div part="N" sample="complete" org="uniform">
+                    <table type="logo">
+                        <row>
+                            <cell>
+                                <xref type="external" url="http://www.ahrc.ac.uk/" to="DITTO" from="ROOT"
+                                    targOrder="U">
+                                    <figure url="ahrc_logo"/>
+                                </xref>
+                            </cell>
+                            <cell>
+                                <xref type="external" url="http://www.bl.uk/" to="DITTO" from="ROOT" targOrder="U">
+                                    <figure url="bl_logo"/>
+                                </xref>
+                                
+                            </cell>
+                            <cell>
+                                <xref type="external" url="http://www.bbk.ac.uk/" to="DITTO" from="ROOT"
+                                    targOrder="U">
+                                    <figure url="bbk"/>
+                                </xref>
+                                
+                            </cell>
+                            <cell>
+                                <xref type="external" url="http://www.kcl.ac.uk/" to="DITTO" from="ROOT"
+                                    targOrder="U">
+                                    <figure url="kcl_logo"/>
+                                </xref>
+                                
+                            </cell>
+                            <cell>
+                                <xref type="external" url="http://www.kcl.ac.uk/schools/humanities/cch" to="DITTO"
+                                    from="ROOT" targOrder="U">
+                                    <figure url="logoCch"/>
+                                </xref>
+                                
+                            </cell>
+                            <cell>
+                                <xref type="external" url="http://www.olivesoftware.com/" to="DITTO" from="ROOT"
+                                    targOrder="U">
+                                    <figure url="olive"/>
+                                </xref>
+                                
+                            </cell>
+                        </row>
+                    </table>
+                </div>
+            </div><div><head>Contributors</head>
+                <div part="N" sample="complete" org="uniform">
+                    <table type="logo">
+                        <row>
+                            <cell>
+                                <xref type="external" url="http://www.bham.ac.uk/" to="DITTO" from="ROOT"
+                                    targOrder="U">
+                                    <figure url="birm-logo"/>
+                                </xref>
+                            </cell>
+                            <cell>
+                                <xref type="external" url="http://www.londonmet.ac.uk/thewomenslibrary/" to="DITTO"
+                                    from="ROOT" targOrder="U">
+                                    <figure url="wl_logo"/>
+                                </xref>
+                                
+                            </cell>
+                            <cell>
+                                <xref type="external" url="http://www.npg.org.uk/live/index.asp" to="DITTO"
+                                    from="ROOT" targOrder="U">
+                                    <figure url="npg_logo"/>
+                                </xref>
+                                
+                            </cell>
+                            <cell>
+                                <xref type="external" url="http://www.victorianperiodicals.com/series2/default.asp"
+                                    to="DITTO" from="ROOT" targOrder="U">
+                                    <figure url="waterloo_logo"/>
+                                </xref>
+                                
+                            </cell>
+                            <cell>
+                                <xref type="external" url="http://www.ouls.ox.ac.uk/bodley" to="DITTO" from="ROOT"
+                                    targOrder="U">
+                                    <figure url="bod-t"/>
+                                </xref>
+                                
+                            </cell>
+                            
+                        </row>
+                    </table>
+                </div>
+            </div>
         </div>
             
             
