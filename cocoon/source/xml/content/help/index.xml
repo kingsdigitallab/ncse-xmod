@@ -37,12 +37,48 @@
       
       <text>
           <body>
+<div>
               
               <head>FAQ and Help</head>
+    <div>
+   <head>Search</head>
+    <div>
+              <p>Multiple terms entered into a single field are treated as boolean ANDs.
+</p>
+</div>
+<div><head>Fuzzy Searching</head>
+<p>The default search type is fuzzy - the user can select from the similarity dropdown list, or take the default value, 90%.  Selecting a lower percentage will increase the number of results returned, because the search engine will count 'fuzzier' or less exact matches as hits.
+</p>
+</div>
+<div><head>Wildcard/Stemming</head>
+<p> If the user enters a term with a wildcard, the term will be searched as a wildcard query.  To perform a single character wildcard search use the "?" symbol. To perform a multiple character wildcard search use the "*" symbol.  The single character wildcard search looks for terms that match that with the single character replaced. For example, to search for "text" or "test" you can use the search: te?t
+</p>
+<p>Multiple character wildcard searches looks for 0 or more characters. For example, to search for test, tests or tester, you can use the search: test*
+</p>
+<p>You can also use the wildcard searches in the middle of a term: te*t
+But, you cannot use a * or ? symbol as the first character of a search.</p>
+
+</div>
+<div>
+<head>Combined Searches</head>
+<p>A user may enter a term with a wildcard AND a term without into a single search field; these will be treated as separate queries (the term with operators as a wildcard query, and the one without as a "fuzzy" search).
+</p>
+</div>
+<div>
+<head>Search Results</head>
+<p>
+
+Users may refine a result set by selecting a semantic qualifier (names, persons, places, institutions, semantic tags, image metadata). Once selected, this term is added to the query as a boolean AND.
+</p>
+<p>Filters may be removed by clicking the 'remove' link next to a filter. 
+</p>
               
-              <p>please populate</p>
-              
-              
+</div>
+</div>
+ <div><head>Browse</head>
+     <p>Users may browse the controlled vocabularies for two keyword types: semantic tags, and image descriptors.</p>
+     </div>
+</div>              
               
               
               
