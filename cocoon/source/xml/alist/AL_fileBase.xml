@@ -42,10 +42,15 @@
         <fileName>technical</fileName>
         <fileTitle>Technical Introduction</fileTitle>
       </item>
-      <item id="p1_4">
+      <item id="p1_3">
+        <fileName>release</fileName>
+        <fileTitle>Release Notes</fileTitle>
+      </item>
+      
+      <!--<item id="p1_4">
         <fileName>contact</fileName>
         <fileTitle>Contact Us</fileTitle>
-      </item>
+      </item>-->
       <item id="p1_5">
         <fileName>feedback</fileName>
         <fileTitle>Feedback form</fileTitle>
@@ -54,6 +59,10 @@
         <fileName>thanks</fileName>
         <fileTitle>Thank you</fileTitle>
       </item>
+      <item id="p1_7">
+        <fileName>acknowledgements</fileName>
+      </item>
+      
     </group>
     <group default="p2_1" id="g2" level="2" parRef="p0">
       <groupHead>
@@ -145,6 +154,9 @@
         <fileName>index</fileName>
         <fileTitle>Editorial Commentary</fileTitle>
       </item>
+      <item id="p5_1">
+        <fileName>choice</fileName>
+      </item>
       <item id="p5_2">
         <fileName>editorial</fileName>
         <fileTitle>Editorial Decisions</fileTitle>
@@ -165,6 +177,19 @@
         <fileName>multiple</fileName>
         <fileTitle>Multiple Editions</fileTitle>
       </item>
+      <item id="p5_7">
+        <fileName>mining</fileName>
+      </item>
+      <item id="p5_8">
+        <fileName>runs</fileName>
+      </item>
+      <item id="p5_9">
+        <fileName>core</fileName>
+      </item>
+      <item id="p5_10">
+        <fileName>mapping</fileName>
+      </item>
+      
       <item id="p5_11">
         <fileName>metadata</fileName>
         <fileTitle>Metadata</fileTitle>
