@@ -39,7 +39,7 @@
 
 
         <body>
-            
+            <div>
                
                 <p>The addition of metadata to the contents of <hi>ncse </hi>was challenging. Not
                     only was there around 100,000 pages of content to which we had to add
@@ -390,7 +390,7 @@
                         tags for individual articles, which we then refined to present to users. For
                         a fuller account of this research click <xref type="internal" from="p5_7"
                             >here</xref>.</p>
-                </div>
+                </div></div>
             
         </body>
 
