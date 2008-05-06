@@ -239,12 +239,12 @@
   <!-- If top and bottom TOC content need to differ change in the separate templates above.  -->
 
   <xsl:template name="ctpl_toc">
-    <xsl:if test="text/body/div/head or text/front/div/head or text/back/div/head">
+    <xsl:if test="text/body/div/div/head or text/front/div/head or text/back/div/head">
       <div class="toc">
         <div class="t01">
           <h3>Document Contents</h3>
           <ul>
-            <xsl:for-each select="/aggregation/TEI.2/text/*/div/head">
+            <xsl:for-each select="/aggregation/TEI.2/text/*/div/div/head">
               <li>
                 <a href="#{generate-id()}">
                   <span>
