@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2
+  SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p5_10">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Concept Mapping</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
+                      <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                      <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+                  </address>
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-03-27</date>
+                <respStmt>
+                    <name>EL</name>
+                </respStmt>
+                <item>created file</item>
+            </change>
+
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+
+
+            <p>One of the original goals of <hi rend="bold">ncse</hi> was to map thematic content
+                across the edition. However, the edition was not chosen to be thematically coherent,
+                although biases are evident in the selection: click <xref type="internal"
+                    from="p5_1">here</xref> to read more). Rather, we wanted to demonstrate
+                connections that would inevitably occur among the contents of the titles. The
+                concept maps were to provide the means to trace these connections, offering an
+                alternative way of placing the titles within the culture that produced them.</p>
+            <p>Between April and August 2005 the research team met to begin building a concept map
+                for the edition. Taking a sample of each periodical in turn, the team tried to
+                identify key themes of the articles that each contained. As the series of meetings
+                progressed, we began to build up a vocabulary of possible concepts and grouped them
+                under main headings. As the concepts were derived from our readings of the serials,
+                they were expressed in the language used by our nineteenth-century actors. For the
+                concept map to be fully realized, we began to organize these nineteenth-century
+                concepts under terms that would be familiar to our users today. So, whereas the
+                Leader referred to the ‘woman question’ (for instance, <xref type="external"
+                    url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=LDR%2F1856%2F03%2F29&amp;page=15&amp;entityid=Ar01501&amp;view=entity"
+                    >here</xref>), we retained this term but placed it in a wider category of
+                ‘Gender’. In this way the concept map organized the thematic content according to
+                nineteenth-century categories, and then mapped these onto contemporary terms.</p>
+            <p>We developed some further principles to help us build the map, which related to our
+                understanding of the character of the software. Our map was constrained to three
+                levels, with the lowest (level three) the nineteenth-century term and the highest
+                (level one) a term recognizable to users. Neither the top or the bottom terms were
+                able to link horizontally: level three terms could only link to level two; and level
+                one could only link to level two. Level two terms were designed to gather together
+                level three terms, but also to provide more delimited categories than level one
+                terms. We permitted horizontal linking (i.e. connecting two level two concepts
+                together) as a way of bringing the two relationships together (i.e. the
+                relationships between nineteenth-century concepts and the relationship these have to
+                twenty-first century concepts), but found in practice that this was not necessary.</p>
+
+            <p>Even on the basis of six samples (one from each title) of two or three pages, the map
+                rapidly became very complex. In the seminars we modelled it using coloured pieces of
+                paper tacked on a whiteboard. We then used <xref type="external"
+                    url="http://cmap.ihmc.us/">cmap</xref> to model this electronically. To see the
+                map as a pdf document, click <xref type="redist" from="pdf/concept_map.pdf"
+                >here</xref>. We planned ultimately to render the map as a database, making it
+                easier to trace the connections between terms. However, in our final concept mapping
+                seminar, we began to appreciate how time-consuming it was to apply the map to the
+                serials. We were working with the Northern Star, a publication that consists of many
+                short articles with a few longer accounts of meetings, trials, and processions.
+                Short articles were difficult to characterize as they tended to be very oblique.
+                Recovering what they meant would involve a great deal of research. Although the
+                longer articles were easier to classify, they took longer to read. A further problem
+                was the repetition of terms. We found, particularly when working with the Northern
+                Star, that certain types of articles or departments always fell under the same
+                categories. As it was about this time when we began to appreciate the actual scale
+                of the edition, we were forced to re-evaluate the feasibility of marking-up content
+                by hand.</p>
+            <p>During discussions about the core (for more details about the core, click <xref type="internal"
+                from="p5_9">here</xref>) we remained committed to implementing some sort of concept mapping.
+                The core provided us with a delimited set of content upon which it was possible to
+                undertake hand mark-up. When we rejected the core, we also rejected any metadata
+                that would have to be applied by hand at item level, making concept mapping
+                impossible. Although we considered focusing on particular departments within issues
+                (for instance leading articles) as a way of providing a rationale for delimiting our
+                100,000pp of content, we were reluctant to privilege certain portions of issues at
+                the expense of others. Instead, we began to investigate what it was possible to
+                achieve using computational and statistical methods. UCREL’s (University Centre for
+                Computer Corpus Research on Language) semantic tagger (called USAS) was able to
+                produce from its own ontology lists of keywords, that attempted to indicate meanings
+                in an individual article. We had initially thought that these keywords might be
+                mapped to our concepts but, when we compared the two ontologies, we found the
+                significant differences to be at level three (the nineteenth-century level). The
+                semantic tagger uses the statistical occurrence and use of words to rank terms from
+                its hierarchy: this means that when we applied it to nineteenth-century material it
+                was attempting to process nineteenth-century language according to twenty-first
+                century parameters. There was thus no effective way to link the keywords to our
+                level three terms, which were nineteenth-century categories. We refined the keyword
+                lists produced by the semantic tagger and they appear as the ‘Subject’ metadata that
+                users can browse from the homepage or access for any items in the edition. To read
+                more about this, click <xref type="internal"
+                    from="p5_7">here</xref>.</p>
+
+
+
+
+
+
+
+
+        </body>
+    </text>
+</TEI.2>
