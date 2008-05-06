@@ -1702,7 +1702,25 @@
         <dl style="width: {$img-thm-width}px;">
           <dt style="height: {$img-max-height-thumb}px;">
             <!-- Full size popup -->
-            <a class="x87" href="{$img-path-full}">
+            <a class="x87">
+              <xsl:attribute name="href">
+              <xsl:choose>
+                <xsl:when test="ancestor::list[@rend='zoomify']">
+                  <xsl:text>zoomify/</xsl:text>
+                  <xsl:value-of select="$img-id" />
+                  <xsl:text>.html</xsl:text>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="$img-path-full" />
+                </xsl:otherwise>
+              </xsl:choose>
+              </xsl:attribute>
+              
+              <xsl:if test="ancestor::list[@rend='zoomify']">
+                <xsl:attribute name="rel">
+                  <xsl:text>zoomify</xsl:text>
+                </xsl:attribute>
+              </xsl:if>
               <span>&#160;</span>
               <!-- Thumbnail image -->
               <img src="{$img-path-thumb}">
