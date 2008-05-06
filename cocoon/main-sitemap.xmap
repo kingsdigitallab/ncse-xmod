@@ -9,6 +9,18 @@
 
   <map:pipelines>
     <map:pipeline type="noncaching">
+      <!-- Zoomify popup page -->
+      <map:match pattern="**/zoomify/*.html">
+        <map:generate src="{global:project-path}{global:project-materials}/index.xml" />
+        <map:transform src="xslt/util/zoomify.xsl" type="saxon">
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+          <map:parameter name="sm-context-id" value="zoomify-{2}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+    </map:pipeline>
+    
+    <map:pipeline type="noncaching">
       <!-- Search pages -->
       <map:match pattern="search/search.html">
         <map:aggregate element="aggregation">
