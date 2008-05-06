@@ -5,7 +5,7 @@
       <teiHeader status="new" type="text">
           <fileDesc>
               <titleStmt>
-                  <title>FAQ and Help</title>
+                  <title>Help</title>
                   
               </titleStmt>
               <publicationStmt>
@@ -37,17 +37,36 @@
       
       <text>
           <body>
-<div>
-              
-              <head>FAQ and Help</head>
+                       
+   <div>
+   <head>Keyword Search Tips</head>
+        <p>
+            The Keyword Repository allows users to search for keywords that have been assigned to items within <hi rend="bold">ncse</hi>
+            using a combination of controlled and free-text entry fields.  This section describes how to enter search terms and refine search queries, and how to
+            interpret and refine search results.
+        </p>
+       <p>
+           This section <hi rend="bold">does not</hi> describe how to search the full-text appearing within fascimiles.  For this information, please read: <xref  type="external" url="http://ncse-viewpoint.cch.kcl.ac.uk/Tips.htm">Advanced Search Tips</xref>           in the fascimile repository.
+       </p>
+       
+       <div><head>Free-text Entry Search Fields</head>
+           <p>Persons, places and institutions can be entered by selecting the entity type from the drop down menu of the corresponding field, 
+               and then keying in text (See example below).  Multi-word terms may be entered in full (e.g. John Smith), or in a partial form (e.g. Smith).
+           </p>
+           <p>[Insert Screenshot ]</p>
+           <p>Subject and Image descriptors are entered by selecting a controlled vocabulary from the drop down menu, and then selecting terms from the corresponding thesaurus, reached by clicking
+           the thesaurus icon: [insert icon] next to the input field.</p>
+           
     <div>
-   <head>Search</head>
-    <div>
-              <p>Multiple terms entered into a single field are treated as boolean ANDs.
-</p>
+        <head>Multiple Terms in One Search Box</head>
+        <p>Multiple terms typed into one search box are automatically interpreted as a Boolean AND.  If conducting
+            a Boolean search using different operators (e.g. OR, NOT), enter terms into separate search boxes </p>
+        
+             <p>[Insert John Smith Screen shot]</p>
+             
 </div>
-<div><head>Fuzzy Searching</head>
-<p>The default search type is fuzzy - the user can select from the similarity dropdown list, or take the default value, 90%.  Selecting a lower percentage will increase the number of results returned, because the search engine will count 'fuzzier' or less exact matches as hits.
+<div><head>Approximate Match Searching</head>
+<p>By default, queries using the free-text fields are compared to the keyword index based on an exact match match to the terms entered- the user can select from the similarity dropdown list, or take the default value, 90%.  Selecting a lower percentage will increase the number of results returned, because the search engine will count 'fuzzier' or less exact matches as hits.
 </p>
 </div>
 <div><head>Wildcard/Stemming</head>
@@ -75,10 +94,12 @@ Users may refine a result set by selecting a semantic qualifier (names, persons,
               
 </div>
 </div>
- <div><head>Browse</head>
+ </div>
+       
+       <div><head>Browsing Tips</head>
      <p>Users may browse the controlled vocabularies for two keyword types: semantic tags, and image descriptors.</p>
      </div>
-</div>              
+  
               
               
               
