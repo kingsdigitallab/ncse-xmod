@@ -5,7 +5,7 @@
     <teiHeader status="new" type="text">
         <fileDesc>
             <titleStmt>
-                <title>Multiple Editions</title>
+                <title>Multiple editions and nineteenth-century print culture</title>
 
             </titleStmt>
             <publicationStmt>
@@ -36,9 +36,9 @@
     </teiHeader>
 
     <text>
-        <body>
+        <body><div>
             <div>
-                <head>Multiple editions and nineteenth-century print culture</head>
+                
                 <p>When the research team began to look at the resource to create what we called
                     ‘snapshots’ of each of the six titles, we quickly discovered the extent to which
                     multiple editions had been bound in with the regular issues of the
@@ -312,7 +312,7 @@
                     suggesting that identical copy was being distributed across the country.
                     However, as these issues are not marked with an edition, we have no way of
                     determining if they are two editions, or simply copies.</p>
-            </div>
+            </div></div>
         </body>
     </text>
 </TEI.2>

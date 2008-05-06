@@ -118,7 +118,7 @@
 
   <text>
     <body>
-      <head>Conferences</head>
+      <div>
       <p>Over the course of <hi rend="bold">ncse</hi>, members of the team gave a number of papers
         about the project. Below is a list of the events at which papers were presented, along with
         links to the papers themselves:</p>
@@ -353,7 +353,7 @@
               Serials Edition</hi>'. This has been published <xref url="http://www.19.bbk.ac.uk/"
               >here</xref>.</p>
         </div>
-      </div>
+      </div></div>
     </body>
   </text>
 </TEI.2>
