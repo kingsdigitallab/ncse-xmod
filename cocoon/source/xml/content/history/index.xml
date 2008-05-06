@@ -39,7 +39,208 @@
 
 
         <body>
-            <p></p>
+            <p>This section of the site provides details about the history of <hi rend="bold"
+                >ncse</hi> from the commencement of the project grant in January 2005 to the launch
+                in May 2008.</p>
+            <list type="bulleted">
+                <item><xref type="internal" from="p6_1">Project team</xref></item>
+                <item>
+                    <xref type="internal" from="p6_2">Publications</xref>
+                </item>
+                <item>
+                    <xref type="internal" from="p6_3">Conferences</xref>
+                </item>
+                <item>
+                    <xref type="internal" from="p6_6"><hi rend="bold">ncse</hi> symposia</xref>
+                </item>
+                <item>
+                    <xref type="internal" from="p6_5">Publicity</xref>
+                </item>
+            </list>
+            <p>Below is a brief account of the history of the project. We will provide a fuller,
+                more reflective account of its history after the launch.</p>
+
+            <div>
+                <head>January to June 2005</head>
+                <p>This early period of the project was taken up with administrative tasks such as
+                    setting up the <hi rend="bold">ncse</hi> office at Birkbeck College, arranging
+                    facilities at the British Library, setting up the project website, and
+                    completing the Memorandum of Understanding between the project and the British
+                    Library. The research team completed snapshots of the six titles, filling in
+                    templates (click here to download a sample <xref type="redist"
+                        from="pdf/template.pdf">template</xref> [PDF file]) to familiarize ourselves
+                    with the titles, establish what was missing, and begin to identify relevant
+                    categories of data. After these had been completed, the team began a more
+                    thorough process of page turning the hard copy. On the basis of the snapshots
+                    and page turning, the British Library began to produce microfilm and the team
+                    approached other institutions to supplement its holdings.</p>
+                <p>The research team began to create profiles for each of the pages, marking up
+                    photocopies of pages to show which portions should be recognized and their
+                    relationship to each other. We also began to work on <xref type="internal"
+                        from="p5_10">concept mapping</xref> and the creation of advanced <xref
+                        type="internal" from="p5_11">metadata categories</xref>.</p>
+                <p>The team were successful in obtaining a place and funding for the NINES Summer
+                    Workshop, and began to put together the plans for the first of the <hi
+                        rend="bold">ncse</hi> symposia. They presented a paper for the Centre for
+                    Nineteenth-Century Studies at Birkbeck College.</p>
+                <p> At the end of June we met with representatives from Olive Software in London for
+                    the first time, allowing both parties to gain a sense of the technological
+                    requirements of the project.</p>
+            </div>
+            <div>
+                <head>June to December 2005</head>
+                <p>A follow-up visit to Olive Software in Israel by Harold Short gave the project
+                    team a better sense of the level of metadata and annotation that it would be
+                    possible to achieve. We reviewed the page turning exercise and used it to do
+                    some calculations to establish more precisely the size of the edition. Our
+                    estimate was that the edition, discounting any multiple editions, would total
+                    67,000pp. When multiple editions were included, we estimated that <hi rend="bold">ncse</hi> would contain 110,000pp.</p>
+                <p>We began to see the first pilots from Olive Software and entered into
+                    negotiations about the level of work that they could do on a project of this
+                    size. Their responses, and our own thoughts about including multiple editions,
+                    prompted us to devise a two-tier model we called the <xref type="internal" from="p5_9">'core'</xref>.</p>
+                <p>The research team continued to work on advanced metadata, compiling lists of data
+                    that might serve as authority lists. Work also continued on concept mapping, but
+                    was put on hold while we investigated alternative ways of implementing it in
+                    light of the size of the edition.</p>
+                <p>We received a set of tiff images from Olive Software created from the microfilm
+                    we had sent them from the British Library. The research team began to review
+                    these page images to ascertain their completeness and quality. Production of
+                    microfilm continued, particularly for portions of the edition not held by the
+                    British Library.</p>
+                <p>Plans continued to develop for the first <hi rend="bold">ncse</hi> symposia, to be held the
+                    following February. The members of the research team presented papers at various
+                    conferences and seminars and published a paper in <xref type="external" url="http://www.19.bbk.ac.uk/"><title>19</title></xref>, a new e-journal set up by the Centre for
+                    Nineteenth-Century Studies at Birkbeck College. The research team also moved
+                    offices within Birkbeck and relaunched the website.</p>
+            </div>
+            <div>
+                <head>January to June 2006</head>
+                <p>On reviewing the tiffs so far we found that many of the multiple editions had not
+                    been filmed. With the agreement of Olive and the British Library, the project
+                    team arranged for the missing content to be filmed and then incorporated with
+                    the digital material that had already been produced. The team then continued
+                    checking the tiffs, revising the estimate of the total number of pages
+                    (including multiples) to 100,000pp</p>
+                <p> After presenting the core at the first <hi rend="bold">ncse</hi> symposium, the project team
+                    and Olive Software began investigating the extent to which the entire 100,000pp
+                    edition could be segmented. Working with pilots produced by Olive Software, it
+                    was agreed that we would abandon the core model and segment the whole edition to
+                    item level, reconstituting the hierarchy between items and departments through
+                    metadata.</p>
+                <p>The team then stepped-up work on the metadata schema, taking advice from the Arts
+                    and Humanities Data Service and NINES. The team also began negotiating with the
+                    National Portrait Gallery to obtain copies of the <title>Northern Star</title>
+                    portraits.</p>
+            </div>
+            <div>
+                <head>July to December 2006</head>
+                <p>A workflow schedule and procedure for segmentation was agreed between the project
+                    team and Olive Software. This involved the team producing segmentation profiles
+                    that provided rule-sets for determining departments in each title, and then
+                    Olive producing a pilot showing how effectively these could be applied. Work was
+                    carried out on a title-by-title basis, beginning with the <title>Leader</title> in
+                    September. At this stage we were still using the tiff images as a corpus of
+                    content, with tiff numbers as a reference guide to content. However, we found
+                    that these tiff images had already been converted into pdfs (that corresponded
+                    with issues) and there was no way of mapping tiff number to pdf pages. As the
+                    pdfs were to become the content of the resource, we began to check them for
+                    accuracy.</p>
+                <p>The team met with Olive in October – a meeting that allowed the various parties
+                    to establish a good working relationship and clarify certain areas of the
+                    project. This was followed up through the instigation of weekly status calls
+                    between the postdoctoral research assistants and the project manager at Olive.
+                    These, and the relationship they fostered, helped us work through a number of
+                    problems that arose as we attempted to process the material. Work also continued
+                    on the metadata: with Olive we refined the bibliographic terms; and with Centre
+                    for Computing in the Humanities (CCH) at King’s we began research into text
+                    mining and concordances. The project team also worked more closely with Olive’s
+                    extant applications, and began to draft a specification for our own application. </p>
+                <p>The team gave a range of conference papers over the summer and began to plan the
+                    next <hi rend="bold">ncse</hi> symposium, this time to be held at CCH in February 2007.</p>
+            </div>
+            <div>
+                <head>January to June 2007</head>
+                <p>The team continued to work closely with Olive Software, checking pdf files,
+                    providing profiles, and evaluating the resulting pilots. This was complex,
+                    time-consuming work, involving a great deal of communication between the team
+                    and Olive. As part of this work, the team received training on Olive’s tools,
+                    allowing correction of processed material and addition of metadata to be carried
+                    out in London. The burden of correcting the errors in the content was also
+                    redistributed in order to speed things up, with more of the correction
+                    undertaken in London. With this in mind, the project began to recruit
+                    postgraduate editorial assistants. For the remainder of the project our workflow
+                    was:</p>
+                <p>Check pdfs &gt; send to Olive &gt; create segmentation profile for a
+                    title &gt; review sample of segmentation &gt; run segmentation on all
+                    pdfs for a title &gt; send segmented pdfs to <hi rend="bold">ncse</hi>
+                    &gt; correct segmentation &gt; send segmented pdfs to Olive &gt;
+                    output to produce xml &gt; send outputted material to <hi rend="bold"
+                    >ncse</hi> to be uploaded into application &gt; review</p>
+                <p>The second symposium took place in February, and we took the opportunity to do
+                    some initial research into what our users thought about the project. These
+                    results were useful in developing the specification for our application, and a
+                    more advanced user testing session was planned for September. The team continued
+                    to give papers and produced a chapter for an edited collection published in
+                    2008. Work began to plan the launch in May 2008.</p>
+                <p>The research team and the British Library worked to get new colour digital images
+                    of some of the badly reproduced <title>Tomahawk </title>images. These were
+                    inserted into the workflow when we began producing the segmentation profile for
+                        <title>Tomahawk</title>.</p>
+                <p>In May we saw the first mock-ups of Olive’s new Viewpoint application, with
+                    customization for <hi rend="bold">ncse</hi>. This was an exciting moment,
+                    especially as the processing picked up momentum. The team continued to work on
+                    advanced metadata, sourcing lists and producing training data for text
+                mining.</p>
+            </div>
+            <div>
+                <head>July to December 2007</head>
+                <p>This was the last portion of the project on which the two postdoctoral research
+                    assistants were formally employed. The processing of the material occupied most
+                    of the time but with the help of the editorial assistants to correct the
+                    original pdfs we made good progress on the remaining titles. In September
+                    representatives from Olive Software came to London to provide further training
+                    and discuss some of the details arising from processing and the implementation
+                    of <hi rend="bold">ncse</hi> content in their software. Shortly after the visit
+                    the project received the first version of Viewpoint, allowing content to be seen
+                    in the application for the first time. We invited members of the International
+                    Advisory Board and other interested parties to attend a user testing session
+                    based upon this application. The results were compiled and used to guide our
+                    work with Olive on customizing the application so that it matched both project
+                    requirements and the expectations of users.</p>
+                <p>The metadata schema was finalized and the fields supplied to Olive who
+                    implemented them in Viewpoint and their Content Administrator. The research team
+                    worked closely with CCH to develop the image metadata schema and the way in
+                    which it could be implemented in the edition. Work also advanced on the various
+                    advanced metadata fields. Training data was prepared for text mining,
+                    experiments were carried out for named entity extraction, and the team
+                    investigated various subject classification schemes and thesauruses.</p>
+                <p>By December the majority of <hi rend="bold">ncse</hi> was either on servers in London and
+                    working within the Olive interface, or due to be delivered soon. A visit to
+                    Olive by representatives of the project from CCH provided a better understanding
+                    of how the Olive components could be integrated with the interface to be built
+                    by the team. The full-time researcher left the project at this point, and
+                    although ncse had obtained an extension and was due to continue until June 2008,
+                    it was necessary to move the <hi rend="bold">ncse</hi> office from Birkbeck and take up
+                    residence at CCH. The team now was reconfigured, with the part-time researcher
+                    working closely with the Editorial Assistants, Olive, CCH and other members of
+                    the Research team. </p>
+            </div>
+            <div>
+                <head>January to May 2008</head>
+                <p>From January the Editorial Assistants added bibliographic and image metadata to
+                    the content as it was delivered from Olive. While this was being completed the
+                    team worked closely with Olive checking the resource and correcting any problems
+                    with either the content or the way it functioned. Work began on the structural
+                    design of the overall resource, particularly the ways in which the advanced
+                    metadata would be implemented and the Olive resource combined with the tools
+                    designed by CCH. Once the content was finalized and the metadata completed in
+                    April, the data was extracted from the edition and used to construct both the
+                    advanced browsing and search mechanisms, as well as the way results were
+                    returned. </p>
+                <p>As the launch drew closer the team worked hard to provide contextual material for
+                    the site while checking the functionality of the resource as a whole.</p>
+            </div>
         </body>
 
 

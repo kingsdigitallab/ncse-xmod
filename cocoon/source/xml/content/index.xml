@@ -37,44 +37,64 @@
     <body>
       <head>Home</head>
       <p>The Nineteenth-Century Serials Edition (<hi rend="bold">ncse</hi>) is a free, online
-        edition of six nineteenth-century periodicals and newspapers:</p>
-      <list type="bulleted">
-        <item>
-          <xref type="internal" from="p2_1"><title>Monthly Repository</title> (1806-1837) and <title>Unitarian Chronicle</title>
-            (1832-1833)</xref>
-        </item>
-        <item>
-          <xref type="internal" from="p2_2"><title>Northern Star</title> (1838-1852)</xref>
-        </item>
-        <item>
-          <xref type="internal" from="p2_3"><title>Leader</title> (1850-1860)</xref>
-        </item>
-        <item>
-          <xref type="internal" from="p2_4"><title>English Woman’s Journal</title> (1858-1864)</xref>
-        </item>
-        <item>
-          <xref type="internal" from="p2_5"><title>Tomahawk</title> (1867-1870)</xref>
-        </item>
-        <item>
-          <xref type="internal" from="p2_6"><title>Publishers’ Circular</title> (1880-1890)</xref>
-        </item>
-      </list>
-      <p><hi rend="bold">ncse</hi> includes full runs of the first five titles, and a decade only of
-        the <title>Publishers’ Circular</title>. Titles are represented as completely as possible, including
-        multiple editions, advertisements, wrappers, and supplements where we could find them.</p>
-      <p>The edition features full-page facsimiles and textual transcripts generated through OCR.
-        All six journals are segmented to article level, and can be downloaded freely. There is
-        rich, fully-searchable metadata attached to titles, volumes, issues, departments and
-        articles within the edition.</p> <p>To browse or search the edition by image, subject, name or
-      place, use the links above; to begin browsing and searching the journals themselves follow the
-      link above.</p>
-    
+        edition of six nineteenth-century periodicals and newspapers.</p>
+      <p> The edition is formed of two integrated components: a repository of full-page facsimiles
+        and textual transcripts generated through OCR and an index of semantic keywords generated
+        using data mining and natural language processing techniques. Both components of the system
+        are fully searchable and include rich, bibliographic metadata attached to titles, volumes,
+        issues, departments and articles within the edition. </p>
       <div>
+        <head>Titles in ncse</head>
+        <p><hi rend="bold">ncse</hi> includes full runs of the first five titles, and a decade only
+          of the <title>Publishers’ Circular</title>. Titles are represented as completely as
+          possible, including multiple editions, advertisements, wrappers, and supplements where we
+          could find them.</p>
+        <list type="bulleted">
+          <item>
+            <xref type="internal" from="p2_1"><title>Monthly Repository</title> (1806-1837) and
+                <title>Unitarian Chronicle</title> (1832-1833)</xref>
+          </item>
+          <item>
+            <xref type="internal" from="p2_2"><title>Northern Star</title> (1838-1852)</xref>
+          </item>
+          <item>
+            <xref type="internal" from="p2_3"><title>Leader</title> (1850-1860)</xref>
+          </item>
+          <item>
+            <xref type="internal" from="p2_4"><title>English Woman’s Journal</title>
+            (1858-1864)</xref>
+          </item>
+          <item>
+            <xref type="internal" from="p2_5"><title>Tomahawk</title> (1867-1870)</xref>
+          </item>
+          <item>
+            <xref type="internal" from="p2_6"><title>Publishers’ Circular</title> (1880-1890)</xref>
+          </item>
+        </list>
+        <p> All six journals are segmented to article level, and can be downloaded freely.</p>
+      </div>
+      <div>
+        <head>Using ncse</head>
+        <p>To begin reading and searching the full-text of articles in the edition, access the <xref
+            type="external" url="http://ncse-viewpoint.cch.kcl.ac.uk/">facsimile repository</xref>
+          directly.</p>
+        <p> You may also access items from all titles by <xref type="internal" from="p3"
+          >browsing</xref> or <xref type="internal" from="p4_0">searching</xref> the keyword index. </p>
+        <p>Both components may also be accessed via links in the top navigation of this page.</p>
+      </div>
+      <div>
+        <head>Beta Release</head>
+        <p>This is the <hi rend="bold">'beta' release</hi> of ncse and is subject to change. Corrections and improvements
+          to the site will be incorporated in Version 1.0, scheduled for delivery in [TBD]. For more
+          information, see our <xref type="internal" from="p1_7">Release Notes</xref> page.</p>
+      </div>
+      <div><head>Project Partners</head>
         <div part="N" sample="complete" org="uniform">
           <table type="logo">
             <row>
               <cell>
-                <xref type="external" url="http://www.ahrc.ac.uk/" to="DITTO" from="ROOT" targOrder="U">
+                <xref type="external" url="http://www.ahrc.ac.uk/" to="DITTO" from="ROOT"
+                  targOrder="U">
                   <figure url="ahrc_logo"/>
                 </xref>
               </cell>
@@ -82,73 +102,41 @@
                 <xref type="external" url="http://www.bl.uk/" to="DITTO" from="ROOT" targOrder="U">
                   <figure url="bl_logo"/>
                 </xref>
-                
+
               </cell>
               <cell>
-                <xref type="external" url="http://www.bbk.ac.uk/" to="DITTO" from="ROOT" targOrder="U">
+                <xref type="external" url="http://www.bbk.ac.uk/" to="DITTO" from="ROOT"
+                  targOrder="U">
                   <figure url="bbk"/>
                 </xref>
-                
+
               </cell>
               <cell>
-                <xref type="external" url="http://www.kcl.ac.uk/" to="DITTO" from="ROOT" targOrder="U">
+                <xref type="external" url="http://www.kcl.ac.uk/" to="DITTO" from="ROOT"
+                  targOrder="U">
                   <figure url="kcl_logo"/>
                 </xref>
-                
+
               </cell>
               <cell>
-                <xref type="external" url="http://www.kcl.ac.uk/schools/humanities/cch" to="DITTO" from="ROOT" targOrder="U">
+                <xref type="external" url="http://www.kcl.ac.uk/schools/humanities/cch" to="DITTO"
+                  from="ROOT" targOrder="U">
                   <figure url="logoCch"/>
                 </xref>
-                
+
               </cell>
               <cell>
-                <xref type="external" url="http://www.olivesoftware.com/" to="DITTO" from="ROOT" targOrder="U">
+                <xref type="external" url="http://www.olivesoftware.com/" to="DITTO" from="ROOT"
+                  targOrder="U">
                   <figure url="olive"/>
                 </xref>
-                
+
               </cell>
-            </row>
-          </table>
-        </div></div>
-      <div>
-        <div part="N" sample="complete" org="uniform">
-          <table type="logo">
-            <row>
-              <cell>
-                <xref type="external" url="http://www.bham.ac.uk/" to="DITTO" from="ROOT" targOrder="U">
-                  <figure url="birm-logo"/>
-                </xref>
-              </cell>
-              <cell>
-                <xref type="external" url="http://www.londonmet.ac.uk/thewomenslibrary/" to="DITTO" from="ROOT" targOrder="U">
-                  <figure url="wl_logo"/>
-                </xref>
-                
-              </cell>
-              <cell>
-                <xref type="external" url="http://www.npg.org.uk/live/index.asp" to="DITTO" from="ROOT" targOrder="U">
-                  <figure url="npg_logo"/>
-                </xref>
-                
-              </cell>
-              <cell>
-                <xref type="external" url="http://www.victorianperiodicals.com/series2/default.asp" to="DITTO" from="ROOT" targOrder="U">
-                  <figure url="waterloo_logo"/>
-                </xref>
-                
-              </cell>
-              <cell>
-                <xref type="external" url="http://www.ouls.ox.ac.uk/bodley" to="DITTO" from="ROOT" targOrder="U">
-                  <figure url="bod-t"/>
-                </xref>
-                
-              </cell>
-              
             </row>
           </table>
         </div>
       </div>
+      
     </body>
   </text>
 </TEI.2>
