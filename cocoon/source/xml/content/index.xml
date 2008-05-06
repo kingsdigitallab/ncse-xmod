@@ -35,8 +35,8 @@
 
   <text>
     <body>
-      <head>Home</head>
-      <p>The Nineteenth-Century Serials Edition (<hi rend="bold">ncse</hi>) is a free, online
+      
+      <div><p>The Nineteenth-Century Serials Edition (<hi rend="bold">ncse</hi>) is a free, online
         edition of six nineteenth-century periodicals and newspapers.</p>
       <p> The edition is formed of two integrated components: a repository of full-page facsimiles
         and textual transcripts generated through OCR and an index of semantic keywords generated
@@ -86,7 +86,7 @@
         <head>Beta Release</head>
         <p>This is the <hi rend="bold">'beta' release</hi> of ncse and is subject to change. Corrections and improvements
           to the site will be incorporated in Version 1.0, scheduled for delivery in [TBD]. For more
-          information, see our <xref type="internal" from="p1_7">Release Notes</xref> page.</p>
+          information, see our <xref type="internal" from="p1_3">Release Notes</xref> page.</p>
       </div>
       <div><head>Project Partners</head>
         <div part="N" sample="complete" org="uniform">
@@ -136,7 +136,7 @@
           </table>
         </div>
       </div>
-      
+      </div>
     </body>
   </text>
 </TEI.2>

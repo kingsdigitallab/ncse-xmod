@@ -42,11 +42,11 @@
             <file start="search_"/>
             <file start="p4_"/>
           </active>
-        </level01>    
+        </level01>
         <level01>
           <label>Help</label>
           <default ref="p8"/>
-        </level01>    
+        </level01>
       </navGroup>
     </layout>
 
@@ -72,13 +72,20 @@
               <default ref="p1_2"/>
             </level02>
             <level02>
-              <label>Contact us</label>
-              <default ref="p1_4"/>
+              <label>Release notes</label>
+              <default ref="p1_3"/>
             </level02>
+            
+            
             <level02>
-              <label>Feedback form</label>
+              <label>Contact us</label>
               <default ref="p1_5"/>
             </level02>
+<level02>
+              <label>Acknowledgements</label>
+              <default ref="p1_7"/>
+            </level02>
+
           </sub02>
         </level01>
         <level01>
@@ -87,8 +94,12 @@
           <active>
             <file start="p5"/>
           </active>
-          
+
           <sub02>
+            <level02>
+              <label>Choice of the Cluster</label>
+              <default ref="p5_1"/>
+            </level02>
             <level02>
               <label>Editorial Decisions</label>
               <default ref="p5_2"/>
@@ -109,14 +120,28 @@
               <label>Multiple Editions</label>
               <default ref="p5_6"/>
             </level02>
-            
             <level02>
+              <label>Text Mining</label>
+              <default ref="p5_7"/>
+            </level02>
+            <level02>
+              <label>Runs</label>
+              <default ref="p5_8"/>
+            </level02>
+            <level02>
+              <label>The Core</label>
+              <default ref="p5_9"/>
+            </level02>
+           <level02>
               <label>Metadata</label>
               <default ref="p5_11"/>
             </level02>
-            
+            <level02>
+              <label>Concept Mapping</label>
+              <default ref="p5_10"/>
+            </level02>
           </sub02>
-          
+
         </level01>
         <level01>
           <label>History of the Project</label>
@@ -133,9 +158,9 @@
               <label>Conferences</label>
               <default ref="p6_3"/>
             </level02>
-            
+
           </sub02>
-          
+
         </level01>
         <level01>
           <label>Reference</label>
@@ -155,9 +180,9 @@
             <level02>
               <label>Links</label>
               <default ref="p7_3"/>
-              </level02>
-            </sub02>
-      </level01>
+            </level02>
+          </sub02>
+        </level01>
       </navGroup>
       <heading>About the titles:</heading>
       <navGroup>
