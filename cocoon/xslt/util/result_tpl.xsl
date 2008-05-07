@@ -110,6 +110,7 @@
 
     <xsl:for-each select="tei/bibl">
       <xsl:variable name="page" select="biblScope[@type = 'page-start']" />
+      
       <h3>
         <xsl:value-of select="title[@type = 'short-title']" />
       </h3>
