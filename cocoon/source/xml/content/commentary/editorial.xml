@@ -41,7 +41,7 @@
         <body>
 
 
-           
+
 
 
             <p>
@@ -69,8 +69,7 @@
                     that might also be issued, involved a considerable transformation. Part of this
                     was the common practice of stripping out matter that pertains to the selling of
                     individual issues, most notoriously <ref target="adv">advertisements</ref>, but
-                    also <ref target="mul">multiple editions</ref>, supplements<hi rend="bold">
-                        [internal link]</hi>, and <ref target="wra">wrappers</ref>. Equally, just as
+                    also <ref target="mul">multiple editions</ref>, supplements, and <ref target="wra">wrappers</ref>. Equally, just as
                     a volume is something different than a combination of the year’s issues, so
                     issues are more than a series of articles. Items in the periodical and newspaper
                     press are remarkably diverse, including advertisements, filler, title pages and
@@ -180,15 +179,16 @@
                 <head>Structure of the Edition</head>
                 <p>In the early stages of the project we attempted to map all the types of data that
                     we felt were important and how they related to each other. Needless to say, this
-                    resulted in an incredibly complex map, which you can download <xref type="redist" from="pdf/data_map.pdf">here</xref>. While we were undertook this exercise, we were also working with
-                    Olive Software to investigate the degree of accuracy with which a computer
-                    program could identify units of content and their relationship according to a
-                    set of predefined rules. Although the system had some success distinguishing
-                    between items, we found that the typographic information in the original that
-                    dictated what an item was (and so how it related to other items) was not
-                    distinct enough and/or not consistent enough to be reliably detected by
-                    automatic processing. Considering both of these exercises, we decided to adopt a
-                    simple structure for ncse:</p>
+                    resulted in an incredibly complex map, which you can download <xref
+                        type="redist" from="pdf/data_map.pdf">here</xref>. While we were undertook
+                    this exercise, we were also working with Olive Software to investigate the
+                    degree of accuracy with which a computer program could identify units of content
+                    and their relationship according to a set of predefined rules. Although the
+                    system had some success distinguishing between items, we found that the
+                    typographic information in the original that dictated what an item was (and so
+                    how it related to other items) was not distinct enough and/or not consistent
+                    enough to be reliably detected by automatic processing. Considering both of
+                    these exercises, we decided to adopt a simple structure for ncse:</p>
                 <p>Edition &gt; title &gt; volume &gt; issue &gt; department
                     &gt; item</p>
                 <p>Not only was this an easy structure to model, but it was flexible enough to
@@ -217,12 +217,13 @@
                     constituted solely by the articles upon it: rather, it contains a range of items
                     including headlines, mastheads, lists of contents, advertisements, rules etc.
                     Isolating articles from this miscellaneous collection of content would privilege
-                    one type of material above another. Instead, we nominated <xref type="internal" from="p5_3"
-                        ><hi rend="italic">items</hi></xref>
-                    as our basic unit within the edition, and
-                    defined articles as one type of item amongst others. A department then would be
-                    a collection of items, most of which would be articles, but might also be
-                    headlines, advertisements, or other types of content.</p>
+                    one type of material above another. Instead, we nominated <xref type="internal"
+                        from="p5_3">
+                        <hi rend="italic">items</hi>
+                    </xref> as our basic unit within the edition, and defined articles as one type
+                    of item amongst others. A department then would be a collection of items, most
+                    of which would be articles, but might also be headlines, advertisements, or
+                    other types of content.</p>
                 <p>We investigated the potential for software to identify different items on a page
                     with a view to automating as much of the classification and subsequent
                     structuring into a hierarchy as possible. However, although some of these
@@ -253,8 +254,8 @@
                     issue, we identified which items – usually in this case a headline – signalled
                     the beginning of a department. These then appeared in the Table of Components,
                     and all the items that followed it were associated with that department. This
-                    structure was vital in order to allow us to populate the edition with<hi rend="bold"> metadata
-                    [internal link].</hi></p>
+                    structure was vital in order to allow us to populate the edition with <xref
+                        type="internal" from="p5_11">metadata</xref>.</p>
             </div>
 
             <div id="seg">
