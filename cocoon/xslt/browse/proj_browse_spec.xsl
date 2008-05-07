@@ -81,7 +81,7 @@
 
     <div class="resourceList">
       <div class="t02">
-        <ul>
+        <ul class="t01">
           <xsl:for-each select="//search-results/hits/hit">
             <xsl:variable name="pos" select="@position" />
 
