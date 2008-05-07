@@ -36,15 +36,15 @@
   <text>
     <body>
       
-      <div><p>The Nineteenth-Century Serials Edition (<hi rend="bold">ncse</hi>) is a free, online
+      <div>
+        <p>The Nineteenth-Century Serials Edition (<hi rend="bold">ncse</hi>) is a free, online
         edition of six nineteenth-century periodicals and newspapers.</p>
       <p> The edition is formed of two integrated components: a repository of full-page facsimiles
         and textual transcripts generated through OCR and an index of semantic keywords generated
         using data mining and natural language processing techniques. Both components of the system
         are fully searchable and include rich, bibliographic metadata attached to titles, volumes,
         issues, departments and articles within the edition. </p>
-      <div>
-        <head>Titles in ncse</head>
+      
         <p><hi rend="bold">ncse</hi> includes full runs of the first five titles, and a decade only
           of the <title>Publishers’ Circular</title>. Titles are represented as completely as
           possible, including multiple editions, advertisements, wrappers, and supplements where we
@@ -72,7 +72,7 @@
           </item>
         </list>
         <p> All six journals are segmented to article level, and can be downloaded freely.</p>
-      </div>
+      
       <div>
         <head>Using ncse</head>
         <p>To begin reading and searching the full-text of articles in the edition, access the <xref
