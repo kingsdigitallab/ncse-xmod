@@ -40,19 +40,20 @@
               
               <head>Browse Indexes</head>
               
-              <p>Browsing indexes have been created out the hierarchical schemes used to assign subject and image descriptors to items in
-                  the facsimile repository. To learn more about the process used to assign keywords, read the <xref type="internal" from="p1_2">Technical Introduction</xref>. For help using these indexes, please see the <xref type="internal" from="p8">Help</xref> page.</p>
+              <p>Browsing indexes have been created out the hierarchical schemes used to assign controlled subject and image descriptors to items in
+                  the facsimile repository. To learn more about the controlled vocabularies in use and the process used to assign keywords, read the <xref type="internal" from="p1_2">Technical Introduction</xref>. For help in using these indexes, please see the <xref type="internal" from="p8">Help</xref> page.</p>
               
               <p>To begin, choose a keyword type below:</p>
               
               <p>          
-              <xref from="browse_subject" type="internal">Subject</xref> - 
-               displays items with keywords assigned from the <title>UCREL Semantic Analysis System (USAS)</title>.
+              <xref from="browse_subject" type="internal">Subject</xref> 
+              
               </p>
-              <p><xref from="browse_image" type="internal">Image</xref> - displays items with keywords assigned from the <title>Database of Mid-Victorian Illustration taxonomy (DMVI)</title>
-                  </p>
+              <p><xref from="browse_image" type="internal">Image</xref>
+              </p>
+              
              
-              <p></p>
+              <p>To browse the titles by publication bibliographic information, please access the <xref  type="external" url="http://ncse-viewpoint.cch.kcl.ac.uk/Tips.htm">facsimile repository</xref>.</p>
               
               
               
