@@ -39,7 +39,7 @@
 
 
         <body>
-            <div><p>This section of the site provides details about the history of <hi rend="bold"
+            <p>This section of the site provides details about the history of <hi rend="bold"
                 >ncse</hi> from the commencement of the project grant in January 2005 to the launch
                 in May 2008.</p>
             <list type="bulleted">
@@ -59,7 +59,6 @@
             </list>
             <p>Below is a brief account of the history of the project. We will provide a fuller,
                 more reflective account of its history after the launch.</p>
-
             <div>
                 <head>January to June 2005</head>
                 <p>This early period of the project was taken up with administrative tasks such as
@@ -240,7 +239,7 @@
                     returned. </p>
                 <p>As the launch drew closer the team worked hard to provide contextual material for
                     the site while checking the functionality of the resource as a whole.</p>
-            </div></div>
+            </div>
         </body>
 
 

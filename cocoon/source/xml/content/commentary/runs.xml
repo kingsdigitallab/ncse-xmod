@@ -1,63 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TEI.2
   SYSTEM "../../../dtd/tei/cch_tei.dtd">
-  <TEI.2 id="p5_8">
-      <teiHeader status="new" type="text">
-          <fileDesc>
-              <titleStmt>
-                  <title>Runs</title>
-                  
-              </titleStmt>
-              <publicationStmt>
-                  <publisher>Centre for Computing in the Humanities, King's College London</publisher>
-                  <address>
+<TEI.2 id="p5_8">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Runs</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
                       <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
                       <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
                   </address>
-              </publicationStmt>
-              <sourceDesc default="NO">
-                  <p>No source: created in electronic format.</p>
-              </sourceDesc>
-          </fileDesc>
-          <encodingDesc>
-              <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
-          </encodingDesc>
-          <revisionDesc>
-              <change>
-                  <date>2008-03-27</date>
-                  <respStmt>
-                      <name>EL</name>
-                  </respStmt>
-                  <item>created file</item>
-              </change>
-              
-              
-          </revisionDesc>
-      </teiHeader>
-      
-      <text>
-          <body>
-              
-              
-              
-              <p>please populate</p>
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-          </body>
-      </text>
-  </TEI.2>
-  
-  
-  
-  
-  
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-03-27</date>
+                <respStmt>
+                    <name>EL</name>
+                </respStmt>
+                <item>created file</item>
+            </change>
+
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+           
+            <p>‘Runs’ refer to the successive numbers of a title which appear regularly, and have
+                usually survived in bound volumes in library collections. However, it is common that
+                the span of a serial’s life has a variety of markers which punctuate it, and
+                characterise it formally at particular tranches of its duration. For example, titles
+                are often divided into Series, described either by numbers (eg 1<hi
+                    rend="superscript">st</hi> Series, 2<hi rend="superscript">nd</hi> Series, 3<hi
+                    rend="superscript">rd</hi> Series) or by the term New Series (often abbreviated
+                ns). Runs sometimes have vertical additions to the succession of regular numbers;
+                these include supplements and/or multiple editions as are seen in this edition in
+                the <title>Northern Star</title> and the <title>Leader </title>(which have both), or in
+                the <title>Monthly Repository, </title>which allows a new title (the <title>Unitarian
+                    Chronicle</title>) to piggy-back on its monthly issues.</p>
+            <p>Readers of serials that have survived in volume form should be aware that volumes do
+                not necessarily reflect the run as it was initially published. If serial volumes are
+                compiled and bound by their original publishers, it is likely that covers,
+                advertising supplements or wrappers, and some other paratextual materials are
+                removed and/or excluded. Multiple editions of single issues do not normally appear
+                in such bound volumes. Other materials found in Volumes, such as Volume title pages,
+                Volume Tables of Content and/or Indexes are often additional or optional to
+                periodical issued over the year. </p>
+            <p>If runs are bound by libraries or individuals from single issues collected over the
+                run, then the contents of volumes may be more inclusive and variable. For example,
+                the British Library volumes of the <title>Northern Star </title>include multiple
+                editions, but in no clear or designated order; this is also the case with the
+                multiple editions of the <title>Leader</title> we include in <hi rend="bold">ncse</hi>, in which case it
+                can be seen how unsystematic the inclusion of two editions is. Apart from a short
+                period of just over two years, when the <title>Leader </title>had clearly designated
+                Town and Country editions, it is often difficult to know which edition is bound
+                first. With respect to the <title>Monthly Repository </title>its Supplement, the
+                    <title>Unitarian Chronicle, </title>was bound separately, and appears in the
+                British Library catalogue and on the shelves as an independent title, perhaps
+                because it did eventually break free of its host publication into independent
+                status. As it is, we are unclear whether the Unitarian Chronicle was ever sewn into
+                its host when they were originally circulated, or whether it was simply slipped in.
+                Moreover, binders in libraries or private persons sometimes place Tables of
+                Contents, illustrations and Indices in the wrong order in volumes, or attach them to
+                the wrong issues. We need to be aware that the representation of runs in bound
+                volumes represents convention, in the case of the publishers’ volumes, and to a
+                certain extent haphazard selection and order in the case of volumes bound
+                individually by libraries or readers.</p>
+            <p>Some specific positions in runs tend to be most informative about the nature of
+                titles and changes within them; these include the beginning of runs, when manifestos
+                are often reprinted (having appeared before launches as separate publications or as
+                announcements in other serials), and self-assessments are in evidence; often new
+                journals publish feedback in the form of snippets from reviews, attached to adverts
+                for the new title as quotations, or correspondence about the new publication. Such
+                reflexive material may also appear at the ends of runs, at anniversaries of the
+                launch, at the start of volumes or years, at the commencement of new series or on
+                the occasion of a change of title, both of which may themselves signal a change of
+                proprietor, editor and/or publisher.</p>
+            <p>Changes of title in runs of serials are commonplace, and often represent changes of
+                editorial policy and/or attempts to attract a different or broader readership. In
+                    <hi rend="bold">ncse</hi> in order to represent this dual state of change within continuity,
+                we have opted for a generic title (eg, the <title>Leader</title> or the <title>Northern
+                    Star)</title> to designate the complete run of each serial, and the specific,
+                historical titles that attach to individual issues, which record accurately as they
+                occur any changes in title. These are also signalled and discussed in head
+            notes.</p>
+        </body>
+    </text>
+</TEI.2>

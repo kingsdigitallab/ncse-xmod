@@ -36,7 +36,7 @@
     </teiHeader>
 
     <text>
-        <body><div>
+        <body>
             <p>In a speech in January 2006 to the Oxford Media Convention, the then Secretrary of
                 State for Culture, Media and Sport, Tessa Jowell, making the case for media literacy
                 in an age of media convergence, argued:</p>
@@ -294,7 +294,7 @@
                     metadata, comparing different editorial assistants’ work and keeping a log of
                     any decisions that were made. </p>
 
-            </div></div>
+            </div>
         </body>
     </text>
 </TEI.2>
