@@ -25,6 +25,8 @@
       <map:match pattern="search/search.html">
         <map:aggregate element="aggregation">
           <map:part src="cocoon:/coreAL" />
+          <map:part element="imagesAL" src="{global:project-path}{global:project-alist}/image-refined.xml" />
+          <map:part element="subjectsAL" src="{global:project-path}{global:project-alist}/subject-refined.xml" />
         </map:aggregate>
         <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
           <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
