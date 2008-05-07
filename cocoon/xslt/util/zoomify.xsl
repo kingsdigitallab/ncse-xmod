@@ -30,8 +30,8 @@
       <body id="xmd" class="v1 r3 pu">
         <div id="mainContent">
           <object type="application/x-shockwave-flash" data="http://137.73.123.18/zoomify/zoomifyViewer.swf" width="500" height="600">
-            <param name="movie" value="Assets/p/23/f/zoomifyViewer.swf"/>
-            <param name="FlashVars" value="/zoomified/{$file-id}/"/>
+            <param name="movie" value="http://137.73.123.18/zoomify/zoomifyViewer.swf"/>
+            <param name="FlashVars" value="zoomifyImagePath=http://137.73.123.18/ncse/liv/zoomify/{$file-id}/"/>
             <img src="noflash.gif" width="200" height="100" alt=""/>
           </object>
         </div>
