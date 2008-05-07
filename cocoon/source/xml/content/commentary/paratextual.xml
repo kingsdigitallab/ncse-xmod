@@ -36,7 +36,7 @@
     </teiHeader>
 
     <text>
-        <body><div>
+        <body>
             <p>Serials are often imagined as neat series of issues, unfolding in a linear fashion
                 and gathered into volumes at fixed intervals. This impression is reinforced by the
                 way in which many serials survive in library archives: however, often material bound
@@ -270,7 +270,7 @@
                     and close the issue, rather than a form of content that represents itself as
                     being supplementary to it. To read more about how we incorporated wrappers
                     within the edition click <xref type="internal" from="p5_2">here</xref>.</p>
-            </div></div>
+            </div>
         </body>
     </text>
 </TEI.2>

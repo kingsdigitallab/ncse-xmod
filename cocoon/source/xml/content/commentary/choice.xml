@@ -1,62 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TEI.2
   SYSTEM "../../../dtd/tei/cch_tei.dtd">
-  <TEI.2 id="p5_1">
-      <teiHeader status="new" type="text">
-          <fileDesc>
-              <titleStmt>
-                  <title>Choice of the cluster</title>
-                  
-              </titleStmt>
-              <publicationStmt>
-                  <publisher>Centre for Computing in the Humanities, King's College London</publisher>
-                  <address>
+<TEI.2 id="p5_1">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Choice of the cluster</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
                       <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
                       <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
                   </address>
-              </publicationStmt>
-              <sourceDesc default="NO">
-                  <p>No source: created in electronic format.</p>
-              </sourceDesc>
-          </fileDesc>
-          <encodingDesc>
-              <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
-          </encodingDesc>
-          <revisionDesc>
-              <change>
-                  <date>2008-03-27</date>
-                  <respStmt>
-                      <name>EL</name>
-                  </respStmt>
-                  <item>created file</item>
-              </change>
-              
-              
-          </revisionDesc>
-      </teiHeader>
-      
-      <text>
-          <body>
-              
-              
-              
-              <p>please populate</p>
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-          </body>
-      </text>
-  </TEI.2>
-  
-  
-  
-  
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-03-27</date>
+                <respStmt>
+                    <name>EL</name>
+                </respStmt>
+                <item>created file</item>
+            </change>
+
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+
+
+            <p>The selection of six titles for the ncse edition out of a possible 125, 000 estimated
+                to have been published in the period by John North (in the <xref type="external"
+                    url="http://www.victorianperiodicals.com">
+                    <title>Waterloo Directory</title>
+                </xref>) is by definition somewhat arbitrary. Several objectives governed our
+                choice. In so far as we were interested in the nature of the press itself and the
+                cluster of journals, we were keen to choose titles that represented a variety of
+                types of serial. We have included a newspaper as well as periodicals; frequencies
+                vary: monthly, weekly, and fortnightly; titles emanate from the North as well as the
+                South, and there are pictorial papers as well as non-illustrated titles. We have
+                also tried to gender the cluster, showing the masculinity of the majority of the
+                press and including an early feminist title.</p>
+            <p>The cluster comprises a selection of general periodicals, ‘class’ titles, and a trade
+                paper, and the trade is publishing. Moreover, we have selected titles that together
+                span the century, with a few overlaps. Many of these papers involve individual
+                figures – editors or journalists—whose names are still recognisable to students of
+                the nineteenth century: the Unitarian minister William J. Fox, the MP Feargus
+                O’Connor, the journalist George Henry Lewes, the female activists Jessie Bourcherett
+                and Emily Faithfull, and the a Becketts family of engravers. There is some range of
+                class, but what we have not included is the radical, cheap, unstamped or popular
+                press. Still, it is probably untrue that all of the <hi rend="bold">ncse</hi> titles
+                fall into what was called by contemporaries ‘the higher journalism’, as the
+                    <title>Northern Star</title>, steeped as it is in activist politics around the
+                Charter, is on the borders of the popular press, despite its high price.</p>
+            <p>These types of serial, in all their variety, attach to key strains of
+                nineteenth-century cultural life. Thus in the <title>Monthly Repository</title>
+                (1806-1837) we chose a theological/religious/philosophical journal, associated with
+                reform and vigorous debate around issues of belief. Our earliest title, it is
+                steeped in eighteenth-century models of organisation and notions of a community of
+                serial contributors, whereby letters from correspondents made up the copy in its
+                early period. The <title>Northern Star</title> (1837-1852), originally from Leeds,
+                is a weekly broadsheet newspaper, rooted in Chartism and political organisation
+                across the country; distributed partly at political meetings in a variety of urban
+                centres of industry, with its focus on parliamentary and social reform. The
+                    <title>Leader</title> (1850-1860) is a type of weekly newspaper, in three-column
+                folio, distinctive from the broadsheet example of the newspaper press as exemplified
+                by the <title>Northern Star</title>. Similarly committed to political reform, and
+                overlapping chronologically with the <title>Northern Star</title>, the
+                <title>Leader</title>, however, is open generally to exploration of radical reform
+                rather than focussed on a single extant campaign. It also contains a political front
+                and an arts back, in which literature, poetry and fiction appear, as well as reviews
+                of books, art, theatre and music. The <title>English Woman’s Journal</title> is a
+                monthly, and one of the earliest committed to women’s rights in the nineteenth
+                century, in particular to the education and employment of women. In so far as it was
+                published from early on by the Victoria Press, Emily Faithfull’s outfit that trained
+                women in aspects of the print trade, it also draws attention to the cultural
+                industry of serial production. The other point about the <title>English Woman’s
+                    Journal</title> is its link not with a formal issuing body, such as the
+                Unitarians, the SDUK, or the Chartists, but with a small group of political
+                activists, the Langham Place Group. <title>Tomahawk</title> is here as part of the
+                tradition of satirical, illustrated papers, a short-lived, more radical contemporary
+                of <title>Punch</title>, involving a family of former <title>Punch</title>
+                engravers.</p>
+            <p>It gives <hi rend="bold">ncse</hi> an opportunity to engage with the pictorial press. Lastly, we chose a
+                decade of the <title>Publishers’ Circular</title>, as a fortnightly trade paper, involved with
+                aspects of the industry responsible for the other titles in the project. We were
+                reluctant to include earlier issues of this publication, when it consisted largely
+                of advertisements, so we selected a decade towards the end of the century, when it
+                had begun to incorporate narrative commentary to accompany the elaborate map of the
+                industry represented by the advertisements, and which featured the seasonal
+                efflorescence of Christmas numbers. It also includes the most elaborate supplement
+                of all, the annual English Catalogue, which bears witness to the close relation
+                between the publication of serials and the book trade.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+        </body>
+    </text>
+</TEI.2>
