@@ -47,10 +47,10 @@
             </xsl:when>
             <xsl:otherwise>
               <li>
-                <span class="s02">&#8249;&#8249; first</span>
+                <span class="s01">&#8249;&#8249; first</span>
               </li>
               <li>
-                <span class="s02">&#8249; prev</span>
+                <span class="s01">&#8249; prev</span>
               </li>
             </xsl:otherwise>
           </xsl:choose>
@@ -83,15 +83,15 @@
                 <a href="{$page-link}({page:link[@type = 'next'][position() = 1]/@page})">next &#8250;</a>
               </li>
               <li>
-                <a href="{$page-link}({@total})">&#8250;&#8250; last</a>
+                <a href="{$page-link}({@total})">last &#8250;&#8250;</a>
               </li>
             </xsl:when>
             <xsl:otherwise>
               <li>
-                <span class="s02">next &#8250;</span>
+                <span class="s01">next &#8250;</span>
               </li>
               <li>
-                <span class="s02">&#8250;&#8250; last</span>
+                <span class="s01">last &#8250;&#8250;</span>
               </li>
             </xsl:otherwise>
           </xsl:choose>
@@ -110,9 +110,65 @@
 
     <xsl:for-each select="tei/bibl">
       <xsl:variable name="page" select="biblScope[@type = 'page-start']" />
-      
+
       <h3>
         <xsl:value-of select="title[@type = 'short-title']" />
+        
+        <xsl:if test="$show-article-link = false()">
+          
+          <xsl:for-each select="../../data">
+          <xsl:if test="semtags/semtag">
+            <span>
+              <xsl:text>Subjects </xsl:text>
+              <dfn>
+                <xsl:text>(</xsl:text>
+                <xsl:value-of select="count(semtags/semtag)" />
+                <xsl:text>)</xsl:text>
+              </dfn>
+            </span>
+          </xsl:if>
+          <xsl:if test="names/name">
+            <span>
+              <xsl:text>Persons </xsl:text>
+              <dfn>
+                <xsl:text>(</xsl:text>
+                <xsl:value-of select="count(names/name)" />
+                <xsl:text>)</xsl:text>
+              </dfn>
+            </span>
+          </xsl:if>
+          <xsl:if test="institutions/institution">
+            <span>
+              <xsl:text>Institutions </xsl:text>
+              <dfn>
+                <xsl:text>(</xsl:text>
+                <xsl:value-of select="count(institutions/institution)" />
+                <xsl:text>)</xsl:text>
+              </dfn>
+            </span>
+          </xsl:if>
+          <xsl:if test="places/place">
+            <span>
+              <xsl:text>Places </xsl:text>
+              <dfn>
+                <xsl:text>(</xsl:text>
+                <xsl:value-of select="count(places/place)" />
+                <xsl:text>)</xsl:text>
+              </dfn>
+            </span>
+          </xsl:if>
+          <xsl:if test="images/image">
+            <span>
+              <xsl:text>Images </xsl:text>
+              <dfn>
+                <xsl:text>(</xsl:text>
+                <xsl:value-of select="count(images/image)" />
+                <xsl:text>)</xsl:text>
+              </dfn>
+            </span>
+          </xsl:if>
+          </xsl:for-each>
+        </xsl:if>
       </h3>
 
       <ul class="s01">
@@ -154,7 +210,8 @@
             <xsl:text>item</xsl:text>
           </a>
           <xsl:text> | </xsl:text>
-          <a href="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href={$path}&amp;page={$page}&amp;view=document"
+          <a
+            href="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href={$path}&amp;page={biblScope[@type = 'page-internal']}&amp;view=document"
             target="_blank">
             <xsl:text>page</xsl:text>
           </a>
