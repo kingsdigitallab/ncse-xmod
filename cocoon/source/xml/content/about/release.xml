@@ -38,8 +38,8 @@
     <text>
         <body>
 
-
-            <p>This is the <hi rend="bold">'beta' release</hi> of ncse and is subject to change. Corrections and
+            <head>13 May 2008</head>
+            <p>This is the <hi rend="bold">'beta'</hi> release of ncse and is subject to change. Corrections and
                 improvements to the site will be incorporated in Version 1.0, scheduled for delivery
                 in []. </p>
             <p>Expected improvements include: </p>
@@ -49,7 +49,7 @@
                 <item>Inclusion within the keyword repository of additional materials from the corpus, and</item>
                 <item>Improved integration between the keyword and facsimile repositories.</item>
             </list>
-            <p>As we tailor and improve these services we invite you to participate in a and comments are welcome through our <xref type="internal" from="p1_5">Feedback form</xref>.</p>
+            <p>As we tailor and improve these services we invite your comments through our <xref type="internal" from="p1_5">Feedback form</xref>.</p>
 
 
 
