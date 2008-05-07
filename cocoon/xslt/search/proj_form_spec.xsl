@@ -14,7 +14,7 @@
             <ol>
               <li class="clfx-b">
                 <fieldset class="f05 n01">
-                  <legend>Primary Search Criteria</legend>
+                  <legend>Keywords</legend>
                   <label for="field1Sel">Search in:</label>
                   <select id="field1Sel" name="field1Sel">
                     <xsl:call-template name="tpl-entity-select">
@@ -54,7 +54,6 @@
                        />
                     </xsl:call-template>
                   </select>
-                  <label class="s02" for="field2Txt">(optional)</label>
                 </fieldset>
               </li>
               <li class="clfx-b">
@@ -76,16 +75,21 @@
 
                   <input class="f01 s01" id="field3Txt" name="field3Txt" onchange="document.forms.frmSearch.field3Key.value = '';" readonly="readonly"
                     type="text" value="Filled from Thesaurus" />
-                  <a class="s01"
-                    href="javascript:openThesaurus(document.forms.frmSearch.field3Sel.options[document.forms.frmSearch.field3Sel.selectedIndex].value);"
-                    title="Look up a search term in the thesaurus">
+                  <a class="s01" href="#" title="Look up a search term in the thesaurus">
                     <span>Thesaurus...</span>
                   </a>
                 </fieldset>
               </li>
+              <!-- Thesaurus -->
+              <li class="s02">
+                <xsl:call-template name="tpl-thesaurus-subject" />
+              </li>
+              <li class="s02">
+                <xsl:call-template name="tpl-thesaurus-image" />
+              </li>
               <li class="clfx-b">
                 <fieldset class="f05 n03">
-                  <legend>Tertiary + 1 Search Criteria</legend>
+                  <legend>Forth Search Criteria</legend>
                   <select id="booleanOp4Sel" name="booleanOp4Sel">
                     <xsl:call-template name="tpl-search-mode">
                       <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOp4Sel:')], ':')"
@@ -101,9 +105,7 @@
 
                   <input class="f01 s01" id="field4Txt" name="field4Txt" onchange="document.forms.searchForm.field4Key.value = '';"
                     readonly="readonly" type="text" value="Filled from Thesaurus" />
-                  <a class="s01"
-                    href="javascript:openThesaurus(document.forms.frmSearch.field4Sel.options[document.forms.frmSearch.field4Sel.selectedIndex].value);"
-                    title="Look up a search term in the thesaurus">
+                  <a class="s01" href="#" title="Look up a search term in the thesaurus">
                     <span>Thesaurus...</span>
                   </a>
                 </fieldset>
@@ -111,46 +113,59 @@
               <li class="clfx-b">
                 <fieldset class="f06 n04">
                   <legend>Date Range</legend>
-                  <select id="booleanOpDateSel" name="booleanOpDateSel">
-                    <xsl:call-template name="tpl-search-mode">
-                      <xsl:with-param name="selected"
-                        select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOpDateSel:')], ':')" />
-                    </xsl:call-template>
-                  </select>
-                  <label class="s01" for="lowerDateSel">From</label>
-                  <select id="lowerDateSel" name="lowerDateSel">
-                    <xsl:call-template name="tpl-year">
-                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'lowerDateSel:')], ':')" />
-                    </xsl:call-template>
-                  </select>
-                  <label class="s01" for="higherDateSel">To</label>
-                  <select id="higherDateSel" name="higherDateSel">
-                    <xsl:call-template name="tpl-year">
-                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'higherDateSel:')], ':')"
-                       />
-                    </xsl:call-template>
-                  </select>
-                  <label class="s02" for="higherDateSel">(optional)</label>
+                  <ol>
+                    <li>
+                      <select id="booleanOpDateSel" name="booleanOpDateSel">
+                        <xsl:call-template name="tpl-search-mode">
+                          <xsl:with-param name="selected"
+                            select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOpDateSel:')], ':')" />
+                        </xsl:call-template>
+                      </select>
+                    </li>
+                    <li>
+                      <label class="s01" for="lowerDateSel">From</label>
+                      <select id="lowerDateSel" name="lowerDateSel">
+                        <xsl:call-template name="tpl-year">
+                          <xsl:with-param name="selected"
+                            select="substring-after(//refine/parameters/parameter[starts-with(., 'lowerDateSel:')], ':')" />
+                        </xsl:call-template>
+                      </select>
+                    </li>
+                    <li>
+                      <label class="s01" for="higherDateSel">To</label>
+                      <select id="higherDateSel" name="higherDateSel">
+                        <xsl:call-template name="tpl-year">
+                          <xsl:with-param name="selected"
+                            select="substring-after(//refine/parameters/parameter[starts-with(., 'higherDateSel:')], ':')" />
+                        </xsl:call-template>
+                      </select>
+                    </li>
+                  </ol>
                 </fieldset>
               </li>
               <li class="clfx-b">
                 <fieldset class="f06 n05">
                   <legend>Publication</legend>
-                  <select id="booleanOpPublicationSel" name="booleanOpPublicationSel">
-                    <xsl:call-template name="tpl-search-mode">
-                      <xsl:with-param name="selected" select="'0'" />
-                    </xsl:call-template>
-                  </select>
-                  <label class="s01" for="publicationSel">Publication</label>
-                  <select id="publicationSel" name="publicationSel" onchange="publicationTxt.value=this.options[this.selectedIndex].text;">
-                    <xsl:call-template name="tpl-publications">
-                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'publicationSel:')], ':')"
-                       />
-                    </xsl:call-template>
-                  </select>
-                  <input id="publicationTxt" name="publicationTxt" type="hidden"
-                    value="{substring-after(//refine/parameters/parameter[starts-with(., 'publicationTxt:')], ':')}" />
-                  <label class="s02" for="publicationSel">(optional)</label>
+                  <ol>
+                    <li>
+                      <select id="booleanOpPublicationSel" name="booleanOpPublicationSel">
+                        <xsl:call-template name="tpl-search-mode">
+                          <xsl:with-param name="selected" select="'0'" />
+                        </xsl:call-template>
+                      </select>
+                    </li>
+                    <li>
+                      <label class="s01" for="publicationSel">Publication</label>
+                      <select id="publicationSel" name="publicationSel" onchange="publicationTxt.value=this.options[this.selectedIndex].text;">
+                        <xsl:call-template name="tpl-publications">
+                          <xsl:with-param name="selected"
+                            select="substring-after(//refine/parameters/parameter[starts-with(., 'publicationSel:')], ':')" />
+                        </xsl:call-template>
+                      </select>
+                      <input id="publicationTxt" name="publicationTxt" type="hidden"
+                        value="{substring-after(//refine/parameters/parameter[starts-with(., 'publicationTxt:')], ':')}" />
+                    </li>
+                  </ol>
                 </fieldset>
               </li>
               <li class="clfx-b">
@@ -214,7 +229,7 @@
       <xsl:if test="$selected = 'name'">
         <xsl:attribute name="selected">selected</xsl:attribute>
       </xsl:if>
-      <xsl:text>Names</xsl:text>
+      <xsl:text>Persons</xsl:text>
     </option>
     <option value="institution">
       <xsl:if test="$selected = 'institution'">
@@ -368,125 +383,108 @@
       <xsl:if test="$selected = 'semtag-key'">
         <xsl:attribute name="selected">selected</xsl:attribute>
       </xsl:if>
-      <xsl:text>Semantic Tags</xsl:text>
+      <xsl:text>Subjects</xsl:text>
     </option>
     <option value="$selected = 'image-key'">
       <xsl:if test="$selected = 'image-key'">
         <xsl:attribute name="selected">selected</xsl:attribute>
       </xsl:if>
-      <xsl:text>Image metadata</xsl:text>
+      <xsl:text>Images</xsl:text>
     </option>
   </xsl:template>
 
-  <xsl:template name="tpl-thesaurus-window">
-    <html xmlns="http://www.w3.org/1999/xhtml">
-      <head>
-        <meta content="text/html; charset=utf-8" http-equiv="content-type" />
-        <link href="{$scriptswitch}/i/favicon.ico" rel="shortcut icon" />
-
-        <link href="{$scriptswitch}/c/default.css" media="screen, projection" rel="stylesheet" type="text/css" />
-        <link href="{$scriptpers}/c/personality.css" media="screen, projection" rel="stylesheet" type="text/css" />
-        <link href="{$scriptswitch}/c/print.css" media="print" rel="stylesheet" type="text/css" />
-
-        <!-- IE browser specific css and script -->
-        <xsl:comment>[if GTE IE 7]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of select="$scriptpers" />/c/compat.css"/>
-          &lt;![endif]</xsl:comment>
-
-        <!-- script -->
-        <script src="{$scriptswitch}/j/jquery-1.2.3.pack.js" type="text/javascript">&#160;</script>
-        <script src="{$scriptpers}/s/jquery.dimensions.js" type="text/javascript">&#160;</script>
-        <script src="{$scriptpers}/s/jquery.accordion.js" type="text/javascript">&#160;</script>
-        <script src="{$scriptpers}/s/config.js" type="text/javascript">&#160;</script>
-        <script src="{$scriptpers}/s/thesaurus.js" type="text/javascript">&#160;</script>
-
-        <title>Thesaurus</title>
-      </head>
-
-      <body id="xmd">
-        <xsl:attribute name="class">v1 r3 pu</xsl:attribute>
-
-        <div id="mainContent">
-          <div class="form">
-            <div class="t02">
-              <form method="GET" name="frmThesaurus" onSubmit="javascript:addTerms(); return false;">
-                <div>
-                  <xsl:text>Sematic Tag Thesaurus</xsl:text>
-                </div>
-
-                <fieldset class="s01">
-                  <legend>Semantic tag thesaurus</legend>
-                  <ol>
-                    <li class="clfx-b">
-                      <fieldset class="f05 n01">
-                        <legend>Thesaurus</legend>
-                        <div class="unorderedList">
-                          <div class="t02">
-                            <xsl:for-each select="//projAL/rdf:RDF">
-                              <xsl:call-template name="tpl-thesaurus-semtag" />
-                            </xsl:for-each>
-                          </div>
-                        </div>
-                      </fieldset>
-                    </li>
-                    <li class="clfx-b">
-                      <fieldset class="f06 n07">
-                        <legend>Submit Search</legend>
-                        <div>
-                          <button type="submit">Insert</button>
-                          <button type="reset">Reset</button>
-                          <button onclick="javascript:window.close(); return false;">Close</button>
-                        </div>
-                      </fieldset>
-                    </li>
-                  </ol>
-                </fieldset>
-              </form>
-            </div>
+  <xsl:template name="tpl-thesaurus-subject">
+    <div class="form">
+      <div class="t04">
+        <div class="unorderedList">
+          <div class="t05">
+            <ul>
+              <xsl:for-each select="//subjectsAL/rdf:RDF/skos:Concept">
+                <li class="s01">
+                  <a class="s01" href="#">
+                    <span>Expand</span>
+                  </a>
+                  <strong>
+                    <xsl:value-of select="@rdf:label" />
+                  </strong>
+                  <xsl:if test="skos:narrower">
+                    <xsl:call-template name="tpl-thesaurus-narrower" />
+                  </xsl:if>
+                </li>
+              </xsl:for-each>
+            </ul>
           </div>
         </div>
-      </body>
-    </html>
+        <fieldset class="f06 n04">
+          <div>
+            <button onclick="addTerms(document.frmSearch.);">Insert</button>
+            <button type="reset">Reset</button>
+            <button onclick="javascript:window.close(); return false;">Close</button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
   </xsl:template>
 
-  <xsl:template name="tpl-thesaurus-semtag">
-    <xsl:param name="ul-class" />
-
+  <xsl:template name="tpl-thesaurus-narrower">
     <ul>
-      <!--
-      <xsl:if test="string($ul-class)">
-        <xsl:attribute name="class">
-          <xsl:value-of select="$ul-class" />
-        </xsl:attribute>
-      </xsl:if>
-      -->
-
-      <xsl:for-each select="skos:Concept">
-        <li>
-          <xsl:choose>
-            <xsl:when test="skos:narrower">
-              <!--<a class="x70 z03">-->
-              <input class="f02" id="thesCheck" type="checkbox" value="{@rdf:about}" />
-              <label for="{@rdf:about}" id="{@rdf:about}" title="{@rdf:label}">
-                <strong>
-                  <xsl:value-of select="@rdf:label" />
-                </strong>
-              </label>
-              <!--</a>-->
-              <xsl:for-each select="skos:narrower/skos:orderedCollection/skos:memberList">
-                <xsl:call-template name="tpl-thesaurus-semtag">
-                  <!--<xsl:with-param name="ul-class" select="'s02'" />-->
-                </xsl:call-template>
-              </xsl:for-each>
-            </xsl:when>
-            <xsl:otherwise>
-              <input class="f02" id="thesCheck" type="checkbox" value="{@rdf:about}" />
-              <label for="{@rdf:about}" id="{@rdf:about}" title="{@rdf:label}">
+      <xsl:for-each select="skos:narrower/skos:orderedCollection/skos:memberList/skos:Concept">
+        <xsl:choose>
+          <xsl:when test="skos:narrower/skos:orderedCollection/skos:memberList/skos:Concept">
+            <li class="s01">
+              <a class="s01" href="#">
+                <span>Expand</span>
+              </a>
+              <input class="f02" id="{@rdf:about}" type="checkbox" value="{@rdf:about}" />
+              <strong>
+                <xsl:value-of select="@rdf:label" />
+              </strong>
+              <xsl:call-template name="tpl-thesaurus-narrower" />
+            </li>
+          </xsl:when>
+          <xsl:otherwise>
+            <li>
+              <input class="f02" id="{@rdf:about}" type="checkbox" value="{@rdf:about}" />
+              <label for="{@rdf:about}">
                 <xsl:value-of select="@rdf:label" />
               </label>
-            </xsl:otherwise>
-          </xsl:choose>
-        </li>
+            </li>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:for-each>
     </ul>
+  </xsl:template>
+
+  <xsl:template name="tpl-thesaurus-image">
+    <div class="form">
+      <div class="t04">
+        <div class="unorderedList">
+          <div class="t05">
+            <ul>
+              <xsl:for-each select="//imagesAL/rdf:RDF/skos:Concept">
+                <li class="s01">
+                  <a class="s01" href="#">
+                    <span>Expand</span>
+                  </a>
+                  <strong>
+                    <xsl:value-of select="@rdf:label" />
+                  </strong>
+                  <xsl:if test="skos:narrower">
+                    <xsl:call-template name="tpl-thesaurus-narrower" />
+                  </xsl:if>
+                </li>
+              </xsl:for-each>
+            </ul>
+          </div>
+        </div>
+        <fieldset class="f06 n04">
+          <div>
+            <button type="submit">Insert</button>
+            <button type="reset">Reset</button>
+            <button onclick="javascript:window.close();return false;">Close</button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
   </xsl:template>
 </xsl:stylesheet>
