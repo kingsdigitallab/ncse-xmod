@@ -62,8 +62,21 @@
                   <xsl:text> (chosen from: </xsl:text>
 
                   <!-- Floating results -->
-                  <xsl:for-each select="//search-results/documents/document[current()/position()]">
-                    <xsl:value-of select="tei/bibl/title[@type = 'full-title']" />
+                  <xsl:for-each select="//search-results/documents/document[current()/position()]/tei/bibl">
+                    <xsl:value-of select="title[@type = 'full-title']" />
+                    
+                    <xsl:if test="string(biblScope[@type = 'volume'])">
+                      <xsl:text> Vol. </xsl:text>
+                      <xsl:value-of select="biblScope[@type = 'volume']" />
+                    </xsl:if>
+                    <xsl:if test="string(biblScope[@type = 'number'])">
+                      <xsl:text> No. </xsl:text>
+                      <xsl:value-of select="biblScope[@type = 'number']" />
+                    </xsl:if>
+                    <xsl:if test="string(biblScope[@type = 'page-start'])">
+                      <xsl:text> Page </xsl:text>
+                      <xsl:value-of select="biblScope[@type = 'page-start']" />
+                    </xsl:if>
                   </xsl:for-each>
                   <xsl:text>)</xsl:text>
                 </dd>
@@ -98,6 +111,9 @@
             <xsl:variable name="pos" select="@position" />
 
             <li class="{if ($pos mod 2 = 0) then 'z02 s01' else 'z01 s01'}">
+              <dfn>
+                <xsl:value-of select="$pos" />
+              </dfn>
               <!-- util/result_tpl -->
               <xsl:call-template name="hits-head-link">
                 <xsl:with-param name="show-article-link" select="false()" />
@@ -117,7 +133,7 @@
                       </dt>
                       <xsl:for-each-group group-by="@key" select="data/semtags/semtag">
                         <xsl:sort select="lower-case(.)" />
-                        
+
                         <dd>
                           <a
                             href="add-search-clause?field=semtag-key&amp;value={encode-for-uri(@key)}&amp;display={lower-case(.)}&amp;pos={$pos}"
@@ -220,7 +236,7 @@
                       </dt>
                       <xsl:for-each-group group-by="@key" select="data/images/image">
                         <xsl:sort select="lower-case(.)" />
-                        
+
                         <dd>
                           <a href="add-search-clause?field=image-key&amp;value={encode-for-uri(@key)}&amp;display={@key}&amp;pos={$pos}"
                             title="Refine results by adding this term to the search query">
@@ -243,13 +259,9 @@
   </xsl:template>
 
   <xsl:template name="tpl-view-issue">
-    <div class="searchResults">
-      <div class="t02">
+    <div class="searchSummary">
+      <div class="t01">
         <div class="rNav">
-
-          <div class="s01">
-            <xsl:value-of select="//search-results/hits/hit/tei/bibl/title[@type = 'full-title']" />
-          </div>
 
           <!-- issue navigation -->
           <div class="s02">
@@ -260,90 +272,118 @@
             <xsl:variable name="path"
               select="escape-html-uri(replace(substring-before(//search-results/hits/hit/id, concat('-', $entity)), '-', '/'))" />
 
-            <xsl:for-each select="//page:page">
-              <xsl:variable name="current-page" select="@current" />
-              <xsl:choose>
-                <xsl:when test="page:link[@type = 'prev'][position() = last()]">
-                  <a href="{$page-link}({page:link[@type = 'prev'][position() = last()]/@page})?format=full">&#8249;&#8249; prev article</a>
-                </xsl:when>
-                <xsl:otherwise>
-                  <span class="s02">&#8249;&#8249; prev article</span>
-                </xsl:otherwise>
-              </xsl:choose>
+            <ul class="s01">
+              <xsl:for-each select="//page:page">
+                <xsl:variable name="current-page" select="@current" />
+                <li>
+                  <xsl:choose>
+                    <xsl:when test="page:link[@type = 'prev'][position() = last()]">
+                      <a href="{$page-link}({page:link[@type = 'prev'][position() = last()]/@page})?format=full">&#8249;&#8249; prev
+                      article</a>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <span class="s01">&#8249;&#8249; prev article</span>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </li>
 
-              <a href="http://137.73.123.44/KingsCollege/Default.htm?href={$path}&amp;entityid={$entity}&amp;view=entity" target="_blank">
-                <xsl:text>view article full text</xsl:text>
-              </a>
+                <li>
+                  <a href="http://137.73.123.44/KingsCollege/Default.htm?href={$path}&amp;entityid={$entity}&amp;view=entity" target="_blank">
+                    <xsl:text>view article full text</xsl:text>
+                  </a>
+                </li>
 
-              <xsl:choose>
-                <xsl:when test="page:link[@type = 'next'][position() = 1]">
-                  <a href="{$page-link}({page:link[@type = 'next'][position() = 1]/@page})?format=full">next article &#8250;&#8250;</a>
-                </xsl:when>
-                <xsl:otherwise>
-                  <span class="s02">next article &#8250;&#8250;</span>
-                </xsl:otherwise>
-              </xsl:choose>
-            </xsl:for-each>
+                <li>
+                  <xsl:choose>
+                    <xsl:when test="page:link[@type = 'next'][position() = 1]">
+                      <a href="{$page-link}({page:link[@type = 'next'][position() = 1]/@page})?format=full">next article &#8250;&#8250;</a>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <span class="s01">next article &#8250;&#8250;</span>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </li>
+              </xsl:for-each>
+            </ul>
+            <ul class="s02">
+              <li>
+                <a href="page(1)">Back to results</a>
+              </li>
+            </ul>
           </div>
         </div>
 
-        <div>
-          <xsl:for-each select="//search-results/hits/hit">
-            <xsl:if test="data/semtags/semtag">
-              <ul>
-                <span>Subjects</span>
-                <xsl:for-each-group group-by="@key" select="data/semtags/semtag">
-                  <xsl:sort select="lower-case(.)" />
-                  
+        <div class="resourceItem">
+          <div class="t01">
+            <ul>
+              <xsl:for-each select="//search-results/hits/hit">
+                <xsl:if test="data/semtags/semtag">
                   <li>
-                    <xsl:value-of select="." />
+                    <dl>
+                      <dt>Subjects</dt>
+                      <xsl:for-each-group group-by="@key" select="data/semtags/semtag">
+                        <xsl:sort select="lower-case(.)" />
+
+                        <dd>
+                          <xsl:value-of select="." />
+                        </dd>
+                      </xsl:for-each-group>
+                    </dl>
                   </li>
-                </xsl:for-each-group>
-              </ul>
-            </xsl:if>
-            <xsl:if test="data/names/name">
-              <ul>
-                <span>Persons</span>
-                <xsl:for-each-group group-by="@key" select="data/names/name">
+                </xsl:if>
+                <xsl:if test="data/names/name">
                   <li>
-                    <xsl:value-of select="." />
+                    <dl>
+                      <dt>Persons</dt>
+                      <xsl:for-each-group group-by="@key" select="data/names/name">
+                        <dd>
+                          <xsl:value-of select="." />
+                        </dd>
+                      </xsl:for-each-group>
+                    </dl>
                   </li>
-                </xsl:for-each-group>
-              </ul>
-            </xsl:if>
-            <xsl:if test="data/institutions/institution">
-              <ul>
-                <span>Institutions</span>
-                <xsl:for-each-group group-by="@key" select="data/institutions/institution">
+                </xsl:if>
+                <xsl:if test="data/institutions/institution">
                   <li>
-                    <xsl:value-of select="." />
+                    <dl>
+                      <dt>Institutions</dt>
+                      <xsl:for-each-group group-by="@key" select="data/institutions/institution">
+                        <dd>
+                          <xsl:value-of select="." />
+                        </dd>
+                      </xsl:for-each-group>
+                    </dl>
                   </li>
-                </xsl:for-each-group>
-              </ul>
-            </xsl:if>
-            <xsl:if test="data/places/place">
-              <ul>
-                <span>Places</span>
-                <xsl:for-each-group group-by="@key" select="data/places/place">
+                </xsl:if>
+                <xsl:if test="data/places/place">
                   <li>
-                    <xsl:value-of select="." />
+                    <dl>
+                      <dt>Places</dt>
+                      <xsl:for-each-group group-by="@key" select="data/places/place">
+                        <dd>
+                          <xsl:value-of select="." />
+                        </dd>
+                      </xsl:for-each-group>
+                    </dl>
                   </li>
-                </xsl:for-each-group>
-              </ul>
-            </xsl:if>
-            <xsl:if test="data/images/image">
-              <ul>
-                <span>Images</span>
-                <xsl:for-each-group group-by="@key" select="data/images/image">
-                  <xsl:sort select="lower-case(.)" />
-                  
+                </xsl:if>
+                <xsl:if test="data/images/image">
                   <li>
-                    <xsl:value-of select="." />
+                    <dl>
+                      <dt>Images</dt>
+                      <xsl:for-each-group group-by="@key" select="data/images/image">
+                        <xsl:sort select="lower-case(.)" />
+
+                        <dd>
+                          <xsl:value-of select="." />
+                        </dd>
+                      </xsl:for-each-group>
+                    </dl>
                   </li>
-                </xsl:for-each-group>
-              </ul>
-            </xsl:if>
-          </xsl:for-each>
+                </xsl:if>
+              </xsl:for-each>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

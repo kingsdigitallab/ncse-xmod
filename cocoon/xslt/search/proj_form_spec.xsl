@@ -57,23 +57,47 @@
                 </fieldset>
               </li>
               <li class="clfx-b">
-                <fieldset class="f05 n03">
-                  <legend>Tertiary Search Criteria</legend>
+                <fieldset class="f05 n02">
+                  <legend>Secondary Search Criteria</legend>
                   <select id="booleanOp3Sel" name="booleanOp3Sel">
                     <xsl:call-template name="tpl-search-mode">
                       <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOp3Sel:')], ':')"
-                       />
+                      />
                     </xsl:call-template>
                   </select>
                   <select id="field3Sel" name="field3Sel">
-                    <xsl:call-template name="tpl-thesaurus-select">
+                    <xsl:call-template name="tpl-entity-select">
                       <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'field3Sel:')], ':')" />
                     </xsl:call-template>
                   </select>
+                  <input class="f01 s01" id="field3Txt" name="field3Txt" type="text"
+                    value="{substring-after(//refine/parameters/parameter[starts-with(., 'field3Txt:')], ':')}" />
+                  <select id="similarity3Sel" name="similarity3Sel">
+                    <xsl:call-template name="tpl-similarity-select">
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'similarity3Sel:')], ':')"
+                      />
+                    </xsl:call-template>
+                  </select>
+                </fieldset>
+              </li>
+              <li class="clfx-b">
+                <fieldset class="f05 n03">
+                  <legend>Tertiary Search Criteria</legend>
+                  <select id="booleanOp4Sel" name="booleanOp4Sel">
+                    <xsl:call-template name="tpl-search-mode">
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOp4Sel:')], ':')"
+                       />
+                    </xsl:call-template>
+                  </select>
+                  <select id="field4Sel" name="field4Sel">
+                    <xsl:call-template name="tpl-thesaurus-select">
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'field4Sel:')], ':')" />
+                    </xsl:call-template>
+                  </select>
 
-                  <input name="field3Key" type="hidden" value="{substring-after(//refine/parameters/parameter[starts-with(., 'field3Key:')], ':')}" />
+                  <input name="field4Key" type="hidden" value="{substring-after(//refine/parameters/parameter[starts-with(., 'field4Key:')], ':')}" />
 
-                  <input class="f01 s01" id="field3Txt" name="field3Txt" onchange="document.forms.frmSearch.field3Key.value = '';" readonly="readonly"
+                  <input class="f01 s01" id="field4Txt" name="field4Txt" onchange="document.forms.frmSearch.field4Key.value = '';" readonly="readonly"
                     type="text" value="Filled from Thesaurus" />
                   <a class="s01" href="#" title="Look up a search term in the thesaurus">
                     <span>Thesaurus...</span>
@@ -90,20 +114,20 @@
               <li class="clfx-b">
                 <fieldset class="f05 n03">
                   <legend>Forth Search Criteria</legend>
-                  <select id="booleanOp4Sel" name="booleanOp4Sel">
+                  <select id="booleanOp5Sel" name="booleanOp5Sel">
                     <xsl:call-template name="tpl-search-mode">
-                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOp4Sel:')], ':')"
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOp5Sel:')], ':')"
                        />
                     </xsl:call-template>
                   </select>
-                  <select id="field4Sel" name="field4Sel">
+                  <select id="field5Sel" name="field5Sel">
                     <xsl:call-template name="tpl-thesaurus-select">
-                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'field4Sel:')], ':')" />
+                      <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'field5Sel:')], ':')" />
                     </xsl:call-template>
                   </select>
-                  <input name="field4Key" type="hidden" value="{substring-after(//refine/parameters/parameter[starts-with(., 'field4Key:')], ':')}" />
+                  <input name="field5Key" type="hidden" value="{substring-after(//refine/parameters/parameter[starts-with(., 'field5Key:')], ':')}" />
 
-                  <input class="f01 s01" id="field4Txt" name="field4Txt" onchange="document.forms.searchForm.field4Key.value = '';"
+                  <input class="f01 s01" id="field5Txt" name="field5Txt" onchange="document.forms.searchForm.field5Key.value = '';"
                     readonly="readonly" type="text" value="Filled from Thesaurus" />
                   <a class="s01" href="#" title="Look up a search term in the thesaurus">
                     <span>Thesaurus...</span>
@@ -156,14 +180,13 @@
                     </li>
                     <li>
                       <label class="s01" for="publicationSel">Publication</label>
-                      <select id="publicationSel" name="publicationSel" onchange="publicationTxt.value=this.options[this.selectedIndex].text;">
-                        <xsl:call-template name="tpl-publications">
-                          <xsl:with-param name="selected"
-                            select="substring-after(//refine/parameters/parameter[starts-with(., 'publicationSel:')], ':')" />
-                        </xsl:call-template>
+                      <select id="publicationSel" name="publicationSel" onchange="updatePublication();" multiple="multiple" size="7">
+                        <xsl:call-template name="tpl-publications" />
                       </select>
+                      <xsl:variable name="publication" select="substring-after(//refine/parameters/parameter[starts-with(., 'publicationTxt:')], ':')"
+                        />
                       <input id="publicationTxt" name="publicationTxt" type="hidden"
-                        value="{substring-after(//refine/parameters/parameter[starts-with(., 'publicationTxt:')], ':')}" />
+                        value="{if (string($publication)) then $publication else 'All Publications'}" />
                     </li>
                   </ol>
                 </fieldset>
@@ -333,43 +356,54 @@
   </xsl:template>
 
   <xsl:template name="tpl-publications">
-    <xsl:param name="selected" required="yes" />
+    <xsl:variable name="selected">
+      <xsl:for-each select="//refine/parameters/parameter[starts-with(., 'publicationSel:')]">
+        <xsl:value-of select="substring-after(., ':')" />
+      </xsl:for-each>
+      
+      <xsl:if test="position() != last()">
+        <xsl:text>, </xsl:text>
+      </xsl:if>
+    </xsl:variable>
 
     <option value="">
-      <xsl:text>Publication...</xsl:text>
+      <xsl:if test="not(string($selected))">
+        <xsl:attribute name="selected">selected</xsl:attribute>
+      </xsl:if>
+      <xsl:text>All Publications</xsl:text>
     </option>
     <option value="mrp">
-      <xsl:if test="$selected = 'mrp'">
+      <xsl:if test="contains($selected, 'mrp')">
         <xsl:attribute name="selected">selected</xsl:attribute>
       </xsl:if>
       <xsl:text>Monthly Repository (1806 - 1838)</xsl:text>
     </option>
     <option value="nss">
-      <xsl:if test="$selected = 'nss'">
+      <xsl:if test="contains($selected, 'nss')">
         <xsl:attribute name="selected">selected</xsl:attribute>
       </xsl:if>
       <xsl:text>Northern Star (1837 - 1852)</xsl:text>
     </option>
     <option value="ldr">
-      <xsl:if test="$selected = 'ldr'">
+      <xsl:if test="contains($selected, 'ldr')">
         <xsl:attribute name="selected">selected</xsl:attribute>
       </xsl:if>
       <xsl:text>Leader (1850 - 1860)</xsl:text>
     </option>
     <option value="ewj">
-      <xsl:if test="$selected = 'ewj'">
+      <xsl:if test="contains($selected, 'ewj')">
         <xsl:attribute name="selected">selected</xsl:attribute>
       </xsl:if>
       <xsl:text>English Woman's Journal (1858 - 1864)</xsl:text>
     </option>
     <option value="ttw">
-      <xsl:if test="$selected = 'ttw'">
+      <xsl:if test="contains($selected, 'ttw')">
         <xsl:attribute name="selected">selected</xsl:attribute>
       </xsl:if>
       <xsl:text>Tomahawk (1867 - 1870)</xsl:text>
     </option>
     <option value="tec">
-      <xsl:if test="$selected = 'tec'">
+      <xsl:if test="contains($selected, 'tec')">
         <xsl:attribute name="selected">selected</xsl:attribute>
       </xsl:if>
       <xsl:text>Publishers' Circular (1880 - 1890)</xsl:text>
