@@ -1,64 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TEI.2
   SYSTEM "../../../dtd/tei/cch_tei.dtd">
-  <TEI.2 id="p5_9">
-      <teiHeader status="new" type="text">
-          <fileDesc>
-              <titleStmt>
-                  <title>The Core</title>
-                  
-              </titleStmt>
-              <publicationStmt>
-                  <publisher>Centre for Computing in the Humanities, King's College London</publisher>
-                  <address>
+<TEI.2 id="p5_9">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>The Core</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
                       <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
                       <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
                   </address>
-              </publicationStmt>
-              <sourceDesc default="NO">
-                  <p>No source: created in electronic format.</p>
-              </sourceDesc>
-          </fileDesc>
-          <encodingDesc>
-              <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
-          </encodingDesc>
-          <revisionDesc>
-              <change>
-                  <date>2008-03-27</date>
-                  <respStmt>
-                      <name>EL</name>
-                  </respStmt>
-                  <item>created file</item>
-              </change>
-              
-              
-          </revisionDesc>
-      </teiHeader>
-      
-      <text>
-          <body>
-              
-              
-              
-              <p>please populate</p>
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-          </body>
-      </text>
-  </TEI.2>
-  
-  
-  
-  
-  
-  
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-03-27</date>
+                <respStmt>
+                    <name>EL</name>
+                </respStmt>
+                <item>created file</item>
+            </change>
+
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <p>The ‘Core’ refers to a selection of about 30,000 pages of serial text on which
+                multi-level processing and editing was to have been carried out. It was developed in
+                the autumn and winter of 2005/6 and it was abandoned by the spring. Nevertheless,
+                the process of the selection of criteria for the core enabled the team to
+                familiarise itself further with the characteristics of the six titles, individually
+                and as a cluster in the edition, to hazard identification of defining elements of
+                serials, and to test the degree to which these were shared by our diverse titles.</p>
+            <p>In the trajectory of development of <hi rend="bold">ncse</hi> the Core was Plan B. It was devised
+                in response to two assumptions that changed. The first was that the project would
+                consist of 30,000 pages of text. The discovery of the multiple editions prompted us
+                to revise this estimate to around 110,000 pages. As this almost tripled the amount
+                of pages that we would have to review, edit, and markup we began to reconsider the
+                amont of manual editorial work it would be possible to do. The second assumption was
+                that the model of multi-level processing envisaged by the team and Olive software,
+                in which segmentation would be carried out on items and the departments in which
+                they were nested, could be perfected and adopted. On the understanding that
+                multi-level processing could only be managed and afforded on 30,000 pages the
+                research team decided to devise a selection process that would provide a manageable
+                sub-section of the resource on which these advanced editorial and computational
+                methods could be applied. Affording was a matter of time for Olive, CCH, and the
+                research team as well as cost.</p>
+            <p>While the core was to be a diagnostic space on which intensive processing and editing
+                would be demonstrated, and possibilities of electronic publication of serials
+                explored, the entire resource (i.e. all 100,000 pages) would also be released to
+                users in readable and, on a basic level, searchable form so that the Core would be
+                accessible in its serial contexts.</p>
+            <p>Four criteria were selected for inclusion of resource in the Core. They were:</p>
+            <list type="bulleted">
+                <item>the beginning and ending of each generic title</item>
+                <item>moments of change of editor</item>
+                <item>proportional representation of visual elements in the cluster</item>
+                <item>thematic content: court prosecution for libel and sedition of editors</item>
+            </list>
+            <p>The resulting tranche was then finessed with respect to further criteria:</p>
+            <list type="bulleted">
+                <item>chronological spread across the century</item>
+                <item>title spread, and some attempt to reflect the proportion of the edition that
+                    individual runs represented</item>
+                <item>continuity: in order to minimise fragmentation of the resource and to honour
+                    continuity as a basic principle of seriality, we decided that the smallest
+                    fragment would be a calendar year. </item>
+                <item>Inclusion of multiple editions: it was decided to represent multiples at
+                    moments of overlap between titles. 1837-8 (<title>Monthly Repository</title> and
+                        <title>Northern Star</title>) and 1850-2 (<title>Northern Star</title> and
+                        <title>Leader</title>)</item>
+            </list>
+            <p>The Core was abandoned in the spring of 2005 for several reasons. First, the research
+                team and Olive came to the conclusion that multi-level processing was too difficult
+                to achieve at acceptable standards within the time and budget at our disposal.
+                Instead, we worked out a way to deliver the characteristics of dual level processing
+                (i.e. items and departments) on the basis of single level processing and metadata
+                entry. In the summer of 2005 Olive offered to process the whole 100,000 pages to
+                this specification. We needed to decide whether we would go for the smaller
+                processed core, on which we could do more intensive editing or a larger more
+                consistent resource on which all parties could do less. Deliberations among the
+                research team and the larger project team took place, and an assessment of automatic
+                processes of text mining, entity extraction, and semantic tagging was made. The
+                other criterion was the interest of our users and the larger world of electronic
+                resources of nineteenth-century print. This combination of criteria led us to
+                abandon the Core, and go for uniform processing across 100,000 pages.</p>
+            <p>We developed various graphic representations of the Core, which are available <xref type="redist" from="pdf/core_distribution.pdf">here</xref>
+                [PDF file]; there is also a fuller explanation of the Core in a
+                research paper available <xref type="redist" from="pdf/2006_ncse_symposium.pdf">here</xref> [PDF file]. </p>
+        </body>
+    </text>
+</TEI.2>
