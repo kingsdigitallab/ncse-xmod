@@ -112,8 +112,18 @@
       <xsl:variable name="page" select="biblScope[@type = 'page-start']" />
 
       <h3>
-        <xsl:value-of select="title[@type = 'short-title']" />
-
+        <xsl:choose>
+          <xsl:when test="string(title[@type = 'short-title'])">
+            <xsl:value-of select="title[@type = 'short-title']" />
+          </xsl:when>
+          <xsl:when test="string(title[@type = 'full-title'])">
+            <xsl:value-of select="title[@type = 'full-title']" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:text>Untitled</xsl:text>
+          </xsl:otherwise>
+        </xsl:choose>
+        
         <xsl:if test="$show-article-link = false()">
           <xsl:for-each select="../../data">
             <xsl:if test="semtags/semtag">
@@ -178,9 +188,9 @@
             <xsl:text> Vol. </xsl:text>
             <xsl:value-of select="biblScope[@type = 'volume']" />
           </xsl:if>
-          <xsl:if test="string(biblScope[@type = 'number'])">
+          <xsl:if test="string(biblScope[@type = 'issue-number'])">
             <xsl:text> No. </xsl:text>
-            <xsl:value-of select="biblScope[@type = 'number']" />
+            <xsl:value-of select="biblScope[@type = 'issue-number']" />
           </xsl:if>
           <xsl:if test="string($page)">
             <xsl:text> Page </xsl:text>
