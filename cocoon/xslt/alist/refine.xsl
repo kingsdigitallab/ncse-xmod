@@ -146,8 +146,8 @@
   </xsl:variable>
 
   <xsl:template match="/">
-    <r:RDF xml:base="http://www.cch.kcl.ac.uk/ncse/dmvi/AL_cch_dmvi_skos.rdf" xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-      xmlns:rs="http://www.w3.org/2000/01/rdf-schema#" xmlns:s="http://www.w3.org/2004/02/skos/core#">
+    <r:RDF xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:s="http://www.w3.org/2004/02/skos/core#">
 
       <xsl:for-each select="$refined//skos:hasTopConcept">
         <xsl:variable name="top-con" select="@rdf:resource" />
