@@ -2,105 +2,441 @@
 <!DOCTYPE TEI.2
   SYSTEM "../../../dtd/tei/cch_tei.dtd">
 <TEI.2 id="p2_2">
-    <teiHeader status="new" type="text">
-        <fileDesc>
-            <titleStmt>
-                <title>Northern Star (1837-1852)</title>
+  <teiHeader status="new" type="text">
+    <fileDesc>
+      <titleStmt>
+        <title>Northern Star (1837-1852)</title>
 
-            </titleStmt>
-            <publicationStmt>
-                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
-                <address>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+        <address>
                       <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
                       <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
                   </address>
-            </publicationStmt>
-            <sourceDesc default="NO">
-                <p>No source: created in electronic format.</p>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
-        </encodingDesc>
-        <revisionDesc>
-            <change>
-                <date>2008-03-31</date>
-                <respStmt>
-                    <name>EL</name>
-                </respStmt>
-                <item>created file</item>
-            </change>
+      </publicationStmt>
+      <sourceDesc default="NO">
+        <p>No source: created in electronic format.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+    </encodingDesc>
+    <revisionDesc>
+      <change>
+        <date>2008-03-31</date>
+        <respStmt>
+          <name>EL</name>
+        </respStmt>
+        <item>created file</item>
+      </change>
 
 
-        </revisionDesc>
-    </teiHeader>
+    </revisionDesc>
+  </teiHeader>
 
-    <text>
-        <body>
+  <text>
+    <body>
 
-            <head>Northern Star (1837-1852)</head>
+      <div>
+        <head>The Northern Star</head>
+        <p>The first issue of the <title>Northern Star</title> appeared on the 18 November 1837.
+          Over the next fifteen years the paper played a crucial role in cohering Chartism as a mass
+          radical movement and ensured that its proprietor, Feargus O’Connor, became one of its most
+          recognizable leaders. It also became one of the most successful newspapers of the early
+          nineteenth century, with a regular circulation of 80,000 copies a week in 1839. This
+          edition, which for the first time brings together the issues, multiple editions, and
+          supplementary portraits, is one of the most complete in the world, offering users an
+          unparalleled resource for early nineteenth-century social history and the print culture
+          that shaped it.</p>
+        <p>The <title>Star</title> was established by Feargus O’Connor in 1837 in co-operation with
+          the printer and publisher Josiah Hobson. Hobson was a veteran of the radical press, whose
+            <title>Voice of the West Riding </title>had been one of the most successful unstamped
+          publications of the 1830s (Chase 2007). The location of his shop on Briggate in Leeds
+          provided a geographical identity for the title that was reproduced in its mastheads (its
+          full title was the <title>Northern Star and Leeds General Advertiser</title>) and imprint.
+          Leeds was by far the centre of the Yorkshire press, its three weekly papers – the
+          radical-liberal <title>Leeds Times</title>, Tory <title>Leeds Intelligencer</title> and
+          Whig <title>Leeds Mercury </title>– all having higher circulations than any others in the
+          region. From its earliest issues the <title>Star</title> was a large (41 x 59cm)
+          broadsheet weekly newspaper with six columns of closely printed type. It cost four and a
+          half pence a week – a relatively high price for a paper aimed at a working class radical
+          readership – and it was published in an initial edition of 3000. Its price was necessary
+          to cover the newspaper duty of a penny per issue and brought the <title>Star </title>into
+          line with the other papers in the region. Its masthead, as Aled Jones notes, was typical
+          of many Victorian newspapers, and the format of the <title>Star</title> also did not
+          distinguish it from its rivals (Jones, 2005, 4). For instance, all three Leeds papers were
+          the same price as the <title>Star </title>and had the same number of pages and columns.
+          Yet within eleven issues the <title>Star </title>could claim that it had surpassed the
+          weekly sales of the <title>Intelligencer </title>by almost 6000 copies and was within 187
+          copies a week of the <title>Mercury</title>, a paper that boasted that it had the highest
+          weekly circulation of any regional paper in the country. When the weekly averages for the
+          18 weeks up to the 31 March 1838 were calculated from the number of stamps bought, the
+            <title>Intelligencer</title> averaged 3,333; the <title>Times</title> 2666; the
+            <title>Northern Star</title> 9822; and the <title>Mercury</title> 9002. The paper with
+          the next highest weekly average in the region was the <title>Doncaster </title>
+          <title>Gazette</title> with 2000 and the paper with the highest weekly sales outside of
+          London was the <title>Stamford and Lincoln Mercury </title>with 7683 (anonymous, 1838, 4).</p>
+        <p>Although the <title>Leeds Mercury</title> sought to dismiss the circulation of the
+            <title>Star</title> by claiming that its circulation was artificially inflated by its
+          policy of issuing portraits every six weeks, it had clearly reached a large audience very
+          rapidly on the basis of its radical politics despite its relatively high price. As its
+          sales increased week on week, Hobson had to invest in a new two horse power steam engine
+          in order to meet the demand (click <xref type="external"
+            url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=NSS%2F1838%2F03%2F31&amp;page=4&amp;entityid=Ar00409&amp;view=entity"
+            >here</xref> for further details). The <title>Mercury</title> also claimed that the
+            <title>Star’s </title>circulation seemed large as it included large numbers of readers
+          in Lancashire. In a way, these readers, geographically distant from the <title>Star’s
+          </title>offices in Leeds, were made possible by the price of the paper. The postal
+          concessions that were included in the cost of the stamp allowed O’Connor and Hobson to
+          take advantage of the postal network and so link up those readers who might otherwise
+          believe they were unconnected (Thompson, 1984, 49). Jones acknowledges that it was
+          probably the paper’s politics that accounted for its popularity, but also notes that it
+          captured ‘a new kind of reader and a new kind of print’ (Jones, 2005, 19). The <title>Star
+          </title>was edited by William Hill, a former handloom weaver and now Swedenborgian
+          minister. The text he and Hobson put together combined reports of local news, often sent
+          in my contributors or culled from other newspapers, with leading articles that addressed
+          more general political issues. The news reports tended to focus on sensational accounts of
+          crimes culled from magistrates courts and accounts of fires and other noteworthy events.
+          These reports were mixed with (and sometimes used to fill space at the bottom of columns)
+          accounts of meetings and other political activities usually sent in by the secretaries of
+          local associations. The descriptions of meetings were lengthy, detailed accounts that
+          contained the contents of speeches and the reactions of the audience. Drawing these
+          disparate accounts together allowed the <title>Star </title>to demonstrate the continuity
+          of the movement, with issues and speakers reappearing from place to place and sharing
+          platforms with those better known locally. The leading article, ‘The Northern Star’, was
+          located – as was typical for weeklies – in the middle of the paper, usually on page three
+          or four. It was accompanied by a regular ‘To Readers &amp; Correspondents’ column that
+          acknowledged and replied to its readers. This column makes lively reading, and gestures
+          towards the wider circulation of texts that underpinned the production of the paper. It
+          also permitted the readers of the <title>Star </title>to see the dialogue between Hill in
+          Leeds and its contributors distributed around the North of England and Scotland,
+          establishing a sense of communal ownership of the paper and the reports that it contained.
+          Whereas its politics undoubtedly helped establish it as a regional paper that could
+          transcend its local readerships, the way local politics were presented alongside readers’
+          contributions and general news stories allowed its readers to see themselves as a body of
+          people with a similar set of interests regardless of where they lived and what they did.</p>
+        <p>This mixture of the local and national – a format that the <title>Star</title> shared
+          with most other regional papers – was also prevalent in its advertisements. Until the
+          summer of 1839, the first page and a half of the <title>Star </title>was given over to
+          advertisements. Some of these were for other radical publishers and titles, but many were
+          drawn from local businesses, often located a few doors down from the <title>Northern Star
+          </title>offices on Briggate in Leeds. However, as the <title>Northern Star</title>’s
+          circulation soared with the agitation that led to the presentation of the Charter in May
+          1839, Hill increasingly devoted the front page to news, trusting to the rise in
+          circulation to compensate for the loss of advertising revenue. In March 1839 the
+            <title>Star </title>was purchasing over 40,000 stamps per issue and, claiming it was
+          read by seven people for every purchaser, proposed a readership of almost 300,000. After
+          the Newport Rising and the Bull Ring riots in Birmingham the <title>Star </title>found
+          itself under extreme scrutiny. In March 1840 Hobson was accused of avoiding the newspaper
+          stamp on another of his publications, the <title>New Moral World</title>, but was
+          acquitted after it was proved that the title was exempt. Hobson, like O’Connor, was a wily
+          operator who knew how far to go both in terms of printing radical sentiments and evading
+          the stamp tax. However, this experience was not enough to save O’Connor from imprisonment
+          in May 1840 for a libel that appeared in the <title>Northern Star </title>on <xref
+            type="external"
+            url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=NSS%2F1839%2F07%2F20&amp;page=1&amp;view=document"
+            >20 July 1839</xref>. The libellous passage appeared in an account of a speech by
+          Bronterre O’Brien, another veteran of the unstamped press and, at that point, ally of
+          O’Connor and the <title>Star</title>. In his defence, O’Connor claimed that the offending
+          passage only appeared in the first edition of the <title>Star</title> and, as this was the
+          smallest of the three (it was an edition of 3000; the second and third editions were of
+          37,000 each), had not caused much harm. However, the first edition of the
+          <title>Star</title>, which was part-printed on Wednesday and completed on Thursday for
+          distribution to places furthest from Leeds, also happened to be the London edition (for
+          more on multiple editions, click here [link to 05_06_multiples]). O’Connor accounted for
+          the difference in editions as an accident resulting from his missing the printing of the
+          first edition due to his attendance at another trial at York. As the proprietor and the
+          author of the report that contained the libellous speeches of others, the jury found him
+          guilty and sentenced him to eighteen months in prison. The summing up and sentencing was
+          reported in the <title>Star</title> for <xref type="external"
+            url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=NSS%2F1840%2F05%2F16&amp;page=1&amp;entityid=Ar00101&amp;view=entity"
+            >16 May 1840</xref>.</p>
+        <p>The impact of its proprietor’s imprisonment on the fortunes of the paper were limited.
+          His letters, printed as the first column on the front page and written in a style that
+          encouraged their reading aloud, still appeared regularly. By the end of 1841, the
+            <title>Star</title> saw itself very much as a national paper. A rather grumpy column by
+          Hill ‘To Readers and Correspondents’ published in the issue for <xref type="external"
+            url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=NSS%2F1841%2F10%2F02&amp;page=4&amp;entityid=Ar00407&amp;view=entity"
+            >2 October 1841</xref> made this plain while also giving a tantalizing glimpse of the
+          working practices in the office. Hill’s complaint was that contributors, aware that the
+          paper went to press on Thursday evening, sent in contributions by the Wednesday evening
+          and Thursday morning posts. Hill explained that his staff began to set the paper on
+          Monday, with the intention of having it more or less complete by Wednesday evening. This
+          meant that if contributions arrived by the Wednesday or Thursday posts it was unlikely
+          that there would be room for their inclusion and that space would instead be filled with
+          police reports and items culled from other publications. The article demonstrated the
+          pressures of time on the production of a weekly newspaper, particularly the way the time
+          that it takes to set the paper had to be balanced against the value of contributions that
+          arrived close to going to press. It also demonstrated the pressures that Hill was under to
+          be responsive to his readers / contributors. The column ends, ‘Our anxious desire is to
+          make the <title>Star </title>a truly national organ, equally representing
+          <title>all</title>. But we cannot do this unless the country will aid us rightly in the
+          sending of their matters of communication.’ Although the <title>Star </title>employed paid
+          contributors (there were seven in 1842, including George Harney in Sheffield prior to his
+          becoming sub-editor in 1843), it relied upon its readers for copy. As these readers were
+          also necessary to finance the paper, Hill, Hobson and O’Connor were doubly indebted to
+          them. The effective use of readers’ contributions would produce a timely text that
+          flattered its contributors and so was more likely to sustain its readership; however, such
+          readers were beyond the control of those who set the paper and distributed from Leeds.</p>
+        <p>There was a change of editorship of the <title>Northern Star </title>in 1843 prompted by
+          a combination of declining circulation and an increasing rift between Hill and O’Connor.
+          At the end of 1842 the circulation was a respectable 12,500; however, in 1843 there was a
+          sharp fall to around 8,700, a figure below that of the early issues of the
+          <title>Star</title>. O’Connor’s long cherished London daily, the <title>Evening Star
+          </title>had been established in 1842 (his projected <title>Morning Star </title>had come
+          to nothing in 1840) and, even though it was running at a loss, provided competition for
+          the <title>Northern Star</title>. As Chase argues, 1843 was a difficult time for the
+          radical press generally: the <title>British Statesman</title>,<title> London Chartist
+            Magazine</title>, <title>Poor Man’s Guardian and Repealer’s Friend</title>, and
+            <title>English Charter Circular </title>all folded, leaving only five Chartist
+          publications: <title>Aberdeen Review</title>, <title>Carlisle Patriot</title>,
+            <title>Edinburgh Weekly Register</title>, <title>Scotch Reformers’ Gazette</title>, and
+          the <title>Northern Star </title>(Chase, 2007). Hill was finally removed from the
+          editorship in July 1843, and O’Connor, taking decisive action, terminated the
+            <title>Evening Star</title> and appointed Hobson stood as editor, bringing George Harney
+          onto the staff as sub-editor. </p>
+        <p>As the energies of Chartism stagnated, so did the fortunes of the <title>Star</title>.
+          O’Connor, recognizing that the resurgent Trade Union movement might lead to an increase in
+          readers, aligned the <title>Star</title> with the trades and, in the process, relocated it
+          in London. This was more convenient for O’Connor, who lived in London, and for Harney, a
+          Londoner with connections to radical groups in Europe. From the 30 November 1844 the
+            <title>Star </title>replaced its subtitle ‘Leeds General Advertiser’ with ‘National
+          Trades’ Journal’ and, when the National Association of United Trades for the Protection of
+          Labour was formed in July 1845, Hobson was elected to its executive. The <title>Star’s
+          </title>new metropolitan location reconfigured its relationship with both its readers and
+          the news. Rather than being located near its core readership in the Northern manufacturing
+          districts and so able to respond reasonably quickly to their news, the <title>Star</title>
+          was now two journeys away: one for the news to reach London, and one to send copies of the
+          paper back again. The expansion of the railway made distribution more rapid than it had
+          been in 1838, but the location of the <title>Star </title>in London meant that it was
+          oriented toward London news networks. For O’Connor’s justification to his readers for the
+          move, as well as the increase in price to five pence that accompanied it, see the front
+          page of the issue for <xref type="external"
+            url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=NSS%2F1844%2F11%2F23&amp;page=1&amp;view=document"
+            >23 November 1844</xref>.</p>
+        <p>From 1843 O’Connor’s energies were increasingly devoted towards the Chartist land scheme.
+          In 1845 the National Charter Association launched the Chartist Cooperative Land Society
+          and the first Chartist village opened in 1846. The <title>Star </title>functioned as
+          record keeper for the scheme as well as performing its more familiar role of cohering a
+          movement that consisted of subscribers distributed across the country. However, the
+          relationship between O’Connor and Hobson was becoming increasingly strained, leading to
+          the removal of Hobson from the editorship of the <title>Star </title>in November 1846.
+          Although this prompted a bitter law suit from Hobson over breach of contract and
+          accusations that O’Connor was misappropriating funds from the land scheme, the change in
+          staff, coupled with the momentum accrued by the land scheme and interest in the election
+          of 1847 (O’Connor was elected MP for Nottingham) raised the circulation of the <title>Star
+          </title>from a lowly 6000 a week in 1846 to something like 1842 levels. </p>
+        <p>Hobson was replaced by Harney as editor and he saw the <title>Star </title>through the
+          revolutions in Europe and the final presentation of the Charter in 1848. Sales, however,
+          went into decline, falling to a low of 5000 by 1848. Harney, who clashed with O’Connor
+          over his emphasis on foreign news (see Thompson, 1986, 53; Chase 2007), left the
+            <title>Star</title> in 1850. The editorship was formally assumed by his successor,
+          George Flemming, in the Spring of 1851, who quickly set about altering the format of the
+            <title>Star </title>for the coming Parliamentary session. In the issue dated <xref
+            type="external"
+            url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=NSS%2F1851%2F02%2F01&amp;page=4&amp;entityid=Ar00410&amp;view=entity"
+            >1 February 1851</xref> he proposed abolishing the Scottish edition and delaying the
+          first edition until Friday evening so as to ‘place the Star on an equality with the other
+          metropolitan journals published on the same day, as regards the lateness and variety of
+          its news’. The extension of the railways would make it possible for Scottish readers to
+          get this edition with other readers from outside of London, bringing them within a day of
+          London news. This edition would be complemented by a Saturday edition for London and the
+          home counties. He also announced that he would use more small type, increasing the content
+          but making the paper harder to read. In a comment in the <xref type="external"
+            url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=NSS%2F1851%2F02%2F08&amp;page=1&amp;entityid=Ar00100&amp;view=entity"
+            >following issue</xref> he also announced a new department, ‘Our Weekly Mirror’, that
+          would survey the week’s events. This department would be so ‘terse and complete’ that
+          those who bound the <title>Star </title>would find it a ‘useful condensation of the
+          Political and Social History of the year’. Fleming attempted to sever the link with local
+          news and instead offer the <title>Star </title>as radical record of Parliamentary affairs:
+          rather than encourage contributions, he asked that they be kept short so that more
+          coverage of parliamentary business to be included. </p>
+        <p>This movement was completed when Harney bought the <title>Star </title>in April 1852 and
+          resumed the editorship. Despite Fleming’s alterations, the format of the <title>Star
+          </title>had remained relatively stable since 1838. However, it was clearly a paper in
+          decline and Harney proposed some radical alterations. In the issue for the <xref
+            type="external"
+            url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=NSS%2F1852%2F04%2F17&amp;page=1&amp;entityid=Ar00100&amp;view=entity"
+            >17 April 1852</xref> Harney announced that the following week the <title>Star
+          </title>would be known as the <title>Star of Freedom </title>(it had become the
+            <title>Star and National Trades Journal</title> on the 20 March 1852) and merged it with
+          his <title>Friend of the People</title>. Harney also reduced the price to four and a half
+          pence a week but claimed that further reductions were impossible. A Chartist paper, he
+          argued, limited to its own class for its readership, would need to be half the size to
+          survive at three pence. If the <title>Star </title>was to remain at its present size but
+          be reduced to three pence, it would need to contain more police news and obtain a
+          circulation of 30,000. Despite appointing Gerald Massay as literary editor, and securing
+          W.J. Linton, Samuel M. Kydd and Alexander Bell as contributors, the <title>Star
+          </title>was not a success. On the 14 August the <title>Star of Freedom</title> was
+          relaunched, in new type, as a three column, 16 page weekly with a smaller page size of
+          around 29 x 41cm. One advantage to this new format was that each department could be
+          allocated a separate page. In a note explaining this change in the issue for <xref
+            type="external"
+            url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=NSS%2F1852%2F08%2F07&amp;page=1&amp;entityid=Ar00100&amp;view=entity"
+            >7 August 1852</xref>, Harney suggested that ‘its more compact form will be
+          with many an additional inducement to preserve each consecutive number for binding in
+          half-yearly volumes’. This shift in format marked the final stage in the transition of the
+            <title>Northern Star </title>into a London weekly periodical. Its two editions, now
+          marked ‘town’ and ‘country’ signalled Harney’s privileging of the metropolis, and his
+          remarks about binding severed the title’s link with the passing events of the news. In
+          this form the <title>Star </title>survived until 27 November 1852 before Harney moved on
+          to his next project, the <title>Vanguard</title>. In the same year Feargus O’Connor was
+          committed to an asylum where he died in 1855.</p>
+      </div>
+      <div>
+        <head>Northern Star in ncse </head>
+        <p>The copy of the <title>Northern Star </title>used in <hi>ncse </hi>is held at the British
+          Library. However, this resource – the copy text for many of the microfilm edition
+          distributed around the world – is missing the first seven issues, beginning with issue
+          eight, dated 6 January 1838. Earlier copies of the <title>Northern Star</title> are
+          difficult to find. Issues three and five have been included from the National Archives,
+          but we were unable to locate the others. However, the run of the <title>Star</title> is
+          not just the 738 issues that were published from 18 November 1837 to the 20 November 1852:
+          each regular issue was accompanied by a number of multiple editions. Many of these have
+          not survived the archival practices of different institutions and, because of the problems
+          that they cause subsequent editors, are often excluded from microfilm or digital editions.
+          Our edition of the <title>Northern Star</title> includes every issue that we could find
+          amongst the hard copy held by the British Library at Colindale. The Northern Star
+          portraits (see below) were mostly obtained from the National Portrait Gallery. From August
+          2006 to January 2007 they were exhibited at the Gallery and, with the cooperation of the
+          curator, Rab MacGibbon, we produced digital images from them. Malcolm Chase, who found the
+          portraits in the National Portrait Gallery’s collection, alerted us to those held by
+          Dorothy Thompson. With her cooperation, we were able to obtain two more portraits,
+          bringing the total in <hi>ncse</hi> to fifteen.</p>
+      </div>
+      <div>
+        <head> Northern Star Portraits</head>
+        <p>The <title>Northern Star</title> issued thirty four engravings from its fifth issue in
+          December 1837 until 1851. A full list is given in Chase 2005: below are the fifteen we
+          managed to locate and film.</p>
+        <p>Of these engravings, 27 were portraits of notable figures and all but five were still
+          living. Half of the portraits were of Chartist leaders but others included the poet Andrew
+          Marvell, the radical Henry Hunt, and the radical liberal MP for Leeds Sir William
+          Molesworth. As Malcolm Chase argues, the portraits were significant in that they moved
+          away from the satirical tradition to present a pantheon of notable figures and scenes that
+          helped establish a sense of the movement (Chase, 2005, 26). The portraits were notable for
+          the way in which they placed the figures in classical settings, associating them with a
+          fine art tradition while insisting on the contemporary relevance of those depicted. Cheap
+          periodicals such as the <title>Penny Magazine </title>(begun in 1832 by the Society for
+          the Diffusion of Useful Knowledge) had already demonstrated both the market for images
+          amongst a wide readership and the extant appetite for images that reproduced works of fine
+          art. The portraits in the <title>Northern Star</title> were used to build up and maintain
+          a base of subscribers. To produce the appropriate amount of copies it was necessary to use
+          steel rather than copper engraving, but the process took substantially longer. O’Connor
+          announced each portrait with much fanfare through the columns of the <title>Star</title>,
+          but then often had to revise both the description of the forthcoming image and the
+          estimated date it would be ready as it encountered difficulties in production. Although
+          these repeated amendments to the promised image frustrated readers, they also contributed
+          to a sense of anticipation. As only about 2000 images could be produced a week, it was
+          necessary to distribute them by region, furthering the sense of occasion. As the paper’s
+          circulation grew, O’Connor found himself committed to a scheme that was popular with
+          readers and beneficial to both the paper and movement as a whole; however, as the numbers
+          of readers wanting portraits increased, their demands became harder to fulfil, leading to
+          protracted dialogue in the columns of the <title>Star</title>. As the circulation of the
+          paper fell in 1842, O’Connor reduced the amounts of images that he offered. Between
+          September 1841 and June 1846, only three were issued and these, Chase argues, were a
+          reward for loyalty rather than a bid to boost circulation (Chase 2005, 42). In 1848 an
+          attempt was made to resume issuing portraits and engravings of the Irish nationalists John
+          Mitchell, William Smith O’Brien and T.F. Meagher were issued. Two more were scheduled to
+          appear, but were replaced by engravings of the European revolutionaries Louis Blanc and
+          Kossuth. The final set of portraits were issued in 1850-1 and featured Robert Peel, a
+          group of the Presidents of the United States and two images of the Great Exhibition. For
+          further details about the engravings, see Chase 2005.</p>
+      </div>   <!-- <div>
+        <list type="figure-thumb" rend="zoomify">
+          <head>Portraits</head>
+          <item>
+            <figure url="ns_por12"/>
+          </item>
+          <item>
+            <figure url="ns_por2"/>
+          </item>
+          <item>
+            <figure url="ns_por3"/>
+          </item>
+          <item>
+            <figure url="ns_por1"/>
+          </item>
+          <item>
+            <figure url="ns_por7"/>
+          </item>
+          <item>
+            <figure url="ns_por10"/>
+          </item>
+          <item>
+            <figure url="ns_por13"/>
+          </item>
+          <item>
+            <figure url="ns_por11"/>
+          </item>
+          <item>
+            <figure url="ns_por6"/>
+          </item>
+          <item>
+            <figure url="ns_por9"/>
+          </item>
+          <item>
+            <figure url="ns_por8"/>
+          </item>
+          <item>
+            <figure url="ns_por5"/>
+          </item>
+          <item>
+            <figure url="ns_por4"/>
+          </item>
+          
+        </list>
+      </div>
+        <div><p>1. Feargus Edward O'Connor after an unknown artist, December 1837. Reproduced by
+          permission of the National Portrait Gallery.</p>
+        <p>2. Henry Hunt, 320 x 260 mm, June 1838. Reproduced by permission of the National Portrait
+          Gallery.</p>
+        <p> 3. William Cobbett, September 1838. Reproduced by permission of the National Portrait
+          Gallery.</p>
+        <p>4. Thomas Attwood, 325 x 254 mm, November 1838. Reproduced by permission of the National
+          Portrait Gallery.</p>
+        <p>5. John Frost, 413mm x 281mm, by William Read after unknown artist, September-November
+          1839. Reproduced by permission of the National Portrait Gallery.</p>
+        <p>6. Joseph Rayner Stephens, by James Posselwhite after Benjamin, Garside 400mm x 293mm,
+          November 1839. Reproduced by permission of the National Portrait Gallery.</p>
+        <p>7. Richard Oastler, by James Posselwhite after Benjamin Garside, 495mm x 365mm, February
+          1840. Reproduced by permission of the National Portrait Gallery.</p>
+        <p>8. John Collins, probably by William Read, 414mm x 284mm, Autumn 1840. Reproduced by
+          permission of the National Portrait Gallery.</p>
+        <p>9. Peter Murray McDouall, probably by William Read, 437mm x 314mm, Autumn 1840.
+          Reproduced by permission of the National Portrait Gallery.</p>
+        <p>10. Feargus Edward O'Connor, 457mm x 317mm, December 1840. Reproduced by permission of
+          the National Portrait Gallery.</p>
+        <p>11. Robert Emmet, by William Read after a sketch by James Petrie, 519mm x 365mm, July
+          1841. Reproduced by permission of the National Portrait Gallery.</p>
+        <p>12. Thomas Slingsby Duncombe, George Stodart after John Childe, 504mm x 376mm, November
+          1842. Reproduced by permission of the National Portrait Gallery.</p>
+        <p>13. W.P. Roberts, September 1843. Reproduced by permission of the National Portrait
+          Gallery.</p>
+      </div>-->
+      
+      <div>
+        <head>Works cited</head>
+        <listBibl><bibl>Anonymous, 1838, ‘Leeds, Saturday, May 19’,<title>The Leeds Mercury</title>, 19 May 1838,
+          4.</bibl>
+          <bibl>S. Roberts, 1995, ‘Who wrote to the Northern Star?’, <title level="m">Duty of Discontent: Essays
+            for Dorothy Thompson</title>, ed. by Owen Ashton, Robert Fyson and Stephen Roberts
+            (London: Mansell).</bibl>
+            <bibl>Chase, M.S., 2005, ‘Building identity, building circulation: engraved portraiture and the
+          Northern Star’, in <title>Papers for the People: A Study of the Chartist Press</title>,
+              ed. by Joan Allen and Owen Ashton (Merlin Press), 3-24.</bibl>
+              <bibl>Epstein, J. A., 1976, ‘Feargus O’Connor and the <title>Northern Star</title>’,
+                <title>International Review of Social History</title>, 21, 51–97.</bibl>
+                <bibl>Jones, Aled, 2005, ‘Chartist Journalism and Print Culture in Britain, 1830-1855’, in
+            <title>Papers for the People: A Study of the Chartist Press</title>, ed. by Joan Allen
+                  and Owen Ashton (Merlin Press), 3-24.</bibl>
+                  <bibl>Thomspson, Dorothy, 1986, <title>The Chartists: Popular Politics in the Industrial
+                    Revolution</title> (Aldershot: Wildwood House).</bibl></listBibl>
+        <p>Jim Mussell</p>
+      </div>
+      
 
-            <div>
-                <p>please populate</p>
-                <p>please populate</p>
-                <p>please populate</p>
-            </div>
-            <div>
-                <p>please populate</p>
-                <p>please populate</p>
-                <p>please populate</p>
-              <list type="figure-thumb" rend="zoomify">
-                <head>Portraits</head>
-                <item>
-                  <figure url="ns_por1" />
-                </item>
-                <item>
-                  <figure url="ns_por2" />
-                </item>
-                <item>
-                  <figure url="ns_por3" />
-                </item>
-                <item>
-                  <figure url="ns_por4" />
-                </item>
-                <item>
-                  <figure url="ns_por5" />
-                </item>
-                <item>
-                  <figure url="ns_por6" />
-                </item>
-                <item>
-                  <figure url="ns_por7" />
-                </item>
-                <item>
-                  <figure url="ns_por8" />
-                </item>
-                <item>
-                  <figure url="ns_por9" />
-                </item>
-                <item>
-                  <figure url="ns_por10" />
-                </item>
-                <item>
-                  <figure url="ns_por11" />
-                </item>
-                <item>
-                  <figure url="ns_por12" />
-                </item>
-                <item>
-                  <figure url="ns_por13" />
-                </item>
-                <item>
-                  <figure url="ns_por14" />
-                </item>
-                <item>
-                  <figure url="ns_por15" />
-                </item>
-                <item>
-                  <figure url="ns_por16" />
-                </item>
-              </list>
-            </div>
 
 
 
@@ -112,7 +448,6 @@
 
 
 
-
-        </body>
-    </text>
+    </body>
+  </text>
 </TEI.2>
