@@ -204,6 +204,9 @@
         <fileName>index</fileName>
         <fileTitle>History of the Project</fileTitle>
       </item>
+     <item id="p6_1">
+       <fileName>team</fileName>
+     </item>
       <item id="p6_2">
         <fileName>publications</fileName>
         <fileTitle>Publications</fileTitle>
@@ -212,6 +215,13 @@
         <fileName>conferences</fileName>
         <fileTitle>Conferences</fileTitle>
       </item>
+      <item id="p6_4">
+        <fileName>publicity</fileName>
+      </item>
+      <item id="p6_5">
+        <fileName>symposia</fileName>
+      </item>
+      
     </group>
     <group id="g7">
       <groupHead>
@@ -223,6 +233,16 @@
         <fileName>index</fileName>
         <fileTitle>Reference</fileTitle>
       </item>
+      <item id="p7_1">
+        <fileName>bibliography</fileName>
+      </item>
+      <item id="p7_2">
+        <fileName>projects</fileName>
+      </item>
+      <item id="p7_3">
+        <fileName>links</fileName>
+      </item>
+      
     </group>
     <group id="g8">
       <groupHead>
