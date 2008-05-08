@@ -1,0 +1,641 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2
+  SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p7_1">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Research Resources for Nineteenth-Century Periodicals</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+        <address>
+        <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+        <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+      </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+    </encodingDesc>
+    <revisionDesc>
+
+      <change>
+        <date>2008-05-07</date>
+        <respStmt>
+          <name>JM</name>
+        </respStmt>
+        <item> update for final website</item>
+      </change>
+      <change>
+        <date>2006-12-20</date>
+        <respStmt>
+          <name>JM</name>
+        </respStmt>
+        <item> changes to XML</item>
+      </change>
+      <change>
+        <date>2005-12-05</date>
+        <respStmt>
+          <name>JM</name>
+        </respStmt>
+        <item> changes to XML</item>
+      </change>
+      <change>
+        <date>2005-11-11</date>
+        <respStmt>
+          <name>SP</name>
+        </respStmt>
+        <item> changes to XML</item>
+      </change>
+      <change>
+        <date>2005-10-26</date>
+        <respStmt>
+          <name>JM</name>
+        </respStmt>
+        <item> changes to XML</item>
+      </change>
+      <change>
+        <date>2005-10-25</date>
+        <respStmt>
+          <name>JM</name>
+        </respStmt>
+        <item>extensive changes to XML</item>
+      </change>
+      <change>
+        <date>2005-10-24</date>
+        <respStmt>
+          <name>JM</name>
+        </respStmt>
+        <item>extensive changes to XML</item>
+      </change>
+      <change>
+        <date>2005-10-18</date>
+        <respStmt>
+          <name>JM</name>
+        </respStmt>
+        <item>extensive changes to XML</item>
+      </change>
+      <change>
+        <date>2005-06-20</date>
+        <respStmt>
+          <name>AP</name>
+        </respStmt>
+        <item>changed title</item>
+      </change>
+      <change>
+        <date>2005-06-16</date>
+        <respStmt>
+          <name>AP</name>
+        </respStmt>
+        <item>alphabetical order</item>
+      </change>
+      <change>
+        <date>2005-07-06</date>
+        <respStmt>
+          <name>AP</name>
+        </respStmt>
+        <item>created XML docs</item>
+      </change>
+      <change>
+        <date>2005-05-18</date>
+        <respStmt>
+          <name>AP</name>
+        </respStmt>
+        <item>created XML docs</item>
+      </change>
+      <change>
+        <date>2005-03-18</date>
+        <respStmt>
+          <name>AP</name>
+        </respStmt>
+        <item>created XML docs</item>
+      </change>
+      <change>
+        <date>2005-03-18</date>
+        <respStmt>
+          <name>AC</name>
+        </respStmt>
+        <item>created XML</item>
+      </change>
+
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <head>Research Resources for Nineteenth-Century Periodicals</head>
+      <p>The following is a guide to some of the most significant resources for studying
+        nineteenth-century print culture and the digital humanities. It mostly focuses on books: for
+        an alternative bibliography that includes journal articles and essays see the Research
+        Society for Victorian Periodicals (RSVP) Bibliography. Further details are available from
+        the RSVP website [<xref url="http://www.rs4vp.org/">http://www.rs4vp.org/</xref>].</p>
+      <div>
+        <head>General Indexes for Nineteenth-Century Periodicals</head>
+        <listBibl>
+          <bibl>Anonymous, <title level="j">Tercentenary Handlist of English and Welsh Newspapers,
+              Magazines and Reviews 1620-1920</title> (London: <title level="j">The Times</title>
+            1920)</bibl>
+          <bibl>Balay, Robert <title level="j">Early Periodical Indexes</title>(London: Scarecrow
+            2000).</bibl>
+          <bibl>Bell, Marion V., and Jean C. Bacon, <title level="a">Poole’s Index: Date and Volume
+              Key</title> (Chicago: Association of College and Reference Librarians 1957).</bibl>
+          <bibl>Cushing, Helen Grant, and Adah V. Morris, eds., <title level="j">Nineteenth Century
+              Readers’ Guide to Periodical Literature, 1890-1900</title>, 2 vols. (New York: H.W.
+            Wilson 1944).</bibl>
+          <bibl> Graham, Walter, <title level="j">English Literary Periodicals</title>(New York:
+            Octagon 1966).</bibl>
+          <bibl>Houghton, Walter E., ed., <title level="m">Wellesley Index to Victorian Periodicals,
+              1824-1900</title>, 5 vols (Toronto: University of Toronto Press 1966-79). Also
+            available as a cd-rom (London: Routledge 1998).</bibl>
+          <bibl>North, John S., ed., <title level="j">Waterloo Directory of English Newspapers and
+              Periodicals: 1800-1900</title>, 2nd series (20 vols), ed. by John S. North (Waterloo,
+            Ontario: Waterloo Academic Press 1976-). Available online at Victorianperiodicals.com
+              [<xref url="http://www.victorianperiodicals.com/series2/default.asp"
+              >http://www.victorianperiodicals.com/series2/default.asp</xref>].</bibl>
+          <bibl>North, John S., ed., <title level="j">Waterloo Directory of Irish Newspapers and
+              Periodicals</title>, 2 vols (1986)</bibl>
+          <bibl>North, John S., ed., <title level="j">Waterloo Directory of Scottish Newspapers and
+              Periodicals</title>, 2 vols (1989)</bibl>
+          <bibl>Poole, William Frederick, et al., <title level="j">Poole’s Index to Periodical
+              Literature</title>, 7 vols (London: Kegan Paul, Tench, Trübner and Co. 1882, 1888,
+            1892, 1897, 1903, 1908). Available as part of <title level="j">19th Century
+            Masterfile</title> (Reston, VA: Paratext Inc) [<xref
+              url="http://www.paratext.com/19cm_intro.htm"
+            >http://www.paratext.com/19cm_intro.htm</xref>].</bibl>
+          <bibl>Stead, W.T., and Eliza Hetherington, eds., <title level="j">Index to the Periodical
+              Literature of the World</title>, 11 vols (London: Review of Reviews 1891-1900).</bibl>
+          <bibl>Stewart, James D., et al., <title level="j">British Union-Catalogue of Periodicals:
+              a Record of the Periodicals of the World, from the Seventeenth Century to the Present
+              Day, in British Libraries</title>, 5 vols plus supplements (London: Butterworths
+            Scientific Publications 1955).</bibl>
+          <bibl> Sullivan, Alvin, ed., <title level="j">British Literary Magazines</title>, 4 vols
+            (Wesport, Connecticut: Greenwood 1983).</bibl>
+          <bibl>Wall, C. Edward, ed., <title level="j">Cumulative Author Index for Poole’s Index to
+              Periodical Literature, 1802-1906</title> (Ann Arbor: Pierian Press 1971).</bibl>
+          <bibl>Ward, William S., <title level="j">Index and Finding List of Serials Published in
+              the British Isles, 1789-1832</title> (Lexington, Kentucky: University of Kentucky
+            Press 1952).</bibl>
+          <bibl>Wiener, Joel H. <title level="j">A Descriptive Finding List of Unstamped British
+              Periodicals, 1830-1836</title> (London: Bibliographical Society 1970).</bibl>
+        </listBibl>
+      </div>
+      <div>
+        <head>Indexes and Bibliographic Resources for Secondary Materials</head>
+        <listBibl>
+          <bibl><title level="j">Victorian Periodicals Newsletter</title>, 11 vols. (1968-1978).
+            Continued as <title level="j">Victorian Periodicals Review</title> (1968-): includes
+            Lionel Madden and Diana Dixon, <title level="m">The Nineteenth-Century Periodical Press
+              in Britain: A Bibliography of Modern Studies, 1901-1971</title>, supplement to vol. 8
+            (1975); Larry K. Uffelman, with assistance by Lionel Madden and Diana Dixon, <title
+              level="m">The Nineteenth-Century Periodical Press in Britain: A Bibliography of Modern
+              Studies, 1972-1987</title>, (1992); and indexes 1968-77, <title level="j">VPR</title>,
+            18 (1985), pp.102-132; 1978-1987, <title level="j">VPR</title>, 32 (1999), pp.1-42.</bibl>
+          <bibl>
+            <title level="j">Journalism History</title> (1989-): Index for vols 1-26 (1989-2001) in
+              <title level="j">Journalism History</title>, 26 (2001), pp.157-212.</bibl>
+          <bibl>Bruccoli, Mathew J., and Richard Layman, eds., <title level="j">Dictionary Literary
+              Biography</title> (Detroit, Michigan: Thomson-Gale 1978-): James K. Bracken and Joel
+            Silver (eds.), <title level="m">British Literary Book Trade, 1700-1820</title>, 154
+            (1995); William Baker and Kenneth Womack (eds.), <title level="m">Nineteenth Century
+              British Book Collectors and Bibliographers</title>, 184 (1997); William B. Thesing
+            (ed.), <title level="m">Victorian Prose Writers Before 1867</title>, 55 (1987); William
+            B. Thesing (ed.), <title level="m">Victorian Prose Writers After 1867</title>, 57
+            (1987); Patricia J. Anderson and Jonathan Rose (eds.)<title level="m">British Literary
+              Publishing Houses 1820-1880</title>, 106 (1991); Jonathan Rose and Patricia J.
+            Anderson (eds.), <title level="m">British Literary Publishing Houses 1881-1965</title>,
+            112 (1991).</bibl>
+          <bibl>Chadhuri, Brahma, et al., eds., <title level="j">Annual Bibliography of Victorian
+              Studies</title> (Edmonton, Alberta: Litir Database 1976-).</bibl>
+          <bibl>Linton, David, and Ray Boston, eds., <title level="j">The Newspaper Press in
+              Britain: an Annotated Bibliography</title> (London: Mansell 1987)</bibl>
+          <bibl>Madden, Lionel, and Diana Dixon, eds., <title level="m">The Nineteenth-Century
+              Periodical Press in Britain: A Bibliography of Modern Studies 1901-1971</title> (New
+            York: Garland 1976).</bibl>
+          <bibl>Vann, J. Don, and Rosemary VanArsdel, eds., <title level="m">Victorian Periodicals:
+              A Guide to Research</title> (New York: MLA 1978).</bibl>
+          <bibl>Vann, J. Don, and Rosemary VanArsdel, eds., <title level="m">Victorian Periodicals:
+              A Guide to Research, Volume 2</title> (New York: MLA 1989).</bibl>
+          <bibl>Vann, J. Don, and Rosemary VanArsdel, eds., <title level="m">Victorian Periodicals
+              and Victorian Society</title> (Toronto: University of Toronto 1994).</bibl>
+        </listBibl>
+      </div>
+      <div>
+        <head>Specialist Periodicals</head>
+        <listBibl>
+          <bibl>Altholz, Josef L., <title level="m">The Religious Press in Britain 1760-1900</title>
+            (New York: Greenwood 1989).</bibl>
+          <bibl>Damerson, J. Lasley and Pamela Palmer, <title level="j">An Index to the Critical
+              Vocabulary of Blackwood’s Edinburgh Magazine 1830-1840</title> (West Cornwall,
+            Connecticut: 1983).</bibl>
+          <bibl>Harrison, Royden, Gillian B. Woolven, Robert Duncan, <title level="m">Warwick Guide
+              to British Labour Periodicals, 1790-1970: A Check List</title> (Sussex: Harvester
+            Press 1977).</bibl>
+          <bibl>Hayley, Barbara and Edna McKay, eds., <title level="j">Three Hundred Years of Irish
+              Periodicals</title> (Dublin: Association of Irish Learned Journals 1987).</bibl>
+          <bibl>Riley, Sam G., ed., <title level="m">Consumer Magazines of the British Isles</title>
+            (Westport, Connecticut: Greenwood 1993).</bibl>
+          <bibl>Scudder, Samuel H., <title level="m">Catalogue of Scientific Serials of all
+              Countries Including the Transactions of Learned Societies in the Natural, Physical,
+              and Mathematical Sciences, 1633-1876</title>(1879; New York: Kraus Reprint Corporation
+            1965).</bibl>
+          <bibl>Sennett, Robert S., <title level="m">The Nineteenth Century Photographic Press: A
+              Study Guide</title> (New York: Garland 1987).</bibl>
+          <bibl>Walters, Huw, <title level="m">A Bibliography of Welsh Periodicals,
+            1735-1830</title> (Aberystwth: National Library of Wales 1993).</bibl>
+          <bibl>Walsh, Michael J., <title level="m">Religious Bibliographies in Serial Literature: A
+              Guide</title> (London: Mansell 1981)</bibl>
+          <bibl>Zuckerman, Mary Ellen, <title level="m">Sources on the History of Women’s Magazines
+              1792-1960: an Annotated Bibliography</title> (New York: Greenwood 1991).</bibl>
+        </listBibl>
+      </div>
+      <div>
+        <head>Contents of Periodicals</head>
+        <div>
+          <head>Illustrations</head>
+          <listBibl>
+            <bibl>Baker, Charles, ed., <title level="m">Bibliography of British Book Illustrators,
+                1860-1900</title> (Birmingham: Birmingham Book Shop 1978).</bibl>
+            <bibl>Beegan, Gerry, <title level="m">The Mass Image: A social history of photomechanical reproduction in Victorian London</title> (Basingstoke: Palgrave Macmillan 2008).</bibl>
+              <bibl>Bryant, Mark, and Simon Heneage, <title level="m">Dictionary of British
+                Cartoonists and Caricaturists, 1730-1980</title> (Aldershot: Scolar Press 1994).</bibl>
+            <bibl>Goldman, Paul, <title level="m">Victorian Illustrated Books 1850-1870</title>
+              (London: British Museum 1994).</bibl>
+            <bibl>Goldman, Paul, <title level="m">Victorian Illustration</title> (Aldershot: Scolar
+              1996).</bibl>
+            <bibl>Houfe, Simon, <title level="m"> Dictionary of British Book Illustrators and
+                Caricaturists,1800-1914</title> (1978; Woodbridge: Antique Collectors’ Club 1996).</bibl>
+            <bibl>Engen, Rodney K., <title level="m">Dictionary of Victorian Engravers, Print
+                Publishers and their Works</title> (London: Chadwyck-Healey 1978).</bibl>
+            <bibl>Engen, Rodney K., <title level="m">Dictionary of Victorian Wood Engravers</title>
+              (London: Chadwyck-Healey 1985).</bibl>
+            <bibl>Lister, Raymond, <title level="m">Prints and Printmaking: A Dictionary and
+                Handbook of the Art in Nineteenth-Century Britain</title> (London: Methuen 1994).</bibl>
+            <bibl>Maxwell, Richard, ed., <title level="m">Victorian Illustrated Books</title>
+              (Charlottesville, VA: University of Virginia 2002).</bibl>
+            <bibl>Mckechnie, Sue, <title level="m">Briitsh Silhouette Artists and their Work,
+                1760-1860</title> (London: Sotheby Park Bernet 1978).</bibl>
+            <bibl>Muir, Percy, <title level="m">Victorian Illustrated Books</title> (London: B.T.
+              Batford 1971).</bibl>
+            <bibl>Pritchard, Michael, <title level="m">A Directory of London Photographers
+              1848-1908</title> (1986; London: British Library 1994).</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Advertising and Trade</head>
+          <listBibl>
+            <bibl>Atkins, P.J., <title level="m">The Directories of London 1677-1977</title>
+              (London: Mansell 1990).</bibl>
+            <bibl>Freshwater, G.J., and Alfred Bastin, <title level="m">Peterson’s Dictionary of
+                Advertising and Printing: a complete work of reference to the advertising and
+                printing arts</title> (London: New Era 1930).</bibl>
+            <bibl>King, Edmund, <title level="m">Victorian Decorated Trade Bindings, 1830-1880: a
+                Descriptive Bibliography</title> (London: British Library 2003).</bibl>
+            <bibl>Packer, Maurice, <title level="m">Bookbinders of Victorian London</title> (London:
+              British Library 1991).</bibl>
+            <bibl> Shaw, Gareth, and Allison Tipper, <title level="m">British Directories: A
+                Bibliography and Guide to Directories published in England and Wales (1850-1950) and
+                Scotland (1773-1950)</title> (Leicester: Leicester University Press 1988).</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Names</head>
+          <listBibl>
+            <bibl>Atkinson, Frank, <title level="j">Dictionary of Literary Pseudonyms</title>, 4th
+              ed. (1975; London: Library Association 1987).</bibl>
+            <bibl>Carty, T.J., <title level="j">A Dictionary of Literary Pseudonyms in the English
+                Language</title>, 2nd ed. (1995; London: Mansell 2000).</bibl>
+            <bibl>Clarke, Joseph F., <title level="m">Pseudonyms</title> (London: Hamish Mamilton
+              1977)</bibl>
+            <bibl>Payton, Geoffrey, revised by John Paxton, <title level="m">The Penguin Dictionary
+                of Proper Names</title> (1969: London: Penguin 1991).</bibl>
+            <bibl>Room, Adrian, <title level="j">Dictionary of Pseudonyms</title>, 3rd ed.
+              (Jefferson, North Carolina: Mcfarland 1989).</bibl>
+          </listBibl>
+        </div>
+      </div>
+      <div>
+        <head>Press Directories and other Print Trade Publications</head>
+        <listBibl>
+          <bibl>
+            <title level="m">Bent’s Monthly Literary Advertiser</title> (1829-1860).</bibl>
+          <bibl><title level="m">Bookseller</title> (1858-1928).</bibl>
+          <bibl>
+            <title level="m">Deacon’s Newspaper Handbook and Advertiser’s Guide</title> (1881-1893).</bibl>
+          <bibl>
+            <title level="m">Everett’s Directory of the Principal Newspaper’s of the World</title>
+            (1881).</bibl>
+          <bibl>
+            <title level="m">May’s British and Irish Press Guide and Advertiser’s Handbook and
+              Dictionary</title>, (1874, 1877-80, 1883-1889): Continued as <title level="m"
+              >Willing’s British and Irish Press Guide</title> (1890-1892, 1894-1898); continued as
+              <title level="m">Willing’s Press Guide</title> (1899-1905, 1907-1909, 1911-).</bibl>
+          <bibl>
+            <title level="m">Mitchell’s Newspaper Press Directory</title> (1846-1847, 1851,
+            1854-1907). </bibl>
+          <bibl>
+            <title level="m">Printer’s Register</title> (1867-1956).</bibl>
+          <bibl>
+            <title level="m">Publishers’ Circular</title> (1837-1959).</bibl>
+          <bibl>
+            <title level="m">Publishers’ Weekly</title> (1881-).</bibl>
+          <bibl><title level="m">Sell’s Dictionary of the World’s Press</title> (1883-1915).</bibl>
+          <bibl>
+            <title level="m">Street’s List of Newspapers published in Great Britain and
+            Ireland</title> (1873, 1890, 1892) . Continued as <title level="m">Street’s Newspaper
+              Directory</title> (1898-1917).</bibl>
+        </listBibl>
+      </div>
+      <div>
+        <head>Monographs and Editied Collections on Nineteenth-Century Print Culture</head>
+        <listBibl>
+          <bibl>Adburgham, Alison, <title level="j">Women in Print: Writing Women and Women's
+              Magazines from the Restoration to the Accession of Victoria</title> (London: George
+            Allen and Unwin 1972).</bibl>
+          <bibl>Anderson, Patricia J., <title level="j">The Printed Image and the Transformation of
+              Popular Culture, 1790-1860</title> (Oxford: Clarendon 1991).</bibl>
+          <bibl>Amigoni, David, ed., <title level="m">Life Writing and Victorian Culture</title>
+            (Aldershot: Ashgate 2006).</bibl>
+          <bibl>Anonymous, ed., <title level="j">C.P. Scott, 1846-1932: the Making of the <title
+                level="j">Manchester Guardian</title></title> (London: Frederick Muller 1946).</bibl>
+          <bibl>Anonymous, <title level="j">History of <title level="j">The Times</title></title>, 6
+            vols (London: The Times 1937-1993).</bibl>
+          <bibl>Aspinall, A., <title level="j">Politics and the Press, 1780-1850</title> (London:
+            Home and Van Thal 1949).</bibl>
+          <bibl>Bauer, Josephine, <title level="j"><title level="j">The London Magazine</title>,
+              1820-29</title> (Copenhagen: Rosenkilde and Bagger 1953).</bibl>
+          <bibl>Beetham, Margaret, <title level="j">A Magazine of Her Own? Domesticity and Desire in
+              the Woman's Magazine, 1800-1914</title> (London: Routledge 1996).</bibl>
+          <bibl>Behrendt, Stephen, ed., <title level="j">Romanticism, Radicalism, and the
+            Press</title> (Detroit, Michigan: Wayne Street University Press 1997).</bibl>
+          <bibl>Berry, Neil, <title level="j">Articles of Faith: the Story of British Intellectual
+              Journalism</title> (London: Waywiser 2002).</bibl>
+          <bibl>Bevington, Merle Mowbray, <title level="j">The <title level="j">Saturday
+              Review</title>, 1855-1868: Representative Educated Opinion in Victorian
+            England</title> (1941; New York: Columbia University Press 1966).</bibl>
+          <bibl>Black, Jeremy, <title level="j">The English Press, 1621-1861</title> (Stroud: Sutton
+            2001).</bibl>
+          <bibl>Bourne, H.R. Fox, <title level="j">English Newspapers: Chapters in the History of
+              Journalism</title>, 2 vols. (London: Chatto and Windus 1887).</bibl>
+          <bibl>Barker, Hannah, and Simon Burrows, eds., <title level="j">Press, Politics and the
+              Public Sphere in Europe and North America, 1760-1820</title> (Cambridge: Cambridge
+            University Press 2002).</bibl>
+          <bibl>Brake, Laurel, Aled Jones, and Lionel Madden, eds., <title level="j">Investigating
+              Victorian Journalism</title> (London: Macmillan 1990).</bibl>
+          <bibl>Brake, Laurel, <title level="j">Subjugated Knowledges: Journalism, Gender and
+              Literature in the Nineteenth Century</title> (New York: New York University Press
+            1994).</bibl>
+          <bibl>Brake, Laurel, Bill Bell and David Finkelstein, eds., <title level="j"
+              >Nineteenth-Century Media and the Construction of Identities</title> (London: Palgrave
+            2000).</bibl>
+          <bibl>Brake, Laurel, <title level="j">Print in Transition, 1850-1910: Studies in Media and
+              Book History</title> (London: Palgrave 2001).</bibl>
+          <bibl>Brake, Laurel and Julie Codell, eds, <title level="m">Encounters in the Victorian
+              Press: Editors, Authors, Readers</title> (London: Palgrave 2005).</bibl>
+          <bibl>Boardman, K., and Margaret Beetham, eds., <title level="j">Victorian Women’s
+              Magazines: An Anthology</title> (Manchester: Manchester University Press 2001).</bibl>
+          <bibl>Brown, Lucy, <title level="m">Victorian News and Newspapers</title> (Oxford: Clarendon 1985).</bibl>
+          <bibl>Buchanan-Brown, John, <title level="m">Early Victorian Illustrated Books: Britain, France and Germany 1820-1860</title>, (London: British Library 2005).</bibl>
+          <bibl>Burrows, Simon, <title level="j">French Exile Journalism and European Politics,
+              1792-1814</title> (Suffolk: Boydell 2000).</bibl>
+          <bibl>Camlot, James, <title level="m">Style and the Nineteenth-Century British Critic: 'Sincere Mannerisms'</title> (Aldershot: Ashgate 2008).</bibl>
+          <bibl>Cantor, Geoffrey, et al., <title level="j">Science in the Nineteenth-Century
+              Periodical</title> (Cambridge: Cambridge University Press 2004).</bibl>
+          <bibl>Cantor, Geoffrey, and Sally Shuttleworth, eds., <title level="j">Science Serialized:
+              Representations of the Sciences in Nineteenth-Century Periodicals</title> (Cambridge,
+            Massachusetts: MIT Press 2004).</bibl>
+          <bibl>Cesarani, David, <title level="j">The <title level="j">Jewish Chronicle</title> and
+              Anglo-Jewry, 1841-1991</title> (Cambridge: Cambridge University Press 1994).</bibl>
+          <bibl>Clive, John, <title level="j">Scotch Reviewers: the <title level="j">Edinbugh
+              Review</title>, 1802-1815</title> (London: Faber and Faber 1956).</bibl>
+          <bibl>Collison, Robert, <title level="j">The Story of Street Literature: Forerunner of the
+              Popular Press</title> (London: J.M. Dent 1973).</bibl>
+          <bibl>Cox, Jack, <title level="j">Take a Cold Tub, Sir! <title level="j">The Story of the
+                Boys Own Paper</title></title> (Guildford: Lutterworth Press 1982).</bibl>
+          <bibl>Cranfield, G.A., <title level="j">The Press and Society: from Caxton to
+            Northcliffe</title> (London: Longman 1978).</bibl>
+          <bibl>Crawford, Allan, <title level="m">Emery Walker: Printer of Pictures</title>, (Pasadena: Clinker Press 2007).</bibl>
+          <bibl>Dancyger, Irene, <title level="j">A World of Women: An Illustrated History of
+              Women's Magazines</title> (Dublin: Gill and Macmillan 1978).</bibl>
+          <bibl>Demata, Massimiliano, and Duncan Wu, <title level="j">British Romanticism and the
+                <title level="j">Edinburgh Review</title>: Bicentenary Essays</title> (London:
+            Palgrave 2002).</bibl>
+          <bibl>Edwards, P.D., <title level="j">Dickens's "Young Men": George Augustus Sala, Edmund
+              Yates and the World of Victorian Journalism</title> (Aldershot: Ashgate 1997).</bibl>
+          <bibl>Ellegård, Alvar <title level="j">The Readership of the Periodical Press in
+              Mid-Victorian Britain</title> (Göteborg: Göteborg Universitets Årsskrift 1957).</bibl>
+          <bibl>Engel, Matthew, <title level="j">Tickle the Public: One Hundred Years of the Popular
+              Press</title> (London: Victor Gollancz 1996).</bibl>
+          <bibl>Finkelstein, David, ed., <title level="m">Print Culture and the Blackwood
+            Tradition</title> (Toronto: University of Toronto Press 2006).</bibl>
+          <bibl>Frankel, Oz, <title level="m">States of Inquiry: Social investigations and print
+              culture in nineteenth-century Britain and the United States</title> (Baltimore: Johns
+            Hopkins University Press 2006).</bibl>
+          <bibl>Fraser, Hilary, Judith Johnstone, and Stephanie Green, <title level="j">Gender and
+              the Victorian Periodical</title> (Cambridge: Cambridge University Press 2003). </bibl>
+          <bibl>Fyfe, Aileen, <title level="j">Industrialised Conversion: the Religious Tract
+              Society and Popular Science Publishing in Victorian Britain</title> (Cambridge:
+            University of Cambridge 2000).</bibl>
+          <bibl>Fyfe, Aileen, <title level="j">Science and Salvation: Evangelical Popular Science
+              Publishing in Victorian Britain</title> (Chicago, Illinois: University of Chicago
+            Press 2004).</bibl>
+          <bibl>Gilmartin, Kevin, <title level="j">Print Politics: the Press and Radical Opposition
+              in Early Nineteenth-Century England</title> (Cambridge: Cambridge University Press
+            1996).</bibl>
+          <bibl>Griffiths, Dennis, <title level="j">Plant Here <title level="j">The
+            Standard</title></title> (London: Macmillan 1996).</bibl>
+          <bibl>Hall, Wayne E., <title level="j">Dialogues in the Margin: a Study of the <title
+                level="j">Dublin University Magazine</title></title> (Washington, D.C.: Catholic
+            University of America Press 1999).</bibl>
+          <bibl>Harris, Michael and Alan Lee, <title level="j">The Press in English Society from the
+              Seventeenth to Nineteenth Centuries</title> (London: Associated University Presses
+            1986).</bibl>
+          <bibl>Harrison, Stanley, <title level="j">Poor Men's Guardians: A Record of the Struggles
+              for a Democratic Newspaper Press, 1763-1973</title> (London: Lawrence and Wishart
+            1974).</bibl>
+          <bibl>Henson, Louise, et al., eds., <title level="j">Culture and Science in the
+              Nineteenth-Century Media</title> (Aldershot: Ashgate 2004).</bibl>
+          <bibl>Hepburn, James, <title level="j">The Author's Empty Purse and the Rise of the
+              Literary Agent</title> (London: Oxford University Press 1968).</bibl>
+          <bibl>Heren, Louis <title level="j">The Power of the Press?</title> (London: Orbis 1985).</bibl>
+          <bibl>Higgins, David, <title level="m">Romantic genius and the literary magazine: Biography, celebrity and politics</title> (London: Routledge 2005).</bibl>
+          <bibl>Hoagwood, Terence Allan and Kathryn Ledbetter, <title level="m">“Colour’d Shadows”: Contexts of Publishing, Printing, and Reading Nineteenth-Century British Women Writers</title> (Basingstoke: Palgrave Macmillan 2005).</bibl>
+          <bibl>Hollis, Patricia, <title level="j">The Pauper Press: a Study in Working-Class
+              Radicalism of the 1830s</title> (Oxford: Oxford University Press 1970).</bibl>
+          <bibl>Jackson, Kate <title level="j">George Newnes and the New Journalism in Britain,
+              1880-1910</title> (Aldershot: Ashgate 2001).</bibl>
+          <bibl>Jones, Aled Gruffydd, <title level="j">Press, Politics and Society: a History of
+              Journalism in Wales</title> (Cardiff: University of Wales Press 1993).</bibl>
+          <bibl>King, Andrew, <title level="j">The <title level="j">London Journal</title>,
+              1845-1883: Periodicals, Production, and Gender</title> (Aldershot: Ashgate 2004).</bibl>
+          <bibl>King, Andrew, and John Plunkett, eds., <title level="j">Popular Print Media,
+              1820-1900</title>, 3 vols (London: Routledge 2004)</bibl>
+          <bibl>King, Andrew and John Plunkett, <title level="j">Victorian Print Media: a
+            Reader</title> (Oxford: Oxford University Press 2005).</bibl>
+          <bibl>Klancher, Jon P., <title level="j">The Making of English Reading Audiences,
+              1790-1832</title> (Madison, Wisconsin: University of Wisconsin Press 1987).</bibl>
+          <bibl>Koss, Stephen, <title level="j">The Rise and Fall of the Political Press in
+            Britain</title>, 2 vols (London: Hamish Hamilton 1981).</bibl>
+          <bibl>Lang, Marjory, <title level="j">Women Who Made the News: Female Journalists in
+              Canada, 1880-1945</title> (Montreal and Kingston: McGill-Queen's University Press
+            1999).</bibl>
+          <bibl>Law, Graham, <title level="j">Serializing Fiction in the Victorian Press</title>
+            (London: Palgrave 2000).</bibl>
+          <bibl>Ledbetter, Kathryn, <title level="m">Tennyson and Victorian Periodicals: Commodities in Context</title> (Aldershot: Ashgate 2007).</bibl>
+          <bibl>Lee, Alan J., <title level="j">The Origins of the Popular Press in England,
+              1855-1914</title> (London: Croom Helm 1976).</bibl>
+          <bibl>Maidment, Brian, <title level="j">Reading Popular Prints, 1790-1870</title>
+            (Manchester: University of Manchester Press 1996).</bibl>
+          <bibl>Marchand, Leslie, <title level="j"><title level="j">The Athenaeum</title>: A Mirror
+              of Victorian Culture</title> (Chapel Hill, North Carolina: University of North
+            Carolina Press 1941).</bibl>
+          <bibl>Martin, Michele, <title level="m">Images of War: Illustrated Periodicals and Constructed Nations</title> (Toronto: University of Toronto Press 2006).</bibl>
+           <bibl>Maxwell, Catherine and Patricia Pulham, eds, <title level="m">Vernon Lee: Decadence,
+              Ethics, Aesthetics</title> (London: Palgrave 2006).</bibl>
+          <bibl>Morris, Albert, <title level="j">Scotland's Paper: <title level="j">The
+              Scotsman</title> 1817-1992</title> (Edinburgh: Scotsman 1992).</bibl>
+          <bibl>Morris, Hazel, <title level="j">Hand, Head, and Heart: Samuel Carter Hall and the
+                <title level="j">Art Journal</title></title> (Norwich: Michael Russell 2002).</bibl>
+          <bibl>Mussell, James, <title level="m">Science, Time and Space in the Late Nineteenth-Century Periodical Press</title> (Aldershot: Ashgate 2007).</bibl>
+            <bibl>Mutch, Deborah, <title level="m">English socialist periodicals 1880-1890: A reference source</title> (Aldershot: Ashgate 2005).</bibl>
+          <bibl>Myers, Robin, and Michael Harris, <title level="j">Serials and their Readers,
+              1620-1914</title> (Winchester: St Paul's Bibliographies 1993).</bibl>
+          <bibl>Nelson, Claudia, <title level="j">Invisible Men: Fatherhood in Victorian
+              Periodicals, 1850-1910</title> (Athens, Georgia: University of Georgia Press 1995).</bibl>
+          <bibl>Newton, David, and Martin Smith, <title level="j">the <title level="j">Stamford
+                Mercury</title>: Three Centuries of Newspaper Publishing</title> (Stamford: Shaun
+            Tyas 1999).</bibl>
+          <bibl>Norton, Barbara T., and Jehanne M. Gheith, eds., <title level="j">An Improper
+              Profession: Women, Gender, and Journalism in Late Imperial Russia</title> (London:
+            Duke University Press 2001).</bibl>
+          <bibl>Olson, Kenneth E., <title level="j">The History Makers: the Press of Europe from its
+              Beginnings through 1965</title> (Baton Rouge, Louisiana: Louisiana State Univeristy
+            Press 1966).</bibl>
+          <bibl>Oram, <title level="j">The Newspaper Book: a History of Newspapers in Ireland,
+              1649-1983</title> (Dublin: MO Books 1983).</bibl>
+          <bibl>Plunkett, John, <title level="j">Queen Victoria: First Media Monarch</title>
+            (Oxford: Oxford University Press 2003).</bibl>
+          <bibl>Potter, Simon J., <title level="j">News and the British World: the Emergence of an
+              Imperial Press System, 1876-1922</title> (Oxford: Clarendon 2003).</bibl>
+          <bibl>Pottinger, George, <title level="j">Heirs of the Enlightenment: Edinburgh Reviewers
+              and Writers, 1800-1830</title> (Edinburgh: Scottish Academic Press 1992).</bibl>
+          <bibl>Pound, Reginald, <title level="j">The <title level="m">Strand Magazine</title>,
+              1891-1950</title> (London: Heinemann 1966).</bibl>
+          <bibl>Read, Donald, <title level="j">Press and the People, 1790-1850: Opinion in Three
+              English Cities</title> (Wesport, Connecticut: Greenwood 1961).</bibl>
+          <bibl>Reed, David, <title level="j">The Popular Magazine in Britain and the United States,
+              1880-1960</title> (London: British Library 1997).</bibl>
+          <bibl>Rendall, Jane, eds, <title level="m">Equal or Different: Women's Politics
+            1800-1914</title> (Oxford: Basil Blackwell 1987).</bibl>
+          <bibl>Robson, John M., <title level="j">Marriage or Celibacy? The <title level="j">Daily
+                Telegraph</title> on a Victorian Dilemma</title> (Toronto: University of Toronto
+            Press 1995).</bibl>
+          <bibl>Secord, James A., <title level="j">Victorian Sensation: the Extraordinary
+              Publication, Reception, and Secret Authorship of <title level="j">Vestiges of the
+                Natural History of Creation</title></title> (Chicago: University of Chicago Press
+            2000).</bibl>
+          <bibl>Shattock, Joanne, <title level="j">Politics and Reviewers: the <title level="j"
+                >Edinburgh</title> and the <title level="j">Quarterly</title> in the Early Victorian
+              Age</title> (Leicester: Leicester University Press 1989).</bibl>
+          <bibl>Shattock, Joanne, and Michael Wolff, eds., <title level="j">The Victorian Periodical
+              Press: Samplings and Soundings</title> (Leicester: Leicester University Press 1982).</bibl>
+          <bibl>Sinnema, Peter W., <title level="j">Dynamics of the Pictured Page: Representing the
+              Nation in the <title level="j">Illustrated London News</title></title> (Aldershot:
+            Ashgate 1998).</bibl>
+          <bibl>Sotiron, Minko, <title level="j">From Politics to Profit: the Commercialization of
+              Canadian Daily Newspapers, 1890-1920</title> (Montreal and Kingston: McGill-Queen's
+            University Press 1997).</bibl>
+          <bibl>Srebrnik, Patricia Thomas, <title level="j">Alexander Strahan, Victorian
+            Publisher</title> (Ann Arbor, Michigan: University of Michigan Press 1986).</bibl>
+          <bibl>Turner, Mark, <title level="j">Trollope and the Magazines: Gendered Issues in
+              Mid-Victorian Britain</title> (Basingstoke: Macmillan 2000).</bibl>
+          <bibl>Vann, J. Don, and Rosemary VanArsdel, <title level="j">Periodicals of Queen
+              Victoria's Empire: An Exploration</title> (London: Mansell 1996).</bibl>
+          <bibl>Wheatley, Kim, ed., <title level="j">Romantic Periodicals and Print Culture</title>
+            (London: Frank Cass 2003).</bibl>
+          <bibl>White, Cynthia L., <title level="j">Women's Magazines, 1693-1968</title> (London:
+            Michael Joseph 1971).</bibl>
+          <bibl>Wiener, Joel H., <title level="j">The War of the Unstampled: the Movement to Repeal
+              the British Newspaper Tax, 1830-1836</title> (Ithaca, New York: Cornell University
+            Press 1969).</bibl>
+          <bibl>Wiener, Joel H., ed., <title level="j">Papers for the Millions: the New Journalism
+              in Britain, 1850s-1914.</title> (Westport, Connecticut: Greenwood 1988).</bibl>
+          <bibl>Williams, Francis, <title level="j">Dangerous Estate: the Anatomy of
+            Newspapers</title> (London: Longmans 1957).</bibl>
+          <bibl>Williams, Francis, <title level="j">The Right to Know: the Rise of the World
+            Press</title> (London: Longmans1969).</bibl>
+        </listBibl>
+      </div>
+      <div>
+        <head>Digital Humanities</head>
+        <listBibl>
+          <bibl>Aarseth, Espen, J. <title level="j">Cybertext: Perspective on Ergodic
+            Literature</title> (Baltimore: John Hopkins Press 1997).</bibl>
+          <bibl>Burnard, Lou, Katherine O'Brien O'Keeffe, and John Unsworth, eds., <title level="j"
+              >Electronic Textual Editing</title> (MLA: 2005). Also available free from the TEI
+            website: [<xref url="http://www.tei-c.org/Activities/ETE/Preview/index.xml"
+              >http://www.tei-c.org/Activities/ETE/Preview/index.xml</xref>].</bibl>
+          <bibl>Buzzetti, Dino, Giuliano Pancaldi and Harold Short, eds., <title level="j"
+              >Augmenting Comprehension: Digital Tools and the History of Ideas</title> (Oxford: OHC
+            2004).</bibl>
+          <bibl>Chernaik, Warren, Caroline Davis and Marilyn Deegan, eds., <title level="j">The
+              Politics of the Electronic Text</title> (1993; Oxford: OHC 1997).</bibl>
+          <bibl>Chernaik, Warren, Marilyn Deegan and Andrew Gibson, eds., <title level="j">Beyond
+              the Book: Theory, Culture, and the Politics of Cyberspace</title> (Oxford: OHC 1996).</bibl>
+          <bibl>Chernaik, Warren, and Patrick Parrinder, eds., <title level="j">Textual Monopolies:
+              Literary Copyright and the Public Domain</title> (Oxford: OHC 1997).</bibl>
+          <bibl>Davis, Caroline, and Marilyn Deegan, eds., <title level="j">Computers and
+            Language</title> (Oxford: OHC 1992).</bibl>
+          <bibl>Delany, Paul and George P. Landow, eds., <title level="j">Hypermedia and Literary
+              Studies</title> (1991; Cambridge, Massachussetts: MIT 1992).</bibl>
+          <bibl>Dowler, Lawrence, ed., <title level="j"> Gateways to knowledge : the role of
+              academic libraries in teaching, learning, and research </title> (Cambridge,
+            Massachusetts: MIT Press 1997).</bibl>
+          <bibl>Finneran, Richard J., ed., <title level="j">The Literary Text in the Digital
+            Age</title> (Ann Arbor, Michigan: University of Michigan Press 1996).</bibl>
+          <bibl>Harrison, Teresa, and Timothy D. Stephen, <title level="j">Computer Networking and
+              Scholarship in the 21st-Century University</title> (New York: SUNY Press 1996).</bibl>
+          <bibl>Holt, Patrick O'Brian, and Noel Williams, eds., <title level="j">Computers and
+              Writing: State of the Art</title> (Oxford: Intellect 1992).</bibl>
+          <bibl>Kolko, Beth E., Alison E. Regan, and Susan Romano, <title level="j">Writing in an
+              Electronic World: a Rhetoric with Readings</title> (London: Longman 2001).</bibl>
+          <bibl>McGann, Jerome, <title level="j">Radiant Textuality: Literature after the World Wide
+              Web</title> (New York: Palgrave 2001).</bibl>
+          <bibl>McKitterick, David, ed., <title level="j">Do we want to keep our newspapers?</title>
+            (Oxford: OHC 2002).</bibl>
+          <bibl>Leary, Patrick, <title level="a">
+              <xref type="redist" from="pdf/leary_1.pdf">Googling the Victorians</xref>
+            </title>, <title level="j">Journal of Victorian Culture</title>, (10:1, 2005), pp.
+            72-86.</bibl>
+          <bibl>Robinson, Peter, <title level="j">The Digitization of Primary Textual
+            Sources</title> (1993; Oxford: OHC 1994).</bibl>
+          <bibl>Schreibman, Susan, Ray Siemens and John Unsworth, eds., <title level="j">A Companion
+              to Digital Humanities</title> (Oxford: Blackwell 2004).</bibl>
+          <bibl>Shillingsburg, Peter L., <title level="m">From Gutenburg to Google: Electronic Representations of Literary Texts</title> (Cambridge: Cambridge University Press 2006).</bibl>
+          <bibl>Sutherland, Kathryn, ed., <title level="j">Electronic Text: Investigations in Method
+              and Theory</title> (Oxford: Clarendon 1997).</bibl>
+          <bibl>Zeitlyn, David, Matthew David and Jane Bex, eds., <title level="j">Knowledge
+              Lost in Information: Patterns of use and non-use of networked bibliographic
+            resources</title> (Oxford: OHC 1999).</bibl>
+        </listBibl>
+      </div>
+      <div>
+        <head>Other Guides and Bibliographies</head>
+        <listBibl>
+          <bibl>Anonymous, "Periodicals Reference Sources," British Library, [<xref
+              url="http://www.bl.uk/collections/wider/periodicals.html"
+              >http://www.bl.uk/collections/wider/periodicals.html</xref>]</bibl>
+          <bibl>Griffiths, Dennis, ed., <title level="j">The Encyclopedia of the British Press,
+              1422-1992</title> (London: Macmillan 1992).</bibl>
+          <bibl>VanArsdel, Rosemary T., <title level="j">Victorian Periodicals Aids to Research: A
+              Selected Bibliography,</title> [<xref
+              url="http://www.victorianresearch.org/periodicals.html"
+              >http://www.victorianresearch.org/periodicals.html</xref>].</bibl>
+        </listBibl>
+      </div>
+    </body>
+  </text>
+</TEI.2>

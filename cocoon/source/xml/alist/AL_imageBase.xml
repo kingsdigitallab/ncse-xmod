@@ -34,32 +34,121 @@
                 <groupTitle>General images</groupTitle>
                 <groupFolder/>
             </groupHead>
-            <image id="ns_por1">
-                <imgTitle>Portrait 1</imgTitle>
-                <caption>Portrait of</caption>
-                <desc></desc>
-                <width>1200</width>
-                <height>1734</height>
-                <thmWidth>69</thmWidth>
-                <thmHeight>100</thmHeight>
+            <image id="ns_por1" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>86</thmHeight>
                 <ext n="jpg"/>
-                <creator>
-                    <name></name>
-                    <p></p>
-                </creator>
-                <copyright>
-                    <p></p>
-                </copyright>
-                <rend/>
-                <notes>
-                    <p></p>
-                </notes>
-                <internal>
-                    <p></p>
-                </internal>
+                </image>
+            <image id="ns_por2" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>86</thmHeight>
+                <ext n="jpg"/>
+                </image>
+            <image id="ns_por3" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>85</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por4" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>79</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por5" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>87</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por6" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>89</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por7" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>87</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por8" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>82</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por9" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>91</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por10" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>82</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por11" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>88</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por12" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>87</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por13" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>87</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por14" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>89</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por15" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>88</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por16" thm="y">
+                <imgTitle></imgTitle>
+                <caption></caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>79</thmHeight>
+                <ext n="jpg"/>
             </image>
             <image id="wl_logo">
                 <imgTitle>Women's Library Logo</imgTitle>
+                <caption></caption>
                 <desc>Women's Library Logo</desc>
                 <width>314</width>
                 <height>55</height>

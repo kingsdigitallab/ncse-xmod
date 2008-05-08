@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2
+  SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p6_4">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Publicity</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+        <address>
+        <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+        <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+      </address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+    </encodingDesc>
+    <revisionDesc>
+      <change>
+        <date>2008-05-07</date>
+        <respStmt>
+          <name>JM</name>
+        </respStmt>
+        <item>updated for launch</item>
+      </change>
+      <change>
+        <date>2007-07-26</date>
+        <respStmt>
+          <name>SP</name>
+        </respStmt>
+        <item>new poster and flyer added</item>
+      </change>
+      <change>
+        <date>2005-10-24</date>
+        <respStmt>
+          <name>SP</name>
+        </respStmt>
+        <item>minor change</item>
+      </change>
+      <change>
+        <date>2005-05-18</date>
+        <respStmt>
+          <name>AP</name>
+        </respStmt>
+        <item>created XML docs</item>
+      </change>
+      <change>
+        <date>2005-03-18</date>
+        <respStmt>
+          <name>AP</name>
+        </respStmt>
+        <item>created XML docs</item>
+      </change>
+      <change>
+        <date>2005-03-18</date>
+        <respStmt>
+          <name>AC</name>
+        </respStmt>
+        <item>created XML</item>
+      </change>
+
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <head>Publicity</head>
+      <p>From this page you can download the <hi rend="bold">ncse</hi> flier and the poster that we
+        used for poster presentations at conferences.</p>
+      <p>
+        <list>
+          <item>
+            <xref type="redist" from="pdf/a5_ncse_flyer.pdf">Flier (A5)</xref>
+          </item>
+          <item>
+            <xref type="redist" from="pdf/ncse_poster.pdf">Poster</xref>
+          </item>
+        </list>
+      </p>
+    </body>
+  </text>
+</TEI.2>
