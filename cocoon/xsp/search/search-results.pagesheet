@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pagesheet xmlns="http://apache.org/cocoon/paginate/1.0">
   <rules>
-    <count type="element" name="hit" num="20" />
+    <count type="element" name="hit" num="10" />
     <link type="unit" num="3" />
   </rules>
 </pagesheet>
