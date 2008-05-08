@@ -2,7 +2,11 @@
 <!--
   SVN: $Id$
 -->
-<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <!-- These come from the sitemap and are used for the thesaurus window to communicate with the parent window -->
+  <xsl:param name="thesaurus-key" />
+  <xsl:param name="thesaurus-text" />
+  
   <!-- GENERAL INCLUDES -->
   <xsl:include href="../common/proj_tpl.xsl"/>
   <xsl:include href="../common/proj_vars.xsl"/>
