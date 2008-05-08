@@ -22,6 +22,8 @@
     </xsl:choose>
   </xsl:variable>
 
+  <!-- Results per page -->
+  <xsl:variable name="rpp" select="number(10)" />
 
   <!-- Useful translate variables -->
   <xsl:variable name="upper" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />

@@ -6,27 +6,27 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:template name="results-of">
-    <xsl:variable name="rpp" select="number(20)" />
     <xsl:variable name="page" select="//search-results/page:page/@current" />
     <xsl:variable name="total" select="//search-results/total" />
 
-    <xsl:value-of select="$page * $rpp - 19" />
-    <xsl:text> - </xsl:text>
-    <xsl:choose>
-      <xsl:when test="$page * $rpp > $total">
-        <xsl:value-of select="$total" />
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:value-of select="$page * $rpp" />
-      </xsl:otherwise>
-    </xsl:choose>
-    <xsl:text> (of </xsl:text>
-    <xsl:value-of select="$total" />
-    <xsl:text>)</xsl:text>
+    <xsl:if test="$total > 0">
+      <xsl:value-of select="$page * $rpp - ($rpp - 1)" />
+      <xsl:text> - </xsl:text>
+      <xsl:choose>
+        <xsl:when test="$page * $rpp > $total">
+          <xsl:value-of select="$total" />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$page * $rpp" />
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:text> (of </xsl:text>
+      <xsl:value-of select="$total" />
+      <xsl:text>)</xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template name="page-nav">
-    <xsl:variable name="rpp" select="number(20)" />
     <xsl:variable name="page" select="//search-results/page:page/@current" />
     <xsl:variable name="total" select="//search-results/total" />
     <xsl:variable name="page-link">page</xsl:variable>
@@ -113,60 +113,59 @@
 
       <h3>
         <xsl:value-of select="title[@type = 'short-title']" />
-        
+
         <xsl:if test="$show-article-link = false()">
-          
           <xsl:for-each select="../../data">
-          <xsl:if test="semtags/semtag">
-            <span>
-              <xsl:text>Subjects </xsl:text>
-              <dfn>
-                <xsl:text>(</xsl:text>
-                <xsl:value-of select="count(semtags/semtag)" />
-                <xsl:text>)</xsl:text>
-              </dfn>
-            </span>
-          </xsl:if>
-          <xsl:if test="names/name">
-            <span>
-              <xsl:text>Persons </xsl:text>
-              <dfn>
-                <xsl:text>(</xsl:text>
-                <xsl:value-of select="count(names/name)" />
-                <xsl:text>)</xsl:text>
-              </dfn>
-            </span>
-          </xsl:if>
-          <xsl:if test="institutions/institution">
-            <span>
-              <xsl:text>Institutions </xsl:text>
-              <dfn>
-                <xsl:text>(</xsl:text>
-                <xsl:value-of select="count(institutions/institution)" />
-                <xsl:text>)</xsl:text>
-              </dfn>
-            </span>
-          </xsl:if>
-          <xsl:if test="places/place">
-            <span>
-              <xsl:text>Places </xsl:text>
-              <dfn>
-                <xsl:text>(</xsl:text>
-                <xsl:value-of select="count(places/place)" />
-                <xsl:text>)</xsl:text>
-              </dfn>
-            </span>
-          </xsl:if>
-          <xsl:if test="images/image">
-            <span>
-              <xsl:text>Images </xsl:text>
-              <dfn>
-                <xsl:text>(</xsl:text>
-                <xsl:value-of select="count(images/image)" />
-                <xsl:text>)</xsl:text>
-              </dfn>
-            </span>
-          </xsl:if>
+            <xsl:if test="semtags/semtag">
+              <span>
+                <xsl:text>Subjects </xsl:text>
+                <dfn>
+                  <xsl:text>(</xsl:text>
+                  <xsl:value-of select="count(semtags/semtag)" />
+                  <xsl:text>)</xsl:text>
+                </dfn>
+              </span>
+            </xsl:if>
+            <xsl:if test="names/name">
+              <span>
+                <xsl:text>Persons </xsl:text>
+                <dfn>
+                  <xsl:text>(</xsl:text>
+                  <xsl:value-of select="count(names/name)" />
+                  <xsl:text>)</xsl:text>
+                </dfn>
+              </span>
+            </xsl:if>
+            <xsl:if test="institutions/institution">
+              <span>
+                <xsl:text>Institutions </xsl:text>
+                <dfn>
+                  <xsl:text>(</xsl:text>
+                  <xsl:value-of select="count(institutions/institution)" />
+                  <xsl:text>)</xsl:text>
+                </dfn>
+              </span>
+            </xsl:if>
+            <xsl:if test="places/place">
+              <span>
+                <xsl:text>Places </xsl:text>
+                <dfn>
+                  <xsl:text>(</xsl:text>
+                  <xsl:value-of select="count(places/place)" />
+                  <xsl:text>)</xsl:text>
+                </dfn>
+              </span>
+            </xsl:if>
+            <xsl:if test="images/image">
+              <span>
+                <xsl:text>Images </xsl:text>
+                <dfn>
+                  <xsl:text>(</xsl:text>
+                  <xsl:value-of select="count(images/image)" />
+                  <xsl:text>)</xsl:text>
+                </dfn>
+              </span>
+            </xsl:if>
           </xsl:for-each>
         </xsl:if>
       </h3>
