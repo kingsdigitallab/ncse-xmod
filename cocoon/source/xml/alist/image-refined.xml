@@ -1,1 +1,1637 @@
-<?xml version="1.0" encoding="UTF-8"?><r:RDF xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:s="http://www.w3.org/2004/02/skos/core#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rs="http://www.w3.org/2000/01/rdf-schema#" xml:base="http://www.cch.kcl.ac.uk/ncse/dmvi/AL_cch_dmvi_skos.rdf"><s:Concept r:about="id:dmvi:d2e2" r:label="Periods"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e4" r:label="Centuries"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6" r:label="Sixteenth century"/><s:Concept r:about="id:dmvi:d2e12" r:label="Seventeenth century"/><s:Concept r:about="id:dmvi:d2e18" r:label="Eighteenth century"/><s:Concept r:about="id:dmvi:d2e24" r:label="Nineteenth century"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e28" r:label="Eras"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e30" r:label="Greek--Roman classical"/><s:Concept r:about="id:dmvi:d2e36" r:label="Biblical"/><s:Concept r:about="id:dmvi:d2e42" r:label="Medieval"/><s:Concept r:about="id:dmvi:d2e48" r:label="Renaissance"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e69" r:label="Geography"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e71" r:label="Great Britain"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e73" r:label="Britain [non-specific area]"/><s:Concept r:about="id:dmvi:d2e79" r:label="England"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e81" r:label="England [non-specific area]"/><s:Concept r:about="id:dmvi:d2e97" r:label="Birmingham"/><s:Concept r:about="id:dmvi:d2e113" r:label="Cambridge"/><s:Concept r:about="id:dmvi:d2e153" r:label="London"/><s:Concept r:about="id:dmvi:d2e162" r:label="Oxford"/><s:Concept r:about="id:dmvi:d2e186" r:label="Berkshire"/><s:Concept r:about="id:dmvi:d2e210" r:label="Derbyshire"/><s:Concept r:about="id:dmvi:d2e218" r:label="Hampshire"/><s:Concept r:about="id:dmvi:d2e323" r:label="Worcestershire"/><s:Concept r:about="id:dmvi:d2e331" r:label="Yorkshire"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e338" r:label="Scotland"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e340" r:label="Scotland [non-specific area]"/><s:Concept r:about="id:dmvi:d2e348" r:label="Edinburgh"/><s:Concept r:about="id:dmvi:d2e356" r:label="Scottish Highlands"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e384" r:label="Europe"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e386" r:label="Europe [non-specific area]"/><s:Concept r:about="id:dmvi:d2e392" r:label="Austria"/><s:Concept r:about="id:dmvi:d2e404" r:label="France"/><s:Concept r:about="id:dmvi:d2e410" r:label="Germany"/><s:Concept r:about="id:dmvi:d2e417" r:label="Greece"/><s:Concept r:about="id:dmvi:d2e423" r:label="Ireland"/><s:Concept r:about="id:dmvi:d2e429" r:label="Italy"/><s:Concept r:about="id:dmvi:d2e435" r:label="Netherlands"/><s:Concept r:about="id:dmvi:d2e447" r:label="Russia"/><s:Concept r:about="id:dmvi:d2e453" r:label="Spain"/><s:Concept r:about="id:dmvi:d2e459" r:label="Switzerland"/><s:Concept r:about="id:dmvi:d2e465" r:label="Alps"/><s:Concept r:about="id:dmvi:d2e477" r:label="Eastern Europe"/><s:Concept r:about="id:dmvi:d2e484" r:label="Scandinavia"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e488" r:label="Africa"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e490" r:label="Africa [non-specific area]"/><s:Concept r:about="id:dmvi:d2e496" r:label="Egypt"/><s:Concept r:about="id:dmvi:d2e502" r:label="South Africa"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e506" r:label="Asia"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e508" r:label="Asia [non-specific area]"/><s:Concept r:about="id:dmvi:d2e514" r:label="Holy Land"/><s:Concept r:about="id:dmvi:d2e520" r:label="Middle East"/><s:Concept r:about="id:dmvi:d2e526" r:label="China"/><s:Concept r:about="id:dmvi:d2e532" r:label="India"/><s:Concept r:about="id:dmvi:d2e538" r:label="Iran"/><s:Concept r:about="id:dmvi:d2e551" r:label="Japan"/><s:Concept r:about="id:dmvi:d2e557" r:label="Sri Lanka"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e561" r:label="South America"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"/></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e573" r:label="Central America"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e581" r:label="Mexico"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e585" r:label="North America"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e587" r:label="Canada"/><s:Concept r:about="id:dmvi:d2e593" r:label="United States of America"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e597" r:label="Oceania"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e599" r:label="Australia"/><s:Concept r:about="id:dmvi:d2e605" r:label="New Zealand"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e607" r:label="Settings"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e609" r:label="Exteriors"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e611" r:label=""/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e615" r:label="Interiors"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"/></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e620" r:label="Natural environments"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e622" r:label="Countryside"/><s:Concept r:about="id:dmvi:d2e628" r:label="The sea"/><s:Concept r:about="id:dmvi:d2e634" r:label="Natural features"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e636" r:label="Chasms"/><s:Concept r:about="id:dmvi:d2e644" r:label="Cliffs and rocks"/><s:Concept r:about="id:dmvi:d2e652" r:label="Deserts"/><s:Concept r:about="id:dmvi:d2e660" r:label="Glaciers"/><s:Concept r:about="id:dmvi:d2e668" r:label="Hills and valleys"/><s:Concept r:about="id:dmvi:d2e676" r:label="Icebergs"/><s:Concept r:about="id:dmvi:d2e684" r:label="Lakes and ponds"/><s:Concept r:about="id:dmvi:d2e692" r:label="Mountains"/><s:Concept r:about="id:dmvi:d2e701" r:label="Plains"/><s:Concept r:about="id:dmvi:d2e709" r:label="Rivers"/><s:Concept r:about="id:dmvi:d2e717" r:label="The coast"/><s:Concept r:about="id:dmvi:d2e725" r:label="Waterfalls"/><s:Concept r:about="id:dmvi:d2e733" r:label="Woodlands"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e739" r:label="Celestial bodies"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e741" r:label="Moon"/><s:Concept r:about="id:dmvi:d2e749" r:label="Stars"/><s:Concept r:about="id:dmvi:d2e757" r:label="Sun"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e761" r:label="Built environments"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e763" r:label="Cities"/><s:Concept r:about="id:dmvi:d2e769" r:label="Towns"/><s:Concept r:about="id:dmvi:d2e775" r:label="Villages"/><s:Concept r:about="id:dmvi:d2e782" r:label="Farms"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e800" r:label="Farmyards"/><s:Concept r:about="id:dmvi:d2e808" r:label="Fields"/><s:Concept r:about="id:dmvi:d2e816" r:label="Hedges"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e830" r:label="Buildings"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e832" r:label="Arenas and stadia"/><s:Concept r:about="id:dmvi:d2e856" r:label="Banks"/><s:Concept r:about="id:dmvi:d2e873" r:label="Bell towers"/><s:Concept r:about="id:dmvi:d2e889" r:label="Castles"/><s:Concept r:about="id:dmvi:d2e897" r:label="Churches"/><s:Concept r:about="id:dmvi:d2e905" r:label="Cottages"/><s:Concept r:about="id:dmvi:d2e913" r:label="Factories"/><s:Concept r:about="id:dmvi:d2e929" r:label="Garrisons"/><s:Concept r:about="id:dmvi:d2e962" r:label="Houses"/><s:Concept r:about="id:dmvi:d2e970" r:label="Huts and cabins"/><s:Concept r:about="id:dmvi:d2e986" r:label="Law courts"/><s:Concept r:about="id:dmvi:d2e994" r:label="Lighthouses"/><s:Concept r:about="id:dmvi:d2e1002" r:label="Mansions"/><s:Concept r:about="id:dmvi:d2e1026" r:label="Museums and exhibition halls"/><s:Concept r:about="id:dmvi:d2e1034" r:label="Offices and business settings"/><s:Concept r:about="id:dmvi:d2e1042" r:label="Palaces"/><s:Concept r:about="id:dmvi:d2e1059" r:label="Prisons"/><s:Concept r:about="id:dmvi:d2e1067" r:label="Public houses"/><s:Concept r:about="id:dmvi:d2e1083" r:label="Railway stations"/><s:Concept r:about="id:dmvi:d2e1091" r:label="Restaurants"/><s:Concept r:about="id:dmvi:d2e1099" r:label="Ruins"/><s:Concept r:about="id:dmvi:d2e1107" r:label="Schools"/><s:Concept r:about="id:dmvi:d2e1115" r:label="Shops"/><s:Concept r:about="id:dmvi:d2e1140" r:label="Tents"/><s:Concept r:about="id:dmvi:d2e1148" r:label="Theatres"/><s:Concept r:about="id:dmvi:d2e1156" r:label="Universities"/><s:Concept r:about="id:dmvi:d2e1164" r:label="Windmills"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e1178" r:label="Outdoor sites"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e1180" r:label="Battlefields"/><s:Concept r:about="id:dmvi:d2e1196" r:label="Campfires"/><s:Concept r:about="id:dmvi:d2e1204" r:label="Campsites"/><s:Concept r:about="id:dmvi:d2e1212" r:label="Churchyards"/><s:Concept r:about="id:dmvi:d2e1220" r:label="Docks and harbours"/><s:Concept r:about="id:dmvi:d2e1229" r:label="Gardens"/><s:Concept r:about="id:dmvi:d2e1245" r:label="Mines"/><s:Concept r:about="id:dmvi:d2e1253" r:label="Parks and grounds"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e1259" r:label="Architectural features"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e1261" r:label="Archways"/><s:Concept r:about="id:dmvi:d2e1269" r:label="Balconies"/><s:Concept r:about="id:dmvi:d2e1293" r:label="Fences"/><s:Concept r:about="id:dmvi:d2e1301" r:label="Fountains"/><s:Concept r:about="id:dmvi:d2e1309" r:label="Gates"/><s:Concept r:about="id:dmvi:d2e1326" r:label="Pillars"/><s:Concept r:about="id:dmvi:d2e1334" r:label="Porches and verandas"/><s:Concept r:about="id:dmvi:d2e1342" r:label="Steps"/><s:Concept r:about="id:dmvi:d2e1358" r:label="Tunnels"/><s:Concept r:about="id:dmvi:d2e1366" r:label="Walls"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e1388" r:label="Roadways"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e1390" r:label="Roads--streets"/><s:Concept r:about="id:dmvi:d2e1398" r:label="Bridges"/><s:Concept r:about="id:dmvi:d2e1423" r:label="Paths"/><s:Concept r:about="id:dmvi:d2e1431" r:label="Signposts"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e1437" r:label="Rooms"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e1439" r:label="Attics"/><s:Concept r:about="id:dmvi:d2e1455" r:label="Bedrooms"/><s:Concept r:about="id:dmvi:d2e1463" r:label="Class-rooms"/><s:Concept r:about="id:dmvi:d2e1479" r:label="Dining-rooms"/><s:Concept r:about="id:dmvi:d2e1487" r:label="Drawing-rooms"/><s:Concept r:about="id:dmvi:d2e1496" r:label="Dressing-rooms"/><s:Concept r:about="id:dmvi:d2e1504" r:label="Kitchens"/><s:Concept r:about="id:dmvi:d2e1512" r:label="Libraries and studies"/><s:Concept r:about="id:dmvi:d2e1520" r:label="Nurseries"/><s:Concept r:about="id:dmvi:d2e1528" r:label="Sitting-rooms"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e1534" r:label="Features and fittings"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e1544" r:label="Doorways"/><s:Concept r:about="id:dmvi:d2e1552" r:label="Fireplaces"/><s:Concept r:about="id:dmvi:d2e1560" r:label="Mantelpieces"/><s:Concept r:about="id:dmvi:d2e1568" r:label="Stairways"/><s:Concept r:about="id:dmvi:d2e1576" r:label="Windows"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e1607" r:label="Vehicle interiors"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e1617" r:label="Ship and boat interiors"/><s:Concept r:about="id:dmvi:d2e1625" r:label="Train interiors"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e1629" r:label="Weather and natural disasters"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e1631" r:label="Cold weather"/><s:Concept r:about="id:dmvi:d2e1643" r:label="Rain and storms"/><s:Concept r:about="id:dmvi:d2e1655" r:label="Snow"/><s:Concept r:about="id:dmvi:d2e1668" r:label="Avalanches"/><s:Concept r:about="id:dmvi:d2e1686" r:label="Volcanoes"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e1690" r:label="Seasons--times of day"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e1724" r:label="Times of day"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e1726" r:label="Dawn"/><s:Concept r:about="id:dmvi:d2e1734" r:label="Evening--night"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e1737" r:label="People"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e1739" r:label="Figures"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e1741" r:label="Men"/><s:Concept r:about="id:dmvi:d2e1747" r:label="Women"/><s:Concept r:about="id:dmvi:d2e1753" r:label="Children"/><s:Concept r:about="id:dmvi:d2e1759" r:label="Babies"/><s:Concept r:about="id:dmvi:d2e1765" r:label="Elderly people"/><s:Concept r:about="id:dmvi:d2e1771" r:label="Number of figures"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e1773" r:label="1 figure"/><s:Concept r:about="id:dmvi:d2e1781" r:label="2 figures"/><s:Concept r:about="id:dmvi:d2e1789" r:label="3 figures"/><s:Concept r:about="id:dmvi:d2e1797" r:label="4 figures"/><s:Concept r:about="id:dmvi:d2e1805" r:label="5 figures"/><s:Concept r:about="id:dmvi:d2e1813" r:label="Groups [6-10 figures]"/><s:Concept r:about="id:dmvi:d2e1822" r:label="Crowds [10+ figures]"/><s:Concept r:about="id:dmvi:d2e1830" r:label="Multiple [in landscape]"/><s:Concept r:about="id:dmvi:d2e1838" r:label="Audiences"/><s:Concept r:about="id:dmvi:d2e1846" r:label="Romantic couples"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e1852" r:label="Physical characteristics"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e1854" r:label="Baldness"/><s:Concept r:about="id:dmvi:d2e1878" r:label="Facial hair"/><s:Concept r:about="id:dmvi:d2e1886" r:label="Prostheses"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e1892" r:label="Foreign nationals and ethnic minorities"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e1894" r:label="African people"/><s:Concept r:about="id:dmvi:d2e1902" r:label="Asian people"/><s:Concept r:about="id:dmvi:d2e1927" r:label="Black people"/><s:Concept r:about="id:dmvi:d2e1935" r:label="Dutch people"/><s:Concept r:about="id:dmvi:d2e1991" r:label="Indian people"/><s:Concept r:about="id:dmvi:d2e2000" r:label="Indigenous peoples"/><s:Concept r:about="id:dmvi:d2e2008" r:label="Irish people"/><s:Concept r:about="id:dmvi:d2e2032" r:label="Middle-Eastern people"/><s:Concept r:about="id:dmvi:d2e2040" r:label="North American people"/><s:Concept r:about="id:dmvi:d2e2048" r:label="Oriental people"/><s:Concept r:about="id:dmvi:d2e2072" r:label="South American people"/><s:Concept r:about="id:dmvi:d2e2080" r:label="Spanish people"/><s:Concept r:about="id:dmvi:d2e2089" r:label="Swiss people"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e2095" r:label="Mythological figures"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2097" r:label="Classical heroes"/><s:Concept r:about="id:dmvi:d2e2105" r:label="Gods and goddesses"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e2135" r:label="Supernatural figures"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2137" r:label="Angels"/><s:Concept r:about="id:dmvi:d2e2145" r:label="Cherubs"/><s:Concept r:about="id:dmvi:d2e2153" r:label="Demons"/><s:Concept r:about="id:dmvi:d2e2161" r:label="Devils"/><s:Concept r:about="id:dmvi:d2e2169" r:label="Fairies"/><s:Concept r:about="id:dmvi:d2e2178" r:label="Father Christmas"/><s:Concept r:about="id:dmvi:d2e2186" r:label="Ghosts"/><s:Concept r:about="id:dmvi:d2e2194" r:label="Goblins"/><s:Concept r:about="id:dmvi:d2e2202" r:label="Mermaids"/><s:Concept r:about="id:dmvi:d2e2210" r:label="Skeletons"/><s:Concept r:about="id:dmvi:d2e2218" r:label="Witches and wizards"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e2222" r:label="Relationships"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2224" r:label="Family relations"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2226" r:label="Families [general]"/><s:Concept r:about="id:dmvi:d2e2242" r:label="Mothers"/><s:Concept r:about="id:dmvi:d2e2258" r:label="Siblings"/><s:Concept r:about="id:dmvi:d2e2267" r:label="Grandparents"/><s:Concept r:about="id:dmvi:d2e2275" r:label="Husbands and wives"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e2297" r:label="Friends and colleagues"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2307" r:label="Friends"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e2311" r:label="Jobs and roles"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2313" r:label="Professions"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2347" r:label="Governesses"/><s:Concept r:about="id:dmvi:d2e2356" r:label="Judges"/><s:Concept r:about="id:dmvi:d2e2364" r:label="Lawyers"/><s:Concept r:about="id:dmvi:d2e2372" r:label="Scientists"/><s:Concept r:about="id:dmvi:d2e2380" r:label="Teachers"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e2386" r:label="Vocations"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2388" r:label="Actors"/><s:Concept r:about="id:dmvi:d2e2396" r:label="Artists"/><s:Concept r:about="id:dmvi:d2e2428" r:label="Blacksmiths"/><s:Concept r:about="id:dmvi:d2e2436" r:label="Butchers"/><s:Concept r:about="id:dmvi:d2e2517" r:label="Domestic servants"/><s:Concept r:about="id:dmvi:d2e2525" r:label="Jockeys"/><s:Concept r:about="id:dmvi:d2e2534" r:label="Labourers"/><s:Concept r:about="id:dmvi:d2e2566" r:label="Farm workers"/><s:Concept r:about="id:dmvi:d2e2574" r:label="Milkmaids"/><s:Concept r:about="id:dmvi:d2e2582" r:label="Miners"/><s:Concept r:about="id:dmvi:d2e2590" r:label="Fishermen"/><s:Concept r:about="id:dmvi:d2e2606" r:label="Musicians"/><s:Concept r:about="id:dmvi:d2e2614" r:label="Hairdressers"/><s:Concept r:about="id:dmvi:d2e2623" r:label="Nurses"/><s:Concept r:about="id:dmvi:d2e2647" r:label="Policemen"/><s:Concept r:about="id:dmvi:d2e2655" r:label="Railway workers"/><s:Concept r:about="id:dmvi:d2e2663" r:label="Sailors"/><s:Concept r:about="id:dmvi:d2e2671" r:label="Shepherds"/><s:Concept r:about="id:dmvi:d2e2679" r:label="Shoemakers"/><s:Concept r:about="id:dmvi:d2e2695" r:label="Students"/><s:Concept r:about="id:dmvi:d2e2712" r:label="Waiting staff"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e2734" r:label="Religious persons"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2736" r:label="Bishops"/><s:Concept r:about="id:dmvi:d2e2752" r:label="Ministers"/><s:Concept r:about="id:dmvi:d2e2760" r:label="Monks"/><s:Concept r:about="id:dmvi:d2e2768" r:label="Nuns"/><s:Concept r:about="id:dmvi:d2e2776" r:label="Rabbis"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e2782" r:label="Military persons"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2784" r:label="Gladiators"/><s:Concept r:about="id:dmvi:d2e2792" r:label="Knights"/><s:Concept r:about="id:dmvi:d2e2801" r:label="Soldiers"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e2807" r:label="Criminals--outsiders"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2841" r:label="Slaves"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e2845" r:label="Social status"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2847" r:label="Working classes"/><s:Concept r:about="id:dmvi:d2e2853" r:label="Middle classes"/><s:Concept r:about="id:dmvi:d2e2859" r:label="Upper classes"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2861" r:label="Upper classes [general]"/><s:Concept r:about="id:dmvi:d2e2869" r:label="Royalty"/><s:Concept r:about="id:dmvi:d2e2877" r:label="Aristocracy"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e2884" r:label="Poor"/><s:Concept r:about="id:dmvi:d2e2890" r:label="Wealthy"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e2894" r:label="Clothing"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2896" r:label="Nudes"/><s:Concept r:about="id:dmvi:d2e2902" r:label="Victorian clothing"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2904" r:label="Men's clothing"/><s:Concept r:about="id:dmvi:d2e2912" r:label="Women's clothing"/><s:Concept r:about="id:dmvi:d2e2920" r:label="Costumes and fancy dress"/><s:Concept r:about="id:dmvi:d2e2928" r:label="Crinoline"/><s:Concept r:about="id:dmvi:d2e2936" r:label="Mourning clothing"/><s:Concept r:about="id:dmvi:d2e2944" r:label="School uniforms"/><s:Concept r:about="id:ncse:d9z9999" r:label="Children's clothing"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e2950" r:label="Work clothing"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2952" r:label="Aprons"/><s:Concept r:about="id:dmvi:d2e2969" r:label="Uniforms"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e2975" r:label="Sporting clothing"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e2977" r:label="Athletics clothing"/><s:Concept r:about="id:dmvi:d2e3001" r:label="Shooting clothing"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e3007" r:label="Wedding clothing"/><s:Concept r:about="id:dmvi:d2e3013" r:label="Riding clothing"/><s:Concept r:about="id:dmvi:d2e3019" r:label="Eveningwear"/><s:Concept r:about="id:dmvi:d2e3025" r:label="Nightwear"/><s:Concept r:about="id:dmvi:d2e3037" r:label="Ragged clothing"/><s:Concept r:about="id:dmvi:d2e3044" r:label="Regional--climate clothing"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e3046" r:label="Alpine dress"/><s:Concept r:about="id:dmvi:d2e3062" r:label="Middle Eastern dress"/><s:Concept r:about="id:dmvi:d2e3070" r:label="Native American dress"/><s:Concept r:about="id:dmvi:d2e3078" r:label="Scottish dress"/><s:Concept r:about="id:dmvi:d2e3094" r:label="Cold weather clothing"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e3116" r:label="Period clothing"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e3118" r:label="Medieval clothing"/><s:Concept r:about="id:dmvi:d2e3126" r:label="Early modern clothing"/><s:Concept r:about="id:dmvi:d2e3135" r:label="Seventeenth-century clothing"/><s:Concept r:about="id:dmvi:d2e3143" r:label="Eighteenth-century clothing"/><s:Concept r:about="id:dmvi:d2e3151" r:label="Georgian clothing"/><s:Concept r:about="id:dmvi:d2e3159" r:label="Armour"/><s:Concept r:about="id:dmvi:d2e3167" r:label="Loincloths"/><s:Concept r:about="id:dmvi:d2e3175" r:label="Robes"/><s:Concept r:about="id:dmvi:d2e3183" r:label="Togas"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e3189" r:label="Accessories"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e3191" r:label="Bags"/><s:Concept r:about="id:dmvi:d2e3199" r:label="Blindfolds"/><s:Concept r:about="id:dmvi:d2e3207" r:label="Cloaks"/><s:Concept r:about="id:dmvi:d2e3224" r:label="Disguises"/><s:Concept r:about="id:dmvi:d2e3232" r:label="Eye-glasses"/><s:Concept r:about="id:dmvi:d2e3248" r:label="Fans"/><s:Concept r:about="id:dmvi:d2e3256" r:label="Feathers"/><s:Concept r:about="id:dmvi:d2e3264" r:label="Garlands"/><s:Concept r:about="id:dmvi:d2e3272" r:label="Gloves"/><s:Concept r:about="id:dmvi:d2e3288" r:label="Hats"/><s:Concept r:about="id:dmvi:d2e3296" r:label="Hoods"/><s:Concept r:about="id:dmvi:d2e3304" r:label="Jewellery"/><s:Concept r:about="id:dmvi:d2e3313" r:label="Masks"/><s:Concept r:about="id:dmvi:d2e3329" r:label="Pocket-watches"/><s:Concept r:about="id:dmvi:d2e3345" r:label="Ribbons"/><s:Concept r:about="id:dmvi:d2e3369" r:label="Scarves"/><s:Concept r:about="id:dmvi:d2e3377" r:label="Turbans"/><s:Concept r:about="id:dmvi:d2e3385" r:label="Umbrellas"/><s:Concept r:about="id:dmvi:d2e3402" r:label="Walking-sticks"/><s:Concept r:about="id:dmvi:d2e3410" r:label="Wigs"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e3412" r:label="Activities"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e3414" r:label="Physical positions"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e3416" r:label="Postures"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e3418" r:label="Kneeling"/><s:Concept r:about="id:dmvi:d2e3426" r:label="Leaning"/><s:Concept r:about="id:dmvi:d2e3434" r:label="Lying down"/><s:Concept r:about="id:dmvi:d2e3442" r:label="Sitting"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e3448" r:label="Hand positions"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e3450" r:label="Clasping hands"/><s:Concept r:about="id:dmvi:d2e3458" r:label="Holding hands"/><s:Concept r:about="id:dmvi:d2e3466" r:label="Pointing"/><s:Concept r:about="id:dmvi:d2e3474" r:label="Shaking hands"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e3478" r:label="Actions and speech"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e3480" r:label="Physical motions"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e3482" r:label="Acrobatics"/><s:Concept r:about="id:dmvi:d2e3499" r:label="Carrying"/><s:Concept r:about="id:dmvi:d2e3507" r:label="Catching"/><s:Concept r:about="id:dmvi:d2e3523" r:label="Climbing"/><s:Concept r:about="id:dmvi:d2e3531" r:label="Dancing"/><s:Concept r:about="id:dmvi:d2e3555" r:label="Drinking"/><s:Concept r:about="id:dmvi:d2e3563" r:label="Eating"/><s:Concept r:about="id:dmvi:d2e3580" r:label="Falling"/><s:Concept r:about="id:dmvi:d2e3612" r:label="Jumping"/><s:Concept r:about="id:dmvi:d2e3620" r:label="Leading"/><s:Concept r:about="id:dmvi:d2e3628" r:label="Meeting"/><s:Concept r:about="id:dmvi:d2e3644" r:label="Playing"/><s:Concept r:about="id:dmvi:d2e3652" r:label="Pushing--pulling"/><s:Concept r:about="id:dmvi:d2e3669" r:label="Running"/><s:Concept r:about="id:dmvi:d2e3685" r:label="Smoking"/><s:Concept r:about="id:dmvi:d2e3709" r:label="Spying"/><s:Concept r:about="id:dmvi:d2e3717" r:label="Swimming"/><s:Concept r:about="id:dmvi:d2e3725" r:label="Throwing"/><s:Concept r:about="id:dmvi:d2e3741" r:label="Walking"/><s:Concept r:about="id:dmvi:d2e3749" r:label="Watching"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e3764" r:label="Verbal communications"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e3774" r:label="Acting"/><s:Concept r:about="id:dmvi:d2e3798" r:label="Asking"/><s:Concept r:about="id:dmvi:d2e3806" r:label="Begging"/><s:Concept r:about="id:dmvi:d2e3822" r:label="Crying"/><s:Concept r:about="id:dmvi:d2e3847" r:label="Praying"/><s:Concept r:about="id:dmvi:d2e3871" r:label="Shouting"/><s:Concept r:about="id:dmvi:d2e3879" r:label="Singing"/><s:Concept r:about="id:dmvi:d2e3887" r:label="Talking"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e3925" r:label="Manual and farm work"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e3952" r:label="Cutting and chopping"/><s:Concept r:about="id:dmvi:d2e3960" r:label="Cleaning"/><s:Concept r:about="id:dmvi:d2e3968" r:label="Cooking and preparing"/><s:Concept r:about="id:dmvi:d2e3976" r:label="Digging"/><s:Concept r:about="id:dmvi:d2e3984" r:label="Gardening"/><s:Concept r:about="id:dmvi:d2e3992" r:label="Herding"/><s:Concept r:about="id:dmvi:d2e4033" r:label="Picking"/><s:Concept r:about="id:dmvi:d2e4049" r:label="Reaping"/><s:Concept r:about="id:dmvi:d2e4065" r:label="Sewing and knitting"/><s:Concept r:about="id:dmvi:d2e4089" r:label="Weaving"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e4095" r:label="Fighting, hunting and military actions"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e4097" r:label="Duelling"/><s:Concept r:about="id:dmvi:d2e4105" r:label="Escaping"/><s:Concept r:about="id:dmvi:d2e4114" r:label="Fighting"/><s:Concept r:about="id:dmvi:d2e4122" r:label="Fishing"/><s:Concept r:about="id:dmvi:d2e4138" r:label="Hunting and trapping"/><s:Concept r:about="id:dmvi:d2e4146" r:label="Killing"/><s:Concept r:about="id:dmvi:d2e4154" r:label="Marching"/><s:Concept r:about="id:dmvi:d2e4170" r:label="Shooting"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e4176" r:label="Transactions"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e4178" r:label="Buying and selling"/><s:Concept r:about="id:dmvi:d2e4186" r:label="Loaning"/><s:Concept r:about="id:dmvi:d2e4194" r:label="Gambling"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e4201" r:label="Affectionate actions"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e4211" r:label="Comforting"/><s:Concept r:about="id:dmvi:d2e4219" r:label="Courtship"/><s:Concept r:about="id:dmvi:d2e4227" r:label="Embracing"/><s:Concept r:about="id:dmvi:d2e4235" r:label="Helping"/><s:Concept r:about="id:dmvi:d2e4243" r:label="Kissing"/><s:Concept r:about="id:dmvi:d2e4251" r:label="Nursing"/><s:Concept r:about="id:dmvi:d2e4267" r:label="Stroking"/><s:Concept r:about="id:dmvi:d2e4275" r:label="Welcoming"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e4281" r:label="Mental and creative activities"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e4292" r:label="Listening"/><s:Concept r:about="id:dmvi:d2e4300" r:label="Painting and drawing"/><s:Concept r:about="id:dmvi:d2e4308" r:label="Reading"/><s:Concept r:about="id:dmvi:d2e4316" r:label="Relaxing"/><s:Concept r:about="id:dmvi:d2e4332" r:label="Teaching"/><s:Concept r:about="id:dmvi:d2e4340" r:label="Thinking"/><s:Concept r:about="id:dmvi:d2e4348" r:label="Writing"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e4354" r:label="Vehicular motions"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e4364" r:label="Driving"/><s:Concept r:about="id:dmvi:d2e4372" r:label="Horse-riding"/><s:Concept r:about="id:dmvi:d2e4381" r:label="Rowing and punting"/><s:Concept r:about="id:dmvi:d2e4389" r:label="Sailing"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e4393" r:label="Emotions and states"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e4395" r:label="Emotions"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e4405" r:label="Distress"/><s:Concept r:about="id:dmvi:d2e4413" r:label="Fear"/><s:Concept r:about="id:dmvi:d2e4437" r:label="Happiness"/><s:Concept r:about="id:dmvi:d2e4445" r:label="Hatred"/><s:Concept r:about="id:dmvi:d2e4470" r:label="Love"/><s:Concept r:about="id:dmvi:d2e4486" r:label="Sadness"/><s:Concept r:about="id:dmvi:d2e4494" r:label="Surprise"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e4500" r:label="Characteristics"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e4534" r:label="Greed"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e4573" r:label="Physical states"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e4599" r:label="Ill--injured"/><s:Concept r:about="id:dmvi:d2e4607" r:label="In pain"/><s:Concept r:about="id:dmvi:d2e4615" r:label="Sleeping"/><s:Concept r:about="id:dmvi:d2e4631" r:label="Tiredness"/><s:Concept r:about="id:dmvi:d2e4639" r:label="Unconsciousness"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e4642" r:label="Objects"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e4644" r:label="Tools and implements"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e4646" r:label="Domestic objects"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e4648" r:label="Basins"/><s:Concept r:about="id:dmvi:d2e4656" r:label="Baskets"/><s:Concept r:about="id:dmvi:d2e4672" r:label="Bottles"/><s:Concept r:about="id:dmvi:d2e4680" r:label="Buckets"/><s:Concept r:about="id:dmvi:d2e4688" r:label="Cleaning equipment"/><s:Concept r:about="id:dmvi:d2e4696" r:label="Clocks"/><s:Concept r:about="id:dmvi:d2e4728" r:label="Crockery and pottery"/><s:Concept r:about="id:dmvi:d2e4737" r:label="Cups"/><s:Concept r:about="id:dmvi:d2e4745" r:label="Cutlery"/><s:Concept r:about="id:dmvi:d2e4761" r:label="Fabrics"/><s:Concept r:about="id:dmvi:d2e4817" r:label="Jugs"/><s:Concept r:about="id:dmvi:d2e4834" r:label="Keys"/><s:Concept r:about="id:dmvi:d2e4850" r:label="Ornaments"/><s:Concept r:about="id:dmvi:d2e4874" r:label="Scissors"/><s:Concept r:about="id:dmvi:d2e4898" r:label="Vases"/><s:Concept r:about="id:dmvi:d2e4915" r:label="Watering-cans"/><s:Concept r:about="id:dmvi:d2e4923" r:label="Weights and scales"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e4929" r:label="Lighting devices"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e4931" r:label="Candles and candlesticks"/><s:Concept r:about="id:dmvi:d2e4947" r:label="Lamps"/><s:Concept r:about="id:dmvi:d2e4955" r:label="Torches"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e4961" r:label="Farming equipment"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5004" r:label="Scythes and sickles"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e5018" r:label="Labouring equipment"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5020" r:label="Axes"/><s:Concept r:about="id:dmvi:d2e5028" r:label="Barrels"/><s:Concept r:about="id:dmvi:d2e5044" r:label="Builder's tools"/><s:Concept r:about="id:dmvi:d2e5068" r:label="Ladders"/><s:Concept r:about="id:dmvi:d2e5093" r:label="Ropes"/><s:Concept r:about="id:dmvi:d2e5101" r:label="Spades"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e5115" r:label="Creative implements"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5117" r:label="Artist's equipment"/><s:Concept r:about="id:dmvi:d2e5133" r:label="Weaving equipment"/><s:Concept r:about="id:dmvi:d2e5141" r:label="Writing equipment"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e5147" r:label="Medical equipment"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5149" r:label="Bandages"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e5163" r:label="Scientific objects"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5182" r:label="Globes"/><s:Concept r:about="id:dmvi:d2e5190" r:label="Laboratory equipment"/><s:Concept r:about="id:dmvi:d2e5206" r:label="Telescopes"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e5212" r:label="Weapons"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5214" r:label="Battleaxes"/><s:Concept r:about="id:dmvi:d2e5222" r:label="Bows and arrows"/><s:Concept r:about="id:dmvi:d2e5230" r:label="Cannons"/><s:Concept r:about="id:dmvi:d2e5238" r:label="Chains"/><s:Concept r:about="id:dmvi:d2e5254" r:label="Guns"/><s:Concept r:about="id:dmvi:d2e5262" r:label="Knives"/><s:Concept r:about="id:dmvi:d2e5271" r:label="Shields"/><s:Concept r:about="id:dmvi:d2e5279" r:label="Spears"/><s:Concept r:about="id:dmvi:d2e5287" r:label="Stones and rocks"/><s:Concept r:about="id:dmvi:d2e5295" r:label="Swords"/><s:Concept r:about="id:dmvi:d2e5303" r:label="Tridents"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e5307" r:label="Furnishings"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5309" r:label="Armchairs"/><s:Concept r:about="id:dmvi:d2e5315" r:label="Beds"/><s:Concept r:about="id:dmvi:d2e5333" r:label="Bookcases"/><s:Concept r:about="id:dmvi:d2e5339" r:label="Boxes"/><s:Concept r:about="id:dmvi:d2e5346" r:label="Carpets"/><s:Concept r:about="id:dmvi:d2e5352" r:label="Chairs"/><s:Concept r:about="id:dmvi:d2e5364" r:label="Cradles"/><s:Concept r:about="id:dmvi:d2e5370" r:label="Cupboards"/><s:Concept r:about="id:dmvi:d2e5376" r:label="Curtains"/><s:Concept r:about="id:dmvi:d2e5382" r:label="Decorations"/><s:Concept r:about="id:dmvi:d2e5388" r:label="Desks"/><s:Concept r:about="id:dmvi:d2e5394" r:label="Dressing-tables"/><s:Concept r:about="id:dmvi:d2e5406" r:label="Lecterns"/><s:Concept r:about="id:dmvi:d2e5413" r:label="Mirrors"/><s:Concept r:about="id:dmvi:d2e5419" r:label="Panelling"/><s:Concept r:about="id:dmvi:d2e5431" r:label="Screens"/><s:Concept r:about="id:dmvi:d2e5437" r:label="Shelves"/><s:Concept r:about="id:dmvi:d2e5455" r:label="Tables"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e5478" r:label="Recreational objects"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5480" r:label="Sporting objects"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5482" r:label="Balls"/><s:Concept r:about="id:dmvi:d2e5530" r:label="Fishing equipment"/><s:Concept r:about="id:dmvi:d2e5538" r:label="Playing cards"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e5544" r:label="Toys"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5554" r:label="Dolls"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e5599" r:label="Transport and travel"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5601" r:label="Vehicles"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5603" r:label="Ships"/><s:Concept r:about="id:dmvi:d2e5611" r:label="Boats"/><s:Concept r:about="id:dmvi:d2e5627" r:label="Sailing and boating equipment"/><s:Concept r:about="id:dmvi:d2e5635" r:label="Carriages"/><s:Concept r:about="id:dmvi:d2e5643" r:label="Carts"/><s:Concept r:about="id:dmvi:d2e5651" r:label="Omnibuses"/><s:Concept r:about="id:dmvi:d2e5660" r:label="Trains"/><s:Concept r:about="id:dmvi:d2e5668" r:label="Sleighs and sleds"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e5690" r:label="Travel items"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5692" r:label="Horse-whips"/><s:Concept r:about="id:dmvi:d2e5700" r:label="Luggage"/><s:Concept r:about="id:dmvi:d2e5708" r:label="Maps"/><s:Concept r:about="id:dmvi:d2e5716" r:label="Riding equipment"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e5720" r:label="Cultural objects"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5722" r:label="Written word"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5732" r:label="Architectural plans"/><s:Concept r:about="id:dmvi:d2e5740" r:label="Books"/><s:Concept r:about="id:dmvi:d2e5749" r:label="Calling cards"/><s:Concept r:about="id:dmvi:d2e5765" r:label="Letters"/><s:Concept r:about="id:dmvi:d2e5773" r:label="Manuscripts"/><s:Concept r:about="id:dmvi:d2e5789" r:label="Periodicals"/><s:Concept r:about="id:dmvi:d2e5797" r:label="Scripts"/><s:Concept r:about="id:dmvi:d2e5805" r:label="Signs and posters"/><s:Concept r:about="id:dmvi:d2e5813" r:label="Songsheets"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e5860" r:label="Visual arts"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5862" r:label="Embroidery"/><s:Concept r:about="id:dmvi:d2e5870" r:label="Paintings"/><s:Concept r:about="id:dmvi:d2e5878" r:label="Sculpture"/><s:Concept r:about="id:dmvi:d2e5886" r:label="Sketch-books"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e5892" r:label="Musical objects"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5902" r:label="Brass instruments"/><s:Concept r:about="id:dmvi:d2e5910" r:label="Drums"/><s:Concept r:about="id:dmvi:d2e5927" r:label="Harps"/><s:Concept r:about="id:dmvi:d2e5935" r:label="Pianos and organs"/><s:Concept r:about="id:dmvi:d2e5951" r:label="Sheet music"/><s:Concept r:about="id:dmvi:d2e5959" r:label="Violins"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e5973" r:label="Religious objects"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e5975" r:label="Altars"/><s:Concept r:about="id:dmvi:d2e5983" r:label="Bibles"/><s:Concept r:about="id:dmvi:d2e5991" r:label="Coffins and biers"/><s:Concept r:about="id:dmvi:d2e5999" r:label="Crucifixes"/><s:Concept r:about="id:dmvi:d2e6007" r:label="Graves and gravestones"/><s:Concept r:about="id:dmvi:d2e6016" r:label="Prayer books"/><s:Concept r:about="id:dmvi:d2e6040" r:label="Statues of Jesus"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e6046" r:label="Status objects"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6048" r:label="Crests"/><s:Concept r:about="id:dmvi:d2e6056" r:label="Crowns"/><s:Concept r:about="id:dmvi:d2e6064" r:label="Flags"/><s:Concept r:about="id:dmvi:d2e6072" r:label="Regalia"/><s:Concept r:about="id:dmvi:d2e6080" r:label="Thrones"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e6086" r:label="Valuable objects"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6096" r:label="Gold and silver"/><s:Concept r:about="id:dmvi:d2e6105" r:label="Jewels"/><s:Concept r:about="id:dmvi:d2e6113" r:label="Medals"/><s:Concept r:about="id:dmvi:d2e6129" r:label="Money"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e6149" r:label="Food and drink"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6151" r:label="Food"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6153" r:label="Food [general]"/><s:Concept r:about="id:dmvi:d2e6169" r:label="Condiments"/><s:Concept r:about="id:dmvi:d2e6185" r:label="Eggs"/><s:Concept r:about="id:dmvi:d2e6194" r:label="Fruit"/><s:Concept r:about="id:dmvi:d2e6202" r:label="Meat and fish"/><s:Concept r:about="id:dmvi:d2e6218" r:label="Vegetables"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e6224" r:label="Drink"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6226" r:label="Drink [general]"/><s:Concept r:about="id:dmvi:d2e6274" r:label="Spirits"/><s:Concept r:about="id:dmvi:d2e6283" r:label="Tea and coffee"/><s:Concept r:about="id:dmvi:d2e6291" r:label="Wine"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e6297" r:label="Other ingestibles"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6307" r:label="Medicines"/><s:Concept r:about="id:dmvi:d2e6323" r:label="Tobacco"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e6327" r:label="Human biology"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6329" r:label="Blood"/><s:Concept r:about="id:dmvi:d2e6335" r:label="Corpses"/><s:Concept r:about="id:dmvi:d2e6347" r:label="Hair"/><s:Concept r:about="id:dmvi:d2e6353" r:label="Human skeletons"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e6364" r:label="Birds and animals"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6366" r:label="Animals"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6368" r:label="Apes"/><s:Concept r:about="id:dmvi:d2e6376" r:label="Bats"/><s:Concept r:about="id:dmvi:d2e6384" r:label="Bears"/><s:Concept r:about="id:dmvi:d2e6392" r:label="Camels"/><s:Concept r:about="id:dmvi:d2e6400" r:label="Cats"/><s:Concept r:about="id:dmvi:d2e6408" r:label="Cows"/><s:Concept r:about="id:dmvi:d2e6416" r:label="Deer"/><s:Concept r:about="id:dmvi:d2e6424" r:label="Dogs"/><s:Concept r:about="id:dmvi:d2e6432" r:label="Donkeys"/><s:Concept r:about="id:dmvi:d2e6440" r:label="Elephants"/><s:Concept r:about="id:dmvi:d2e6449" r:label="Foxes"/><s:Concept r:about="id:dmvi:d2e6465" r:label="Hares and rabbits"/><s:Concept r:about="id:dmvi:d2e6473" r:label="Horses"/><s:Concept r:about="id:dmvi:d2e6481" r:label="Jackals"/><s:Concept r:about="id:dmvi:d2e6489" r:label="Lions"/><s:Concept r:about="id:dmvi:d2e6497" r:label="Lizards"/><s:Concept r:about="id:dmvi:d2e6505" r:label="Pigs"/><s:Concept r:about="id:dmvi:d2e6513" r:label="Rodents"/><s:Concept r:about="id:dmvi:d2e6521" r:label="Sheep"/><s:Concept r:about="id:dmvi:d2e6529" r:label="Snakes"/><s:Concept r:about="id:dmvi:d2e6538" r:label="Tigers"/><s:Concept r:about="id:dmvi:d2e6546" r:label="Toads and frogs"/><s:Concept r:about="id:dmvi:d2e6562" r:label="Wolves"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e6568" r:label="Birds"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6570" r:label="Birds [general]"/><s:Concept r:about="id:dmvi:d2e6586" r:label="Birds of prey"/><s:Concept r:about="id:dmvi:d2e6602" r:label="Chickens"/><s:Concept r:about="id:dmvi:d2e6643" r:label="Ducks"/><s:Concept r:about="id:dmvi:d2e6659" r:label="Geese"/><s:Concept r:about="id:dmvi:d2e6667" r:label="Gulls"/><s:Concept r:about="id:dmvi:d2e6699" r:label="Owls"/><s:Concept r:about="id:dmvi:d2e6740" r:label="Ravens"/><s:Concept r:about="id:dmvi:d2e6764" r:label="Swallows"/><s:Concept r:about="id:dmvi:d2e6772" r:label="Swans"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e6786" r:label="Fish"/><s:Concept r:about="id:dmvi:d2e6792" r:label="Insects"/><s:Concept r:about="id:dmvi:d2e6799" r:label="Mythological creatures"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6801" r:label="Dragons"/><s:Concept r:about="id:dmvi:d2e6809" r:label="Pegasus"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e6823" r:label="Animal-related objects"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6833" r:label="Animal skins"/><s:Concept r:about="id:dmvi:d2e6841" r:label="Birds' feathers"/><s:Concept r:about="id:dmvi:d2e6865" r:label="Nests and eggs"/><s:Concept r:about="id:dmvi:d2e6873" r:label="Seashells"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e6877" r:label="Vegetation"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6879" r:label="Trees"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6881" r:label="Trees [general]"/><s:Concept r:about="id:dmvi:d2e6898" r:label="Beeches"/><s:Concept r:about="id:dmvi:d2e6906" r:label="Oaks"/><s:Concept r:about="id:dmvi:d2e6914" r:label="Palms"/><s:Concept r:about="id:dmvi:d2e6922" r:label="Timber"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e6936" r:label="Plants"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6938" r:label="Plants [general]"/><s:Concept r:about="id:dmvi:d2e6946" r:label="Bushes"/><s:Concept r:about="id:dmvi:d2e6954" r:label="Ferns"/><s:Concept r:about="id:dmvi:d2e6962" r:label="Holly"/><s:Concept r:about="id:dmvi:d2e6970" r:label="Mistletoe"/><s:Concept r:about="id:dmvi:d2e6979" r:label="Reeds"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e6993" r:label="Crops"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e6995" r:label="Cereals"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e7009" r:label="Flowers"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7011" r:label="Flowers [general]"/><s:Concept r:about="id:dmvi:d2e7019" r:label="Bouquets"/><s:Concept r:about="id:dmvi:d2e7043" r:label="Roses"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e7045" r:label="Themes"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7047" r:label="Society and culture"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7049" r:label="Politics"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7059" r:label="Governments"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e7227" r:label="Leisure and recreation"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7286" r:label="Parties"/><s:Concept r:about="id:dmvi:d2e7310" r:label="Theatre"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e7381" r:label="Arts and sciences"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7407" r:label="Medical science"/><s:Concept r:about="id:dmvi:d2e7415" r:label="Natural science"/><s:Concept r:about="id:dmvi:d2e7424" r:label="Astrology"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e7452" r:label="Travel and tourism"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7454" r:label="Exploration"/><s:Concept r:about="id:dmvi:d2e7466" r:label="Journeys"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e7476" r:label="Religion"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7484" r:label="Religious services"/><s:Concept r:about="id:dmvi:d2e7490" r:label="Religious concepts"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7549" r:label="Pilgrimage"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e7579" r:label="Christianity"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7590" r:label="Protestantism"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e7632" r:label="Festivals and feast days"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7634" r:label="Christmas"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e7687" r:label="Narrative themes"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7707" r:label="Abstract concepts"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7709" r:label="Anthropomorphism"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e7788" r:label="Myths and stories"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7798" r:label="Biblical legends"/><s:Concept r:about="id:dmvi:d2e7822" r:label="Folktales and fairy tales"/><s:Concept r:about="id:dmvi:d2e7847" r:label="Shakespeare's plays"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e7853" r:label="Wars and battles"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7895" r:label="Napoleonic Wars"/></s:memberList></s:orderedCollection></s:narrower></s:Concept><s:Concept r:about="id:dmvi:d2e7909" r:label="Narrative events"><s:narrower><s:orderedCollection><s:memberList r:parseType="Collection"><s:Concept r:about="id:dmvi:d2e7944" r:label="Danger"/></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept></s:memberList></s:orderedCollection></s:narrower></s:Concept></r:RDF>
+<?xml version="1.0" encoding="UTF-8"?>
+<r:RDF xml:base="http://www.cch.kcl.ac.uk/ncse/dmvi/AL_cch_dmvi_skos.rdf" xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rs="http://www.w3.org/2000/01/rdf-schema#">
+  <s:Concept r:about="id:dmvi:d2e2" r:label="Periods" xmlns:s="http://www.w3.org/2004/02/skos/core#">
+    <s:narrower>
+      <s:orderedCollection>
+        <s:memberList r:parseType="Collection">
+          <s:Concept r:about="id:dmvi:d2e4" r:label="Centuries">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e6" r:label="Sixteenth century" />
+                  <s:Concept r:about="id:dmvi:d2e12" r:label="Seventeenth century" />
+                  <s:Concept r:about="id:dmvi:d2e18" r:label="Eighteenth century" />
+                  <s:Concept r:about="id:dmvi:d2e24" r:label="Nineteenth century" />
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e28" r:label="Eras">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e30" r:label="Greek--Roman classical" />
+                  <s:Concept r:about="id:dmvi:d2e36" r:label="Biblical" />
+                  <s:Concept r:about="id:dmvi:d2e42" r:label="Medieval" />
+                  <s:Concept r:about="id:dmvi:d2e48" r:label="Renaissance" />
+                  <s:Concept r:about="id:dmvi:d2e54" r:label="Tudor--Elizabethan" />
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+        </s:memberList>
+      </s:orderedCollection>
+    </s:narrower>
+  </s:Concept>
+  <s:Concept r:about="id:dmvi:d2e69" r:label="Geography" xmlns:s="http://www.w3.org/2004/02/skos/core#">
+    <s:narrower>
+      <s:orderedCollection>
+        <s:memberList r:parseType="Collection">
+          <s:Concept r:about="id:dmvi:d2e71" r:label="Great Britain">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e73" r:label="Britain [non-specific area]" />
+                  <s:Concept r:about="id:dmvi:d2e79" r:label="England">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e81" r:label="England [non-specific area]" />
+                          <s:Concept r:about="id:dmvi:d2e97" r:label="Birmingham" />
+                          <s:Concept r:about="id:dmvi:d2e113" r:label="Cambridge" />
+                          <s:Concept r:about="id:dmvi:d2e153" r:label="London" />
+                          <s:Concept r:about="id:dmvi:d2e162" r:label="Oxford" />
+                          <s:Concept r:about="id:dmvi:d2e186" r:label="Berkshire" />
+                          <s:Concept r:about="id:dmvi:d2e210" r:label="Derbyshire" />
+                          <s:Concept r:about="id:dmvi:d2e218" r:label="Hampshire" />
+                          <s:Concept r:about="id:dmvi:d2e259" r:label="Lancashire" />
+                          <s:Concept r:about="id:dmvi:d2e299" r:label="Surrey" />
+                          <s:Concept r:about="id:dmvi:d2e323" r:label="Worcestershire" />
+                          <s:Concept r:about="id:dmvi:d2e331" r:label="Yorkshire" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e338" r:label="Scotland">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e340" r:label="Scotland [non-specific area]" />
+                          <s:Concept r:about="id:dmvi:d2e348" r:label="Edinburgh" />
+                          <s:Concept r:about="id:dmvi:d2e356" r:label="Scottish Highlands" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e384" r:label="Europe">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e386" r:label="Europe [non-specific area]" />
+                  <s:Concept r:about="id:dmvi:d2e392" r:label="Austria" />
+                  <s:Concept r:about="id:dmvi:d2e398" r:label="Belgium" />
+                  <s:Concept r:about="id:dmvi:d2e404" r:label="France" />
+                  <s:Concept r:about="id:dmvi:d2e410" r:label="Germany" />
+                  <s:Concept r:about="id:dmvi:d2e417" r:label="Greece" />
+                  <s:Concept r:about="id:dmvi:d2e423" r:label="Ireland" />
+                  <s:Concept r:about="id:dmvi:d2e429" r:label="Italy" />
+                  <s:Concept r:about="id:dmvi:d2e435" r:label="Netherlands" />
+                  <s:Concept r:about="id:dmvi:d2e447" r:label="Russia" />
+                  <s:Concept r:about="id:dmvi:d2e453" r:label="Spain" />
+                  <s:Concept r:about="id:dmvi:d2e459" r:label="Switzerland" />
+                  <s:Concept r:about="id:dmvi:d2e465" r:label="Alps" />
+                  <s:Concept r:about="id:dmvi:d2e477" r:label="Eastern Europe" />
+                  <s:Concept r:about="id:dmvi:d2e484" r:label="Scandinavia" />
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e488" r:label="Africa">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e490" r:label="Africa [non-specific area]" />
+                  <s:Concept r:about="id:dmvi:d2e496" r:label="Egypt" />
+                  <s:Concept r:about="id:dmvi:d2e502" r:label="South Africa" />
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e506" r:label="Asia">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e508" r:label="Asia [non-specific area]" />
+                  <s:Concept r:about="id:dmvi:d2e514" r:label="Holy Land" />
+                  <s:Concept r:about="id:dmvi:d2e520" r:label="Middle East" />
+                  <s:Concept r:about="id:dmvi:d2e526" r:label="China" />
+                  <s:Concept r:about="id:dmvi:d2e532" r:label="India" />
+                  <s:Concept r:about="id:dmvi:d2e538" r:label="Iran" />
+                  <s:Concept r:about="id:dmvi:d2e551" r:label="Japan" />
+                  <s:Concept r:about="id:dmvi:d2e557" r:label="Sri Lanka" />
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e561" r:label="South America">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection" />
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e573" r:label="Central America">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e581" r:label="Mexico" />
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e585" r:label="North America">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e587" r:label="Canada" />
+                  <s:Concept r:about="id:dmvi:d2e593" r:label="United States of America" />
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e597" r:label="Oceania">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e599" r:label="Australia" />
+                  <s:Concept r:about="id:dmvi:d2e605" r:label="New Zealand" />
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+        </s:memberList>
+      </s:orderedCollection>
+    </s:narrower>
+  </s:Concept>
+  <s:Concept r:about="id:dmvi:d2e607" r:label="Settings" xmlns:s="http://www.w3.org/2004/02/skos/core#">
+    <s:narrower>
+      <s:orderedCollection>
+        <s:memberList r:parseType="Collection">
+          <s:Concept r:about="id:dmvi:d2e609" r:label="Exteriors">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e611" r:label="" />
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e615" r:label="Interiors">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection" />
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e620" r:label="Natural environments">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e622" r:label="Countryside" />
+                  <s:Concept r:about="id:dmvi:d2e628" r:label="The sea" />
+                  <s:Concept r:about="id:dmvi:d2e634" r:label="Natural features">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e636" r:label="Chasms" />
+                          <s:Concept r:about="id:dmvi:d2e644" r:label="Cliffs and rocks" />
+                          <s:Concept r:about="id:dmvi:d2e652" r:label="Deserts" />
+                          <s:Concept r:about="id:dmvi:d2e660" r:label="Glaciers" />
+                          <s:Concept r:about="id:dmvi:d2e668" r:label="Hills and valleys" />
+                          <s:Concept r:about="id:dmvi:d2e676" r:label="Icebergs" />
+                          <s:Concept r:about="id:dmvi:d2e684" r:label="Lakes and ponds" />
+                          <s:Concept r:about="id:dmvi:d2e692" r:label="Mountains" />
+                          <s:Concept r:about="id:dmvi:d2e701" r:label="Plains" />
+                          <s:Concept r:about="id:dmvi:d2e709" r:label="Rivers" />
+                          <s:Concept r:about="id:dmvi:d2e717" r:label="The coast" />
+                          <s:Concept r:about="id:dmvi:d2e725" r:label="Waterfalls" />
+                          <s:Concept r:about="id:dmvi:d2e733" r:label="Woodlands" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e739" r:label="Celestial bodies">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e741" r:label="Moon" />
+                          <s:Concept r:about="id:dmvi:d2e749" r:label="Stars" />
+                          <s:Concept r:about="id:dmvi:d2e757" r:label="Sun" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e761" r:label="Built environments">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e763" r:label="Cities" />
+                  <s:Concept r:about="id:dmvi:d2e769" r:label="Towns" />
+                  <s:Concept r:about="id:dmvi:d2e775" r:label="Villages" />
+                  <s:Concept r:about="id:dmvi:d2e782" r:label="Farms">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e800" r:label="Farmyards" />
+                          <s:Concept r:about="id:dmvi:d2e808" r:label="Fields" />
+                          <s:Concept r:about="id:dmvi:d2e816" r:label="Hedges" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e830" r:label="Buildings">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e832" r:label="Arenas and stadia" />
+                          <s:Concept r:about="id:dmvi:d2e856" r:label="Banks" />
+                          <s:Concept r:about="id:dmvi:d2e873" r:label="Bell towers" />
+                          <s:Concept r:about="id:dmvi:d2e889" r:label="Castles" />
+                          <s:Concept r:about="id:dmvi:d2e897" r:label="Churches" />
+                          <s:Concept r:about="id:dmvi:d2e905" r:label="Cottages" />
+                          <s:Concept r:about="id:dmvi:d2e913" r:label="Factories" />
+                          <s:Concept r:about="id:dmvi:d2e929" r:label="Garrisons" />
+                          <s:Concept r:about="id:dmvi:d2e962" r:label="Houses" />
+                          <s:Concept r:about="id:dmvi:d2e970" r:label="Huts and cabins" />
+                          <s:Concept r:about="id:dmvi:d2e986" r:label="Law courts" />
+                          <s:Concept r:about="id:dmvi:d2e994" r:label="Lighthouses" />
+                          <s:Concept r:about="id:dmvi:d2e1002" r:label="Mansions" />
+                          <s:Concept r:about="id:dmvi:d2e1026" r:label="Museums and exhibition halls" />
+                          <s:Concept r:about="id:dmvi:d2e1034" r:label="Offices and business settings" />
+                          <s:Concept r:about="id:dmvi:d2e1042" r:label="Palaces" />
+                          <s:Concept r:about="id:dmvi:d2e1059" r:label="Prisons" />
+                          <s:Concept r:about="id:dmvi:d2e1067" r:label="Public houses" />
+                          <s:Concept r:about="id:dmvi:d2e1083" r:label="Railway stations" />
+                          <s:Concept r:about="id:dmvi:d2e1091" r:label="Restaurants" />
+                          <s:Concept r:about="id:dmvi:d2e1099" r:label="Ruins" />
+                          <s:Concept r:about="id:dmvi:d2e1107" r:label="Schools" />
+                          <s:Concept r:about="id:dmvi:d2e1115" r:label="Shops" />
+                          <s:Concept r:about="id:dmvi:d2e1140" r:label="Tents" />
+                          <s:Concept r:about="id:dmvi:d2e1148" r:label="Theatres" />
+                          <s:Concept r:about="id:dmvi:d2e1156" r:label="Universities" />
+                          <s:Concept r:about="id:dmvi:d2e1164" r:label="Windmills" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e1178" r:label="Outdoor sites">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e1180" r:label="Battlefields" />
+                          <s:Concept r:about="id:dmvi:d2e1196" r:label="Campfires" />
+                          <s:Concept r:about="id:dmvi:d2e1204" r:label="Campsites" />
+                          <s:Concept r:about="id:dmvi:d2e1212" r:label="Churchyards" />
+                          <s:Concept r:about="id:dmvi:d2e1220" r:label="Docks and harbours" />
+                          <s:Concept r:about="id:dmvi:d2e1229" r:label="Gardens" />
+                          <s:Concept r:about="id:dmvi:d2e1245" r:label="Mines" />
+                          <s:Concept r:about="id:dmvi:d2e1253" r:label="Parks and grounds" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e1259" r:label="Architectural features">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e1261" r:label="Archways" />
+                          <s:Concept r:about="id:dmvi:d2e1269" r:label="Balconies" />
+                          <s:Concept r:about="id:dmvi:d2e1293" r:label="Fences" />
+                          <s:Concept r:about="id:dmvi:d2e1301" r:label="Fountains" />
+                          <s:Concept r:about="id:dmvi:d2e1309" r:label="Gates" />
+                          <s:Concept r:about="id:dmvi:d2e1326" r:label="Pillars" />
+                          <s:Concept r:about="id:dmvi:d2e1334" r:label="Porches and verandas" />
+                          <s:Concept r:about="id:dmvi:d2e1342" r:label="Steps" />
+                          <s:Concept r:about="id:dmvi:d2e1358" r:label="Tunnels" />
+                          <s:Concept r:about="id:dmvi:d2e1366" r:label="Walls" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e1388" r:label="Roadways">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e1390" r:label="Roads--streets" />
+                          <s:Concept r:about="id:dmvi:d2e1398" r:label="Bridges" />
+                          <s:Concept r:about="id:dmvi:d2e1423" r:label="Paths" />
+                          <s:Concept r:about="id:dmvi:d2e1431" r:label="Signposts" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e1437" r:label="Rooms">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e1439" r:label="Attics" />
+                          <s:Concept r:about="id:dmvi:d2e1455" r:label="Bedrooms" />
+                          <s:Concept r:about="id:dmvi:d2e1463" r:label="Class-rooms" />
+                          <s:Concept r:about="id:dmvi:d2e1479" r:label="Dining-rooms" />
+                          <s:Concept r:about="id:dmvi:d2e1487" r:label="Drawing-rooms" />
+                          <s:Concept r:about="id:dmvi:d2e1496" r:label="Dressing-rooms" />
+                          <s:Concept r:about="id:dmvi:d2e1504" r:label="Kitchens" />
+                          <s:Concept r:about="id:dmvi:d2e1512" r:label="Libraries and studies" />
+                          <s:Concept r:about="id:dmvi:d2e1520" r:label="Nurseries" />
+                          <s:Concept r:about="id:dmvi:d2e1528" r:label="Sitting-rooms" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e1534" r:label="Features and fittings">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e1544" r:label="Doorways" />
+                          <s:Concept r:about="id:dmvi:d2e1552" r:label="Fireplaces" />
+                          <s:Concept r:about="id:dmvi:d2e1560" r:label="Mantelpieces" />
+                          <s:Concept r:about="id:dmvi:d2e1568" r:label="Stairways" />
+                          <s:Concept r:about="id:dmvi:d2e1576" r:label="Windows" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e1607" r:label="Vehicle interiors">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e1617" r:label="Ship and boat interiors" />
+                          <s:Concept r:about="id:dmvi:d2e1625" r:label="Train interiors" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e1629" r:label="Weather and natural disasters">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e1631" r:label="Cold weather" />
+                  <s:Concept r:about="id:dmvi:d2e1643" r:label="Rain and storms" />
+                  <s:Concept r:about="id:dmvi:d2e1655" r:label="Snow" />
+                  <s:Concept r:about="id:dmvi:d2e1662" r:label="Wind" />
+                  <s:Concept r:about="id:dmvi:d2e1668" r:label="Avalanches" />
+                  <s:Concept r:about="id:dmvi:d2e1686" r:label="Volcanoes" />
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e1690" r:label="Seasons--times of day">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e1724" r:label="Times of day">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e1726" r:label="Dawn" />
+                          <s:Concept r:about="id:dmvi:d2e1734" r:label="Evening--night" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+        </s:memberList>
+      </s:orderedCollection>
+    </s:narrower>
+  </s:Concept>
+  <s:Concept r:about="id:dmvi:d2e1737" r:label="People" xmlns:s="http://www.w3.org/2004/02/skos/core#">
+    <s:narrower>
+      <s:orderedCollection>
+        <s:memberList r:parseType="Collection">
+          <s:Concept r:about="id:dmvi:d2e1739" r:label="Figures">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e1741" r:label="Men" />
+                  <s:Concept r:about="id:dmvi:d2e1747" r:label="Women" />
+                  <s:Concept r:about="id:dmvi:d2e1753" r:label="Children" />
+                  <s:Concept r:about="id:dmvi:d2e1759" r:label="Babies" />
+                  <s:Concept r:about="id:dmvi:d2e1765" r:label="Elderly people" />
+                  <s:Concept r:about="id:dmvi:d2e1771" r:label="Number of figures">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e1773" r:label="1 figure" />
+                          <s:Concept r:about="id:dmvi:d2e1781" r:label="2 figures" />
+                          <s:Concept r:about="id:dmvi:d2e1789" r:label="3 figures" />
+                          <s:Concept r:about="id:dmvi:d2e1797" r:label="4 figures" />
+                          <s:Concept r:about="id:dmvi:d2e1805" r:label="5 figures" />
+                          <s:Concept r:about="id:dmvi:d2e1813" r:label="Groups [6-10 figures]" />
+                          <s:Concept r:about="id:dmvi:d2e1822" r:label="Crowds [10+ figures]" />
+                          <s:Concept r:about="id:dmvi:d2e1830" r:label="Multiple [in landscape]" />
+                          <s:Concept r:about="id:dmvi:d2e1838" r:label="Audiences" />
+                          <s:Concept r:about="id:dmvi:d2e1846" r:label="Romantic couples" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e1852" r:label="Physical characteristics">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e1854" r:label="Baldness" />
+                          <s:Concept r:about="id:dmvi:d2e1878" r:label="Facial hair" />
+                          <s:Concept r:about="id:dmvi:d2e1886" r:label="Prostheses" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e1892" r:label="Foreign nationals and ethnic minorities">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e1894" r:label="African people" />
+                          <s:Concept r:about="id:dmvi:d2e1902" r:label="Asian people" />
+                          <s:Concept r:about="id:dmvi:d2e1927" r:label="Black people" />
+                          <s:Concept r:about="id:dmvi:d2e1935" r:label="Dutch people" />
+                          <s:Concept r:about="id:dmvi:d2e1991" r:label="Indian people" />
+                          <s:Concept r:about="id:dmvi:d2e2000" r:label="Indigenous peoples" />
+                          <s:Concept r:about="id:dmvi:d2e2008" r:label="Irish people" />
+                          <s:Concept r:about="id:dmvi:d2e2032" r:label="Middle-Eastern people" />
+                          <s:Concept r:about="id:dmvi:d2e2040" r:label="North American people" />
+                          <s:Concept r:about="id:dmvi:d2e2048" r:label="Oriental people" />
+                          <s:Concept r:about="id:dmvi:d2e2072" r:label="South American people" />
+                          <s:Concept r:about="id:dmvi:d2e2080" r:label="Spanish people" />
+                          <s:Concept r:about="id:dmvi:d2e2089" r:label="Swiss people" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e2095" r:label="Mythological figures">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e2097" r:label="Classical heroes" />
+                          <s:Concept r:about="id:dmvi:d2e2105" r:label="Gods and goddesses" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e2135" r:label="Supernatural figures">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e2137" r:label="Angels" />
+                          <s:Concept r:about="id:dmvi:d2e2145" r:label="Cherubs" />
+                          <s:Concept r:about="id:dmvi:d2e2153" r:label="Demons" />
+                          <s:Concept r:about="id:dmvi:d2e2161" r:label="Devils" />
+                          <s:Concept r:about="id:dmvi:d2e2169" r:label="Fairies" />
+                          <s:Concept r:about="id:dmvi:d2e2178" r:label="Father Christmas" />
+                          <s:Concept r:about="id:dmvi:d2e2186" r:label="Ghosts" />
+                          <s:Concept r:about="id:dmvi:d2e2194" r:label="Goblins" />
+                          <s:Concept r:about="id:dmvi:d2e2202" r:label="Mermaids" />
+                          <s:Concept r:about="id:dmvi:d2e2210" r:label="Skeletons" />
+                          <s:Concept r:about="id:dmvi:d2e2218" r:label="Witches and wizards" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e2222" r:label="Relationships">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e2224" r:label="Family relations">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e2226" r:label="Families [general]" />
+                          <s:Concept r:about="id:dmvi:d2e2242" r:label="Mothers" />
+                          <s:Concept r:about="id:dmvi:d2e2258" r:label="Siblings" />
+                          <s:Concept r:about="id:dmvi:d2e2267" r:label="Grandparents" />
+                          <s:Concept r:about="id:dmvi:d2e2275" r:label="Husbands and wives" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e2297" r:label="Friends and colleagues">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e2307" r:label="Friends" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e2311" r:label="Jobs and roles">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e2313" r:label="Professions">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e2347" r:label="Governesses" />
+                          <s:Concept r:about="id:dmvi:d2e2356" r:label="Judges" />
+                          <s:Concept r:about="id:dmvi:d2e2364" r:label="Lawyers" />
+                          <s:Concept r:about="id:dmvi:d2e2372" r:label="Scientists" />
+                          <s:Concept r:about="id:dmvi:d2e2380" r:label="Teachers" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e2386" r:label="Vocations">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e2388" r:label="Actors" />
+                          <s:Concept r:about="id:dmvi:d2e2396" r:label="Artists" />
+                          <s:Concept r:about="id:dmvi:d2e2428" r:label="Blacksmiths" />
+                          <s:Concept r:about="id:dmvi:d2e2436" r:label="Butchers" />
+                          <s:Concept r:about="id:dmvi:d2e2453" r:label="Clerks" />
+                          <s:Concept r:about="id:dmvi:d2e2517" r:label="Domestic servants" />
+                          <s:Concept r:about="id:dmvi:d2e2525" r:label="Jockeys" />
+                          <s:Concept r:about="id:dmvi:d2e2534" r:label="Labourers" />
+                          <s:Concept r:about="id:dmvi:d2e2566" r:label="Farm workers" />
+                          <s:Concept r:about="id:dmvi:d2e2574" r:label="Milkmaids" />
+                          <s:Concept r:about="id:dmvi:d2e2582" r:label="Miners" />
+                          <s:Concept r:about="id:dmvi:d2e2590" r:label="Fishermen" />
+                          <s:Concept r:about="id:dmvi:d2e2606" r:label="Musicians" />
+                          <s:Concept r:about="id:dmvi:d2e2614" r:label="Hairdressers" />
+                          <s:Concept r:about="id:dmvi:d2e2623" r:label="Nurses" />
+                          <s:Concept r:about="id:dmvi:d2e2647" r:label="Policemen" />
+                          <s:Concept r:about="id:dmvi:d2e2655" r:label="Railway workers" />
+                          <s:Concept r:about="id:dmvi:d2e2663" r:label="Sailors" />
+                          <s:Concept r:about="id:dmvi:d2e2671" r:label="Shepherds" />
+                          <s:Concept r:about="id:dmvi:d2e2679" r:label="Shoemakers" />
+                          <s:Concept r:about="id:dmvi:d2e2695" r:label="Students" />
+                          <s:Concept r:about="id:dmvi:d2e2703" r:label="Tailors--dressmakers" />
+                          <s:Concept r:about="id:dmvi:d2e2712" r:label="Waiting staff" />
+                          <s:Concept r:about="id:dmvi:d2e2728" r:label="Writers--journalists" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e2734" r:label="Religious persons">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e2736" r:label="Bishops" />
+                          <s:Concept r:about="id:dmvi:d2e2752" r:label="Ministers" />
+                          <s:Concept r:about="id:dmvi:d2e2760" r:label="Monks" />
+                          <s:Concept r:about="id:dmvi:d2e2768" r:label="Nuns" />
+                          <s:Concept r:about="id:dmvi:d2e2776" r:label="Rabbis" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e2782" r:label="Military persons">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e2784" r:label="Gladiators" />
+                          <s:Concept r:about="id:dmvi:d2e2792" r:label="Knights" />
+                          <s:Concept r:about="id:dmvi:d2e2801" r:label="Soldiers" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e2807" r:label="Criminals--outsiders">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e2841" r:label="Slaves" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e2845" r:label="Social status">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e2847" r:label="Working classes" />
+                  <s:Concept r:about="id:dmvi:d2e2853" r:label="Middle classes" />
+                  <s:Concept r:about="id:dmvi:d2e2859" r:label="Upper classes">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e2861" r:label="Upper classes [general]" />
+                          <s:Concept r:about="id:dmvi:d2e2869" r:label="Royalty" />
+                          <s:Concept r:about="id:dmvi:d2e2877" r:label="Aristocracy" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e2884" r:label="Poor" />
+                  <s:Concept r:about="id:dmvi:d2e2890" r:label="Wealthy" />
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e2894" r:label="Clothing">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e2896" r:label="Nudes" />
+                  <s:Concept r:about="id:dmvi:d2e2902" r:label="Victorian clothing">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e2904" r:label="Men's clothing" />
+                          <s:Concept r:about="id:dmvi:d2e2912" r:label="Women's clothing" />
+                          <s:Concept r:about="id:dmvi:d2e2920" r:label="Costumes and fancy dress" />
+                          <s:Concept r:about="id:dmvi:d2e2928" r:label="Crinoline" />
+                          <s:Concept r:about="id:dmvi:d2e2936" r:label="Mourning clothing" />
+                          <s:Concept r:about="id:dmvi:d2e2944" r:label="School uniforms" />
+                          <s:Concept r:about="id:ncse:d9z9999" r:label="Children's clothing" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e2950" r:label="Work clothing">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e2952" r:label="Aprons" />
+                          <s:Concept r:about="id:dmvi:d2e2969" r:label="Uniforms" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e2975" r:label="Sporting clothing">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e2977" r:label="Athletics clothing" />
+                          <s:Concept r:about="id:dmvi:d2e3001" r:label="Shooting clothing" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e3007" r:label="Wedding clothing" />
+                  <s:Concept r:about="id:dmvi:d2e3013" r:label="Riding clothing" />
+                  <s:Concept r:about="id:dmvi:d2e3019" r:label="Eveningwear" />
+                  <s:Concept r:about="id:dmvi:d2e3025" r:label="Nightwear" />
+                  <s:Concept r:about="id:dmvi:d2e3037" r:label="Ragged clothing" />
+                  <s:Concept r:about="id:dmvi:d2e3044" r:label="Regional--climate clothing">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e3046" r:label="Alpine dress" />
+                          <s:Concept r:about="id:dmvi:d2e3054" r:label="Indian dress" />
+                          <s:Concept r:about="id:dmvi:d2e3062" r:label="Middle Eastern dress" />
+                          <s:Concept r:about="id:dmvi:d2e3070" r:label="Native American dress" />
+                          <s:Concept r:about="id:dmvi:d2e3078" r:label="Scottish dress" />
+                          <s:Concept r:about="id:dmvi:d2e3094" r:label="Cold weather clothing" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e3116" r:label="Period clothing">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e3118" r:label="Medieval clothing" />
+                          <s:Concept r:about="id:dmvi:d2e3126" r:label="Early modern clothing" />
+                          <s:Concept r:about="id:dmvi:d2e3135" r:label="Seventeenth-century clothing" />
+                          <s:Concept r:about="id:dmvi:d2e3143" r:label="Eighteenth-century clothing" />
+                          <s:Concept r:about="id:dmvi:d2e3151" r:label="Georgian clothing" />
+                          <s:Concept r:about="id:dmvi:d2e3159" r:label="Armour" />
+                          <s:Concept r:about="id:dmvi:d2e3167" r:label="Loincloths" />
+                          <s:Concept r:about="id:dmvi:d2e3175" r:label="Robes" />
+                          <s:Concept r:about="id:dmvi:d2e3183" r:label="Togas" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e3189" r:label="Accessories">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e3191" r:label="Bags" />
+                          <s:Concept r:about="id:dmvi:d2e3199" r:label="Blindfolds" />
+                          <s:Concept r:about="id:dmvi:d2e3207" r:label="Cloaks" />
+                          <s:Concept r:about="id:dmvi:d2e3224" r:label="Disguises" />
+                          <s:Concept r:about="id:dmvi:d2e3232" r:label="Eye-glasses" />
+                          <s:Concept r:about="id:dmvi:d2e3248" r:label="Fans" />
+                          <s:Concept r:about="id:dmvi:d2e3256" r:label="Feathers" />
+                          <s:Concept r:about="id:dmvi:d2e3264" r:label="Garlands" />
+                          <s:Concept r:about="id:dmvi:d2e3272" r:label="Gloves" />
+                          <s:Concept r:about="id:dmvi:d2e3288" r:label="Hats" />
+                          <s:Concept r:about="id:dmvi:d2e3296" r:label="Hoods" />
+                          <s:Concept r:about="id:dmvi:d2e3304" r:label="Jewellery" />
+                          <s:Concept r:about="id:dmvi:d2e3313" r:label="Masks" />
+                          <s:Concept r:about="id:dmvi:d2e3329" r:label="Pocket-watches" />
+                          <s:Concept r:about="id:dmvi:d2e3345" r:label="Ribbons" />
+                          <s:Concept r:about="id:dmvi:d2e3369" r:label="Scarves" />
+                          <s:Concept r:about="id:dmvi:d2e3377" r:label="Turbans" />
+                          <s:Concept r:about="id:dmvi:d2e3385" r:label="Umbrellas" />
+                          <s:Concept r:about="id:dmvi:d2e3402" r:label="Walking-sticks" />
+                          <s:Concept r:about="id:dmvi:d2e3410" r:label="Wigs" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+        </s:memberList>
+      </s:orderedCollection>
+    </s:narrower>
+  </s:Concept>
+  <s:Concept r:about="id:dmvi:d2e3412" r:label="Activities" xmlns:s="http://www.w3.org/2004/02/skos/core#">
+    <s:narrower>
+      <s:orderedCollection>
+        <s:memberList r:parseType="Collection">
+          <s:Concept r:about="id:dmvi:d2e3414" r:label="Physical positions">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e3416" r:label="Postures">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e3418" r:label="Kneeling" />
+                          <s:Concept r:about="id:dmvi:d2e3426" r:label="Leaning" />
+                          <s:Concept r:about="id:dmvi:d2e3434" r:label="Lying down" />
+                          <s:Concept r:about="id:dmvi:d2e3442" r:label="Sitting" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e3448" r:label="Hand positions">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e3450" r:label="Clasping hands" />
+                          <s:Concept r:about="id:dmvi:d2e3458" r:label="Holding hands" />
+                          <s:Concept r:about="id:dmvi:d2e3466" r:label="Pointing" />
+                          <s:Concept r:about="id:dmvi:d2e3474" r:label="Shaking hands" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e3478" r:label="Actions and speech">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e3480" r:label="Physical motions">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e3482" r:label="Acrobatics" />
+                          <s:Concept r:about="id:dmvi:d2e3491" r:label="Bowing and doffing" />
+                          <s:Concept r:about="id:dmvi:d2e3499" r:label="Carrying" />
+                          <s:Concept r:about="id:dmvi:d2e3507" r:label="Catching" />
+                          <s:Concept r:about="id:dmvi:d2e3523" r:label="Climbing" />
+                          <s:Concept r:about="id:dmvi:d2e3531" r:label="Dancing" />
+                          <s:Concept r:about="id:dmvi:d2e3555" r:label="Drinking" />
+                          <s:Concept r:about="id:dmvi:d2e3563" r:label="Eating" />
+                          <s:Concept r:about="id:dmvi:d2e3580" r:label="Falling" />
+                          <s:Concept r:about="id:dmvi:d2e3588" r:label="Flying" />
+                          <s:Concept r:about="id:dmvi:d2e3612" r:label="Jumping" />
+                          <s:Concept r:about="id:dmvi:d2e3620" r:label="Leading" />
+                          <s:Concept r:about="id:dmvi:d2e3628" r:label="Meeting" />
+                          <s:Concept r:about="id:dmvi:d2e3644" r:label="Playing" />
+                          <s:Concept r:about="id:dmvi:d2e3652" r:label="Pushing--pulling" />
+                          <s:Concept r:about="id:dmvi:d2e3669" r:label="Running" />
+                          <s:Concept r:about="id:dmvi:d2e3685" r:label="Smoking" />
+                          <s:Concept r:about="id:dmvi:d2e3709" r:label="Spying" />
+                          <s:Concept r:about="id:dmvi:d2e3717" r:label="Swimming" />
+                          <s:Concept r:about="id:dmvi:d2e3725" r:label="Throwing" />
+                          <s:Concept r:about="id:dmvi:d2e3741" r:label="Walking" />
+                          <s:Concept r:about="id:dmvi:d2e3749" r:label="Watching" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e3764" r:label="Verbal communications">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e3774" r:label="Acting" />
+                          <s:Concept r:about="id:dmvi:d2e3790" r:label="Arguing" />
+                          <s:Concept r:about="id:dmvi:d2e3798" r:label="Asking" />
+                          <s:Concept r:about="id:dmvi:d2e3806" r:label="Begging" />
+                          <s:Concept r:about="id:dmvi:d2e3822" r:label="Crying" />
+                          <s:Concept r:about="id:dmvi:d2e3847" r:label="Praying" />
+                          <s:Concept r:about="id:dmvi:d2e3871" r:label="Shouting" />
+                          <s:Concept r:about="id:dmvi:d2e3879" r:label="Singing" />
+                          <s:Concept r:about="id:dmvi:d2e3887" r:label="Talking" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e3925" r:label="Manual and farm work">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e3952" r:label="Cutting and chopping" />
+                          <s:Concept r:about="id:dmvi:d2e3960" r:label="Cleaning" />
+                          <s:Concept r:about="id:dmvi:d2e3968" r:label="Cooking and preparing" />
+                          <s:Concept r:about="id:dmvi:d2e3976" r:label="Digging" />
+                          <s:Concept r:about="id:dmvi:d2e3984" r:label="Gardening" />
+                          <s:Concept r:about="id:dmvi:d2e3992" r:label="Herding" />
+                          <s:Concept r:about="id:dmvi:d2e4033" r:label="Picking" />
+                          <s:Concept r:about="id:dmvi:d2e4049" r:label="Reaping" />
+                          <s:Concept r:about="id:dmvi:d2e4057" r:label="Serving" />
+                          <s:Concept r:about="id:dmvi:d2e4065" r:label="Sewing and knitting" />
+                          <s:Concept r:about="id:dmvi:d2e4089" r:label="Weaving" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e4095" r:label="Fighting, hunting and military actions">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e4097" r:label="Duelling" />
+                          <s:Concept r:about="id:dmvi:d2e4105" r:label="Escaping" />
+                          <s:Concept r:about="id:dmvi:d2e4114" r:label="Fighting" />
+                          <s:Concept r:about="id:dmvi:d2e4122" r:label="Fishing" />
+                          <s:Concept r:about="id:dmvi:d2e4138" r:label="Hunting and trapping" />
+                          <s:Concept r:about="id:dmvi:d2e4146" r:label="Killing" />
+                          <s:Concept r:about="id:dmvi:d2e4154" r:label="Marching" />
+                          <s:Concept r:about="id:dmvi:d2e4170" r:label="Shooting" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e4176" r:label="Transactions">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e4178" r:label="Buying and selling" />
+                          <s:Concept r:about="id:dmvi:d2e4186" r:label="Loaning" />
+                          <s:Concept r:about="id:dmvi:d2e4194" r:label="Gambling" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e4201" r:label="Affectionate actions">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e4211" r:label="Comforting" />
+                          <s:Concept r:about="id:dmvi:d2e4219" r:label="Courtship" />
+                          <s:Concept r:about="id:dmvi:d2e4227" r:label="Embracing" />
+                          <s:Concept r:about="id:dmvi:d2e4235" r:label="Helping" />
+                          <s:Concept r:about="id:dmvi:d2e4243" r:label="Kissing" />
+                          <s:Concept r:about="id:dmvi:d2e4251" r:label="Nursing" />
+                          <s:Concept r:about="id:dmvi:d2e4267" r:label="Stroking" />
+                          <s:Concept r:about="id:dmvi:d2e4275" r:label="Welcoming" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e4281" r:label="Mental and creative activities">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e4292" r:label="Listening" />
+                          <s:Concept r:about="id:dmvi:d2e4300" r:label="Painting and drawing" />
+                          <s:Concept r:about="id:dmvi:d2e4308" r:label="Reading" />
+                          <s:Concept r:about="id:dmvi:d2e4316" r:label="Relaxing" />
+                          <s:Concept r:about="id:dmvi:d2e4332" r:label="Teaching" />
+                          <s:Concept r:about="id:dmvi:d2e4340" r:label="Thinking" />
+                          <s:Concept r:about="id:dmvi:d2e4348" r:label="Writing" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e4354" r:label="Vehicular motions">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e4364" r:label="Driving" />
+                          <s:Concept r:about="id:dmvi:d2e4372" r:label="Horse-riding" />
+                          <s:Concept r:about="id:dmvi:d2e4381" r:label="Rowing and punting" />
+                          <s:Concept r:about="id:dmvi:d2e4389" r:label="Sailing" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e4393" r:label="Emotions and states">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e4395" r:label="Emotions">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e4405" r:label="Distress" />
+                          <s:Concept r:about="id:dmvi:d2e4413" r:label="Fear" />
+                          <s:Concept r:about="id:dmvi:d2e4421" r:label="Grief" />
+                          <s:Concept r:about="id:dmvi:d2e4437" r:label="Happiness" />
+                          <s:Concept r:about="id:dmvi:d2e4445" r:label="Hatred" />
+                          <s:Concept r:about="id:dmvi:d2e4470" r:label="Love" />
+                          <s:Concept r:about="id:dmvi:d2e4486" r:label="Sadness" />
+                          <s:Concept r:about="id:dmvi:d2e4494" r:label="Surprise" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e4500" r:label="Characteristics">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e4502" r:label="Bullying" />
+                          <s:Concept r:about="id:dmvi:d2e4534" r:label="Greed" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e4573" r:label="Physical states">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e4591" r:label="Hunger" />
+                          <s:Concept r:about="id:dmvi:d2e4599" r:label="Ill--injured" />
+                          <s:Concept r:about="id:dmvi:d2e4607" r:label="In pain" />
+                          <s:Concept r:about="id:dmvi:d2e4615" r:label="Sleeping" />
+                          <s:Concept r:about="id:dmvi:d2e4631" r:label="Tiredness" />
+                          <s:Concept r:about="id:dmvi:d2e4639" r:label="Unconsciousness" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+        </s:memberList>
+      </s:orderedCollection>
+    </s:narrower>
+  </s:Concept>
+  <s:Concept r:about="id:dmvi:d2e4642" r:label="Objects" xmlns:s="http://www.w3.org/2004/02/skos/core#">
+    <s:narrower>
+      <s:orderedCollection>
+        <s:memberList r:parseType="Collection">
+          <s:Concept r:about="id:dmvi:d2e4644" r:label="Tools and implements">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e4646" r:label="Domestic objects">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e4648" r:label="Basins" />
+                          <s:Concept r:about="id:dmvi:d2e4656" r:label="Baskets" />
+                          <s:Concept r:about="id:dmvi:d2e4672" r:label="Bottles" />
+                          <s:Concept r:about="id:dmvi:d2e4680" r:label="Buckets" />
+                          <s:Concept r:about="id:dmvi:d2e4688" r:label="Cleaning equipment" />
+                          <s:Concept r:about="id:dmvi:d2e4696" r:label="Clocks" />
+                          <s:Concept r:about="id:dmvi:d2e4728" r:label="Crockery and pottery" />
+                          <s:Concept r:about="id:dmvi:d2e4737" r:label="Cups" />
+                          <s:Concept r:about="id:dmvi:d2e4745" r:label="Cutlery" />
+                          <s:Concept r:about="id:dmvi:d2e4761" r:label="Fabrics" />
+                          <s:Concept r:about="id:dmvi:d2e4817" r:label="Jugs" />
+                          <s:Concept r:about="id:dmvi:d2e4834" r:label="Keys" />
+                          <s:Concept r:about="id:dmvi:d2e4850" r:label="Ornaments" />
+                          <s:Concept r:about="id:dmvi:d2e4874" r:label="Scissors" />
+                          <s:Concept r:about="id:dmvi:d2e4890" r:label="Trays" />
+                          <s:Concept r:about="id:dmvi:d2e4898" r:label="Vases" />
+                          <s:Concept r:about="id:dmvi:d2e4915" r:label="Watering-cans" />
+                          <s:Concept r:about="id:dmvi:d2e4923" r:label="Weights and scales" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e4929" r:label="Lighting devices">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e4931" r:label="Candles and candlesticks" />
+                          <s:Concept r:about="id:dmvi:d2e4947" r:label="Lamps" />
+                          <s:Concept r:about="id:dmvi:d2e4955" r:label="Torches" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e4961" r:label="Farming equipment">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e4995" r:label="Rakes and hoes" />
+                          <s:Concept r:about="id:dmvi:d2e5004" r:label="Scythes and sickles" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e5018" r:label="Labouring equipment">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e5020" r:label="Axes" />
+                          <s:Concept r:about="id:dmvi:d2e5028" r:label="Barrels" />
+                          <s:Concept r:about="id:dmvi:d2e5044" r:label="Builder's tools" />
+                          <s:Concept r:about="id:dmvi:d2e5068" r:label="Ladders" />
+                          <s:Concept r:about="id:dmvi:d2e5093" r:label="Ropes" />
+                          <s:Concept r:about="id:dmvi:d2e5101" r:label="Spades" />
+                          <s:Concept r:about="id:dmvi:d2e5109" r:label="Wheelbarrows" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e5115" r:label="Creative implements">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e5117" r:label="Artist's equipment" />
+                          <s:Concept r:about="id:dmvi:d2e5125" r:label="Sewing equipment" />
+                          <s:Concept r:about="id:dmvi:d2e5133" r:label="Weaving equipment" />
+                          <s:Concept r:about="id:dmvi:d2e5141" r:label="Writing equipment" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e5147" r:label="Medical equipment">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e5149" r:label="Bandages" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e5163" r:label="Scientific objects">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e5182" r:label="Globes" />
+                          <s:Concept r:about="id:dmvi:d2e5190" r:label="Laboratory equipment" />
+                          <s:Concept r:about="id:dmvi:d2e5206" r:label="Telescopes" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e5212" r:label="Weapons">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e5214" r:label="Battleaxes" />
+                          <s:Concept r:about="id:dmvi:d2e5222" r:label="Bows and arrows" />
+                          <s:Concept r:about="id:dmvi:d2e5230" r:label="Cannons" />
+                          <s:Concept r:about="id:dmvi:d2e5238" r:label="Chains" />
+                          <s:Concept r:about="id:dmvi:d2e5254" r:label="Guns" />
+                          <s:Concept r:about="id:dmvi:d2e5262" r:label="Knives" />
+                          <s:Concept r:about="id:dmvi:d2e5271" r:label="Shields" />
+                          <s:Concept r:about="id:dmvi:d2e5279" r:label="Spears" />
+                          <s:Concept r:about="id:dmvi:d2e5287" r:label="Stones and rocks" />
+                          <s:Concept r:about="id:dmvi:d2e5295" r:label="Swords" />
+                          <s:Concept r:about="id:dmvi:d2e5303" r:label="Tridents" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e5307" r:label="Furnishings">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e5309" r:label="Armchairs" />
+                  <s:Concept r:about="id:dmvi:d2e5315" r:label="Beds" />
+                  <s:Concept r:about="id:dmvi:d2e5333" r:label="Bookcases" />
+                  <s:Concept r:about="id:dmvi:d2e5339" r:label="Boxes" />
+                  <s:Concept r:about="id:dmvi:d2e5346" r:label="Carpets" />
+                  <s:Concept r:about="id:dmvi:d2e5352" r:label="Chairs" />
+                  <s:Concept r:about="id:dmvi:d2e5364" r:label="Cradles" />
+                  <s:Concept r:about="id:dmvi:d2e5370" r:label="Cupboards" />
+                  <s:Concept r:about="id:dmvi:d2e5376" r:label="Curtains" />
+                  <s:Concept r:about="id:dmvi:d2e5382" r:label="Decorations" />
+                  <s:Concept r:about="id:dmvi:d2e5388" r:label="Desks" />
+                  <s:Concept r:about="id:dmvi:d2e5406" r:label="Lecterns" />
+                  <s:Concept r:about="id:dmvi:d2e5413" r:label="Mirrors" />
+                  <s:Concept r:about="id:dmvi:d2e5419" r:label="Panelling" />
+                  <s:Concept r:about="id:dmvi:d2e5431" r:label="Screens" />
+                  <s:Concept r:about="id:dmvi:d2e5437" r:label="Shelves" />
+                  <s:Concept r:about="id:dmvi:d2e5455" r:label="Tables" />
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e5478" r:label="Recreational objects">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e5480" r:label="Sporting objects">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e5482" r:label="Balls" />
+                          <s:Concept r:about="id:dmvi:d2e5490" r:label="Bathing machine" />
+                          <s:Concept r:about="id:dmvi:d2e5498" r:label="Billiard-tables" />
+                          <s:Concept r:about="id:dmvi:d2e5530" r:label="Fishing equipment" />
+                          <s:Concept r:about="id:dmvi:d2e5538" r:label="Playing cards" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e5544" r:label="Toys">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e5554" r:label="Dolls" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e5599" r:label="Transport and travel">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e5601" r:label="Vehicles">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e5603" r:label="Ships" />
+                          <s:Concept r:about="id:dmvi:d2e5611" r:label="Boats" />
+                          <s:Concept r:about="id:dmvi:d2e5627" r:label="Sailing and boating equipment" />
+                          <s:Concept r:about="id:dmvi:d2e5635" r:label="Carriages" />
+                          <s:Concept r:about="id:dmvi:d2e5643" r:label="Carts" />
+                          <s:Concept r:about="id:dmvi:d2e5651" r:label="Omnibuses" />
+                          <s:Concept r:about="id:dmvi:d2e5660" r:label="Trains" />
+                          <s:Concept r:about="id:dmvi:d2e5668" r:label="Sleighs and sleds" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e5690" r:label="Travel items">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e5692" r:label="Horse-whips" />
+                          <s:Concept r:about="id:dmvi:d2e5700" r:label="Luggage" />
+                          <s:Concept r:about="id:dmvi:d2e5708" r:label="Maps" />
+                          <s:Concept r:about="id:dmvi:d2e5716" r:label="Riding equipment" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e5720" r:label="Cultural objects">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e5722" r:label="Written word">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e5732" r:label="Architectural plans" />
+                          <s:Concept r:about="id:dmvi:d2e5740" r:label="Books" />
+                          <s:Concept r:about="id:dmvi:d2e5749" r:label="Calling cards" />
+                          <s:Concept r:about="id:dmvi:d2e5765" r:label="Letters" />
+                          <s:Concept r:about="id:dmvi:d2e5773" r:label="Manuscripts" />
+                          <s:Concept r:about="id:dmvi:d2e5789" r:label="Periodicals" />
+                          <s:Concept r:about="id:dmvi:d2e5797" r:label="Scripts" />
+                          <s:Concept r:about="id:dmvi:d2e5805" r:label="Signs and posters" />
+                          <s:Concept r:about="id:dmvi:d2e5813" r:label="Songsheets" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e5860" r:label="Visual arts">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e5862" r:label="Embroidery" />
+                          <s:Concept r:about="id:dmvi:d2e5870" r:label="Paintings" />
+                          <s:Concept r:about="id:dmvi:d2e5878" r:label="Sculpture" />
+                          <s:Concept r:about="id:dmvi:d2e5886" r:label="Sketch-books" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e5892" r:label="Musical objects">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e5902" r:label="Brass instruments" />
+                          <s:Concept r:about="id:dmvi:d2e5910" r:label="Drums" />
+                          <s:Concept r:about="id:dmvi:d2e5927" r:label="Harps" />
+                          <s:Concept r:about="id:dmvi:d2e5935" r:label="Pianos and organs" />
+                          <s:Concept r:about="id:dmvi:d2e5951" r:label="Sheet music" />
+                          <s:Concept r:about="id:dmvi:d2e5959" r:label="Violins" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e5973" r:label="Religious objects">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e5975" r:label="Altars" />
+                          <s:Concept r:about="id:dmvi:d2e5983" r:label="Bibles" />
+                          <s:Concept r:about="id:dmvi:d2e5991" r:label="Coffins and biers" />
+                          <s:Concept r:about="id:dmvi:d2e5999" r:label="Crucifixes" />
+                          <s:Concept r:about="id:dmvi:d2e6007" r:label="Graves and gravestones" />
+                          <s:Concept r:about="id:dmvi:d2e6016" r:label="Prayer books" />
+                          <s:Concept r:about="id:dmvi:d2e6040" r:label="Statues of Jesus" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e6046" r:label="Status objects">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e6048" r:label="Crests" />
+                          <s:Concept r:about="id:dmvi:d2e6056" r:label="Crowns" />
+                          <s:Concept r:about="id:dmvi:d2e6064" r:label="Flags" />
+                          <s:Concept r:about="id:dmvi:d2e6072" r:label="Regalia" />
+                          <s:Concept r:about="id:dmvi:d2e6080" r:label="Thrones" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e6086" r:label="Valuable objects">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e6096" r:label="Gold and silver" />
+                          <s:Concept r:about="id:dmvi:d2e6105" r:label="Jewels" />
+                          <s:Concept r:about="id:dmvi:d2e6113" r:label="Medals" />
+                          <s:Concept r:about="id:dmvi:d2e6129" r:label="Money" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e6149" r:label="Food and drink">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e6151" r:label="Food">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e6153" r:label="Food [general]" />
+                          <s:Concept r:about="id:dmvi:d2e6169" r:label="Condiments" />
+                          <s:Concept r:about="id:dmvi:d2e6185" r:label="Eggs" />
+                          <s:Concept r:about="id:dmvi:d2e6194" r:label="Fruit" />
+                          <s:Concept r:about="id:dmvi:d2e6202" r:label="Meat and fish" />
+                          <s:Concept r:about="id:dmvi:d2e6218" r:label="Vegetables" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e6224" r:label="Drink">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e6226" r:label="Drink [general]" />
+                          <s:Concept r:about="id:dmvi:d2e6274" r:label="Spirits" />
+                          <s:Concept r:about="id:dmvi:d2e6283" r:label="Tea and coffee" />
+                          <s:Concept r:about="id:dmvi:d2e6291" r:label="Wine" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e6297" r:label="Other ingestibles">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e6307" r:label="Medicines" />
+                          <s:Concept r:about="id:dmvi:d2e6323" r:label="Tobacco" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e6327" r:label="Human biology">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e6329" r:label="Blood" />
+                  <s:Concept r:about="id:dmvi:d2e6335" r:label="Corpses" />
+                  <s:Concept r:about="id:dmvi:d2e6347" r:label="Hair" />
+                  <s:Concept r:about="id:dmvi:d2e6353" r:label="Human skeletons" />
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e6364" r:label="Birds and animals">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e6366" r:label="Animals">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e6368" r:label="Apes" />
+                          <s:Concept r:about="id:dmvi:d2e6376" r:label="Bats" />
+                          <s:Concept r:about="id:dmvi:d2e6384" r:label="Bears" />
+                          <s:Concept r:about="id:dmvi:d2e6392" r:label="Camels" />
+                          <s:Concept r:about="id:dmvi:d2e6400" r:label="Cats" />
+                          <s:Concept r:about="id:dmvi:d2e6408" r:label="Cows" />
+                          <s:Concept r:about="id:dmvi:d2e6416" r:label="Deer" />
+                          <s:Concept r:about="id:dmvi:d2e6424" r:label="Dogs" />
+                          <s:Concept r:about="id:dmvi:d2e6432" r:label="Donkeys" />
+                          <s:Concept r:about="id:dmvi:d2e6440" r:label="Elephants" />
+                          <s:Concept r:about="id:dmvi:d2e6449" r:label="Foxes" />
+                          <s:Concept r:about="id:dmvi:d2e6457" r:label="Goats" />
+                          <s:Concept r:about="id:dmvi:d2e6465" r:label="Hares and rabbits" />
+                          <s:Concept r:about="id:dmvi:d2e6473" r:label="Horses" />
+                          <s:Concept r:about="id:dmvi:d2e6481" r:label="Jackals" />
+                          <s:Concept r:about="id:dmvi:d2e6489" r:label="Lions" />
+                          <s:Concept r:about="id:dmvi:d2e6497" r:label="Lizards" />
+                          <s:Concept r:about="id:dmvi:d2e6505" r:label="Pigs" />
+                          <s:Concept r:about="id:dmvi:d2e6513" r:label="Rodents" />
+                          <s:Concept r:about="id:dmvi:d2e6521" r:label="Sheep" />
+                          <s:Concept r:about="id:dmvi:d2e6529" r:label="Snakes" />
+                          <s:Concept r:about="id:dmvi:d2e6538" r:label="Tigers" />
+                          <s:Concept r:about="id:dmvi:d2e6546" r:label="Toads and frogs" />
+                          <s:Concept r:about="id:dmvi:d2e6562" r:label="Wolves" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e6568" r:label="Birds">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e6570" r:label="Birds [general]" />
+                          <s:Concept r:about="id:dmvi:d2e6586" r:label="Birds of prey" />
+                          <s:Concept r:about="id:dmvi:d2e6602" r:label="Chickens" />
+                          <s:Concept r:about="id:dmvi:d2e6643" r:label="Ducks" />
+                          <s:Concept r:about="id:dmvi:d2e6659" r:label="Geese" />
+                          <s:Concept r:about="id:dmvi:d2e6667" r:label="Gulls" />
+                          <s:Concept r:about="id:dmvi:d2e6699" r:label="Owls" />
+                          <s:Concept r:about="id:dmvi:d2e6740" r:label="Ravens" />
+                          <s:Concept r:about="id:dmvi:d2e6764" r:label="Swallows" />
+                          <s:Concept r:about="id:dmvi:d2e6772" r:label="Swans" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e6786" r:label="Fish" />
+                  <s:Concept r:about="id:dmvi:d2e6792" r:label="Insects" />
+                  <s:Concept r:about="id:dmvi:d2e6799" r:label="Mythological creatures">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e6801" r:label="Dragons" />
+                          <s:Concept r:about="id:dmvi:d2e6809" r:label="Pegasus" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e6823" r:label="Animal-related objects">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e6825" r:label="Animal skeletons" />
+                          <s:Concept r:about="id:dmvi:d2e6833" r:label="Animal skins" />
+                          <s:Concept r:about="id:dmvi:d2e6841" r:label="Birds' feathers" />
+                          <s:Concept r:about="id:dmvi:d2e6865" r:label="Nests and eggs" />
+                          <s:Concept r:about="id:dmvi:d2e6873" r:label="Seashells" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e6877" r:label="Vegetation">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e6879" r:label="Trees">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e6881" r:label="Trees [general]" />
+                          <s:Concept r:about="id:dmvi:d2e6898" r:label="Beeches" />
+                          <s:Concept r:about="id:dmvi:d2e6906" r:label="Oaks" />
+                          <s:Concept r:about="id:dmvi:d2e6914" r:label="Palms" />
+                          <s:Concept r:about="id:dmvi:d2e6922" r:label="Timber" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e6936" r:label="Plants">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e6938" r:label="Plants [general]" />
+                          <s:Concept r:about="id:dmvi:d2e6946" r:label="Bushes" />
+                          <s:Concept r:about="id:dmvi:d2e6954" r:label="Ferns" />
+                          <s:Concept r:about="id:dmvi:d2e6962" r:label="Holly" />
+                          <s:Concept r:about="id:dmvi:d2e6970" r:label="Mistletoe" />
+                          <s:Concept r:about="id:dmvi:d2e6979" r:label="Reeds" />
+                          <s:Concept r:about="id:dmvi:d2e6987" r:label="Vines" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e6993" r:label="Crops">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e6995" r:label="Cereals" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e7009" r:label="Flowers">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e7011" r:label="Flowers [general]" />
+                          <s:Concept r:about="id:dmvi:d2e7019" r:label="Bouquets" />
+                          <s:Concept r:about="id:dmvi:d2e7043" r:label="Roses" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+        </s:memberList>
+      </s:orderedCollection>
+    </s:narrower>
+  </s:Concept>
+  <s:Concept r:about="id:dmvi:d2e7045" r:label="Themes" xmlns:s="http://www.w3.org/2004/02/skos/core#">
+    <s:narrower>
+      <s:orderedCollection>
+        <s:memberList r:parseType="Collection">
+          <s:Concept r:about="id:dmvi:d2e7047" r:label="Society and culture">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e7049" r:label="Politics">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e7059" r:label="Governments" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e7227" r:label="Leisure and recreation">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e7286" r:label="Parties" />
+                          <s:Concept r:about="id:dmvi:d2e7310" r:label="Theatre" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e7381" r:label="Arts and sciences">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e7407" r:label="Medical science" />
+                          <s:Concept r:about="id:dmvi:d2e7415" r:label="Natural science" />
+                          <s:Concept r:about="id:dmvi:d2e7424" r:label="Astrology" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e7452" r:label="Travel and tourism">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e7454" r:label="Exploration" />
+                  <s:Concept r:about="id:dmvi:d2e7466" r:label="Journeys" />
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e7476" r:label="Religion">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e7484" r:label="Religious services" />
+                  <s:Concept r:about="id:dmvi:d2e7490" r:label="Religious concepts">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e7549" r:label="Pilgrimage" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e7579" r:label="Christianity">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e7590" r:label="Protestantism" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e7632" r:label="Festivals and feast days">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e7634" r:label="Christmas" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+          <s:Concept r:about="id:dmvi:d2e7687" r:label="Narrative themes">
+            <s:narrower>
+              <s:orderedCollection>
+                <s:memberList r:parseType="Collection">
+                  <s:Concept r:about="id:dmvi:d2e7707" r:label="Abstract concepts">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e7709" r:label="Anthropomorphism" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e7788" r:label="Myths and stories">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e7798" r:label="Biblical legends" />
+                          <s:Concept r:about="id:dmvi:d2e7822" r:label="Folktales and fairy tales" />
+                          <s:Concept r:about="id:dmvi:d2e7847" r:label="Shakespeare's plays" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e7853" r:label="Wars and battles">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e7895" r:label="Napoleonic Wars" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                  <s:Concept r:about="id:dmvi:d2e7909" r:label="Narrative events">
+                    <s:narrower>
+                      <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                          <s:Concept r:about="id:dmvi:d2e7944" r:label="Danger" />
+                          <s:Concept r:about="id:dmvi:d2e7952" r:label="Death" />
+                        </s:memberList>
+                      </s:orderedCollection>
+                    </s:narrower>
+                  </s:Concept>
+                </s:memberList>
+              </s:orderedCollection>
+            </s:narrower>
+          </s:Concept>
+        </s:memberList>
+      </s:orderedCollection>
+    </s:narrower>
+  </s:Concept>
+</r:RDF>
