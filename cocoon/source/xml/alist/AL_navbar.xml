@@ -151,6 +151,11 @@
           </active>
           <sub02>
             <level02>
+              <label>ncse Team</label>
+              <default ref="p6_1"/>
+            </level02>
+            
+            <level02>
               <label>Publications</label>
               <default ref="p6_2"/>
             </level02>
@@ -158,7 +163,15 @@
               <label>Conferences</label>
               <default ref="p6_3"/>
             </level02>
-
+<level02>
+  <label>Publicity</label>
+  <default ref="p6_4"/>
+</level02>
+            <level02>
+              <label>Symposia</label>
+              <default ref="p6_5"/>
+            </level02>
+            
           </sub02>
 
         </level01>
