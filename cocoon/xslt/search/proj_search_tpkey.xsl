@@ -2,7 +2,7 @@
 <!--
   SVN: $Id$
 -->
-<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns:page="http://apache.org/cocoon/paginate/1.0"
+<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:page="http://apache.org/cocoon/paginate/1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:variable name="pagehead">
@@ -30,8 +30,19 @@
 
   <xsl:template match="/">
     <xsl:choose>
-      <xsl:when test="$context-id = 'search_thesaurus_window'">
-        <xsl:call-template name="tpl-thesaurus-window" />
+      <xsl:when test="$context-id = 'image_thesaurus'">
+        <xsl:call-template name="tpl-thesaurus-window">
+          <xsl:with-param name="type">image</xsl:with-param>
+          <xsl:with-param name="key" select="$thesaurus-key" />
+          <xsl:with-param name="text" select="$thesaurus-text" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$context-id = 'subject_thesaurus'">
+        <xsl:call-template name="tpl-thesaurus-window">
+          <xsl:with-param name="type">subject</xsl:with-param>
+          <xsl:with-param name="key" select="$thesaurus-key" />
+          <xsl:with-param name="text" select="$thesaurus-text" />
+        </xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
         <xsl:call-template name="html_tpl" />        
