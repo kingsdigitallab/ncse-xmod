@@ -1,60 +1,571 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TEI.2
   SYSTEM "../../../dtd/tei/cch_tei.dtd">
-  <TEI.2 id="p2_1">
-      <teiHeader status="new" type="text">
-          <fileDesc>
-              <titleStmt>
-                  <title>Monthly Repository (1806-1838)</title>
-                  
-              </titleStmt>
-              <publicationStmt>
-                  <publisher>Centre for Computing in the Humanities, King's College London</publisher>
-                  <address>
+<TEI.2 id="p2_1">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Monthly Repository (1806-1838)</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
                       <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
                       <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
                   </address>
-              </publicationStmt>
-              <sourceDesc default="NO">
-                  <p>No source: created in electronic format.</p>
-              </sourceDesc>
-          </fileDesc>
-          <encodingDesc>
-              <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
-          </encodingDesc>
-          <revisionDesc>
-              <change>
-                  <date>2008-03-31</date>
-                  <respStmt>
-                      <name>EL</name>
-                  </respStmt>
-                  <item>created file</item>
-              </change>
-              
-              
-          </revisionDesc>
-      </teiHeader>
-      
-      <text>
-          <body>
-              
-              <head>Monthly Repository (1806-1838)</head>
-              
-              <p>please populate</p>
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-          </body>
-      </text>
-  </TEI.2>
-  
-  
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-03-31</date>
+                <respStmt>
+                    <name>EL</name>
+                </respStmt>
+                <item>created file</item>
+            </change>
+
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <head>The Monthly Repository and Unitarian Chronicle</head>
+                <p>In its thirty two-year span of existence, only four editors presided over the
+                        <title>Monthly Repository</title>. Its founding editor, Robert Aspland,
+                    established the journal as the foremost Unitarian monthly, and was its dedicated
+                    editor for twenty years, from 1806 to 1826. Aspland’s affiliations with
+                    philosophical Benthamism confirmed the Unitarians as the intellectuals among the
+                    dissenting community in England. In 1826 the recently formed British and Foreign
+                    Unitarian Association bought out Aspland, and the Second Series was initiated in
+                    1827, continuing until 1837. After a short period of committee editorship,
+                    William Johnson Fox became editor of the journal. Fox became owner and
+                    proprietor of the <title>Monthly Repository</title> in 1831, and the first volume
+                    under his sole editorship, in 1832, initiated a policy of active political
+                    engagement that extended the journal’s (and Unitarianism’s) intellectual and
+                    cultural reach, making it an avant garde production often far ahead of its time,
+                    promulgating in the 1830s what only became current in the 1860s. The short life
+                    of the <title>Unitarian Chronicle</title>, price three pence, is connected to
+                    Fox’s editorship. When he took over, the magazine’s customary section on
+                    ‘Unitarian Intelligence’ was formed into this new supplement in order to make
+                    way for larger articles while still maintaining that ‘acquaintance with one
+                    another’s condition’ and the ‘contemporary history of our churches’, as the
+                    ‘Address’ in the first issue explains. But the supplement lasted for only six
+                    months. Richard Hengist Horne succeeded Fox as editor in 1836 but relinquished
+                    the role in 1837. Under Leigh Hunt, who became editor briefly from 1837-38, the
+                    format changed to two columns and the page span was lengthened. The Enlarged
+                    Series of the magazine went into two volumes before the
+                    <title>Repository’s</title> life terminated. The journal lost its direction after
+                    Fox’s editorship. After 1832 when, at least ostensibly, democratic objectives,
+                    however limited, had been achieved, reform politics, too, temporarily lost their
+                    bearings. The efforts of both Horne and Hunt to shift the
+                    <title>Repository’s</title> agenda and to create a new kind of content are
+                    symptomatic of a wider hesitation or check on radical thought.</p>
+                <p>Throughout its life the price of the <title>Monthly Repository</title> varied
+                    little, between one shilling and one shilling and six pence (raised in 1811),
+                    just as its page span varied little between 56 and 80 pages. The format adopted
+                    was the double column until 1827, when single page format became the norm for
+                    the ten years before Hunt’s editorship. The price was well within reach of the
+                    educated middle class dissenting community active in Unitarian circles. The
+                    journal’s circulation, however, according to F. E. Mineka, the outstanding
+                    historian of the journal, seems to have rarely gone beyond 1,250 copies, and
+                    though Fox expanded the circulation, it fluctuated as he mounted controversial
+                    articles on religion, poetry, politics, female emancipation, and education
+                    (Mineka 1944, 167). It has to be remembered, though, that periodicals were read
+                    aloud to families and companions, and were borrowed and passed round groups of
+                    friends and acquaintances at this time. It is thus highly likely that the
+                    journal was read and discussed by many more people than its circulation
+                    suggests. Dissenting and Unitarian networks were close knit.</p>
+                <p> It is inevitable that the glorious years of the magazine appear to be those
+                    under the editorship of Fox, from 1827 to 1836. Aspland’s foundational work was
+                    supremely important, however. If the key word of Fox’s <title>Repository</title>
+                    was ‘community’, those of the Aspland era were ‘bigotry’, ‘persecution’,
+                    ‘fanaticism’. The shift in policy that these words represent is less a move from
+                    sectarian religion to politics than a redefinition of the purposes of
+                    Unitarianism and a new understanding of the political. ‘Community’ is a
+                    political word with a Unitarian subtext: ‘bigotry’ is a Unitarian term with a
+                    political subtext.</p>
+                <p>By the time he came to edit, at twenty four, <title>The Monthly Repository of
+                        Theology and General Literature</title> (the long title was shortened when
+                    Fox took over), Aspland had passed through Calvinism and the Arian Baptists to
+                    Unitarianism, and had succeeded the eminent figures of Unitarian thought –
+                    Thomas Belsham, Richard Price, and above all Joseph Priestley – as Pastor at the
+                    Gravel Pit Chapel, Hackney. Unitarianism’s core beliefs were in Christ’s simple
+                    humanity (not, as in Arianism, Christ’s quasi divinity), one God, and a
+                    corresponding rejection of the Trinity (views on adult baptism and varying
+                    interpretations of the resurrection of the body in non literal terms were often
+                    associated with Unitarian thought). Unitarians believed they had returned to the
+                    primal principles of early Christianity. Yet the <title>Monthly Repository</title>
+                    was not founded simply to proselytise these principles alone. And though Aspland
+                    clearly saw the journal as a way of consolidating the Unitarians, who were
+                    without a central organisation, as a group, just as he set up the Unitarian Fund
+                    (1806) and the Christian Tract Society (1809), established the Unitarian Hymnal
+                    (1810), and founded the Non-Con Club (1817), the aims of the journal transcended
+                    these organizational objectives. </p>
+                <p>The <title>Repository’s</title> deliberate recall of the title of Joseph
+                    Priestley’s earlier periodical, the <title>Theological Repository</title>,
+                    indicates the reach of the journal. Priestley’s name is ubiquitous in it. Until
+                    he left to live in America in 1794, Priestley – polymath scientist, theologian,
+                    historian, aesthetician, philosopher, and preacher, whose house and laboratory
+                    had been destroyed by a Church and King riot in 1791 – continued to argue for
+                    freedom of thought, rational investigation and above all critical analysis of
+                    belief and morality even when, particularly when, these are turned upon
+                    Unitarian beliefs themselves. Unitarianism in his hands was an anti-sectarian
+                    form of dissent that was inherently dialogical. Intolerance was anathema to it.
+                    The <title>Repository</title> was set up as an exemplary form of Unitarian
+                    practice, to extend and disseminate the debates of the formation beyond the
+                    pulpit and pamphlet into print culture and to extend the rational Christian
+                        <title>principle</title> of debate itself into the public sphere. It began its
+                    life as a forum for debate, a debate constituted by readers themselves as much
+                    as by the editor. Letters and correspondence, as we shall see, were a major
+                    structural part of the magazine. It was literally a republic of
+                    <title>letters</title>. </p>
+                <p>Its anti-authoritarianism placed it in sympathy with Utilitarian thought.
+                    Benthamite and Unitarian thought were not necessarily homologous: but both were
+                    driven by a demythologizing tendency, by rationality, by belief in philosophical
+                    analysis, by a thrust towards republicanism and belief in the effectiveness of
+                    democratic inspection of opinions and institutions. As Mineka points out, the
+                    social and political philosophy of the periodical was ‘modified by religious
+                    prepossessions that did not ordinarily affect the leading Benthamites’ (1944,
+                    102). Nevertheless, the First Series of the <title>Monthly Repository</title> used
+                    words from Jeremy Bentham’s <title>Fragment on Government</title> as a motto.
+                    Bentham warns against sacrificing independent judgement to the ‘shackles of
+                    authority’, on being deceived by ‘shewy’ language, and against allowing the
+                    imagination to falsify experience (cited in Mineka 1944, 101). The prospectus
+                    for the new journal fused Benthamite and Unitarian values. It claimed to ‘blend
+                    literature with theology, and to make theology rational and literature popular’,
+                    to sustain ‘Protestant’ liberty of conscience, to promote religious
+                    investigation and to admit all writers of ability, ‘whatever their peculiar
+                    opinions’ (cited in Mineka, 1944, 03). In the Preface [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=FMRP%2F1806%2F12%2F02&amp;page=7&amp;entityid=Ar00500&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=FMRP%2F1806%2F12%2F02&amp;page=7&amp;entityid=Ar00500&amp;view=entity</xref>]
+                    at the end of the <title>Repository’s</title> first year, asking for contributions
+                    from ‘men of learning and talents’ (v), Aspland claimed that the principle of
+                    ‘public examination’ and ‘Free Inquiry’ was paramount: ‘its being the only
+                    periodical publication which is open to FREE AND IMPARTIAL THEOLOGICAL INQUIRY
+                    AND DISCUSSION’ (vi). The political subtext is clear. This was the
+                    counterrevolutionary age of extreme repression in England under the Pitt
+                    administration and subsequent Tory ministries lasting from Pitt’s death in 1806
+                    to 1830 – treason trials, paid spies, prosecution and arbitrary imprisonment.
+                    Aged twelve, Aspland had seen the state prisoners incarcerated for political
+                    belief in the Tower of London, Thomas Hardy and Horne Tooke. The early years of
+                    the <title>Repository</title> were concurrent with the French wars, with the post
+                    war backlash against sedition, and with economic hardship and oppression that
+                    induced popular discontent.</p>
+                <p>By the second volume of the journal, in 1807, Aspland had gained confidence and
+                    established the pattern of the magazine. A look at the <title>Repository</title>
+                    at ten year intervals, the January issues of 1807, 1817, and 1827, together with
+                    Fox’s first fully independent issue of January 1832, suggests how the journal
+                    evolved. Fox’s subsequent editorial policy grew out of his early commitments. </p>
+                <p>In 1807 the magazine listed eleven Departments or genres of discussion. These
+                    were ‘Biography’, ‘Miscellaneous Communications’, ‘Biblical Criticism’,
+                    ‘Poetry’, ‘Review’, ‘Obituary’, ‘Religious, Literary, and Politico-Religious
+                    Intelligence’, ‘Correspondence’, and ‘New Publications’. But this is a deceptive
+                    taxonomy. The privileged categories are actually biography and the letter,
+                    followed closely by the brief review, where controversial publications from
+                    opposite points of view were juxtaposed. ‘Biblical Criticism’, for example,
+                    consists of a series of epistolary contributions, and is hardly to be
+                    distinguished from the ‘Miscellaneous Communications’ that precede it.
+                    Similarly, though the lead biographical section (link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=1&amp;entityid=Ar00104&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=1&amp;entityid=Ar00104&amp;view=entity</xref>]
+                    (1-6) is a memorial to the life of Dr James Foster, who died in 1752, it reads
+                    like an obituary, and the ‘Obituary’ [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=41&amp;entityid=Ar04104&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=41&amp;entityid=Ar04104&amp;view=entity</xref>]
+                    (41-4), of the Duke of Richmond, grandson of one of the illegitimate sons of
+                    Charles the Second, reads like a biography. Indeed, these two
+                    biographical-memorial studies flank the dialogical content of the central parts
+                    of the issue. They are not so much records as, respectively, religious and
+                    political narratives of the lives of significant figures who <title>lived</title>
+                    their religion and politics. They are exemplary stories that bring the abstract
+                    ideals of Unitarianism into everyday possibility. The pattern of Foster’s life
+                    follows closely the Unitarian trajectory traced in Volume One, exemplified by
+                    the biography of Edward Evanson [link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1806%2F01%2F02&amp;page=7&amp;entityid=Ar00100&amp;view=entity].
+                    The narrative describes a training in orthodoxy, an agonistic moment of
+                    recognition, as the doctrine of the Trinity is rejected on rational grounds, a
+                    decision to make a public acknowledgement of this discovery, and the turn to
+                    Unitarianism, often involving very considerable material sacrifice and financial
+                    hardship. </p>
+                <p>These are everyday martyrs, conversion narratives that chart practical choices,
+                    but they are also about the fate of public debate itself. In Evanson’s case, who
+                    left the Church of England in 1777, ‘I soon found that the system of religion,
+                    called Orthodox . . . was so far from being taught by the apostles . . . that it
+                    was the very apostacy from it’ (3). Interestingly, his departure was
+                    precipitated not by an attack on his Unitarian principles but by an offence
+                    against Unitarian respect for liberal principles against bigotry. The Bishop of
+                    Litchfield preached that the Church of Rome was ‘<title>exclusively</title>
+                    anti-christ’ (5). Foster, like Evanson, ‘began to waver in his belief of the
+                    received doctrine of the Trinity’ (2), and was persecuted by members of his
+                    church: ‘Thus Protestant Dissenter[s], forgetting their own principles,
+                    attempted to introduce other standards of faith than the Holy Scriptures’ (2).
+                    The Duke of Richmond’s obituary is a direct critique of the Pitt years, which
+                    had only just ended. ‘The Duke of Richmond’s political notions were very liberal
+                    indeed, which, if, like Pitt, when in administration he ceased to profess, he
+                    never ventured like him openly to retract; still less to persecute those among
+                    whom he had imbibed them’ (43). In fact, Richmond refused to make restitution
+                    for the beheading of Charles 1. He ‘believed his ancestor suffered most justly’
+                    (42). He resisted the American war of Independence. He was a member of the
+                    Revolution Society: ‘I am more and more convinced, that the restoring of the
+                    right of voting universally to every man not incapacitated by nature, for want
+                    of reason, or by law, for the commission of crimes, together with annual
+                    election, is the only reform that can be effectual and permanent’ (43). An
+                    obituary is a difficult document to prosecute for sedition. As if to indicate
+                    the openness of the <title>Repository</title>, this obituary is followed by one on
+                    the Rev. P. Good [link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=46&amp;entityid=Ar04400&amp;view=entity],
+                    a dissenting Trinitarian, friend of Roman Catholics and an opponent of the
+                    repeal of the Test Acts (45).</p>
+                <p>The six letters included under ‘Biblical Criticism’ [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=25&amp;entityid=Ar02502&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=25&amp;entityid=Ar02502&amp;view=entity</xref>]
+                    (which include a letter of Priestley’s, sent in by a correspondent) again
+                    indicate Aspland’s liberal principles (6-28). An allegorical interpretation of
+                    the Scriptures sits side by side (11-14) with ‘A Catholic’s Appeal against the
+                    Orthodox’ (10-11), which is preceded by an account of conversion from
+                    Catholicism (pp. 7-10). The poem, ‘The Orphan’, that follows this Biblical
+                    Criticism, was sent in by letter. The six reviews that follow this poem almost
+                    invariably document controversies. The genealogy of bigotry and persecution that
+                    they constitute is exemplified in the review of Richard Wright’s life of Michael
+                    Servetus [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=39&amp;entityid=Ar03403&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=39&amp;entityid=Ar03403&amp;view=entity</xref>]
+                    (34-9: ‘being designed to eradicate bigotry’) condemned to death by Calvin and
+                    ‘ecclesiastical tyrants’. Article V [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=41&amp;entityid=Ar03904&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=41&amp;entityid=Ar03904&amp;view=entity</xref>]
+                    analyses the ‘inflammatory, mob-adapted style’ and ‘ludicrous ignorance’ (40) of
+                    Robert Dickinson’s funeral oration on the Bishop of St. Asaph. Dickinson
+                    describes Priestley as ‘the prince of heretics’, attempting, like a vulture, to
+                    tear away ‘the very vitals of Christianity’. Even a review of lighthouse
+                    technology [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=54&amp;entityid=Ar05203&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=54&amp;entityid=Ar05203&amp;view=entity</xref>]
+                    in ‘Religious, Literary and Politico-Religious Intelligence’ begins with a
+                    critique of Roman power. ‘Rome, in the plenitude of power, enriched with the
+                    plunder of conquered provinces’ left ‘ostentatious monuments of unbounded
+                    ambition’ that left behind ‘a wide scene of ruin and desolation’ (52). The
+                    principle of utility embodied in the lighthouse now preserves life. The
+                    excitement of this poetics of rational controversy is the driving impulse of the
+                        <title>Repository’s</title> rhetoric. Though it makes space to notice the
+                    religious affairs of various societies and Unitarian bodies under ‘Religious
+                    [….] Intelligence’, and to document a number of technological advances,
+                    including inoculation for Smallpox [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=50&amp;entityid=Ar05001&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1807%2F01%2F02&amp;page=50&amp;entityid=Ar05001&amp;view=entity</xref>]
+                    (49-52) – a typical science-directed, ‘greatest happiness’, Utilitarian
+                    preoccupation – it has little time for literary production. Aspland’s list of
+                    new publications includes Charlotte Smith’s <title>Beachy Head, and Other
+                    Poems</title> next to G. Ogs’s <title>Admonition. A Poem. On the Fashionable Modes
+                        of Female Dress</title>. </p>
+                <p>The January issue of Volume 12 of the <title>Monthly Repository</title> for 1817
+                    displays much the same loose categorical structure, with an abundance of
+                    epistolary contributions, headed by ‘Biography’
+                    [http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1817%2F01%2F02&amp;page=1&amp;entityid=Ar00104&amp;view=entity]
+                    (presented as a letter to the Editor), a section which consists, in fact, not of
+                    historical figures but of two obituaries (again, the genre of biography and
+                    obituary is fused) of major figures in the Unitarian community, William Vidler
+                    and Benjamin Carpenter (1-7). Vidler had edited the <title>Universalist’s
+                        Miscellany</title> from 1797, which went through a number of title changes
+                    before Aspland bought it out to found the <title>Repository</title>. The ten
+                    departments are listed as ‘History and Biography’, ‘Original Letters’,
+                    ‘Extracts’, ‘Miscellaneous Communications’, ‘Gleanings […] in a course of
+                    General Reading’, ‘Review’, ‘Poetry’, ‘Obituary’, ‘Monthly Retrospect of Public
+                    Affairs’, ‘New Publications in Theology and General Literature’. The ‘Extracts’,
+                    which consist of letters of Benjamin Franklin to Priestley, are not
+                    distinguishable generically from the Original Letters. Many of the
+                    ‘Miscellaneous Communications’ are in the form of letters. A ‘Believer in
+                    Miracles’ submitted a careful critique of Hume’s ‘Objection to Miracles’ [ lin
+                    to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1817%2F01%2F02&amp;page=20&amp;entityid=Ar01701&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1817%2F01%2F02&amp;page=20&amp;entityid=Ar01701&amp;view=entity</xref>]
+                    (17-20), and William Johnson Fox wrote eloquently on the resurrection of the
+                    body [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1817%2F01%2F02&amp;page=34&amp;entityid=Ar03300&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1817%2F01%2F02&amp;page=34&amp;entityid=Ar03300&amp;view=entity</xref>]
+                    (33-4). As in 1807 the Review section documented controversies that raised
+                    issues of intolerance and free inquiry. Richard Price’s <title>Sermons on Various
+                        Subjects </title>[link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1817%2F01%2F02&amp;page=48&amp;entityid=Ar04302&amp;view=entity],
+                    was reviewed at some length (43-8). ‘ “Is it visionary”, asks this eloquent
+                    preacher, “to expect a better world? […] This is what some tell us. Such
+                    infidelity is the greatest misfortune” […]’ </p>
+                <p>There is one notable difference between 1817 and 1807: ‘The Christian’s Survey of
+                    the Political World’ [link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1817%2F01%2F02&amp;page=63&amp;entityid=Ar06101&amp;view=entity]
+                    (61-3), in the ‘Monthly Retrospect of Public Affairs’, is an unequivocal attack
+                    on the corrupt state of the House of Commons: ‘The great question at issue is
+                    the reform of the House of Commons, and it is argued that this House no longer
+                    answers the end for which it was established, namely, the interference of the
+                    people in the affairs of government: for the voice of the people, it is said,
+                    has not its due weight in that House, being overwhelmed by that of the
+                    oligarchists, or the proprietors of rotten boroughs’ (61). The article considers
+                    universal suffrage – it is an article and not a letter – and defends the Spa
+                    Fields gatherings of the previous year, when a riot occurred, arguing that the
+                    mass of the 30–40,000 people present were gathered peacefully. This is a policy
+                    document that does not have its parallel in the <title>Repository</title> until a
+                    much later date. It shows the extent of Aspland’s political seriousness, and
+                    marks a moment when the conventions of his journalism were changing. Open debate
+                    began to be defined not as the dialogic juxtaposition of discrete positions, an
+                    anthology of different theological views, but a sustained and coherent
+                    development of an argued case on several fronts. It was deliberately
+                    opinion-forming and promotional, arguing a radical case. Democratic debate in
+                    the public sphere comes to be defined as the development of policies that extend
+                    to all areas of the culture, where print culture is consciously used as an agent
+                    of persuasion to formulate and disseminate policies. Aspland’s
+                    <title>Repository</title> stood for the principle of participatory debate and
+                    controversy within the Unitarian formation: what mattered was the debate
+                        <title>form.</title> It performed a rational politics. Later volumes of the
+                    journal stressed <title>content</title>. It developed a rhetoric that persuaded
+                    its readers to accept a new view of intellectual culture and civil society.</p>
+                <p>A striking change is evident in Volume I of the New Series for January 1827. The
+                    journal is now titled <title>The Monthly Repository and Review </title>[link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1827%2F01%2F02&amp;page=1&amp;view=document].
+                    The departmental categories have been pruned: ‘Review’, ‘Critical Notices’,
+                    ‘Obituary’, ‘Intelligence’, ‘Correspondence’, survive. Elements of the earlier
+                    scheme remain in the ‘Critical Notices’ [link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1827%2F01%2F02&amp;page=62&amp;entityid=Ar06203&amp;view=entity],
+                    which mount controversy – on the British and Foreign Bible Society (63), on John
+                    Mitford’s choice of religious poems in an anthology of sacred verse (64-5), on
+                    the character of Unitarianism (65). ‘Biography’ and ‘History’, those markers of
+                    Unitarian experience that were the lead articles of earlier issues, have
+                    entirely disappeared. Instead the review begins with and virtually consists of,
+                    a series of ten articles, some relatively brief (‘Thoughts on Christian Charity’
+                    [link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1827%2F01%2F02&amp;page=21&amp;entityid=Ar01702&amp;view=entity],
+                    17-21; the issue of imprisonment for debt [link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1827%2F01%2F02&amp;page=61&amp;entityid=Ar06101&amp;view=entity],
+                    61), but most substantial. Their theological character is strong (for example, a
+                    discussion of the Corporation and Test Acts [link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1827%2F01%2F02&amp;page=32&amp;entityid=Ar02501&amp;view=entity],
+                    defining religious persecution as injury inflicted for religious belief, 25-32),
+                    but the lead article, ‘On the State of Religious Parties in England’ [link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1827%2F01%2F02&amp;page=-1&amp;entityid=Ar00101&amp;view=entity]
+                    (1-9), reads like an editorial. It argues that since 1688 all subsequent
+                    national events have been nearly or remotely connected with religious opinions
+                    and feelings’ (1). It is a theological and sociological analysis of the
+                    different factions and class composition of the Church of England, from High
+                    Church to Evangelical. It is scathing about the emotionalism of Evangelical
+                    preaching: ‘Some read well-written and not over-long sermons; others deliver
+                    themselves extempore and let the hour-glass fairly run out . . . [they] are to
+                    be seen at prayer meetings, expounding meetings, experience meetings, if not at
+                    camp meetings’ (7). It deprecates the lazy quietude of the established church,
+                    where ‘the possession of power’ must ‘satiate the desire of change’ (8). This
+                    discussion falls between a religious discourse with a political subtext and the
+                    political discourse with a religious subtext that was to supersede it. A
+                    sophisticated account of Frederick Schliermacher’s <title>A Critical essay on the
+                        Gospel of St Luke</title> [link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1827%2F01%2F02&amp;page=-1&amp;entityid=Ar03301&amp;view=entity]
+                    (33-48), bringing speculative continental philosophy into the journal for the
+                    first time, looks forward to the Fox era. It is thoroughly at home with the
+                    notion of a fragmented, multi-authored biblical text. Most surprising of all,
+                    the section headed ‘Correspondence’ [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1827%2F01%2F02&amp;page=80&amp;entityid=Ar08002&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1827%2F01%2F02&amp;page=80&amp;entityid=Ar08002&amp;view=entity</xref>]
+                    is actually a sharp request to readers <title>not</title> to correspond. It
+                    curtails a correspondence on the Baptismal Controversy and brings it firmly to
+                    an end. Significantly, the short obituaries now include women.</p>
+                <p>The <title>Monthly Repository</title> for January 1832 (New Series, Volume 6) was
+                    the first wholly edited by Fox in his capacity of owner-editor. It represents
+                    the birth of what we think of as a modern periodical. Mineka describes it as in
+                    ‘transition from a religious to a secular magazine’ (1944, 249), and, ‘Once the
+                    predominance of clerical contributors had been broken, the
+                    <title>Repository</title> progressively substituted literary, aesthetic, social,
+                    and political subjects for religious’ (1944, 250). As evidence for a
+                    transitional phase followed by a secular phase, Mineka points to the relatively
+                    unchanged roster of contributors in the early months of Fox’s journal, that were
+                    superseded by others as the proportion of religious articles declined. Fox added
+                    John Stuart Mill to his early contingent of reviewers, but Harriet Taylor, John
+                    Beard, and Harriet Martineau continued for a time to contribute. Likewise John
+                    Johns, J.J. Tayler, Emily Taylor, Jane Roscoe, William Turner, John Bowring,
+                    John Moggridge, and Crab Robinson. Sarah Flower, her husband, William Bridges
+                    Adams, Ebenezer Elliot, Mary Leman Grimstone, W.T. Hayley and James Martineau
+                    were later contributors, as were Robert Browning, R.H. Horne, Caroline Southwood
+                    Smith, and William and Mary Howitt (1944, 249-50). [footnote 1]</p>
+                <p>Yet most of these contributors were Unitarians or Unitarian sympathisers, and all
+                    were dissenting intellectuals. The extraordinary flowering of the magazine in
+                    the 1830s suggests that Unitarianism, or some currents of it, began to flow in
+                    different directions. Rather than abandoning Unitarian principles Fox and his
+                    contributors were redefining them. The revolution in culture and society that
+                    Fox envisaged was founded on religious passion. The ‘secular’ character of the
+                    magazine was the result of religious energy directed into re-shaping society and
+                    the very idea of civil society. Without having the word available in the modern
+                    sense, the Fox circle was engaged with inventing the meaning of a common
+                    ‘culture’. And to do so, again without having the term available, they had to
+                    become an avant garde group. </p>
+                <p>Fox’s leading article [link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1832%2F01%2F02&amp;page=11&amp;entityid=Ar00100&amp;view=entity]
+                    in 1832 is a campaigning editorial. It is a manifesto for the periodical and an
+                    agenda for civil society that goes far beyond what was achieved later in the
+                    year with the 1832 reform act. ‘We ‘are in a state of transition’, he argued,
+                    ‘and old things are passing away’ (2). Society ‘is in the very act’ of ‘assuming
+                    a new form’. Its forms no longer ‘realized the desires of the community’. He
+                    predicted throes and convulsion, but revolution is not his object: he saw the
+                    Bristol riots of the previous year as the tragic result of the monopoly of
+                    government by the privileged (p.10): he itemised the ‘extensive changes’ that
+                    would have to come about as a corollary of peaceful reform and democratic
+                    representation; indeed reform was merely the catalyst that would bring about
+                    wider and deeper transformations in society. In a series of rhetorical anaphora,
+                    he listed each of the institutions that ‘cannot remain as it is. The Church
+                    ‘cannot remain as it is’: it was no longer a national Church (the corollary was
+                    disestablishment): the obfuscations and oppressions of the Law cannot remain;
+                    they must be swept away; Education must be changed – ‘the poor must be educated,
+                    though it be at the public expense’, and knowledge must be changed with the
+                    introduction of a scientific curriculum that entertained ethics as well as the
+                    classics ( this would also impact on the training of the medical profession);
+                    the Press must be reformed with the abolition of the ‘taxes on knowledge’ that
+                    prohibited the free circulation of opinion. Print culture was crucial in a
+                    democracy. He might have added other things that were part of the radical
+                    programme of the journal, the reform of the divorce laws and a sexual politics
+                    that saw women as equals, and a belief in the emancipatory power of art, of
+                    poetry in particular. An internationalism that transcended the boundaries of the
+                    nation state was also, he claimed, an ideal of Unitarianism, and he followed the
+                    great traditions of Aspland by condemning fanaticism (9). </p>
+                <p>One can see these ideas already altering the taxonomy of the departments in the
+                    first issue of 1832. After a series of speculative articles the sections are
+                    listed as ‘Critical Notices’, ‘History and Science’ (tellingly, science rather
+                    than biography), ‘Miscellaneous’, ‘Religious Intelligence’, ‘Obituary’. The
+                    reviews include, not only ‘Luther’s Table Talk’ [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1832%2F01%2F02&amp;page=66&amp;entityid=Ar06101&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1832%2F01%2F02&amp;page=66&amp;entityid=Ar06101&amp;view=entity</xref>]
+                    (61-7), but also Charles Knight’s <title>The Working-Man’s Companion. Rights of
+                        Industry. Capital and Labour</title>, 1831 [link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1832%2F01%2F02&amp;page=59&amp;entityid=Ar05802&amp;view=entity],
+                    a sharp critique that indicate Fox’s interest in working class politics (58).
+                    The speculative articles include a powerfully argued ‘The Rise and progress of
+                    the Doctrine of the Trinity’ [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1832%2F01%2F02&amp;page=23&amp;entityid=Ar01502&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1832%2F01%2F02&amp;page=23&amp;entityid=Ar01502&amp;view=entity</xref>]
+                    (15-23), by John Relly Beard. But the first section also included Harriet
+                    Martineau’s brisk ‘On the Duty of Studying Political Economy’ [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1832%2F01%2F02&amp;page=34&amp;entityid=Ar02402&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1832%2F01%2F02&amp;page=34&amp;entityid=Ar02402&amp;view=entity</xref>]
+                    (24-34). A utilitarian argument against the arbitraryness of charity, it argued
+                    for a scientifically organised economy that understands distribution and
+                    consumption. It is thoroughly Benthamite in its rationalist optimism and belief
+                    that economic laws properly understood eradicate poverty and crime, so that
+                    utility is beauty. John James Tayler contributed ‘Herder’s Thoughts on the
+                    Philosophy of the History of Mankind’ [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1832%2F01%2F02&amp;page=34&amp;entityid=Ar03402&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1832%2F01%2F02&amp;page=34&amp;entityid=Ar03402&amp;view=entity</xref>]
+                    (34-42), the first of four articles that argue for Herder’s unique, holistic
+                    reading of history and society. The connection of the solar system and ‘the most
+                    delicate fabric of the spider’s web’ (37), argue for an integrated reading of
+                    history that brings together natural and civil history, physical geography and
+                    the history of societies. Herder’s belief that art and society are organically
+                    linked and that the spirit of a particular literature derives from a particular
+                    condition of society (one of the earliest formulations of the idea of ideology
+                    and popular culture) introduces the article: ‘He thought with Bacon that a
+                    ballad or a legend more faithfully indicated the current of popular feeling’
+                    than ‘graver productions’ (36). Emily Taylor contributed her translation of the
+                    striking, boldly idealist ‘The Visible and the Invisible’ [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1832%2F01%2F02&amp;page=42&amp;entityid=Ar04201&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1832%2F01%2F02&amp;page=42&amp;entityid=Ar04201&amp;view=entity</xref>]
+                    (42-61), by the Pastor of Nismes, S. Vincent. Vincent distinguishes between the
+                    sensoria that bring the visible into being and the invisible nature of mind.
+                    This, rather than a transcendental being, is spirit, he argues. The movement
+                    towards continental thought here is arresting, and indicates Fox’s willingness
+                    to move across national boundaries beyond a narrowly British focus (the 1832
+                    volume lists a Parisian distributor). It can be no accident, also, that women
+                    play such a strong part in this first issue of the year. Taking all these
+                    contributions together, this is intellectually a revolutionary issue.</p>
+                <p>Though the Fox group did not have the word ‘culture’ in their vocabulary, they
+                    did possess a Benthamite word that indicated the scope of their social vision –
+                    ‘community’. Fox used it more than once in his editorial [link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1832%2F01%2F02&amp;page=11&amp;entityid=Ar00100&amp;view=entity],
+                    ‘the desires of the community’ (3), ‘the state of the community’ (7). In 1832
+                    Fox reprinted Southwood Smith’s oration [link to <xref
+                        url="http://137.73.123.44/KingsCollege/Default.htm?href=MRP%2F1832%2F07%2F02&amp;page=26&amp;entityid=Ar01800&amp;view=entity"
+                        >http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1832%2F07%2F02&amp;page=26&amp;entityid=Ar01800&amp;view=entity</xref>]
+                    (450-1) after the dissection of Bentham’s body (he attended the dissection):
+                    ‘the only comprehensive and only right and proper end of the social union, or of
+                    the aggregate of individual men which constitutes a community, is the greatest
+                    happiness of all members of the community’. Even the issue of January 1832 shows
+                    how far he and his circle went in imagining this community. The titles of
+                    articles even in the early volume of 1832 indicate the extent of Fox’s project.
+                    ‘On the Parliamentary Pledges to be Required of Candidates at the Ensuing
+                    Elections’ (Fox – Parliamentary Reform); ‘The Irish Tithe Question’, ‘Religion
+                    Without Taxation’ (R.W.Hinks, Fox – Church reform); ‘Prison Discipline’ (Harriet
+                    Martineau – Law Reform); ‘Sunday School Education’, ‘National Education’(John
+                    Relly Beard, Harriet Martineau – Educational reform); ‘Taxes on Knowledge’ (Fox
+                    – Reform of the Press); ‘Domestic Manners of the Americans’, ‘Notices of
+                    France’(Harriet Taylor, John Moggridge – internationalism); ‘Rise of
+                    Unitarianism in America’, ‘On the Character and Philosophy of the late Jeremy
+                    Bentham’ (John Relly Beard, Fox – the entwining of Unitarianism and
+                    Utilitarianism in continuity with the Aspland’s <title>Repository</title>); ‘The
+                    Poor and their Poetry’, ‘Goethe’s Works’, ‘Connection between Poetry and
+                    Religion’ (Fox, Crabb Robinson, John Johns – the uses of the aesthetic). There
+                    was still an important component of theological writing, such as William
+                    Turner’s ‘Thoughts on Power, and on the Universal Agency of the Deity’, and the
+                    extent of the deep connection of theology with social analysis can be gauged by
+                    the same writer’s later ‘On the Relation of the Wealthy and Educated Classes to
+                    the Poor’ [link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1833%2F10%2F02&amp;page=72&amp;entityid=Ar06601&amp;view=entity]
+                    (Vol. 7, 726-32). This list does not, of course, do justice to the energy and
+                    intensity of the writing. We might take as an example Fox’s ‘The Fast Day and
+                    the Cholera’ [link to
+                    http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=MRP%2F1832%2F03%2F02&amp;page=9&amp;entityid=Ar00100&amp;view=entity],
+                    a satire on the government edict for a day of fasting and prayer in the face of
+                    the Cholera epidemic, a mixture of medical ignorance and superstition. ‘The fast
+                    day will come, and people will leave of working, but nobody will fast’: it will
+                    be a national holiday, though it was to be hoped that charity will not withhold
+                    the soup distributed to the poor, who fast involuntarily, soup distributed to
+                    prevent cholera itself from decimating them (p. 146). </p>
+                <p>The above is a brief indication of the changing nature of a middle-class
+                    dissenting radical periodical of the 1830s. Mineka’s great history describes in
+                    detail the writings of the Fox era. Though an extraordinary period in the
+                    history of print culture, it was brief. It foundered when reform politics
+                    searched for new directions. But it also foundered on Fox’s own policies. In
+                    1833 he wrote supporting divorce (Vol. 7, 145-53), and seems to have lived out
+                    his beliefs. James Martineau, who was nevertheless loyal to him, called his
+                    circle a ‘free-thinking and free-living clique’ (Webb, 2008). His commitment to
+                    divorce, his formal separation from his wife, and his liaison with Eliza Flower
+                    the composer, his ward, and eventually the head of his household, daughter of
+                    another powerful reforming editor, Benjamin Flower (who had edited the
+                        <title>Cambridge Intelligencer</title> (1793-1800)), caused upheaval among his
+                    congregation and undoubtedly dissipated his energies. His beliefs, though, lived
+                    on when he became MP for Oldham in 1846. Even his feminism was recognised. When
+                    the <title>English Woman’s Journal</title> reviewed an exhibition of women
+                    painters [link to http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=EWJ
+                    %2F1858%2F05%2F01&amp;page=64&amp;entityid=Ar06400&amp;view=entity],
+                    a portrait of Fox by his daughter received special mention. ‘Miss Fox sends a
+                    large oil portrait of her father, the member for Oldham, whose noble sense of
+                    justice to women has been marked at every stage of his public and parliamentary
+                    career’ (208).</p>
+            </div>
+            <div>
+                <head>The Monthly Repository in ncse</head>
+                <p>This edition of the <title>Monthly Repository </title>was sourced form the hard
+                    copy held at the British Library at St Pancras. It includes its supplement, the
+                        <title>Unitarian Chronicle</title>, which is held separately in the library.
+                    There is one volume – Second Series, Volume 1, 1827 – missing from the British
+                    Library run. This was generously provided by the Bodleian.</p>
+            </div>
+            <div>
+                <head>Works Cited</head>
+                <p>Mineka, Francis E., 1944, <title>The Dissidence of Dissent. The Monthly
+                        Repository, 1806-1838</title> (Chapel Hill: University of North Carolina
+                    Press).</p>
+                <p>Webb, K., 2008, ‘Fox, William Johnson (1786–1864)’, <title>Oxford Dictionary of
+                        National Biography</title>, Oxford University Press, Sept 2004; online edn,
+                    Jan 2008 [http://www.oxforddnb.com/view/article/10047, accessed 8 May 2008]</p>
+                <p>[text for footnote 1] Mineka (1944, 395–400) identifies the contributions of a
+                    number of prominent contributors to the First Series, though as no key exists
+                    for this series, the sources (see 394-5), are scattered and not wholly reliable.
+                    For the Second Series (1830-37) a detailed though incomplete key is available,
+                    held by the British Library. Mineka lists the ‘essential information’ of this
+                    key (400-28). </p>
+                <p>Isobel Armstrong</p>
+            </div>
+        </body>
+    </text>
+</TEI.2>
