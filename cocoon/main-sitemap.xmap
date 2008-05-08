@@ -38,6 +38,18 @@
 
     <!-- Search -->
     <map:pipeline type="noncaching">
+      <!-- Thesaurus -->
+      <map:match pattern="search/*-thesaurus-*-*.html">
+        <map:generate src="{global:project-path}{global:project-alist}/{1}-refined.xml" />
+        <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+          <map:parameter name="sm-context-id" value="{1}_thesaurus" />
+          <map:parameter name="thesaurus-key" value="{2}" />
+          <map:parameter name="thesaurus-text" value="{3}" />
+        </map:transform>
+        <map:serialize type="xhtml" />
+      </map:match>
+      
       <!-- Executes the search -->
       <map:match pattern="**/do-search">
         <map:aggregate element="aggregation">

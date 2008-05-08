@@ -2,8 +2,9 @@
 <!--
   SVN: $Id$
 -->
-<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:s="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:template name="tpl-search-form">
     <div class="form">
@@ -34,7 +35,7 @@
               </li>
               <li class="clfx-b">
                 <fieldset class="f05 n02">
-                  <legend>Secondary Search Criteria</legend>
+                  <legend>Entity Search Criteria</legend>
                   <select id="booleanOp2Sel" name="booleanOp2Sel">
                     <xsl:call-template name="tpl-search-mode">
                       <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOp2Sel:')], ':')"
@@ -58,7 +59,7 @@
               </li>
               <li class="clfx-b">
                 <fieldset class="f05 n02">
-                  <legend>Secondary Search Criteria</legend>
+                  <legend>Entity Search Criteria</legend>
                   <select id="booleanOp3Sel" name="booleanOp3Sel">
                     <xsl:call-template name="tpl-search-mode">
                       <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOp3Sel:')], ':')"
@@ -82,7 +83,7 @@
               </li>
               <li class="clfx-b">
                 <fieldset class="f05 n03">
-                  <legend>Tertiary Search Criteria</legend>
+                  <legend>Thesaurus Search Criteria</legend>
                   <select id="booleanOp4Sel" name="booleanOp4Sel">
                     <xsl:call-template name="tpl-search-mode">
                       <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOp4Sel:')], ':')"
@@ -101,29 +102,17 @@
 
                   <input class="f01 s01" id="field4Txt" name="field4Txt" readonly="readonly" type="text"
                     value="{if (string($text)) then $text else 'Filled from Thesaurus'}" />
-                  <a class="s01" href="#" title="Look up a search term in the thesaurus">
+                  <a
+                    href="javascript:openThesaurus(document.frmSearch.field4Sel.options[document.frmSearch.field4Sel.selectedIndex].value, 
+                    'field4Key-field4Txt');"
+                    title="Look up a search term in the thesaurus">
                     <span>Thesaurus...</span>
                   </a>
                 </fieldset>
               </li>
-              <!-- Thesaurus -->
-              <li class="s02">
-                <xsl:call-template name="tpl-thesaurus-subject">
-                  <xsl:with-param name="source">subject1Chk</xsl:with-param>
-                  <xsl:with-param name="key">document.frmSearch.field4Key</xsl:with-param>
-                  <xsl:with-param name="text">document.frmSearch.field4Txt</xsl:with-param>
-                </xsl:call-template>
-              </li>
-              <li class="s02">
-                <xsl:call-template name="tpl-thesaurus-image">
-                  <xsl:with-param name="source">image1Chk</xsl:with-param>
-                  <xsl:with-param name="key">document.frmSearch.field4Key</xsl:with-param>
-                  <xsl:with-param name="text">document.frmSearch.field4Txt</xsl:with-param>
-                </xsl:call-template>
-              </li>
               <li class="clfx-b">
                 <fieldset class="f05 n03">
-                  <legend>Forth Search Criteria</legend>
+                  <legend>Thesaurus Search Criteria</legend>
                   <select id="booleanOp5Sel" name="booleanOp5Sel">
                     <xsl:call-template name="tpl-search-mode">
                       <xsl:with-param name="selected" select="substring-after(//refine/parameters/parameter[starts-with(., 'booleanOp5Sel:')], ':')"
@@ -138,10 +127,13 @@
                   <input name="field5Key" type="hidden" value="{substring-after(//refine/parameters/parameter[starts-with(., 'field5Key:')], ':')}" />
 
                   <xsl:variable name="text" select="substring-after(//refine/parameters/parameter[starts-with(., 'field5Txt:')], ':')" />
-                  
+
                   <input class="f01 s01" id="field5Txt" name="field5Txt" readonly="readonly" type="text"
                     value="{if (string($text)) then $text else 'Filled from Thesaurus'}" />
-                  <a class="s01" href="#" title="Look up a search term in the thesaurus">
+                  <a
+                    href="javascript:openThesaurus(document.frmSearch.field5Sel.options[document.frmSearch.field5Sel.selectedIndex].value,
+                    'field5Key-field5Txt');"
+                    title="Look up a search term in the thesaurus">
                     <span>Thesaurus...</span>
                   </a>
                 </fieldset>
@@ -245,7 +237,7 @@
                   <legend>Submit Search</legend>
                   <div>
                     <button type="submit">Search</button>
-                    <button onclick="location.href='entity-search.html';" type="reset">Reset Form</button>
+                    <button onclick="location.href='search.html';" type="reset">Reset Form</button>
                   </div>
                 </fieldset>
               </li>
@@ -430,7 +422,7 @@
       </xsl:if>
       <xsl:text>Subjects</xsl:text>
     </option>
-    <option value="$selected = 'image-key'">
+    <option value="image-key">
       <xsl:if test="$selected = 'image-key'">
         <xsl:attribute name="selected">selected</xsl:attribute>
       </xsl:if>
@@ -438,68 +430,112 @@
     </option>
   </xsl:template>
 
-  <xsl:template name="tpl-thesaurus-subject">
-    <xsl:param name="source" required="yes" />
+  <xsl:template name="tpl-thesaurus-window">
+    <xsl:param name="type" required="yes" />
     <xsl:param name="key" required="yes" />
     <xsl:param name="text" required="yes" />
 
-    <div class="form">
-      <div class="t04">
-        <div class="unorderedList">
-          <div class="t05">
-            <ul>
-              <xsl:for-each select="//subjectsAL/rdf:RDF/skos:Concept">
-                <li class="s01">
-                  <a class="s01" href="#">
-                    <span>Expand</span>
-                  </a>
-                  <strong>
-                    <xsl:value-of select="@rdf:label" />
-                  </strong>
-                  <xsl:if test="skos:narrower">
-                    <xsl:call-template name="tpl-thesaurus-narrower">
-                      <xsl:with-param name="name" select="$source" />
-                    </xsl:call-template>
-                  </xsl:if>
-                </li>
-              </xsl:for-each>
-            </ul>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+
+        <title>
+          <xsl:text>NCSE: </xsl:text>
+          <xsl:value-of select="$type" />
+          <xsl:text> thesaurus</xsl:text>
+        </title>
+        <!-- CSS calls -->
+        <link href="{$scriptswitch}/c/default.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="{$scriptpers}/c/personality.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="{$scriptswitch}/c/print.css" media="print" rel="stylesheet" type="text/css" />
+
+        <!-- IE browser specific css and script -->
+        <xsl:comment>[if GTE IE 7]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of select="$scriptpers" />/c/compat.css"/>
+          &lt;![endif]</xsl:comment>
+
+        <!-- script -->
+        <script src="{$scriptswitch}/j/jquery-1.2.3.pack.js" type="text/javascript">&#160;</script>
+        <script src="{$scriptswitch}/j/jquery.popupwindow.min.js" type="text/javascript">&#160;</script>
+        <script src="{$scriptpers}/s/jquery.dimensions.js" type="text/javascript">&#160;</script>
+        <script src="{$scriptpers}/s/jquery.accordion.js" type="text/javascript">&#160;</script>
+        <script src="{$scriptpers}/s/config.js" type="text/javascript">&#160;</script>
+        <script src="{$scriptpers}/s/thesaurus.js" type="text/javascript">&#160;</script>
+      </head>
+      <body class="v1 r3 rc0 th0 sn1" id="xmd">
+        <div class="mainContent">
+          <div class="form">
+            <div class="t04">
+              <form id="frmThesaurus" name="frmThesaurus">
+                <div>
+                  <xsl:value-of select="upper-case($type)" />
+                  <xsl:text> THESAURUS</xsl:text>
+                </div>
+                <div class="unorderedList">
+                  <div class="t05">
+                    <xsl:choose>
+                      <xsl:when test="$type = 'subject'">
+                        <xsl:call-template name="tpl-thesaurus-subject" />
+                      </xsl:when>
+                      <xsl:when test="$type = 'image'">
+                        <xsl:call-template name="tpl-thesaurus-image" />
+                      </xsl:when>
+                    </xsl:choose>
+                  </div>
+                </div>
+                <fieldset class="f06 n04">
+                  <div>
+                    <button onclick="javascript:addTerms(window.opener.document.frmSearch.{$key}, window.opener.document.frmSearch.{$text});">Insert</button>
+                    <button type="reset">Reset</button>
+                    <button onclick="window.close();">Close</button>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
           </div>
         </div>
-        <fieldset class="f06 n04">
-          <div>
-            <button onclick="javascript:addTerms(document.frmSearch.{$source}, {$key}, {$text}); return false;">Insert</button>
-          </div>
-        </fieldset>
-      </div>
-    </div>
+      </body>
+    </html>
+  </xsl:template>
+
+  <xsl:template name="tpl-thesaurus-subject">
+    <ul>
+      <xsl:for-each select="//r:RDF/s:Concept">
+        <li class="s01">
+          <a class="s01" href="#">
+            <span>Expand</span>
+          </a>
+          <strong>
+            <xsl:value-of select="@r:label" />
+          </strong>
+          <xsl:if test="s:narrower">
+            <xsl:call-template name="tpl-thesaurus-narrower" />
+          </xsl:if>
+        </li>
+      </xsl:for-each>
+    </ul>
   </xsl:template>
 
   <xsl:template name="tpl-thesaurus-narrower">
-    <xsl:param name="name" required="yes" />
-
     <ul>
-      <xsl:for-each select="skos:narrower/skos:orderedCollection/skos:memberList/skos:Concept">
+      <xsl:for-each select="s:narrower/s:orderedCollection/s:memberList/s:Concept">
         <xsl:choose>
-          <xsl:when test="skos:narrower/skos:orderedCollection/skos:memberList/skos:Concept">
+          <xsl:when test="s:narrower/s:orderedCollection/s:memberList/s:Concept">
             <li class="s01">
               <a class="s01" href="#">
                 <span>Expand</span>
               </a>
-              <!--<input class="f02" id="{@rdf:about}" name="{$name}" title="{@rdf:label}" type="checkbox" value="{@rdf:about}" />-->
+              <!--<input class="f02" id="{@r:about}" name="{$name}" title="{@r:label}" type="checkbox" value="{@r:about}" />-->
               <strong>
-                <xsl:value-of select="@rdf:label" />
+                <xsl:value-of select="@r:label" />
               </strong>
-              <xsl:call-template name="tpl-thesaurus-narrower">
-                <xsl:with-param name="name" select="$name" />
-              </xsl:call-template>
+              <xsl:call-template name="tpl-thesaurus-narrower" />
             </li>
           </xsl:when>
           <xsl:otherwise>
             <li>
-              <input class="f02" id="{@rdf:about}" name="{$name}" title="{@rdf:label}" type="checkbox" value="{@rdf:about}" />
-              <label for="{@rdf:about}">
-                <xsl:value-of select="@rdf:label" />
+              <input class="f02" id="{@r:about}" name="thesChk" title="{@r:label}" type="checkbox" value="{@r:about}" />
+              <label for="{@r:about}">
+                <xsl:value-of select="@r:label" />
               </label>
             </li>
           </xsl:otherwise>
@@ -509,39 +545,20 @@
   </xsl:template>
 
   <xsl:template name="tpl-thesaurus-image">
-    <xsl:param name="source" required="yes" />
-    <xsl:param name="key" required="yes" />
-    <xsl:param name="text" required="yes" />
-
-    <div class="form">
-      <div class="t04">
-        <div class="unorderedList">
-          <div class="t05">
-            <ul>
-              <xsl:for-each select="//imagesAL/rdf:RDF/skos:Concept">
-                <li class="s01">
-                  <a class="s01" href="#">
-                    <span>Expand</span>
-                  </a>
-                  <strong>
-                    <xsl:value-of select="@rdf:label" />
-                  </strong>
-                  <xsl:if test="skos:narrower">
-                    <xsl:call-template name="tpl-thesaurus-narrower">
-                      <xsl:with-param name="name" select="$source" />
-                    </xsl:call-template>
-                  </xsl:if>
-                </li>
-              </xsl:for-each>
-            </ul>
-          </div>
-        </div>
-        <fieldset class="f06 n04">
-          <div>
-            <button type="submit">Insert</button>
-          </div>
-        </fieldset>
-      </div>
-    </div>
+    <ul>
+      <xsl:for-each select="//r:RDF/s:Concept">
+        <li class="s01">
+          <a class="s01" href="#">
+            <span>Expand</span>
+          </a>
+          <strong>
+            <xsl:value-of select="@r:label" />
+          </strong>
+          <xsl:if test="s:narrower">
+            <xsl:call-template name="tpl-thesaurus-narrower" />
+          </xsl:if>
+        </li>
+      </xsl:for-each>
+    </ul>
   </xsl:template>
 </xsl:stylesheet>
