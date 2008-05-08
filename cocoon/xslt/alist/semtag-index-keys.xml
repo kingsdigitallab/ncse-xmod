@@ -1,18 +1,13 @@
 <semtag-keys>
-  <key id="11.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/11.3-</key>
   <key id="A1.1.1" third="A1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.1.1</key>
   <key id="A1.1.1-" third="A1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.1.1-</key>
   <key id="A1.1.2" third="A1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.1.2</key>
   <key id="A1.1.2-" third="A1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.1.2-</key>
   <key id="A1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.2</key>
   <key id="A1.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.2+</key>
-  <key id="A1.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.2+</key>
   <key id="A1.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.2-</key>
-  <key id="A1.2.4-" third="A1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.2.4-</key>
   <key id="A1.3">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.3</key>
   <key id="A1.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.3+</key>
-  <key id="A1.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.3+</key>
-  <key id="A1.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.3-</key>
   <key id="A1.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.3-</key>
   <key id="A1.4">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.4</key>
   <key id="A1.4+">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.4+</key>
@@ -20,165 +15,82 @@
   <key id="A1.5">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5</key>
   <key id="A1.5.1" third="A1.5">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5.1</key>
   <key id="A1.5.1+" third="A1.5">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5.1+</key>
-  <key id="A1.5.1+" third="A1.5">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5.1+</key>
   <key id="A1.5.1-" third="A1.5">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5.1-</key>
   <key id="A1.5.2" third="A1.5">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5.2</key>
   <key id="A1.5.2+" third="A1.5">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5.2+</key>
-  <key id="A1.5.2+" third="A1.5">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5.2+</key>
   <key id="A1.5.2-" third="A1.5">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.5.2-</key>
   <key id="A1.6">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.6</key>
-  <key id="A1.6+">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.6+</key>
-  <key id="A1.7+">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.7+</key>
-  <key id="A1.7+">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.7+</key>
   <key id="A1.7+">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.7+</key>
   <key id="A1.7-">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.7-</key>
-  <key id="A1.7-+">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.7-+</key>
-  <key id="A1.8+">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.8+</key>
-  <key id="A1.8+">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.8+</key>
   <key id="A1.8+">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.8+</key>
   <key id="A1.8-">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.8-</key>
   <key id="A1.9">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.9</key>
   <key id="A1.9-">http://www.cch.kcl.ac.uk/ncse/ucrel/A1.9-</key>
   <key id="A10+">http://www.cch.kcl.ac.uk/ncse/ucrel/A10+</key>
-  <key id="A10+">http://www.cch.kcl.ac.uk/ncse/ucrel/A10+</key>
   <key id="A10-">http://www.cch.kcl.ac.uk/ncse/ucrel/A10-</key>
-  <key id="A10-+">http://www.cch.kcl.ac.uk/ncse/ucrel/A10-+</key>
   <key id="A11.1">http://www.cch.kcl.ac.uk/ncse/ucrel/A11.1</key>
   <key id="A11.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A11.1+</key>
-  <key id="A11.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A11.1+</key>
-  <key id="A11.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A11.1+</key>
-  <key id="A11.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A11.1+</key>
   <key id="A11.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/A11.1-</key>
-  <key id="A11.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/A11.1-</key>
-  <key id="A11.1-+">http://www.cch.kcl.ac.uk/ncse/ucrel/A11.1-+</key>
-  <key id="A11.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/A11.1-</key>
-  <key id="A11.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A11.2+</key>
   <key id="A11.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A11.2+</key>
   <key id="A11.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/A11.2-</key>
   <key id="A12+">http://www.cch.kcl.ac.uk/ncse/ucrel/A12+</key>
-  <key id="A12+">http://www.cch.kcl.ac.uk/ncse/ucrel/A12+</key>
-  <key id="A12+">http://www.cch.kcl.ac.uk/ncse/ucrel/A12+</key>
-  <key id="A12+">http://www.cch.kcl.ac.uk/ncse/ucrel/A12+</key>
-  <key id="A12+">http://www.cch.kcl.ac.uk/ncse/ucrel/A12+</key>
-  <key id="A12-">http://www.cch.kcl.ac.uk/ncse/ucrel/A12-</key>
-  <key id="A12-+">http://www.cch.kcl.ac.uk/ncse/ucrel/A12-+</key>
-  <key id="A12-">http://www.cch.kcl.ac.uk/ncse/ucrel/A12-</key>
   <key id="A12-">http://www.cch.kcl.ac.uk/ncse/ucrel/A12-</key>
   <key id="A13">http://www.cch.kcl.ac.uk/ncse/ucrel/A13</key>
   <key id="A13.1">http://www.cch.kcl.ac.uk/ncse/ucrel/A13.1</key>
   <key id="A13.2">http://www.cch.kcl.ac.uk/ncse/ucrel/A13.2</key>
-  <key id="A13.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A13.2+</key>
   <key id="A13.3">http://www.cch.kcl.ac.uk/ncse/ucrel/A13.3</key>
-  <key id="A13.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/A13.3+</key>
   <key id="A13.4">http://www.cch.kcl.ac.uk/ncse/ucrel/A13.4</key>
-  <key id="A13.4+">http://www.cch.kcl.ac.uk/ncse/ucrel/A13.4+</key>
   <key id="A13.5">http://www.cch.kcl.ac.uk/ncse/ucrel/A13.5</key>
-  <key id="A13.5+">http://www.cch.kcl.ac.uk/ncse/ucrel/A13.5+</key>
   <key id="A13.6">http://www.cch.kcl.ac.uk/ncse/ucrel/A13.6</key>
-  <key id="A13.6+">http://www.cch.kcl.ac.uk/ncse/ucrel/A13.6+</key>
   <key id="A13.7">http://www.cch.kcl.ac.uk/ncse/ucrel/A13.7</key>
   <key id="A14">http://www.cch.kcl.ac.uk/ncse/ucrel/A14</key>
-  <key id="A14+">http://www.cch.kcl.ac.uk/ncse/ucrel/A14+</key>
   <key id="A15">http://www.cch.kcl.ac.uk/ncse/ucrel/A15</key>
-  <key id="A15+">http://www.cch.kcl.ac.uk/ncse/ucrel/A15+</key>
-  <key id="A15+">http://www.cch.kcl.ac.uk/ncse/ucrel/A15+</key>
-  <key id="A15+">http://www.cch.kcl.ac.uk/ncse/ucrel/A15+</key>
   <key id="A15+">http://www.cch.kcl.ac.uk/ncse/ucrel/A15+</key>
   <key id="A15-">http://www.cch.kcl.ac.uk/ncse/ucrel/A15-</key>
   <key id="A2.1">http://www.cch.kcl.ac.uk/ncse/ucrel/A2.1</key>
   <key id="A2.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A2.1+</key>
-  <key id="A2.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/A2.1-</key>
-  <key id="A2.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/A2.1-</key>
   <key id="A2.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/A2.1-</key>
   <key id="A2.2">http://www.cch.kcl.ac.uk/ncse/ucrel/A2.2</key>
   <key id="A2.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A2.2+</key>
   <key id="A2.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/A2.2-</key>
   <key id="A3">http://www.cch.kcl.ac.uk/ncse/ucrel/A3</key>
   <key id="A3+">http://www.cch.kcl.ac.uk/ncse/ucrel/A3+</key>
-  <key id="A3+">http://www.cch.kcl.ac.uk/ncse/ucrel/A3+</key>
   <key id="A3-">http://www.cch.kcl.ac.uk/ncse/ucrel/A3-</key>
   <key id="A4.1">http://www.cch.kcl.ac.uk/ncse/ucrel/A4.1</key>
   <key id="A4.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/A4.1-</key>
   <key id="A4.2">http://www.cch.kcl.ac.uk/ncse/ucrel/A4.2</key>
   <key id="A4.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A4.2+</key>
-  <key id="A4.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A4.2+</key>
-  <key id="A4.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A4.2+</key>
   <key id="A4.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/A4.2-</key>
-  <key id="A4.2-+">http://www.cch.kcl.ac.uk/ncse/ucrel/A4.2-+</key>
-  <key id="A4.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/A4.2-</key>
-  <key id="A4.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/A4.2-</key>
-  <key id="A4.2-+">http://www.cch.kcl.ac.uk/ncse/ucrel/A4.2-+</key>
   <key id="A5">http://www.cch.kcl.ac.uk/ncse/ucrel/A5</key>
   <key id="A5.1">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1</key>
   <key id="A5.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1+</key>
-  <key id="A5.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1+</key>
-  <key id="A5.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1+</key>
-  <key id="A5.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1+</key>
-  <key id="A5.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1+</key>
-  <key id="A5.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1+</key>
   <key id="A5.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1-</key>
-  <key id="A5.1-+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1-+</key>
-  <key id="A5.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1-</key>
-  <key id="A5.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1-</key>
-  <key id="A5.1-+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.1-+</key>
   <key id="A5.2">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.2</key>
-  <key id="A5.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.2+</key>
-  <key id="A5.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.2+</key>
-  <key id="A5.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.2+</key>
-  <key id="A5.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.2+</key>
   <key id="A5.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.2+</key>
   <key id="A5.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.2-</key>
   <key id="A5.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.3+</key>
-  <key id="A5.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.3+</key>
-  <key id="A5.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.3+</key>
-  <key id="A5.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.3+</key>
   <key id="A5.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.3-</key>
-  <key id="A5.3-+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.3-+</key>
-  <key id="A5.4+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.4+</key>
-  <key id="A5.4+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.4+</key>
-  <key id="A5.4+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.4+</key>
   <key id="A5.4+">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.4+</key>
   <key id="A5.4-">http://www.cch.kcl.ac.uk/ncse/ucrel/A5.4-</key>
   <key id="A6">http://www.cch.kcl.ac.uk/ncse/ucrel/A6</key>
   <key id="A6.1">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.1</key>
   <key id="A6.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.1+</key>
-  <key id="A6.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.1+</key>
-  <key id="A6.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.1+</key>
-  <key id="A6.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.1+</key>
   <key id="A6.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.1-</key>
-  <key id="A6.1-+">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.1-+</key>
-  <key id="A6.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.2+</key>
-  <key id="A6.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.2+</key>
   <key id="A6.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.2+</key>
   <key id="A6.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.2-</key>
-  <key id="A6.2-+">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.2-+</key>
-  <key id="A6.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.2-</key>
-  <key id="A6.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.3+</key>
   <key id="A6.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.3+</key>
   <key id="A6.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/A6.3-</key>
   <key id="A7">http://www.cch.kcl.ac.uk/ncse/ucrel/A7</key>
   <key id="A7+">http://www.cch.kcl.ac.uk/ncse/ucrel/A7+</key>
-  <key id="A7+">http://www.cch.kcl.ac.uk/ncse/ucrel/A7+</key>
-  <key id="A7+">http://www.cch.kcl.ac.uk/ncse/ucrel/A7+</key>
-  <key id="A7+">http://www.cch.kcl.ac.uk/ncse/ucrel/A7+</key>
-  <key id="A7+">http://www.cch.kcl.ac.uk/ncse/ucrel/A7+</key>
   <key id="A7-">http://www.cch.kcl.ac.uk/ncse/ucrel/A7-</key>
   <key id="A8">http://www.cch.kcl.ac.uk/ncse/ucrel/A8</key>
-  <key id="A8+">http://www.cch.kcl.ac.uk/ncse/ucrel/A8+</key>
   <key id="A9">http://www.cch.kcl.ac.uk/ncse/ucrel/A9</key>
   <key id="A9+">http://www.cch.kcl.ac.uk/ncse/ucrel/A9+</key>
-  <key id="A9+">http://www.cch.kcl.ac.uk/ncse/ucrel/A9+</key>
   <key id="A9-">http://www.cch.kcl.ac.uk/ncse/ucrel/A9-</key>
-  <key id="A9.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A9.1+</key>
-  <key id="A9.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/A9.1+</key>
   <key id="B1">http://www.cch.kcl.ac.uk/ncse/ucrel/B1</key>
-  <key id="B1+">http://www.cch.kcl.ac.uk/ncse/ucrel/B1+</key>
   <key id="B2">http://www.cch.kcl.ac.uk/ncse/ucrel/B2</key>
   <key id="B2+">http://www.cch.kcl.ac.uk/ncse/ucrel/B2+</key>
-  <key id="B2+">http://www.cch.kcl.ac.uk/ncse/ucrel/B2+</key>
-  <key id="B2+">http://www.cch.kcl.ac.uk/ncse/ucrel/B2+</key>
   <key id="B2-">http://www.cch.kcl.ac.uk/ncse/ucrel/B2-</key>
-  <key id="B2-+">http://www.cch.kcl.ac.uk/ncse/ucrel/B2-+</key>
   <key id="B3">http://www.cch.kcl.ac.uk/ncse/ucrel/B3</key>
   <key id="B4">http://www.cch.kcl.ac.uk/ncse/ucrel/B4</key>
   <key id="B4-">http://www.cch.kcl.ac.uk/ncse/ucrel/B4-</key>
@@ -190,53 +102,23 @@
   <key id="E1-">http://www.cch.kcl.ac.uk/ncse/ucrel/E1-</key>
   <key id="E2">http://www.cch.kcl.ac.uk/ncse/ucrel/E2</key>
   <key id="E2+">http://www.cch.kcl.ac.uk/ncse/ucrel/E2+</key>
-  <key id="E2+">http://www.cch.kcl.ac.uk/ncse/ucrel/E2+</key>
-  <key id="E2+">http://www.cch.kcl.ac.uk/ncse/ucrel/E2+</key>
-  <key id="E2+">http://www.cch.kcl.ac.uk/ncse/ucrel/E2+</key>
-  <key id="E2+">http://www.cch.kcl.ac.uk/ncse/ucrel/E2+</key>
-  <key id="E2-">http://www.cch.kcl.ac.uk/ncse/ucrel/E2-</key>
-  <key id="E2-+">http://www.cch.kcl.ac.uk/ncse/ucrel/E2-+</key>
   <key id="E2-">http://www.cch.kcl.ac.uk/ncse/ucrel/E2-</key>
   <key id="E3">http://www.cch.kcl.ac.uk/ncse/ucrel/E3</key>
   <key id="E3+">http://www.cch.kcl.ac.uk/ncse/ucrel/E3+</key>
-  <key id="E3+">http://www.cch.kcl.ac.uk/ncse/ucrel/E3+</key>
-  <key id="E3+">http://www.cch.kcl.ac.uk/ncse/ucrel/E3+</key>
-  <key id="E3-">http://www.cch.kcl.ac.uk/ncse/ucrel/E3-</key>
-  <key id="E3-+">http://www.cch.kcl.ac.uk/ncse/ucrel/E3-+</key>
-  <key id="E3-">http://www.cch.kcl.ac.uk/ncse/ucrel/E3-</key>
   <key id="E3-">http://www.cch.kcl.ac.uk/ncse/ucrel/E3-</key>
   <key id="E4.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1+</key>
-  <key id="E4.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1+</key>
-  <key id="E4.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1+</key>
-  <key id="E4.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1+</key>
-  <key id="E4.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1+</key>
   <key id="E4.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1-</key>
-  <key id="E4.1-+">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1-+</key>
-  <key id="E4.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1-</key>
-  <key id="E4.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1-</key>
-  <key id="E4.1-+">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1-+</key>
-  <key id="E4.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.2+</key>
-  <key id="E4.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.2+</key>
   <key id="E4.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.2+</key>
   <key id="E4.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.2-</key>
-  <key id="E4.2-+">http://www.cch.kcl.ac.uk/ncse/ucrel/E4.2-+</key>
   <key id="E5+">http://www.cch.kcl.ac.uk/ncse/ucrel/E5+</key>
-  <key id="E5+">http://www.cch.kcl.ac.uk/ncse/ucrel/E5+</key>
-  <key id="E5+">http://www.cch.kcl.ac.uk/ncse/ucrel/E5+</key>
-  <key id="E5-">http://www.cch.kcl.ac.uk/ncse/ucrel/E5-</key>
   <key id="E5-">http://www.cch.kcl.ac.uk/ncse/ucrel/E5-</key>
   <key id="E6">http://www.cch.kcl.ac.uk/ncse/ucrel/E6</key>
   <key id="E6+">http://www.cch.kcl.ac.uk/ncse/ucrel/E6+</key>
-  <key id="E6+">http://www.cch.kcl.ac.uk/ncse/ucrel/E6+</key>
-  <key id="E6-">http://www.cch.kcl.ac.uk/ncse/ucrel/E6-</key>
-  <key id="E6-+">http://www.cch.kcl.ac.uk/ncse/ucrel/E6-+</key>
   <key id="E6-">http://www.cch.kcl.ac.uk/ncse/ucrel/E6-</key>
   <key id="F1">http://www.cch.kcl.ac.uk/ncse/ucrel/F1</key>
   <key id="F1+">http://www.cch.kcl.ac.uk/ncse/ucrel/F1+</key>
   <key id="F1-">http://www.cch.kcl.ac.uk/ncse/ucrel/F1-</key>
   <key id="F2">http://www.cch.kcl.ac.uk/ncse/ucrel/F2</key>
-  <key id="F2+">http://www.cch.kcl.ac.uk/ncse/ucrel/F2+</key>
-  <key id="F2+">http://www.cch.kcl.ac.uk/ncse/ucrel/F2+</key>
   <key id="F2+">http://www.cch.kcl.ac.uk/ncse/ucrel/F2+</key>
   <key id="F3">http://www.cch.kcl.ac.uk/ncse/ucrel/F3</key>
   <key id="F4">http://www.cch.kcl.ac.uk/ncse/ucrel/F4</key>
@@ -246,19 +128,12 @@
   <key id="G1.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/G1.2-</key>
   <key id="G2.1">http://www.cch.kcl.ac.uk/ncse/ucrel/G2.1</key>
   <key id="G2.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/G2.1+</key>
-  <key id="G2.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/G2.1+</key>
   <key id="G2.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/G2.1-</key>
-  <key id="G2.1-+">http://www.cch.kcl.ac.uk/ncse/ucrel/G2.1-+</key>
   <key id="G2.2">http://www.cch.kcl.ac.uk/ncse/ucrel/G2.2</key>
   <key id="G2.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/G2.2+</key>
-  <key id="G2.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/G2.2+</key>
-  <key id="G2.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/G2.2+</key>
   <key id="G2.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/G2.2-</key>
-  <key id="G2.2-+">http://www.cch.kcl.ac.uk/ncse/ucrel/G2.2-+</key>
   <key id="G3">http://www.cch.kcl.ac.uk/ncse/ucrel/G3</key>
-  <key id="G3+">http://www.cch.kcl.ac.uk/ncse/ucrel/G3+</key>
   <key id="G3-">http://www.cch.kcl.ac.uk/ncse/ucrel/G3-</key>
-  <key id="G3@">http://www.cch.kcl.ac.uk/ncse/ucrel/G3@</key>
   <key id="H1">http://www.cch.kcl.ac.uk/ncse/ucrel/H1</key>
   <key id="H2">http://www.cch.kcl.ac.uk/ncse/ucrel/H2</key>
   <key id="H3">http://www.cch.kcl.ac.uk/ncse/ucrel/H3</key>
@@ -267,38 +142,20 @@
   <key id="H5">http://www.cch.kcl.ac.uk/ncse/ucrel/H5</key>
   <key id="H5-">http://www.cch.kcl.ac.uk/ncse/ucrel/H5-</key>
   <key id="I1">http://www.cch.kcl.ac.uk/ncse/ucrel/I1</key>
-  <key id="I1+">http://www.cch.kcl.ac.uk/ncse/ucrel/I1+</key>
-  <key id="I1-">http://www.cch.kcl.ac.uk/ncse/ucrel/I1-</key>
   <key id="I1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1</key>
   <key id="I1.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1+</key>
-  <key id="I1.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1+</key>
-  <key id="I1.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1+</key>
-  <key id="I1.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1+</key>
   <key id="I1.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1-</key>
-  <key id="I1.1-+">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1-+</key>
-  <key id="I1.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1-</key>
-  <key id="I1.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1-</key>
-  <key id="I1.1-+">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.1-+</key>
   <key id="I1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.2</key>
   <key id="I1.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.2+</key>
   <key id="I1.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.2-</key>
   <key id="I1.3">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3</key>
   <key id="I1.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3+</key>
-  <key id="I1.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3+</key>
-  <key id="I1.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3+</key>
   <key id="I1.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3-</key>
-  <key id="I1.3-+">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3-+</key>
-  <key id="I1.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3-</key>
-  <key id="I1.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3-</key>
-  <key id="I1.3-+">http://www.cch.kcl.ac.uk/ncse/ucrel/I1.3-+</key>
   <key id="I2">http://www.cch.kcl.ac.uk/ncse/ucrel/I2</key>
   <key id="I2.1">http://www.cch.kcl.ac.uk/ncse/ucrel/I2.1</key>
-  <key id="I2.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/I2.1+</key>
   <key id="I2.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/I2.1-</key>
   <key id="I2.2">http://www.cch.kcl.ac.uk/ncse/ucrel/I2.2</key>
-  <key id="I2.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/I2.2+</key>
   <key id="I3.1">http://www.cch.kcl.ac.uk/ncse/ucrel/I3.1</key>
-  <key id="I3.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/I3.1+</key>
   <key id="I3.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/I3.1-</key>
   <key id="I3.2">http://www.cch.kcl.ac.uk/ncse/ucrel/I3.2</key>
   <key id="I3.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/I3.2+</key>
@@ -306,29 +163,24 @@
   <key id="I4">http://www.cch.kcl.ac.uk/ncse/ucrel/I4</key>
   <key id="K1">http://www.cch.kcl.ac.uk/ncse/ucrel/K1</key>
   <key id="K2">http://www.cch.kcl.ac.uk/ncse/ucrel/K2</key>
-  <key id="K2+">http://www.cch.kcl.ac.uk/ncse/ucrel/K2+</key>
   <key id="K3">http://www.cch.kcl.ac.uk/ncse/ucrel/K3</key>
   <key id="K4">http://www.cch.kcl.ac.uk/ncse/ucrel/K4</key>
   <key id="K5">http://www.cch.kcl.ac.uk/ncse/ucrel/K5</key>
   <key id="K5.1">http://www.cch.kcl.ac.uk/ncse/ucrel/K5.1</key>
-  <key id="K5.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/K5.1+</key>
   <key id="K5.2">http://www.cch.kcl.ac.uk/ncse/ucrel/K5.2</key>
+  <key id="K6">http://www.cch.kcl.ac.uk/ncse/ucrel/K6</key>
   <key id="L1">http://www.cch.kcl.ac.uk/ncse/ucrel/L1</key>
   <key id="L1+">http://www.cch.kcl.ac.uk/ncse/ucrel/L1+</key>
   <key id="L1-">http://www.cch.kcl.ac.uk/ncse/ucrel/L1-</key>
-  <key id="L1-+">http://www.cch.kcl.ac.uk/ncse/ucrel/L1-+</key>
   <key id="L2">http://www.cch.kcl.ac.uk/ncse/ucrel/L2</key>
-  <key id="L2+">http://www.cch.kcl.ac.uk/ncse/ucrel/L2+</key>
   <key id="L3">http://www.cch.kcl.ac.uk/ncse/ucrel/L3</key>
   <key id="L3-">http://www.cch.kcl.ac.uk/ncse/ucrel/L3-</key>
   <key id="M1">http://www.cch.kcl.ac.uk/ncse/ucrel/M1</key>
-  <key id="M1+">http://www.cch.kcl.ac.uk/ncse/ucrel/M1+</key>
   <key id="M2">http://www.cch.kcl.ac.uk/ncse/ucrel/M2</key>
   <key id="M3">http://www.cch.kcl.ac.uk/ncse/ucrel/M3</key>
   <key id="M4">http://www.cch.kcl.ac.uk/ncse/ucrel/M4</key>
   <key id="M5">http://www.cch.kcl.ac.uk/ncse/ucrel/M5</key>
   <key id="M6">http://www.cch.kcl.ac.uk/ncse/ucrel/M6</key>
-  <key id="M6+">http://www.cch.kcl.ac.uk/ncse/ucrel/M6+</key>
   <key id="M7">http://www.cch.kcl.ac.uk/ncse/ucrel/M7</key>
   <key id="M8">http://www.cch.kcl.ac.uk/ncse/ucrel/M8</key>
   <key id="N1">http://www.cch.kcl.ac.uk/ncse/ucrel/N1</key>
@@ -337,290 +189,153 @@
   <key id="N3.1">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.1</key>
   <key id="N3.2">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2</key>
   <key id="N3.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2+</key>
-  <key id="N3.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2+</key>
-  <key id="N3.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2+</key>
-  <key id="N3.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2+</key>
-  <key id="N3.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2+</key>
   <key id="N3.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2-</key>
-  <key id="N3.2-+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2-+</key>
-  <key id="N3.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2-</key>
-  <key id="N3.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2-</key>
-  <key id="N3.2-+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.2-+</key>
   <key id="N3.3">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3</key>
   <key id="N3.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3+</key>
-  <key id="N3.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3+</key>
-  <key id="N3.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3+</key>
-  <key id="N3.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3+</key>
-  <key id="N3.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3+</key>
   <key id="N3.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3-</key>
-  <key id="N3.3-+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3-+</key>
-  <key id="N3.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3-</key>
-  <key id="N3.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3-</key>
-  <key id="N3.3-+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.3-+</key>
   <key id="N3.4">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.4</key>
   <key id="N3.4+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.4+</key>
   <key id="N3.4-">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.4-</key>
   <key id="N3.5">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.5</key>
   <key id="N3.5+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.5+</key>
   <key id="N3.5-">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.5-</key>
-  <key id="N3.5-">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.5-</key>
   <key id="N3.6">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.6</key>
   <key id="N3.6+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.6+</key>
-  <key id="N3.6+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.6+</key>
-  <key id="N3.6-">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.6-</key>
   <key id="N3.7">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7</key>
   <key id="N3.7+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7+</key>
-  <key id="N3.7+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7+</key>
-  <key id="N3.7+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7+</key>
-  <key id="N3.7+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7+</key>
-  <key id="N3.7+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7+</key>
   <key id="N3.7-">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7-</key>
-  <key id="N3.7-+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7-+</key>
-  <key id="N3.7-">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7-</key>
-  <key id="N3.7-">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7-</key>
-  <key id="N3.7-+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.7-+</key>
   <key id="N3.8">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.8</key>
   <key id="N3.8+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.8+</key>
-  <key id="N3.8+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.8+</key>
-  <key id="N3.8+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.8+</key>
-  <key id="N3.8+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.8+</key>
-  <key id="N3.8+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.8+</key>
   <key id="N3.8-">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.8-</key>
-  <key id="N3.8-+">http://www.cch.kcl.ac.uk/ncse/ucrel/N3.8-+</key>
   <key id="N4">http://www.cch.kcl.ac.uk/ncse/ucrel/N4</key>
-  <key id="N4+">http://www.cch.kcl.ac.uk/ncse/ucrel/N4+</key>
   <key id="N5">http://www.cch.kcl.ac.uk/ncse/ucrel/N5</key>
   <key id="N5+">http://www.cch.kcl.ac.uk/ncse/ucrel/N5+</key>
-  <key id="N5+">http://www.cch.kcl.ac.uk/ncse/ucrel/N5+</key>
-  <key id="N5+">http://www.cch.kcl.ac.uk/ncse/ucrel/N5+</key>
-  <key id="N5+">http://www.cch.kcl.ac.uk/ncse/ucrel/N5+</key>
   <key id="N5-">http://www.cch.kcl.ac.uk/ncse/ucrel/N5-</key>
-  <key id="N5-+">http://www.cch.kcl.ac.uk/ncse/ucrel/N5-+</key>
-  <key id="N5-">http://www.cch.kcl.ac.uk/ncse/ucrel/N5-</key>
-  <key id="N5-">http://www.cch.kcl.ac.uk/ncse/ucrel/N5-</key>
-  <key id="N5-+">http://www.cch.kcl.ac.uk/ncse/ucrel/N5-+</key>
   <key id="N5.1">http://www.cch.kcl.ac.uk/ncse/ucrel/N5.1</key>
-  <key id="N5.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/N5.1+</key>
-  <key id="N5.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/N5.1+</key>
-  <key id="N5.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/N5.1+</key>
   <key id="N5.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/N5.1+</key>
   <key id="N5.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/N5.1-</key>
   <key id="N5.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/N5.2+</key>
-  <key id="N5.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/N5.2+</key>
   <key id="N6">http://www.cch.kcl.ac.uk/ncse/ucrel/N6</key>
   <key id="N6+">http://www.cch.kcl.ac.uk/ncse/ucrel/N6+</key>
-  <key id="N6+">http://www.cch.kcl.ac.uk/ncse/ucrel/N6+</key>
-  <key id="N6+">http://www.cch.kcl.ac.uk/ncse/ucrel/N6+</key>
-  <key id="N6-">http://www.cch.kcl.ac.uk/ncse/ucrel/N6-</key>
-  <key id="N6-+">http://www.cch.kcl.ac.uk/ncse/ucrel/N6-+</key>
   <key id="N6-">http://www.cch.kcl.ac.uk/ncse/ucrel/N6-</key>
   <key id="O1">http://www.cch.kcl.ac.uk/ncse/ucrel/O1</key>
   <key id="O1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/O1.1</key>
   <key id="O1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/O1.2</key>
-  <key id="O1.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/O1.2+</key>
-  <key id="O1.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/O1.2-</key>
-  <key id="O1.2-+">http://www.cch.kcl.ac.uk/ncse/ucrel/O1.2-+</key>
   <key id="O1.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/O1.2-</key>
   <key id="O1.3">http://www.cch.kcl.ac.uk/ncse/ucrel/O1.3</key>
   <key id="O1.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/O1.3-</key>
   <key id="O2">http://www.cch.kcl.ac.uk/ncse/ucrel/O2</key>
   <key id="O3">http://www.cch.kcl.ac.uk/ncse/ucrel/O3</key>
   <key id="O4.1">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.1</key>
-  <key id="O4.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.1+</key>
   <key id="O4.2">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.2</key>
   <key id="O4.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.2+</key>
-  <key id="O4.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.2+</key>
-  <key id="O4.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.2+</key>
-  <key id="O4.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.2+</key>
-  <key id="O4.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.2-</key>
-  <key id="O4.2-+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.2-+</key>
   <key id="O4.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.2-</key>
   <key id="O4.3">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.3</key>
-  <key id="O4.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.3+</key>
-  <key id="O4.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.3-</key>
   <key id="O4.4">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.4</key>
-  <key id="O4.4+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.4+</key>
   <key id="O4.5">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.5</key>
-  <key id="O4.5+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.5+</key>
   <key id="O4.6">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6</key>
   <key id="O4.6+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6+</key>
-  <key id="O4.6+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6+</key>
-  <key id="O4.6+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6+</key>
-  <key id="O4.6+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6+</key>
-  <key id="O4.6+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6+</key>
-  <key id="O4.6-">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6-</key>
-  <key id="O4.6-+">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6-+</key>
-  <key id="O4.6-">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6-</key>
   <key id="O4.6-">http://www.cch.kcl.ac.uk/ncse/ucrel/O4.6-</key>
   <key id="P1">http://www.cch.kcl.ac.uk/ncse/ucrel/P1</key>
   <key id="P1-">http://www.cch.kcl.ac.uk/ncse/ucrel/P1-</key>
   <key id="Q1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/Q1.1</key>
   <key id="Q1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/Q1.2</key>
-  <key id="Q1.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/Q1.2+</key>
   <key id="Q1.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/Q1.2-</key>
   <key id="Q1.3">http://www.cch.kcl.ac.uk/ncse/ucrel/Q1.3</key>
   <key id="Q2.1">http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.1</key>
-  <key id="Q2.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.1+</key>
   <key id="Q2.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.1+</key>
   <key id="Q2.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.1-</key>
   <key id="Q2.2">http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.2</key>
   <key id="Q2.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/Q2.2-</key>
   <key id="Q3">http://www.cch.kcl.ac.uk/ncse/ucrel/Q3</key>
-  <key id="Q3+">http://www.cch.kcl.ac.uk/ncse/ucrel/Q3+</key>
   <key id="Q4">http://www.cch.kcl.ac.uk/ncse/ucrel/Q4</key>
   <key id="Q4.1">http://www.cch.kcl.ac.uk/ncse/ucrel/Q4.1</key>
   <key id="Q4.2">http://www.cch.kcl.ac.uk/ncse/ucrel/Q4.2</key>
   <key id="Q4.3">http://www.cch.kcl.ac.uk/ncse/ucrel/Q4.3</key>
-  <key id="S.1.2.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/S.1.2.3-</key>
   <key id="S1.1.1" third="S1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.1</key>
-  <key id="S1.1.1+" third="S1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.1+</key>
   <key id="S1.1.2" third="S1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.2</key>
   <key id="S1.1.2+" third="S1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.2+</key>
   <key id="S1.1.2-" third="S1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.2-</key>
   <key id="S1.1.3" third="S1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.3</key>
   <key id="S1.1.3+" third="S1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.3+</key>
-  <key id="S1.1.3+" third="S1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.3+</key>
   <key id="S1.1.3-" third="S1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.3-</key>
   <key id="S1.1.4" third="S1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.4</key>
-  <key id="S1.1.4+" third="S1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.4+</key>
   <key id="S1.1.4+" third="S1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.4+</key>
   <key id="S1.1.4-" third="S1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.1.4-</key>
   <key id="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2</key>
   <key id="S1.2.1+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.1+</key>
-  <key id="S1.2.1+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.1+</key>
-  <key id="S1.2.1+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.1+</key>
   <key id="S1.2.1-" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.1-</key>
   <key id="S1.2.2+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.2+</key>
-  <key id="S1.2.2+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.2+</key>
   <key id="S1.2.2-" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.2-</key>
-  <key id="S1.2.3+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.3+</key>
-  <key id="S1.2.3+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.3+</key>
   <key id="S1.2.3+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.3+</key>
   <key id="S1.2.3-" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.3-</key>
   <key id="S1.2.4" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.4</key>
   <key id="S1.2.4+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.4+</key>
   <key id="S1.2.4-" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.4-</key>
-  <key id="S1.2.4-+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.4-+</key>
-  <key id="S1.2.5+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5+</key>
-  <key id="S1.2.5+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5+</key>
-  <key id="S1.2.5+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5+</key>
-  <key id="S1.2.5+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5+</key>
   <key id="S1.2.5+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5+</key>
   <key id="S1.2.5-" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5-</key>
-  <key id="S1.2.5-+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5-+</key>
-  <key id="S1.2.5-" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5-</key>
-  <key id="S1.2.5-" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5-</key>
-  <key id="S1.2.5-+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.5-+</key>
   <key id="S1.2.6+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.6+</key>
-  <key id="S1.2.6+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.6+</key>
-  <key id="S1.2.6-" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.6-</key>
-  <key id="S1.2.6-+" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.6-+</key>
   <key id="S1.2.6-" third="S1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S1.2.6-</key>
   <key id="S2">http://www.cch.kcl.ac.uk/ncse/ucrel/S2</key>
   <key id="S2-">http://www.cch.kcl.ac.uk/ncse/ucrel/S2-</key>
   <key id="S2.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S2.1</key>
   <key id="S2.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S2.2</key>
-  <key id="S3-">http://www.cch.kcl.ac.uk/ncse/ucrel/S3-</key>
+  <key id="S3">http://www.cch.kcl.ac.uk/ncse/ucrel/S3</key>
   <key id="S3.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S3.1</key>
   <key id="S3.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/S3.1-</key>
   <key id="S3.2">http://www.cch.kcl.ac.uk/ncse/ucrel/S3.2</key>
   <key id="S3.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/S3.2+</key>
   <key id="S3.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/S3.2-</key>
   <key id="S4">http://www.cch.kcl.ac.uk/ncse/ucrel/S4</key>
-  <key id="S4+">http://www.cch.kcl.ac.uk/ncse/ucrel/S4+</key>
   <key id="S4-">http://www.cch.kcl.ac.uk/ncse/ucrel/S4-</key>
-  <key id="S4T1.1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S4T1.1.1</key>
   <key id="S5">http://www.cch.kcl.ac.uk/ncse/ucrel/S5</key>
   <key id="S5+">http://www.cch.kcl.ac.uk/ncse/ucrel/S5+</key>
-  <key id="S5+">http://www.cch.kcl.ac.uk/ncse/ucrel/S5+</key>
-  <key id="S5+">http://www.cch.kcl.ac.uk/ncse/ucrel/S5+</key>
   <key id="S5-">http://www.cch.kcl.ac.uk/ncse/ucrel/S5-</key>
-  <key id="S5-+">http://www.cch.kcl.ac.uk/ncse/ucrel/S5-+</key>
-  <key id="S6+">http://www.cch.kcl.ac.uk/ncse/ucrel/S6+</key>
   <key id="S6+">http://www.cch.kcl.ac.uk/ncse/ucrel/S6+</key>
   <key id="S6-">http://www.cch.kcl.ac.uk/ncse/ucrel/S6-</key>
-  <key id="S6-+">http://www.cch.kcl.ac.uk/ncse/ucrel/S6-+</key>
   <key id="S7.1">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1</key>
   <key id="S7.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1+</key>
-  <key id="S7.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1+</key>
-  <key id="S7.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1+</key>
-  <key id="S7.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1+</key>
   <key id="S7.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1-</key>
-  <key id="S7.1-+">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1-+</key>
-  <key id="S7.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1-</key>
-  <key id="S7.1-@">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.1-@</key>
   <key id="S7.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.2+</key>
   <key id="S7.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.2-</key>
-  <key id="S7.2-+">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.2-+</key>
   <key id="S7.3">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.3</key>
-  <key id="S7.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.3+</key>
   <key id="S7.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.3+</key>
   <key id="S7.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.3-</key>
   <key id="S7.4">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.4</key>
   <key id="S7.4+">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.4+</key>
   <key id="S7.4-">http://www.cch.kcl.ac.uk/ncse/ucrel/S7.4-</key>
   <key id="S8+">http://www.cch.kcl.ac.uk/ncse/ucrel/S8+</key>
-  <key id="S8+">http://www.cch.kcl.ac.uk/ncse/ucrel/S8+</key>
-  <key id="S8+">http://www.cch.kcl.ac.uk/ncse/ucrel/S8+</key>
   <key id="S8-">http://www.cch.kcl.ac.uk/ncse/ucrel/S8-</key>
   <key id="S9">http://www.cch.kcl.ac.uk/ncse/ucrel/S9</key>
-  <key id="S9+">http://www.cch.kcl.ac.uk/ncse/ucrel/S9+</key>
   <key id="S9-">http://www.cch.kcl.ac.uk/ncse/ucrel/S9-</key>
   <key id="T1">http://www.cch.kcl.ac.uk/ncse/ucrel/T1</key>
-  <key id="T1+">http://www.cch.kcl.ac.uk/ncse/ucrel/T1+</key>
   <key id="T1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1</key>
   <key id="T1.1.1" third="T1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1.1</key>
   <key id="T1.1.2" third="T1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1.2</key>
-  <key id="T1.1.2+" third="T1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1.2+</key>
   <key id="T1.1.3" third="T1.1">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.1.3</key>
   <key id="T1.2">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.2</key>
   <key id="T1.3">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3</key>
   <key id="T1.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3+</key>
-  <key id="T1.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3+</key>
-  <key id="T1.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3+</key>
-  <key id="T1.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3+</key>
-  <key id="T1.3+">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3+</key>
   <key id="T1.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3-</key>
-  <key id="T1.3-+">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3-+</key>
-  <key id="T1.3-">http://www.cch.kcl.ac.uk/ncse/ucrel/T1.3-</key>
-  <key id="T2+">http://www.cch.kcl.ac.uk/ncse/ucrel/T2+</key>
-  <key id="T2+">http://www.cch.kcl.ac.uk/ncse/ucrel/T2+</key>
-  <key id="T2+">http://www.cch.kcl.ac.uk/ncse/ucrel/T2+</key>
   <key id="T2+">http://www.cch.kcl.ac.uk/ncse/ucrel/T2+</key>
   <key id="T2-">http://www.cch.kcl.ac.uk/ncse/ucrel/T2-</key>
   <key id="T3">http://www.cch.kcl.ac.uk/ncse/ucrel/T3</key>
   <key id="T3+">http://www.cch.kcl.ac.uk/ncse/ucrel/T3+</key>
-  <key id="T3+">http://www.cch.kcl.ac.uk/ncse/ucrel/T3+</key>
-  <key id="T3+">http://www.cch.kcl.ac.uk/ncse/ucrel/T3+</key>
   <key id="T3-">http://www.cch.kcl.ac.uk/ncse/ucrel/T3-</key>
-  <key id="T3-">http://www.cch.kcl.ac.uk/ncse/ucrel/T3-</key>
-  <key id="T3-">http://www.cch.kcl.ac.uk/ncse/ucrel/T3-</key>
-  <key id="T3-+">http://www.cch.kcl.ac.uk/ncse/ucrel/T3-+</key>
   <key id="T4">http://www.cch.kcl.ac.uk/ncse/ucrel/T4</key>
   <key id="T4+">http://www.cch.kcl.ac.uk/ncse/ucrel/T4+</key>
-  <key id="T4+">http://www.cch.kcl.ac.uk/ncse/ucrel/T4+</key>
-  <key id="T4+">http://www.cch.kcl.ac.uk/ncse/ucrel/T4+</key>
-  <key id="T4-">http://www.cch.kcl.ac.uk/ncse/ucrel/T4-</key>
   <key id="T4-">http://www.cch.kcl.ac.uk/ncse/ucrel/T4-</key>
   <key id="W1">http://www.cch.kcl.ac.uk/ncse/ucrel/W1</key>
   <key id="W2">http://www.cch.kcl.ac.uk/ncse/ucrel/W2</key>
-  <key id="W2+">http://www.cch.kcl.ac.uk/ncse/ucrel/W2+</key>
-  <key id="W2-">http://www.cch.kcl.ac.uk/ncse/ucrel/W2-</key>
-  <key id="W2-">http://www.cch.kcl.ac.uk/ncse/ucrel/W2-</key>
   <key id="W2-">http://www.cch.kcl.ac.uk/ncse/ucrel/W2-</key>
   <key id="W3">http://www.cch.kcl.ac.uk/ncse/ucrel/W3</key>
-  <key id="W3+">http://www.cch.kcl.ac.uk/ncse/ucrel/W3+</key>
   <key id="W4">http://www.cch.kcl.ac.uk/ncse/ucrel/W4</key>
   <key id="W5">http://www.cch.kcl.ac.uk/ncse/ucrel/W5</key>
   <key id="X1">http://www.cch.kcl.ac.uk/ncse/ucrel/X1</key>
   <key id="X2">http://www.cch.kcl.ac.uk/ncse/ucrel/X2</key>
   <key id="X2.1">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.1</key>
-  <key id="X2.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.1+</key>
   <key id="X2.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.1-</key>
   <key id="X2.2">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.2</key>
-  <key id="X2.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.2+</key>
-  <key id="X2.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.2+</key>
-  <key id="X2.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.2+</key>
   <key id="X2.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.2+</key>
   <key id="X2.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.2-</key>
   <key id="X2.3">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.3</key>
@@ -629,66 +344,42 @@
   <key id="X2.4-">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.4-</key>
   <key id="X2.5">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.5</key>
   <key id="X2.5+">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.5+</key>
-  <key id="X2.5+">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.5+</key>
   <key id="X2.5-">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.5-</key>
   <key id="X2.6">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.6</key>
   <key id="X2.6+">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.6+</key>
   <key id="X2.6-">http://www.cch.kcl.ac.uk/ncse/ucrel/X2.6-</key>
   <key id="X3">http://www.cch.kcl.ac.uk/ncse/ucrel/X3</key>
-  <key id="X3-">http://www.cch.kcl.ac.uk/ncse/ucrel/X3-</key>
   <key id="X3.1">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.1</key>
   <key id="X3.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.1+</key>
   <key id="X3.2">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.2</key>
   <key id="X3.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.2+</key>
-  <key id="X3.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.2+</key>
-  <key id="X3.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.2+</key>
-  <key id="X3.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.2+</key>
-  <key id="X3.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.2-</key>
-  <key id="X3.2-+">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.2-+</key>
   <key id="X3.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.2-</key>
   <key id="X3.3">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.3</key>
   <key id="X3.4">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.4</key>
-  <key id="X3.4+">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.4+</key>
   <key id="X3.4+">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.4+</key>
   <key id="X3.4-">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.4-</key>
   <key id="X3.5">http://www.cch.kcl.ac.uk/ncse/ucrel/X3.5</key>
   <key id="X4.1">http://www.cch.kcl.ac.uk/ncse/ucrel/X4.1</key>
   <key id="X4.2">http://www.cch.kcl.ac.uk/ncse/ucrel/X4.2</key>
   <key id="X5.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/X5.1+</key>
-  <key id="X5.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/X5.1+</key>
   <key id="X5.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/X5.1-</key>
   <key id="X5.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X5.2+</key>
-  <key id="X5.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X5.2+</key>
-  <key id="X5.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X5.2+</key>
-  <key id="X5.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X5.2+</key>
   <key id="X5.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/X5.2-</key>
-  <key id="X5.2-+">http://www.cch.kcl.ac.uk/ncse/ucrel/X5.2-+</key>
   <key id="X6">http://www.cch.kcl.ac.uk/ncse/ucrel/X6</key>
   <key id="X6+">http://www.cch.kcl.ac.uk/ncse/ucrel/X6+</key>
   <key id="X6-">http://www.cch.kcl.ac.uk/ncse/ucrel/X6-</key>
   <key id="X7">http://www.cch.kcl.ac.uk/ncse/ucrel/X7</key>
   <key id="X7+">http://www.cch.kcl.ac.uk/ncse/ucrel/X7+</key>
-  <key id="X7+">http://www.cch.kcl.ac.uk/ncse/ucrel/X7+</key>
-  <key id="X7+">http://www.cch.kcl.ac.uk/ncse/ucrel/X7+</key>
   <key id="X7-">http://www.cch.kcl.ac.uk/ncse/ucrel/X7-</key>
-  <key id="X7.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X7.2+</key>
-  <key id="X8+">http://www.cch.kcl.ac.uk/ncse/ucrel/X8+</key>
-  <key id="X8+">http://www.cch.kcl.ac.uk/ncse/ucrel/X8+</key>
   <key id="X8+">http://www.cch.kcl.ac.uk/ncse/ucrel/X8+</key>
   <key id="X8-">http://www.cch.kcl.ac.uk/ncse/ucrel/X8-</key>
   <key id="X9.1">http://www.cch.kcl.ac.uk/ncse/ucrel/X9.1</key>
   <key id="X9.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/X9.1+</key>
-  <key id="X9.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/X9.1+</key>
-  <key id="X9.1+">http://www.cch.kcl.ac.uk/ncse/ucrel/X9.1+</key>
   <key id="X9.1-">http://www.cch.kcl.ac.uk/ncse/ucrel/X9.1-</key>
   <key id="X9.2">http://www.cch.kcl.ac.uk/ncse/ucrel/X9.2</key>
   <key id="X9.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X9.2+</key>
-  <key id="X9.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X9.2+</key>
-  <key id="X9.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X9.2+</key>
-  <key id="X9.2+">http://www.cch.kcl.ac.uk/ncse/ucrel/X9.2+</key>
   <key id="X9.2-">http://www.cch.kcl.ac.uk/ncse/ucrel/X9.2-</key>
   <key id="Y1">http://www.cch.kcl.ac.uk/ncse/ucrel/Y1</key>
-  <key id="Y1+">http://www.cch.kcl.ac.uk/ncse/ucrel/Y1+</key>
   <key id="Y1-">http://www.cch.kcl.ac.uk/ncse/ucrel/Y1-</key>
   <key id="Y2">http://www.cch.kcl.ac.uk/ncse/ucrel/Y2</key>
 </semtag-keys>
