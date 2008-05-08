@@ -90,7 +90,7 @@
 <!ELEMENT groupTitle (#PCDATA)>
 <!ELEMENT groupFolder (#PCDATA)>
 
-<!ELEMENT image (imgTitle, caption?, path?, desc, width, height, thmWidth?, thmHeight?, ext, creator, copyright, rend, notes, internal)>
+<!ELEMENT image (imgTitle, caption?, path?, desc?, width?, height?, thmWidth?, thmHeight?, ext, creator?, copyright?, rend?, notes?, internal?)>
 <!ATTLIST image
 	id ID #REQUIRED
 	type CDATA #IMPLIED

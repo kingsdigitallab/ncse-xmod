@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2
+  SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p6_5">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ncse Symposia</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
+<addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836
+5454</addrLine> <addrLine>http://www.kcl.ac.uk/cch/</addrLine> </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CC. TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-05-07</date>
+                <respStmt>
+                    <name>JM</name>
+                </respStmt>
+                <item>updated for launch</item>
+            </change>
+            <change>
+                <date>2007-06-12</date>
+                <respStmt>
+                    <name>SP</name>
+                </respStmt>
+                <item>edited content</item>
+            </change>
+            <change>
+                <date>2005-12-18</date>
+                <respStmt>
+                    <name>SP</name>
+                </respStmt>
+                <item>edited content</item>
+            </change>
+            <change>
+                <date>2005-11-15</date>
+                <respStmt>
+                    <name>SP</name>
+                </respStmt>
+                <item>edited content</item>
+            </change>
+            <change>
+                <date>2005-10-17</date>
+                <respStmt>
+                    <name>JM</name>
+                </respStmt>
+                <item>created XML docs</item>
+            </change>
+            <change>
+                <date>2005-05-18</date>
+                <respStmt>
+                    <name>AP</name>
+                </respStmt>
+                <item>created XML docs</item>
+            </change>
+            <change>
+                <date>2005-03-18</date>
+                <respStmt>
+                    <name>AP</name>
+                </respStmt>
+                <item>created XML docs</item>
+            </change>
+            <change>
+                <date>2005-03-18</date>
+                <respStmt>
+                    <name>AC</name>
+                </respStmt>
+                <item>created XML</item>
+            </change>
+            <change>
+                <date>2005-04-13</date>
+                <respStmt>
+                    <name>SP</name>
+                </respStmt>
+                <item>edits to content</item>
+            </change>
+            <change>
+                <date>2005-06-11</date>
+                <respStmt>
+                    <name>SP</name>
+                </respStmt>
+                <item>edits to content</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><hi rend="bold">ncse</hi> hosted two symposia between January 2005 and December 2007.
+                The first of these was called 'Going Digital' and was held at Birkbeck College on
+                Saturday 25 February 2006. The second was called 'Digitising Journalism' and was
+                held at the Centre for Computing in the Humanities at King's College London on
+                Saturday 24 February 2007. Below you will find details of the speakers at each of
+                the symposium and versions of the papers that were delivered.</p>
+            <div>
+                <head>2006 Symposium: Going Digital</head>
+                <p>This one day symposium, held at Birkbeck College on Saturday 25th February 2006,
+                    discussed the <hi rend="bold">ncse</hi> project and the wider field of digital
+                    scholarship. The aim of the symposium was to converse with a small group of
+                    informed people in the field who were either current producers of digital
+                    projects and / or potential users of <hi rend="bold">ncse</hi>. You can download
+                    the complete programme (including abstracts) <xref type="redist"
+                        from="pdf/2006_ncse_symposium_programme.pdf">here</xref> (pdf format).</p>
+                <p>You can download selected papers from the list below</p>
+            </div>
+            <div>
+                <head>Session One: <hi rend="bold">ncse</hi></head>
+                <p>Jim Mussell and Suzanne Paylor, Birkbeck College, <xref type="redist"
+                        from="pdf/2006_ncse_symposium.pdf">'<hi rend="bold">ncse</hi>: selecting the
+                        core'</xref> (pdf format)</p>
+            </div>
+            <div>
+                <head>Session Two: "Going Digital"</head>
+                <p>Ed King (Chair), British Library, <xref type="redist"
+                        from="pdf/2006_ncse_symposium_ek.pdft">'Going Digital: <hi rend="bold"
+                        >ncse</hi>'</xref> (pdf format).</p>
+                <p>Karen Spärck Jones University of Cambridge <xref type="redist"
+                        from="pdf/2006_ncse_symposium_ksj.pdf">'Surfing the Digital Wave? Lessons
+                        from the IT world'</xref> (presentation in pdf format).</p>
+                <p>Andrew Cutting, London Metropolitan University <xref type="redist"
+                        from="pdf/2006_ncse_symposium_ac.pdf">'More Than a Resource? Extending the
+                            <hi rend="bold">ncse</hi> agenda'</xref> (pdf format).</p>
+            </div>
+            <div>
+                <head>Session Three: "User Perspectives"</head>
+                <p>Beverely Kemp The Women’s Library, London <xref type="redist"
+                        from="pdf/2006_ncse_symposium_bk.pdf">'Digital Resources for Women’s
+                        History: user perspectives'</xref> (pdf format).</p>
+                <p>Graeme Easdown Keele University <xref type="redist"
+                        from="pdf/2006_ncse_symposium_ge.pdf">'Using Digital Resources in
+                        Educational Settings: a user’s perspective'</xref> (pdf format).</p>
+            </div>
+            <div>
+                <head>2007 Symposium: Digitising Journalism</head>
+                <p>This one day symposium, held at Centre for Computing in the Humanities, King's
+                    College London on Saturday 24th February 2007, addressed issues around the
+                    digitisation of the press and gave delegates an opportunity to participate in
+                    the first <hi rend="bold">ncse</hi> user testing workshop. You can download the
+                    programme <xref type="redist" from="pdf/2007_ncse_symposium_programme.pdf"
+                    >here</xref> (pdf format).</p>
+                <p>You can download selected papers from the list below.</p>
+                <div>
+                    <head>Session One: <hi rend="bold">ncse</hi></head>
+                    <p>Laurel Brake, Birkbeck College, <xref type="redist"
+                            from="pdf/2007_ncse_symposium_lb.pdf">All Change: <hi rend="bold"
+                            >ncse</hi> in Year 2</xref> (pdf format).</p>
+                    <p>Jim Mussell and Suzanne Paylor, Birkbeck College, <xref type="redist"
+                            from="pdf/2007_nsce_symposium_jm_paper.pdf"><hi rend="bold">ncse</hi>:
+                            Digitising Journalism</xref> (pdf format). The accompanying presentation
+                        is <xref type="redist" from="pdf/2007_ncse_symposium_jm_presentation.pdf"
+                            >here</xref> (pdf format).</p>
+                </div>
+                <div>
+                    <head>Session Three: User Testing Session </head>
+                    <p>To see the user testing questionaires we distributed, click <xref
+                            type="redist" from="pdf/2007_ncse_symposium_demo1.pdf">here</xref> for
+                        the one to be used with the web demo and <xref type="redist"
+                            from="pdf/2007_ncse_symposium_demo2.pdf">here</xref> for the one to be
+                        used separately (both pdf format).</p>
+                </div>
+                <div>
+                    <head>Session Four: panel presentation "Digitising Journalis"</head>
+                    <p>Isobel Armstrong, Birkbeck College, <xref type="redist"
+                            from="pdf/2007_ncse_symposium_ia.pdf">'My Learning Curve: Reading the
+                                <hi rend="italic">Monthly Repository</hi> Before and After
+                            Digitisation'</xref> (pdf format).</p>
+                </div>
+                <div>
+                    <head>Session Six: Plenary</head>
+                    <p>Hilary Fraser, Birkbeck College, <xref type="redist"
+                            from="pdf/2007_ncse_symposium_hf.pdf">Modernity, Ephemerality and the
+                            Capture of Periodical Time</xref> (pdf format).</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI.2>
