@@ -2,7 +2,7 @@
 <!--
   SVN: $Id$
 -->
-<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- HTML TITLE -->
   <xsl:template name="ctpl_htmltitle">
@@ -45,7 +45,6 @@
     <script src="{$scriptpers}/s/jquery.accordion.js" type="text/javascript">&#160;</script>
     <script src="{$scriptpers}/s/config.js" type="text/javascript">&#160;</script>
     <script src="{$scriptpers}/s/thesaurus.js" type="text/javascript">&#160;</script>
-    
   </xsl:template>
 
 
