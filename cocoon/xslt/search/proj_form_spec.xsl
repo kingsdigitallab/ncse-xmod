@@ -102,7 +102,7 @@
 
                   <input class="f01 s01" id="field4Txt" name="field4Txt" readonly="readonly" type="text"
                     value="{if (string($text)) then $text else 'Filled from Thesaurus'}" />
-                  <a
+                  <a class="s01"
                     href="javascript:openThesaurus(document.frmSearch.field4Sel.options[document.frmSearch.field4Sel.selectedIndex].value, 
                     'field4Key-field4Txt');"
                     title="Look up a search term in the thesaurus">
@@ -130,7 +130,7 @@
 
                   <input class="f01 s01" id="field5Txt" name="field5Txt" readonly="readonly" type="text"
                     value="{if (string($text)) then $text else 'Filled from Thesaurus'}" />
-                  <a
+                  <a class="s01"
                     href="javascript:openThesaurus(document.frmSearch.field5Sel.options[document.frmSearch.field5Sel.selectedIndex].value,
                     'field5Key-field5Txt');"
                     title="Look up a search term in the thesaurus">
@@ -438,6 +438,15 @@
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+        <meta http-equiv="imagetoolbar" content="no" />
+        <meta name="abstract" content="" />
+        <meta name="author" content="" />
+        <meta name="copyright" content="Copyright (c) 2008" />
+        <meta name="date" content="{current-date()}" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="robots" content="index,follow,archive" />
+        <meta name="generator" content="xMod 1.3" />
 
         <title>
           <xsl:text>NCSE: </xsl:text>
@@ -448,28 +457,27 @@
         <link href="{$scriptswitch}/c/default.css" media="screen, projection" rel="stylesheet" type="text/css" />
         <link href="{$scriptpers}/c/personality.css" media="screen, projection" rel="stylesheet" type="text/css" />
         <link href="{$scriptswitch}/c/print.css" media="print" rel="stylesheet" type="text/css" />
-
+        
         <!-- IE browser specific css and script -->
         <xsl:comment>[if GTE IE 7]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of select="$scriptpers" />/c/compat.css"/>
           &lt;![endif]</xsl:comment>
-
+        
         <!-- script -->
         <script src="{$scriptswitch}/j/jquery-1.2.3.pack.js" type="text/javascript">&#160;</script>
-        <script src="{$scriptswitch}/j/jquery.popupwindow.min.js" type="text/javascript">&#160;</script>
         <script src="{$scriptpers}/s/jquery.dimensions.js" type="text/javascript">&#160;</script>
         <script src="{$scriptpers}/s/jquery.accordion.js" type="text/javascript">&#160;</script>
         <script src="{$scriptpers}/s/config.js" type="text/javascript">&#160;</script>
         <script src="{$scriptpers}/s/thesaurus.js" type="text/javascript">&#160;</script>
       </head>
-      <body class="v1 r3 rc0 th0 sn1" id="xmd">
-        <div class="mainContent">
+      <body class="v1 r3 pu" id="xmd">
+        <div id="mainContent">
+          <h3>
+            <xsl:value-of select="$type" />
+            <xsl:text> thesaurus</xsl:text>
+          </h3>
           <div class="form">
             <div class="t04">
               <form id="frmThesaurus" name="frmThesaurus">
-                <div>
-                  <xsl:value-of select="upper-case($type)" />
-                  <xsl:text> THESAURUS</xsl:text>
-                </div>
                 <div class="unorderedList">
                   <div class="t05">
                     <xsl:choose>
