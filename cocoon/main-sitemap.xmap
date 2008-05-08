@@ -8,8 +8,8 @@
   <!-- =========================== Pipelines ================================= -->
 
   <map:pipelines>
+    <!-- Zoomify -->
     <map:pipeline type="noncaching">
-      <!-- Zoomify popup page -->
       <map:match pattern="**/zoomify/*.html">
         <map:generate src="{global:project-path}{global:project-materials}/index.xml" />
         <map:transform src="xslt/util/zoomify.xsl" type="saxon">
@@ -19,15 +19,14 @@
         <map:serialize type="xhtml" />
       </map:match>
     </map:pipeline>
-    
-    <map:pipeline type="noncaching">
-      <!-- Search pages -->
+
+    <!-- Search -->
+    <map:pipeline>
       <map:match pattern="search/search.html">
         <map:aggregate element="aggregation">
           <map:part src="cocoon:/coreAL" />
           <map:part element="imagesAL" src="{global:project-path}{global:project-alist}/image-refined.xml" />
           <map:part element="subjectsAL" src="{global:project-path}{global:project-alist}/subject-refined.xml" />
-          <map:part src="cocoon:/reset-xsp" />
         </map:aggregate>
         <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
           <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
@@ -35,12 +34,10 @@
         </map:transform>
         <map:serialize type="xhtml" />
       </map:match>
+    </map:pipeline>
 
-      <map:match pattern="reset-xsp">
-        <map:generate src="xsp/search/reset.xsp" type="serverpages" />
-        <map:serialize type="xml" />
-      </map:match>
-
+    <!-- Search -->
+    <map:pipeline type="noncaching">
       <!-- Executes the search -->
       <map:match pattern="**/do-search">
         <map:aggregate element="aggregation">
@@ -65,8 +62,9 @@
       <map:match pattern="search/refine-search.html">
         <map:aggregate element="aggregation">
           <map:part src="cocoon:/coreAL" />
+          <map:part element="imagesAL" src="{global:project-path}{global:project-alist}/image-refined.xml" />
+          <map:part element="subjectsAL" src="{global:project-path}{global:project-alist}/subject-refined.xml" />
           <map:part src="cocoon:/refine-search-xsp" />
-          <map:part src="cocoon:/reset-xsp" />
         </map:aggregate>
         <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
           <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
@@ -161,7 +159,7 @@
       </map:match>
     </map:pipeline>
 
-    <!-- Browsing -->
+    <!-- Browse-->
     <map:pipeline type="noncaching">
       <map:match pattern="browse/index.html">
         <map:aggregate element="aggregation">
