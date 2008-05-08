@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r:RDF xml:base="http://www.cch.kcl.ac.uk/ncse/dmvi/AL_cch_dmvi_skos.rdf" xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:rs="http://www.w3.org/2000/01/rdf-schema#">
+<r:RDF xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rs="http://www.w3.org/2000/01/rdf-schema#">
   <s:Concept r:about="id:dmvi:d2e2" r:label="Periods" xmlns:s="http://www.w3.org/2004/02/skos/core#">
     <s:narrower>
       <s:orderedCollection>
