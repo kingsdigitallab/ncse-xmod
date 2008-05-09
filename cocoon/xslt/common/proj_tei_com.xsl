@@ -92,7 +92,7 @@
       <xsl:otherwise>
         <!-- Creates anchor if there is @id -->
         <xsl:if test="@id">
-          <a>
+          <a class="x02">
             <xsl:attribute name="id">
               <xsl:value-of select="@id"/>
             </xsl:attribute>
