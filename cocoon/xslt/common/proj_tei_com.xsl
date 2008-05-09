@@ -105,7 +105,10 @@
     
     <!-- Back to top -->
     
-      <xsl:if test="count(parent::body/div[not(child::div)]) >1 or count(parent::div[parent::body]/div) >1">
+    <xsl:if test="$context-id !='p0'"> 
+      
+      <xsl:if test="$context-id !='p1_1'">
+        <xsl:if test="count(parent::body/div[not(child::div)]) >1 or count(parent::div[parent::body]/div) >1">
         <xsl:choose>
           <xsl:when test="parent::body and not(child::div)">
             <div class="backToTop">
@@ -127,7 +130,7 @@
           </xsl:when>
           <xsl:otherwise/>
         </xsl:choose>
-      </xsl:if>
+      </xsl:if></xsl:if></xsl:if>
     
   </xsl:template>
 
