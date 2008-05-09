@@ -45,14 +45,12 @@
         </xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:call-template name="html_tpl" />        
+        <xsl:call-template name="html_tpl" />
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template name="ctpl_submenu">
-    
-  </xsl:template>
+  <xsl:template name="ctpl_submenu"> </xsl:template>
 
   <xsl:template name="ctpl_pagehead">
     <div class="pageHeader">
@@ -61,6 +59,24 @@
           <xsl:value-of select="$pagehead" />
         </h1>
       </div>
+
+      <xsl:choose>
+        <xsl:when test="$context-id = 'search_results'">
+          <p>
+            <xsl:text>Expand search results by clicking the '+' sign next to each search result.  This will display a list of keywords that have been assigned to the item.  You may refine your resultset by adding these terms to your query or by returning to the search form using the 'modify' or 'new' search buttons.</xsl:text>
+          </p>
+
+          <p>
+            <xsl:text>To view items in the facsimile repository, use the links provided with the bibliographic citations provided for each result.</xsl:text>
+          </p>
+        </xsl:when>
+        <xsl:when test="$context-id = 'search_form'">
+          <p>
+            <xsl:text>Use this form to search for keywords that have been assigned to items in the facsimile repository. All fields are optional; entering
+            multiple terms will produce a manageable set of results.</xsl:text>
+          </p>
+        </xsl:when>
+      </xsl:choose>
     </div>
   </xsl:template>
 
