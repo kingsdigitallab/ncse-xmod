@@ -1,51 +1,543 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TEI.2
   SYSTEM "../../../dtd/tei/cch_tei.dtd">
-  <TEI.2 id="p2_3">
-      <teiHeader status="new" type="text">
-          <fileDesc>
-              <titleStmt>
-                  <title>Leader (1850-1859)</title>
-                  
-              </titleStmt>
-              <publicationStmt>
-                  <publisher>Centre for Computing in the Humanities, King's College London</publisher>
-                  <address>
+<TEI.2 id="p2_3">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>The Leader (1850-1859)</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
                       <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
                       <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
                   </address>
-              </publicationStmt>
-              <sourceDesc default="NO">
-                  <p>No source: created in electronic format.</p>
-              </sourceDesc>
-          </fileDesc>
-          <encodingDesc>
-              <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
-          </encodingDesc>
-          <revisionDesc>
-              <change>
-                  <date>2008-03-31</date>
-                  <respStmt>
-                      <name>EL</name>
-                  </respStmt>
-                  <item>created file</item>
-              </change>
-              
-              
-          </revisionDesc>
-      </teiHeader>
-      
-      <text>
-          <body>
-              
-              <head>Leader (1850-1859)</head>
-              
-              <p>please populate</p>
-           
-          </body>
-      </text>
-  </TEI.2>
-  
-  
-  
-  
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-03-31</date>
+                <respStmt>
+                    <name>EL</name>
+                </respStmt>
+                <item>created file</item>
+            </change>
+
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <p>
+                <q>On the public advertising placards of the <title>Leader</title> now going about,
+                    the names of the following contributors…appear: -- Foxton, Larken, Kingsley,
+                    Dawson, Neale, Owen, Froude, Thornton Hunt, Holyoake, Landor, Marotti,
+                    Martineau, Manzini, Newman and others, ‘whose names are reserved for special
+                    reasons.’ Should any of these gentleman object to the mention of their names in
+                    this place --- we can only say that this is no <title>publication</title> of
+                    them; they are public already, placarded at every railway station, for anybody
+                    to see who likes. The paper is announced in obtrusively large letters as a
+                    ‘first class family newspaper,’ and as intended to ‘develop the utmost freedom
+                    of intellect, energy of production, popular power, and in the political and
+                    social relation of all the classes the paramount influence of natural affection.
+                    (‘The Social Regeneration School’, [Church] <title>Guardian</title>, 5 Nov 1851.
+                    Cited in Brick 1957, 137) <note> Earlier in the year, In January, the
+                            <title>Leader</title> had been attacked by another part of the
+                        Establishment, the Whig/Liberal quarterly, the <title>Edinburgh
+                        Review</title>.</note></q>
+            </p>
+            <p>As indicated by this <title>Guardian</title> editorial early in the
+                <title>Leader</title>’s run, the new paper managed to harbour a spectrum of
+                radicals, from Republicans to Christian Socialists in a fragile and contested weekly
+                space. The <title>Leader</title> was a mid-century, six pence weekly of 24 pages
+                which began as a radical and pervasively political paper <note>There are two
+                    excellent and informative sources on the <title>Leader</title> in addition to
+                    the journal itself, one accessible, pithy, and relatively brief and the other
+                    inaccessible, usefully detailed, and lengthy. These are respectively by
+                    Christopher Kent in (Sullivan 1984), and by Allan Brick whose Yale dissertation
+                    on the <title>Leader</title> submitted in 1957 is available on microfilm (Brick
+                    1957). Readers may glean a profile of the paper from Kent’s entry in Sullivan.
+                    In this piece I have tried to write an account that reflects our work on the
+                    title in <hi rend="bold">ncse</hi>.</note>, with its ‘master principle’ ‘the
+                right of every opinion to its own free utterance’. Dedicated to publication of
+                ‘actual opinion’ rather than policed, acceptable views, it vowed to offer ‘free
+                utterance to the most advanced opinion’ in its <xref type="external"
+                    url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=LDR%2F1850%2F03%2F30&amp;page=22&amp;entityid=Ar02201&amp;view=entity"
+                    >manifesto</xref> (22). In the same document it identified itself as ‘A Weekly
+                Newspaper’ and, although in July 1855 its subtitle became <title>A Political and
+                    Literary Review</title> (1855-1858)<title>,</title> it was only under new titles
+                in 1860, that it renounced its newspaper status and became a full-fledged
+                    Review<note>In an advertisement in the issue for <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=LDR%2F1859%2F12%2F31&amp;page=13&amp;entityid=Ar01306&amp;view=entity"
+                        >31 December 1859</xref> they claim it ‘will consist entirely of original
+                    articles […] the character of a newspaper will be so far abandoned that nothing
+                    will be admitted but a specially written analysis and record of all the
+                    political, literary, scientific, and artistic accounts of the week’.</note> Its
+                three titles after 1858 – the <title>Leader: A Political, Literary, Commercial and
+                    Family Weekly Newspaper, and Record of Joint Stock Companies</title> (Jan-Dec
+                1859), the <title>Leader and Saturday Analyst</title> (January-June 1860) and the
+                    <title>Saturday Analyst and Leader</title> (July-December 1860) indicate its
+                struggle to survive. This transformation within a decade is perhaps the most extreme
+                testimony of the dynamics of change that characterised the <title>Leader</title>’s
+                run, a pattern which may be seen as typical in the nineteenth-century of many and
+                possibly most serial titles when they are scrutinised closely. An example of
+                stability and longevity such as the <title>Spectator</title>, achieved by the
+                unusual tenure of its editors<note>Its first editor, Robert Rintoul, who was also a
+                    founder served 30 years, 1828-1858, and then from 1861 to 1897 Meredith Townsend
+                    and R H Hutton presided for over 35 years, as Political and Literary Editor
+                    respectively.</note> is the exception rather than the rule. </p>
+            <p>As for the <title>Leader,</title> within ten years it had five (possibly six)
+                editors, five titles, five printers and four publishers. While there are a number of
+                explanations for its rocky fortunes, they tend to be historical or generic, and not
+                applicable to the <title>Leader</title> alone. They include the peculiar tensions of
+                radical papers, such as internal ideological disagreements, dearth of advertising
+                and a paucity of financial backers. At its launch, the moment seemed auspicious for
+                new directions in the radical press. At the tail end of Chartism<note>The
+                        <title>Northern Star</title>, the Chartist weekly, endureduntil 1852, and
+                    its overlap with the <title>Leader</title> affords an interesting view of the
+                    old guard and the new; Thornton Hunt and George Holyoake, two of the founders of
+                    the <title>Leader</title> knew each other from the Chartist Committee, on which
+                    they both still served when the <title>Leader</title> began.</note>, the
+                    <title>Leader</title> could stage fresh campaigns for suffrage, universal
+                education, and working class rights. However, the Crimean War (1853 / 54-1856) gave
+                an impetus to the <title>daily</title> press, with its new technology of ‘instant’
+                reporting, the telegraph. Unstamped ‘War Telegraph’ newspapers appeared in a number
+                of British cities, including one published by G. J. Holyoake, a founder of the
+                    <title>Leader,</title> and daily or thrice weekly news sheets pipped the
+                weeklies in feeding the appetite for ‘news’. The other function of the weeklies,
+                    <title>interpretation</title> of the news might well suffer under the pressure
+                for hard news of a society at war. This problem of the incursion of the
+                proliferation of dailies on the functions of the weeklies did not disappear with the
+                cessation of the war, and eventually was the basis for the remodelling of the
+                    <title>Leader</title> in 1860. </p>
+            <p>Half way through its run, the <title>Leader</title> also coincided with a significant
+                upheaval in the market induced by the repeal of the Stamp Duty in June1855. This
+                resulted not only in a cheaper press, but a proliferation of weekly papers in
+                general. Specifically for the <title>Leader</title>, two new, cheap, repeal-related
+                rivals appeared. The two pence (and quickly one penny) <title>Daily Telegraph
+                </title> was edited at first by Thornton Hunt, a former founder / editor of the
+                    <title>Leader</title>. The cheeky, splenetic Tory<title> Saturday Review</title>
+                set its ambitions high, seeking to invigorate the genre, become the <title>Times
+                </title> of the weeklies, and capture the bulk of this niche market – and it
+                succeeded in all three. While the cost of the <title>Leader</title> went down after
+                repeal, from 6d stamped to 5d unstamped, the novelty and liveliness of the two new
+                titles were powerful attractions. Both overlapped with the coverage of the
+                    <title>Leader,</title> with Hunt taking care to add art and literary coverage to
+                the new daily paper, and the <title>Saturday</title> specifically stating that it
+                was a <title>Review of Politics, Literature, Science and Art,</title> a sub-title
+                that mapped directly onto the subjects of the <title>Leader</title>.</p>
+            <p>In March 1850, with its three ruled columns and folio format, its appearance was
+                unmistakably newspaper-like, and at least from 13 April1850 – and probably from the
+                beginning, it articulated its strong link to news and orientation to the newspaper
+                press with respect to time by publishing more than one edition of each weekly issue<note>
+                    <p>[footnote 6 text] Although there is no second edition for issue three of the
+                            <title>Leader</title> in the British Library (and so it is also absent
+                        from <hi rend="bold">ncse</hi>), a second edition of issue threee is
+                        referred to in issue four, 20 April, just below the <xref
+                            url="http://137.73.123.44/KingsCollege/Default.htm?href=CLD%2F1850%2F04%2F20&amp;page=10&amp;entityid=Ar01001&amp;view=entity"
+                            >Postscript</xref> heading (p. 82).</p>
+                </note>. As a newspaper carrying news before the disappearance of the Newspaper
+                Stamp Duty, it was stamped, which offers us insight into its circulation figures
+                until repeal<note>Mitchell’s Newspaper Press Directory 1855 for 1856 includes stamp
+                    returns for the Leader as follows: 1851: 115, 000; 1852: 98,000; 1853
+                120,000.</note>. Like a newspaper it had no cover and its masthead topped page one,
+                with its number, date and price below. However, unlike many newspapers of the day,
+                until 1859 it confined its advertising to the back pages, and the masthead and date
+                line were followed by a list of the contents in tabular form with pagination.
+                Immediately below the table was the first department; again, newspaper-like, it was
+                news-oriented: the ‘News of the Week’ was rounded off by a ‘Stop Press’ column
+                called ‘Postscript’, and this tended to be followed by ‘Public Affairs’, a more
+                interpretative space and the second major department in the front half of the
+                journal. Other newspaper elements, at the back of the journal, included commercial
+                news and prices from the exchanges, and ‘Register’ information of births, marriage
+                and deaths. Although these persistent elements of the <title>Leader</title> may
+                appear alien to our present-day notions of weeklies, they are instances of types of
+                information – the <title>news</title> of the latest prices and the <title>record
+                </title> of parish facts – associated with the earliest contents of
+                    newspapers<note>The presence of these sections seems particularly vulnerable to
+                    change over the run, ranging as it does from minimal traces to highly developed
+                    departments. A study of these variations and their relation to the vision and
+                    fortunes of the paper over the decade might prove very interesting.</note>.</p>
+            <p>In 1850, at the same time as promulgating its <title>bona fide</title> newspaper
+                identity, its coverage was dual, including aspects of contemporary culture such as
+                the arts, science and social science as well as political news. Imitating the
+                structure of its primary rival at the time, the <title>Spectator</title>, the
+                    <title>Leader</title> divided its 24 pages roughly in the middle, with the front
+                half politics and much of the back half review. This was already a conventional
+                format, evident in Leigh Hunt’s <title>Examiner</title> (1808 ff) as well as the
+                    <title>Spectator</title>, and one adopted by its future rival<title>,</title>
+                the <title>Saturday Review</title> (1855ff). Such weeklies were hybrids, as the
+                usage of the words ‘review’ and ‘newspaper’ in the <title>Leader’s</title> own
+                descriptors implies. This genre of weekly publication combines an orientation to
+                politics and the past week that links it generically to newspapers,
+                <title>and</title> coverage of current books, performance and science that links it
+                to (monthly or quarterly) unstamped Reviews, but also to a weekly such as the
+                unstamped <title>Athenaeum</title>, which eschewed politics and exclusively covered
+                contemporary culture. Interestingly, the <title>Leader</title> formally signalled
+                its links to the reviews in its back half by its page layout and typography.
+                Initially only the innovative ‘Portfolio’ department, devoted to poetry, fiction,
+                and essays<note>Its contents were selected by George Henry Lewes during his tenure
+                    as Literary Editor at the journal, 1850-1854.</note>, was printed in a
+                review-like two columns rather than three, but from 14 Feb 1852, this format was
+                also adopted for the rest of the arts coverage, reverting to three columns for the
+                Commercial news and adverts. The other significant variation of format between the
+                two parts of the paper is the size of the font: that the font of the political half
+                is larger than that of the culture half suggests, again conventionally for the
+                newspaper press at the time, a hierarchy of significance, with political news taking
+                precedence over all other types of copy. Nevertheless, as the manifesto and
+                subsequent adverts state, the founders and editors of the <title>Leader</title> were
+                as interested in the cultural half of the journal and its quality as they were in
+                the avowedly political front, and their initial organisation of the conduct of the
+                paper attests to this: it involved two editors, a political editor (Thornton Hunt)
+                and a literary editor (G H Lewes).</p>
+            <p>Despite the division of labour, the <title>Leader</title> was a radical paper from
+                its beginning to its demise<note>Its commitment to reform is evident, for example,
+                    in the tone and subject matter of two anonymous pieces in 1860, its attack on
+                    the new <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=LDR%2F1860%2F01%2F07&amp;page=18&amp;entityid=Ar01801&amp;view=entity">
+                        <title>Cornhill Magazine</title>
+                    </xref>, and its vehement critique of a pamphlet on the perils of life
+                    insurance, in a <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=SLDR%2F1860%2F04%2F14&amp;page=1&amp;view=document"
+                        >supplement</xref> devoted to this topic in April. An advert in the
+                    Supplement for ‘An Essay on Life Insurance’ by one H. W. Porter, B.A. may
+                    indicate the author of the Supplement piece.</note>, and its politics pervaded
+                the whole. The bleeding of the politics of the front half into the back was
+                indicated in the Department that was located from 1850 at the point of transition
+                between the two parts and, for a few years was indicated graphically by a woodcut of
+                a <xref type="external"
+                    url="http://137.73.123.44/KingsCollege/Default.htm?href=LDR%2F1850%2F03%2F30&amp;page=12&amp;entityid=Ar01208&amp;view=entity"
+                    >winged lion</xref> (not a griffin), possibly an ornament to hand of the
+                printers, Palmer and Clayton. Called ‘Open Council’, it was prefaced with an
+                epigraph from Milton’s ‘Of True Religion, Heresy, Schism, Toleration’ that made the
+                argument for free expression of contrary opinions. It also echoed, silently, a
+                principle of more recent radical journalism, whereby John Stuart Mill and his
+                fellows in the <title>London Review</title> in 1835, advocated signature in an
+                effort to reveal the variety of opinion that the editorial ‘we’ of the earlier
+                    <title>Westminster Review</title> denied. Returning the compliment, John
+                Chapman, who became the proprietor-editor of the <title>Westminster</title> soon
+                after the <title>Leader</title> was launched, replicated the <title>Leader</title>’s
+                version of this tradition and introduced into his new property an ‘Independent
+                Section’, which appeared sparsely and intermittently from 1852 to 1854, and again
+                after 1867. The <title>English Woman’s Journal</title> also followed the
+                    <title>Leader,</title> by adopting the title ‘Open Council’ for its
+                Correspondence columns in 1858. The point here is the continuity of the radical
+                tradition in the press, in which the <title>Leader</title> placed itself,
+                reflexively, and in which it was seen by others. That said, the extent and nature of
+                this department changed over the run of the <title>Leader</title>, from a platform
+                for signed mini-essays, which were treated as serious contributions, equal to staff
+                pieces, in the early years, to its diminution, shorn of its graphic logo from
+                October 1853, and confined to short letters to the editor. In 1850 the editors took
+                care to get this feature right, and successive <xref type="external"
+                    url="http://137.73.123.44/KingsCollege/Default.htm?href=LDR%2F1850%2F04%2F13&amp;page=12&amp;entityid=Ar01202&amp;view=entity"
+                    >notes to correspondents</xref> appear adjacent to the column, addressed to
+                future contributors in general, and to present hopefuls often with admonitions: ‘To
+                the letter signed “B” we have given insertion, although the length made us hesitate.
+                So able a writer might have made it shorter […].’ </p>
+            <p>As for readership, the 1850 manifesto identified it as ‘All classes, the People’, an
+                aspiration that matched its radical orientation. However, by early 1851 its
+                untenable claim in Mitchell’s <title>Newspaper Press Directory</title> to comprise
+                ‘A Complete, First-class Family Newspaper’ bears out Brick’s suggestion that by this
+                date the <title>Leader</title> was in financial trouble (Brick 1957, 203). This bid
+                to increase circulation and to widen its advertising base also seems calculated to
+                try and address more generally its growing reputation as a wildly radical journal,
+                as seen in the epigraph from the <title>Guardian</title> above. This desire (and
+                perhaps the necessity) to assure advertisers and readers survived through 1855 when,
+                again in Mitchell’s, it assures its advertiser-readers that the <title>Leader
+                </title> ‘excludes all objectionable Advertisements; and its condensation of Police
+                cases and Criminal Records carefully expunges all offensive details’ (Mitchell 1855,
+                    93)<note>It invites the unexpected comparison of the Leader with the
+                        <title>Cornhill Magazine</title> (1860ff) which, under the direction of
+                    Thackeray in 1860, geared its contents from the outset to the alleged
+                    sensibilities of women and children. In fact, the Leader’s stance in the
+                    advertising directories causes us to reconsider the overlap of contributors
+                    between the two titles, notably G.H. Lewes.</note>. While the back half of the
+                journal with its arts coverage and original literary pieces in ‘Portfolio’ might be
+                expected to attract women readers – thus explaining this boast of self-censorship
+                and respectability – the concomitant politics of the journal would have functioned
+                as a barrier to most women who, deprived of the vote and holding of any office, saw
+                domestic politics as alien and unengaging. So, although Harriet Martineau and Marian
+                Evans contributed to the journal (anonymously), the <title>Leader</title> probably
+                had few women readers. </p>
+            <p>Another attempt to broaden its readership to a different constituency and to enhance
+                its circulation more generally is detectable in advertisements of 1855, in which the
+                    <title>Leader</title> recommends itself to journalists and editors for ‘scissors
+                and paste’ journalism, commonplace at the time. This involves the (invisible)
+                incorporation of copy from one title into another, and <title>Leader</title> texts
+                are touted as reliable and easily customised<note>The advert for the
+                    <title>Leader</title> in Mitchell’s <title>Newspaper Press Directory</title>
+                    explains ‘the particular mode of compiling the news offers great facility for
+                    expanding such portions as may be most interesting, while no matter
+                    indispensable to completeness is omitted’ (Mitchell 1855, 93).</note>. As a
+                rising and burgeoning profession, journalism was relatively reflexive in this
+                period, especially after 1855, and the <title>Leader’s</title> address to fellow
+                journalists both as readers and potential disseminators of its message is part of
+                this wider self-consciousness. </p>
+            <p>As a paper of reform written by radicals the <title>Leader</title> comes to this
+                discourse with the 1830s call for universal education and ‘the march of intellect’
+                still clearly in view, for which print culture is the medium. The campaign against
+                newspaper taxes, which were called ‘taxes on knowledge’ in this discourse was a
+                cause that fuelled the paper up to 1855, to which numerous articles, reports, and
+                adverts on these subjects in the <title>Leader</title> testify<note>The Committee
+                    for Repeal is ubiquitous in its pages, which become understandable when it is
+                    realised that Thornton Hunt was among its founders.</note>. Its regular
+                deployment of quotations or mottos, in the masthead, and attached to departments
+                like ‘Public Affairs’, ‘Open Council’ and ‘Literature’ likewise stems its intent to
+                educate its readers on the model of the <title>Examiner</title>, as well as from its
+                self-conscious identification with politics or ‘positions’. Like
+                <title>Chambers</title>’ <title>Edinburgh Journal</title> (1832ff), it also informs
+                its readers self-consciously of certain in-house developments such as change of
+                format, publishers, titles, etc. This is of great interest to students of the press,
+                and in a publication of this sort, one can often connect formal changes in the
+                journal with its commercial or editorial history. Here, for example, the date of the
+                re-formatting of the second half of the paper on 14 February 1852 may be linked with
+                the contents of its note ‘To Our Subscribers and Agents’ on <xref type="external"
+                    url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=LDR%2F1852%2F02%2F07&amp;page=24&amp;entityid=Ad02418&amp;view=entity"
+                    >7 February</xref>, in which the sacking of its deputy publisher Mr John Clayton
+                due to irregularities in delivery is announced, along with the advent of new paper
+                and new type in the next issue. </p>
+            <p>A glimpse of the potential reach of the readership, the location of reading, and a
+                profile of the industry in 1850 may be caught in an advertisement for a newsagent
+                that appeared in the first number of the <title>Leader.</title> Under the heading
+                    <xref
+                    url="http://137.73.123.44/KingsCollege/Default.htm?href=LDR%2F1850%2F03%2F30&amp;page=24&amp;entityid=Ad02410&amp;view=entity"
+                    >‘The Earliest Newspaper Office’</xref> appears the following, for A. Dyson,
+                agent for the <title>Leader</title>: </p>
+            <p>
+                <q>To Gentleman, Merchants, Professional and Commercial Men, Publicans,
+                    Beer-sellers….All the Daily, Weekly and other Newspapers, the Cheap Editions of
+                    Standard Works in all Departments of Literature, the Magazines, Reviews,
+                    Medical, Scientific, and Political Journals, Railway Guides, and all other
+                    productions of the press punctually supplied immediately on publication [….]
+                        <title>The Leader</title> [<hi rend="italic">…</hi>] particularly adopted
+                    for Coffee and Reading-Rooms, and for Family Reading. (24)</q>
+            </p>
+            <p>Notable for its identification of London-based communal reading locations such as
+                public houses, Coffee and Reading-Rooms, and Beer Halls as potential reading
+                locations for the <title>Leader,</title> the advert is also indicative that the
+                    <title>Leader’s</title> aim for family readership was present from the start.</p>
+            <p>One opportunity for enhancing its readership was probably not pursued sufficiently,
+                and that was its readership outside London. We know from several sources that Lewes
+                was delegated to travel to the North during the period of the formation of the
+                journal to raise capital for its launch. This he duly did, and the question arises
+                how this element of the readership was served during the <title>Leader</title>’srun.
+                As early as 1 February 1851 G.J. Holyoake began to contribute ‘Letters to
+                Chartists’, a series of critical if conversational articles to the <title>Leader’s
+                </title> ‘Democratic Intelligence’ department, under the pseudonym of Ion, which he
+                had transferred from his former paper, the <title>Spirit of the Age</title>.
+                Disapproval from the <title>Northern Star</title> ensued, as Holyoake (and the
+                    <title>Leader</title>'s editor Thornton Hunt), still sat on the Chartist
+                Executive, and readers in the North were alerted. So, there were ideological
+                problems between the <title>Leader</title> and a spokesman of the North, as well as
+                the issue of the <title>Leader</title>'s distribution.</p>
+            <p>We have surmised that from 1850 two editions for each date appeared, an early
+                edition, called a Country edition from January 1851 to 5 February 1853, which made
+                the Friday trains for shipping to regional newsagents so that it could be delivered
+                and read on the date on its masthead, and a later edition published at 1:30 pm
+                Saturday, called the Town Edition, in existence for the same period as the ‘Country
+                Edition’, which was intended for circulation in London, where the <title>Leader
+                </title> was printed. But distribution seemed imperfect from the start, as a note
+                    <xref
+                    url="http://137.73.123.44/KingsCollege/Default.htm?href=CLD%2F1850%2F05%2F25&amp;page=9&amp;entityid=Ar00903&amp;view=entity"
+                    >‘To Correspondents’</xref> in issue 9 states, and a note of 6 December 1851
+                reiterates, setting out the advantages and disadvantages of each edition and asking
+                readers to <title>choose</title>. Early in 1852, its printer (Clayton) was sacked in
+                part for distribution problems and irregularities. This series of iterations of
+                distribution problems finally results in a note to subscribers in the issue of 5
+                February 1853 giving testy notice of the <title>cancellation</title> of the two
+                editions, and their amalgamation into one, to be printed on Saturday. So ‘Country’
+                readers have the choice made for them: they will get the full week’s news, but two
+                days late. The <title>Leader</title>’s solutions to its distribution problems at
+                every turn endorsed the dominance of the metropolitan centre with its timely access
+                to news and the distance from the centre and <title>its</title> news of the
+                ‘Country’. For more on the multiple editions, click <xref type="internal"
+                    from="p5_6">here</xref>.</p>
+            <p>Tacitly dictated by financial problems, the disappearance of the two editions is
+                publicly attributed to the weight of the disadvantages over the advantages, without
+                stating in detail what they were. They were various and complex. 1852 had proved a
+                difficult year for the <title>Leader</title> financially and ideologically.
+                Financial problems had arisen as early as June 1851 and many of its Northern backers
+                had withdrawn late that year, due to the financial risk. At the same time Edward F.
+                S. Pigott, a man of 27, to whom the first concept of the <title>Leader</title> has
+                been attributed<note>Kichel (1933, 64) attributes ‘the actual formulation of the
+                    scheme’ to Pigott, ‘an Oxford man […] well known in journalistic circles.’ His
+                    idea was to found a paper based on <title>Galignani’s Messenger</title>, with
+                    ‘no special reports of particular events, merely combining in its articles and
+                    paragraphs some information with considerable critical comment.’</note> salvaged
+                the paper by purchasing a controlling share. In January 1852 he took over the
+                editorship from Hunt; by 19 June he was forced to reduce all salaries of
+                    <title>Leader</title> staff (Brick, 1957, 203–4). In April Holyoake went north
+                to lecture. Public and private quarrels among the radicals arose that summer, with
+                George J. Harney in July, W.J. Linton, and even Thornton Hunt, now no longer the
+                editor, objecting in September to the <title>Leader’s</title> attack on the
+                    <title>Red Republican</title>. Brick judges that these ideological battles cost
+                the <title>Leader</title> more of its Northern readers (1957, 219).</p>
+            <p>Change and turmoil at the centre continued, as soon afterward, in October 1852 Pigott
+                introduced into the <title>Leader</title>'s columns a talented parliamentary
+                reporter, Edward Whitty who, by 21 July 1853 was installed as editor. Lasting just
+                under a year, until spring 1854, Whitty was not popular with staff: his conservative
+                politics and Catholic orientation alienated Holyoake, and prompted Harriet Martineau
+                and Francis Newman to withdraw support. Whitty having left ignominiously<note>Whitty
+                    published a novel, <title>Friends of Bohemia, or Phases of London Life</title>
+                    in 1857. Its acerbic account of the Leader in chapter 23 earned an angry review
+                    in the Leader on <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=LDR%2F1857%2F03%2F07&amp;page=19&amp;entityid=Ar01900&amp;view=entity"
+                        >7 Mar 1857</xref>, and a more favourable piece in the Athenaeum on the same
+                    date.</note>, Pigott was back in harness by 22 March. Movement of key figures
+                from the centre continued: Lewes left in July 1854 for Germany with Marian Evans,
+                and by 1855 Thornton Hunt was editing a new daily. Beset by the left, by the
+                    Liberals<note>In an article in the January 1851 issue of the <title>Edinburgh Review</title>,
+                    W.R. Greg attacked in a piece, ‘English socialism and communistic assosications’
+                    (Anonymous [W.R. Greg] 1851, 1-33).</note>, and the right, the
+                position of the <title>Leader</title> was never easy. </p>
+            <p>The staff, founders, and backers of the <title>Leader</title> were for the most part
+                experienced journalists from different facets of the radical camp. Thornton Hunt,
+                son of Leigh Hunt, editor of the <title>Examiner</title> (1808-1821) and latterly of
+                the <title>Monthly Repository</title> (1837-1838) had spent years in prison with his
+                father as a child; he came to the <title>Leader</title> as an experienced journalist
+                from the <title>Spectator,</title> seeking a space offering freedom of expression.
+                Hunt was also socially radical, living in a succession of communes in which
+                free-union was advocated by some residents. G J Holyoake, a co-founder, had been
+                jailed for blasphemy in 1842 as an atheist, and had edited short-lived, radical
+                newspapers, such as <title>Cause of the People</title> (1848) with W.J. Linton (a
+                Republican and another of the <title>Leader</title> founders), <title>Spirit of the
+                    Age</title> (1849), and <title>People’s Review</title> (1850). One of the
+                    <title>Leader</title>'s principal backers was a radical clergyman, Edmund
+                Larken, who had translated George Sand. Among the minor shareholders were George
+                Dawson, a radical preacher and Republican orator, Richard Congreve, a Comtian
+                clergyman, and several printers, including Palmer and Clayton, printers of the
+                    <title>Leader</title> who also printed the <title>Spectator</title>. G.H. Lewes
+                came to the <title>Leader</title> as an experienced journalist of ten years’
+                duration, mentored by J.S. Mill and a longstanding friend of Thornton Hunt. Author
+                of a history of philosophy published by Charles Knight and of two novels, Lewes’s
+                diverse areas of interest were continental philosophy including Comte, German
+                literature, drama, and science. Not only did the staff of the <title>Leader</title>
+                have diverse antecedents which tied them to earlier print titles and political
+                movements, but many of them went on from the <title>Leader</title> in this central
+                decade of the century to important roles in other well-known press titles: Hunt to
+                edit the <title>Daily Telegraph</title> and the <title>Spectator,</title> Lewes to
+                contribute to the <title>Westminster Review</title>, to contribute to and help edit
+                the <title>Cornhill</title>, and to found and edit the <title>Fortnighly</title>.
+                From 1874 Pigott became an unpopular Examiner of Plays, who disliked Ibsen and was
+                in turn disdained by Shaw and Wilde. </p>
+            <p>Pigott’s tenure as editor (and proprietor) of the <title>Leader,</title> 1852-July
+                1853, March 1854-May 1858 makes him its most stable and long-lived associate, who
+                only sold the title in 1858 because he could no longer sustain the losses. Among his
+                changes of policy was to relax the anonymity, which had been the rule in its first
+                two years; the youthful Wilkie Collins had his first regular employment from Pigott;
+                other renowned contributors over the run include Marian Evans, Harriet Martineau,
+                Francis Newman, and Herbert Spencer. Much of Lewes’s best work appears here.
+                However, it is reductive to view, much less assess the <title>Leader</title> through
+                the filter of individuals, whether they are editors, proprietors or contributors.
+                While sales reveal the verdicts of readers of the day, subject as they are to
+                rivals, war, politics, and economic factors, later students of the press should not
+                be beguiled by others’ judgments of the ‘strength’ of the journal in its first,
+                radical years, its ‘falling off’ under Pigott, etc. We need to look at the whole
+                run, and diverse sources of meaning which, for us, is differently defined and from a
+                different perspective than that of the original readers. With respect to its
+                ‘contents’, it does have a variety of strengths – detailed commentary from radical
+                perspectives of day-to-day national, international and local (London) politics;
+                regular coverage of and intermittently dedicated departments for science, foreign
+                literature, and social science; high quality and appreciative reviews of Anglophone
+                literature, for example, <title>Wuthering Heights, Moby Dick, In Memoriam, </title>
+                Thackeray’s fiction, Jane Austen, and a critique of Dickens’s bad science in
+                    <title>Bleak House</title>; and an assiduous coverage of the London theatre,
+                especially 1850-1854, when Lewes, writing as ‘Vivian’, was reviewing it. Other
+                particular series of articles, or columns are similarly outstanding, such as
+                Holyoake’s letters to Chartists, and the concomitant ‘Letters to Unitarians’.</p>
+            <p>Conventionally defined ‘contents’ remain only part of its meaning. Paratextual
+                material such as the wrappers, the adverts, the mastheads, the imprints, the timing
+                of Supplements, the mottoes, the ‘Notes to Subscribers’, the ‘Tables of Contents’,
+                the multiple editions, and the indexes are all of moment. The advertising in the
+                    <title>Leader</title> is not only remarkably robust, but <title>its </title>
+                contents is richly informative about the intellectual and political context of the
+                paper, as well as its financial status. The shakier the funding, the more adverts
+                for patent medicines; but adverts are also closely linked with other forms of copy,
+                and affiliations of the current staff. For example, Thornton Hunt was the founder of
+                the Committee for Repeal of the Newspaper Taxes which advertises frequently in the
+                period up to 1855.</p>
+            <p>The <title>Leader’s</title> annual indexes offer both a detailed account
+                <title>and</title> digestible oversight of the structure and weighting of the paper
+                in the last 12 months, but also a review of the political and cultural year, keyed
+                in to commentary on it, geared to journalists at the time, and also of use to later
+                scholars and historians such as ourselves. The internal structure and organisation
+                mapped in the Index also repays further investigation over the run: the evolving
+                vision of the whole; changing departments (their appearance and disappearance, and
+                the waxing and waning of those that survive); the weighting of different elements of
+                the weekly; how the absence, departure or arrival of individuals – contributors,
+                editors, proprietors – affects contents and policy; and the influence on them of
+                changing finances. Given the richness of the archive with respect to the
+                    <title>Leader</title>,the title is open to this type of complex analysis, as
+                Brick’s invaluable work indicates. </p>
+            <p>The endgame of the <title>Leader</title> is also of real interest. This was
+                    <title>not</title> a merger; there was no former existence of the
+                    <title>Saturday Analyst</title> before this title was appended to the original
+                and well-known trade mark, initially as a sub-title, and then as the main title.
+                Brick suggeststhat the final vision of the <title>Leader</title> is its successful
+                rival, the new title invoking the <title>Saturday Review</title>, with which by this
+                time Pigott was editorially connected (1857, 258). In a final effort to survive, the
+                Tomlins (the new proprietors of the <title>Leader</title>),reject the function of a
+                weekly paper to disseminate news that was originally adopted in 1850. Arguing that
+                weekly <title>news</title>papersare old-fashioned and no longer viable, an
+                explanatory <xref
+                    url="http://137.73.123.44/KingsCollege/Default.htm?href=LDR%2F1859%2F12%2F31&amp;page=13&amp;entityid=Ar01306&amp;view=entity"
+                    >note to subscribers and agents</xref>
+                in 1859 points to the rapid dissemination of news by the proliferating dailies and
+                the telegraph, which combine to render weekly news sheets redundant. Rather,
+                weeklies should be reviews, it concludes,adopting the case and the model of the
+                    <title>Saturday Review,</title> which in 1855 had itself self-consciously set
+                out to re-invigorate and rethink the weekly as a form. The <title>Leader </title>
+                from start to finish seems imbricated in nineteenth-century journalism and, given
+                its origins in one journal, <title>Galignani’s</title>, it is appropriate to find
+                its demise modelled on another. </p>
+            <div>
+                <head>The <title>Leader</title> in ncse</head>
+                <p>This edition of the <title>Leader</title> is sourced from the hard copy located
+                    in the British Library’s newspaper collections at Colindale. Initially, we were
+                    going to draw on extant microfilm at the British Library for March 1850–July
+                    1854, and then create new film for 1855-1860. However, on reviewing the tiff
+                    images that were produced from the microfilm, we found that some of the multiple
+                    editions had not been included. With the cooperation of the Biritsh Library we
+                    created new microfilm from the hard copy for 1850-1854. The only exception to
+                    this was the first half (January-June) of 1854. We were unable to locate the
+                    volume for 1854, and so had to use the existing microfilm for the first portion
+                    of the year. </p>
+            </div>
+            <div>
+                <head>Works Cited</head>
+                <listBibl><bibl>Anonymous [W.R. Greg], 1851, <title>Edinburgh Review</title>, 1–33.</bibl>
+                <bibl>Brick, Allan, 1957, ‘The <title>Leader</title>: Organ of Radicalism’, unpublished
+                    PhD thesis (Yale University).</bibl>
+                <bibl>Kichel, Anna T., (1933), <title>George Lewes and George Eliot. A Review of the
+                        Records</title>, (New York: John Day Co.).</bibl>
+                <bibl>McCabe, Joseph, 1908, <title>The Life and Letters of G J.Holyoake</title>,
+                    (London: Watt and Co.).</bibl>
+                <bibl>Mitchell, Charles, ed., 1855, <title>Mitchell’s Newspaper Press Directory</title>
+                    (London)</bibl>
+                <bibl>Sullivan, Alvin, ed., 1983, <title>British Literary Magazines</title>, 4 vols
+                    (Wesport, Connecticut: Greenwood).</bibl>
+                <bibl>Collins, W., 2005, <title>The Public Face of Wilkie Collins. Collected Letters,
+                    </title> ed. by W. Baker, Andrew Gasson, G. Law, and Paul Lewis, 4 vols (London:
+                    Pickering and Chatto).</bibl>
+                <bibl>Kent, Christopher, 1984, ‘The Leader’, in <title>British Literary Magazines,
+                    </title> ed. by A Sullivan, vol. 3, ‘The Victorian and Edwardian Age, 1837-1914’
+                    (Westport, CT: Greenwood), 185-189.</bibl>
+                <bibl>Whitty, Edward, 1857, <title>Friends of Bohemia, or Phases of London Life</title>
+                    (London: Smith, Elder and Co.)</bibl></listBibl>
+
+
+               
+                <p>Laurel Brake</p>
+            </div>
+        </body>
+    </text>
+</TEI.2>
