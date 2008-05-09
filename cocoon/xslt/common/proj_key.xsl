@@ -28,7 +28,7 @@
       </xsl:if>
     </title>
 
-    <!--<link rel="shortcut icon" href="{$scriptpers}/i/customicon.ico"/>-->
+    <link rel="shortcut icon" href="{$scriptpers}/i/favicon.ico"/>
 
     <!-- CSS calls -->
     <link href="{$scriptswitch}/c/default.css" media="screen, projection" rel="stylesheet" type="text/css"/>
@@ -36,7 +36,8 @@
     <link href="{$scriptswitch}/c/print.css" media="print" rel="stylesheet" type="text/css"/>
 
     <!-- IE browser specific css and script -->
-    <xsl:comment>[if GTE IE 7]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of select="$scriptpers"/>/c/compat.css"/> &lt;![endif]</xsl:comment>
+    <xsl:comment>[if GTE IE 6]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of select="$scriptpers"/>/c/compat_MSIE_6_0_lte.css"/> &lt;![endif]</xsl:comment>
+    <xsl:comment>[if GTE IE 7]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of select="$scriptpers"/>/c/compat_MSIE_7_0_gte.css"/> &lt;![endif]</xsl:comment>
 
     <!-- script -->
     <script src="{$scriptswitch}/j/jquery-1.2.3.pack.js" type="text/javascript">&#160;</script>
