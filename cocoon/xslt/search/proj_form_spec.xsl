@@ -438,30 +438,36 @@
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <meta content="text/html; charset=utf-8" http-equiv="content-type" />
-        <meta http-equiv="imagetoolbar" content="no" />
-        <meta name="abstract" content="" />
-        <meta name="author" content="" />
-        <meta name="copyright" content="Copyright (c) 2008" />
-        <meta name="date" content="{current-date()}" />
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <meta name="robots" content="index,follow,archive" />
-        <meta name="generator" content="xMod 1.3" />
+        <meta content="no" http-equiv="imagetoolbar" />
+        <meta content="" name="abstract" />
+        <meta content="" name="author" />
+        <meta content="Copyright (c) 2008" name="copyright" />
+        <meta content="{current-date()}" name="date" />
+        <meta content="" name="description" />
+        <meta content="" name="keywords" />
+        <meta content="index,follow,archive" name="robots" />
+        <meta content="xMod 1.3" name="generator" />
 
         <title>
           <xsl:text>NCSE: </xsl:text>
           <xsl:value-of select="$type" />
           <xsl:text> thesaurus</xsl:text>
         </title>
+
+        <link href="{$scriptpers}/i/favicon.ico" rel="shortcut icon" />
+
         <!-- CSS calls -->
         <link href="{$scriptswitch}/c/default.css" media="screen, projection" rel="stylesheet" type="text/css" />
         <link href="{$scriptpers}/c/personality.css" media="screen, projection" rel="stylesheet" type="text/css" />
         <link href="{$scriptswitch}/c/print.css" media="print" rel="stylesheet" type="text/css" />
-        
+
         <!-- IE browser specific css and script -->
-        <xsl:comment>[if GTE IE 7]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of select="$scriptpers" />/c/compat.css"/>
-          &lt;![endif]</xsl:comment>
-        
+        <xsl:comment>[if GTE IE 6]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of select="$scriptpers"
+           />/c/compat_MSIE_6_0_lte.css"/> &lt;![endif]</xsl:comment>
+        <xsl:comment>[if GTE IE 7]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of select="$scriptpers"
+           />/c/compat_MSIE_7_0_gte.css"/> &lt;![endif]</xsl:comment>
+
+
         <!-- script -->
         <script src="{$scriptswitch}/j/jquery-1.2.3.pack.js" type="text/javascript">&#160;</script>
         <script src="{$scriptpers}/s/jquery.dimensions.js" type="text/javascript">&#160;</script>
@@ -532,7 +538,7 @@
               <a class="s01" href="#">
                 <span>Expand</span>
               </a>
-              <!--<input class="f02" id="{@r:about}" name="{$name}" title="{@r:label}" type="checkbox" value="{@r:about}" />-->
+              <input class="f02" id="{@r:about}" name="thesChk" title="{@r:label}" type="checkbox" value="{@r:about}" />
               <strong>
                 <xsl:value-of select="@r:label" />
               </strong>
