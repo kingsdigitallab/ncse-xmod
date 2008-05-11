@@ -1,47 +1,336 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TEI.2
   SYSTEM "../../../dtd/tei/cch_tei.dtd">
-  <TEI.2 id="p2_4">
-      <teiHeader status="new" type="text">
-          <fileDesc>
-              <titleStmt>
-                  <title>English Woman’s Journal (1858-1864)</title>
-                  
-              </titleStmt>
-              <publicationStmt>
-                  <publisher>Centre for Computing in the Humanities, King's College London</publisher>
-                  <address>
+<TEI.2 id="p2_4">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>English Woman’s Journal (1858-1864)</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
                       <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
                       <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
                   </address>
-              </publicationStmt>
-              <sourceDesc default="NO">
-                  <p>No source: created in electronic format.</p>
-              </sourceDesc>
-          </fileDesc>
-          <encodingDesc>
-              <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
-          </encodingDesc>
-          <revisionDesc>
-              <change>
-                  <date>2008-03-31</date>
-                  <respStmt>
-                      <name>EL</name>
-                  </respStmt>
-                  <item>created file</item>
-              </change>
-              
-              
-          </revisionDesc>
-      </teiHeader>
-      
-      <text>
-          <body>
-              
-              <head>English Woman’s Journal (1858-1864)</head>
-              
-              <p>please populate</p>
-              
-          </body>
-      </text>
-  </TEI.2>
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-03-31</date>
+                <respStmt>
+                    <name>EL</name>
+                </respStmt>
+                <item>created file</item>
+            </change>
+
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <head>The <title>English Woman’s Journal</title></head>
+                <p>The <title>English Woman’s Journal</title> was both a mid-priced miscellaneous
+                    monthly magazine and the textual manifestation of a number of political and
+                    social organizations. It appeared from March 1858 until August 1864, spanning
+                    the period between the failed attempt to reform legislation that prevented
+                    married women holding property in 1857 and the equally unsuccessful attempt to
+                    win female suffrage in 1867. During this period the <title>English Woman’s
+                        Journal</title> was at the forefront of both campaigns but, rather than see
+                    them as separate movements, stressed that they were connected and part of a
+                    wider attempt to improve the position of women in society. This breadth of
+                    focus, representing diverse activities as part of the same common cause,
+                    characterized both the political contents of the <title>English Woman’s
+                    Journal</title> and the various other components that made up each monthly
+                    issue. With its mix of literary, political and social contents as well as its
+                    reports of its own related activities, the <title>English Woman’s
+                    Journal</title> both published material by women, represented women as exemplars
+                    in history and in the present, and demonstrated the potential for women to play
+                    a full part in nineteenth-century society.</p>
+                <p>Its founders, Barbara Leigh Smith (from 1857 Barbara Leigh Smith Bodichon) and
+                    Bessie Rayner Parkes (from 1867 Bessie Rayner Belloc), were from from similar
+                    dissenting backgrounds and both of their families were involved in radical
+                    politics. Smith was the illegitimate daughter of the radical MP Benjamin Smith.
+                    He ensured his daughter received an education and, on reaching her majority, a
+                    portfolio of investments that secured her financial independence. Likewise,
+                    Parkes’s father was the radical Joseph Parkes and her mother, Elizabeth, was the
+                    granddaughter of Joseph Priestley (Shattock 2004). It was this shared
+                    progressive, dissenting background that permitted the two families to meet in
+                    Hastings in 1847. The girls became close friends, even embarking on an
+                    unchaparoned trip across Europe in 1850 to visit some friends who were training
+                    to be artists in Munich. Prior to launching the <title>English Woman’s
+                    Journal</title> in 1858, both Parkes and Smith were active in various social
+                    causes. In 1854 Parkes published <title>Remarks on the Instruction of Girls
+                    </title>and Bodichon <title>A brief summary of the laws in England concerning
+                        women</title>. Bodichon’s pamphlet was widely read and, after much lobbying
+                    (for which both Parkes and Bodichon were central figures), prompted the
+                    unsuccessful attempt to introduce the Married Women’s Property Act in 1857. </p>
+                <p>The <title>English Woman’s Journal </title>was conceived as part of this
+                    political activity, yet it operated more as a medium of intercommunication
+                    rather than a campaigning publication its own right. This is partly because of
+                    its disparate interests. The journal was published by the English Woman’s
+                    Journal Company, a private limited company in which Smith held (via her sister)
+                    the most shares. The company, and the journal it was set up to publish, had its
+                    roots in a previous publication, the <title>Waverley Journal</title>. This was a
+                    fortnightly newspaper, published in Edinburgh and written and published by
+                    women. On a visit to Edinburgh Smith and Parkes began to contribute to the
+                        <title>Waverley Journal</title>, ultimately taking it over (in what would be
+                    a familiar arrangement, Smith provided the money and Parkes was the editor) in
+                    May 1857. They ran the journal from London, with Hays contributing poetry. Isa
+                    Craig, who Smith and Parkes had met in Edinburgh, also became a contributor when
+                    she came to London to be assistant secretary for the National Association for
+                    the Promotion of Social Science (NAPSS). However, the <title>Waverley
+                    </title>was not conceived as an end in itself: rather, it was to be produced
+                    from offices that would also double as a reading room and centre for
+                    co-ordinating other activities. These were set up on Princes Street, off
+                    Cavendish Square and, when negotiations to buy the <title>Waverley
+                    </title>outright failed early in 1858, they decided to start again with a
+                    journal of their own (Rendall, 1987).</p>
+                <p>The company was registered on 13 February 1858 with £1000 capital in 200 shares.
+                    Parkes and Hays took five shares each, and Maria Rye – who had been secretary of
+                    the committee formed by Smith and Parkes to reform the Married Women’s Property
+                    Acts in 1855 – also took one. Three men also took shares: Samuel Curtailed and
+                    James Vaughan took four each; and William Cookson – who also served as chairman
+                    – took five. By November 1858 the Company had expanded, with more interest from
+                    various representatives of the Unitarian community (W.J. Fox, former editor and
+                    proprietor of the <xref type="internal" from="p2_1"><title>Monthly Repository</title></xref> served as
+                    auditor) and, significantly, Helena Comtesse de Noailles, who took a further
+                    sixty shares. </p>
+                <p>Officially the editors of the journal were Parkes and Hays, but Smith remained a
+                    very active presence. Once the enterprise had begun, they quickly began to
+                    attract further contributors. In November 1858 Emily Faithfull, a clergyman’s
+                    daughter, began work for the journal. The following June, Jessie Boucherett,
+                    after seeing the journal on a railway bookstall, came to London and joined as a
+                    contributor. With the poet Adelaide Proctor – a friend of Parkes – she
+                    established the Society for Promoting the Employment of Women with Faithfull
+                    acting as secretary. In the same year Emily Davies, who had met Smith in Algiers
+                    in 1858, came to London and began to contribute, eventually settling in London
+                    in 1862. The reading rooms in Princes Street acted as a focus for all these
+                    writers, providing a space to meet and read, as well as room for the various
+                    political and social enterprises they were each engaged upon. In December 1859
+                    Theodosia Lady Monson, widow of a Tory peer and friend of Matilda Hays, took
+                    more spacious rooms on behalf of the Company at 14 Langham Place: the address
+                    from which they acquired their name, the Langham Place Group (Rendall 2005).</p>
+                <p>The first issue of the <title>English Woman’s Journal</title> appeared in March
+                    1858 and it established many of the consistent features of the title. Each
+                    monthly issue of the <title>English Woman’s Journal</title> consisted of 72
+                    pages that contained about eight articles. The first article tended to engage
+                    with contemporary political or social issues, and was usually written by Parkes.
+                    There were three regular departments that could be found in each issue: ‘Open
+                    Council’, ‘Notices of Books’, and ‘Passing Events’. ‘Open Council’, which
+                    appeared from the second issue, was a department of correspondence. Its title is
+                    the same as the correspondence column of the <title>Leader</title>, and it was –
+                    like the <title>Leader </title>– ostensibly free from editorial interference.
+                    Unlike some titles, the <title>English Woman’s Journal </title>did not insist
+                    upon signature in its correspondence department and the descriptive pseudonyms
+                    (for instance ‘A Polite Letter Writer’, ‘A West End House Keeper’, ‘An Old
+                    Fashioned Country Reader’) signalled a diverse and predominantly feminine
+                    readership. ‘Notices of Books’ was a department of reviews and is similar in
+                    format to reviews in other titles such as the <title>Leader</title>. They were
+                    often unsigned, with the first review being much more thorough than those that
+                    followed it. The reviews made great use of quotation, providing readers with
+                    lengthy extracts from which they too could judge the works under discussion. A
+                    broad range of publications were noticed, from Coventry Patmore’s <title>The
+                        Angel of the House </title>in the first issue to novels, scientific
+                    treaties, lives, travel writing, and political pamphlets. Occasionally the
+                    department was broken up with sub-headings. In 1858 ‘Foreign Literature’ appears
+                    intermittently, but foreign works were usually reviewed alongside those
+                    published in Britain. From October 1861 until October 1863 a ‘Books of the
+                    Month’ section appears that surveyed recent publications and allowed readers to
+                    keep abreast of what was being published. ‘Passing Events’ was a similar section
+                    as the ‘Books of the Month’, but focused instead on public affairs. This
+                    department was the last to appear in each issue, and was only a few pages long.
+                    Its brevity meant that it largely summarized events in note form, and did not
+                    provide readers with much analysis. However, it does indicate the importance
+                    that the journal placed on what might otherwise appear to be masculine affairs
+                    and provided the means for its readers to find out more about them.</p>
+                <p>Another regular department, although not named as such, was the poetry that was
+                    published in each issue. These occurred in the middle of each issue, usually the
+                    fourth or fifth article, and tended to by lyrics of about thirty lines that
+                    covered a range of subjects including social issues, but were most frequently on
+                    religious themes. The most frequent contributors of verse were Adelaide Proctor
+                    and Isa Craig, but Parkes also published extensively in the journal. Poetry was
+                    accorded a high status, appearing consistently in the same place and frequently
+                    under review in ‘Notices of Books’. Unlike poetry, fiction appeared
+                    infrequently. When it did appear, it tended to be as short stories or short
+                    serials over a couple of issues that described acts of oppression or charity in
+                    a largely sentimental mode. However, there are other genres of writing within
+                    the <title>English Woman’s Journal </title>that are explicitly literary. The
+                    frequent pieces of travel writing, even when apparently concerned with social
+                    conditions abroad, are often presented in a compelling narrative style; and the
+                    same is true of many of the biographical portraits of notable women.</p>
+                <p>Despite the presence of these regular features, all the articles within the
+                        <title>English Woman’s Journal </title>are represented in the same
+                    typographical format. There is no distinction between an essay that only appears
+                    in that particular issue, a serial article that stretches across two issues, or
+                    a department that appears within all the issues. All articles are numbered with
+                    roman numerals in a sequence that runs throughout the volume, locating them
+                    within a series that transcends the boundaries of the single issue. This
+                    sequence is reproduced in the front matter that was issued to be bound at the
+                    front of each volume. Whereas this presents the articles as an unbroken run
+                    throughout the volume, the front matter also notes where each issue begins by
+                    displaying the month in which it was published. The front matter is thus a
+                    hybrid document: the numerals set out the content as an unbroken unit that
+                    corresponds to the volume as a whole; but the recurrence of certain departments
+                    and the insertion of the month retain its identity as a set of individual
+                    issues.</p>
+                <p>The <title>English Woman’s Journal </title>was not a mass circulation periodical.
+                    In January 1859, mid-way through volume two, it had 400 annual subscribers but
+                    received a further 57. It was also selling 250 copies monthly. This circulation
+                    of around 700 was sustained throughout 1859 but, by January 1860, the Company
+                    was printing 1250 copies a month (250 to be kept as back issues). This increase
+                    was partly due to the activities of the National Association for the Promotion
+                    of Social Science, an organization closely connected to the Company through its
+                    secretary, Isa Craig, and a significant overlap of interests. The <title>English
+                        Woman’s Journal </title>became the official organ of the Association, and
+                    Parkes used its Annual Conventions as a means of gaining subscribers (Rendall
+                    1987). By April 1862 circulation was still around a thousand copies a month but
+                    there are signs that it was running into financial trouble. Early in 1862 Anne
+                    Leigh Smith, who represented her sister, Barbara, on the board, had to lend £200
+                    to the journal in order to pay its contributors. When Emily Davies took over the
+                    editorship in September 1862 she predicted that subscriptions would fall to 624
+                    by the following September. Based on this figure, there would only be £48 with
+                    which to pay contributors. Even if the better contributors were only offered 10s
+                    a page, and the weaker contributors 4s, Davies estimated she would still need to
+                    find unpaid contributions to fill between 30-40 pages a month (Rendall 1987).
+                    When Parkes resumed the editorship in May 1863, there was discussion as to
+                    whether it should be permitted to continue. After only 376 of 1200 shares were
+                    taken up after a reissue of the Company's stock in May 1864, the management of
+                    the <title>Journal</title> was passed to Parkes. It survived until August 1864
+                    with Elizabeth Elioart as editor, but was merged with the <title>Alexandra
+                        Magazine </title>in September to become the <title>Alexandra Magazine and
+                        Englishwoman’s Journal</title>. In 1865 Jessie Boucherett acquired the title
+                    and, as the <title>Englishwoman’s Review</title>, it lasted until 1910 (Rendall
+                    1987).</p>
+                <p>The <title>English Woman’s Journal</title> was interested in the position of all
+                    women in society, but was largely concerned with the practical fate of women of
+                    its own class. The opening article, <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=EWJ%2F1858%2F03%2F01&amp;page=13&amp;entityid=Ar00103&amp;view=entity"
+                        >‘The Profession of the Teacher’</xref>, articulates the politics of the
+                    journal while also demonstrating how it was connected to the wider activities of
+                    the Langham Place Group. The article identifies teaching as of interest to the
+                    journal’s readers as it is the only profession open to ‘an educated woman of
+                    average ability.’ The 1851 census had revealed that there were half a million
+                    more women than men in Britain; for contemporary feminists this pointed to the
+                    absurdity of assuming marriage was an adequate profession for women; as Parkes
+                    put it in an article in the <title>English Woman’s Journal </title>in <xref
+                        type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=EWJ%2F1860%2F03%2F01&amp;page=6&amp;entityid=Ar00100&amp;view=entity"
+                        >March 1860</xref>, there was little point educating women in the profession
+                    of marriage when there were not enough positions for them to fill. This
+                    shortfall, which could be established statistically, meant that there was an
+                    economic imperative to train women to support themselves. Smith had written on
+                    this subject for the <title>Waverley </title>and republished her essays as
+                        <title>Women and Work </title>in 1857. The article laments the condition
+                    many governesses found themselves in but, after detailing what the Governess’s
+                    Benevolent Fund (an organization connected to the Langham Place group that
+                    advertised through the journal) and other related organizations did to ease
+                    their suffering, pointed out that the poor conditions arose because the
+                    profession was over-populated. Rather than become governesses, the article
+                    pleads that ‘sensible’ women undertake some other form of paid employment. In
+                    order to counter the suggestion that seeking work is somehow demeaning for
+                    women, the case was made with a combination of dispassionate statistics and
+                    emotive anecdotes. The possibility of sending middle class women out to work was
+                    presented as a rational necessity and then the conditions in which some
+                    governesses found themselves was advanced as a reason for following other forms
+                    of labour. Most crucially was the way the article exhorted married women –
+                    ‘those who are technically called “ladies”’ – to shield single women workers
+                    from the slander and gossip they might encounter as a result of having to go to
+                    work. By appealing to married women here, the journal argued that alternative
+                    professions are more respectable than governessing because, if too many women
+                    become governesses, there was a real risk that they would become destitute and,
+                    ultimately, resort to prostitution. The article, in other words, played upon
+                    middle class propriety in order to advocate an otherwise radical solution.</p>
+                <p>A crucial component of the way the <title>English Woman’s Journal </title>argued
+                    its politics was through the way it complemented its essays with examples of
+                    action drawn from the activities of the Langham Place group. For instance, ‘The
+                    Profession of Teacher’ was buttressed by the Group’s employment agency,
+                    administered by Proctor and Boucherett’s Society for Promoting the Employment of
+                    Women. This agency was run from the offices of the <title>English Woman’s
+                        Journal</title> and used its wrappers to advertise vacancies and those
+                    looking for work. The Society also organized three other ventures: a
+                    book-keeping school; a telegraph school; and a Law Engrossing Office at
+                    Lincoln’s Inn (see <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=EWJ%2F1860%2F08%2F01&amp;page=36&amp;entityid=Ar02803&amp;view=entity"
+                        >here</xref> for further details). The most successful, however,
+                    was Emily Faithfull’s Victoria Press, established in Feb 1860. Initiated at
+                    Coram’s Fields with £50 from the English Woman’s Journal Company, the press
+                    employed 16 female compositors, around half of whom were apprenticed by the
+                    Society after hearing about the scheme via its register. The Victoria Press
+                    became the printer of the <title>English Woman’s Journal</title> from its
+                    foundation in 1860 until 1863. The Langham Place Group – who were necessarily
+                    vigilant about remaining free from scandal – distanced themselves from Faithfull
+                    after she was named in a notorious, queer divorce scandal (Vicinus, 2004,
+                    69–79). From volume 12 it was printed by Jarrold and Sons, who also joined the
+                    Company as publishers. The Victoria Press was taken over in 1865 by William
+                    Wilfred Head, who continued to run it as an employment opportunity for women
+                    until 1881.</p>
+                <p>Although the <title>English Woman’s Journal</title> did not reach a large
+                    audience, it remains an important publication in social and feminist history. It
+                    combined detailed analysis of issues of concern to women in a distinctly
+                    feminine discourse that combined liberal politics, non-demonational religious
+                    sentiment, affecting anecdote, and engagement with high culture. As part of a
+                    wider set of activities from the Langham Place group, the journal complemented
+                    its textual representations of notable figures with coverage of the actual
+                    activities of politically-engaged women. Although articulated from a particular
+                    class perspective, the explicitly gendered text of the journal offers a contrast
+                    to the predominantly masculinist print culture of the nineteenth century. </p>
+            </div>
+            <div>
+                <head>The <title>English Woman’s Journal</title> in ncse </head>
+                <p>The run of the <title>English Woman’s Journal</title> in the edition is derived
+                    from the hard copies held at the Women’s Library at London Metropolitan
+                    University. The British Library run lacks volumes 4-13, which were destroyed in
+                    the Second World War. There is a run at the Bodleian that is marked as being
+                    Barbara Leigh Smith’s own: however, aside from one pencil annotation, it is
+                    otherwise unremarkable. The <title>English Woman’s Journal </title>was published
+                    with an advertising wrapper. Although we have not been able to recover any
+                    issues with this intact, the Women’s Library run contains an ‘<title>English
+                        Woman’s Journal</title> Advertiser’. As this run was therefore the most
+                    complete, we approached the Women’s Library to ask if we could produce new film
+                    from their hard copy. We are grateful to both the Women’s Library and the
+                    British Library for their cooperation in producing these images. </p></div>
+                <div>
+                    <head> Works Cited</head>
+                    <listBibl>
+                        <bibl>Dredge, Sarah (2005), ‘Opportunism and Accommodation: The English
+                            Woman's Journal and the British Mid-Nineteenth-Century Women's
+                            Movement’, <title>Women's Studies</title>, 34,  133-157.</bibl>
+                        <bibl>Hirsch, Pam (2004), ‘Bodichon, Barbara Leigh Smith (1827–1891)’,
+                                <title>Oxford Dictionary of National Biography</title> (Oxford
+                            University Press); online edn, May 2007 [<xref type="external"
+                                url="http://www.oxforddnb.com/view/article/2755"
+                                >http://www.oxforddnb.com/view/article/2755</xref>, accessed 6 May
+                            2008]</bibl>
+                        <bibl>Rendall, Jane (1987), "'A Moral Engine': Feminism, Liberalism and
+                                <title>The Englishwoman's Journal</title>", in <title>Equal or
+                                Different: Women's Politics 1800-1914</title>, ed. by Jane Rendall
+                            (Oxford: Basil Blackwell, 1987), pp. 112-38.</bibl>
+                        <bibl>Rendall, Jane (2005), ‘Langham Place group (<title>act.
+                            </title>1857–1866)’, <title>Oxford Dictionary of National
+                            Biography</title> (Oxford University Press); online edn, Jan 2008 [<xref
+                                type="external" url="http://www.oxforddnb.com/view/theme/93708"
+                                >http://www.oxforddnb.com/view/theme/93708</xref>, accessed 6 May
+                            2008]</bibl>
+                        <bibl>Shattock, Joanne, 2004, ‘Parkes [Belloc], Elizabeth Rayner [Bessie]
+                            (1829–1925)’, <title>Oxford Dictionary of National Biography</title>
+                            (Oxford University Press); [http://www.oxforddnb.com/view/article/41193,
+                            accessed 9 May 2008]</bibl>
+                        <bibl>Vicinus, Martha (2004), <title>Intimate Friends: Women Who Loved Women
+                                1778-1928</title> (Chicago).</bibl>
+                    </listBibl>
+                    <p>Jim Mussell</p>
+                
+            </div>
+        </body>
+    </text>
+</TEI.2>

@@ -1,63 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TEI.2
   SYSTEM "../../../dtd/tei/cch_tei.dtd">
-  <TEI.2 id="p5_7">
-      <teiHeader status="new" type="text">
-          <fileDesc>
-              <titleStmt>
-                  <title>Text Mining</title>
-                  
-              </titleStmt>
-              <publicationStmt>
-                  <publisher>Centre for Computing in the Humanities, King's College London</publisher>
-                  <address>
+<TEI.2 id="p5_7">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Text Mining</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
                       <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
                       <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
                   </address>
-              </publicationStmt>
-              <sourceDesc default="NO">
-                  <p>No source: created in electronic format.</p>
-              </sourceDesc>
-          </fileDesc>
-          <encodingDesc>
-              <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
-          </encodingDesc>
-          <revisionDesc>
-              <change>
-                  <date>2008-03-27</date>
-                  <respStmt>
-                      <name>EL</name>
-                  </respStmt>
-                  <item>created file</item>
-              </change>
-              
-              
-          </revisionDesc>
-      </teiHeader>
-      
-      <text>
-          <body>
-              
-              
-              
-              <p>please populate</p>
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-          </body>
-      </text>
-  </TEI.2>
-  
-  
-  
-  
-  
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-03-27</date>
+                <respStmt>
+                    <name>EL</name>
+                </respStmt>
+                <item>created file</item>
+            </change>
+
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <p>When the decision was made to process a segmented edition of 100,000 pages, we
+                realized that we would be extremely limited in the amount of manual mark up that it
+                would be possible to do. This prompted us to rethink the metadata strategy for both
+                the bibliographic and advanced metadata. For more on these, click <xref
+                    type="internal" from="p5_11">here</xref>. The advanced metadata was intended to
+                provide a set of terms that would allow us to interrogate the edition in different
+                ways from the more familiar process of searching text and browsing bibliographic
+                information. Initially, we imagined concept maps that would demonstrate the thematic
+                connections between articles, metadata that would identify the names of people,
+                publications, institutions, place and events mentioned in articles, and metadata
+                that would label the genre of a particular item. With over 400,000 items to markup,
+                we had to explore other ways of entering this metadata.</p>
+            <p>After a series of experiments carried out by Gerhard Brey at the Centre for Computing
+                in the Humanities at King’s College London, we settled on the following strategies.
+                For persons, places and institutions we would use named entity extraction to create
+                lists of keywords. For the concept maps, we would use the USAS (<xref
+                    type="external" url="http://ucrel.lancs.ac.uk/usas/">UCREL Semantic Analysis
+                    System</xref>) tagger from the University of Lancaster.</p>
+            <div>
+                <head>Persons, places, institutions</head>
+                <p>This data was created from the textual archive of <hi>ncse</hi> using <xref
+                        type="external" url="http://gate.ac.uk/">GATE</xref>. GATE can analyse parts
+                    of speech and then discriminate types of content by reference to various
+                    authority lists. This means that the terms associated with articles in the
+                    edition are based upon uncorrected OCR and delineated according to twentieth and
+                    twenty-first century reference sources. After generating the lists, we applied
+                    some filters to remove entries that were clearly the result of inaccurate OCR.
+                    As the beta version of the project is updated, we will further refine the way
+                    the software discriminates between terms in an effort to avoid anachronism and
+                    more accurately delineate words as names, places or institutions. At present, we
+                    have chosen to present the majority of the results on the basis that it offers
+                    users the opportunity to see how the system works and to use their own judgement
+                    when evaluating items.</p>
+            </div>
+            <div>
+                <head>Subjects</head>
+                <p>The subject keywords were produced by using the <xref type="external"
+                        url="http://ucrel.lancs.ac.uk/usas/">USAS semantic tagger</xref>. This
+                    system uses its own hierarchy of subject classifications and, using
+                    computational methods, identifies ranks those terms from the hierarchy that it
+                    things are most relevant to the item. We reviewed the results of the tagger, and
+                    opted not to display any results that were ranked less than 95 out of 100. As we
+                    continue to work on the tagger, we will further refine the terms from the
+                    hierarchy that are returned to users.</p>
+                <p>For further details about these processes, see the technical introduction <xref
+                        type="internal" from="p1_2">here</xref>.</p>
+            </div>
+        </body>
+    </text>
+</TEI.2>
