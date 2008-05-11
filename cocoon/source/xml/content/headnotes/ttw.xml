@@ -1,48 +1,384 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TEI.2
   SYSTEM "../../../dtd/tei/cch_tei.dtd">
-  <TEI.2 id="p2_5">
-      <teiHeader status="new" type="text">
-          <fileDesc>
-              <titleStmt>
-                  <title>Tomahawk (1867-1870)</title>
-                  
-              </titleStmt>
-              <publicationStmt>
-                  <publisher>Centre for Computing in the Humanities, King's College London</publisher>
-                  <address>
+<TEI.2 id="p2_5">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Tomahawk (1867-1870)</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
                       <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
                       <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
                   </address>
-              </publicationStmt>
-              <sourceDesc default="NO">
-                  <p>No source: created in electronic format.</p>
-              </sourceDesc>
-          </fileDesc>
-          <encodingDesc>
-              <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
-          </encodingDesc>
-          <revisionDesc>
-              <change>
-                  <date>2008-03-31</date>
-                  <respStmt>
-                      <name>EL</name>
-                  </respStmt>
-                  <item>created file</item>
-              </change>
-              
-              
-          </revisionDesc>
-      </teiHeader>
-      
-      <text>
-          <body>
-              
-              <head>Tomahawk (1867-1870)</head>
-              
-              <p>please populate</p>
-              
-          </body>
-      </text>
-  </TEI.2>
-  
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-03-31</date>
+                <respStmt>
+                    <name>EL</name>
+                </respStmt>
+                <item>created file</item>
+            </change>
+
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <head>The <title>Tomahawk</title></head>
+                <p>The <title>Tomahawk: A Saturday Journal of Satire</title> (1867-1870), founded by
+                    Arthur William à Beckett in London, first appeared 11 May 1867, priced two
+                    pence. The title of the journal tells us much of what we need to know about it.
+                    This was a weekly paper and like most serials in the weekly cycle, it was
+                    published on Saturdays, following the model of the popular <title>Saturday
+                        Review</title>. The title ‘Tomahawk’ was borrowed from William Makepeace
+                    Thackeray, the novelist, satirist, illustrator and editor whose spirit so
+                    influenced the men behind <title>Tomahawk</title>; his 1852 novel <title>Men’s
+                        Lives</title> describes a journal editor, Mr. Bludyer, ‘the brilliant and
+                    accomplished wit, whose sallies in the Tomahawk delight us every Saturday’ and
+                    who is known in particular for his savage ‘slasher journalism’, which gives a
+                    good indication of the type of sharply barbed, satirical analysis à Beckett
+                    sought for his new venture. The image of ‘Tomahawk,’ a noble savage Native
+                    American – hatchet in hand, ready to scalp the politicians of the day – became
+                    the symbolic, even iconic, mascot for this comic journal. An image of Tomahawk
+                    paddling downriver accompanies the mock-heroic <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=FTTW%2F1867%2F05%2F11&amp;page=3&amp;entityid=Ar00300&amp;view=entity"
+                        >Preface</xref> to volume one which encapsulates the tone of the serial:</p>
+                <p>
+                    <q> Through the land of Shams, by the shores of the Dishonest, by the Wigwams of
+                        the Heartless and the Faithless. Never swerving from the main course; never
+                        turning aside from the arrows of the enemy – from the attacks of the wicked.
+                        Always the same. True to himself, just to his fellow creatures, TOMAHAWK,
+                        during the First Year of his Mission, has pursued his way fearlessly and
+                        honestly. … The coming year will merely reflect the past. Regardless of the
+                        taunts of fools, liars, or snobs, he will continue to use his Hatchet has a
+                        weapon for the protection of the weak, not (as the enemies would have the
+                        world believe) as a knife for the slaughter of the innocent. </q>
+                </p>
+                <p>The year 1867, when <title>Tomahawk</title> launched in a competitive serials
+                    market, was one of transition for Britain, a time ripe for satirical
+                    intervention. The second Reform Bill, passed by a Tory government and which
+                        <title>Tomahawk</title> supported, renewed hopes for the reform-minded as a
+                    whole new class of votes was ushered in at a single stroke. The political map of
+                    the country was redrawn instantly, giving a new power to most working class men
+                    through the franchise. While not all reform movements of the 1860s met with such
+                    success – the recently revitalized women’s suffrage movement, for example, met
+                    with short shrift – there was widespread feeling that the passing of the second
+                    Reform Bill was an indication of British progress. However, alongside this
+                    optimism, there were also significant expressions of social anxiety. Take, for
+                    example, Matthew Arnold’s series of articles attacking mid-Victorian
+                    ‘Philistinism’ which appeared during the late 1860s in <title>Cornhill
+                    Magazine</title>, before being collected as the polemical tract, <title>Culture
+                        and Anarchy</title> (1869), whose title suggests the need to prevent social
+                    disorder through the imposition of collective culture. Or, consider an article
+                    in May 1867 (the same month that the first issue of the <title>Tomahawk</title>
+                    was published) in <title>Macmillan’s Magazine</title>, ‘Social Disintegration’
+                    by William Rathbone, which worried that the growing gap between rich and poor
+                    was ‘an evil of ever-increasing magnitude in its influence on the lives and
+                    characters, the moral and physical well-being, of each member of what should be
+                    one body politic and religious.’ Ireland was in a state of almost constant
+                    unrest about its future; gambling and general rakishness had afflicted the
+                    aristocracy; social upheaval seemed once again likely on the continent; and the
+                    Queen had seemingly abandoned the throne, still in mourning for the death of
+                    Albert years before (indeed, <title>Tomahawk</title> was among the first and
+                    loudest to urge the Queen publicly to return to her duty) – if not exactly a
+                    turbulent period in British politics, it was certainly a lively and unsettled
+                    one, just right for a satirical weekly like <title>Tomahawk</title> which
+                    addressed all these subjects at length. As Christopher Kent suggests, ‘satire is
+                    a humour of anxiety that is sensitive to symptoms of danger, particularly in
+                    times of prosperity’, so the late 1860s was ripe for attack from
+                    <title>Tomahawk</title>.</p>
+                <p>The periodicals market in the 1850s-1860s was also in transition. After the
+                    repeal of the last of the so-called ‘taxes on knowledge’ – taxes on advertising,
+                    paper and the stamp duty that had hitherto kept the price of publishing
+                    periodicals high – there was something of a periodicals boom in the 1860s, with
+                    a particular increase in weeklies, monthly magazines and high-quality
+                    illustrated serials. Among the plethora of new journals were family monthly
+                    family magazines including the market-leading <title>Cornhill</title> and the
+                    religious <title>Good Words</title> and innovative journals of opinion, such as
+                    the bi-weekly (then monthly) <title>Fortnightly Review</title> and the daily,
+                    evening <title>Pall Mall Gazette</title>. While the <title>Tomahawk</title> was
+                    not in competition with these titles directly, the sheer amount of print culture
+                    at newsstands vying for the reader’s two pence or shilling is an indication of
+                    how fiercely competitive the marketplace for periodicals was.</p>
+                <p>
+                    <title>Tomahawk</title> was not, of course, the only satirical magazine of its
+                    kind in the 1860s, and there was a whole genre with which it had to compete for
+                    readers. The market leader and the most high-profile comic periodical was
+                        <title>Punch</title>, launched in 1841 by Henry Mayhew and Mark Lemon, which
+                    began life as a radical satirical journal, but which by the late 1860s was
+                    solidly representing middle class values. Although the most well known to us
+                    today, <title>Punch</title> was by no means alone; it spawned many rivals who
+                    sought to knock it from its privileged place as the nation’s favourite comic
+                    periodical. <title>Fun</title>, often considered the most significant comic
+                    weekly after <title>Punch</title>, launched in September 1861; the
+                    <title>Owl</title>, founded in 1864; <title>Judy, or London Serio-Comic
+                    Journal</title>, launched in the same month as <title>Tomahawk</title>; and
+                    there were numerous others, many of them short-lived, including
+                    <title>Mirth</title>, <title>Toby</title>, <title>Iris</title>, and <title>Will
+                        ‘o the Wisp</title>. <title>Tomahawk</title> not only gestured back to
+                        <title>Punch</title>, it looked forward to a new type of journalism that
+                    would emerge in the 1870s – society journalism – which focused on the comings
+                    and goings of upper class society. ‘The “new” society journalism,’ Christopher
+                    Kent reminds us, ‘was more indulgent in tone, detached and somewhat amused by
+                    the misdeeds and foibles of the fortunate, tending more to the cynicism of
+                    tolerance, than the anger and bitterness of satire.’ (Kent 1998, 85)
+                        <title>Tomahawk</title> – with its keen interests in the moral state of the
+                    Prince of Wales and n’er-do-well marquises and other aristocrats – suggests
+                    something of the journalism that was to become so popular later in the century.</p>
+                <p>Given the range of competition, it was important that the upstart
+                    <title>Tomahawk</title> defined itself well, and one way of doing this was to
+                    enlist a small group of likeminded writers who would broadly agree on the nature
+                    of the attacks. As with the cultural formation of many periodicals, the young
+                    Arthur à Beckett (only 21 years old when he founded the title) and co-editor
+                    Matt Morgan (who also cartooned for <title>Fun</title>) came to rely on a
+                    coterie of writers and illustrators, in this case, bohemian figures on the
+                    literary scene, men much like themselves. According to Thomas Klemnitz, the
+                    staff:</p>
+                <p>
+                    <q>consisted of talented young bohemian gentlemen, most of whom had been close
+                        associates in previous comic weeklies, theatrical work, and the general
+                        round of bohemian activities during the 1860’s. The first numbers of the
+                            <title>Tomahawk</title> did not carry the name of the editor, and the
+                        cartoons were signed only by a tomahawk in a lower corner. But within
+                        months, Morgan was regularly signing the cartoons with his full signature,
+                        and Arthur a’Beckett added his name to the masthead as editor in the course
+                        of the third volume (Klemnitz 1975, 8).</q>
+                </p>
+                <p>Kent agrees that the men behind <title>Tomahawk</title> – à Beckett, Morgan, à
+                    Beckett’s two brothers, Gilbert and Albert, Francis Albert Marshall, Alfred
+                    Thompson, Thomas Gibson Bowles, T.H.S. Escott, Alfred Austin and others – were
+                    gentleman, middle-class young men who had shared links through public school,
+                    university, and the civil service, but also through their interests in art,
+                    theatre, music and journalism. The young men of <title>Tomahawk</title> ‘were a
+                    close-knit group with a distinct cast of mind, social and political’, broadly
+                    conservative and monarchist (Kent 1998, 76). One of the ways they carved out
+                    their own niche was by attacking other publications; the men at
+                    <title>Tomahawk</title>, as at most satirical periodicals, enjoyed a scrap.
+                    Frequently they attacked <title>The Times</title>, the leading organ of the
+                    Establishment, for their coverage of Fenianism, but they also picked fights with
+                    the conservative <title>Saturday Review</title> (see Matt Morgan’s cartoon, vol.
+                    2, <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=TTW%2F1868%2F04%2F04&amp;page=7&amp;entityid=Pc00701&amp;view=entity"
+                        >4 April 1868</xref>) and the <title>Fortnightly Review</title> (see vol. 3,
+                        <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=TTW%2F1868%2F07%2F25&amp;page=1&amp;entityid=Ar00101&amp;view=entity"
+                        >25 July 1868</xref>). These are examples of a larger phenomenon in
+                    periodical print culture – that is, periodicals commenting on other periodicals,
+                    and using articles elsewhere as springboards for their own discussion – but
+                    satirical magazines do this more than most and are more biting in their public
+                    exchanges.</p>
+                <p>The playful editorial, <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=TTW%2F1867%2F05%2F11&amp;page=4&amp;entityid=Ar00405&amp;view=entity"
+                        >‘Our Preliminary War-Whoop’</xref>, in the first issue doesn’t
+                    do much to outline the precise targets for the publication, driven by the
+                    essential conservatism of à Beckett and Morgan. Instead, it introduces its
+                    satirical tone, with a general warning to all:</p>
+                <q>
+                    <q>
+                        <p>We send abroad our TOMAHAWK as a duty which we cannot forbear. A small,
+                            but united, band of Braves, we cannot no longer submit in silence to the
+                            meanness, the injustice, and above all, to the humbug which civilised
+                            society imposes upon us. We have, therefore, been compelled to dig up
+                            the hatchet and send it round to all tribes, so that every true Brave
+                            may know that we are out upon the war-path, and that we intend simply to
+                            scalp everybody who does not agree with us. Being more or less logical,
+                            and therefore pitiless, we spare neither age, sex, nor rank; and
+                            whenever we find the pale-faced vices we abhor, we shall do our best to
+                            exterminate them. If anybody wants to know our opinions, we may say
+                            generally that we are bitter enemies of the whole tribe of Shams, and as
+                            for particular application of them, we mean to scalp—</p>
+                        <p>Any medicine man who persists in imposing upon us a Reform Bill, which
+                            professes to do one thing but really does another.</p>
+                        <p>Any demagogues who bring disgrace on the cause of the people by using it
+                            for the promotion of their own small notoriety.</p>
+                        <p>Any Home Secretary who goes out on the war-path, and then runs away.</p>
+                        <p>Any play-wright who either invents or translates stale and unprofitable
+                            nonsense.</p>
+                        <p>Anybody who contradicts us.</p>
+                        <p>And, in fact, everybody who invades our hunting-grounds with the
+                            pale-face’s weapons of deceit and fraud.</p>
+                    </q>
+                </q>
+                <p>As the journal hit its stride, its targets were more fixed and<title>
+                    Tomahawk</title> distinguished itself from its rivals through greater attention
+                    to social issues and foreign affairs and through a more emotional, less
+                    party-political response to political issues. To take just one example, its
+                    opinions on foreign affairs can be seen nicely in the <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=FTTW%2F1868%2F01%2F04&amp;page=4&amp;entityid=Ar00300&amp;view=entity"
+                        >Preface</xref> to volume two (though often in Prefaces thereafter), in
+                    which the figure of a witch-like Tomahawk rides across the sky with a long
+                    tomahawk as his broomstick, surveying the world. He passes over Russia, ‘drunken
+                    with the blood of Poland and thirsting for further territory,’ floats over
+                    France where ‘the Usurper has risen like a dream,’ then to Spain, ‘land of
+                    decay’ and Italy, ‘home of dishonesty’ and finally to Britain:</p>
+                <q>
+                    <p>Floating more quickly now—nay, flying, for TOMAHAWK is nearing his native
+                        land,—he hovers over London. An empty Palace that should be full; a full
+                        “House” that might well be empty. A retired Queen who should be among her
+                        people; an active Statesman who should not refuse to retire into the bosom
+                        of his family. “Place no patriotism:” Once more the sentiment forces itself
+                        upon the mind of TOMAHAWK,--Oh, “Land of the Brave and the Free,” where
+                        gross injustice is tolerated, and Society has a code of rules, which
+                        manufactures chains for the hands and ruin for the soul!</p>
+                    <p>A little further to the West, and TOMAHAWK passes over a spot of green. This
+                        is the land of “Paddy”—poor, pig-headed, warm-hearted Paddy. See how pleased
+                        he looks. He has just seen our dear Princess Alexandra—that accounts for his
+                        smile and his loyalty. </p>
+                </q>
+                <p>The Prefaces were written at the end of a volume’s run but were used as front
+                    matter to introduce and unify themes and contents, to serve as a fluid way of
+                    summarizing the political views, foreign and domestic, contained in the volume.
+                    As we see in the case of volume two, the primary concerns are various forms of
+                    aggression, imperial and otherwise, at home and abroad.</p>
+                <p>Among the most prominent topics of discussions relevant to politics at
+                    Westminster that <title>Tomahawk</title> addressed was the Irish Question, a
+                    cluster of issues related to Anglo-Irish politics relations which centred around
+                    the disestablishment of the Irish Church, Irish Home Rule, and the rise in
+                    nationalist, Fenian violence (alluded to at the end of the Preface to volume two
+                    quoted above). Ireland takes up a great deal of the editorial space in volumes 2
+                    and 3, though it haunts all the volumes. The tone in the leading article in the
+                        <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=TTW%2F1868%2F01%2F04&amp;page=1&amp;entityid=Ar00102&amp;view=entity"
+                        >4 January 1868 issue</xref> is typical of <title>Tomahawk</title> manner in
+                    addressing Fenian violence:</p>
+                <q>
+                    <p>No, you are far too great a coward to meet me face to face. However, if you
+                        are <title>very</title> brave you will set my house on fire, if you are
+                            <title>very</title> tipsy you will do your best to shoot at me from the
+                        friendly shelter of a lamp-post. My sweet traitor, my charming ragamuffin, I
+                        know you to be an arrant coward, a blustering bully. You have quite enough
+                        pluck to murder a woman in cold blood, but you are not the man I take you to
+                        be if you don’t turn very very pale when Calcraft gets at your neck at
+                        Newgate!</p>
+                    <p>And you pretend to be an Irishman!</p>
+                    <p>An Irishman! A countryman of some of the greatest men the world has ever
+                        seen. A countryman of heroic warriors, skilful statesmen, learned scholars.
+                        A country of dear kind hearted Pat, with he ready wit and genial smile. Why
+                        I’m proud of my Irish fellow-countrymen, and what do you imagine I think of
+                        you? (p. 1)</p>
+                </q>
+                <p>Similarly disdainful editorial content appears a few pages later in <xref
+                        type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=TTW%2F1868%2F01%2F04&amp;page=5&amp;entityid=Ar00504&amp;view=entity"
+                        >‘A Cure for Fenianism’</xref>, but the topic is most forcefully underscored
+                    by Matt Morgan’s cartoon in the same issue – <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=TTW%2F1868%2F01%2F04&amp;page=7&amp;entityid=Pc00701&amp;view=entity"
+                        >“Mad My Masters, Mad!”</xref> drawing on a scene from Shakespeare’s
+                        <title>King John</title> in which Constance (pictured by Morgan as Ireland)
+                    kneels before King John (here imagined as John Bull). While this is not one of
+                    Morgan’s most powerful images, it does demonstrate the central importance of
+                    visual material to the overall message of the periodical.</p>
+                <p>Arguably, it was the sophisticated and unique cartoons by Morgan that had the
+                    greatest impact in <title>Tomahawk</title>, and for which the periodical is now
+                    usually known. A well-known illustrator by the time he came to edit
+                        <title>Tomahawk</title> at the age of 31, Morgan had cartooned for
+                        <title>Punch</title> and for <title>Fun</title>, gradually developing his
+                    own impressive style. While most illustrated satirical magazines contained
+                    illustrations, they tended to rely on caricature and stereotype that had the
+                    power to convey messages immediately and unambiguously – for example, the stock
+                    images of John Bull, Britannia, Caledonia, or the simian-looking Paddy – but
+                    Morgan’s cartoons for <title>Tomahawk</title> departed from this mainstream
+                    convention. According to Klemnitz, Morgan sought ‘to create a sensation with his
+                    popular art, and at <title>Tomahawk</title> he was able to combine daring and
+                    controversial subject matter with technical sophistication to produce
+                    outstanding cartoons’ (Klemnitz 1975, 10-11). Indeed, it is the technical
+                    brilliance that makes these images so striking, certainly when compared with the
+                    more familiar cartoons found in, for example, <title>Punch</title>. Morgan had a
+                    number of advantages going for him when creating work for
+                    <title>Tomahawk</title> – the regular use of double-page, high-impact cartoons;
+                    the use of colour in inventive ways; and control of the production process which
+                    allowed him to experiment with his engraver and friend, Thomas Bolton (see
+                    Klemnitz 1975, 11). All of these factors, combined with Morgan’s bohemian
+                    individualism enabled <title>Tomahawk</title> to publish what may be the finest
+                    satirical cartoons in any nineteenth-century periodical.</p>
+                <p>Morgan succeeded where other less ambitious illustrators didn’t in creating
+                    emotionally engaging dramatic images given depth through composition, colour and
+                    contrasting chiaroscuro-like tonality. Take the double-page colour cartoon for
+                    July 10 1869 – <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=TTW%2F1869%2F07%2F10&amp;page=8&amp;entityid=Pc00800&amp;view=entity"
+                        >‘“Our Hereditary Legislators”: or, What it may come to. (Dedicated to the
+                        rising generation of the House of Lords)’</xref>– which provides a visual
+                    statement complementing the first article in the issue, <xref type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=TTW%2F1869%2F07%2F10&amp;page=4&amp;entityid=Ar00303&amp;view=entity"
+                        >‘Peerless Honour’</xref>, attacking recent scandals in the House of Lords.
+                    Morgan’s cartoon provides a Darwinian reading of the peers who are stuck in a
+                    kind of gothic, primordial mud while the moon struggles to break through the
+                    ominous clouds. Or, consider the double-page colour cartoon for <xref
+                        type="external"
+                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=TTW%2F1869%2F07%2F31&amp;page=6&amp;entityid=Pc00600&amp;view=entity"
+                        >July 31 1869</xref> which addresses the problems in Ireland, in which
+                    Morgan creates a similarly atmospheric but more active and dramatic scene – a
+                    squabbling Protestant and Roman Catholic are about to lead their boat over a
+                    waterfall of ruin, with the caption reading: ‘Christian Charity! Or, They Will
+                    Sink the Boat Between Them.’ These are just two examples of the powerfully
+                    affecting images that Morgan did best and that came to define the visual content
+                    of <title>Tomahawk</title>.</p>
+                <p>Looking back at <title>Tomahawk</title> now, it is true that the cartoons are the
+                    first thing to catch the eye – the colour, the double pages, the unique dramatic
+                    intensity of the composition, the sharpness of the critique. The images
+                    complement the clever, often thoughtful words on the page. This was a carefully
+                    thought through periodical, from its Prefaces to its impressive Almanacs, with
+                    tremendous energy and verve, as readers noted from the moment of its audacious
+                    launch. It’s perhaps curious, then, that despite the extraordinary competition
+                    in the marketplace, <title>Tomahawk</title> only lasts for six volumes. The
+                    truth is, we don’t yet know why – on 30 July 1870 – the periodical came to a
+                    ‘mysterious and abrupt end’, as Kent describes it. A Beckett went on to work at
+                        <title>Punch</title> and Morgan ended up in North America; of the other
+                    regular contributors, one became poet laureate, another became a successful
+                    writer of farces, still others leading and important journalists. In short,
+                    there is much more research still to be done on the magazine; our hope is that
+                    by providing access to the journal in digitized form, explorations in the world
+                    of <title>Tomahawk</title> will be greatly enabled, allowing new ideas to emerge
+                    about its cultural formation, its significance and its relationship to the
+                    broader field of nineteenth-century journalism.</p>
+            </div>
+            <div>
+
+                <head>The <hi rend="italic">Tomahawk</hi> in ncse</head>
+
+                <p>This edition of the Tomahawk was filmed from the hard copy held at the British
+                    Library newspaper collection at Colindale. As microfilm renders colours
+                    monochrome, and the creation of digital images sometimes fails to render the
+                    subtle changes of contrasts, the quality of many of the cartoons deteriorated
+                    after digitisation. Although the microfilm operators attempted to compensate
+                    when they thought a particular image might not film well by altering the
+                    contrast, they had no way of assessing whether this was effective. As a result,
+                    many of the cartoons were either too light or too dark, usually where the
+                    engraving was executed on a blue ink wash. To compensate for this we surveyed
+                    the images in <title>Tomahawk </title>to work out which were the worse affected.
+                    With the cooperation of the British Library we obtained new digital images
+                    filmed directly from the hard copy. In these images it is possible to fully
+                    appreciate the different colours and tones that Morgan used to create the
+                    striking cartoons.</p>
+            </div>
+            <div>
+                <head>Works Cited</head>
+                <listBibl>
+                    <bibl>Kent, Christopher, 1998, ‘The Angry Young Gentlemen of
+                        <title>Tomahawk</title>,’ in <title>Victorian Journalism: Exotic and
+                            Domestic Essays in Honour of P.D. Edwards</title> ed. By Barbara Garlick
+                        and Margaret Harris (Queensland University Press), 75-94.</bibl>
+                    <bibl>Klemnitz, Thomas Milton, 1975, ‘Matt Morgan of “Tomahawk” and English
+                        Cartooning, 1867-1870,’ <title>Victorian Studies</title> 19:1, 5-34.</bibl>
+                    <bibl>VanArsdel, Rosemary T., and J. Don Van, 1994, <title>Victorian Periodicals
+                            and Victorian Society</title> (Scolar Press).</bibl>
+                </listBibl>
+                <p>Mark Turner</p>
+            </div>
+        </body>
+    </text>
+</TEI.2>

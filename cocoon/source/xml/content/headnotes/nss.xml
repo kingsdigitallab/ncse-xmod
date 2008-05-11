@@ -39,7 +39,7 @@
     <body>
 
       <div>
-        <head>The Northern Star</head>
+        <head>The <title>Northern Star</title></head>
         <p>The first issue of the <title>Northern Star</title> appeared on the 18 November 1837.
           Over the next fifteen years the paper played a crucial role in cohering Chartism as a mass
           radical movement and ensured that its proprietor, Feargus O’Connor, became one of its most
@@ -144,7 +144,7 @@
           37,000 each), had not caused much harm. However, the first edition of the
           <title>Star</title>, which was part-printed on Wednesday and completed on Thursday for
           distribution to places furthest from Leeds, also happened to be the London edition (for
-          more on multiple editions, click here [link to 05_06_multiples]). O’Connor accounted for
+          more on multiple editions, click <xref type="internal" from="p5_6">here</xref>). O’Connor accounted for
           the difference in editions as an accident resulting from his missing the printing of the
           first edition due to his attendance at another trial at York. As the proprietor and the
           author of the report that contained the libellous speeches of others, the jury found him
@@ -285,7 +285,7 @@
           committed to an asylum where he died in 1855.</p>
       </div>
       <div>
-        <head>Northern Star in ncse </head>
+        <head>The <title>Northern Star</title> in ncse </head>
         <p>The copy of the <title>Northern Star </title>used in <hi>ncse </hi>is held at the British
           Library. However, this resource – the copy text for many of the microfilm edition
           distributed around the world – is missing the first seven issues, beginning with issue
