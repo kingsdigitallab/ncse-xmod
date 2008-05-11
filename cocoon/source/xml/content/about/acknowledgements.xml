@@ -1,61 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TEI.2
   SYSTEM "../../../dtd/tei/cch_tei.dtd">
-  <TEI.2 id="p1_7">
-      <teiHeader status="new" type="text">
-          <fileDesc>
-              <titleStmt>
-                  <title>Acknowledgements</title>
-                  
-              </titleStmt>
-              <publicationStmt>
-                  <publisher>Centre for Computing in the Humanities, King's College London</publisher>
-                  <address>
+<TEI.2 id="p1_7">
+    <teiHeader status="new" type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Acknowledgements</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
                       <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
                       <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
                   </address>
-              </publicationStmt>
-              <sourceDesc default="NO">
-                  <p>No source: created in electronic format.</p>
-              </sourceDesc>
-          </fileDesc>
-          <encodingDesc>
-              <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
-          </encodingDesc>
-          <revisionDesc>
-              <change>
-                  <date>2008-03-27</date>
-                  <respStmt>
-                      <name>EL</name>
-                  </respStmt>
-                  <item>created file</item>
-              </change>
-              
-              
-          </revisionDesc>
-      </teiHeader>
-      
-      <text>
-          <body>
-              
-        
-              
-              <p>please populate</p>
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-          </body>
-      </text>
-  </TEI.2>
-  
-  
-  
+            </publicationStmt>
+            <sourceDesc default="NO">
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-03-27</date>
+                <respStmt>
+                    <name>EL</name>
+                </respStmt>
+                <item>created file</item>
+            </change>
+
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+
+
+            <div><head>Research Team Acknowledgements</head><p><hi rend="bold">ncse</hi> was a collaboration between Birkbeck College, the British
+                Library, King’s College London (Centre for Computing in the Humanities and
+                Department of English), and Olive Software. Below we acknowledge the individuals,
+                institutions and projects that have helped create the resource.</p>
+            <list type="bulleted">
+                <item>All the contributors to the two <hi rend="bold">ncse</hi> symposia and those
+                    who attended our user testing session.</item>
+                <item>Arts and Humanities Data Service (AHDS).</item>
+                <item>Dawn Archer, University of Lancaster.</item>
+                <item>Faculty of Lifelong Learning, Birkbeck College.</item>
+                <item>School of English and Humanities at Birkbeck College.</item>
+                <item>Department of English, University of Birmingam.</item>
+                <item><xref type="external" url="http://www.ouls.ox.ac.uk/bodley">Bodleian Library</xref>.</item>
+                <item>Malcolm Chase, Reader in Labour History at the University of Leeds.</item>
+                <item><xref type="external" url="http://www.damiendoherty.com/">Damien Doherty</xref>.</item>
+                <item>Jo Foster.</item>
+                <item>Hilary Fraser, School of English and Humanities at Birkbeck College.</item>
+                <item>Neil Hearn, Faculty of Lifelong Learning, Birkbeck College.</item>
+                <item>Chris Lungley.</item>
+                <item>Jerome McGann, University of Virginia and NINES.</item>
+                <item>Rab MacGibbon, National Portrait Gallery.</item>
+                <item>Laura Mandell, University of Miami Ohio and <xref type="external"
+                        url="http://www.nines.org/">NINES</xref>.</item>
+                <item><xref type="external" url="http://www.npg.org.uk/live/index.asp">National Portrait Gallery</xref>.</item>
+                <item>Bethanie Nowviskie, University of Virginia and NINES.</item>
+                <item><xref type="external"
+                    url="http://www.nines.org/">NINES</xref>.</item>
+                <item>John North, Waterloo Directory of English Newspapers and Periodicals:
+                    1800-1900: <xref type="external" url="http://www.victorianperiodicals.com/"
+                        >www.victorianperiodicals.com</xref>.</item>
+                <item>Jennie Patrice, British Library.</item>
+                <item>Paul Rayson, University Centre for Computer Corpus Research on Langauge
+                    (UCREL) at the <xref type="external" url="http://ucrel.lancs.ac.uk/">University of Lancaster</xref>.</item>
+                <item>Senate House Library, University of London: <xref type="external"
+                        url="http://www.ull.ac.uk/">www.ull.ac.uk</xref>.</item>
+                <item>Jane Shaw, British Library.</item>
+                <item>Julia Thomas and Tim Killick of the Database of Mid-Victorian wood-engraved
+                    Illustration: <xref type="external" url="http://www.dmvi.cf.ac.uk/"
+                        >http://www.dmvi.cf.ac.uk</xref>.</item>
+                <item>Dorothy Thompson.</item>
+                <item><xref type="external" url="http://www.londonmet.ac.uk/thewomenslibrary/">Women’s Library</xref>.
+                </item>
+            </list></div>
+            <div>
+                <head>Technical Acknowledgements</head>
+                <p>The <hi rend="bold">ncse</hi> was built using a number of systems and products which must
+                    be acknowledged:
+                </p>
+                
+                    
+                    <table><head>Digital Archive and Repository</head>
+                        <row><cell role="link"><xref type="external" url="http://www.olivesoftware.com/">Olive Graphic</xref></cell><cell role="data">Olive software, upon which the <hi rend="bold">ncse</hi> is built, is a provider of
+                        digital edition and digital archiving products for the publishing industry.</cell></row> 
+                       </table>
+                 
+                
+                    
+                
+                <table>
+                    <head>Text Mining and Natural Language Processing</head>
+                    <row><cell role="link">General Architecture for Text Engineering (<xref type="external" url="http://gate.ac.uk/">GATE</xref>)</cell>
+                    <cell role="data">Gate is an infrastructure for developing and deploying software
+                        components that process human language, developed by the <xref type="external" url="http://nlp.shef.ac.uk/">Natural
+                        Language Processing Research Group</xref> at the University of Sheffield.</cell></row>
+                    <row><cell role="link">UCREL Semantic Analysis System (<xref type="external" url="http://ucrel.lancs.ac.uk/usas/">USAS</xref>)</cell>
+                    <cell role="data">USAS is a dictionary-based content analysis tool that automatically links
+                        words in running text to one or more semantic categories, developed by
+                        the <xref type="external" url="http://ucrel.lancs.ac.uk/">University Centre for Computer Corpus Research on Language</xref>.</cell></row>
+                   
+                    <row><cell role="link">The Natural Language Toolkit (<xref type="external" url="http://nltk.org/">NLTK</xref>)</cell>
+                    <cell role="data">NLTK is a suite of open source Python Modules, data and documentation for
+                        research and development in natural language processing.</cell></row>
+                    <row><cell role="link"><xref type="external" url="http://alias-i.com/lingpipe/">LingPipe</xref></cell>
+                    
+                    <cell role="data">LingPipe is a suite of Java libraries for the linguistic analysis of
+                        human language.</cell></row>
+                </table>
+                
+                    <table><head>Web Publishing Framework</head>
+                    <row><cell role="link"><xref type="external" url="http://www.cch.kcl.ac.uk/xmod/">xMod</xref></cell>
+                    <cell role="data">xMod is a publishing application, developed by the <xref type="external" url="http://www.kcl.ac.uk/cch/">Centre for Computing
+                        in the Humanites</xref> at King's College London that enables humanities scholars to create information-rich websites based on documents encoded in XML using the Text
+                        Encoding Initiative’s Guidelines.</cell></row>
+                    <row><cell role="link">Ereuna</cell>
+                    <cell role="data">A search framework based on the high-performance, full-featured text
+                        search engine <xref type="external" url="http://lucene.apache.org/">Apache Lucene</xref>,
+                        and developed by the <xref type="external" url="http://www.kcl.ac.uk/cch/">Centre for Computing in the Humanites</xref>. Ereuna facilitates
+                        development of search facilities for web applications.</cell></row>
+                    <row><cell role="link"><xref type="external" url="http://cocoon.apache.org/2.1">Apache Cocoon</xref></cell>
+                    <cell role="data">Cocoon is a Java-based web development framework built around the
+                        concepts of separation of concerns and component-based web development.</cell></row>
+                    <row><cell role="link"><xref type="external" url="http://tomcat.apache.org/">Apache Tomcat</xref></cell>
+                    <cell role="data">Tomcat is a free, open-source implementation of Java Servlet and
+                        JavaServer Pages technologies developed under the Jakarta project at the Apache Software
+                        Foundation.</cell></row>
+                    <row><cell role="link"><xref type="external" url="http://www.saxonica.com">Saxon</xref></cell>
+                   <cell role="data"> Saxon is an open-source XSLT and XQuery processor developed by Michael
+                        Kay.</cell></row></table>
+                
+                <table>
+                    <head>Data Modelling and Storage</head>
+                    <row><cell role="link">The <xref type="external" url="http://www.dmvi.cardiff.ac.uk/">Database of Mid-Victorian Illustration</xref>
+                        Taxonomy</cell>
+                    <cell role="data">An organised system of iconographic terms tailor-made to describe
+                        Victorian visual artifacts, developed at <xref type="external" url="http://www.cf.ac.uk/">Cardiff University</xref>.</cell></row>
+                    <row> <cell role="link"><xref type="external" url="http://www.mysql.com">MySQL</xref></cell>
+                        <cell role="data">MySQL is an open source relational database offering consistent fast
+                        performance, high reliability and ease of use.</cell></row>
+                    <row><cell role="link"><xref type="external" url="http://www.w3.org/2004/02/skos/">Simple Knowledge Organization System (SKOS)</xref>
+                      </cell>
+                        <cell role="data">SKOS is a W3C semantic web activity, working to develop specifications
+                        and standards to support the use of organisational systems like
+                        thesauri, classification schemes, subject heading systems and taxonomies
+                        within the framework of the Semantic Web.</cell></row>
+                    <row><cell><xref type="external" url="http://ucrel.lancs.ac.uk/usas/semtags.txt">UCREL Semantic Analysis System (USAS) Tagset</xref>
+                 </cell>
+                        <cell role="data">The semantic tagset used by the <xref type="external" url="http://ucrel.lancs.ac.uk/usas">USAS</xref> content analysis tool, and its <xref type="external" url="http://ucrel.lancs.ac.uk/usas/usas-tree.htm">visual
+                        representation</xref>, developed by the <xref type="external" url="http://ucrel.lancs.ac.uk/">University Centre for Computer Corpus Research on
+                        Language</xref>.</cell></row>
+                </table>
+                <table>
+                    <head>Programming Languages</head>
+                    <row><cell role="link"><xref type="external" url="http://www.sun.com/java/index.html">Java Technology</xref></cell>
+                    <cell role="data">Java technology is an object-oriented, platform-independent,
+                        multithreaded programming environment, developed by Sun Microsystems.</cell></row>
+                    <row><cell role="link"><xref type="external" url="http://www.python.org/">Python</xref></cell>
+                    <cell role="data">
+                        Python is an open source object-oriented programming language.
+                    </cell></row></table>
+
+</div>
+
+
+
+
+
+
+
+
+
+        </body>
+    </text>
+</TEI.2>
