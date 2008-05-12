@@ -46,10 +46,10 @@
               <p>To begin, choose a keyword type below:</p>
               
               <p>          
-              <xref from="browse_subject" type="internal">Subject</xref> 
+                  <xref from="browse_subject" type="internal">Subject</xref>: this menu allows you to browse the items within ncse by subject keyword.
               
               </p>
-              <p><xref from="browse_image" type="internal">Image</xref>
+              <p><xref from="browse_image" type="internal">Image</xref>: this menu allows you to browse the images (illustrations, icons, figures, portraits etc.) within ncse by keywords that describe what they contain.
               </p>
               
              
