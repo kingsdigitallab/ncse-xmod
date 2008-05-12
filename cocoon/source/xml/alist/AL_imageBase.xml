@@ -381,7 +381,177 @@
                 <internal>
                     <p><?xm-replace_text {p}?></p>
                 </internal>
+           </image>
+            
+            <image id="article-image">
+                <imgTitle>Sample Facsimile</imgTitle>
+                <desc>An example article from the facsimile repository</desc>
+                <width>465</width>
+                <height>229</height>
+                <ext n="jpg"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
             </image>
+            <image id="searchAND">
+                <imgTitle>Select box with AND operator</imgTitle>
+                <desc></desc>
+                <width>57</width>
+                <height>26</height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="searchOR">
+                <imgTitle>Select box with OR operator</imgTitle>
+                <desc></desc>
+                <width>58</width>
+                <height>26</height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="searchNOT">
+                <imgTitle>Select box with NOT operator</imgTitle>
+                <desc></desc>
+                <width>58</width>
+                <height>26</height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="olive-viewpoint">
+                <imgTitle>Olive viewpoint diagram</imgTitle>
+                <desc>Architectural diagram of Olive Software's Viewpoint.</desc>
+                <width></width>
+                <height></height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="cch-ncseweb">
+                <imgTitle>Web framework diagram</imgTitle>
+                <desc>Architectural diagram of CCH NCSE web framework.</desc>
+                <width></width>
+                <height></height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="gate">
+                <imgTitle>Gate architectural diagram</imgTitle>
+                <desc>Simplified model of the GATE entity extraction process.</desc>
+                <width>400</width>
+                <height>400</height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="usas">
+                <imgTitle>USAS architectural diagram</imgTitle>
+                <desc>Simplified model of the USAS subject descriptor process.</desc>
+                <width></width>
+                <height></height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            
         </group>
         <group id="charts">
             <groupHead>
