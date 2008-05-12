@@ -469,7 +469,7 @@
 
 
         <!-- script -->
-        <script src="{$scriptswitch}/j/jquery-1.2.3.pack.js" type="text/javascript">&#160;</script>
+        <script src="{$scriptswitch}/j/jquery-1.2.3.min.js" type="text/javascript">&#160;</script>
         <script src="{$scriptpers}/s/jquery.dimensions.js" type="text/javascript">&#160;</script>
         <script src="{$scriptpers}/s/jquery.accordion.js" type="text/javascript">&#160;</script>
         <script src="{$scriptpers}/s/config.js" type="text/javascript">&#160;</script>

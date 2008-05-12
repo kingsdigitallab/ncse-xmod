@@ -45,7 +45,9 @@
               <dt>You refined by:</dt>
               <xsl:for-each select="//search-results/search-clauses-parameters/parameter">
                 <dd>
-                  <a href="remove-search-clause?clause={position()}" title="Remove this filter">Remove</a>
+                  <a href="remove-search-clause?clause={position()}" title="Remove this filter">
+                    <span>Remove</span>
+                  </a>
                   <xsl:text> </xsl:text>
 
                   <xsl:variable name="par" select="." />
@@ -64,7 +66,7 @@
                   <!-- Floating results -->
                   <xsl:for-each select="//search-results/documents/document[current()/position()]/tei/bibl">
                     <xsl:value-of select="title[@type = 'full-title']" />
-                    
+
                     <xsl:if test="string(biblScope[@type = 'volume'])">
                       <xsl:text> Vol. </xsl:text>
                       <xsl:value-of select="biblScope[@type = 'volume']" />
