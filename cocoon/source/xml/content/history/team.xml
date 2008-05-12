@@ -52,8 +52,8 @@
                 <div>
                     <head>Associate Director</head>
                     <p>
-                        <hi rend="bold">Dr Isobel Armstrong</hi>, Emeritus Professor of English at Birkbeck,
-                        University of London.</p>
+                        <hi rend="bold">Dr Isobel Armstrong</hi>, Emeritus Professor of English at
+                        Birkbeck, University of London.</p>
                     <p>Isobel was one of the initiators of the project. She has recently published a
                         monograph entitled <emph>Victorian Glassworlds: Glass Culture and the
                             Imagination, 1830-1880 </emph>published by Oxford University Press. </p>
@@ -61,21 +61,22 @@
                 <div>
                     <head>Project Director </head>
                     <p>
-                        <hi rend="bold">Dr Laurel Brake</hi>, Senior Research Fellow, Birkbeck, University of
-                        London and Emeritus Professor of Literature and Print Culture.</p>
-                    <p>Laurel was the Project Director of <hi rend="bold">ncse</hi>. She is also co-editor of
-                        the Dictionary of Nineteenth-Century Journalism and has published widely on
-                        nineteenth-century print culture.</p>
+                        <hi rend="bold">Dr Laurel Brake</hi>, Senior Research Fellow, Birkbeck,
+                        University of London and Emeritus Professor of Literature and Print Culture.</p>
+                    <p>Laurel was the Project Director of <hi rend="bold">ncse</hi>. She is also
+                        co-editor of the Dictionary of Nineteenth-Century Journalism and has
+                        published widely on nineteenth-century print culture.</p>
                 </div>
                 <div>
                     <head>Postdoctoral Researcher </head>
                     <p>
-                        <hi rend="bold">Dr Jim Mussell</hi>, Lecturer in English at the University of
-                        Birmingham.</p>
-                    <p>Jim was the part-time postdoctoral researcher on <hi rend="bold">ncse</hi> until December
-                        2007, and saw it through its final development January-May 2008. He is the
-                        author of <emph>Science, Time and Space in the Late Nineteenth-Century
-                            Periodical Press</emph>, published by Ashgate in 2007. </p>
+                        <hi rend="bold">Dr Jim Mussell</hi>, Lecturer in English at the University
+                        of Birmingham.</p>
+                    <p>Jim was the part-time postdoctoral researcher on <hi rend="bold">ncse</hi>
+                        until December 2007, and saw it through its final development January-May
+                        2008. He is the author of <emph>Science, Time and Space in the Late
+                            Nineteenth-Century Periodical Press</emph>, published by Ashgate in
+                        2007. </p>
                 </div>
                 <div>
                     <head>Postdoctoral Researcher </head>
@@ -92,98 +93,155 @@
             </div>
             <div>
                 <head>King’s College London </head>
-                <div><p>[insert CCH entries here]</p></div>
+                <div><head>Centre for Computing in the Humanities (CCH)</head><div>
+                    <head>Technical Research Directors</head>
+                    <list>
+                        <item>Harold Short</item>
+                        <item>Marylin Deegan</item>
+                    </list>
+                </div>
+                <div>
+                    <head>Current Project Team</head>
+                    <list>
+                        <item>Tamara Lopez (project co-ordinator and lead analyst, system
+                            architecture)</item>
+                        <item>Gerhard Brey (lead analyst, text mining)</item>
+                        <item>Simon Tanner (consultancy and QA on digitisation)</item>
+                        <item>José Miguel Vieira (lead analyst, web application development)</item>
+                        <item>Zaneta Au (web application development)</item>
+                        <item>Damien Doherty (Visual design) [<xref type="external"
+                                url="http://www.damiendoherty.com"
+                            >http://www.damiendoherty.com</xref>] </item>
+                        <item>Paul Vetch (lead analyst, system integration and web application
+                            development)</item>
+
+                        <item>Eleonora Litta Modignani Picozzi (editorial and web support)</item>
+
+
+
+                        <item>Richard Palmer (server setup)</item>
+
+                    </list>
+                </div>
+                <div>
+                    <head>Also:</head>
+                    <list>
+                        <item>Paul Spence (consultancy on web publication)</item>
+                        <item>Arianna Ciula (web development and support)</item>
+                        <item>Patrick Tschorn (Java development interface to text mining program
+                            packages, consultancy in computational linguistics)</item>
+
+                        <item>Alexandros Skaliotis (Java development, interface to text mining
+                            program packages)</item>
+
+                        <item> Abu Zafer M Dayem Ullah (Java development, interface to text mining
+                            program packages)</item>
+
+                        <item> Dr Manolis Christodoulakis (Development and implementation of OCR
+                            correction algorithms)</item>
+                    </list>
+                </div></div>
                 <div>
                     <head>Department of English</head>
-                    
-                       <div> <head>Associate Director</head> 
-                    <p><hi rend="bold">Dr Mark Turner</hi>, Reader in English at King’s College London.</p>
-                    <p>Mark worked closely on <hi rend="bold">ncse</hi> from its inception. He is Reader in
-                        English Literature and has published widely on nineteenth-century print
-                        culture and queer studies.</p></div></div></div>
-                    
-                        <div><head>British Library</head>
-                    
-                       <div><head>Associate Director</head>
+
+                    <div>
+                        <head>Associate Director</head>
+                        <p><hi rend="bold">Dr Mark Turner</hi>, Reader in English at King’s College
+                            London.</p>
+                        <p>Mark worked closely on <hi rend="bold">ncse</hi> from its inception. He
+                            is Reader in English Literature and has published widely on
+                            nineteenth-century print culture and queer studies.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <head>British Library</head>
+
+                <div>
+                    <head>Associate Director</head>
                     <p>
                         <hi rend="bold">Ed King</hi>, Head of Newspapers at the British Library.</p>
-                    <p>Ed has been involved closely with <hi rend="bold">ncse</hi> from its outset. He is Head
-                        of Newspapers at the British Library and has published on nineteenth-century
-                        print culture. </p></div>
+                    <p>Ed has been involved closely with <hi rend="bold">ncse</hi> from its outset.
+                        He is Head of Newspapers at the British Library and has published on
+                        nineteenth-century print culture. </p>
                 </div>
-                <div>
-                    <head>Olive Software</head>
-                    <p>
-                        <hi rend="bold">Chezkie Kasnett</hi>, Project Manager for Olive Software </p>
-                    <p>Chezkie worked closely on the Olive components of <hi rend="bold">ncse </hi>from 2007,
-                        and very closely with the<hi rend="bold"> ncse </hi>team in the closing stages of the
-                        project</p>
-                    <p>
-                        <hi rend="bold">Uri Ben Tvzi</hi>, Project Manager for Olive Software.</p>
-                    <p>Uri was Olive’s representative for the <hi rend="bold">ncse</hi> work in 2006. </p>
-                    <p>
-                        <hi rend="bold">Irit Reznikov</hi>, Project Manager for Olive Software.</p>
-                    <p>Irit was Olive’s representative at the beginning of the project, from January
-                        2005 to 2006.</p>
-                </div>
-                <div>
-                    <head>Editorial Assistants</head>
-                    <p>
-                        <hi rend="bold">Dr Chrissie Bradstreet.</hi>
-                    </p>
-                    <p>Chrisse was an editorial assistant from June to July 2007. Chrissie currently
-                        works at the Watts Gallery.</p>
-                    <p>
-                        <hi rend="bold">Dr Clara Brennan</hi>, postgraduate student, King’s College London</p>
-                    <p>Clara was an editorial assistant from September 2007 until the project launch
-                        in May 2008. She is a playwright and is currently working on a PhD on
-                        Theatre and Human Rights at King’s College London.</p>
-                    <p>
-                        <hi rend="bold">Dr Greta Depledge.</hi>
-                    </p>
-                    <p>Greta was an editorial assistant from July to November 2007. She has recently
-                        completed a PhD at Birkbeck College.</p>
-                    <p>
-                        <hi rend="bold">Rob Maidens</hi>, postgraduate student in English, Birkbeck College</p>
-                    <p>Rob was an editorial assistant from May 2007 until the project launch in May
-                        2008. He is working on a PhD in the mid nineteenth-century novel at Birkbeck
-                        College.</p>
-                    <p>
-                        <hi rend="bold">Brian Murray</hi>, postgraduate student in English, King’s College
-                        London</p>
-                    <p>Brian was an editorial assistant from September 2007 until the project launch
-                        in May 2008. He is working on a PhD on the journalist, author and explorer
-                        Henry Morton Stanley.</p>
-                    <p>
-                        <hi rend="bold">Jason Narlock</hi>, postgraduate student in English, King’s College
-                        London</p>
-                    <p>Jason was an editorial assistant from September 2007 until March 2008. He is
-                        currently writing a PhD at King’s College London.</p>
-                    <p>
-                        <hi rend="bold">Indra Pillay</hi>,<hi rend="bold"> </hi>postgraduate student in English, King’s
-                        College London</p>
-                    <p>Indra was an editorial assistant from December 2007 until the project launch
-                        in May 2008. She is currently writing an Mphil in English at King’s College
-                        London.</p>
-                    <p>
-                        <hi rend="bold">Dr Matthew Taunton. </hi>
-                    </p>
-                    <p>Matthew Taunton was an editorial assistant April-May 2007. He recently
-                        completed a PhD at the London Consortium.</p>
-                    <p>
-                        <hi rend="bold">Faye Thompson</hi>, postgraduate, MA in History of the Book, Institute
-                        of English Studies, University of London</p>
-                    <p>Faye Thompson supervised the work of the Editorial Assistants on
-                        <hi rend="bold">ncse</hi>. She worked on the project from June 2007 until the project
-                        launch in May 2008.</p>
-                    <p>
-                        <hi rend="bold">Dr Victoria Williams.</hi>
-                    </p>
-                    <p>Victoria was an editorial assistant from September 2007 until the project
-                        launch in May 2008. Her doctorate investigated fairytales in
-                        nineteenth-century literature, art and film.</p>
-                </div></body>
-         
+            </div>
+            <div>
+                <head>Olive Software</head>
+                <p>
+                    <hi rend="bold">Chezkie Kasnett</hi>, Project Manager for Olive Software </p>
+                <p>Chezkie worked closely on the Olive components of <hi rend="bold">ncse </hi>from
+                    2007, and very closely with the<hi rend="bold"> ncse </hi>team in the closing
+                    stages of the project</p>
+                <p>
+                    <hi rend="bold">Uri Ben Tvzi</hi>, Project Manager for Olive Software.</p>
+                <p>Uri was Olive’s representative for the <hi rend="bold">ncse</hi> work in 2006. </p>
+                <p>
+                    <hi rend="bold">Irit Reznikov</hi>, Project Manager for Olive Software.</p>
+                <p>Irit was Olive’s representative at the beginning of the project, from January
+                    2005 to 2006.</p>
+            </div>
+            <div>
+                <head>Editorial Assistants</head>
+                <p>
+                    <hi rend="bold">Dr Chrissie Bradstreet.</hi>
+                </p>
+                <p>Chrisse was an editorial assistant from June to July 2007. Chrissie currently
+                    works at the Watts Gallery.</p>
+                <p>
+                    <hi rend="bold">Dr Clara Brennan</hi>, postgraduate student, King’s College
+                    London</p>
+                <p>Clara was an editorial assistant from September 2007 until the project launch in
+                    May 2008. She is a playwright and is currently working on a PhD on Theatre and
+                    Human Rights at King’s College London.</p>
+                <p>
+                    <hi rend="bold">Dr Greta Depledge.</hi>
+                </p>
+                <p>Greta was an editorial assistant from July to November 2007. She has recently
+                    completed a PhD at Birkbeck College.</p>
+                <p>
+                    <hi rend="bold">Rob Maidens</hi>, postgraduate student in English, Birkbeck
+                    College</p>
+                <p>Rob was an editorial assistant from May 2007 until the project launch in May
+                    2008. He is working on a PhD in the mid nineteenth-century novel at Birkbeck
+                    College.</p>
+                <p>
+                    <hi rend="bold">Brian Murray</hi>, postgraduate student in English, King’s
+                    College London</p>
+                <p>Brian was an editorial assistant from September 2007 until the project launch in
+                    May 2008. He is working on a PhD on the journalist, author and explorer Henry
+                    Morton Stanley.</p>
+                <p>
+                    <hi rend="bold">Jason Narlock</hi>, postgraduate student in English, King’s
+                    College London</p>
+                <p>Jason was an editorial assistant from September 2007 until March 2008. He is
+                    currently writing a PhD at King’s College London.</p>
+                <p>
+                    <hi rend="bold">Indra Pillay</hi>,<hi rend="bold"> </hi>postgraduate student in
+                    English, King’s College London</p>
+                <p>Indra was an editorial assistant from December 2007 until the project launch in
+                    May 2008. She is currently writing an Mphil in English at King’s College London.</p>
+                <p>
+                    <hi rend="bold">Dr Matthew Taunton. </hi>
+                </p>
+                <p>Matthew Taunton was an editorial assistant April-May 2007. He recently completed
+                    a PhD at the London Consortium.</p>
+                <p>
+                    <hi rend="bold">Faye Thompson</hi>, postgraduate, MA in History of the Book,
+                    Institute of English Studies, University of London</p>
+                <p>Faye Thompson supervised the work of the Editorial Assistants on <hi rend="bold"
+                        >ncse</hi>. She worked on the project from June 2007 until the project
+                    launch in May 2008.</p>
+                <p>
+                    <hi rend="bold">Dr Victoria Williams.</hi>
+                </p>
+                <p>Victoria was an editorial assistant from September 2007 until the project launch
+                    in May 2008. Her doctorate investigated fairytales in nineteenth-century
+                    literature, art and film.</p>
+            </div>
+        </body>
+
 
 
 
