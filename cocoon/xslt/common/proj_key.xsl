@@ -40,7 +40,7 @@
     <xsl:comment>[if GTE IE 7]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of select="$scriptpers"/>/c/compat_MSIE_7_0_gte.css"/> &lt;![endif]</xsl:comment>
 
     <!-- script -->
-    <script src="{$scriptswitch}/j/jquery-1.2.3.pack.js" type="text/javascript">&#160;</script>
+    <script src="{$scriptswitch}/j/jquery-1.2.3.min.js" type="text/javascript">&#160;</script>
     <script src="{$scriptswitch}/j/jquery.popupwindow.min.js" type="text/javascript">&#160;</script>
     <script src="{$scriptpers}/s/jquery.dimensions.js" type="text/javascript">&#160;</script>
     <script src="{$scriptpers}/s/jquery.accordion.js" type="text/javascript">&#160;</script>
