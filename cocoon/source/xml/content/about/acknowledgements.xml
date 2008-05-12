@@ -50,7 +50,10 @@
                     <item>All the contributors to the two <hi rend="bold">ncse</hi> symposia and
                         those who attended our user testing session.</item>
                     <item>Arts and Humanities Data Service (AHDS).</item>
-                    <item>Dawn Archer, University of Lancaster.</item>
+                    <item>Dawn Archer, University of Central Lancashire.</item>
+                    <item>Paul Rayson, University Centre for Computer Corpus Research on Language
+                        (UCREL) at the <xref type="external" url="http://ucrel.lancs.ac.uk/"
+                            >Lancaster University</xref>.</item>
                     <item>Faculty of Lifelong Learning, Birkbeck College.</item>
                     <item>School of English and Humanities at Birkbeck College.</item>
                     <item>Department of English, University of Birmingam.</item>
@@ -65,8 +68,7 @@
                     <item>Chris Lungley.</item>
                     <item>Jerome McGann, University of Virginia and NINES.</item>
                     <item>Rab MacGibbon, National Portrait Gallery.</item>
-                    <item>Laura Mandell, University of Miami Ohio and <xref type="external"
-                            url="http://www.nines.org/">NINES</xref>.</item>
+                    <item>Laura Mandell, University of Miami Ohio and NINES.</item>
                     <item><xref type="external" url="http://www.npg.org.uk/live/index.asp">National
                             Portrait Gallery</xref>.</item>
                     <item>Bethanie Nowviskie, University of Virginia and NINES.</item>
@@ -75,9 +77,7 @@
                         1800-1900: <xref type="external" url="http://www.victorianperiodicals.com/"
                             >www.victorianperiodicals.com</xref>.</item>
                     <item>Jennie Patrice, British Library.</item>
-                    <item>Paul Rayson, University Centre for Computer Corpus Research on Langauge
-                        (UCREL) at the <xref type="external" url="http://ucrel.lancs.ac.uk/"
-                            >University of Lancaster</xref>.</item>
+                    
                     <item>Senate House Library, University of London: <xref type="external"
                             url="http://www.ull.ac.uk/">www.ull.ac.uk</xref>.</item>
                     <item>Jane Shaw, British Library.</item>
@@ -129,7 +129,7 @@
                             automatically links words in running text to one or more semantic
                             categories, developed by the <xref type="external"
                                 url="http://ucrel.lancs.ac.uk/">University Centre for Computer
-                                Corpus Research on Language</xref>.</cell>
+                                Corpus Research on Language</xref> at Lancaster University.</cell>
                     </row>
 
                     <row>
@@ -236,7 +236,7 @@
                                 url="http://ucrel.lancs.ac.uk/usas/usas-tree.htm">visual
                                 representation</xref>, developed by the <xref type="external"
                                 url="http://ucrel.lancs.ac.uk/">University Centre for Computer
-                                Corpus Research on Language</xref>.</cell>
+                                Corpus Research on Language</xref> at Lancaster University.</cell>
                     </row>
                 </table>
                 <table>
