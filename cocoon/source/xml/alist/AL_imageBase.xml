@@ -470,7 +470,7 @@
             <image id="olive-viewpoint">
                 <imgTitle>Olive viewpoint diagram</imgTitle>
                 <desc>Architectural diagram of Olive Software's Viewpoint.</desc>
-                <width></width>
+                <width>423</width>
                 <height></height>
                 <ext n="gif"/>
                 <creator>
@@ -491,7 +491,7 @@
             <image id="cch-ncseweb">
                 <imgTitle>Web framework diagram</imgTitle>
                 <desc>Architectural diagram of CCH NCSE web framework.</desc>
-                <width></width>
+                <width>445</width>
                 <height></height>
                 <ext n="gif"/>
                 <creator>
@@ -533,7 +533,7 @@
             <image id="usas">
                 <imgTitle>USAS architectural diagram</imgTitle>
                 <desc>Simplified model of the USAS subject descriptor process.</desc>
-                <width></width>
+                <width>450</width>
                 <height></height>
                 <ext n="gif"/>
                 <creator>
