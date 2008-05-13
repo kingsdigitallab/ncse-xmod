@@ -490,7 +490,7 @@
             <li>Resp: <a href="http://www.kcl.ac.uk/cch">CCH</a></li>
             <li class="s01">
               <span>Powered by </span>
-              <a href="http://www.kcl.ac.uk/cch/xmod/" title="link to the xMod home page">
+              <a href="http://www.cch.kcl.ac.uk/xmod/" title="link to the xMod home page">
                 <span>xMod 1.3</span>
               </a>
             </li>
