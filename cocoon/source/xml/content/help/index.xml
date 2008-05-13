@@ -37,7 +37,7 @@
         <body>
 
             <div>
-                <head>Searching</head>
+                <head>Searching Keywords</head>
                 <p> The keyword index allows users to search for keywords that have been assigned to
                     items within <hi rend="bold">ncse</hi> using a combination of controlled and
                     free-text entry fields. The index was compiled by first algorithmically and
@@ -55,10 +55,8 @@
                 <p> This section describes how to enter search terms and refine search queries, and
                     how to interpret and refine search results. It <hi rend="bold">does not</hi>
                     describe how to search the full-text appearing within fascimiles. For this
-                    information, please read: <xref type="external"
-                        url="http://ncse-viewpoint.cch.kcl.ac.uk/Tips.htm">Advanced Search
-                    Tips</xref> in the fascimile repository. </p>
-
+                    information, please read: Searching Facsimiles, below. 
+</p>
                 <div>
                     <head>Free-text Entry Search Fields</head>
                     <p>To search for Persons, Places or Institutions, select the keyword type from
@@ -159,9 +157,9 @@
 
                 </div>
                 <div>
-                    <head> Boolean Searches: AND, OR, NOT</head>
+                    <head> Logical Operators: AND, OR, NOT</head>
                     <p> Separate search terms into individual fields to conduct searches using
-                        additional Boolean operators (AND, OR, or NOT). </p>
+                        additional logical or Boolean operators (AND, OR, or NOT). </p>
 
                     <p><hi rend="bolditalic">Tip:</hi>Multiple terms entered into a single field are
                         automatically joined with a Boolean AND.</p>
@@ -315,7 +313,7 @@
             </div>
 
             <div>
-                <head>Browsing</head>
+                <head>Browsing Keywords</head>
                 <p>Browsing indexes have been created out the hierarchical schemes used to assign
                     controlled subject and image descriptors to items in the facsimile repository.
                     Subjects have been automatically assigned using the <title>UCREL Semantic
@@ -358,7 +356,7 @@
                     from the subject hierarchy. Combine terms to return a manageable resultset.</p>
             </div>
             <div>
-                <head>Facsimile component - Help notes</head>
+                <head>Searching Facsimiles</head>
                 <div>
                     <head>Introduction</head>
                     <p>The Facsimile component of ncse is delivered using Olive Software's Viewpoint
@@ -379,10 +377,6 @@
                     <p>The <hi rend="italic">Viewpoint</hi> software provides a number of different
                         types of browse and search functions to aid readers in reading and exploring
                         the digitized materials.</p>
-                </div>
-                <div>
-                    <head>Browse</head>
-                    <p>to follow</p>
                 </div>
                 <div>
                     <head>Searching in the Facsimile component</head>
