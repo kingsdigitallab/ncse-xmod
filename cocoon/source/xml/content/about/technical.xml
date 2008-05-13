@@ -5,7 +5,7 @@
     <teiHeader status="new" type="text">
         <fileDesc>
             <titleStmt>
-                <title>Technical introduction</title>
+                <title>Technical Introduction</title>
 
             </titleStmt>
             <publicationStmt>
@@ -38,7 +38,7 @@
     <text>
         <body>
 
-            <head>Technical introduction</head>
+            <head>Technical Introduction</head>
 
             <p>As can be seen in the accompanying <xref type="internal" from="p5">editorial
                     commentary</xref> for this edition, the <hi rend="bold">ncse</hi> is large and
@@ -77,13 +77,13 @@
                         >http://www.keyword.kcl.ac.uk/redist/pdf/mellon.pdf</xref></note>
             </p>
 
-            <p>The technical components of the <hi rend="bold">ncse</hi> build thus build on this earlier research to
+            <p>The technical components of the <hi rend="bold">ncse</hi> thus build on this earlier research to
                 explore how the use of similar natural language processing techniques can be adapted
                 and applied to enhance a scholarly edition materials, with the aim of addressing
                 three primary research questions: <list type="ordered">
                     <item>How might a semantic 'view' be generated of items within the <hi rend="bold">ncse</hi> corpus
-                        through a hybrid approach of manual- and algorithmic- assigned keywords?</item>
-                    <item>What kinds of end-user services could be produced using this data to aid
+                        through a hybrid approach of manually and algorithmically assigned keywords?</item>
+                    <item>What kinds of end-user facilities could be produced using this data to aid
                         the user in locating and selecting articles relevant to their research?</item>
                     <item>How can this semantic environment best be integrated with end-user
                         browsing and searching services provided within the Olive software?</item>
@@ -98,12 +98,12 @@
                 <head>ncse Facsimiles</head>
                 <p>The texts in the <hi rend="bold">ncse</hi> were scanned from microfilm by Olive
                     Software and processed using their Viewpoint software (www.olivesoftware.com). </p>
-                <p> ViewPoint is comprised of three main modules – XML Distiller, Olive XML
-                    Warehouse and the Olive ViewPoint Server. The XML Distiller captures
+                <p> ViewPoint comprises three main modules – XML Distiller, Olive XML
+                    Warehouse and the Olive ViewPoint Server <note>To learn more about Olive Software, read: <xref type="external" url="http://www.olivesoftware.com">http://www.olivesoftware.com</xref></note>. The XML Distiller captures
                     unstructured, multipleformat document resources and transforms them into a
                     unified, structured XML schema (PrXML). Content is fully indexed for searching
                     and stored in the Olive XML warehouse file system. The ViewPoint Server provides
-                    dynamic access, viewing and search services. ViewPoint’s powerful XML-based
+                    dynamic access, viewing and search services. ViewPoints XML-based
                     search engine can search through the text of an entire document warehouse,
                     including metadata, to retrieve components from multiple documents. The search
                     engine displays search results based on the proprietary "Relational Relevance
@@ -131,7 +131,7 @@
 
                 <div>
                     <head> Entities: Persons, Places and Institutions </head>
-                    <p>Persons, places and institution entities were automatically extracted from
+                    <p>Persons, places and institution entities were extracted from
                         the texts in the corpus using Gate, the General Architecture for Text
                         Engineering.<note>To learn more about Gate, see <xref type="external" url="http://www.gate.ac.uk/">http://www.gate.ac.uk/</xref></note></p>
 
@@ -175,8 +175,9 @@
                     <p>Within <hi rend="bold">ncse</hi>, Dr. Rayson tailored USAS to process the
                         entire the entire text of the corpus<note>The text used for this work was
                             taken from a 17 January 2008 "snapshot" of the corpus.</note>. Reports
-                        were created for each article in the corpus over 300 words <note>This word
-                            threshold was selected to reduce processing time</note> that included:
+                        were created for each article in the corpus over 300 characters <note>This word
+                            threshold was selected as in articles shorter than 300 characters there is not enough context to
+  enable the semtag-process to extract meaningful data. </note> that included:
                             <list type="unordered">
                             <item> a copy of the original file</item>
                             <item>a semantic tag report with each lists of subject descriptors from
@@ -214,16 +215,18 @@
                             level are included in the exported data. Any semantic tags belonging to
                             the Z class are also removed. </item>
                         <item>
-                            <hi rend="bold">Person, Place, Institution Entities</hi>: Entities
-                            determined to consist entirely of |, &lt; or &gt; characters are
-                            filtered out the of semantic keyword framework. Any entity that is a
+                            <hi rend="bold">Person, Place, Institution Entities</hi>: 
+                              Entities consisting entirely of non-alphanumeric characters
+                              as a result of incorrect OCR recognition 
+                              are filtered out the of keyword framework, while such characters
+                              appearing within words were replaced by the underscore character ( _ ). Any entity that is a
                             single character is also filtered. </item>
                         <item>
                             <hi rend="bold">Image Keywords</hi>: All image keywords, having been
-                            human assigned, are included in the semantic keyword framework. </item>
+                            human assigned, are included in the keyword framework. </item>
                     </list>
                 </p>
-                <p> After filtering was complete, the Python script includeed items output for the
+                <p> After filtering was complete, the Python script included items output for the
                     web framework if: keywords exist in any form (semantic tags, persons, places,
                     institutions or images), and meaningful bibliographic metadata (in particular,
                     an item title) could be extracted from Olive repository. </p>
@@ -247,25 +250,25 @@
                     </list>
                 </p>
 
-                <p>The web delivery framework is thus comprised of two interrelated components: the
-                    Olive produced facsimile repository which allows for full-text searching and
-                    browsing, and a rich keyword repository, in which users can browse for and
-                    search for for articles according to the ways in which they have been
+                <p>The web delivery framework thus comprises two interrelated components: the
+                    Olive produced <hi rend="bold">facsimile</hi> repository which allows for full-text searching and
+                    browsing, and a rich <hi rend="bold">keyword</hi> repository, in which users can browse for and
+                    search articles according to the ways in which they have been
                     semantically identified.</p>
 
             </div>
             <div>
                 <head>Conclusions and Future Directions</head>
                 <p>Within the <hi rend="bold">ncse</hi> project, the focus was on 19th century language, an area for
-                    which specialized USAS thesauri do not yet exist. In addition, the source text
+                    which specialized USAS thesauri do not yet exist, and GATE gazetteers must be crafted. In addition, the source text
                     for the keyword generation work was uncorrected OCR. Therefore, while early
                     results of this work are quite promising, the keyword index cannot yet boast of
                     high precision or recall when compared to the full-text results generated in the
                     Olive facsimile repository. </p>
 
                 <p>However, the work performed to-date for the <hi rend="bold">ncse</hi> has allowed the CCH to explore
-                    the develoment of a full-featured bibliographic system developed using automatic
-                    and data mining techniques, and early anecdotal feedback suggests that the
+                    the develoment of a full-featured bibliographic system developed using 
+                    data mining techniques, and early anecdotal feedback suggests that the
                     semantic 'view' metaphor used in constructing the beta website helps the user to 
                     find relevant documents, particularly for searches that include subject descriptors. 
                     Furthermore, early feedback suggests that the system invites the scholar to engage with the material in new ways.</p>
@@ -273,8 +276,9 @@
                 <p>In conclusion, the work of the <hi rend="bold">ncse</hi> is perhaps best termed "at the end of the
                     beginning". Planned enhancements include: <list type="ordered">
                         <item>Additional refinements to the facsimile repository user interface, </item>
-                        <item>Refinements to the automatic keyword extraction processes, to improve
+                        <item>Refinements to the keyword extraction processes, to improve
                             reliability and relevance of terms returned,</item>
+                        <item>Development of 'user tools' for text mining and network analysis,</item>
                         <item>Inclusion within the keyword repository of additional materials from
                             the corpus, and</item>
                         <item>Improved integration between the keyword and facsimile
