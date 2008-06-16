@@ -255,5 +255,24 @@
         <fileTitle>FAQ and Help</fileTitle>
       </item>
     </group>
+    <group id="g9">
+      <groupHead>
+        <groupTitle>Search of the Month</groupTitle>
+        <groupFolder>/month</groupFolder>
+      </groupHead>
+      <item id="p9_1">
+        <fileName>index</fileName>
+      </item>
+      
+    </group>
+   <!-- <group id="g9">
+      <groupHead>
+        <groupTitle>Type02</groupTitle>
+        <groupFolder>/content/month</groupFolder>
+        <rhcontent value="off"/>
+        <theme/>
+      </groupHead>
+      
+    </group>-->
   </body>
 </authorityList>
