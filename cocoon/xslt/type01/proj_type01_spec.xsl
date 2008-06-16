@@ -2,7 +2,7 @@
 <!--
   SVN: $Id$
 -->
-<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet exclude-result-prefixes="#all" version="2.0" xmlns:dir="http://apache.org/cocoon/directory/2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- Index Keys -->
   <xsl:key match="titleStmt/author" name="headerAuth" use="normalize-space(name[@type='surname'])" />
@@ -44,6 +44,24 @@
       </div>
     </xsl:if>
 
+    <!-- Search of the month -->
+    <xsl:if test="@id='sm_list'">
+      <div class="unorderedList">
+        <div class="t01">
+          <ul>
+            <xsl:for-each select="//projDIR/dir:directory/dir:file[starts-with(@name, 'sm-')]">
+              <xsl:sort select="@name"/>
+              <li>
+                <a href="{substring-before(@name, '.xml')}.html">
+                  <xsl:value-of select="dir:xpath/title"/>
+                </a>
+              </li>
+            </xsl:for-each>
+            </ul>
+        </div>
+      </div>
+    </xsl:if>
+    
     <!--  GLOSSARY -->
     <xsl:if test="@id='tpl_glossary'">
       <xsl:call-template name="ctpl_glossary" />
