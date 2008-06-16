@@ -144,6 +144,11 @@
 
         </level01>
         <level01>
+          <label>Search of the Month</label>
+          <default ref="p9_1"/>
+        </level01>
+        
+        <level01>
           <label>History of the Project</label>
           <default ref="p6"/>
           <active>
