@@ -11,8 +11,9 @@
       <xsl:for-each select="//r:RDF/s:Concept">
         <li>
           <a href="subject/{encode-for-uri(@r:about)}-{encode-for-uri(@r:label)}">
-            <xsl:value-of select="@r:about" />
-            <xsl:text>: </xsl:text>
+            <!-- Letters at beginning
+              <xsl:value-of select="@r:about" />
+            <xsl:text>: </xsl:text>-->
             <xsl:value-of select="@r:label" />
           </a>
         </li>
@@ -45,6 +46,7 @@
             <xsl:for-each select="//search-results/display-parameters/parameter">
               <xsl:variable name="key" select="translate(substring-before(., '::'), '*', '')" />
               <dd>
+                <a href="../subject.html" title="Select another category from the subject index">Remove</a>
                 <xsl:for-each select="//projAL//s:Concept[descendant-or-self::node()[@r:about = $key]]">
                   <xsl:value-of select="@r:label" />
                 </xsl:for-each>
