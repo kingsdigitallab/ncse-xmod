@@ -126,22 +126,12 @@
         
         <xsl:if test="$show-article-link = false()">
           <xsl:for-each select="../../data">
-            <xsl:if test="semtags/semtag">
+            <xsl:if test="images/image">
               <span>
-                <xsl:text>Subjects </xsl:text>
+                <xsl:text>Images </xsl:text>
                 <dfn>
                   <xsl:text>(</xsl:text>
-                  <xsl:value-of select="count(semtags/semtag)" />
-                  <xsl:text>)</xsl:text>
-                </dfn>
-              </span>
-            </xsl:if>
-            <xsl:if test="names/name">
-              <span>
-                <xsl:text>Persons </xsl:text>
-                <dfn>
-                  <xsl:text>(</xsl:text>
-                  <xsl:value-of select="count(names/name)" />
+                  <xsl:value-of select="count(images/image)" />
                   <xsl:text>)</xsl:text>
                 </dfn>
               </span>
@@ -156,6 +146,16 @@
                 </dfn>
               </span>
             </xsl:if>
+            <xsl:if test="names/name">
+              <span>
+                <xsl:text>Persons </xsl:text>
+                <dfn>
+                  <xsl:text>(</xsl:text>
+                  <xsl:value-of select="count(names/name)" />
+                  <xsl:text>)</xsl:text>
+                </dfn>
+              </span>
+            </xsl:if>
             <xsl:if test="places/place">
               <span>
                 <xsl:text>Places </xsl:text>
@@ -166,12 +166,12 @@
                 </dfn>
               </span>
             </xsl:if>
-            <xsl:if test="images/image">
+            <xsl:if test="semtags/semtag">
               <span>
-                <xsl:text>Images </xsl:text>
+                <xsl:text>Subjects </xsl:text>
                 <dfn>
                   <xsl:text>(</xsl:text>
-                  <xsl:value-of select="count(images/image)" />
+                  <xsl:value-of select="count(semtags/semtag)" />
                   <xsl:text>)</xsl:text>
                 </dfn>
               </span>
@@ -179,6 +179,8 @@
           </xsl:for-each>
         </xsl:if>
       </h3>
+      
+      
 
       <ul class="s01">
         <li class="s01">
@@ -220,12 +222,12 @@
           </a>
           <xsl:text> | </xsl:text>
           <a
-            href="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href={$path}&amp;page={biblScope[@type = 'page-internal']}&amp;view=document"
+            href="http://ncse-viewpoint.cch.kcl.ac.uk/?href={$path}&amp;page={biblScope[@type = 'page-internal']}&amp;view=document"
             target="_blank">
             <xsl:text>page</xsl:text>
           </a>
           <xsl:text> | </xsl:text>
-          <a href="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href={$path}&amp;page=1&amp;view=document" target="_blank">
+          <a href="http://ncse-viewpoint.cch.kcl.ac.uk/?href={$path}&amp;page=1&amp;view=document" target="_blank">
             <xsl:text>issue</xsl:text>
           </a>
         </li>
@@ -240,3 +242,107 @@
     </xsl:for-each>
   </xsl:template>
 </xsl:stylesheet>
+<!-- If they want the headings after the title
+  <xsl:for-each select="../../data">
+  <xsl:choose>
+  <xsl:when test="images/image">
+  <span>
+  <xsl:text>Images </xsl:text>
+  <dfn>
+  <xsl:text>(</xsl:text>
+  <xsl:value-of select="count(images/image)" />
+  <xsl:text>)</xsl:text>
+  </dfn>
+  </span>
+  </xsl:when>
+  <xsl:otherwise>
+  <span class="s01">
+  <xsl:text>Images </xsl:text>
+  <dfn>
+  <xsl:text>(0)</xsl:text>
+  </dfn>
+  </span>
+  </xsl:otherwise>
+  </xsl:choose>
+  <xsl:choose>
+  <xsl:when test="institutions/institution">
+  <span>
+  <xsl:text>Institutions </xsl:text>
+  <dfn>
+  <xsl:text>(</xsl:text>
+  <xsl:value-of select="count(institutions/institution)" />
+  <xsl:text>)</xsl:text>
+  </dfn>
+  </span>
+  </xsl:when>
+  <xsl:otherwise>
+  <span class="s01">
+  <xsl:text>Institutions </xsl:text>
+  <dfn>
+  <xsl:text>(0)</xsl:text>
+  </dfn>
+  </span>
+  </xsl:otherwise>
+  </xsl:choose>
+  <xsl:choose>
+  <xsl:when test="names/name">
+  <span>
+  <xsl:text>Persons </xsl:text>
+  <dfn>
+  <xsl:text>(</xsl:text>
+  <xsl:value-of select="count(names/name)" />
+  <xsl:text>)</xsl:text>
+  </dfn>
+  </span>
+  </xsl:when>
+  <xsl:otherwise>
+  <span class="s01">
+  <xsl:text>Persons </xsl:text>
+  <dfn>
+  <xsl:text>(0)</xsl:text>
+  </dfn>
+  </span>
+  </xsl:otherwise>
+  </xsl:choose>
+  <xsl:choose>
+  <xsl:when test="places/place">
+  <span>
+  <xsl:text>Places </xsl:text>
+  <dfn>
+  <xsl:text>(</xsl:text>
+  <xsl:value-of select="count(places/place)" />
+  <xsl:text>)</xsl:text>
+  </dfn>
+  </span>
+  </xsl:when>
+  <xsl:otherwise>
+  <span class="s01">
+  <xsl:text>Places </xsl:text>
+  <dfn>
+  <xsl:text>(0)</xsl:text>
+  </dfn>
+  </span>
+  </xsl:otherwise>
+  </xsl:choose>
+  <xsl:choose>
+  <xsl:when test="semtags/semtag">
+  <span>
+  <xsl:text>Subjects </xsl:text>
+  <dfn>
+  <xsl:text>(</xsl:text>
+  <xsl:value-of select="count(semtags/semtag)" />
+  <xsl:text>)</xsl:text>
+  </dfn>
+  </span>
+  </xsl:when>
+  <xsl:otherwise>
+  <span class="s01">
+  <xsl:text>Images </xsl:text>
+  <dfn>
+  <xsl:text>(0)</xsl:text>
+  </dfn>
+  </span>
+  </xsl:otherwise>
+  </xsl:choose>
+  </xsl:for-each>
+-->

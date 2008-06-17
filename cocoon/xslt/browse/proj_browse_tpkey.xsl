@@ -67,6 +67,7 @@
 
     <div id="rightContent">
       <div class="facetBrowse">
+        <a href="../subject.html" class="facetReset" title="Return to the Subject Category Index">&#8249;&#8249; <b>Back to Subject Index</b></a>
         <div class="facetPanel">
           <h3>Categories</h3>
           <dl>
