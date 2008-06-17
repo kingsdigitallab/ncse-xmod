@@ -13,7 +13,7 @@
       <map:match pattern="**/zoomify/*.html">
         <map:generate src="{global:project-path}{global:project-materials}/index.xml" />
         <map:transform src="xslt/util/zoomify.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="zoomify-{2}" />
         </map:transform>
         <map:serialize type="xhtml" />
@@ -29,7 +29,7 @@
           <map:part element="subjectsAL" src="{global:project-path}{global:project-alist}/subject-refined.xml" />
         </map:aggregate>
         <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="search_form" />
         </map:transform>
         <map:serialize type="xhtml" />
@@ -42,7 +42,7 @@
       <map:match pattern="search/*-thesaurus-*-*.html">
         <map:generate src="{global:project-path}{global:project-alist}/{1}-refined.xml" />
         <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="{1}_thesaurus" />
           <map:parameter name="thesaurus-key" value="{2}" />
           <map:parameter name="thesaurus-text" value="{3}" />
@@ -57,7 +57,7 @@
           <map:part src="cocoon:/search-xsp" />
         </map:aggregate>
         <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="search_results" />
         </map:transform>
         <map:serialize type="xhtml" />
@@ -79,7 +79,7 @@
           <map:part src="cocoon:/refine-search-xsp" />
         </map:aggregate>
         <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="search_form" />
         </map:transform>
         <map:serialize type="xhtml" />
@@ -100,7 +100,7 @@
           <map:part src="cocoon:/page-xsp({1})" />
         </map:aggregate>
         <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="search_results" />
         </map:transform>
         <map:serialize type="xhtml" />
@@ -122,7 +122,7 @@
           <map:part src="cocoon:/{2}-search-clause-xsp" />
         </map:aggregate>
         <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="search_results" />
         </map:transform>
         <map:serialize type="xhtml" />
@@ -142,7 +142,7 @@
           <map:part src="cocoon:/issue-xsp({2})" />
         </map:aggregate>
         <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="view_issue" />
         </map:transform>
         <map:serialize type="xhtml" />
@@ -164,7 +164,7 @@
           <map:part element="projAL" src="{global:project-path}{global:project-alist}/subject-refined.xml" />
         </map:aggregate>
         <map:transform src="xslt/search/proj_search_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="search_thesaurus_window" />
         </map:transform>
         <map:serialize type="xhtml" />
@@ -179,7 +179,7 @@
           <map:part src="{global:project-path}{global:project-materials}/browse/index.xml" />
         </map:aggregate>
         <map:transform src="xslt/type01/proj_type01_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
         </map:transform>
         <map:serialize type="xhtml" />
       </map:match>
@@ -190,7 +190,7 @@
           <map:part element="projAL" src="{global:project-path}{global:project-alist}/{1}-refined.xml" />
         </map:aggregate>
         <map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="browse_{1}" />
         </map:transform>
         <map:serialize type="xhtml" />
@@ -203,7 +203,7 @@
           <map:part src="cocoon:/browse-xsp?field=image-key&amp;value={1}*&amp;display={2}&amp;format=slim" />
         </map:aggregate>
         <map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="browse_image_result" />
         </map:transform>
         <map:serialize type="xhtml" />
@@ -224,7 +224,7 @@
           <map:part src="cocoon:/browse-xsp?field=semtag-key&amp;value={1}*&amp;display={2}&amp;format=slim" />
         </map:aggregate>
         <map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="browse_subject_result" />
         </map:transform>
         <map:serialize type="xhtml" />
@@ -237,7 +237,7 @@
           <map:part src="cocoon:/add-search-clause-xsp" />
         </map:aggregate>
         <map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="browse_{1}_result" />
         </map:transform>
         <map:serialize type="xhtml" />
@@ -250,7 +250,7 @@
           <map:part src="cocoon:/remove-search-clause-xsp" />
         </map:aggregate>
         <map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="browse_{1}_result" />
         </map:transform>
         <map:serialize type="xhtml" />
@@ -264,7 +264,7 @@
           <map:part src="cocoon:/page-xsp({3})" />
         </map:aggregate>
         <map:transform src="xslt/browse/proj_browse_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
           <map:parameter name="sm-context-id" value="browse_{2}_result" />
         </map:transform>
         <map:serialize type="xhtml" />
@@ -283,7 +283,7 @@
           <map:part src="{global:project-path}{global:project-materials}/{1}.xml" />
         </map:aggregate>
         <map:transform src="xslt/type01/proj_type01_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
         </map:transform>
         <map:serialize type="xhtml" />
       </map:match>
@@ -306,7 +306,7 @@
           <map:part src="{global:project-path}{global:project-materials}/{1}/{2}.xml" />
         </map:aggregate>
         <map:transform src="xslt/type01/proj_type01_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{global:project-root}" />
+          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
         </map:transform>
         <map:serialize type="xhtml" />
       </map:match>
@@ -353,7 +353,6 @@
     </map:pipeline>
 
     <map:pipeline>
-    
       <!-- ========================= Automount ============================= -->
       <map:match pattern="**">
         <map:mount check-reload="yes" src="aggr-sitemap.xmap" uri-prefix="" />
