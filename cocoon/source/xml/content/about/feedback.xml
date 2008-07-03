@@ -5,7 +5,7 @@
       <teiHeader status="new" type="text">
           <fileDesc>
               <titleStmt>
-                  <title>Contact us</title>
+                  <title>User feedback form</title>
                   
               </titleStmt>
               <publicationStmt>
@@ -24,7 +24,7 @@
           </encodingDesc>
           <revisionDesc>
               <change>
-                  <date>2008-03-27</date>
+                  <date>2008-07-02</date>
                   <respStmt>
                       <name>EL</name>
                   </respStmt>
@@ -38,14 +38,10 @@
       <text>
           <body>
               
-              <head>Feedback form</head>
+              <head>User feedback form</head>
               
-              <p>The advantage of electronic publication is that changes and corrections can always be made. Users should be aware that the data presented here is in development and that its creators appreciate their input.</p>
-                  
-              <p>We particularly welcome any feedback about the information contained in the website.</p>
-                  
-                  <p> If you have a comment, correction or contribution, then email it using the form below to the ncse project team. We hope to reply to all correspondence.</p>
-              
+              <p>Please let us know how you use the <hi rend="bold">ncse</hi> resources.</p>
+              <p>All questions are optional, but more information will help us identify areas for improvement.</p>              
               <divGen id="feedback"/>
               
               
