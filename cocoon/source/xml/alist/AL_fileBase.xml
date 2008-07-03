@@ -47,10 +47,10 @@
         <fileTitle>Release Notes</fileTitle>
       </item>
       
-      <!--<item id="p1_4">
+      <item id="p1_4">
         <fileName>contact</fileName>
         <fileTitle>Contact Us</fileTitle>
-      </item>-->
+      </item>
       <item id="p1_5">
         <fileName>feedback</fileName>
         <fileTitle>Feedback form</fileTitle>

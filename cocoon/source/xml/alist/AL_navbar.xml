@@ -68,7 +68,7 @@
               <default ref="p1_1"/>
             </level02>
             <level02>
-              <label>Technical Introduction</label>
+              <label>Technical introduction</label>
               <default ref="p1_2"/>
             </level02>
             <level02>
@@ -79,9 +79,14 @@
             
             <level02>
               <label>Contact us</label>
+              <default ref="p1_4"/>
+            </level02>
+            <level02>
+              <label>User feedback form</label>
               <default ref="p1_5"/>
             </level02>
-<level02>
+            
+            <level02>
               <label>Acknowledgements</label>
               <default ref="p1_7"/>
             </level02>
@@ -89,7 +94,7 @@
           </sub02>
         </level01>
         <level01>
-          <label>Editorial Commentary</label>
+          <label>Editorial commentary</label>
           <default ref="p5"/>
           <active>
             <file start="p5"/>
@@ -97,11 +102,11 @@
 
           <sub02>
             <level02>
-              <label>Choice of the Cluster</label>
+              <label>Choice of the cluster</label>
               <default ref="p5_1"/>
             </level02>
             <level02>
-              <label>Editorial Decisions</label>
+              <label>Editorial decisions</label>
               <default ref="p5_2"/>
             </level02>
             <level02>
@@ -109,19 +114,19 @@
               <default ref="p5_3"/>
             </level02>
             <level02>
-              <label>Visual Material</label>
+              <label>Visual material</label>
               <default ref="p5_4"/>
             </level02>
             <level02>
-              <label>Paratextual Material</label>
+              <label>Paratextual material</label>
               <default ref="p5_5"/>
             </level02>
             <level02>
-              <label>Multiple Editions</label>
+              <label>Multiple editions</label>
               <default ref="p5_6"/>
             </level02>
             <level02>
-              <label>Text Mining</label>
+              <label>Text mining</label>
               <default ref="p5_7"/>
             </level02>
             <level02>
@@ -129,7 +134,7 @@
               <default ref="p5_8"/>
             </level02>
             <level02>
-              <label>The Core</label>
+              <label>The core</label>
               <default ref="p5_9"/>
             </level02>
            <level02>
@@ -137,26 +142,26 @@
               <default ref="p5_11"/>
             </level02>
             <level02>
-              <label>Concept Mapping</label>
+              <label>Concept mapping</label>
               <default ref="p5_10"/>
             </level02>
           </sub02>
 
         </level01>
-        <level01>
-          <label>Search of the Month</label>
+        <!--<level01>
+          <label>Search of the month</label>
           <default ref="p9_1"/>
-        </level01>
+        </level01>-->
         
         <level01>
-          <label>History of the Project</label>
+          <label>History of the project</label>
           <default ref="p6"/>
           <active>
             <file start="p6"/>
           </active>
           <sub02>
             <level02>
-              <label>ncse Team</label>
+              <label>ncse team</label>
               <default ref="p6_1"/>
             </level02>
             
@@ -192,7 +197,7 @@
               <default ref="p7_1"/>
             </level02>
             <level02>
-              <label>Related Projects</label>
+              <label>Related projects</label>
               <default ref="p7_2"/>
             </level02>
             <level02>
@@ -217,7 +222,7 @@
           <default ref="p2_3"/>
         </level01>
         <level01>
-          <label>English Woman’s Journal (1858-1864)</label>
+          <label>English Woman’s journal (1858-1864)</label>
           <default ref="p2_4"/>
         </level01>
         <level01>
