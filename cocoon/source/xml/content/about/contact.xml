@@ -36,11 +36,31 @@
       </teiHeader>
       
       <text>
-          <body>
+          
               
-              <head>Contact Us</head>
+              <body>
+                  
+                  <head>Feedback form</head>
+                  
+                  <p>The advantage of electronic publication is that changes and corrections can always be made. Users should be aware that the data presented here is in development and that its creators appreciate their input.</p>
+                  
+                  <p>We particularly welcome any feedback about the information contained in the website.</p>
+                  
+                  <p> If you have a comment, correction or contribution, then email it using the form below to the ncse project team. We hope to reply to all correspondence.</p>
+                  
+                  <divGen id="contact"/>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+              </body>
               
-              <p>please populate</p>
               
               
               
@@ -52,8 +72,7 @@
               
               
               
-              
-          </body>
+          
       </text>
   </TEI.2>
   
