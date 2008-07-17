@@ -36,7 +36,7 @@
     <link href="{$scriptswitch}/c/print.css" media="print" rel="stylesheet" type="text/css"/>
 
     <!-- IE browser specific css and script -->
-    <xsl:comment>[if GTE IE 6]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of select="$scriptpers"/>/c/compat_MSIE_6_0_lte.css"/> &lt;![endif]</xsl:comment>
+    <xsl:comment>[if LTE IE 6]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of select="$scriptpers"/>/c/compat_MSIE_6_0_lte.css"/> &lt;![endif]</xsl:comment>
     <xsl:comment>[if GTE IE 7]> &lt;link rel="stylesheet" type="text/css" href="<xsl:value-of select="$scriptpers"/>/c/compat_MSIE_7_0_gte.css"/> &lt;![endif]</xsl:comment>
 
     <!-- script -->
