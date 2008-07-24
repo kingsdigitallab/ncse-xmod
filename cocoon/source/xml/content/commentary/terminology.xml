@@ -52,7 +52,7 @@
                 glossary that provides definitions of the terms that we employ. </p>
 
 
-            <div>
+            <div id="con">
                 <head>Concept map</head>
                 <p>The original project brief specified concept maps as a way of tracing thematic
                     information across the edition. We constructed a concept map for the edition in
@@ -60,12 +60,12 @@
                     for grouping content by concept. To read more about this process click <xref
                         type="internal" from="p5_10">here</xref>. As the map had been constructed
                     from the texts up, we did not feel confident about its ability to capture all of
-                    the content in <hi>ncse</hi>. This, combined with the fact that the map required
+                    the content in <hi rend="bold">ncse</hi>. This, combined with the fact that the map required
                     human intervention to link concepts and texts, meant that we were not able to
-                    apply it to the edition. Instead, we used a semantic tagger (see below) to
+                    apply it to the edition. Instead, we used a <ref target="sem">semantic tagger</ref> to
                     produce a keyword subject index.</p>
             </div>
-            <div>
+            <div id="iss">
                 <head>Issue</head>
                 <p>By issue we usually refer to the portions of a serial that are issued regularly
                     under the same masthead with a date and a number. Although issues have
@@ -83,13 +83,22 @@
                     discriminating between them at a structural level.</p>
             </div>
             <div>
+                <head> Items and Departments</head>
+                <p>An item is the smallest editorial unit in <hi rend="bold">ncse</hi>. It corresponds in most cases to a single article, but
+                    also includes any other component on the page. a department is a section of an
+                    issue that groups certain articles together. departments are similar to what
+                    might be called 'sections' today: for instance, the <hi rend="italic">Leader</hi>'s 'Portfolio'
+                    department included fiction, poetry and essays; its 'Literature' department
+                    contained reviews of recent publications.</p>
+            </div>
+            <div id="nam">
                 <head>Named entity extraction</head>
                 <p>This is a process carried out to obtain a list of all the proper nouns within the
                     textual transcript of <hi>ncse</hi>. We used <xref type="external"
                         url="http://gate.ac.uk/">GATE</xref> to identify and then discriminate
                     between personal names, places and institutions within our corpus. These lists
                     were also evaluated against other extant authority lists, and were then used to
-                    popular the ‘Names’, ‘Institutions’ and ‘Places’ metadata fields.</p>
+                    popular the ‘Names’, ‘Institutions’ and ‘Places’ metadata fields in the keywords section of the resource.</p>
             </div>
             <div>
                 <head>Number</head>
@@ -109,7 +118,7 @@
                     publication. It is often difficult to decide when a particular title becomes
                     something else. Equally, because serials might start up again at any moment, no
                     serial publication ever really comes to a certain end. These factors make the
-                    concept of a run a provisional one, and that is often how we use it in ncse:
+                    concept of a run a provisional one, and that is often how we use it in <hi rend="bold">ncse</hi>:
                     either to refer to the totality of content grouped together as a particular
                     title, or as a specific period in its life.</p>
             </div>
@@ -122,16 +131,14 @@
                     possible to obtain some good results, the preparation and evaluation of the
                     process was too time-consuming, particularly when applied to material that
                     changes over time like nineteenth-century serials. Ultimately, Olive processed
-                    the pdfs using <xref type="internal" from="p5_2">segmentation profiles</xref>
+                    the pdfs using <xref type="internal" from="p5_2">segmentation policies</xref>
                     prepared by us. We then went over the segmented pdfs and made sure that all
                     items were correctly delineated and that any items that marked the beginning of
                     a headline were identified. </p>
             </div>
-            <div>
-                <head>
-                    Semantic tagger
-                </head>
-                <p>Once we had decided to include the multiple editions in <hi>ncse</hi>, it became
+            <div id="sem">
+                <head> Semantic tagger </head>
+                <p>Once we had decided to include the multiple editions in <hi rend="bold">ncse</hi>, it became
                     apparent that we did not have the resources to enter metadata at item level. Our
                     concept map required human interpretation of the text and the decision to expand
                     the edition made this methodology impractical. Instead, we ran the <xref
@@ -140,13 +147,11 @@
                         url="http://ucrel.lancs.ac.uk/usas/">USAS</xref> (UCREL Semantic Analysis
                     System) tagger. This provided sets of semantic tags for every article within <hi
                         rend="bold">ncse</hi>. After evaluation, these were used to provide subject
-                    metadata values. To read more about this, click <xref type="internal"
+                    metadata values in the keywords section of the resource. To read more about this, click <xref type="internal"
                         from="p5_7">here</xref>.</p>
             </div>
             <div>
-                <head>
-                    Serials, periodicals and newspapers
-                </head>
+                <head> Serials, periodicals and newspapers </head>
                 <p>A serial is any publication that is published in parts. It thus includes parts
                     that result in a book as well as periodicals and newspapers. However, it is
                     important to recognize that there are different genres of serials. A periodical
@@ -168,7 +173,7 @@
                     individual titles took aspects of each in order to configure themselves to the
                     perceived demands of readers.</p>
                 <p>
-                    <hi>ncse</hi> includes one weekly that unmistakeably resembles a newspaper, the
+                    <hi rend="bold">ncse</hi> includes one weekly that unmistakeably resembles a newspaper, the
                         <title>Northern Star</title>, a six-columned broadsheet, with numerous
                     multiple editions. Other weeklies in the edition, such as the <title>Leader
                     </title>and the <title>Tomahawk </title>are weekly periodicals that remain
@@ -193,7 +198,7 @@
                     its linguistic constituents. We explored text mining methods for our advanced
                     metadata (‘Names’, ‘Places’, ‘Institutions’, ‘Subjects’, ‘Genre’ and ‘Events’),
                     and obtained good results for most of these categories. For ‘Names’, ‘Places’,
-                    and ‘Institutions’ we used named entity extraction [internal link]; for
+                    and ‘Institutions’ we used <ref target="nam">named entity extraction</ref>; for
                     ‘Subjects’ we used the <xref type="external"
                         url="http://ucrel.lancs.ac.uk/usas/">USAS</xref> semantic tagger. We were
                     not so successful with ‘Genre’ and ‘Events.’ Events are difficult as they are
@@ -223,7 +228,7 @@
                     to mention any additional material that is added – for them to become volumes.
                     The volume is therefore a different form of the serial, and reading issues in
                     volume form is not the same as encountering them individually. For editorial
-                    projects such as ncse this poses significant problems. We wanted to record all
+                    projects such as <hi rend="bold">ncse</hi> this poses significant problems. We wanted to record all
                     the different levels of content within the edition, but were limited in that the
                     majority of our material was in volume form. Not only did this over-privilege
                     this particular manifestation of the serial, but the volumes that we had were
