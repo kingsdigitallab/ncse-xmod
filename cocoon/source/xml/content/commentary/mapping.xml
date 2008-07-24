@@ -55,7 +55,7 @@
                 they were expressed in the language used by our nineteenth-century actors. For the
                 concept map to be fully realized, we began to organize these nineteenth-century
                 concepts under terms that would be familiar to our users today. So, whereas the
-                Leader referred to the ‘woman question’ (for instance, <xref type="external"
+                <hi rend="italic">Leader</hi> referred to the ‘woman question’ (for instance, <xref type="external"
                     url="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href=LDR%2F1856%2F03%2F29&amp;page=15&amp;entityid=Ar01501&amp;view=entity"
                     >here</xref>), we retained this term but placed it in a wider category of
                 ‘Gender’. In this way the concept map organized the thematic content according to
@@ -80,13 +80,12 @@
                 >here</xref>. We planned ultimately to render the map as a database, making it
                 easier to trace the connections between terms. However, in our final concept mapping
                 seminar, we began to appreciate how time-consuming it was to apply the map to the
-                serials. We were working with the Northern Star, a publication that consists of many
+                serials. We were working with the <hi rend="italic">Northern Star</hi>, a publication that consists of many
                 short articles with a few longer accounts of meetings, trials, and processions.
                 Short articles were difficult to characterize as they tended to be very oblique.
                 Recovering what they meant would involve a great deal of research. Although the
                 longer articles were easier to classify, they took longer to read. A further problem
-                was the repetition of terms. We found, particularly when working with the Northern
-                Star, that certain types of articles or departments always fell under the same
+                was the repetition of terms. We found, particularly when working with the <hi rend="italic">Northern Star</hi>, that certain types of articles or departments always fell under the same
                 categories. As it was about this time when we began to appreciate the actual scale
                 of the edition, we were forced to re-evaluate the feasibility of marking-up content
                 by hand.</p>
@@ -101,7 +100,7 @@
                 the expense of others. Instead, we began to investigate what it was possible to
                 achieve using computational and statistical methods. UCREL’s (University Centre for
                 Computer Corpus Research on Language) semantic tagger (called USAS) was able to
-                produce from its own ontology lists of keywords, that attempted to indicate meanings
+                produce lists of keywords from its own ontology, that attempted to indicate meanings
                 in an individual article. We had initially thought that these keywords might be
                 mapped to our concepts but, when we compared the two ontologies, we found the
                 significant differences to be at level three (the nineteenth-century level). The

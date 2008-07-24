@@ -91,11 +91,11 @@
                     did not always look like the forms in which they have survived into the present.
                     When deciding on how to edit them – i.e. when considering what aspects of their
                     text was important – we tried to ensure that we maintained those parts of the
-                    journal that gesture towards its prior forms. When you browse ncse, you will see
+                    journal that gesture towards its prior forms. When you browse <hi rend="bold">ncse</hi>, you will see
                     that we have found a place for multiple editions, advertisements, and
                     supplements; departments, issues and volumes. Although we often had to intervene
                     in order to impose a degree of order onto the material for its translation into
-                    a new medium, we edited it with a view to permitting the periodicals and
+                    digital form, we edited it with a view to permitting the periodicals and
                     newspapers to tell their own histories as far as possible.</p>
             </div>
 
@@ -119,7 +119,7 @@
                     edition instead of another to represent that week’s issue. In accordance with
                     the responsibility we felt to represent the serials as serials – i.e. as part of
                     a broader print culture – we felt that excluding the multiples would
-                    misrepresent the production of the titles. We decided to keep them in. For more
+                    misrepresent the production of the titles and so we decided to keep them in. For more
                     about our decisions regarding multiples, click <xref type="internal" from="p5_6"
                         >here</xref>.</p>
             </div>
@@ -180,7 +180,7 @@
                 <p>In the early stages of the project we attempted to map all the types of data that
                     we felt were important and how they related to each other. Needless to say, this
                     resulted in an incredibly complex map, which you can download <xref
-                        type="redist" from="pdf/data_map.pdf">here</xref>. While we were undertook
+                        type="redist" from="pdf/data_map.pdf">here</xref>. While we undertook
                     this exercise, we were also working with Olive Software to investigate the
                     degree of accuracy with which a computer program could identify units of content
                     and their relationship according to a set of predefined rules. Although the
@@ -199,7 +199,7 @@
                     largely for the guidance of human editors who checked the output. These sets of
                     rules were called <ref target="seg">segmentation policies</ref>. For a
                     definition of our terminology, click <xref type="internal" from="p5_3"
-                        >departments</xref>.</p>
+                        >here</xref>.</p>
             </div>
 
 
@@ -260,7 +260,7 @@
 
             <div id="seg">
                 <head>Segmentation Policies</head>
-                <p>Segmentation policies were documents designed to guide either a non-expert to
+                <p>Segmentation policies were documents designed to guide a non-expert to
                     decide on how to distinguish between items and then to decide on which items
                     constituted a division between one department and the next. For each publication
                     we wrote an overall description that laid out rules, and then prepared a
@@ -381,8 +381,8 @@
                 <p>Although we were committed to recording the histories of our titles up to the
                     point at which we digitized them, we were also conscious that we had to make
                     editorial interventions in order to present the material in a way that would
-                    make sense to users. Our proposed structure of the <ref target="str"
-                    >edition</ref> set out how each element in the hierarchy related to all the
+                    make sense to users. Our proposed <ref target="str"
+                    >structure of the edition</ref> set out how each element in the hierarchy related to all the
                     others, but the actual condition of the hard copy did not always fall neatly
                     into the categories that we set out. This was particularly the case with the
                     internal arrangement of content within volumes. </p>
@@ -412,7 +412,7 @@
                 <p>Front matter contains things like prefaces, volume title pages, volume tables of
                     contents, or any illustrative material that was intended to be bound at the
                     beginning of a volume. Issues contain the run of issues defined by the number
-                    that each issuecarries on its front page. End matter contains the indices that
+                    that each issue carries on its front page. End matter contains the indices that
                     it was common practice for publishers to provide for the end of a volume.</p>
                 <p>As you may notice, the way we have implemented this model varies from title to
                     title. It was common for editors to issue, sometimes at extra cost, the textual
@@ -480,7 +480,7 @@
                     information about wrappers, click <xref type="internal" from="p5_5">here</xref>.</p>
                 <p>We were committed to including wrappers in <hi rend="bold">ncse </hi>but had to
                     devise a way in which content in wrappers could be distinguished from that from
-                    within issues. As all content in <hi>ncse</hi> is taken from pdf documents that
+                    within issues. As all content in <hi rend="bold">ncse</hi> is taken from pdf documents that
                     correspond to whole issues, there was no distinction between wrappers and <ref
                         target="iss">issues</ref> at this level. We structured content within issues
                     with segmentation that distinguished between items and then grouped items into
@@ -514,22 +514,22 @@
                     used Olive’s segmentation process to make a first attempt at identifying
                     advertisements, and then corrected this by hand during segmentation. </p>
                 <p>Although this strategy succeeded in demarcating all the advertisements, making
-                    them searchable through the Olvie interface, it restricted their functionality.
+                    them searchable through the Olive interface, it restricted their functionality.
                     As advertisements often contain images we were keen that they interacted with
                     our image metadata schema. However, Olive’s way of marking up content meant that
                     items had to be either ‘Image’, ‘Article’ or ‘Advertisement’. Our solution was
                     to retain the Olive distinctions between content at item level, but use our own
                     metadata to permit one type of content to appear in a search for another. This
                     means that although an advertisement is not recognized as an image in the Olive
-                    system, it will still be returned through an image metadata search.</p>
+                    system, it will still be returned through an image metadata search in the 'keywords' section of the resource.</p>
             </div>
             <div id="ima">
                 <head>Images</head>
-                <p>Images, like <ref target="adv">advertisements</ref>, are demarcated as a one of
+                <p>Images, like <ref target="adv">advertisements</ref>, are demarcated as one of
                     three types of content (articles is the third) by Olive during segmentation.
                     However, images might occur within articles and, if this is the case, this
                     relationship should be preserved. Olive’s segmentation tool permits images to be
-                    embedded within articles: what this means for <hi>ncse </hi>is that it is
+                    embedded within articles: what this means for <hi rend="bold">ncse </hi>is that it is
                     possible for an image to be embedded into an item, allowing users to either view
                     the item as a whole (with the image within it) in the component viewer, or to
                     simply view the image.</p>
@@ -540,7 +540,7 @@
 
             <div id="fro">
                 <head>Front and end matter</head>
-                <p>See Division of content into <ref target="iss">issues</ref> above.</p>
+                <p>See <ref target="iss">Division of content into issues</ref> above.</p>
             </div>
 
 
