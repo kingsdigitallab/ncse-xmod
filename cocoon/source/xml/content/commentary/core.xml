@@ -44,20 +44,20 @@
                 familiarise itself further with the characteristics of the six titles, individually
                 and as a cluster in the edition, to hazard identification of defining elements of
                 serials, and to test the degree to which these were shared by our diverse titles.</p>
-            <p>In the trajectory of development of <hi rend="bold">ncse</hi> the Core was Plan B. It was devised
-                in response to two assumptions that changed. The first was that the project would
-                consist of 30,000 pages of text. The discovery of the multiple editions prompted us
-                to revise this estimate to around 110,000 pages. As this almost tripled the amount
-                of pages that we would have to review, edit, and markup we began to reconsider the
-                amont of manual editorial work it would be possible to do. The second assumption was
-                that the model of multi-level processing envisaged by the team and Olive software,
-                in which segmentation would be carried out on items and the departments in which
-                they were nested, could be perfected and adopted. On the understanding that
-                multi-level processing could only be managed and afforded on 30,000 pages the
-                research team decided to devise a selection process that would provide a manageable
-                sub-section of the resource on which these advanced editorial and computational
-                methods could be applied. Affording was a matter of time for Olive, CCH, and the
-                research team as well as cost.</p>
+            <p>In the trajectory of development of <hi rend="bold">ncse</hi> the Core was Plan B. It
+                was devised in response to two assumptions that changed. The first was that the
+                project would consist of 30,000 pages of text. The discovery of the multiple
+                editions prompted us to revise this estimate to around 110,000 pages. As this almost
+                tripled the amount of pages that we would have to review, edit, and markup we began
+                to reconsider the amont of manual editorial work it would be possible to do. The
+                second assumption was that the model of multi-level processing envisaged by the team
+                and Olive software, in which segmentation would be carried out on items and the
+                departments in which they were nested, could be perfected and adopted. On the
+                understanding that multi-level processing could only be managed and afforded on
+                30,000 pages the research team decided to devise a selection process that would
+                provide a manageable sub-section of the resource on which these advanced editorial
+                and computational methods could be applied. Affording was a matter of time for
+                Olive, CCH, and the research team as well as cost.</p>
             <p>While the core was to be a diagnostic space on which intensive processing and editing
                 would be demonstrated, and possibilities of electronic publication of serials
                 explored, the entire resource (i.e. all 100,000 pages) would also be released to
@@ -83,12 +83,12 @@
                         <title>Northern Star</title>) and 1850-2 (<title>Northern Star</title> and
                         <title>Leader</title>)</item>
             </list>
-            <p>The Core was abandoned in the spring of 2005 for several reasons. First, the research
+            <p>The Core was abandoned in the spring of 2006 for several reasons. First, the research
                 team and Olive came to the conclusion that multi-level processing was too difficult
                 to achieve at acceptable standards within the time and budget at our disposal.
                 Instead, we worked out a way to deliver the characteristics of dual level processing
                 (i.e. items and departments) on the basis of single level processing and metadata
-                entry. In the summer of 2005 Olive offered to process the whole 100,000 pages to
+                entry. In the summer of 2006 Olive offered to process the whole 100,000 pages to
                 this specification. We needed to decide whether we would go for the smaller
                 processed core, on which we could do more intensive editing or a larger more
                 consistent resource on which all parties could do less. Deliberations among the
@@ -97,9 +97,10 @@
                 other criterion was the interest of our users and the larger world of electronic
                 resources of nineteenth-century print. This combination of criteria led us to
                 abandon the Core, and go for uniform processing across 100,000 pages.</p>
-            <p>We developed various graphic representations of the Core, which are available <xref type="redist" from="pdf/core_distribution.pdf">here</xref>
-                [PDF file]; there is also a fuller explanation of the Core in a
-                research paper available <xref type="redist" from="pdf/2006_ncse_symposium.pdf">here</xref> [PDF file]. </p>
+            <p>We developed various graphic representations of the Core, which are available <xref
+                    type="redist" from="pdf/core_distribution.pdf">here</xref>; there is also a
+                fuller explanation of the Core in a research paper available <xref type="redist"
+                    from="pdf/2006_ncse_symposium.pdf">here</xref> (pdf). </p>
         </body>
     </text>
 </TEI.2>

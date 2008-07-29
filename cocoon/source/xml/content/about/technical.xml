@@ -41,15 +41,15 @@
             <head>Technical Introduction</head>
 
             <p>As can be seen in the accompanying <xref type="internal" from="p5">editorial
-                    commentary</xref> for this edition, the <hi rend="bold">ncse</hi> is large and
+                    commentary</xref> for this edition, <hi rend="bold">ncse</hi> is large and
                 varied, containing well over 400,000 articles that originally appeared in roughly
-                3500 issues of six 19th century periodicals. Published during a span of 84 years,
+                3500 issues of six nineteenth-century periodicals. Published during a span of 84 years,
                 materials within the corpus exist in numbered editions, and include supplements,
                 wrapper materials and visual elements. A key challenge in creating a digital system
                 for the management of such a body of material is to design and build appropriate and
                 innovative tools to assist scholars in <hi rend="italic">finding</hi> materials that
                 support their research while challenging and enabling new and innovative approaches
-                to the material.</p>
+                to it.</p>
             <p>In the past, notably on the <xref type="external"
                     url="http://www.cch.kcl.ac.uk/research/projects/proj-keyword.html">Keyword
                     project</xref>, the Centre for Computing in the Humanities (CCH) has
@@ -61,7 +61,7 @@
                     Computational Linguistics Meets Metadata, or the Automatic Extraction of Key
                     Words from Full Text Content. RLG Diginews, Vol. 8, No. 2. ISSN
                 1093-5371.</note> The benefits of doing so, however are clear; though full-text
-                searching is useful in conducting "known-item" searches, other kinds of meta-data,
+                searching is useful in conducting 'known-item' searches, other kinds of metadata,
                 including bibliographic description, keyword assignment, and the application of
                 taxonomic structures to materials improve the precision of items returned (that is,
                 their relevance to the research question at hand) and their recall, or the degree to
@@ -70,16 +70,16 @@
                 the corpus of the Forced Migration Online project, a digital library with a variety
                 of on-line contemporary materials to demonstrate that the techniques of
                 computational linguistics could be applied to full text content from digital
-                libraries in order to extract "meaningful keywords for a variety of purposes:
-                browsing content, improving thesauri and metadata" <note>For the full report of the
+                libraries in order to extract 'meaningful keywords for a variety of purposes:
+                browsing content, improving thesauri and metadata' <note>For the full report of the
                     outcomes of this work, read: <xref type="external "
                         url="http://www.keyword.kcl.ac.uk/redist/pdf/mellon.pdf"
                         >http://www.keyword.kcl.ac.uk/redist/pdf/mellon.pdf</xref></note>
             </p>
 
-            <p>The technical components of the <hi rend="bold">ncse</hi> thus build on this earlier research to
+            <p>The technical components of <hi rend="bold">ncse</hi> thus build on this earlier research to
                 explore how the use of similar natural language processing techniques can be adapted
-                and applied to enhance a scholarly edition materials, with the aim of addressing
+                and applied to enhance a scholarly edition, with the aim of addressing
                 three primary research questions: <list type="ordered">
                     <item>How might a semantic 'view' be generated of items within the <hi rend="bold">ncse</hi> corpus
                         through a hybrid approach of manually and algorithmically assigned keywords?</item>
@@ -90,26 +90,26 @@
                 </list>
             </p>
 
-            <p>Following is a brief overview of the technologies and processes used to create the
+            <p>Following is a brief overview of the technologies and processes used to create
                     <hi rend="bold">ncse</hi>. Interested readers may also wish to consult our list
                 of <xref type="internal" from="p1_7">Technical Acknowledgements.</xref></p>
 
             <div>
                 <head>ncse Facsimiles</head>
-                <p>The texts in the <hi rend="bold">ncse</hi> were scanned from microfilm by Olive
-                    Software and processed using their Viewpoint software (www.olivesoftware.com). </p>
+                <p>The texts in <hi rend="bold">ncse</hi> were scanned from microfilm by <xref type= "external" url="http://www.olivesoftware.com/">Olive
+                    Software</xref> and processed using their Viewpoint software. </p>
                 <p> ViewPoint comprises three main modules – XML Distiller, Olive XML
                     Warehouse and the Olive ViewPoint Server <note>To learn more about Olive Software, read: <xref type="external" url="http://www.olivesoftware.com">http://www.olivesoftware.com</xref></note>. The XML Distiller captures
-                    unstructured, multipleformat document resources and transforms them into a
+                    unstructured, multiple format document resources and transforms them into a
                     unified, structured XML schema (PrXML). Content is fully indexed for searching
                     and stored in the Olive XML warehouse file system. The ViewPoint Server provides
-                    dynamic access, viewing and search services. ViewPoints XML-based
+                    dynamic access, viewing and search services. ViewPoint's XML-based
                     search engine can search through the text of an entire document warehouse,
                     including metadata, to retrieve components from multiple documents. The search
-                    engine displays search results based on the proprietary "Relational Relevance
-                    Ranking" algorithm, allowing for retrieval of the relevant components from the
+                    engine displays search results based on the proprietary 'Relational Relevance
+                    Ranking' algorithm, allowing for retrieval of the relevant components from the
                     specific documents that contain the search term, relative to neighboring
-                    components. Results are highlighted directly on the "image". A full catalogue
+                    components. Results are highlighted directly on the 'image'. A full catalogue
                     record, produced by the research team, was also produced for each document using
                     Olive software tools that included bibliographic and structural metadata.
                         <note>To learn more about the processes used in identifying and applying
@@ -199,7 +199,7 @@
                         team within the Olive administrative interface using an adapted form of the
                         Database of Mid-Victorian Illustration taxonomy, an organised system of
                         iconographic terms tailor-made to describe Victorian visual art. To read
-                        more about this process, see the essay on <xref type="internal" from="5_4"
+                        more about this process, see the essay on <xref type="internal" from="p5_4"
                             >Visual material</xref> within the editorial commentary.</p>
                 </div>
             </div>
@@ -212,18 +212,18 @@
                     part of the aggregation process: <list>
                         <item><hi rend="bold">Semantic Tags</hi>: Only those semantic tags assigned
                             to a document which are calculated to have a 95% percentile significance
-                            level are included in the exported data. Any semantic tags belonging to
-                            the Z class are also removed. </item>
+                            level were included in the exported data. Any semantic tags belonging to
+                            the Z class were also removed. </item>
                         <item>
                             <hi rend="bold">Person, Place, Institution Entities</hi>: 
                               Entities consisting entirely of non-alphanumeric characters
                               as a result of incorrect OCR recognition 
-                              are filtered out the of keyword framework, while such characters
+                              were filtered out the of keyword framework, while such characters
                               appearing within words were replaced by the underscore character ( _ ). Any entity that is a
-                            single character is also filtered. </item>
+                            single character was also filtered. </item>
                         <item>
                             <hi rend="bold">Image Keywords</hi>: All image keywords, having been
-                            human assigned, are included in the keyword framework. </item>
+                            human-assigned, were included in the keyword framework. </item>
                     </list>
                 </p>
                 <p> After filtering was complete, the Python script included items output for the
@@ -259,7 +259,7 @@
             </div>
             <div>
                 <head>Conclusions and Future Directions</head>
-                <p>Within the <hi rend="bold">ncse</hi> project, the focus was on 19th century language, an area for
+                <p>Within the <hi rend="bold">ncse</hi> project, the focus was on nineteenth-century language, an area for
                     which specialized USAS thesauri do not yet exist, and GATE gazetteers must be crafted. In addition, the source text
                     for the keyword generation work was uncorrected OCR. Therefore, while early
                     results of this work are quite promising, the keyword index cannot yet boast of
