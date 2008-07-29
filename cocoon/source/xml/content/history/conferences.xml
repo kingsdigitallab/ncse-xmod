@@ -123,14 +123,14 @@
         about the project. Below is a list of the events at which papers were presented, along with
         links to the papers themselves:</p>
       <div>
-        <head>Research Society for Victorian Periodicals</head>
+        <head> <xref type="external" url="http://www.rs4vp.org">Research Society for Victorian Periodicals</xref> </head>
         <div>
           <head type="sub">Virginia Commonwealth University, 15 September 2007</head>
           <p>Laurel Brake: 'Ephemera? Time-management and serial publication'</p>
         </div>
       </div>
       <div>
-        <head>British Association for Victorian Studies</head>
+        <head> <xref type="external" url="http://www.bavsuk.org">British Association for Victorian Studies</xref></head>
         <div>
           <head type="sub">University of Salford, 30 August - 1 September 2007</head>
           <p> Jim Mussell and Suzanne Paylor: '<hi rend="bold">ncse</hi> and the Production of
@@ -179,7 +179,7 @@
       <div>
         <head>
           <bibl>
-            <hi rend="bold">ncse</hi> Symposium 2007: Digitising Journalism</bibl>
+             <xref type="internal" from="p6_5">ncse Symposium 2007: Digitising Journalism</xref></bibl>
         </head>
         <div>
           <head type="sub">King's College London, 24th February 2007</head>
@@ -278,16 +278,9 @@
         </div>
       </div>
       <div>
-        <head>Presse, Identites Nationales et Transferts Culturels au XIXeme Siecle</head>
+        <head> <xref type="internal" from="p6_5">ncse Symposium 2006: Going Digital</xref></head>
         <div>
-          <head type="sub">Montpelier, 18 May 2006 </head>
-          <p>Laurel Brake: 'Stop Press: Digital work on the 19C British Press Now'.</p>
-        </div>
-      </div>
-      <div>
-        <head><hi rend="bold">ncse</hi> Symposium 2006: Going Digital</head>
-        <div>
-          <head type="sub">Birkbeck College, University of London, 25 February 2006</head>
+          <head type="sub">Birkbeck, University of London, University of London, 25 February 2006</head>
           <p>Jim Mussell and Suzanne Paylor: '<hi rend="bold">ncse</hi>: Selecting the Core'. To
             download this paper <xref type="redist" from="pdf/2006_ncse_symposium.pdf">click
             here</xref>.</p>
@@ -299,7 +292,7 @@
         <div>
           <head type="sub">Cardiff University, 15-16 September 2005</head>
           <p>Jim Mussell: '"A Word with our Critics": Doing Media History with Electronic
-            Resources', Mapping the Magazine, Cardiff University. To download this paper <xref
+            Resources'. To download this paper <xref
               type="redist" from="pdf/2005_mapping.pdf">click here</xref>.</p>
         </div>
       </div>
@@ -348,7 +341,7 @@
         <p>[<xref url="http://www.bbk.ac.uk/eh/research/centreforc19thstudies"
             >http://www.bbk.ac.uk/eh/research/centreforc19thstudies</xref>]</p>
         <div>
-          <head type="sub">Birkbeck College, 6 May 2005</head>
+          <head type="sub">Birkbeck, University of London, 6 May 2005</head>
           <p>Jim Mussell and Suzanne Paylor: 'Mapping the "Mighty Maze": the <hi>Nineteenth-Century
               Serials Edition</hi>'. This has been published <xref url="http://www.19.bbk.ac.uk/"
               >here</xref>.</p>
