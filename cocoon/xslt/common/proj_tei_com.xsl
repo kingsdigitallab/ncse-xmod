@@ -1420,9 +1420,14 @@
   </xsl:template>
 
   <xsl:template match="title">
-    <em>
-      <xsl:apply-templates/>
-    </em>
+    <xsl:choose>
+      <xsl:when test="@level='a'">'<xsl:apply-templates/>'</xsl:when>
+      <xsl:otherwise>
+        <i>
+          <xsl:apply-templates/>
+        </i>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="author">

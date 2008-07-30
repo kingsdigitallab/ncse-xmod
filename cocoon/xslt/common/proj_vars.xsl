@@ -30,8 +30,8 @@
   <xsl:variable name="lower" select="'abcdefghijklmnopqrstuvwxyz'" />
 
   <!-- Group type02 and type03 ids -->
-  <xsl:variable name="file-type02-pre" select="'tp'" />
-  <xsl:variable name="group-type02-id" select="'g3'" />
+  <xsl:variable name="file-type02-pre" select="'sm'" />
+  <xsl:variable name="group-type02-id" select="'g9'" />
   <xsl:variable name="text-type03-pre" select="'p4_'" />
   <xsl:variable name="group-type03-id" select="'g4'" />
 
