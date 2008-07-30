@@ -496,7 +496,7 @@
             </li>
           </ul>
         </div>
-        <div class="s02"> &#xa9;<strong>2005</strong> King's College London, Strand, London WC2R 2LS, England, United Kingdom. Tel +44 (0)20 7836 5454 </div>
+        <div class="s02">King's College London, Strand, London WC2R 2LS, England, United Kingdom. Tel +44 (0)20 7836 5454 </div>
       </div>
     </div>
   </xsl:template>
