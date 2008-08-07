@@ -1,81 +1,124 @@
 <?xml version="1.0"?>
 <!DOCTYPE TEI.2 SYSTEM "../../../dtd/tei/cch_tei.dtd">
 <TEI.2 id="p6_2">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Publications</title>
-</titleStmt>
-<publicationStmt>
-      <publisher>Centre for Computing in the Humanities, King's College London</publisher>
-      <address>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Publications</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+        <address>
         <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
         <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
       </address>
-    </publicationStmt>
-<sourceDesc>
-      <p>No source: created in electronic format.</p>
-    </sourceDesc>
-</fileDesc>
-<encodingDesc>
-    <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
-  </encodingDesc><revisionDesc> 
-    <change>
-     <date>2007-04-21</date> 
-     <respStmt>
-       <name>JM</name> 
-     </respStmt> 
-     <item>Changed for project launch</item> 
-    </change><change>
-     <date>2005-11-10</date> 
-     <respStmt>
-       <name>SP</name> 
-     </respStmt> 
-     <item>minor change</item> 
-    </change><change>
-     <date>2005-10-24</date> 
-     <respStmt>
-       <name>SP</name> 
-     </respStmt> 
-     <item>minor change</item> 
-    </change><change>
-     <date>2005-06-20</date> 
-     <respStmt>
-       <name>AC</name> 
-     </respStmt> 
-     <item>minor change</item> 
-    </change><change>
-     <date>2005-06-06</date> 
-     <respStmt>
-       <name>AP</name> 
-     </respStmt> 
-     <item>created XML docs</item> 
-    </change><change>
-     <date>2005-05-18</date> 
-     <respStmt>
-       <name>AP</name> 
-     </respStmt> 
-     <item>created XML docs</item> 
-    </change><change>
-     <date>2005-03-18</date> 
-     <respStmt>
-       <name>AP</name> 
-     </respStmt> 
-     <item>created XML docs</item> 
-    </change><change>
-     <date>2005-03-18</date> 
-     <respStmt>
-       <name>AC</name> 
-     </respStmt> 
-     <item>created XML</item> 
-    </change> 
-     
-   </revisionDesc></teiHeader>
+      </publicationStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+    </encodingDesc>
+    <revisionDesc>
+      <change>
+        <date>2007-04-21</date>
+        <respStmt>
+          <name>JM</name>
+        </respStmt>
+        <item>Changed for project launch</item>
+      </change>
+      <change>
+        <date>2005-11-10</date>
+        <respStmt>
+          <name>SP</name>
+        </respStmt>
+        <item>minor change</item>
+      </change>
+      <change>
+        <date>2005-10-24</date>
+        <respStmt>
+          <name>SP</name>
+        </respStmt>
+        <item>minor change</item>
+      </change>
+      <change>
+        <date>2005-06-20</date>
+        <respStmt>
+          <name>AC</name>
+        </respStmt>
+        <item>minor change</item>
+      </change>
+      <change>
+        <date>2005-06-06</date>
+        <respStmt>
+          <name>AP</name>
+        </respStmt>
+        <item>created XML docs</item>
+      </change>
+      <change>
+        <date>2005-05-18</date>
+        <respStmt>
+          <name>AP</name>
+        </respStmt>
+        <item>created XML docs</item>
+      </change>
+      <change>
+        <date>2005-03-18</date>
+        <respStmt>
+          <name>AP</name>
+        </respStmt>
+        <item>created XML docs</item>
+      </change>
+      <change>
+        <date>2005-03-18</date>
+        <respStmt>
+          <name>AC</name>
+        </respStmt>
+        <item>created XML</item>
+      </change>
 
-<text>
-<body><head>Publications</head> 
-			 <p><hi rend="bold">ncse</hi> published two articles over the course of the project.  These are:</p><p><listBibl><bibl>Mussell, James and Suzanne Paylor, <title level="a">Editions and Archives: Textual Editing and the Nineteenth-Century Serials Edition (<hi rend="bold">ncse</hi>)</title>, in <title level="m">Text Editing, Print and the Digital World</title>, ed. by Marilyn Deegan and Kathryn Sutherland (Ashgate 2007).</bibl><bibl>Mussell, James and Suzanne Paylor, <title level="a">
+    </revisionDesc>
+  </teiHeader>
 
-Mapping the “Mighty Maze:” the Nineteenth-Century Serials Edition</title>, <title level="j"><xref url="http://www.19.bbk.ac.uk/FrontPage.htm">19: Interdisciplinary Studies in the Long Nineteenth Century</xref></title>, 1 (2005). To download this paper <xref type="external" from="ROOT" url="http://www.19.bbk.ac.uk/issue1/NCSE.pdf">click here</xref>.</bibl></listBibl></p><p>Project members also gave regular papers about the project at various conferences and symposia.  Deatails of these and copies of the papers are available from the <xref type="internal" from="06_03">Conferences</xref> page.</p><p>The project also issued regular newsletters.  These can be downloaded from the list below: <list><item><xref type="redist" from="pdf/newsletter_1.pdf">Issue 1: June 2005</xref></item><item><xref type="redist" from="pdf/018.pdf">Issue 2: December 2005</xref></item><item><xref type="redist" from="pdf/newsletter_3.pdf">Issue 3: June 2006</xref></item><item><xref type="redist" from="pdf/newsletter_4.pdf">Issue 4: December 2006</xref></item><item><xref type="redist" from="pdf/newsletter_5.pdf">Issue 5: July 2007</xref></item></list></p></body>
-</text>
+  <text>
+    <body>
+      <head>Publications</head>
+      <p><hi rend="bold">ncse</hi> published two articles over the course of the project. These are:</p>
+      <p>
+        <listBibl>
+          <bibl>Mussell, James and Suzanne Paylor, <title level="a">Editions and Archives: Textual
+              Editing and the Nineteenth-Century Serials Edition (<hi rend="bold"
+            >ncse</hi>)</title>, in <title level="m">Text Editing, Print and the Digital
+            World</title>, ed. by Marilyn Deegan and Kathryn Sutherland (Ashgate 2008).</bibl>
+          <bibl>Mussell, James and Suzanne Paylor, <title level="a"> Mapping the “Mighty Maze:” the
+              Nineteenth-Century Serials Edition</title>, <title level="j">
+              <xref url="http://www.19.bbk.ac.uk/">19: Interdisciplinary Studies in the
+                Long Nineteenth Century</xref>
+            </title>, 1 (2005). To download this paper <xref type="external" from="ROOT"
+              url="http://www.19.bbk.ac.uk/issue1/NCSE.pdf">click here</xref>.</bibl>
+        </listBibl>
+      </p>
+      <p>Project members also gave regular papers about the project at various conferences and
+        symposia. Details of these and copies of the papers are available from the <xref
+          type="internal" from="p6_3">Conferences</xref> page.</p>
+      <p>The project also issued regular newsletters. These can be downloaded from the list below: <list>
+          <item>
+            <xref type="redist" from="pdf/newsletter_1.pdf">Issue 1: June 2005</xref>
+          </item>
+          <item>
+            <xref type="redist" from="pdf/018.pdf">Issue 2: December 2005</xref>
+          </item>
+          <item>
+            <xref type="redist" from="pdf/newsletter_3.pdf">Issue 3: June 2006</xref>
+          </item>
+          <item>
+            <xref type="redist" from="pdf/newsletter_4.pdf">Issue 4: December 2006</xref>
+          </item>
+          <item>
+            <xref type="redist" from="pdf/newsletter_5.pdf">Issue 5: July 2007</xref>
+          </item>
+        </list></p>
+    </body>
+  </text>
 </TEI.2>
