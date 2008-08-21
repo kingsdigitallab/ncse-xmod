@@ -49,7 +49,7 @@
                 for the management of such a body of material is to design and build appropriate and
                 innovative tools to assist scholars in <hi rend="italic">finding</hi> materials that
                 support their research while challenging and enabling new and innovative approaches
-                to it.</p>
+                toward research.</p>
             <p>In the past, notably on the <xref type="external"
                     url="http://www.cch.kcl.ac.uk/research/projects/proj-keyword.html">Keyword
                     project</xref>, the Centre for Computing in the Humanities (CCH) has
@@ -131,20 +131,42 @@
 
                 <div>
                     <head> Entities: Persons, Places and Institutions </head>
-                    <p>Persons, places and institution entities were extracted from
-                        the texts in the corpus using Gate, the General Architecture for Text
-                        Engineering.<note>To learn more about Gate, see <xref type="external" url="http://www.gate.ac.uk/">http://www.gate.ac.uk/</xref></note></p>
-
+                    <p>                    
+                        Persons, locations and institution entities were extracted from the
+                        texts in the corpus using GATE, the <xref type="external" url="http://www.gate.ac.uk/">General Architecture for Text
+                        Engineering</xref>.  GATE allows for a number of text mining or language engineering tasks.
+                        It works on the basis of pipelines, in that the output of one
+                        sub-process is used ("piped into") as input for another sub-process.
+                        </p>
+                    
+                        <p>
+                        The functions GATE provides can be accessed both via a graphical user
+                        interface and a JAVA API. The graphical user interface is ideal for
+                        testing parameters, and it also includes very useful facilities for
+                        evaluation, but is not well suited to bulk processing of
+                        large amounts of data. To process the large corpus of <hi rend="bold">ncse</hi> texts as a batch,  a
+                        Java program was written to interface directly with the GATE API.
+                        </p>
+                        <p>
+                        Of the numerous functionalities that GATE offers, GATE's information
+                        extraction component ANNIE was used to extract names, locations and
+                        institutions from the corpus. After applying computational
+                        linguistics processes to the corpus including tokenization and 
+                        part of speech tagging, ANNIE uses pre-determined rules,
+                        combined with gazetteer lookup to identify, mark up and extract the
+                        entities required. Rules are formulated using a mature,
+                        powerful grammar called JAPE.</p> 
+                                                
+                        <p>
+                        Within the <hi rend="bold">ncse</hi>, the JAPE rules were combined with a collection of gazetteer lists
+                        adapted for nineteenth-century texts, in order to produce results of a higher degree of accuracy.
+                        During the development of the overall keyword extraction process, the default 
+                        gazetteer lists supplied with GATE  were gradually augmented and improved. A very helpful addition to the collection of gazetteer
+                        lists were parts of the database of the Victorian Periodicals project that we were kindly allowed to use.
+                        </p>
                     <p>
                         <figure url="gate"/>
                     </p>
-
-                    <p>Within <hi rend="bold">ncse</hi>, the GATE subcomponents ANNIE and JAPE were
-                        used to extract information about pre-specified entities according to a set
-                        of pre-determined rules, and in comparison with gazetteers, plain text files
-                        that contain lists of names for each entity type. </p>
-
-
                 </div>
                 <div>
                     <head>Subject Descriptors</head>
