@@ -38,6 +38,18 @@
     <text>
         <body>
             <div>
+                <div>
+                    <head>30 August 2008</head>
+                    <p>ncse remains in <hi rend="bold">'beta'</hi>; this release marks incremental changes to the site.</p>   
+                     <p>Improvements made include: </p>
+                    <list type="ordered">
+                             <item>Edits and enhancements to editorial and technical commentary, and</item>
+                            <item>Alterations to the faceted browsing indexes to improve navagability.</item>
+                    </list>
+                    <p>
+                       Additional releases are planned for Autumn 2008. 
+                       As we tailor and improve these services we invite your comments through our <xref type="internal" from="p1_5">Feedback form</xref>.</p>
+            </div>
             <div>
             <head>13 May 2008</head>
                 <p>This is the <hi rend="bold">'beta'</hi> release of ncse and is subject to change.  
@@ -49,9 +61,9 @@
                 <item>Inclusion within the keyword repository of additional materials from the corpus, and</item>
                 <item>Improved integration between the keyword and facsimile repositories.</item>
             </list>
-            <p>As we tailor and improve these services we invite your comments through our <xref type="internal" from="p1_5">Feedback form</xref>.</p>
-
-</div></div>
+          
+            </div>
+            </div>
 
 
 
