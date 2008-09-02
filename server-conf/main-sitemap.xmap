@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!-- 
   Main sitemap. 
-  SVN: $Id: main-sitemap.xmap 1384 2008-06-16 15:16:54Z elitta $
+  SVN: $Id: main-sitemap.xmap 1387 2008-06-17 13:42:09Z zau $
 -->
 <map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
 
@@ -295,7 +295,7 @@
           <map:part src="{global:project-path}{global:project-materials}/month/index.xml" />
         </map:aggregate>
         <map:transform src="xslt/type01/proj_type01_DR.xsl" type="saxon">
-          <map:parameter name="context-path" value="{request:contextPath}{global:project-root}" />
+          <map:parameter name="context-path" value="{global:project-root}" />
         </map:transform>
         <map:serialize type="xhtml" />
       </map:match>
@@ -353,7 +353,6 @@
     </map:pipeline>
 
     <map:pipeline>
-    
       <!-- ========================= Automount ============================= -->
       <map:match pattern="**">
         <map:mount check-reload="yes" src="aggr-sitemap.xmap" uri-prefix="" />
