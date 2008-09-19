@@ -19,18 +19,31 @@
 
   <xsl:variable name="doc-key">
     <keys>
-      <xsl:choose>
-        <xsl:when test="$type = 'subject'">
-          <xsl:for-each-group group-by="." select="document('semtag-index-keys.xml')//key">
-            <key>
+      <xsl:variable name="keys-tmp">
+        <xsl:choose>
+          <xsl:when test="$type = 'subject'">
+            <xsl:for-each-group group-by="." select="document('semtag-index-keys.xml')//key">
+              <xsl:choose>
+                <xsl:when test="translate(., '+-', '') = document('semtag-index-keys.xml')//key" />
+                <xsl:otherwise>
+                  <key id="{translate(@id, '+-', '')}">
+                    <xsl:value-of select="translate(., '+-', '')" />
+                  </key>
+                </xsl:otherwise>
+              </xsl:choose>
+
               <xsl:sequence select="self::node()" />
-            </key>
-          </xsl:for-each-group>
-        </xsl:when>
-        <xsl:when test="$type = 'image'">
-          <xsl:sequence select="document('image-index-keys.xml')" />
-        </xsl:when>
-      </xsl:choose>
+            </xsl:for-each-group>
+          </xsl:when>
+          <xsl:when test="$type = 'image'">
+            <xsl:sequence select="document('image-index-keys.xml')" />
+          </xsl:when>
+        </xsl:choose>
+      </xsl:variable>
+
+      <xsl:for-each-group group-by="." select="$keys-tmp/key">
+        <xsl:sequence select="." />
+      </xsl:for-each-group>
     </keys>
   </xsl:variable>
 

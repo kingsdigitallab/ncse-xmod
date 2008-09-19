@@ -1,1429 +1,1591 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r:RDF xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rs="http://www.w3.org/2000/01/rdf-schema#">
-  <s:Concept r:about="A" r:label="General and Abstract Terms" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="A1" r:label="General And Abstract Terms">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="A1.1.1" r:label="General actions / making" />
-                  <s:Concept r:about="A1.1.1-" r:label="Inaction" />
-                  <s:Concept r:about="A1.1.2" r:label="Damaging and destroying" />
-                  <s:Concept r:about="A1.1.2-" r:label="Fixing and mending" />
-                  <s:Concept r:about="A1.2" r:label="Suitability">
-                    <s:narrower>
-                      <s:orderedCollection>
+<r:RDF xmlns:rs="http://www.w3.org/2000/01/rdf-schema#"
+       xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="A"
+              r:label="General and Abstract Terms">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="A1" r:label="General And Abstract Terms">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="A1.2+" r:label="Suitable" />
-                          <s:Concept r:about="A1.2-" r:label="Unsuitable" />
+                           <s:Concept r:about="A1.1.1" r:label="General actions / making"/>
+                           <s:Concept r:about="A1.1.1-" r:label="Inaction"/>
+                           <s:Concept r:about="A1.1.2" r:label="Damaging and destroying"/>
+                           <s:Concept r:about="A1.1.2-" r:label="Fixing and mending"/>
+                           <s:Concept r:about="A1.2" r:label="Suitability">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A1.2+" r:label="Suitable"/>
+                                       <s:Concept r:about="A1.2-" r:label="Unsuitable"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="A1.3" r:label="Caution">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A1.3+" r:label="Cautious"/>
+                                       <s:Concept r:about="A1.3-" r:label="No caution"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="A1.4" r:label="Chance, luck">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A1.4+" r:label="Lucky"/>
+                                       <s:Concept r:about="A1.4-" r:label="Unlucky"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="A1.5" r:label="Use">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A1.5.1" r:label="Using">
+                                          <s:narrower>
+                                             <s:orderedCollection>
+                                                <s:memberList r:parseType="Collection">
+                                                   <s:Concept r:about="A1.5.1+" r:label="Used"/>
+                                                   <s:Concept r:about="A1.5.1-" r:label="Unused"/>
+                                                </s:memberList>
+                                             </s:orderedCollection>
+                                          </s:narrower>
+                                       </s:Concept>
+                                       <s:Concept r:about="A1.5.2" r:label="Usefulness">
+                                          <s:narrower>
+                                             <s:orderedCollection>
+                                                <s:memberList r:parseType="Collection">
+                                                   <s:Concept r:about="A1.5.2+" r:label="Useful"/>
+                                                   <s:Concept r:about="A1.5.2-" r:label="Useless"/>
+                                                </s:memberList>
+                                             </s:orderedCollection>
+                                          </s:narrower>
+                                       </s:Concept>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="A1.6" r:label="Concrete/Abstract"/>
+                           <s:Concept r:about="A1.7+" r:label="Constraint"/>
+                           <s:Concept r:about="A1.7-" r:label="No constraint"/>
+                           <s:Concept r:about="A1.8+" r:label="Inclusion"/>
+                           <s:Concept r:about="A1.8-" r:label="Exclusion"/>
+                           <s:Concept r:about="A1.9" r:label="Avoiding">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A1.9-" r:label="Unavoidable"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="A1.3" r:label="Caution">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="A2" r:label="Affect">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="A1.3+" r:label="Cautious" />
-                          <s:Concept r:about="A1.3-" r:label="No caution" />
+                           <s:Concept r:about="A2.1" r:label="Modify, change">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A2.1+" r:label="Change"/>
+                                       <s:Concept r:about="A2.1-" r:label="No change"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="A2.2" r:label="Cause&amp;Effect/Connection">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A2.2+" r:label="Cause/Effect/Connected"/>
+                                       <s:Concept r:about="A2.2-" r:label="Unconnected"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="A1.4" r:label="Chance, luck">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="A3" r:label="Being">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="A1.4+" r:label="Lucky" />
-                          <s:Concept r:about="A1.4-" r:label="Unlucky" />
+                           <s:Concept r:about="A3+" r:label="Existing"/>
+                           <s:Concept r:about="A3-" r:label="Non-existing"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="A1.5" r:label="Use">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="A4" r:label="Classification">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="A1.5.1" r:label="Using">
-                            <s:narrower>
-                              <s:orderedCollection>
-                                <s:memberList r:parseType="Collection">
-                                  <s:Concept r:about="A1.5.1+" r:label="Used" />
-                                  <s:Concept r:about="A1.5.1-" r:label="Unused" />
-                                </s:memberList>
-                              </s:orderedCollection>
-                            </s:narrower>
-                          </s:Concept>
-                          <s:Concept r:about="A1.5.2" r:label="Usefulness">
-                            <s:narrower>
-                              <s:orderedCollection>
-                                <s:memberList r:parseType="Collection">
-                                  <s:Concept r:about="A1.5.2+" r:label="Useful" />
-                                  <s:Concept r:about="A1.5.2-" r:label="Useless" />
-                                </s:memberList>
-                              </s:orderedCollection>
-                            </s:narrower>
-                          </s:Concept>
+                           <s:Concept r:about="A4.1" r:label="Generally kinds, groups, examples">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A4.1-" r:label="Unclassified"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="A4.2" r:label="Particular/general; detail">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A4.2+" r:label="Detailed"/>
+                                       <s:Concept r:about="A4.2-" r:label="General"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="A1.6" r:label="Concrete/Abstract" />
-                  <s:Concept r:about="A1.7+" r:label="Constraint" />
-                  <s:Concept r:about="A1.7-" r:label="No constraint" />
-                  <s:Concept r:about="A1.8+" r:label="Inclusion" />
-                  <s:Concept r:about="A1.8-" r:label="Exclusion" />
-                  <s:Concept r:about="A1.9" r:label="Avoiding">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="A5" r:label="Evaluation">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="A1.9-" r:label="Unavoidable" />
+                           <s:Concept r:about="A5.1" r:label="Evaluation: Good/bad">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A5.1+" r:label="Evaluation: Good"/>
+                                       <s:Concept r:about="A5.1-" r:label="Evaluation: Bad"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="A5.2" r:label="Evaluation: True/false">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A5.2+" r:label="Evaluation: True"/>
+                                       <s:Concept r:about="A5.2-" r:label="Evaluation: False"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="A5.3" r:label="Evaluation: Accuracy">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A5.3+" r:label="Evaluation: Accurate"/>
+                                       <s:Concept r:about="A5.3-" r:label="Evaluation: Inaccurate"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="A5.4" r:label="Evaluation: Authenticity">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A5.4+" r:label="Evaluation: Authentic"/>
+                                       <s:Concept r:about="A5.4-" r:label="Evaluation: Unauthentic"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="A2" r:label="Affect">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="A2.1" r:label="Modify, change">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="A6" r:label="Comparing">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="A2.1+" r:label="Change" />
-                          <s:Concept r:about="A2.1-" r:label="No change" />
+                           <s:Concept r:about="A6.1" r:label="Comparing: Similar/different">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A6.1+" r:label="Comparing: Similar"/>
+                                       <s:Concept r:about="A6.1-" r:label="Comparing: Different"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="A6.2" r:label="Comparing: Usual/unusual">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A6.2+" r:label="Comparing: Usual"/>
+                                       <s:Concept r:about="A6.2-" r:label="Comparing: Unusual"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="A6.3" r:label="Comparing: Variety">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="A6.3+" r:label="Comparing: Varied"/>
+                                       <s:Concept r:about="A6.3-" r:label="Comparing: Unvaried"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="A2.2" r:label="Cause&amp;Effect/Connection">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="A7" r:label="Probability">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="A2.2+" r:label="Cause/Effect/Connected" />
-                          <s:Concept r:about="A2.2-" r:label="Unconnected" />
+                           <s:Concept r:about="A7+" r:label="Likely"/>
+                           <s:Concept r:about="A7-" r:label="Unlikely"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="A3" r:label="Being">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="A3+" r:label="Existing" />
-                  <s:Concept r:about="A3-" r:label="Non-existing" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="A4" r:label="Classification">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="A4.1" r:label="Generally kinds, groups, examples">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="A8" r:label="Seem"/>
+               <s:Concept r:about="A9" r:label="Getting and giving; possession">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="A4.1-" r:label="Unclassified" />
+                           <s:Concept r:about="A9+" r:label="Getting and possession"/>
+                           <s:Concept r:about="A9-" r:label="Giving"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="A4.2" r:label="Particular/general; detail">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="B"
+              r:label="The Body &amp; the Individual">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="B1" r:label="Anatomy and physiology"/>
+               <s:Concept r:about="B2" r:label="Health and disease">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="A4.2+" r:label="Detailed" />
-                          <s:Concept r:about="A4.2-" r:label="General" />
+                           <s:Concept r:about="B2+" r:label="Healthy"/>
+                           <s:Concept r:about="B2-" r:label="Disease"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="A5" r:label="Evaluation">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="A5.1" r:label="Evaluation: Good/bad">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="B3" r:label="Medicines and medical treatment">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection"/>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="B4" r:label="Cleaning and personal care">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="A5.1+" r:label="Evaluation: Good" />
-                          <s:Concept r:about="A5.1-" r:label="Evaluation: Bad" />
+                           <s:Concept r:about="B4-" r:label="Dirty"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="A5.2" r:label="Evaluation: True/false">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="B5" r:label="Clothes and personal belongings">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="A5.2+" r:label="Evaluation: True" />
-                          <s:Concept r:about="A5.2-" r:label="Evaluation: False" />
+                           <s:Concept r:about="B5-" r:label="Without clothes"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="A6" r:label="Comparing">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="A6.1" r:label="Comparing: Similar/different">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="C"
+              r:label="Arts &amp; Crafts">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="C1" r:label="Arts and crafts"/>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="E"
+              r:label="Emotional Actions, States &amp; Processes">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="E1" r:label="Emotional Actions, States And Processes General">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="A6.1+" r:label="Comparing: Similar" />
-                          <s:Concept r:about="A6.1-" r:label="Comparing: Different" />
+                           <s:Concept r:about="E1+" r:label="Emotional"/>
+                           <s:Concept r:about="E1-" r:label="Unemotional"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="A7" r:label="Probability">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="A7+" r:label="Likely" />
-                  <s:Concept r:about="A7-" r:label="Unlikely" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="A8" r:label="Seem" />
-          <s:Concept r:about="A9" r:label="Getting and giving; possession">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="A9+" r:label="Getting and possession" />
-                  <s:Concept r:about="A9-" r:label="Giving" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="B" r:label="The Body &amp; the Individual" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="B1" r:label="Anatomy and physiology" />
-          <s:Concept r:about="B2" r:label="Health and disease">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="B2+" r:label="Healthy" />
-                  <s:Concept r:about="B2-" r:label="Disease" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="B3" r:label="Medicines and medical treatment">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection" />
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="B4" r:label="Cleaning and personal care">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="B4-" r:label="Dirty" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="B5" r:label="Clothes and personal belongings">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="B5-" r:label="Without clothes" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="C" r:label="Arts &amp; Crafts" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="C1" r:label="Arts and crafts" />
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="E" r:label="Emotional Actions, States &amp; Processes" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="E1" r:label="Emotional Actions, States And Processes General">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="E1+" r:label="Emotional" />
-                  <s:Concept r:about="E1-" r:label="Unemotional" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="E2" r:label="Liking">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="E2+" r:label="Like" />
-                  <s:Concept r:about="E2-" r:label="Dislike" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="E3" r:label="Calm/Violent/Angry">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="E3+" r:label="Calm" />
-                  <s:Concept r:about="E3-" r:label="Violent/Angry" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="E4" r:label="Happiness and Contentment">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection" />
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="E5" r:label="Bravery and Fear">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="E5+" r:label="Bravery" />
-                  <s:Concept r:about="E5-" r:label="Fear/shock" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="E6" r:label="Worry and confidence">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="E6+" r:label="Confident" />
-                  <s:Concept r:about="E6-" r:label="Worry" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="F" r:label="Food &amp; Farming" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="F1" r:label="Food">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="F1+" r:label="Abundance of food" />
-                  <s:Concept r:about="F1-" r:label="Lack of food" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="F2" r:label="Drinks and alcohol">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="F2+" r:label="Excessive drinking" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="F3" r:label="Smoking and non-medical drugs">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection" />
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="F4" r:label="Farming &amp; Horticulture">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection" />
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="G" r:label="Government &amp; the Public Domain" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="G1" r:label="Government and Politics">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="G1.1" r:label="Government">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="E2" r:label="Liking">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="G1.1-" r:label="Non-governmental" />
+                           <s:Concept r:about="E2+" r:label="Like"/>
+                           <s:Concept r:about="E2-" r:label="Dislike"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="G1.2" r:label="Politics">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="E3" r:label="Calm/Violent/Angry">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="G1.2-" r:label="Non-political" />
+                           <s:Concept r:about="E3+" r:label="Calm"/>
+                           <s:Concept r:about="E3-" r:label="Violent/Angry"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="G2" r:label="Crime, law and order">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="G2.1" r:label="Law and order">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="E4" r:label="Happiness and Contentment">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="G2.1+" r:label="Lawful" />
-                          <s:Concept r:about="G2.1-" r:label="Crime" />
+                           <s:Concept r:about="E4.1" r:label="Happy/sad">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="E4.1+" r:label="Happy"/>
+                                       <s:Concept r:about="E4.1-" r:label="Sad"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="E4.2" r:label="Contentment">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="E4.2+" r:label="Content"/>
+                                       <s:Concept r:about="E4.2-" r:label="Discontent"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="G2.2" r:label="General ethics">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="E5" r:label="Bravery and Fear">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="G2.2+" r:label="Ethical" />
-                          <s:Concept r:about="G2.2-" r:label="Unethical" />
+                           <s:Concept r:about="E5+" r:label="Bravery"/>
+                           <s:Concept r:about="E5-" r:label="Fear/shock"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="G3" r:label="Warfare, defence and the army; weapons">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="G3-" r:label="Anti-war" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="H" r:label="Architecture, Buildings, Houses &amp; the Home" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="H1" r:label="Architecture, houses and buildings" />
-          <s:Concept r:about="H2" r:label="Parts of buildings" />
-          <s:Concept r:about="H3" r:label="Areas around or near houses" />
-          <s:Concept r:about="H4" r:label="Residence">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="H4-" r:label="Non-resident" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="H5" r:label="Furniture and household fittings">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="H5-" r:label="Unfurnished" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="I" r:label="Money &amp; Commerce in Industry" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="I1" r:label="Money generally">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="I1.1" r:label="Money and pay">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="E6" r:label="Worry and confidence">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="I1.1+" r:label="Money: Affluence" />
-                          <s:Concept r:about="I1.1-" r:label="Money: Lack" />
+                           <s:Concept r:about="E6+" r:label="Confident"/>
+                           <s:Concept r:about="E6-" r:label="Worry"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="I1.2" r:label="Money: Debts">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="F"
+              r:label="Food &amp; Farming">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="F1" r:label="Food">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="I1.2+" r:label="Spending and money loss" />
-                          <s:Concept r:about="I1.2-" r:label="Debt-free" />
+                           <s:Concept r:about="F1+" r:label="Abundance of food"/>
+                           <s:Concept r:about="F1-" r:label="Lack of food"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="I1.3" r:label="Money: Cost and price">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="F2" r:label="Drinks and alcohol">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="I1.3+" r:label="Expensive" />
-                          <s:Concept r:about="I1.3-" r:label="Cheap" />
+                           <s:Concept r:about="F2+" r:label="Excessive drinking"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="I2" r:label="Business">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="I2.1" r:label="Business: Generally">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="F3" r:label="Smoking and non-medical drugs">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection"/>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="F4" r:label="Farming &amp; Horticulture">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection"/>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="G"
+              r:label="Government &amp; the Public Domain">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="G1" r:label="Government and Politics">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="I2.1-" r:label="Non-commercial" />
+                           <s:Concept r:about="G1.1" r:label="Government">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="G1.1-" r:label="Non-governmental"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="G1.2" r:label="Politics">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="G1.2-" r:label="Non-political"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="I2.2" r:label="Business: Selling" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="I3" r:label="Work and employment">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="I3.1" r:label="Work and employment: Generally">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="G2" r:label="Crime, law and order">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="I3.1-" r:label="Unemployed" />
+                           <s:Concept r:about="G2.1" r:label="Law and order">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="G2.1+" r:label="Lawful"/>
+                                       <s:Concept r:about="G2.1-" r:label="Crime"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="G2.2" r:label="General ethics">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="G2.2+" r:label="Ethical"/>
+                                       <s:Concept r:about="G2.2-" r:label="Unethical"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="I3.2" r:label="Work and employment: Professionalism">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="G3" r:label="Warfare, defence and the army; weapons">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="I3.2+" r:label="Professional" />
-                          <s:Concept r:about="I3.2-" r:label="Unprofessional" />
+                           <s:Concept r:about="G3-" r:label="Anti-war"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="I4" r:label="Industry">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection" />
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="K" r:label="Entertainment, Sports and Games" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="K1" r:label="Entertainment generally" />
-          <s:Concept r:about="K2" r:label="Music and related activities" />
-          <s:Concept r:about="K3" r:label="Recorded sound" />
-          <s:Concept r:about="K4" r:label="Drama, the theatre and show business" />
-          <s:Concept r:about="K5" r:label="Sports and games generally">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="K5.1" r:label="Sports" />
-                  <s:Concept r:about="K5.2" r:label="Games" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="K6" r:label="Children’s games and toys" />
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="L" r:label="Life and living things" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="L1" r:label="Life and living things">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="L1+" r:label="Alive" />
-                  <s:Concept r:about="L1-" r:label="Dead" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="L2" r:label="Living creatures: animals, birds, etc.">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection" />
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="L3" r:label="Plants">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="L3-" r:label="No plants" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="M" r:label="Movement, Location, Travel &amp; Transport" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="M1" r:label="Moving, coming and going" />
-          <s:Concept r:about="M2" r:label="Putting, pulling, pushing, transporting" />
-          <s:Concept r:about="M3" r:label="Vehicles and transport on land" />
-          <s:Concept r:about="M4" r:label="Sailing, swimming, etc.">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection" />
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="M5" r:label="Flying and aircraft" />
-          <s:Concept r:about="M6" r:label="Location and direction" />
-          <s:Concept r:about="M7" r:label="Places" />
-          <s:Concept r:about="M8" r:label="Stationary" />
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="N" r:label="Numbers &amp; Measurement" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="N1" r:label="Numbers" />
-          <s:Concept r:about="N2" r:label="Mathematics" />
-          <s:Concept r:about="N3" r:label="Measurement">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="N3.1" r:label="Measurement: General" />
-                  <s:Concept r:about="N3.2" r:label="Measurement: Size">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="H"
+              r:label="Architecture, Buildings, Houses &amp; the Home">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="H1" r:label="Architecture, houses and buildings"/>
+               <s:Concept r:about="H2" r:label="Parts of buildings"/>
+               <s:Concept r:about="H3" r:label="Areas around or near houses"/>
+               <s:Concept r:about="H4" r:label="Residence">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="N3.2+" r:label="Size: Big" />
-                          <s:Concept r:about="N3.2-" r:label="Size: Small" />
+                           <s:Concept r:about="H4-" r:label="Non-resident"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="N3.3" r:label="Measurement: Distance">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="H5" r:label="Furniture and household fittings">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="N3.3+" r:label="Distance: Far" />
-                          <s:Concept r:about="N3.3-" r:label="Distance: Near" />
+                           <s:Concept r:about="H5-" r:label="Unfurnished"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="N3.4" r:label="Measurement: Volume">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="I"
+              r:label="Money &amp; Commerce in Industry">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="I1" r:label="Money generally">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="N3.4+" r:label="Volume: Inflated" />
-                          <s:Concept r:about="N3.4-" r:label="Volume: Compressed" />
+                           <s:Concept r:about="I1.1" r:label="Money and pay">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="I1.1+" r:label="Money: Affluence"/>
+                                       <s:Concept r:about="I1.1-" r:label="Money: Lack"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="I1.2" r:label="Money: Debts">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="I1.2+" r:label="Spending and money loss"/>
+                                       <s:Concept r:about="I1.2-" r:label="Debt-free"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="I1.3" r:label="Money: Cost and price">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="I1.3+" r:label="Expensive"/>
+                                       <s:Concept r:about="I1.3-" r:label="Cheap"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="N3.5" r:label="Measurement: Weight">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="I2" r:label="Business">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="N3.5+" r:label="Weight: Heavy" />
-                          <s:Concept r:about="N3.5-" r:label="Weight: Light" />
+                           <s:Concept r:about="I2.1" r:label="Business: Generally">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="I2.1-" r:label="Non-commercial"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="I2.2" r:label="Business: Selling"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="N3.6" r:label="Measurement: Area">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="I3" r:label="Work and employment">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="N3.6+" r:label="Spacious" />
+                           <s:Concept r:about="I3.1" r:label="Work and employment: Generally">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="I3.1-" r:label="Unemployed"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="I3.2" r:label="Work and employment: Professionalism">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="I3.2+" r:label="Professional"/>
+                                       <s:Concept r:about="I3.2-" r:label="Unprofessional"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="N3.7" r:label="Measurement: Length &amp; height">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="I4" r:label="Industry">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection"/>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="K"
+              r:label="Entertainment, Sports and Games">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="K1" r:label="Entertainment generally"/>
+               <s:Concept r:about="K2" r:label="Music and related activities"/>
+               <s:Concept r:about="K3" r:label="Recorded sound"/>
+               <s:Concept r:about="K4" r:label="Drama, the theatre and show business"/>
+               <s:Concept r:about="K5" r:label="Sports and games generally">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="N3.7+" r:label="Long, tall and wide" />
-                          <s:Concept r:about="N3.7-" r:label="Short and narrow" />
+                           <s:Concept r:about="K5.1" r:label="Sports"/>
+                           <s:Concept r:about="K5.2" r:label="Games"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="N3.8" r:label="Measurement: Speed">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="K6" r:label="Children’s games and toys"/>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="L"
+              r:label="Life and living things">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="L1" r:label="Life and living things">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="N3.8+" r:label="Speed: Fast" />
-                          <s:Concept r:about="N3.8-" r:label="Speed: Slow" />
+                           <s:Concept r:about="L1+" r:label="Alive"/>
+                           <s:Concept r:about="L1-" r:label="Dead"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="N4" r:label="Linear order">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection" />
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="N5" r:label="Quantities">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="N5+" r:label="Quantities: many/much" />
-                  <s:Concept r:about="N5-" r:label="Quantities: little" />
-                  <s:Concept r:about="N5.1" r:label="Entirety; maximum">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="L2" r:label="Living creatures: animals, birds, etc.">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection"/>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="L3" r:label="Plants">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="N5.1+" r:label="Entire; maximum" />
-                          <s:Concept r:about="N5.1-" r:label="Part" />
+                           <s:Concept r:about="L3-" r:label="No plants"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="N6" r:label="Frequency">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="N6+" r:label="Frequent" />
-                  <s:Concept r:about="N6-" r:label="Infrequent" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="O" r:label="Substances, Materials, Objects &amp; Equipment" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="O1" r:label="Substances and materials generally">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="O1.1" r:label="Substances and materials: Solid" />
-                  <s:Concept r:about="O1.2" r:label="Substances and materials: Liquid">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="M"
+              r:label="Movement, Location, Travel &amp; Transport">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="M1" r:label="Moving, coming and going"/>
+               <s:Concept r:about="M2" r:label="Putting, pulling, pushing, transporting"/>
+               <s:Concept r:about="M3" r:label="Vehicles and transport on land"/>
+               <s:Concept r:about="M4" r:label="Sailing, swimming, etc.">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection"/>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="M5" r:label="Flying and aircraft"/>
+               <s:Concept r:about="M6" r:label="Location and direction"/>
+               <s:Concept r:about="M7" r:label="Places"/>
+               <s:Concept r:about="M8" r:label="Stationary"/>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="N"
+              r:label="Numbers &amp; Measurement">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="N1" r:label="Numbers"/>
+               <s:Concept r:about="N2" r:label="Mathematics"/>
+               <s:Concept r:about="N3" r:label="Measurement">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="O1.2-" r:label="Dry" />
+                           <s:Concept r:about="N3.1" r:label="Measurement: General"/>
+                           <s:Concept r:about="N3.2" r:label="Measurement: Size">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="N3.2+" r:label="Size: Big"/>
+                                       <s:Concept r:about="N3.2-" r:label="Size: Small"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="N3.3" r:label="Measurement: Distance">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="N3.3+" r:label="Distance: Far"/>
+                                       <s:Concept r:about="N3.3-" r:label="Distance: Near"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="N3.4" r:label="Measurement: Volume">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="N3.4+" r:label="Volume: Inflated"/>
+                                       <s:Concept r:about="N3.4-" r:label="Volume: Compressed"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="N3.5" r:label="Measurement: Weight">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="N3.5+" r:label="Weight: Heavy"/>
+                                       <s:Concept r:about="N3.5-" r:label="Weight: Light"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="N3.6" r:label="Measurement: Area">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="N3.6+" r:label="Spacious"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="N3.7" r:label="Measurement: Length &amp; height">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="N3.7+" r:label="Long, tall and wide"/>
+                                       <s:Concept r:about="N3.7-" r:label="Short and narrow"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="N3.8" r:label="Measurement: Speed">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="N3.8+" r:label="Speed: Fast"/>
+                                       <s:Concept r:about="N3.8-" r:label="Speed: Slow"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="O1.3" r:label="Substances and materials: Gas">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="N4" r:label="Linear order">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection"/>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="N5" r:label="Quantities">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="O1.3-" r:label="Gasless" />
+                           <s:Concept r:about="N5+" r:label="Quantities: many/much"/>
+                           <s:Concept r:about="N5-" r:label="Quantities: little"/>
+                           <s:Concept r:about="N5.1" r:label="Entirety; maximum">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="N5.1+" r:label="Entire; maximum"/>
+                                       <s:Concept r:about="N5.1-" r:label="Part"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="O2" r:label="Objects generally" />
-          <s:Concept r:about="O3" r:label="Electricity and electrical equipment" />
-          <s:Concept r:about="O4" r:label="Physical attributes">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="O4.1" r:label="General appearance and physical properties" />
-                  <s:Concept r:about="O4.2" r:label="Judgement of appearance">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="N6" r:label="Frequency">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="O4.2+" r:label="Judgement of appearance: Beautiful" />
-                          <s:Concept r:about="O4.2-" r:label="Judgement of appearance: Ugly" />
+                           <s:Concept r:about="N6+" r:label="Frequent"/>
+                           <s:Concept r:about="N6-" r:label="Infrequent"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="O4.3" r:label="Colour and colour patterns" />
-                  <s:Concept r:about="O4.4" r:label="Shape" />
-                  <s:Concept r:about="O4.5" r:label="Texture" />
-                  <s:Concept r:about="O4.6" r:label="Temperature">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="O"
+              r:label="Substances, Materials, Objects &amp; Equipment">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="O1" r:label="Substances and materials generally">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="O4.6+" r:label="Temperature: Hot / on fire" />
-                          <s:Concept r:about="O4.6-" r:label="Temperature: Cold" />
+                           <s:Concept r:about="O1.1" r:label="Substances and materials: Solid"/>
+                           <s:Concept r:about="O1.2" r:label="Substances and materials: Liquid">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="O1.2-" r:label="Dry"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="O1.3" r:label="Substances and materials: Gas">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="O1.3-" r:label="Gasless"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="P" r:label="Education" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="P1" r:label="Education in general">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="P1-" r:label="Not educated" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="Q" r:label="Linguistic Actions, States &amp; Processes: Communication" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="Q1" r:label="Linguistic Actions, States And Processes; Communication">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="Q1.1" r:label="Linguistic Actions, States And Processes; Communication" />
-                  <s:Concept r:about="Q1.2" r:label="Paper documents and writing">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="O2" r:label="Objects generally"/>
+               <s:Concept r:about="O3" r:label="Electricity and electrical equipment"/>
+               <s:Concept r:about="O4" r:label="Physical attributes">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="Q1.2-" r:label="Unwritten" />
+                           <s:Concept r:about="O4.1" r:label="General appearance and physical properties"/>
+                           <s:Concept r:about="O4.2" r:label="Judgement of appearance">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="O4.2+" r:label="Judgement of appearance: Beautiful"/>
+                                       <s:Concept r:about="O4.2-" r:label="Judgement of appearance: Ugly"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="O4.3" r:label="Colour and colour patterns"/>
+                           <s:Concept r:about="O4.4" r:label="Shape"/>
+                           <s:Concept r:about="O4.5" r:label="Texture"/>
+                           <s:Concept r:about="O4.6" r:label="Temperature">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="O4.6+" r:label="Temperature: Hot / on fire"/>
+                                       <s:Concept r:about="O4.6-" r:label="Temperature: Cold"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="Q1.3" r:label="Telecommunications" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="Q2" r:label="Speech">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="Q2.1" r:label="Speech: Communicative">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="P" r:label="Education">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="P1" r:label="Education in general">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="Q2.1+" r:label="Speech: Talkative" />
-                          <s:Concept r:about="Q2.1-" r:label="Speech: Not communicating" />
+                           <s:Concept r:about="P1-" r:label="Not educated"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="Q2.2" r:label="Speech acts">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="Q"
+              r:label="Linguistic Actions, States &amp; Processes: Communication">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="Q1" r:label="Linguistic Actions, States And Processes; Communication">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="Q2.2-" r:label="Speech acts: Not speaking" />
+                           <s:Concept r:about="Q1.1"
+                                      r:label="Linguistic Actions, States And Processes; Communication"/>
+                           <s:Concept r:about="Q1.2" r:label="Paper documents and writing">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="Q1.2-" r:label="Unwritten"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="Q1.3" r:label="Telecommunications"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="Q3" r:label="Language, speech and grammar">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection" />
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="Q4" r:label="The Media">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="Q4.1" r:label="The Media: Books" />
-                  <s:Concept r:about="Q4.2" r:label="The Media: Newspapers etc." />
-                  <s:Concept r:about="Q4.3" r:label="The Media: TV, Radio and Cinema" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="S" r:label="Social Actions, States &amp; Processes" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="S1" r:label="Social Actions, States And Processes">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="S1.2" r:label="Personality traits">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="Q2" r:label="Speech">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="S1.2.4" r:label="Politeness">
-                            <s:narrower>
-                              <s:orderedCollection>
-                                <s:memberList r:parseType="Collection">
-                                  <s:Concept r:about="S1.2.4+" r:label="Polite" />
-                                  <s:Concept r:about="S1.2.4-" r:label="Impolite" />
-                                </s:memberList>
-                              </s:orderedCollection>
-                            </s:narrower>
-                          </s:Concept>
+                           <s:Concept r:about="Q2.1" r:label="Speech: Communicative">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="Q2.1+" r:label="Speech: Talkative"/>
+                                       <s:Concept r:about="Q2.1-" r:label="Speech: Not communicating"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="Q2.2" r:label="Speech acts">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="Q2.2-" r:label="Speech acts: Not speaking"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="S2" r:label="People">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="S2-" r:label="No people" />
-                  <s:Concept r:about="S2.1" r:label="People: Female">
-                    <s:narrower>
-                      <s:orderedCollection>
-                        <s:memberList r:parseType="Collection" />
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="S2.2" r:label="People: Male" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="S3" r:label="Relationship">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="S3.1" r:label="Personal relationship: General">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="Q3" r:label="Language, speech and grammar">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection"/>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="Q4" r:label="The Media">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="S3.1-" r:label="No personal relationship" />
+                           <s:Concept r:about="Q4.1" r:label="The Media: Books"/>
+                           <s:Concept r:about="Q4.2" r:label="The Media: Newspapers etc."/>
+                           <s:Concept r:about="Q4.3" r:label="The Media: TV, Radio and Cinema"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="S3.2" r:label="Relationship: Intimacy and sex">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="S"
+              r:label="Social Actions, States &amp; Processes">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="S1" r:label="Social Actions, States And Processes">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="S3.2+" r:label="Relationship: Sexual" />
-                          <s:Concept r:about="S3.2-" r:label="Relationship: Asexual" />
+                           <s:Concept r:about="S1.2" r:label="Personality traits">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="S1.2.1" r:label="Approachability and Friendliness">
+                                          <s:narrower>
+                                             <s:orderedCollection>
+                                                <s:memberList r:parseType="Collection">
+                                                   <s:Concept r:about="S1.2.1+" r:label="Informal/Friendly"/>
+                                                   <s:Concept r:about="S1.2.1-" r:label="Formal/Unfriendly"/>
+                                                </s:memberList>
+                                             </s:orderedCollection>
+                                          </s:narrower>
+                                       </s:Concept>
+                                       <s:Concept r:about="S1.2.2" r:label="Avarice">
+                                          <s:narrower>
+                                             <s:orderedCollection>
+                                                <s:memberList r:parseType="Collection">
+                                                   <s:Concept r:about="S1.2.2+" r:label="Greedy"/>
+                                                   <s:Concept r:about="S1.2.2-" r:label="Generous"/>
+                                                </s:memberList>
+                                             </s:orderedCollection>
+                                          </s:narrower>
+                                       </s:Concept>
+                                       <s:Concept r:about="S1.2.3" r:label="Egoism">
+                                          <s:narrower>
+                                             <s:orderedCollection>
+                                                <s:memberList r:parseType="Collection">
+                                                   <s:Concept r:about="S1.2.3+" r:label="Selfish"/>
+                                                   <s:Concept r:about="S1.2.3-" r:label="Unselfish"/>
+                                                </s:memberList>
+                                             </s:orderedCollection>
+                                          </s:narrower>
+                                       </s:Concept>
+                                       <s:Concept r:about="S1.2.4" r:label="Politeness">
+                                          <s:narrower>
+                                             <s:orderedCollection>
+                                                <s:memberList r:parseType="Collection">
+                                                   <s:Concept r:about="S1.2.4+" r:label="Polite"/>
+                                                   <s:Concept r:about="S1.2.4-" r:label="Impolite"/>
+                                                </s:memberList>
+                                             </s:orderedCollection>
+                                          </s:narrower>
+                                       </s:Concept>
+                                       <s:Concept r:about="S1.2.5" r:label="Toughness; strong/weak">
+                                          <s:narrower>
+                                             <s:orderedCollection>
+                                                <s:memberList r:parseType="Collection">
+                                                   <s:Concept r:about="S1.2.5+" r:label="Tough/strong"/>
+                                                   <s:Concept r:about="S1.2.5-" r:label="Weak"/>
+                                                </s:memberList>
+                                             </s:orderedCollection>
+                                          </s:narrower>
+                                       </s:Concept>
+                                       <s:Concept r:about="S1.2.6" r:label="Common sense">
+                                          <s:narrower>
+                                             <s:orderedCollection>
+                                                <s:memberList r:parseType="Collection">
+                                                   <s:Concept r:about="S1.2.6+" r:label="Sensible"/>
+                                                   <s:Concept r:about="S1.2.6-" r:label="Foolish"/>
+                                                </s:memberList>
+                                             </s:orderedCollection>
+                                          </s:narrower>
+                                       </s:Concept>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="S4" r:label="Kin">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="S4-" r:label="No kin" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="S5" r:label="Groups and affiliation">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="S5+" r:label="Belonging to a group" />
-                  <s:Concept r:about="S5-" r:label="Not part of a group" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="S6" r:label="Obligation and necessity">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="S6+" r:label="Strong obligation or necessity" />
-                  <s:Concept r:about="S6-" r:label="No obligation or necessity" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="S7" r:label="Power relationship">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="S7.1" r:label="Power, organizing">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="S2" r:label="People">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="S7.1+" r:label="In power" />
-                          <s:Concept r:about="S7.1-" r:label="No power" />
+                           <s:Concept r:about="S2-" r:label="No people"/>
+                           <s:Concept r:about="S2.1" r:label="People: Female">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection"/>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="S2.2" r:label="People: Male"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="S7.3" r:label="Competition">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="S3" r:label="Relationship">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="S7.3+" r:label="Competitive" />
-                          <s:Concept r:about="S7.3-" r:label="No competition" />
+                           <s:Concept r:about="S3.1" r:label="Personal relationship: General">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="S3.1-" r:label="No personal relationship"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="S3.2" r:label="Relationship: Intimacy and sex">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="S3.2+" r:label="Relationship: Sexual"/>
+                                       <s:Concept r:about="S3.2-" r:label="Relationship: Asexual"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="S7.4" r:label="Permission">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="S4" r:label="Kin">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="S7.4+" r:label="Allowed" />
-                          <s:Concept r:about="S7.4-" r:label="Not allowed" />
+                           <s:Concept r:about="S4-" r:label="No kin"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="S8" r:label="Helping/hindering">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="S8+" r:label="Helping" />
-                  <s:Concept r:about="S8-" r:label="Hindering" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="S9" r:label="Religion and the supernatural">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="S9-" r:label="Non-religious" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="T" r:label="Time" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="T1" r:label="Time">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="T1.1" r:label="Time: General">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="S5" r:label="Groups and affiliation">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="T1.1.1" r:label="Time: Past" />
-                          <s:Concept r:about="T1.1.2" r:label="Time: Present; simultaneous">
-                            <s:narrower>
-                              <s:orderedCollection>
-                                <s:memberList r:parseType="Collection" />
-                              </s:orderedCollection>
-                            </s:narrower>
-                          </s:Concept>
-                          <s:Concept r:about="T1.1.3" r:label="Time: Future" />
+                           <s:Concept r:about="S5+" r:label="Belonging to a group"/>
+                           <s:Concept r:about="S5-" r:label="Not part of a group"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="T1.2" r:label="Time: Momentary" />
-                  <s:Concept r:about="T1.3" r:label="Time: Period">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="S6" r:label="Obligation and necessity">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="T1.3+" r:label="Time period: long" />
-                          <s:Concept r:about="T1.3-" r:label="Time period: short" />
+                           <s:Concept r:about="S6+" r:label="Strong obligation or necessity"/>
+                           <s:Concept r:about="S6-" r:label="No obligation or necessity"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="T2" r:label="Time: Beginning and ending">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="T2+" r:label="Time: Beginning" />
-                  <s:Concept r:about="T2-" r:label="Time: Ending" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="T3" r:label="Time: Old, new and young; age">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="T3+" r:label="Time: Old; grown-up" />
-                  <s:Concept r:about="T3-" r:label="Time: New and young" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="T4" r:label="Time: Early/late">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="T4+" r:label="Time: Early" />
-                  <s:Concept r:about="T4-" r:label="Time: Late" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="W" r:label="The World &amp; Our Environment" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="W1" r:label="The universe" />
-          <s:Concept r:about="W2" r:label="Light">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="W2-" r:label="Darkness" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="W3" r:label="Geographical terms" />
-          <s:Concept r:about="W4" r:label="Weather" />
-          <s:Concept r:about="W5" r:label="Green issues" />
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="X" r:label="Psychological Actions, States &amp; Processes" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="X1" r:label="Psychological Actions, States And Processes" />
-          <s:Concept r:about="X2" r:label="Mental actions and processes">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="X2.1" r:label="Thought, belief">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="S7" r:label="Power relationship">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="X2.1-" r:label="Without thinking" />
+                           <s:Concept r:about="S7.1" r:label="Power, organizing">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="S7.1+" r:label="In power"/>
+                                       <s:Concept r:about="S7.1-" r:label="No power"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="S7.2" r:label="Respect">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="S7.2+" r:label="Respected"/>
+                                       <s:Concept r:about="S7.2-" r:label="No respect"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="S7.3" r:label="Competition">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="S7.3+" r:label="Competitive"/>
+                                       <s:Concept r:about="S7.3-" r:label="No competition"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="S7.4" r:label="Permission">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="S7.4+" r:label="Allowed"/>
+                                       <s:Concept r:about="S7.4-" r:label="Not allowed"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="X2.2" r:label="Knowledge">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="S8" r:label="Helping/hindering">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="X2.2+" r:label="Knowledgeable" />
-                          <s:Concept r:about="X2.2-" r:label="No knowledge" />
+                           <s:Concept r:about="S8+" r:label="Helping"/>
+                           <s:Concept r:about="S8-" r:label="Hindering"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="X2.3" r:label="Learn">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="S9" r:label="Religion and the supernatural">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="X2.3+" r:label="Learning" />
+                           <s:Concept r:about="S9-" r:label="Non-religious"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="X2.4" r:label="Investigate, examine, test, search">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="T" r:label="Time">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="T1" r:label="Time">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="X2.4-" r:label="Not examined" />
+                           <s:Concept r:about="T1.1" r:label="Time: General">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="T1.1.1" r:label="Time: Past"/>
+                                       <s:Concept r:about="T1.1.2" r:label="Time: Present; simultaneous">
+                                          <s:narrower>
+                                             <s:orderedCollection>
+                                                <s:memberList r:parseType="Collection"/>
+                                             </s:orderedCollection>
+                                          </s:narrower>
+                                       </s:Concept>
+                                       <s:Concept r:about="T1.1.3" r:label="Time: Future"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="T1.2" r:label="Time: Momentary"/>
+                           <s:Concept r:about="T1.3" r:label="Time: Period">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="T1.3+" r:label="Time period: long"/>
+                                       <s:Concept r:about="T1.3-" r:label="Time period: short"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="X2.5" r:label="Understand">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="T2" r:label="Time: Beginning and ending">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="X2.5+" r:label="Understanding" />
-                          <s:Concept r:about="X2.5-" r:label="Not understanding" />
+                           <s:Concept r:about="T2+" r:label="Time: Beginning"/>
+                           <s:Concept r:about="T2-" r:label="Time: Ending"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="X2.6" r:label="Expect">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="T3" r:label="Time: Old, new and young; age">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="X2.6+" r:label="Expected" />
-                          <s:Concept r:about="X2.6-" r:label="Unexpected" />
+                           <s:Concept r:about="T3+" r:label="Time: Old; grown-up"/>
+                           <s:Concept r:about="T3-" r:label="Time: New and young"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="X3" r:label="Sensory">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="X3.1" r:label="Sensory: Taste">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="T4" r:label="Time: Early/late">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="X3.1+" r:label="Tasty" />
+                           <s:Concept r:about="T4+" r:label="Time: Early"/>
+                           <s:Concept r:about="T4-" r:label="Time: Late"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="X3.2" r:label="Sensory: Sound">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="W"
+              r:label="The World &amp; Our Environment">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="W1" r:label="The universe"/>
+               <s:Concept r:about="W2" r:label="Light">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="X3.2+" r:label="Sound: Loud" />
-                          <s:Concept r:about="X3.2-" r:label="Sound: Quiet" />
+                           <s:Concept r:about="W2-" r:label="Darkness"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="X3.3" r:label="Sensory: Touch" />
-                  <s:Concept r:about="X3.4" r:label="Sensory: Sight">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="W3" r:label="Geographical terms"/>
+               <s:Concept r:about="W4" r:label="Weather"/>
+               <s:Concept r:about="W5" r:label="Green issues"/>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="X"
+              r:label="Psychological Actions, States &amp; Processes">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="X1" r:label="Psychological Actions, States And Processes"/>
+               <s:Concept r:about="X2" r:label="Mental actions and processes">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="X3.4+" r:label="Seen" />
-                          <s:Concept r:about="X3.4-" r:label="Unseen" />
+                           <s:Concept r:about="X2.1" r:label="Thought, belief">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="X2.1-" r:label="Without thinking"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="X2.2" r:label="Knowledge">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="X2.2+" r:label="Knowledgeable"/>
+                                       <s:Concept r:about="X2.2-" r:label="No knowledge"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="X2.3" r:label="Learn">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="X2.3+" r:label="Learning"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="X2.4" r:label="Investigate, examine, test, search">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="X2.4-" r:label="Not examined"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="X2.5" r:label="Understand">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="X2.5+" r:label="Understanding"/>
+                                       <s:Concept r:about="X2.5-" r:label="Not understanding"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="X2.6" r:label="Expect">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="X2.6+" r:label="Expected"/>
+                                       <s:Concept r:about="X2.6-" r:label="Unexpected"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="X3.5" r:label="Sensory: Smell">
-                    <s:narrower>
-                      <s:orderedCollection>
-                        <s:memberList r:parseType="Collection" />
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="X4" r:label="Mental object">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="X4.1" r:label="Mental object: Conceptual object">
-                    <s:narrower>
-                      <s:orderedCollection>
-                        <s:memberList r:parseType="Collection" />
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="X4.2" r:label="Mental object: Means, method" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="X5" r:label="Attention">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection" />
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="X6" r:label="Deciding">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="X6+" r:label="Decided" />
-                  <s:Concept r:about="X6-" r:label="Undecided" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="X7" r:label="Wanting; planning; choosing">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="X7+" r:label="Wanted" />
-                  <s:Concept r:about="X7-" r:label="Unwanted" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="X8" r:label="Trying">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="X8+" r:label="Trying hard" />
-                  <s:Concept r:about="X8-" r:label="Not trying" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="X9" r:label="Ability">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="X9.1" r:label="Ability and intelligence">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="X3" r:label="Sensory">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="X9.1+" r:label="Able/intelligent" />
-                          <s:Concept r:about="X9.1-" r:label="Inability/unintelligence" />
+                           <s:Concept r:about="X3.1" r:label="Sensory: Taste">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="X3.1+" r:label="Tasty"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="X3.2" r:label="Sensory: Sound">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="X3.2+" r:label="Sound: Loud"/>
+                                       <s:Concept r:about="X3.2-" r:label="Sound: Quiet"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="X3.3" r:label="Sensory: Touch"/>
+                           <s:Concept r:about="X3.4" r:label="Sensory: Sight">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="X3.4+" r:label="Seen"/>
+                                       <s:Concept r:about="X3.4-" r:label="Unseen"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="X3.5" r:label="Sensory: Smell">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection"/>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                  <s:Concept r:about="X9.2" r:label="Success and failure">
-                    <s:narrower>
-                      <s:orderedCollection>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="X4" r:label="Mental object">
+                  <s:narrower>
+                     <s:orderedCollection>
                         <s:memberList r:parseType="Collection">
-                          <s:Concept r:about="X9.2+" r:label="Success" />
-                          <s:Concept r:about="X9.2-" r:label="Failure" />
+                           <s:Concept r:about="X4.1" r:label="Mental object: Conceptual object">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection"/>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="X4.2" r:label="Mental object: Means, method"/>
                         </s:memberList>
-                      </s:orderedCollection>
-                    </s:narrower>
-                  </s:Concept>
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
-  <s:Concept r:about="Y" r:label="Science &amp; Technology" xmlns:s="http://www.w3.org/2004/02/skos/core#">
-    <s:narrower>
-      <s:orderedCollection>
-        <s:memberList r:parseType="Collection">
-          <s:Concept r:about="Y1" r:label="Science and technology in general">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection">
-                  <s:Concept r:about="Y1-" r:label="Anti-scientific" />
-                </s:memberList>
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-          <s:Concept r:about="Y2" r:label="Information technology and computing">
-            <s:narrower>
-              <s:orderedCollection>
-                <s:memberList r:parseType="Collection" />
-              </s:orderedCollection>
-            </s:narrower>
-          </s:Concept>
-        </s:memberList>
-      </s:orderedCollection>
-    </s:narrower>
-  </s:Concept>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="X5" r:label="Attention">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                           <s:Concept r:about="X5.1" r:label="Attention">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="X5.1+" r:label="Attentive"/>
+                                       <s:Concept r:about="X5.1-" r:label="Inattentive"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="X5.2" r:label="Interest/boredom/excited/energetic">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="X5.2+" r:label="Interested/excited/energetic"/>
+                                       <s:Concept r:about="X5.2-" r:label="Uninterested/bored/unenergetic"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                        </s:memberList>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="X6" r:label="Deciding">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                           <s:Concept r:about="X6+" r:label="Decided"/>
+                           <s:Concept r:about="X6-" r:label="Undecided"/>
+                        </s:memberList>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="X7" r:label="Wanting; planning; choosing">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                           <s:Concept r:about="X7+" r:label="Wanted"/>
+                           <s:Concept r:about="X7-" r:label="Unwanted"/>
+                        </s:memberList>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="X8" r:label="Trying">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                           <s:Concept r:about="X8+" r:label="Trying hard"/>
+                           <s:Concept r:about="X8-" r:label="Not trying"/>
+                        </s:memberList>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="X9" r:label="Ability">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                           <s:Concept r:about="X9.1" r:label="Ability and intelligence">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="X9.1+" r:label="Able/intelligent"/>
+                                       <s:Concept r:about="X9.1-" r:label="Inability/unintelligence"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                           <s:Concept r:about="X9.2" r:label="Success and failure">
+                              <s:narrower>
+                                 <s:orderedCollection>
+                                    <s:memberList r:parseType="Collection">
+                                       <s:Concept r:about="X9.2+" r:label="Success"/>
+                                       <s:Concept r:about="X9.2-" r:label="Failure"/>
+                                    </s:memberList>
+                                 </s:orderedCollection>
+                              </s:narrower>
+                           </s:Concept>
+                        </s:memberList>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
+   <s:Concept xmlns:s="http://www.w3.org/2004/02/skos/core#" r:about="Y"
+              r:label="Science &amp; Technology">
+      <s:narrower>
+         <s:orderedCollection>
+            <s:memberList r:parseType="Collection">
+               <s:Concept r:about="Y1" r:label="Science and technology in general">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection">
+                           <s:Concept r:about="Y1-" r:label="Anti-scientific"/>
+                        </s:memberList>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+               <s:Concept r:about="Y2" r:label="Information technology and computing">
+                  <s:narrower>
+                     <s:orderedCollection>
+                        <s:memberList r:parseType="Collection"/>
+                     </s:orderedCollection>
+                  </s:narrower>
+               </s:Concept>
+            </s:memberList>
+         </s:orderedCollection>
+      </s:narrower>
+   </s:Concept>
 </r:RDF>
