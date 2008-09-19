@@ -1361,7 +1361,7 @@
         </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1">
-        <skos:prefLabel xml:lang="x-notation">E4.1 </skos:prefLabel>
+        <skos:prefLabel xml:lang="x-notation">E4.1</skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Happy/sad </skos:prefLabel>
         <skos:narrower>
             <skos:orderedCollection>
@@ -1373,11 +1373,11 @@
         </skos:narrower>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1+">
-        <skos:prefLabel xml:lang="x-notation">E4.1+ </skos:prefLabel>
+        <skos:prefLabel xml:lang="x-notation">E4.1+</skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Happy </skos:prefLabel>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.1-">
-        <skos:prefLabel xml:lang="x-notation">E4.1- </skos:prefLabel>
+        <skos:prefLabel xml:lang="x-notation">E4.1-</skos:prefLabel>
         <skos:prefLabel xml:lang="en"> Sad </skos:prefLabel>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.cch.kcl.ac.uk/ncse/ucrel/E4.2">
