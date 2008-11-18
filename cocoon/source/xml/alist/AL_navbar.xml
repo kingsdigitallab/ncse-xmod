@@ -23,11 +23,11 @@
       <navGroup>
         <level01>
           <label>View</label>
-          <default type="external" ref="http://ncse-viewpoint.cch.kcl.ac.uk/"/>
+          <default type="external" ref="http://ncse-viewpoint-stg.cch.kcl.ac.uk/"/>
         </level01>
         <level01>
           <label>Search</label>
-          <default type="external" ref="http://ncse-viewpoint.cch.kcl.ac.uk/"/>
+          <default type="external" ref="http://ncse-viewpoint-stg.cch.kcl.ac.uk/"/>
         </level01>
       </navGroup>
       <navGroup>
