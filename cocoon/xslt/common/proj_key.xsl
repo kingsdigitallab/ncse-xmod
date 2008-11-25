@@ -52,22 +52,6 @@
   <!-- BANNER TEMPLATE -->
   <xsl:template name="ctpl_banner">
     <div id="banner">
-      <div class="w01">
-        <div class="w02">
-          <div class="utilLinks">
-            <div class="s01">&#160;</div>
-            <div class="s02">
-              <a href="">
-                <span>Text Only</span>
-              </a>
-              <a href="#content">
-                <span>Skip Navigation</span>
-              </a>
-              <a accesskey="c" href="" title="Link to contact information">
-                <span>Contact Info</span>
-              </a>
-            </div>
-          </div>
           <div id="decalRight">
             <span class="printOnly">Right Hand Decal</span>
           </div>
@@ -84,8 +68,6 @@
           </h2>
 
         </div>
-      </div>
-    </div>
   </xsl:template>
 
 
