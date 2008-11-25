@@ -39,7 +39,7 @@
       <div>
        <div> <p>The Nineteenth-Century Serials Edition (<hi rend="bold">ncse</hi>) is a free, online
           edition of six nineteenth-century periodicals and newspapers.To start browsing the journals, click <xref
-            type="external" url="http://ncse-viewpoint.cch.kcl.ac.uk/">facsimiles</xref>.</p>
+            type="external" url="http://ncse-viewpoint-stg.cch.kcl.ac.uk/">facsimiles</xref>.</p>
       <p> The edition is formed of two integrated components: the 'Facsimile' component - a repository of full-page facsimiles
         and textual transcripts generated through OCR; and the 'Keyword' component -  an index of semantic keywords and person, place and institution names, generated
         using data mining and natural language processing techniques. Both components of the system
@@ -81,7 +81,7 @@
         <div>
           <head>Facsimiles</head>
         <p>To begin reading and searching the full-text of articles in the edition, access the <xref
-            type="external" url="http://ncse-viewpoint.cch.kcl.ac.uk/">facsimile repository</xref>
+            type="external" url="http://ncse-viewpoint-stg.cch.kcl.ac.uk/">facsimile repository</xref>
             directly.</p>
         </div>
         <div><head>Keywords</head>
