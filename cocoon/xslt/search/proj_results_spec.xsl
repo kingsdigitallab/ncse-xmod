@@ -369,15 +369,15 @@
 
             <li class="s02">
               <xsl:text>View facsimile: </xsl:text>
-              <a href="http://ncse-viewpoint.cch.kcl.ac.uk/Default.htm?href={$path}&amp;entityid={$entity}&amp;view=entity" target="_blank">
+              <a href="http://ncse-viewpoint-stg.cch.kcl.ac.uk/Default.htm?href={$path}&amp;entityid={$entity}&amp;view=entity" target="_blank">
                 <xsl:text>item</xsl:text>
               </a>
               <xsl:text> | </xsl:text>
-              <a href="http://ncse-viewpoint.cch.kcl.ac.uk/?href={$path}&amp;page={biblScope[@type = 'page-internal']}&amp;view=document" target="_blank">
+              <a href="http://ncse-viewpoint-stg.cch.kcl.ac.uk/?href={$path}&amp;page={biblScope[@type = 'page-internal']}&amp;view=document" target="_blank">
                 <xsl:text>page</xsl:text>
               </a>
               <xsl:text> | </xsl:text>
-              <a href="http://ncse-viewpoint.cch.kcl.ac.uk/?href={$path}&amp;page=1&amp;view=document" target="_blank">
+              <a href="http://ncse-viewpoint-stg.cch.kcl.ac.uk/?href={$path}&amp;page=1&amp;view=document" target="_blank">
                 <xsl:text>issue</xsl:text>
               </a>
             </li>
