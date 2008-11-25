@@ -37,7 +37,22 @@
       
       <text>
           <body>
-              <p>dummy page. please populate</p>
+            
+            
+            <table type="special">
+              <row>
+                <cell role="itemTitle">
+                  <xref from="p4_0" type="internal">Entity Search</xref>
+                </cell>
+                <cell role="itemSubtitle">Use this form to search for terms that have been assigned to items in the repository. Search terms may be topics, persons, places, or institutions..</cell>
+              </row>
+              <row>
+                <cell role="itemTitle">
+                  <xref from="" type="external">Full-text Search</xref>
+                </cell>
+                <cell role="itemSubtitle">Use this form to perform a full text search, and to search bibliographic metadata.</cell>
+              </row>
+            </table>
                 
           </body>
       </text>

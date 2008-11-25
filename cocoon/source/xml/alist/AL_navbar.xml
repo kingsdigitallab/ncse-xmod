@@ -41,7 +41,7 @@
         </level01>
         <level01>
           <label>Search</label>
-          <default ref="p4_0"/>
+          <default ref="p4"/>
           <active>
             <file start="search_"/>
             <file start="p4_"/>

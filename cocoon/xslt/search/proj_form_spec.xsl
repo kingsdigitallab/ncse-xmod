@@ -15,7 +15,7 @@
             <ol>
               <li class="clfx-b">
                 <fieldset class="f05 n01">
-                  <legend>Keywords</legend>
+                  <legend>Entities</legend>
                   <label for="field1Sel">Search in:</label>
                   <select id="field1Sel" name="field1Sel">
                     <xsl:call-template name="tpl-entity-select">
