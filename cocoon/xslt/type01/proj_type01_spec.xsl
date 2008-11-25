@@ -12,9 +12,67 @@
   <xsl:key match="head" name="kwForeignAZ"
     use="translate(substring(., 1, 1), 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')"/>
 
+<xsl:template name="browse-search">
+  <xsl:param name="file-id"/>
+  <xsl:param name="link-text"/>
+  
+  <div class="w">
+    <xsl:variable name="cur-node-fb">
+      <xsl:sequence select="//coreAL/filebase//item[@id = $file-id]"/>
+    </xsl:variable>
+    <div class="h">
+      <h3><b>
+        <xsl:value-of select="$cur-node-fb//fileTitle"></xsl:value-of>
+      </b></h3>
+    </div>
+    <xsl:apply-templates select="$cur-node-fb//notes"/>
+    <xsl:variable name="cur-node-path" select="//filebase//group[item[@id=$file-id]]/groupHead/groupFolder" />
+    <xsl:variable name="cur-node-name" select="$cur-node-fb//fileName"/>
+    <p><a href="{$linkroot}{$cur-node-path}/{$cur-node-name}.html"><xsl:value-of select="$link-text"/> &#8250;&#8250;</a></p>
+  </div>
+</xsl:template>
+
   <!-- START: divGen  -->
   <xsl:template match="divGen">
     <!-- Templates in proj_type01_stdext.xsl -->
+    <!-- Home boxes for the homepage -->
+    <xsl:if test="@id = 'home-boxes'">
+      <div class="homeBoxes">
+        <div class="t01">
+          <div class="i1">
+            <!-- Box for browse page -->
+            <xsl:call-template name="browse-search">
+              <xsl:with-param name="file-id" select="'p3'"/>
+              <xsl:with-param name="link-text" select="'browse ncse'"/>
+            </xsl:call-template>
+          </div>
+          <div class="i2">
+            <!-- Box for search page -->
+            <xsl:call-template name="browse-search">
+              <xsl:with-param name="file-id" select="'p4'"/>
+              <xsl:with-param name="link-text" select="'search ncse'"/>
+            </xsl:call-template>
+          </div>
+          <div class="ix">
+            <div class="w">
+              <!-- Box for Journal titles -->
+              <div class="h">
+                <h3><b>Titles</b></h3>
+              </div>              
+              <ul>
+                <xsl:for-each select="//coreAL/navbar//level01[default[starts-with(@ref, 'p2_')]]">
+                  <li>
+                    <!-- Templates found in proj_key.xsl -->
+                    <xsl:call-template name="nav-li-class"/>
+                    <xsl:call-template name="nav-item"/>
+                    </li>
+                </xsl:for-each>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </xsl:if>
     <!-- contact form -->
     <xsl:if test="@id='contact'">
       <div class="form">
