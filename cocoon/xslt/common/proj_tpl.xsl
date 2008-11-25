@@ -47,6 +47,10 @@
           </xsl:if>
           <!-- Output sideNave value -->
           <xsl:text> sn1</xsl:text>
+          <!-- NCSE specific test for homepage -->
+          <xsl:if test="$context-id = 'p0'">
+            <xsl:text> t0</xsl:text>
+          </xsl:if>
         </xsl:attribute>
 
         <div id="wrapper">

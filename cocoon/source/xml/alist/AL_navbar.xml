@@ -20,7 +20,7 @@
   </header>
   <body topNav="on">
     <layout id="topNav">
-      <navGroup>
+<!--      <navGroup>
         <level01>
           <label>View</label>
           <default type="external" ref="http://ncse-viewpoint-stg.cch.kcl.ac.uk/"/>
@@ -29,8 +29,12 @@
           <label>Search</label>
           <default type="external" ref="http://ncse-viewpoint-stg.cch.kcl.ac.uk/"/>
         </level01>
-      </navGroup>
+      </navGroup>-->
       <navGroup>
+        <level01>
+          <label>Home</label>
+          <default ref="p0"/>
+        </level01>
         <level01>
           <label>Browse</label>
           <default ref="p3"/>

@@ -101,7 +101,10 @@
       </groupHead>
       <item id="p3">
         <fileName>index</fileName>
-        <fileTitle>Browse Index</fileTitle>
+        <fileTitle>Browse</fileTitle>
+        <notes>
+          <p>Brief introdcution to the browse concept and available functionality. </p>
+        </notes>
       </item>
       <item id="browse_subject">
         <fileName>subject</fileName>
@@ -128,6 +131,13 @@
         <groupFolder>/search</groupFolder>
         <rhcontent value="off" />
       </groupHead>
+      <item id="p4">
+        <fileName>index</fileName>
+        <fileTitle>Search</fileTitle>
+        <notes>
+          <p>Brief introdcution to the browse concept and available functionality.</p>
+        </notes>
+      </item>
       <item id="p4_0">
         <fileName>search</fileName>
         <fileTitle>Search</fileTitle>

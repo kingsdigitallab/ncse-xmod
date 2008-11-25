@@ -37,7 +37,7 @@
     <body>
       
       <div>
-        <p>The Nineteenth-Century Serials Edition (<hi rend="bold">ncse</hi>) is a free, online
+       <div> <p>The Nineteenth-Century Serials Edition (<hi rend="bold">ncse</hi>) is a free, online
           edition of six nineteenth-century periodicals and newspapers.To start browsing the journals, click <xref
             type="external" url="http://ncse-viewpoint.cch.kcl.ac.uk/">facsimiles</xref>.</p>
       <p> The edition is formed of two integrated components: the 'Facsimile' component - a repository of full-page facsimiles
@@ -49,8 +49,9 @@
         <p><hi rend="bold">ncse</hi> includes full runs of the first five titles, and a decade only
           of the <title>Publishers’ Circular</title>. Titles are represented as completely as
           possible, including multiple editions, advertisements, wrappers, and supplements where we
-          could find them.</p>
-        <list type="bulleted">
+          could find them.</p></div>
+        
+        <!--<list type="bulleted">
           <item>
             <xref type="internal" from="p2_1"><title>Monthly Repository</title> (1806-1837) and
                 <title>Unitarian Chronicle</title> (1832-1833)</xref>
@@ -71,8 +72,9 @@
           <item>
             <xref type="internal" from="p2_6"><title>Publishers’ Circular</title> (1880-1890)</xref>
           </item>
-        </list>
-        <p> All six journals are segmented to article level, and can be downloaded freely.</p>
+          </list>-->
+        <divGen id="home-boxes"/>
+        <div><p> All six journals are segmented to article level, and can be downloaded freely.</p></div>
       
       <div>
         <head>Using ncse</head>
