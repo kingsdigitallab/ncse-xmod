@@ -15,7 +15,7 @@
         </div>
       </xsl:when>
       <xsl:when test="$context-id = 'search_form'">
-        <xsl:text>Search</xsl:text>
+        <xsl:text>Entity Search</xsl:text>
       </xsl:when>
       <xsl:when test="$context-id = 'view_issue'">
         <xsl:value-of select="//search-results/hits/hit/tei/bibl/title[@type = 'full-title']" />
@@ -72,8 +72,7 @@
         </xsl:when>
         <xsl:when test="$context-id = 'search_form'">
           <p>
-            <xsl:text>Use this form to search for keywords that have been assigned to items in the facsimile repository. All fields are optional; entering
-            multiple terms will produce a manageable set of results.</xsl:text>
+            <xsl:text>Use this form to search for terms that have been assigned to items in the facsimile repository. All fields are optional; entering multiple terms will produce a manageable set of results.</xsl:text>
           </p>
         </xsl:when>
       </xsl:choose>

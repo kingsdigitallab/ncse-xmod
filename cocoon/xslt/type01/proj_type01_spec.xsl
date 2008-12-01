@@ -57,7 +57,7 @@
             <div class="w">
               <!-- Box for Journal titles -->
               <div class="h">
-                <h3><b>Titles</b></h3>
+                <h3><b>about the titles</b></h3>
               </div>              
               <ul>
                 <xsl:for-each select="//coreAL/navbar//level01[default[starts-with(@ref, 'p2_')]]">
