@@ -1976,7 +1976,7 @@
     <xsl:choose>
       <!-- START First option: external urls -->
       <xsl:when test="@type='external' or @rend='external'">
-        <a href="{@url}" target="blank">
+        <a href="{@url}">
           <xsl:call-template name="extWindow"/>
           <xsl:apply-templates/>
         </a>

@@ -76,22 +76,7 @@
         <divGen id="home-boxes"/>
         <div><p> All six journals are segmented to article level, and can be downloaded freely.</p></div>
       
-      <div>
-        <head>Using ncse</head>
-        <div>
-          <head>Facsimiles</head>
-        <p>To begin reading and searching the full-text of articles in the edition, access the <xref
-            type="external" url="http://ncse-viewpoint-stg.cch.kcl.ac.uk/">facsimile repository</xref>
-            directly.</p>
-        </div>
-        <div><head>Keywords</head>
-        <p> You may also access items from all titles by <xref type="internal" from="p3"
-          >browsing</xref> or <xref type="internal" from="p4_0">searching</xref> for semantic keywords and person, place and institution names in the index of keywords. </p>
-          <p>Both components may also be accessed via links in the top navigation of this page.</p>
-          
-        </div>
-         
-      </div>
+      
       <div>
         <head>Beta Release</head>
         <p>This is the <hi rend="bold">'beta' release</hi> of ncse and is subject to change. Corrections and improvements

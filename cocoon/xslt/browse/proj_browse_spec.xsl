@@ -37,6 +37,17 @@
     <xsl:variable name="rpp" select="number(20)" />
     <xsl:variable name="page" select="//search-results/page:page/@current" />
     <xsl:variable name="total" select="//search-results/total" />
+    <xsl:variable name="browse-type">
+      <xsl:choose>
+        <xsl:when test="contains($context-id, 'subject')">
+          <xsl:text>subject</xsl:text>
+        </xsl:when>
+        <xsl:when test="contains($context-id, 'image')">
+          <xsl:text>image</xsl:text>
+        </xsl:when>
+      </xsl:choose>
+      
+    </xsl:variable>
 
     <div class="searchSummary">
       <div class="t01">
@@ -46,7 +57,7 @@
             <xsl:for-each select="//search-results/display-parameters/parameter">
               <xsl:variable name="key" select="translate(substring-before(., '::'), '*', '')" />
               <dd>
-                <a href="../subject.html" title="Select another category from the subject index">Remove</a>
+                <a href="../{$browse-type}.html" title="Select another category from the {$browse-type} index">Remove</a>
                 <xsl:for-each select="//projAL//s:Concept[descendant-or-self::node()[@r:about = $key]]">
                   <xsl:value-of select="@r:label" />
                 </xsl:for-each>
