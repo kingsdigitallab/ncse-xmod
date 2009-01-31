@@ -21,9 +21,9 @@
       <xsl:sequence select="//coreAL/filebase//item[@id = $file-id]"/>
     </xsl:variable>
     <div class="h">
-      <h3><b>
+      <h3><a href="{$linkroot}{$cur-node-path}/{$cur-node-name}.html"><b>
         <xsl:value-of select="$cur-node-fb//fileTitle"></xsl:value-of>
-      </b></h3>
+      </b></a></h3>
     </div>
     <xsl:apply-templates select="$cur-node-fb//notes"/>
     <xsl:variable name="cur-node-path" select="//filebase//group[item[@id=$file-id]]/groupHead/groupFolder" />
