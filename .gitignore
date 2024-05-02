@@ -22,3 +22,4 @@
 hs_err_pid*
 
 xmod/website/root/WEB-INF/logs/*
+xmod/website/root/WEB-INF/ereuna/index/*
