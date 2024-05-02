@@ -1,0 +1,34 @@
+.. -*- mode: rst -*-
+
+=============
+ Names lists
+=============
+
+lastnames.txt
+=============
+
+collection of last names
+is a merged sorted, uniqed list of names from the following sources:
+
+- waterloo-lastnames.txt
+
+
+waterloo-lastnames.txt
+======================
+
+all last names from Waterloo index (15458 names)
+sorted, uniq
+was very bad quality, needed a lot of cleansing
+contains still quite a number of extraneous information
+
+
+Hofmeister material
+===================
+
+convert:
+\222 --> '
+\236 --> z with hacek
++ ... \223 --> "..."
+
+
+

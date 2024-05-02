@@ -1,0 +1,48 @@
+
+Concordance
+===========
+
+- does not accept "long lines"
+
+
+
+MonoConc Pro (MP)
+=================
+
+- works with "long lines", but displays as context whole file
+
+
+
+Simple Concordance Program
+==========================
+
+- crashes - caused by "long lines"?
+
+
+
+AntConc
+=======
+
+- seems to accept "long lines" file for word list, but not for
+  concordance
+
+
+
+TextSTAT
+========
+
+- has no problems with "long lines"
+
+
+aConCorde
+=========
+
+
+ZTScore
+=======
+
+
+
+
+
+

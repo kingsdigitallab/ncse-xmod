@@ -1,0 +1,233 @@
+officeName
+
+ bishop
+ not given
+(not given)
+(Other)
+(unknown)
+818
+acolyte
+advocate
+advocate of consistory court
+afternoon lecturer
+almoner
+annuellar
+archbishop
+Archdeacon
+assistant
+Assistant Chaplain
+assistant curate
+assistant lecturer
+Assistant Minister
+assistant preacher
+assistant schoolmaster
+Assistant Stipendiary Curate
+Bishop
+bishop's proctor
+blank
+brother
+bursar
+Canon
+canon residentiary
+Cantor
+Catechist
+Certificate of Vacancies
+Chancellor
+Chanter
+chantor
+chantry priest
+Chaplain
+chapter registrar
+choirmaster
+Choral Vicar
+clerk
+clerk in orders
+clerk of the closet
+clerk to the Chapter
+Coadjutor
+commissary
+commissary and official
+commissary general
+commissary-general
+communar
+Conduct
+Confessor
+confrater
+Curate
+custodian of the spiritualities
+custos
+deacon
+deacon Letters dimis
+deacon or priest
+Dean
+dean and rector
+decanus jurista
+deputy curate
+deputy Vicar General
+Deputy Warden
+divinity lecturer
+domestic chaplain
+donative
+doorkeeper
+Epistoler
+evening lecturer
+exorcist
+Fellow
+Fellowship
+first tonsure
+Gentleman in Ordinary
+Gospeller
+government chaplain
+guardian
+head schoolmaster
+Headmaster
+holy orders
+hospital chaplain
+illegible
+inferior master
+junior cardinal
+keeper of spiritualities
+King's Preacher
+late curate
+late rector
+Lecturer
+lecturer or preacher
+librarian
+licence to institute outside diocese
+lord almoner
+marriage
+Master
+master of choristers
+mastership
+medic
+member
+Minister
+Minor canon
+minor orders
+Missionary
+moiety
+n
+not given
+not specified
+not stated
+notary public
+official
+official of archdeacon
+Official of Officiality
+official principal
+officiator
+ordinary and official principal
+organist
+Parochial Church
+Parson
+pastor
+pauper
+penitentiary
+pensioner
+peretual fellow
+perpetual chaplain
+Perpetual Curate
+perpetual fellow
+Perpetual rector
+Perpetual Vicar
+petty canon
+poor clerk
+portionary
+praelector
+praepositor
+Preacher
+prebendal vicar
+Prebendary
+Precentor
+preceptor
+prefect
+presbyter
+president
+priest
+priest in ordinary
+priest Letters dimis
+priest vicar
+Principal
+principal registrar
+proctor
+professor
+provost
+Psalmist
+public preacher
+Reader
+receiver general
+Rector
+Rector and Vicar
+register
+registrar
+residentiary
+royal chaplain
+royal chaplain in ordinary
+Rural Dean
+Sacrist
+scholar
+Schoolmaster
+schoolmistress
+second curate
+second master
+second schoolmaster
+secondary
+senior cardinal
+Sequestrator
+sinecure rector
+six preacher
+spiritual chancellor
+Stipendiary
+Stipendiary Curate
+sub Chancellor
+Sub curate
+sub sacrist
+sub-chantor
+sub-chaplain
+sub-curate
+sub-preceptor
+sub-sacristan
+sub-treasurer
+subchanter
+Subchantor
+subdeacon
+subdean
+subpreceptor
+subsacrist
+subwarden of chantry
+succentor
+surrogate
+surrogate to the commissary
+surrogate to the official
+surrpgate
+temporary curate
+Thesaurarius
+Tolerated to Read Prayers
+Tolleratio
+Treasurer
+tutor
+under master
+under schoolmaster
+undermaster
+Unknown
+unknwon
+upper master
+upper schoolmaster
+usher
+vacant
+verger
+Vicar
+vicar choral
+Vicar general
+vicar general and official principal
+vicar-general
+vicarage or perpetual curacy
+vice chaplain
+vice-custodium
+Vice-dean
+vice-provost
+vice-warden
+warden
+warden of chantry
+workhouse chaplain
+Writing Master

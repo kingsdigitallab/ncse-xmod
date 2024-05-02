@@ -1,0 +1,272 @@
+OfficeName
+NULL
+
+ bishop
+ not given
+(Other)
+818
+advocate
+advocate of consistory court
+afternoon lecturer
+almoner
+annuellar
+archbishop
+Archdeacon
+assistant
+Assistant Chaplain
+assistant curate
+assistant lecturer
+Assistant Minister
+assistant preacher
+assistant schoolmaster
+Assistant Stipendiary Curate
+bedell
+Bishop
+bishop's proctor
+blank
+bot given
+brother
+bursar
+Canon
+canon residentiary
+Cantor
+Catechist
+Certificate of Vacancies
+Chancellor
+Chanter
+chantor
+chantry priest
+Chaplain
+chapter registrar
+choirmaster
+Choral Vicar
+chorister
+clerk
+clerk in orders
+clerk of the closet
+clerk to the Chapter
+Coadjutor
+commissary
+commissary and official
+commissary general
+commissary to consecrate
+commissary-general
+communar
+Conduct
+Confessor
+confrater
+Curate
+custodian of the spiritualities
+custos
+Deacon
+Dean
+dean and rector
+decanus jurista
+deputy bedell
+deputy curate
+deputy registrar
+deputy Vicar General
+Deputy Warden
+dispensation to hold in commendam
+divinity lecturer
+domestic chaplain
+donative
+episcopal registrar
+Epistoler
+esquire bedell
+evening lecturer
+Fellow
+Fellowship
+First Vicar Choral
+Fourth Vicar Choral
+Gentleman in Ordinary
+Gospeller
+government chaplain
+governor
+grant
+guardian
+head schoolmaster
+Headmaster
+hospital chaplain
+illegible
+impropriator
+in room of removal
+in-brother
+inferior master
+junior cardinal
+junior minor canon
+keeper of spiritualities
+King's Preacher
+late curate
+late rector
+Lecturer
+lecturer or preacher
+librarian
+licence to institute outside diocese
+lord almoner
+mandate to install
+marriage
+Master
+master and chaplain
+master of choristers
+mastership
+medic
+member
+Minister
+Minor canon
+Missionary
+moderator
+moiety
+n
+not ghiven
+not given
+not givrn
+not stated
+notary public
+official
+official of archdeacon
+Official of Officiality
+official principal
+officiator
+ordinary and official principal
+organist
+parochial chaplain
+Parochial Church
+Parson
+pastor
+pauper
+penitentiary
+pensioner
+peretual fellow
+perpetual chantry priest
+perpetual chapel
+perpetual chaplain
+Perpetual Curate
+perpetual fellow
+Perpetual rector
+Perpetual Vicar
+perrpetual rector
+petty canon
+poor clerk
+portionary
+portioner
+portioner of the lower hall
+portioner of the upper hall
+praelector
+praepositor
+Preacher
+prebendal vicar
+Prebendary
+Precentor
+preceptor
+prefect
+president
+Priest
+priest in ordinary
+priest vicar
+Principal
+principal register
+principal registrar
+probationer
+proctor
+professor
+promotion
+protestation for residence
+provost
+provost of the vicars
+prtioner of the upper hall
+public preacher
+publick teacher
+Reader
+Receiver
+receiver general
+Rector
+Rector and Vicar
+register
+registrar
+residentiary
+royal chaplain
+royal chaplain in extraordinary
+royal chaplain in ordinary
+Rural Dean
+Sacrist
+scholar
+scholarship
+Schoolmaster
+schoolmistress
+second curate
+second master
+second schoolmaster
+Second Vicar Choral
+secondary
+senior cardinal
+senior minor canon
+Sequestrator
+sinecure rector
+singingman
+six preacher
+spiritual chancellor
+Stipendiary
+Stipendiary Curate
+sub Chancellor
+Sub curate
+sub sacrist
+sub-chantor
+sub-chaplain
+sub-curate
+sub-deacon
+sub-preceptor
+sub-sacristan
+sub-treasurer
+subchanter
+Subchantor
+subdean
+subpreceptor
+subsacrist
+subwarden of chantry
+succentor
+superintendant
+superintentant
+surgeon
+surrogate
+surrogate to the commissary
+surrogate to the official
+surrpgate
+temporary curate
+Thesaurarius
+Third Vicar Choral
+Tolerated to Read Prayers
+Tolleratio
+Treasurer
+tutor
+under master
+under schoolmaster
+undermaster
+Unknown
+unknwon
+upper master
+upper schoolmaster
+usher
+vacant
+verger
+Vicar
+vicar choral
+Vicar general
+vicar general and official principal
+vicar in the choir
+Vicar or Rector
+vicar-general
+vicarage or perpetual curacy
+vice chancellor
+vice chaplain
+vice-chancellor
+vice-custodium
+Vice-dean
+vice-provost
+vice-warden
+visitor
+warden
+warden of chantry
+Whitehall preacher
+workhouse chaplain
+Writing Master

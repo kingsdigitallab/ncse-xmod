@@ -1,0 +1,66 @@
+int editdistance(string pat, string text)
+{
+    const int m = pat.size();
+    const int n = text.size();
+
+    // The dynamic programming table
+    matrix<int> D( m+1, n+1 );
+
+    // Initialize
+    D(0,0) = 0;
+    for ( int i=1; i<=m; i++ ) D(i,0) = i;
+    for ( int j=1; j<=n; j++ ) D(0,j) = 0;
+
+    // Recurrence
+    for ( int i=1; i<=m; i++ ) {
+        for ( int j=1; j<=n; j++ ) {
+            int cost;
+
+            if ( pat[i]==text[j] )
+                cost = 0;
+            else
+                cost = 1;
+
+            D(i,j) = min3( D(i-1,j)+1, D(i,j-1)+1, D(i-1,j-1)+cost);
+        }
+    }
+
+    return D(m,n);
+}
+
+
+
+namevector_t readnames(ifstream &in)
+{
+    namevector_t names;
+
+    string line;
+    while (getline(in,line)) {
+        // Simple vector<string>
+        names.push_back(line);
+
+//        size_t pathpos = line.find('/');
+//        if ( pathpos==string::npos ) continue;
+//        string name = line.substr(0,pathpos-1);
+//        string path = line.substr(pathpos,line.size()-pathpos);
+        //cout << name << " || " << path << endl;
+
+        // Multimap version
+        // names.insert(pair<string, string>(name, path));
+
+        // Map version
+        //names[name] = path;
+
+        // Vector of pair<string,string> version
+        //names.push_back(make_pair(name,path));
+
+
+    }
+
+    return names;
+}
+
+list<string> exactfind(const namevector_t &names, string s)
+{
+
+}

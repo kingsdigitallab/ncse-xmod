@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" id="TOC-Schema">
+	<xs:import namespace="http://www.olivesoftware.com/QuickNavigation" schemaLocation="QuickNavigation.xsd"/>
+	<xs:include schemaLocation="BasicTypes.xsd"/>
+	<xs:element name="Xmd_toc" type="XMD-TOC_Type"/>
+	<xs:complexType name="XMD-TOC_Type">
+		<xs:sequence>
+			<xs:element name="Head_np" type="Head_np_Type">
+				<xs:annotation>
+					<xs:documentation>Element containing genaral metadata for issue.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Body_np" type="Body_np_Type">
+				<xs:annotation>
+					<xs:documentation>Element describing physical structure (parts) of the issue.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Logic_np" type="Logic_np_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Element describing logical structure (parts) of the issue.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="PUBLICATION" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Name of the publication as it's refered in settings.xml</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PUBLICATION_DESCRIPTION" type="PubDesc_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Publication description.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ISSUE_DATE" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Date of the current issue in DD/MM/YYYY format.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="LANGUAGE" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Language of the current publication</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="RELEASE_NO" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>The PDF filename from wich the output was done without the extention.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="REP_HREF" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>A virtual path to the issue in Olive repository</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ISSUE_FULL_NAME" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Full name of the current publication for visual display use only.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="INDEXED" type="xs:boolean" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines whether the current issue is indexed or not. Set by Director application.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="REPOSITORY_FORMAT" type="REPOSITORY_FORMAT_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Represent version of repository shema.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Head_np_Type">
+		<xs:sequence>
+			<xs:element name="Meta" type="Meta_Type">
+				<xs:annotation>
+					<xs:documentation>Element containing metadata information for issue.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Link" type="Link_Type">
+				<xs:annotation>
+					<xs:documentation>Element containing output source information.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DataFiles" type="DataFiles_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Element referencing issue resource files (one-page-PDF etc).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Application_Data" type="Application_Data_Type" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Element containing extended application metadata information for issue.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="CURRENT_DISPLAY_FOLDER" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Inner data for Director application.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="WORKING_STATUS" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines the working status in Director application. Changed by Director.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Meta_Type">
+		<xs:sequence>
+			<xs:element name="Links" type="Links_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of links from the page.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Publisher" type="Publisher_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Holds the information regarding the publishing process. For backward compatibility reasons this data can be stored in the Meta tag as well.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<!-- Optional element MergeData created during merge of many documents-->
+			<xs:element name="MergeData" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Merged data node created after documents merge process.</xs:documentation>
+				</xs:annotation>
+			<xs:complexType>
+			   <xs:sequence>
+			     <xs:any minOccurs='0' maxOccurs='unbounded'
+			          processContents='skip'/>
+			   </xs:sequence>
+			  </xs:complexType>
+			</xs:element>
+			<xs:element name="Name" type="Name_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Document Name(Title) used in EP import document to Inventory.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="PUBLISHER" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Name of the publisher company.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PAGES_NUMBER" type="xs:unsignedInt" use="required">
+			<xs:annotation>
+				<xs:documentation>Total number of pages in the current issue.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="SOURCE_TYPE" type="SourceType_Type" use="required">
+			<xs:annotation>
+				<xs:documentation>Defines whether the output was made from PDF (digital) or TIFF (scanned) source.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="SOURCE_RESOLUTION" type="xs:unsignedInt" use="required">
+			<xs:annotation>
+				<xs:documentation>The resolution of the issue source in DPI.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="IMAGES_RESOLUTION" type="xs:unsignedInt" use="required">
+			<xs:annotation>
+				<xs:documentation>The resoultion of [article] images in DPI.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PAGE_THUMBNAIL_RESOLUTION" type="xs:unsignedInt" use="required">
+			<xs:annotation>
+				<xs:documentation>The resolution of page thumbnail images in DPI.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PAGE_PREVIEW_RESOLUTION" type="xs:unsignedInt" use="required">
+			<xs:annotation>
+				<xs:documentation>The resolution of page preview images in DPI.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="XMD_VER" type="XmdVerAttr_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>The version of the XMD that the ouput was made with.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PROFILE_ID" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>
+				The ID (name) of the profile the output was made with.
+				Provided for backward compatibility.
+				Latest version of prXML stores this data under Publisher node.
+				</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="BASE_HREF" type="BaseHref_Type" use="required">
+			<xs:annotation>
+				<xs:documentation>The base HRef (virtual path in Olive repository) of the current issue.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="DEFAULT_IMG_EXT" type="ImgExt_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines the default extension for [article] images.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="DEFAULT_PREVIEW_IMG_EXT" type="ImgExt_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines the default extension for page preview images.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ISSUE_DAY" type="xs:unsignedShort" use="optional">
+			<xs:annotation>
+				<xs:documentation>The day number of current issue (1-31).</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ISSUE_MONTH" type="xs:unsignedShort" use="optional">
+			<xs:annotation>
+				<xs:documentation>The month number of current issue (1-12).</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ISSUE_YEAR" type="xs:unsignedInt" use="optional">
+			<xs:annotation>
+				<xs:documentation>The full year (four digits) of current issue.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PDF_DESTINATION_MAPPED" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>The inner label in the PDF file to the first page.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="AD_SNP_EXT" type="ImgExt_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines extension for advertisment snippet image files.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="TITLE_SNP_EXT" type="ImgExt_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines extension for title image files.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="IMAGE_SNP_EXT" type="ImgExt_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines extension for graphical content image files.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ACROBAT_VER" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>
+				The version of Adobe Acrobat the output was made with.  
+				Provided for backward compatibility.
+				Latest version of prXML stores this data under Publisher node.
+				</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="MULTI_LAYER_PAGE_IMG" type="xs:boolean" use="optional">
+			<xs:annotation>
+				<xs:documentation>If true than this issue was published with multi-layer output.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="IS_SOLID" type="xs:boolean" use="optional">
+			<xs:annotation>
+				<xs:documentation>true indicates solid document (Enterprise specific)</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="DOC_DATE" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>true indicates solid document (Enterprise specific)</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attributeGroup ref="First_Chunk_Attributes_Group"/>
+	</xs:complexType>
+	<xs:complexType name="Publisher_Type">
+		<xs:sequence>
+			<xs:element name="PublishDate" type="xs:string" minOccurs="0"/>
+			<xs:element name="PublishNotes" type="xs:string" minOccurs="0"/>
+			<xs:element name="PublishSWFCompatible" type="xs:boolean" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="PUBLISHER" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Name of the publisher company.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ACROBAT_VER" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>The version of Adobe Acrobat the output was made with.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="XMD_VER" type="XmdVerAttr_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>The version of the XMD that the output was made with.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PROFILE_ID" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>The ID of the profile the output was made with.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Link_Type">
+		<xs:attribute name="SOURCE" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>The PDF filename the output was made from.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="DataFiles_Type">
+		<xs:sequence>
+			<xs:element name="Files" type="Files_Type" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Element referencing issue resource/data files.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Files_Type">
+		<xs:sequence>
+			<xs:element name="FileExt" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Element referencing to Resource File Extension.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Location" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Element referencing to Resource File Location, example: 'Res/PageImg'.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="NamePattern" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Element referencing to Resource File Name Pattern, example: 'Pg'.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="TYPE" type="ResFileTypes_Type" use="required">
+			<xs:annotation>
+				<xs:documentation>Type of the data/resource file being referenced (for example, full issue PDF).</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PRESENT" type="xs:unsignedInt" use="required">
+			<xs:annotation>
+				<xs:documentation>"1" if file present in repository, "0" otherwise.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Body_np_Type">
+		<xs:sequence>
+			<xs:element name="Section" type="Section_Type" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Node that contains issue section data.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Section_Type">
+		<xs:sequence>
+			<xs:element name="Page" type="Page_Type" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Node that contains issue page data.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="NAME" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Reserved for future outputs when the pages are arranged not only by number.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="WORKING_STATUS" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines the working status of section in Director. Changed by Director.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Page_Type">
+		<xs:sequence>
+			<xs:element name="FoldedViews" type="FoldedViews_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Holds information about folded page views. APServer 2.6 supports 1 folded view.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Entity" type="Entity_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Contains entity data.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="PAGE_NO" type="xs:unsignedInt" use="required">
+			<xs:annotation>
+				<xs:documentation>Describes current page number.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PAGE_ID" type="PageIdentifier_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Describes current page identifier.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PAGE_LABEL" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Describes current page label.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ID" type="PageID_Type" use="required">
+			<xs:annotation>
+				<xs:documentation>Contains the ID of the page (PgNNN, where NNN is a 3-digits page number).</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="NAME" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Contains the name of the page for future use when pages will be sorted not only by numbers.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="HREF" type="Href_Attr_Type" use="required">
+			<xs:annotation>
+				<xs:documentation>HRef to the page from issue base (like "/5/Pg005").</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PAGE_TYPE" type="PageType_Type" use="required">
+			<xs:annotation>
+				<xs:documentation>Describes whether the page is Single, Double or second part of the Double page.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PAGE_WIDTH" type="xs:unsignedInt" use="required">
+			<xs:annotation>
+				<xs:documentation>Reflects page image width in pixels.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PAGE_HEIGHT" type="xs:unsignedInt" use="required">
+			<xs:annotation>
+				<xs:documentation>Reflects page image height in pixels.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="IMG_EXT" type="ImgExt_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines the extenstion of the page image files.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PREVIEW_IMG_EXT" type="ImgExt_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines the extenstion of the page thumbnail image file.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="WORKING_STATUS" type="xs:unsignedInt" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines the working status in Director. Changed by Director.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="CROP_BOX" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines the crop box of the page (as defined in PDF)</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="MEDIA_BOX" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines the media box of the page (as defined in PDF)</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="EXT_PAGE_TYPE" type="ExtPageTypeAttr_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Enumerated type holding all valid extensive page types (like "insertion", "band" etc.). Used mostly for magazines.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Entity_Type">
+		<xs:group ref="EntityElements_Group" minOccurs="0" maxOccurs="unbounded"/>
+		<xs:attribute name="ENTITY_TYPE" type="EntityType_Type" use="required">
+			<xs:annotation>
+				<xs:documentation>Defines the entity type (article, picture or advertisment).</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="COPYRIGHT" type="Copyright_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Specifies whether entity is copyrighted or not.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="RENDERING_OPT" type="RenderingOpt_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Specifies rendering options for entity (normal, images only).</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="NAME" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Contains the name of the entity.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ID" type="ID_Type" use="required">
+			<xs:annotation>
+				<xs:documentation>The id of the entity.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="HREF" type="Href_Attr_Type" use="required">
+			<xs:annotation>
+				<xs:documentation>The HRef of the entity relative to the issue base.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="NO_GEOMETRY" type="No_Geometry_Attr_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Allows marking entity as "having no physical dimensions".  Used when importing entity from manifest without coordinates.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PAGE_NO" type="xs:unsignedInt" use="required">
+			<xs:annotation>
+				<xs:documentation>The page number where entity is contained.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="SIZE" type="Size_Type" use="required">
+			<xs:annotation>
+				<xs:documentation>The of the entity in word description as Large, Medium, Small...</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="CONTINUATION_TO" type="ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Contains ID of the entity that continues the current entity.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="CONTINUATION_FROM" type="ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Contains ID of the entity poreceding the current entity, e.g. current entity continues the entity references in this attribute.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="EMBEDDED_INTO" type="ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines the entity ID of the parent entity.  Used when the current entity is "embedded into" parent entity referenced in this attribute.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ENTITY_FORMAT" type="EntityFormat_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Specifies format of the entity (Like "data", "linear ad", "table").</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="WORKING_STATUS" type="xs:unsignedInt" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines the working status in Director. Changed by Director.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="EXPIRED_TIME" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Expiration date of the entity. Provides extensible way of copyrighting entities.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="SNP" type="SNP_ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Reference to the snippet image of the entity (Like "Ar00100S.gif").</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="IS_GENERAL" type="xs:boolean" use="optional" default="false"/>
+		<xs:attribute name="EMBEDDED_AFTER" type="ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Reference to the primitive after which the above entity is embed into</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attributeGroup ref="First_Chunk_Attributes_Group"/>
+		<xs:attribute name="EXCLUDE_FROM_SEARCH" type="xs:boolean" use="optional" default="false">
+			<xs:annotation>
+				<xs:documentation>If value is true, so this entity will not be indexed.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:group name="EntityElements_Group">
+		<xs:annotation>
+			<xs:documentation>Entity elements usually used to hold information required for representing entity in Web application.</xs:documentation>
+		</xs:annotation>
+		<xs:choice>
+			<xs:element name="Application_Data" type="Application_Data_Type" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="Byline" type="Mixed_type" minOccurs="0"/>
+			<xs:element name="Snippet" type="Mixed_type" minOccurs="0"/>
+		</xs:choice>
+	</xs:group>
+	<xs:complexType name="Mixed_type" mixed="true">
+		<xs:annotation>
+			<xs:documentation>Mixed content, not validated (inserted from external sources)</xs:documentation>
+		</xs:annotation>
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:any processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:anyAttribute processContents="skip"/>
+	</xs:complexType>
+	<xs:complexType name="Logic_np_Type">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="TOC_Entries" type="TOC_Entries_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Parent node for Logical TOC Entries.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:any namespace="##other" processContents="strict" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

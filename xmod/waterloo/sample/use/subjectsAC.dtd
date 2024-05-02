@@ -1,0 +1,11 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT root (SubjectNames)+>
+<!ATTLIST root
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT SubjectNames EMPTY>
+<!ATTLIST SubjectNames
+  xmlns CDATA #FIXED ''
+  Name CDATA #REQUIRED
+  id CDATA #REQUIRED>

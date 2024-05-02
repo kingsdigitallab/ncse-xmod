@@ -1,0 +1,240 @@
+Location_3
+
+ Lincs
+(Southants)
+Anglesea
+Anglesey
+Bedford
+Bedford.
+Bedfordshire
+Beds
+Beds.
+Berks
+Berks.
+Berkshire
+Bingham deanery
+Brecon
+Brecon.
+Breconshire
+Bristol
+Buckinghamshire
+Bucks
+Bucks.
+Caernarfon
+Cam.
+Cambridge
+Cambridge.
+Cambridgeshire
+Cambs
+Cambs.
+Cardigan
+Cardigan.
+Cardiganshire
+Cards.
+Carmarthen
+Carms
+Carnarvon
+Carnarvons
+Carnarvs.
+Carnavon
+Ches.
+Cheshire
+Chester
+Chester Diocese
+Chester.
+City of London
+co. palatine Lancs.
+Colchester
+Cornwal
+Cornwall
+county palatine Durham
+Coventry & Lichfield diocese
+Cumberland
+Cumberland.
+Deanery of Terring
+Debyshire
+Denbigh
+Denbigh and Montgomery
+Denbigh.
+Denbighs
+Denbighs.
+Denbighshire
+Denbys
+Derbs
+Derby
+Derby.
+Derbys
+Derbys.
+Derbyshire
+Devon
+Devon.
+diocese of Winchester
+Doncaster deanery
+Dorset
+Dorset.
+Durham
+Durham diocese
+Esex
+Essex
+Essex.
+Exon.
+Flint
+Flint.
+Flints.
+Glam
+Glam.
+Glamorgan
+Glamorgan,
+Glams
+Glams.
+Glos
+Glos.
+Gloucester
+Gloucester,
+Gloucester.
+Gloucestershire
+Gloucs
+Hampshire
+Hants
+Hants.
+Hereford
+Hereford Diocese
+Hereford.
+Herefords
+Herefords.
+Herefordshire
+Herefs
+Herfordshire
+Hertford
+Hertford.
+Hertfordshire
+Herts
+Herts.
+Huntingdon.
+Hunts
+Hunts.
+Ireland
+Isle of Anglesea
+Isle of Ely
+Isle of Wight
+Isle of Wight, Hants
+Isle of Wight, Southants.
+Kedewen deanery
+Kent
+Kent.
+Lancashire
+Lancaster.
+Lancs
+Lancs.
+Leicesster
+Leicester
+Leicester.
+Leicestershire
+Leicestershire.
+Leics
+Leics.
+Liberty of Westminster
+Linc. co.
+Lincoln
+Lincoln.
+Lincolnshire
+Lincs
+Lincs.
+Location 3
+Loincs
+London
+London.
+Merioneth
+Middlesex
+Middlesex.
+Middx
+Middx.
+Monmouth
+Monmouth.
+Monmouthshire
+Mons.
+Montgomery
+Montgoms.
+Newark deanery
+Norfolk
+Norhants
+North Riding
+Northants
+Northants.
+Northumb.
+Northumberland
+Not given
+Nothants
+Nottingham.
+Nottinghamshire
+Notts
+Notts.
+Nottts
+Oxford
+Oxford.
+Oxfordshire
+Oxon
+Oxon.
+Pembroke
+Pembroke.
+Pembrokeshire
+Pembs
+Pembs.
+Radnor
+Radnor & Brecon
+Rutland
+Rutland.
+Ruts.
+Salop
+Shropshire
+Shropshire.
+Somerset
+Somerset.
+Somt.
+Southampton
+Southants
+Southants.
+Stafford.
+Staffords.
+Staffs
+Staffs, Lichfield & Coventry
+Staffs.
+Stowe Deanery
+Suffolk
+Suffolk
+Surrey
+Surrey.
+Surry
+Sussex
+Sussex.
+Vale of Clyd, Denbighs.
+Warks
+Warwick
+Warwick.
+Warwicks
+Warwicks.
+Warwickshire
+Warws
+Warws.
+Westmoreland
+Westmoreland,
+Westmorland
+Wilts
+Wilts.
+Wilts..
+Wiltshire
+Worcester
+Worcester.
+Worcestershire
+Worcs
+Worcs.
+Words
+York
+York diocese
+York.
+Yorka
+Yorks
+Yorks.
+Yorkshire
+[Glos]
+[Staffs.]

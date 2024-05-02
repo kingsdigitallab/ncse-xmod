@@ -1,0 +1,62 @@
+S1.2.6+         3     1.67    204     0.02 +    20.26     Sensible
+W2              1     0.56      0     0.00 +    17.18     Light
+S4              5     2.78   4002     0.41 +    10.54     Kin
+A5.3-           2     1.11    344     0.04 +     9.89     Evaluation: Inaccurate
+L1+             1     0.56     93     0.01 +     6.14     Alive
+Z99            10     5.56  22165     2.29 +     5.98     Unmatched
+S2              3     1.67   2896     0.30 +     5.38     People
+X7+             4     2.22   5233     0.54 +     5.26     Wanted
+G2.2            1     0.56    147     0.02 +     5.25     General ethics
+O1.2-           1     0.56    151     0.02 +     5.20     Dry
+S6-             1     0.56    156     0.02 +     5.13     No obligation or necessity
+N3.2++          1     0.56    157     0.02 +     5.12     Size: Big 
+X1              1     0.56    158     0.02 +     5.11     Psychological Actions, States And Processes
+A15+            1     0.56    166     0.02 +     5.01     Safe 
+I1.1+           1     0.56    239     0.02 +     4.31     Money: Affluence
+X2.2-           1     0.56    252     0.03 +     4.21     No knowledge
+Q3              2     1.11   1653     0.17 +     4.11     Language, speech and grammar
+Q4.1            2     1.11   1741     0.18 +     3.93     The Media: Books
+N3.7-           1     0.56    310     0.03 +     3.82     Short and narrow
+S7.2+           1     0.56    316     0.03 +     3.78     Respected
+A11.1-          1     0.56    322     0.03 +     3.75     Unimportant
+N3.4            1     0.56    325     0.03 +     3.73     Measurement: Volume
+X9.2-           1     0.56    369     0.04 +     3.49     Failure
+A3+             9     5.00  24177     2.50 +     3.49     Existing
+Z4              3     1.67   4344     0.45 +     3.49     Discourse Bin
+A13.3           3     1.67   4808     0.50 +     3.05     Degree: Boosters
+X2.2+           2     1.11   2302     0.24 +     3.02     Knowledgeable
+E3+             1     0.56    623     0.06 +     2.54     Calm 
+N5+++           1     0.56    629     0.06 +     2.53     Quantities: many/much
+A13.1           1     0.56    653     0.07 +     2.46     Degree: Non-specific
+Q4              1     0.56    740     0.08 +     2.24     The Media
+T3-             2     1.11   3043     0.31 +     2.18     Time: New and young 
+Y1              1     0.56    778     0.08 +     2.16     Science and technology in general
+A1.1.2          1     0.56    815     0.08 +     2.08     Damaging and destroying
+E4.1-           1     0.56    979     0.10 +     1.77     Sad 
+P1              2     1.11   3691     0.38 +     1.65     Education in general
+Q2.1            3     1.67   7024     0.73 +     1.60     Speech: Communicative
+N3.2-           1     0.56   1218     0.13 +     1.42     Size: Small 
+A9-             2     1.11   4474     0.46 +     1.17     Giving 
+A13.2           1     0.56   1439     0.15 +     1.17     Degree: Maximizers
+H4              1     0.56   1592     0.16 +     1.03     Residence
+N3.2+           1     0.56   1606     0.17 +     1.01     Size: Big 
+Z3              2     1.11   4809     0.50 +     1.01     Other proper names
+N6+             1     0.56   1651     0.17 +     0.98     Frequent
+K1              1     0.56   2058     0.21 +     0.69     Entertainment generally
+N5-             1     0.56   2235     0.23 +     0.59     Quantities: little
+Z5             64    35.56 312904    32.32 +     0.55     Grammatical bin
+G2.1            1     0.56   2418     0.25 +     0.50     Law and order
+L3              1     0.56   2439     0.25 +     0.49     Plants
+Q1.1            1     0.56   2564     0.26 +     0.44     Linguistic Actions, States And Processes; Communication
+B5              1     0.56   2625     0.27 +     0.41     Clothes and personal belongings
+I2.1            1     0.56   2634     0.27 +     0.41     Business: Generally
+O4.1            1     0.56   2642     0.27 +     0.40     General appearance and physical properties
+A5.1+           1     0.56   2905     0.30 +     0.31     Evaluation: Good 
+T1.1.2          1     0.56   2961     0.31 +     0.29     Time: Present; simultaneous
+S9              1     0.56   3016     0.31 +     0.28     Religion and the supernatural
+A2.1+           1     0.56   3939     0.41 +     0.09     Change
+A10+            1     0.56   4107     0.42 +     0.07     Open; Finding; Showing
+A2.2            1     0.56   4362     0.45 +     0.04     Cause&Effect/Connection
+N5+             1     0.56   4457     0.46 +     0.03     Quantities: many/much
+Q2.2            2     1.11   9724     1.00 +     0.02     Speech acts
+M2              1     0.56   5347     0.55 +     0.00     Putting, pulling, pushing, transporting

@@ -1,0 +1,70 @@
+.. -*- mode: rst -*-
+
+========================================
+Telephone conversation with Uri 23.08.06
+========================================
+
+Questions for Uri
+=================
+
+- if we want to move files from the ``other`` folder to another
+  folder, do we really have to do it by hand or is there a possibility
+  to use a script
+
+- is there an "official" way to get at the XML files with the texts
+
+  go to Enterprise publisher, click on button at top left "Publish"
+  one can select a "Channel", i. e. either XML, HTML or ASCII
+
+  "Publish" would write XML or ASCII files into subdirectories of
+  "C:\Olive\Publish\XML" or "C:\Olive\Publish\ASCII" respectively, but
+  it doesn't work right now
+  Uri says this is a bug and he will create a ticket in their
+  issuetracker and it should be corrected by Olive's technical team
+  within a few days
+
+- is there a description, a DTD or a schema for the XML files
+
+- is there by chance a routine to get the plain text out of the XML
+  files
+
+
+Uri will look into this and come back to me
+
+
+
+
+- to create a subdirectory: go to "Settings", choose tab "Tree"
+  double click on King's College and in the new window "Add"
+  Uri wasn't sure if the folder type should be "Normal" or
+  "Unassociated"
+  I just had a look in the settings for the other folders and they are
+  all "Normal" - unassociated folders are surrounded by parentheses,
+  like "Inbox"
+
+
+
+Professor Tiedeman
+
+Donna Agnesi (EWJ, Vol. 1, No. 6, August 1, 1858; LIV. Gallery of Illustrious Italian Women, p. 367)
+Laura Bassi
+
+EWJ, Vol. 1, No. 5, July 1, 1858, p. 292
+Miss Dix
+Mrs. Chisholm
+HARRIET HOSMER
+
+
+Monthly Repository, Vol. 1, No. 3, March 2, 1806, p. 115
+Llewelin
+Eglwys-Ilan
+
+Monthly Repository, Vol. 11, No. 97, January 2, 1814, p. 1
+Chillingworth
+
+
+
+
+
+
+

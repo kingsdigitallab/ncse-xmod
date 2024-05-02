@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Key-words>
+   <L1 id="d2e2">periods<L2 id="d2e4">centuries<L3 id="d2e6">sixteenth century</L3>
+         <L3 id="d2e12">seventeenth century</L3>
+         <L3 id="d2e18">eighteenth century</L3>
+         <L3 id="d2e24">nineteenth century</L3>
+      </L2>
+      <L2 id="d2e28">eras<L3 id="d2e30">Greek/Roman classical</L3>
+         <L3 id="d2e36">Biblical</L3>
+         <L3 id="d2e42">Medieval</L3>
+         <L3 id="d2e48">Renaissance</L3>
+         <L3 id="d2e54">Tudor/Elizabethan</L3>
+         <L3 id="d2e60">Georgian</L3>
+         <L3 id="d2e66">Victorian</L3>
+      </L2>
+   </L1>
+   <L1 id="d2e69">geography<L2 id="d2e71">Great Britain<L3 id="d2e73">Britain [non-specific area]</L3>
+         <L3 id="d2e79">England<L4 id="d2e81">England [non-specific area]</L4>
+            <L4 id="d2e89">Ascot</L4>
+            <L4 id="d2e97">Birmingham</L4>
+            <L4 id="d2e105">Brighton</L4>
+            <L4 id="d2e113">Cambridge</L4>
+            <L4 id="d2e121">Chester</L4>
+            <L4 id="d2e129">Devon</L4>
+            <L4 id="d2e137">Dover</L4>
+            <L4 id="d2e145">Epsom</L4>
+            <L4 id="d2e153">London</L4>
+            <L4 id="d2e162">Oxford</L4>
+            <L4 id="d2e170">Plymouth</L4>
+            <L4 id="d2e178">Ramsgate</L4>
+            <L4 id="d2e186">Berkshire</L4>
+            <L4 id="d2e194">Cheshire</L4>
+            <L4 id="d2e202">Cumbria</L4>
+            <L4 id="d2e210">Derbyshire</L4>
+            <L4 id="d2e218">Hampshire</L4>
+            <L4 id="d2e226">Herefordshire</L4>
+            <L4 id="d2e234">Hertfordshire</L4>
+            <L4 id="d2e242">Isle of Wight</L4>
+            <L4 id="d2e251">Kent</L4>
+            <L4 id="d2e259">Lancashire</L4>
+            <L4 id="d2e267">Middlesex</L4>
+            <L4 id="d2e275">Northumberland</L4>
+            <L4 id="d2e283">Staffordshire</L4>
+            <L4 id="d2e291">Suffolk</L4>
+            <L4 id="d2e299">Surrey</L4>
+            <L4 id="d2e307">Sussex</L4>
+            <L4 id="d2e315">Warwickshire</L4>
+            <L4 id="d2e323">Worcestershire</L4>
+            <L4 id="d2e331">Yorkshire</L4>
+         </L3>
+         <L3 id="d2e338">Scotland<L4 id="d2e340">Scotland [non-specific area]</L4>
+            <L4 id="d2e348">Edinburgh</L4>
+            <L4 id="d2e356">Scottish Highlands</L4>
+         </L3>
+         <L3 id="d2e362">Wales<L4 id="d2e364">Wales [non-specific area]</L4>
+            <L4 id="d2e372">Bangor</L4>
+            <L4 id="d2e380">Snowdonia</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e384">Europe<L3 id="d2e386">Europe [non-specific area]</L3>
+         <L3 id="d2e392">Austria</L3>
+         <L3 id="d2e398">Belgium</L3>
+         <L3 id="d2e404">France</L3>
+         <L3 id="d2e410">Germany</L3>
+         <L3 id="d2e417">Greece</L3>
+         <L3 id="d2e423">Ireland</L3>
+         <L3 id="d2e429">Italy</L3>
+         <L3 id="d2e435">Netherlands</L3>
+         <L3 id="d2e441">Poland</L3>
+         <L3 id="d2e447">Russia</L3>
+         <L3 id="d2e453">Spain</L3>
+         <L3 id="d2e459">Switzerland</L3>
+         <L3 id="d2e465">Alps</L3>
+         <L3 id="d2e471">The Balkans</L3>
+         <L3 id="d2e477">Eastern Europe</L3>
+         <L3 id="d2e484">Scandinavia</L3>
+      </L2>
+      <L2 id="d2e488">Africa<L3 id="d2e490">Africa [non-specific area]</L3>
+         <L3 id="d2e496">Egypt</L3>
+         <L3 id="d2e502">South Africa</L3>
+      </L2>
+      <L2 id="d2e506">Asia<L3 id="d2e508">Asia [non-specific area]</L3>
+         <L3 id="d2e514">Holy Land</L3>
+         <L3 id="d2e520">Middle East</L3>
+         <L3 id="d2e526">China</L3>
+         <L3 id="d2e532">India</L3>
+         <L3 id="d2e538">Iran</L3>
+         <L3 id="d2e544">Iraq</L3>
+         <L3 id="d2e551">Japan</L3>
+         <L3 id="d2e557">Sri Lanka</L3>
+      </L2>
+      <L2 id="d2e561">South America<L3 id="d2e563">Brazil</L3>
+         <L3 id="d2e569">Columbia</L3>
+      </L2>
+      <L2 id="d2e573">Central America<L3 id="d2e575">Haiti</L3>
+         <L3 id="d2e581">Mexico</L3>
+      </L2>
+      <L2 id="d2e585">North America<L3 id="d2e587">Canada</L3>
+         <L3 id="d2e593">United States of America</L3>
+      </L2>
+      <L2 id="d2e597">Oceania<L3 id="d2e599">Australia</L3>
+         <L3 id="d2e605">New Zealand</L3>
+      </L2>
+   </L1>
+   <L1 id="d2e607">settings<L2 id="d2e609">exteriors<L3 id="d2e611"/>
+      </L2>
+      <L2 id="d2e615">interiors<L3 id="d2e617"/>
+      </L2>
+      <L2 id="d2e620">natural environments<L3 id="d2e622">countryside</L3>
+         <L3 id="d2e628">the sea</L3>
+         <L3 id="d2e634">natural features<L4 id="d2e636">chasms</L4>
+            <L4 id="d2e644">cliffs and rocks</L4>
+            <L4 id="d2e652">deserts</L4>
+            <L4 id="d2e660">glaciers</L4>
+            <L4 id="d2e668">hills and valleys</L4>
+            <L4 id="d2e676">icebergs</L4>
+            <L4 id="d2e684">lakes and ponds</L4>
+            <L4 id="d2e692">mountains</L4>
+            <L4 id="d2e701">plains</L4>
+            <L4 id="d2e709">rivers</L4>
+            <L4 id="d2e717">the coast</L4>
+            <L4 id="d2e725">waterfalls</L4>
+            <L4 id="d2e733">woodlands</L4>
+         </L3>
+         <L3 id="d2e739">celestial bodies<L4 id="d2e741">moon</L4>
+            <L4 id="d2e749">stars</L4>
+            <L4 id="d2e757">sun</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e761">built environments<L3 id="d2e763">cities</L3>
+         <L3 id="d2e769">towns</L3>
+         <L3 id="d2e775">villages</L3>
+         <L3 id="d2e782">farms<L4 id="d2e784">farmhouses</L4>
+            <L4 id="d2e792">farm buildings</L4>
+            <L4 id="d2e800">farmyards</L4>
+            <L4 id="d2e808">fields</L4>
+            <L4 id="d2e816">hedges</L4>
+            <L4 id="d2e824">orchards</L4>
+         </L3>
+         <L3 id="d2e830">buildings<L4 id="d2e832">arenas and stadia</L4>
+            <L4 id="d2e840">asylums</L4>
+            <L4 id="d2e848">auction houses</L4>
+            <L4 id="d2e856">banks</L4>
+            <L4 id="d2e864">beach huts</L4>
+            <L4 id="d2e873">bell towers</L4>
+            <L4 id="d2e881">casinos</L4>
+            <L4 id="d2e889">castles</L4>
+            <L4 id="d2e897">churches</L4>
+            <L4 id="d2e905">cottages</L4>
+            <L4 id="d2e913">factories</L4>
+            <L4 id="d2e921">games rooms</L4>
+            <L4 id="d2e929">garrisons</L4>
+            <L4 id="d2e937">greenhouses</L4>
+            <L4 id="d2e945">hospitals</L4>
+            <L4 id="d2e953">hotels</L4>
+            <L4 id="d2e962">houses</L4>
+            <L4 id="d2e970">huts and cabins</L4>
+            <L4 id="d2e978">laboratories</L4>
+            <L4 id="d2e986">law courts</L4>
+            <L4 id="d2e994">lighthouses</L4>
+            <L4 id="d2e1002">mansions</L4>
+            <L4 id="d2e1010">mills</L4>
+            <L4 id="d2e1018">monasteries and convents</L4>
+            <L4 id="d2e1026">museums and exhibition halls</L4>
+            <L4 id="d2e1034">offices and business settings</L4>
+            <L4 id="d2e1042">palaces</L4>
+            <L4 id="d2e1051">post/telegraph offices</L4>
+            <L4 id="d2e1059">prisons</L4>
+            <L4 id="d2e1067">public houses</L4>
+            <L4 id="d2e1075">racecourses</L4>
+            <L4 id="d2e1083">railway stations</L4>
+            <L4 id="d2e1091">restaurants</L4>
+            <L4 id="d2e1099">ruins</L4>
+            <L4 id="d2e1107">schools</L4>
+            <L4 id="d2e1115">shops</L4>
+            <L4 id="d2e1123">squares and courtyards</L4>
+            <L4 id="d2e1131">surgeries</L4>
+            <L4 id="d2e1140">tents</L4>
+            <L4 id="d2e1148">theatres</L4>
+            <L4 id="d2e1156">universities</L4>
+            <L4 id="d2e1164">windmills</L4>
+            <L4 id="d2e1172">workshops</L4>
+         </L3>
+         <L3 id="d2e1178">outdoor sites<L4 id="d2e1180">battlefields</L4>
+            <L4 id="d2e1188">building sites</L4>
+            <L4 id="d2e1196">campfires</L4>
+            <L4 id="d2e1204">campsites</L4>
+            <L4 id="d2e1212">churchyards</L4>
+            <L4 id="d2e1220">docks and harbours</L4>
+            <L4 id="d2e1229">gardens</L4>
+            <L4 id="d2e1237">marketplaces</L4>
+            <L4 id="d2e1245">mines</L4>
+            <L4 id="d2e1253">parks and grounds</L4>
+         </L3>
+         <L3 id="d2e1259">architectural features<L4 id="d2e1261">archways</L4>
+            <L4 id="d2e1269">balconies</L4>
+            <L4 id="d2e1277">canals</L4>
+            <L4 id="d2e1285">conservatories and gazebos</L4>
+            <L4 id="d2e1293">fences</L4>
+            <L4 id="d2e1301">fountains</L4>
+            <L4 id="d2e1309">gates</L4>
+            <L4 id="d2e1318">piers</L4>
+            <L4 id="d2e1326">pillars</L4>
+            <L4 id="d2e1334">porches and verandas</L4>
+            <L4 id="d2e1342">steps</L4>
+            <L4 id="d2e1350">trellises</L4>
+            <L4 id="d2e1358">tunnels</L4>
+            <L4 id="d2e1366">walls</L4>
+            <L4 id="d2e1374">weathervanes</L4>
+            <L4 id="d2e1382">wells</L4>
+         </L3>
+         <L3 id="d2e1388">roadways<L4 id="d2e1390">roads/streets</L4>
+            <L4 id="d2e1398">bridges</L4>
+            <L4 id="d2e1407">crossroads</L4>
+            <L4 id="d2e1415">lamp-posts</L4>
+            <L4 id="d2e1423">paths</L4>
+            <L4 id="d2e1431">signposts</L4>
+         </L3>
+         <L3 id="d2e1437">rooms<L4 id="d2e1439">attics</L4>
+            <L4 id="d2e1447">ball-rooms</L4>
+            <L4 id="d2e1455">bedrooms</L4>
+            <L4 id="d2e1463">class-rooms</L4>
+            <L4 id="d2e1471">corridors</L4>
+            <L4 id="d2e1479">dining-rooms</L4>
+            <L4 id="d2e1487">drawing-rooms</L4>
+            <L4 id="d2e1496">dressing-rooms</L4>
+            <L4 id="d2e1504">kitchens</L4>
+            <L4 id="d2e1512">libraries and studies</L4>
+            <L4 id="d2e1520">nurseries</L4>
+            <L4 id="d2e1528">sitting-rooms</L4>
+         </L3>
+         <L3 id="d2e1534">features and fittings<L4 id="d2e1536">counters and bars</L4>
+            <L4 id="d2e1544">doorways</L4>
+            <L4 id="d2e1552">fireplaces</L4>
+            <L4 id="d2e1560">mantelpieces</L4>
+            <L4 id="d2e1568">stairways</L4>
+            <L4 id="d2e1576">windows</L4>
+            <L4 id="d2e1585">French windows</L4>
+            <L4 id="d2e1593">window-shutters</L4>
+            <L4 id="d2e1601">window-bars</L4>
+         </L3>
+         <L3 id="d2e1607">vehicle interiors<L4 id="d2e1609">carriage interiors</L4>
+            <L4 id="d2e1617">ship and boat interiors</L4>
+            <L4 id="d2e1625">train interiors</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e1629">weather and natural disasters<L3 id="d2e1631">cold weather</L3>
+         <L3 id="d2e1637">hot weather</L3>
+         <L3 id="d2e1643">rain and storms</L3>
+         <L3 id="d2e1649">rainbows</L3>
+         <L3 id="d2e1655">snow</L3>
+         <L3 id="d2e1662">wind</L3>
+         <L3 id="d2e1668">avalanches</L3>
+         <L3 id="d2e1674">earthquakes</L3>
+         <L3 id="d2e1680">floods</L3>
+         <L3 id="d2e1686">volcanoes</L3>
+      </L2>
+      <L2 id="d2e1690">seasons/times of day<L3 id="d2e1692">seasons<L4 id="d2e1694">spring</L4>
+            <L4 id="d2e1702">summer</L4>
+            <L4 id="d2e1710">autumn</L4>
+            <L4 id="d2e1718">winter</L4>
+         </L3>
+         <L3 id="d2e1724">times of day<L4 id="d2e1726">dawn</L4>
+            <L4 id="d2e1734">evening/night</L4>
+         </L3>
+      </L2>
+   </L1>
+   <L1 id="d2e1737">people<L2 id="d2e1739">figures<L3 id="d2e1741">men</L3>
+         <L3 id="d2e1747">women</L3>
+         <L3 id="d2e1753">children</L3>
+         <L3 id="d2e1759">babies</L3>
+         <L3 id="d2e1765">elderly people</L3>
+         <L3 id="d2e1771">number of figures<L4 id="d2e1773">1 figure</L4>
+            <L4 id="d2e1781">2 figures</L4>
+            <L4 id="d2e1789">3 figures</L4>
+            <L4 id="d2e1797">4 figures</L4>
+            <L4 id="d2e1805">5 figures</L4>
+            <L4 id="d2e1813">groups [6-10 figures]</L4>
+            <L4 id="d2e1822">crowds [10+ figures]</L4>
+            <L4 id="d2e1830">multiple [in landscape]</L4>
+            <L4 id="d2e1838">audiences</L4>
+            <L4 id="d2e1846">romantic couples</L4>
+         </L3>
+         <L3 id="d2e1852">physical characteristics<L4 id="d2e1854">baldness</L4>
+            <L4 id="d2e1862">blindness</L4>
+            <L4 id="d2e1870">disability</L4>
+            <L4 id="d2e1878">facial hair</L4>
+            <L4 id="d2e1886">prostheses</L4>
+         </L3>
+         <L3 id="d2e1892">foreign nationals and ethnic minorities<L4 id="d2e1894">African people</L4>
+            <L4 id="d2e1902">Asian people</L4>
+            <L4 id="d2e1911">Austrian people</L4>
+            <L4 id="d2e1919">Belgian people</L4>
+            <L4 id="d2e1927">black people</L4>
+            <L4 id="d2e1935">Dutch people</L4>
+            <L4 id="d2e1943">Eastern European people</L4>
+            <L4 id="d2e1951">French people</L4>
+            <L4 id="d2e1959">German people</L4>
+            <L4 id="d2e1967">gipsies</L4>
+            <L4 id="d2e1975">Greek people</L4>
+            <L4 id="d2e1983">Hispanic people</L4>
+            <L4 id="d2e1991">Indian people</L4>
+            <L4 id="d2e2000">indigenous peoples</L4>
+            <L4 id="d2e2008">Irish people</L4>
+            <L4 id="d2e2016">Italian people</L4>
+            <L4 id="d2e2024">Jewish people</L4>
+            <L4 id="d2e2032">Middle-Eastern people</L4>
+            <L4 id="d2e2040">North American people</L4>
+            <L4 id="d2e2048">Oriental people</L4>
+            <L4 id="d2e2056">Russian people</L4>
+            <L4 id="d2e2064">Scandinavian people</L4>
+            <L4 id="d2e2072">South American people</L4>
+            <L4 id="d2e2080">Spanish people</L4>
+            <L4 id="d2e2089">Swiss people</L4>
+         </L3>
+         <L3 id="d2e2095">mythological figures<L4 id="d2e2097">classical heroes</L4>
+            <L4 id="d2e2105">gods and goddesses</L4>
+            <L4 id="d2e2113">nymphs</L4>
+            <L4 id="d2e2121">sirens</L4>
+            <L4 id="d2e2129">valkyries</L4>
+         </L3>
+         <L3 id="d2e2135">supernatural figures<L4 id="d2e2137">angels</L4>
+            <L4 id="d2e2145">cherubs</L4>
+            <L4 id="d2e2153">demons</L4>
+            <L4 id="d2e2161">devils</L4>
+            <L4 id="d2e2169">fairies</L4>
+            <L4 id="d2e2178">Father Christmas</L4>
+            <L4 id="d2e2186">ghosts</L4>
+            <L4 id="d2e2194">goblins</L4>
+            <L4 id="d2e2202">mermaids</L4>
+            <L4 id="d2e2210">skeletons</L4>
+            <L4 id="d2e2218">witches and wizards</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e2222">relationships<L3 id="d2e2224">family relations<L4 id="d2e2226">families [general]</L4>
+            <L4 id="d2e2234">fathers</L4>
+            <L4 id="d2e2242">mothers</L4>
+            <L4 id="d2e2250">sons and daughters</L4>
+            <L4 id="d2e2258">siblings</L4>
+            <L4 id="d2e2267">grandparents</L4>
+            <L4 id="d2e2275">husbands and wives</L4>
+            <L4 id="d2e2283">in-laws</L4>
+            <L4 id="d2e2291">other relatives</L4>
+         </L3>
+         <L3 id="d2e2297">friends and colleagues<L4 id="d2e2299">colleagues</L4>
+            <L4 id="d2e2307">friends</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e2311">jobs and roles<L3 id="d2e2313">professions<L4 id="d2e2315">academics</L4>
+            <L4 id="d2e2323">architects</L4>
+            <L4 id="d2e2331">doctors/apothecaries</L4>
+            <L4 id="d2e2339">engineers</L4>
+            <L4 id="d2e2347">governesses</L4>
+            <L4 id="d2e2356">judges</L4>
+            <L4 id="d2e2364">lawyers</L4>
+            <L4 id="d2e2372">scientists</L4>
+            <L4 id="d2e2380">teachers</L4>
+         </L3>
+         <L3 id="d2e2386">vocations<L4 id="d2e2388">actors</L4>
+            <L4 id="d2e2396">artists</L4>
+            <L4 id="d2e2404">bakers</L4>
+            <L4 id="d2e2412">bankers</L4>
+            <L4 id="d2e2420">beadles</L4>
+            <L4 id="d2e2428">blacksmiths</L4>
+            <L4 id="d2e2436">butchers</L4>
+            <L4 id="d2e2445">carpenters</L4>
+            <L4 id="d2e2453">clerks</L4>
+            <L4 id="d2e2461">clowns/fools</L4>
+            <L4 id="d2e2469">cooks</L4>
+            <L4 id="d2e2477">heralds</L4>
+            <L4 id="d2e2485">courtiers</L4>
+            <L4 id="d2e2493">innkeepers</L4>
+            <L4 id="d2e2501">dock workers</L4>
+            <L4 id="d2e2509">interpreters</L4>
+            <L4 id="d2e2517">domestic servants</L4>
+            <L4 id="d2e2525">jockeys</L4>
+            <L4 id="d2e2534">labourers</L4>
+            <L4 id="d2e2542">drivers</L4>
+            <L4 id="d2e2550">drovers</L4>
+            <L4 id="d2e2558">merchants</L4>
+            <L4 id="d2e2566">farm workers</L4>
+            <L4 id="d2e2574">milkmaids</L4>
+            <L4 id="d2e2582">miners</L4>
+            <L4 id="d2e2590">fishermen</L4>
+            <L4 id="d2e2598">gamekeepers</L4>
+            <L4 id="d2e2606">musicians</L4>
+            <L4 id="d2e2614">hairdressers</L4>
+            <L4 id="d2e2623">nurses</L4>
+            <L4 id="d2e2631">pawnbrokers</L4>
+            <L4 id="d2e2639">pedlars</L4>
+            <L4 id="d2e2647">policemen</L4>
+            <L4 id="d2e2655">railway workers</L4>
+            <L4 id="d2e2663">sailors</L4>
+            <L4 id="d2e2671">shepherds</L4>
+            <L4 id="d2e2679">shoemakers</L4>
+            <L4 id="d2e2687">stewards/bailiffs</L4>
+            <L4 id="d2e2695">students</L4>
+            <L4 id="d2e2703">tailors/dressmakers</L4>
+            <L4 id="d2e2712">waiting staff</L4>
+            <L4 id="d2e2720">woodcutters</L4>
+            <L4 id="d2e2728">writers/journalists</L4>
+         </L3>
+         <L3 id="d2e2734">religious persons<L4 id="d2e2736">bishops</L4>
+            <L4 id="d2e2744">imams</L4>
+            <L4 id="d2e2752">ministers</L4>
+            <L4 id="d2e2760">monks</L4>
+            <L4 id="d2e2768">nuns</L4>
+            <L4 id="d2e2776">rabbis</L4>
+         </L3>
+         <L3 id="d2e2782">military persons<L4 id="d2e2784">gladiators</L4>
+            <L4 id="d2e2792">knights</L4>
+            <L4 id="d2e2801">soldiers</L4>
+         </L3>
+         <L3 id="d2e2807">criminals/outsiders<L4 id="d2e2809">beggars</L4>
+            <L4 id="d2e2817">confidence tricksters</L4>
+            <L4 id="d2e2825">hermits</L4>
+            <L4 id="d2e2833">prisoners</L4>
+            <L4 id="d2e2841">slaves</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e2845">social status<L3 id="d2e2847">working classes</L3>
+         <L3 id="d2e2853">middle classes</L3>
+         <L3 id="d2e2859">upper classes<L4 id="d2e2861">upper classes [general]</L4>
+            <L4 id="d2e2869">royalty</L4>
+            <L4 id="d2e2877">aristocracy</L4>
+         </L3>
+         <L3 id="d2e2884">poor</L3>
+         <L3 id="d2e2890">wealthy</L3>
+      </L2>
+      <L2 id="d2e2894">clothing<L3 id="d2e2896">nudes</L3>
+         <L3 id="d2e2902">Victorian clothing<L4 id="d2e2904">men's clothing</L4>
+            <L4 id="d2e2912">women's clothing</L4>
+            <L4 id="d2e2920">costumes and fancy dress</L4>
+            <L4 id="d2e2928">crinoline</L4>
+            <L4 id="d2e2936">mourning clothing</L4>
+            <L4 id="d2e2944">school uniforms</L4>
+         </L3>
+         <L3 id="d2e2950">work clothing<L4 id="d2e2952">aprons</L4>
+            <L4 id="d2e2960">smocks</L4>
+            <L4 id="d2e2969">uniforms</L4>
+         </L3>
+         <L3 id="d2e2975">sporting clothing<L4 id="d2e2977">athletics clothing</L4>
+            <L4 id="d2e2985">boxing clothing</L4>
+            <L4 id="d2e2993">climbing clothing</L4>
+            <L4 id="d2e3001">shooting clothing</L4>
+         </L3>
+         <L3 id="d2e3007">wedding clothing</L3>
+         <L3 id="d2e3013">riding clothing</L3>
+         <L3 id="d2e3019">eveningwear</L3>
+         <L3 id="d2e3025">nightwear</L3>
+         <L3 id="d2e3031">baby clothing</L3>
+         <L3 id="d2e3037">ragged clothing</L3>
+         <L3 id="d2e3044">regional/climate clothing<L4 id="d2e3046">Alpine dress</L4>
+            <L4 id="d2e3054">Indian dress</L4>
+            <L4 id="d2e3062">Middle Eastern dress</L4>
+            <L4 id="d2e3070">Native American dress</L4>
+            <L4 id="d2e3078">Scottish dress</L4>
+            <L4 id="d2e3086">Venetian dress</L4>
+            <L4 id="d2e3094">cold weather clothing</L4>
+            <L4 id="d2e3102">tropical/desert clothing</L4>
+            <L4 id="d2e3110">wet weather clothing</L4>
+         </L3>
+         <L3 id="d2e3116">period clothing<L4 id="d2e3118">medieval clothing</L4>
+            <L4 id="d2e3126">early modern clothing</L4>
+            <L4 id="d2e3135">seventeenth-century clothing</L4>
+            <L4 id="d2e3143">eighteenth-century clothing</L4>
+            <L4 id="d2e3151">Georgian clothing</L4>
+            <L4 id="d2e3159">armour</L4>
+            <L4 id="d2e3167">loincloths</L4>
+            <L4 id="d2e3175">robes</L4>
+            <L4 id="d2e3183">togas</L4>
+         </L3>
+         <L3 id="d2e3189">accessories<L4 id="d2e3191">bags</L4>
+            <L4 id="d2e3199">blindfolds</L4>
+            <L4 id="d2e3207">cloaks</L4>
+            <L4 id="d2e3215">crutches</L4>
+            <L4 id="d2e3224">disguises</L4>
+            <L4 id="d2e3232">eye-glasses</L4>
+            <L4 id="d2e3240">eye-shades</L4>
+            <L4 id="d2e3248">fans</L4>
+            <L4 id="d2e3256">feathers</L4>
+            <L4 id="d2e3264">garlands</L4>
+            <L4 id="d2e3272">gloves</L4>
+            <L4 id="d2e3280">handkerchiefs</L4>
+            <L4 id="d2e3288">hats</L4>
+            <L4 id="d2e3296">hoods</L4>
+            <L4 id="d2e3304">jewellery</L4>
+            <L4 id="d2e3313">masks</L4>
+            <L4 id="d2e3321">muffs</L4>
+            <L4 id="d2e3329">pocket-watches</L4>
+            <L4 id="d2e3337">purses</L4>
+            <L4 id="d2e3345">ribbons</L4>
+            <L4 id="d2e3353">rosettes</L4>
+            <L4 id="d2e3361">sandals</L4>
+            <L4 id="d2e3369">scarves</L4>
+            <L4 id="d2e3377">turbans</L4>
+            <L4 id="d2e3385">umbrellas</L4>
+            <L4 id="d2e3393">veils</L4>
+            <L4 id="d2e3402">walking-sticks</L4>
+            <L4 id="d2e3410">wigs</L4>
+         </L3>
+      </L2>
+   </L1>
+   <L1 id="d2e3412">activities<L2 id="d2e3414">physical positions<L3 id="d2e3416">postures<L4 id="d2e3418">kneeling</L4>
+            <L4 id="d2e3426">leaning</L4>
+            <L4 id="d2e3434">lying down</L4>
+            <L4 id="d2e3442">sitting</L4>
+         </L3>
+         <L3 id="d2e3448">hand positions<L4 id="d2e3450">clasping hands</L4>
+            <L4 id="d2e3458">holding hands</L4>
+            <L4 id="d2e3466">pointing</L4>
+            <L4 id="d2e3474">shaking hands</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e3478">actions and speech<L3 id="d2e3480">physical motions<L4 id="d2e3482">acrobatics</L4>
+            <L4 id="d2e3491">bowing and doffing</L4>
+            <L4 id="d2e3499">carrying</L4>
+            <L4 id="d2e3507">catching</L4>
+            <L4 id="d2e3515">clapping</L4>
+            <L4 id="d2e3523">climbing</L4>
+            <L4 id="d2e3531">dancing</L4>
+            <L4 id="d2e3539">departing</L4>
+            <L4 id="d2e3547">dressing/undressing</L4>
+            <L4 id="d2e3555">drinking</L4>
+            <L4 id="d2e3563">eating</L4>
+            <L4 id="d2e3571">entering</L4>
+            <L4 id="d2e3580">falling</L4>
+            <L4 id="d2e3588">flying</L4>
+            <L4 id="d2e3596">giving/receiving</L4>
+            <L4 id="d2e3604">hiding</L4>
+            <L4 id="d2e3612">jumping</L4>
+            <L4 id="d2e3620">leading</L4>
+            <L4 id="d2e3628">meeting</L4>
+            <L4 id="d2e3636">opening/closing</L4>
+            <L4 id="d2e3644">playing</L4>
+            <L4 id="d2e3652">pushing/pulling</L4>
+            <L4 id="d2e3660">ringing/knocking</L4>
+            <L4 id="d2e3669">running</L4>
+            <L4 id="d2e3677">skiing and sledging</L4>
+            <L4 id="d2e3685">smoking</L4>
+            <L4 id="d2e3693">sneaking</L4>
+            <L4 id="d2e3701">sniffing</L4>
+            <L4 id="d2e3709">spying</L4>
+            <L4 id="d2e3717">swimming</L4>
+            <L4 id="d2e3725">throwing</L4>
+            <L4 id="d2e3733">visiting</L4>
+            <L4 id="d2e3741">walking</L4>
+            <L4 id="d2e3749">watching</L4>
+            <L4 id="d2e3758">waving</L4>
+         </L3>
+         <L3 id="d2e3764">verbal communications<L4 id="d2e3766">accusing</L4>
+            <L4 id="d2e3774">acting</L4>
+            <L4 id="d2e3782">advising</L4>
+            <L4 id="d2e3790">arguing</L4>
+            <L4 id="d2e3798">asking</L4>
+            <L4 id="d2e3806">begging</L4>
+            <L4 id="d2e3814">cheering</L4>
+            <L4 id="d2e3822">crying</L4>
+            <L4 id="d2e3830">flirting</L4>
+            <L4 id="d2e3838">laughing</L4>
+            <L4 id="d2e3847">praying</L4>
+            <L4 id="d2e3855">reconciling</L4>
+            <L4 id="d2e3863">scolding</L4>
+            <L4 id="d2e3871">shouting</L4>
+            <L4 id="d2e3879">singing</L4>
+            <L4 id="d2e3887">talking</L4>
+            <L4 id="d2e3895">teasing</L4>
+            <L4 id="d2e3903">toasting</L4>
+            <L4 id="d2e3911">warning</L4>
+            <L4 id="d2e3919">whispering</L4>
+         </L3>
+         <L3 id="d2e3925">manual and farm work<L4 id="d2e3927">breaking</L4>
+            <L4 id="d2e3936">building</L4>
+            <L4 id="d2e3944">carving</L4>
+            <L4 id="d2e3952">cutting and chopping</L4>
+            <L4 id="d2e3960">cleaning</L4>
+            <L4 id="d2e3968">cooking and preparing</L4>
+            <L4 id="d2e3976">digging</L4>
+            <L4 id="d2e3984">gardening</L4>
+            <L4 id="d2e3992">herding</L4>
+            <L4 id="d2e4000">lighting</L4>
+            <L4 id="d2e4008">loading/unloading</L4>
+            <L4 id="d2e4016">mending</L4>
+            <L4 id="d2e4025">milking</L4>
+            <L4 id="d2e4033">picking</L4>
+            <L4 id="d2e4041">ploughing</L4>
+            <L4 id="d2e4049">reaping</L4>
+            <L4 id="d2e4057">serving</L4>
+            <L4 id="d2e4065">sewing and knitting</L4>
+            <L4 id="d2e4073">shearing</L4>
+            <L4 id="d2e4081">sowing</L4>
+            <L4 id="d2e4089">weaving</L4>
+         </L3>
+         <L3 id="d2e4095">fighting, hunting and military actions<L4 id="d2e4097">duelling</L4>
+            <L4 id="d2e4105">escaping</L4>
+            <L4 id="d2e4114">fighting</L4>
+            <L4 id="d2e4122">fishing</L4>
+            <L4 id="d2e4130">guarding</L4>
+            <L4 id="d2e4138">hunting and trapping</L4>
+            <L4 id="d2e4146">killing</L4>
+            <L4 id="d2e4154">marching</L4>
+            <L4 id="d2e4162">pursuing and searching</L4>
+            <L4 id="d2e4170">shooting</L4>
+         </L3>
+         <L3 id="d2e4176">transactions<L4 id="d2e4178">buying and selling</L4>
+            <L4 id="d2e4186">loaning</L4>
+            <L4 id="d2e4194">gambling</L4>
+         </L3>
+         <L3 id="d2e4201">affectionate actions<L4 id="d2e4203">blessing</L4>
+            <L4 id="d2e4211">comforting</L4>
+            <L4 id="d2e4219">courtship</L4>
+            <L4 id="d2e4227">embracing</L4>
+            <L4 id="d2e4235">helping</L4>
+            <L4 id="d2e4243">kissing</L4>
+            <L4 id="d2e4251">nursing</L4>
+            <L4 id="d2e4259">rocking</L4>
+            <L4 id="d2e4267">stroking</L4>
+            <L4 id="d2e4275">welcoming</L4>
+         </L3>
+         <L3 id="d2e4281">mental and creative activities<L4 id="d2e4283">counting</L4>
+            <L4 id="d2e4292">listening</L4>
+            <L4 id="d2e4300">painting and drawing</L4>
+            <L4 id="d2e4308">reading</L4>
+            <L4 id="d2e4316">relaxing</L4>
+            <L4 id="d2e4324">remembering</L4>
+            <L4 id="d2e4332">teaching</L4>
+            <L4 id="d2e4340">thinking</L4>
+            <L4 id="d2e4348">writing</L4>
+         </L3>
+         <L3 id="d2e4354">vehicular motions<L4 id="d2e4356">boarding/alighting</L4>
+            <L4 id="d2e4364">driving</L4>
+            <L4 id="d2e4372">horse-riding</L4>
+            <L4 id="d2e4381">rowing and punting</L4>
+            <L4 id="d2e4389">sailing</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e4393">emotions and states<L3 id="d2e4395">emotions<L4 id="d2e4397">anger</L4>
+            <L4 id="d2e4405">distress</L4>
+            <L4 id="d2e4413">fear</L4>
+            <L4 id="d2e4421">grief</L4>
+            <L4 id="d2e4429">guilt</L4>
+            <L4 id="d2e4437">happiness</L4>
+            <L4 id="d2e4445">hatred</L4>
+            <L4 id="d2e4453">heartbreak</L4>
+            <L4 id="d2e4461">jealousy</L4>
+            <L4 id="d2e4470">love</L4>
+            <L4 id="d2e4478">penitence</L4>
+            <L4 id="d2e4486">sadness</L4>
+            <L4 id="d2e4494">surprise</L4>
+         </L3>
+         <L3 id="d2e4500">characteristics<L4 id="d2e4502">bullying</L4>
+            <L4 id="d2e4510">courage</L4>
+            <L4 id="d2e4518">cowardice</L4>
+            <L4 id="d2e4526">cruelty</L4>
+            <L4 id="d2e4534">greed</L4>
+            <L4 id="d2e4542">knowledge and wisdom</L4>
+            <L4 id="d2e4550">madness</L4>
+            <L4 id="d2e4559">peacefulness</L4>
+            <L4 id="d2e4567">pride</L4>
+         </L3>
+         <L3 id="d2e4573">physical states<L4 id="d2e4575">drunk</L4>
+            <L4 id="d2e4583">dying</L4>
+            <L4 id="d2e4591">hunger</L4>
+            <L4 id="d2e4599">ill/injured</L4>
+            <L4 id="d2e4607">in pain</L4>
+            <L4 id="d2e4615">sleeping</L4>
+            <L4 id="d2e4623">sleepwalking</L4>
+            <L4 id="d2e4631">tiredness</L4>
+            <L4 id="d2e4639">unconsciousness</L4>
+         </L3>
+      </L2>
+   </L1>
+   <L1 id="d2e4642">objects<L2 id="d2e4644">tools and implements<L3 id="d2e4646">domestic objects<L4 id="d2e4648">basins</L4>
+            <L4 id="d2e4656">baskets</L4>
+            <L4 id="d2e4664">birdcages</L4>
+            <L4 id="d2e4672">bottles</L4>
+            <L4 id="d2e4680">buckets</L4>
+            <L4 id="d2e4688">cleaning equipment</L4>
+            <L4 id="d2e4696">clocks</L4>
+            <L4 id="d2e4704">clothing irons</L4>
+            <L4 id="d2e4712">cooking utensils</L4>
+            <L4 id="d2e4720">corkscrews</L4>
+            <L4 id="d2e4728">crockery and pottery</L4>
+            <L4 id="d2e4737">cups</L4>
+            <L4 id="d2e4745">cutlery</L4>
+            <L4 id="d2e4753">drinking straws</L4>
+            <L4 id="d2e4761">fabrics</L4>
+            <L4 id="d2e4769">fire irons</L4>
+            <L4 id="d2e4777">firewood</L4>
+            <L4 id="d2e4785">glasses</L4>
+            <L4 id="d2e4793">goblets</L4>
+            <L4 id="d2e4801">hairbrushes and combs</L4>
+            <L4 id="d2e4809">hourglasses</L4>
+            <L4 id="d2e4817">jugs</L4>
+            <L4 id="d2e4826">kettles and pots</L4>
+            <L4 id="d2e4834">keys</L4>
+            <L4 id="d2e4842">mousetraps</L4>
+            <L4 id="d2e4850">ornaments</L4>
+            <L4 id="d2e4858">punchbowls</L4>
+            <L4 id="d2e4866">razors</L4>
+            <L4 id="d2e4874">scissors</L4>
+            <L4 id="d2e4882">towels</L4>
+            <L4 id="d2e4890">trays</L4>
+            <L4 id="d2e4898">vases</L4>
+            <L4 id="d2e4906">washing tubs</L4>
+            <L4 id="d2e4915">watering-cans</L4>
+            <L4 id="d2e4923">weights and scales</L4>
+         </L3>
+         <L3 id="d2e4929">lighting devices<L4 id="d2e4931">candles and candlesticks</L4>
+            <L4 id="d2e4939">chandeliers</L4>
+            <L4 id="d2e4947">lamps</L4>
+            <L4 id="d2e4955">torches</L4>
+         </L3>
+         <L3 id="d2e4961">farming equipment<L4 id="d2e4963">crooks</L4>
+            <L4 id="d2e4971">milk churns</L4>
+            <L4 id="d2e4979">pitchforks</L4>
+            <L4 id="d2e4987">ploughs</L4>
+            <L4 id="d2e4995">rakes and hoes</L4>
+            <L4 id="d2e5004">scythes and sickles</L4>
+            <L4 id="d2e5012">troughs</L4>
+         </L3>
+         <L3 id="d2e5018">labouring equipment<L4 id="d2e5020">axes</L4>
+            <L4 id="d2e5028">barrels</L4>
+            <L4 id="d2e5036">blacksmith's tools</L4>
+            <L4 id="d2e5044">builder's tools</L4>
+            <L4 id="d2e5052">carpenter's tools</L4>
+            <L4 id="d2e5060">gardening tools</L4>
+            <L4 id="d2e5068">ladders</L4>
+            <L4 id="d2e5076">pickaxes</L4>
+            <L4 id="d2e5084">pulleys</L4>
+            <L4 id="d2e5093">ropes</L4>
+            <L4 id="d2e5101">spades</L4>
+            <L4 id="d2e5109">wheelbarrows</L4>
+         </L3>
+         <L3 id="d2e5115">creative implements<L4 id="d2e5117">artist's equipment</L4>
+            <L4 id="d2e5125">sewing equipment</L4>
+            <L4 id="d2e5133">weaving equipment</L4>
+            <L4 id="d2e5141">writing equipment</L4>
+         </L3>
+         <L3 id="d2e5147">medical equipment<L4 id="d2e5149">bandages</L4>
+            <L4 id="d2e5157">stretchers</L4>
+         </L3>
+         <L3 id="d2e5163">scientific objects<L4 id="d2e5165">barometers</L4>
+            <L4 id="d2e5173">binoculars</L4>
+            <L4 id="d2e5182">globes</L4>
+            <L4 id="d2e5190">laboratory equipment</L4>
+            <L4 id="d2e5198">sundials</L4>
+            <L4 id="d2e5206">telescopes</L4>
+         </L3>
+         <L3 id="d2e5212">weapons<L4 id="d2e5214">battleaxes</L4>
+            <L4 id="d2e5222">bows and arrows</L4>
+            <L4 id="d2e5230">cannons</L4>
+            <L4 id="d2e5238">chains</L4>
+            <L4 id="d2e5246">clubs/quarterstaffs</L4>
+            <L4 id="d2e5254">guns</L4>
+            <L4 id="d2e5262">knives</L4>
+            <L4 id="d2e5271">shields</L4>
+            <L4 id="d2e5279">spears</L4>
+            <L4 id="d2e5287">stones and rocks</L4>
+            <L4 id="d2e5295">swords</L4>
+            <L4 id="d2e5303">tridents</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e5307">furnishings<L3 id="d2e5309">armchairs</L3>
+         <L3 id="d2e5315">beds</L3>
+         <L3 id="d2e5321">benches</L3>
+         <L3 id="d2e5327">bins</L3>
+         <L3 id="d2e5333">bookcases</L3>
+         <L3 id="d2e5339">boxes</L3>
+         <L3 id="d2e5346">carpets</L3>
+         <L3 id="d2e5352">chairs</L3>
+         <L3 id="d2e5358">chests of drawers</L3>
+         <L3 id="d2e5364">cradles</L3>
+         <L3 id="d2e5370">cupboards</L3>
+         <L3 id="d2e5376">curtains</L3>
+         <L3 id="d2e5382">decorations</L3>
+         <L3 id="d2e5388">desks</L3>
+         <L3 id="d2e5394">dressing-tables</L3>
+         <L3 id="d2e5400">footstools</L3>
+         <L3 id="d2e5406">lecterns</L3>
+         <L3 id="d2e5413">mirrors</L3>
+         <L3 id="d2e5419">panelling</L3>
+         <L3 id="d2e5425">pews</L3>
+         <L3 id="d2e5431">screens</L3>
+         <L3 id="d2e5437">shelves</L3>
+         <L3 id="d2e5443">stools</L3>
+         <L3 id="d2e5449">stoves</L3>
+         <L3 id="d2e5455">tables</L3>
+         <L3 id="d2e5461">wallpaper</L3>
+         <L3 id="d2e5467">wardrobes</L3>
+         <L3 id="d2e5473">window-seats</L3>
+      </L2>
+      <L2 id="d2e5478">recreational objects<L3 id="d2e5480">sporting objects<L4 id="d2e5482">balls</L4>
+            <L4 id="d2e5490">bathing machine</L4>
+            <L4 id="d2e5498">billiard-tables</L4>
+            <L4 id="d2e5506">climbing equipment</L4>
+            <L4 id="d2e5514">croquet mallets</L4>
+            <L4 id="d2e5522">dice</L4>
+            <L4 id="d2e5530">fishing equipment</L4>
+            <L4 id="d2e5538">playing cards</L4>
+         </L3>
+         <L3 id="d2e5544">toys<L4 id="d2e5546">cat's-cradles</L4>
+            <L4 id="d2e5554">dolls</L4>
+            <L4 id="d2e5562">kites</L4>
+            <L4 id="d2e5571">rocking/hobby horses</L4>
+            <L4 id="d2e5579">sticks/bats/hoops</L4>
+            <L4 id="d2e5587">swings</L4>
+            <L4 id="d2e5595">toy figures and vehicles</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e5599">transport and travel<L3 id="d2e5601">vehicles<L4 id="d2e5603">ships</L4>
+            <L4 id="d2e5611">boats</L4>
+            <L4 id="d2e5619">arks</L4>
+            <L4 id="d2e5627">sailing and boating equipment</L4>
+            <L4 id="d2e5635">carriages</L4>
+            <L4 id="d2e5643">carts</L4>
+            <L4 id="d2e5651">omnibuses</L4>
+            <L4 id="d2e5660">trains</L4>
+            <L4 id="d2e5668">sleighs and sleds</L4>
+            <L4 id="d2e5676">sedan chairs</L4>
+            <L4 id="d2e5684">wheelchairs</L4>
+         </L3>
+         <L3 id="d2e5690">travel items<L4 id="d2e5692">horse-whips</L4>
+            <L4 id="d2e5700">luggage</L4>
+            <L4 id="d2e5708">maps</L4>
+            <L4 id="d2e5716">riding equipment</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e5720">cultural objects<L3 id="d2e5722">written word<L4 id="d2e5724">academic papers</L4>
+            <L4 id="d2e5732">architectural plans</L4>
+            <L4 id="d2e5740">books</L4>
+            <L4 id="d2e5749">calling cards</L4>
+            <L4 id="d2e5757">catalogues and lists</L4>
+            <L4 id="d2e5765">letters</L4>
+            <L4 id="d2e5773">manuscripts</L4>
+            <L4 id="d2e5781">menus</L4>
+            <L4 id="d2e5789">periodicals</L4>
+            <L4 id="d2e5797">scripts</L4>
+            <L4 id="d2e5805">signs and posters</L4>
+            <L4 id="d2e5813">songsheets</L4>
+         </L3>
+         <L3 id="d2e5819">legal documents<L4 id="d2e5821">business and legal papers</L4>
+            <L4 id="d2e5829">national constitutions</L4>
+            <L4 id="d2e5838">receipts</L4>
+            <L4 id="d2e5846">warrants</L4>
+            <L4 id="d2e5854">wills</L4>
+         </L3>
+         <L3 id="d2e5860">visual arts<L4 id="d2e5862">embroidery</L4>
+            <L4 id="d2e5870">paintings</L4>
+            <L4 id="d2e5878">sculpture</L4>
+            <L4 id="d2e5886">sketch-books</L4>
+         </L3>
+         <L3 id="d2e5892">musical objects<L4 id="d2e5894">bells</L4>
+            <L4 id="d2e5902">brass instruments</L4>
+            <L4 id="d2e5910">drums</L4>
+            <L4 id="d2e5918">guitars</L4>
+            <L4 id="d2e5927">harps</L4>
+            <L4 id="d2e5935">pianos and organs</L4>
+            <L4 id="d2e5943">pipes</L4>
+            <L4 id="d2e5951">sheet music</L4>
+            <L4 id="d2e5959">violins</L4>
+            <L4 id="d2e5967">woodwind instruments</L4>
+         </L3>
+         <L3 id="d2e5973">religious objects<L4 id="d2e5975">altars</L4>
+            <L4 id="d2e5983">Bibles</L4>
+            <L4 id="d2e5991">coffins and biers</L4>
+            <L4 id="d2e5999">crucifixes</L4>
+            <L4 id="d2e6007">graves and gravestones</L4>
+            <L4 id="d2e6016">prayer books</L4>
+            <L4 id="d2e6024">rosaries</L4>
+            <L4 id="d2e6032">shrouds</L4>
+            <L4 id="d2e6040">statues of Jesus</L4>
+         </L3>
+         <L3 id="d2e6046">status objects<L4 id="d2e6048">crests</L4>
+            <L4 id="d2e6056">crowns</L4>
+            <L4 id="d2e6064">flags</L4>
+            <L4 id="d2e6072">regalia</L4>
+            <L4 id="d2e6080">thrones</L4>
+         </L3>
+         <L3 id="d2e6086">valuable objects<L4 id="d2e6088">gifts</L4>
+            <L4 id="d2e6096">gold and silver</L4>
+            <L4 id="d2e6105">jewels</L4>
+            <L4 id="d2e6113">medals</L4>
+            <L4 id="d2e6121">merchandise</L4>
+            <L4 id="d2e6129">money</L4>
+            <L4 id="d2e6137">purses</L4>
+            <L4 id="d2e6145">treasures</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e6149">food and drink<L3 id="d2e6151">food<L4 id="d2e6153">food [general]</L4>
+            <L4 id="d2e6161">bread</L4>
+            <L4 id="d2e6169">condiments</L4>
+            <L4 id="d2e6177">desserts/sweets</L4>
+            <L4 id="d2e6185">eggs</L4>
+            <L4 id="d2e6194">fruit</L4>
+            <L4 id="d2e6202">meat and fish</L4>
+            <L4 id="d2e6210">mushrooms</L4>
+            <L4 id="d2e6218">vegetables</L4>
+         </L3>
+         <L3 id="d2e6224">drink<L4 id="d2e6226">drink [general]</L4>
+            <L4 id="d2e6234">beer</L4>
+            <L4 id="d2e6242">champagne</L4>
+            <L4 id="d2e6250">drinking water</L4>
+            <L4 id="d2e6258">milk</L4>
+            <L4 id="d2e6266">punch</L4>
+            <L4 id="d2e6274">spirits</L4>
+            <L4 id="d2e6283">tea and coffee</L4>
+            <L4 id="d2e6291">wine</L4>
+         </L3>
+         <L3 id="d2e6297">other ingestibles<L4 id="d2e6299">herbs</L4>
+            <L4 id="d2e6307">medicines</L4>
+            <L4 id="d2e6315">poisons</L4>
+            <L4 id="d2e6323">tobacco</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e6327">human biology<L3 id="d2e6329">blood</L3>
+         <L3 id="d2e6335">corpses</L3>
+         <L3 id="d2e6341">footprints</L3>
+         <L3 id="d2e6347">hair</L3>
+         <L3 id="d2e6353">human skeletons</L3>
+         <L3 id="d2e6360">mummies</L3>
+      </L2>
+      <L2 id="d2e6364">birds and animals<L3 id="d2e6366">animals<L4 id="d2e6368">apes</L4>
+            <L4 id="d2e6376">bats</L4>
+            <L4 id="d2e6384">bears</L4>
+            <L4 id="d2e6392">camels</L4>
+            <L4 id="d2e6400">cats</L4>
+            <L4 id="d2e6408">cows</L4>
+            <L4 id="d2e6416">deer</L4>
+            <L4 id="d2e6424">dogs</L4>
+            <L4 id="d2e6432">donkeys</L4>
+            <L4 id="d2e6440">elephants</L4>
+            <L4 id="d2e6449">foxes</L4>
+            <L4 id="d2e6457">goats</L4>
+            <L4 id="d2e6465">hares and rabbits</L4>
+            <L4 id="d2e6473">horses</L4>
+            <L4 id="d2e6481">jackals</L4>
+            <L4 id="d2e6489">lions</L4>
+            <L4 id="d2e6497">lizards</L4>
+            <L4 id="d2e6505">pigs</L4>
+            <L4 id="d2e6513">rodents</L4>
+            <L4 id="d2e6521">sheep</L4>
+            <L4 id="d2e6529">snakes</L4>
+            <L4 id="d2e6538">tigers</L4>
+            <L4 id="d2e6546">toads and frogs</L4>
+            <L4 id="d2e6554">whales</L4>
+            <L4 id="d2e6562">wolves</L4>
+         </L3>
+         <L3 id="d2e6568">birds<L4 id="d2e6570">birds [general]</L4>
+            <L4 id="d2e6578">albatrosses</L4>
+            <L4 id="d2e6586">birds of prey</L4>
+            <L4 id="d2e6594">canaries</L4>
+            <L4 id="d2e6602">chickens</L4>
+            <L4 id="d2e6610">cockerels</L4>
+            <L4 id="d2e6618">cranes</L4>
+            <L4 id="d2e6627">cuckoos</L4>
+            <L4 id="d2e6635">doves</L4>
+            <L4 id="d2e6643">ducks</L4>
+            <L4 id="d2e6651">game birds</L4>
+            <L4 id="d2e6659">geese</L4>
+            <L4 id="d2e6667">gulls</L4>
+            <L4 id="d2e6675">magpies</L4>
+            <L4 id="d2e6683">nightingales</L4>
+            <L4 id="d2e6691">ostriches</L4>
+            <L4 id="d2e6699">owls</L4>
+            <L4 id="d2e6707">parrots</L4>
+            <L4 id="d2e6716">peacocks</L4>
+            <L4 id="d2e6724">pelicans</L4>
+            <L4 id="d2e6732">pigeons</L4>
+            <L4 id="d2e6740">ravens</L4>
+            <L4 id="d2e6748">skylarks</L4>
+            <L4 id="d2e6756">storks</L4>
+            <L4 id="d2e6764">swallows</L4>
+            <L4 id="d2e6772">swans</L4>
+            <L4 id="d2e6780">turkeys</L4>
+         </L3>
+         <L3 id="d2e6786">fish</L3>
+         <L3 id="d2e6792">insects</L3>
+         <L3 id="d2e6799">mythological creatures<L4 id="d2e6801">dragons</L4>
+            <L4 id="d2e6809">Pegasus</L4>
+            <L4 id="d2e6817">sea serpents</L4>
+         </L3>
+         <L3 id="d2e6823">animal-related objects<L4 id="d2e6825">animal skeletons</L4>
+            <L4 id="d2e6833">animal skins</L4>
+            <L4 id="d2e6841">birds' feathers</L4>
+            <L4 id="d2e6849">cobwebs</L4>
+            <L4 id="d2e6857">coral</L4>
+            <L4 id="d2e6865">nests and eggs</L4>
+            <L4 id="d2e6873">seashells</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e6877">vegetation<L3 id="d2e6879">trees<L4 id="d2e6881">trees [general]</L4>
+            <L4 id="d2e6890">bamboos</L4>
+            <L4 id="d2e6898">beeches</L4>
+            <L4 id="d2e6906">oaks</L4>
+            <L4 id="d2e6914">palms</L4>
+            <L4 id="d2e6922">timber</L4>
+            <L4 id="d2e6930">tree stumps</L4>
+         </L3>
+         <L3 id="d2e6936">plants<L4 id="d2e6938">plants [general]</L4>
+            <L4 id="d2e6946">bushes</L4>
+            <L4 id="d2e6954">ferns</L4>
+            <L4 id="d2e6962">holly</L4>
+            <L4 id="d2e6970">mistletoe</L4>
+            <L4 id="d2e6979">reeds</L4>
+            <L4 id="d2e6987">vines</L4>
+         </L3>
+         <L3 id="d2e6993">crops<L4 id="d2e6995">cereals</L4>
+            <L4 id="d2e7003">straw/hay</L4>
+         </L3>
+         <L3 id="d2e7009">flowers<L4 id="d2e7011">flowers [general]</L4>
+            <L4 id="d2e7019">bouquets</L4>
+            <L4 id="d2e7027">daffodils</L4>
+            <L4 id="d2e7035">lilies</L4>
+            <L4 id="d2e7043">roses</L4>
+         </L3>
+      </L2>
+   </L1>
+   <L1 id="d2e7045">themes<L2 id="d2e7047">society and culture<L3 id="d2e7049">politics<L4 id="d2e7051">empire</L4>
+            <L4 id="d2e7059">governments</L4>
+            <L4 id="d2e7068">national symbols</L4>
+            <L4 id="d2e7076">political movements and parties</L4>
+            <L4 id="d2e7084">protests and strikes</L4>
+            <L4 id="d2e7092">slavery</L4>
+         </L3>
+         <L3 id="d2e7098">work and commerce<L4 id="d2e7100">agriculture</L4>
+            <L4 id="d2e7108">business</L4>
+            <L4 id="d2e7116">industry</L4>
+            <L4 id="d2e7124">trades unions</L4>
+            <L4 id="d2e7132">money-lending</L4>
+         </L3>
+         <L3 id="d2e7138">law and order<L4 id="d2e7140">crime [general]</L4>
+            <L4 id="d2e7148">murders</L4>
+            <L4 id="d2e7157">theft</L4>
+            <L4 id="d2e7165">mobs</L4>
+            <L4 id="d2e7173">duels</L4>
+            <L4 id="d2e7181">legal system [general]</L4>
+            <L4 id="d2e7189">policing</L4>
+            <L4 id="d2e7197">trials</L4>
+            <L4 id="d2e7205">imprisonment</L4>
+            <L4 id="d2e7213">corporal punishment</L4>
+            <L4 id="d2e7221">executions</L4>
+         </L3>
+         <L3 id="d2e7227">leisure and recreation<L4 id="d2e7229">leisure [general]</L4>
+            <L4 id="d2e7237">concerts</L4>
+            <L4 id="d2e7246">fairs and fetes</L4>
+            <L4 id="d2e7254">fashion</L4>
+            <L4 id="d2e7262">horseracing</L4>
+            <L4 id="d2e7270">horticulture</L4>
+            <L4 id="d2e7278">hunts</L4>
+            <L4 id="d2e7286">parties</L4>
+            <L4 id="d2e7294">social season</L4>
+            <L4 id="d2e7302">sports and games</L4>
+            <L4 id="d2e7310">theatre</L4>
+         </L3>
+         <L3 id="d2e7316">meals<L4 id="d2e7318">daily meals</L4>
+            <L4 id="d2e7326">feasts</L4>
+            <L4 id="d2e7335">picnics</L4>
+         </L3>
+         <L3 id="d2e7341">ceremonies<L4 id="d2e7343">coronations</L4>
+            <L4 id="d2e7351">processions</L4>
+            <L4 id="d2e7359">christenings</L4>
+            <L4 id="d2e7367">funerals</L4>
+            <L4 id="d2e7375">weddings</L4>
+         </L3>
+         <L3 id="d2e7381">arts and sciences<L4 id="d2e7383">arts and humanities</L4>
+            <L4 id="d2e7391">music</L4>
+            <L4 id="d2e7399">education</L4>
+            <L4 id="d2e7407">medical science</L4>
+            <L4 id="d2e7415">natural science</L4>
+            <L4 id="d2e7424">astrology</L4>
+            <L4 id="d2e7432">hypnosis</L4>
+            <L4 id="d2e7440">exhibitions</L4>
+            <L4 id="d2e7448">patronage</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e7452">travel and tourism<L3 id="d2e7454">exploration</L3>
+         <L3 id="d2e7460">holidays</L3>
+         <L3 id="d2e7466">journeys</L3>
+         <L3 id="d2e7472">migration and emigration</L3>
+      </L2>
+      <L2 id="d2e7476">religion<L3 id="d2e7478">religion [general]</L3>
+         <L3 id="d2e7484">religious services</L3>
+         <L3 id="d2e7490">religious concepts<L4 id="d2e7492">charity</L4>
+            <L4 id="d2e7501">halos</L4>
+            <L4 id="d2e7509">heaven</L4>
+            <L4 id="d2e7517">hell</L4>
+            <L4 id="d2e7525">heresy</L4>
+            <L4 id="d2e7533">martyrdom</L4>
+            <L4 id="d2e7541">miracles</L4>
+            <L4 id="d2e7549">pilgrimage</L4>
+            <L4 id="d2e7557">resurrection</L4>
+            <L4 id="d2e7565">Sabbath</L4>
+            <L4 id="d2e7573">soul</L4>
+         </L3>
+         <L3 id="d2e7579">Christianity<L4 id="d2e7581">Roman Catholicism</L4>
+            <L4 id="d2e7590">Protestantism</L4>
+            <L4 id="d2e7598">Devil</L4>
+            <L4 id="d2e7606">Saints</L4>
+            <L4 id="d2e7614">Reformation</L4>
+         </L3>
+         <L3 id="d2e7620">Islam</L3>
+         <L3 id="d2e7626">Judaism</L3>
+         <L3 id="d2e7632">festivals and feast days<L4 id="d2e7634">Christmas</L4>
+            <L4 id="d2e7642">Easter</L4>
+            <L4 id="d2e7650">Halloween</L4>
+            <L4 id="d2e7658">May Day</L4>
+            <L4 id="d2e7666">New Year</L4>
+            <L4 id="d2e7675">saint's day</L4>
+            <L4 id="d2e7683">St. Valentine's Day</L4>
+         </L3>
+      </L2>
+      <L2 id="d2e7687">narrative themes<L3 id="d2e7689">tragedy</L3>
+         <L3 id="d2e7695">comedy</L3>
+         <L3 id="d2e7701">satire</L3>
+         <L3 id="d2e7707">abstract concepts<L4 id="d2e7709">anthropomorphism</L4>
+            <L4 id="d2e7717">beauty</L4>
+            <L4 id="d2e7725">destiny</L4>
+            <L4 id="d2e7733">dreams and fantasies</L4>
+            <L4 id="d2e7741">good and evil</L4>
+            <L4 id="d2e7749">nature</L4>
+            <L4 id="d2e7758">personification</L4>
+            <L4 id="d2e7766">supernatural</L4>
+            <L4 id="d2e7774">symbols and metaphors</L4>
+            <L4 id="d2e7782">time</L4>
+         </L3>
+         <L3 id="d2e7788">myths and stories<L4 id="d2e7790">Arthurian legends</L4>
+            <L4 id="d2e7798">biblical legends</L4>
+            <L4 id="d2e7806">classical legends</L4>
+            <L4 id="d2e7814">Egyptian legends</L4>
+            <L4 id="d2e7822">folktales and fairy tales</L4>
+            <L4 id="d2e7830">morals and fables</L4>
+            <L4 id="d2e7838">Norse legends</L4>
+            <L4 id="d2e7847">Shakespeare's plays</L4>
+         </L3>
+         <L3 id="d2e7853">wars and battles<L4 id="d2e7855">war [general]</L4>
+            <L4 id="d2e7863">crusades</L4>
+            <L4 id="d2e7871">English Civil War</L4>
+            <L4 id="d2e7879">War of American Independence</L4>
+            <L4 id="d2e7887">French Revolution</L4>
+            <L4 id="d2e7895">Napoleonic Wars</L4>
+            <L4 id="d2e7903">rebellions</L4>
+         </L3>
+         <L3 id="d2e7909">narrative events<L4 id="d2e7911">accidents</L4>
+            <L4 id="d2e7919">arrivals</L4>
+            <L4 id="d2e7927">birth</L4>
+            <L4 id="d2e7936">curses and oaths</L4>
+            <L4 id="d2e7944">danger</L4>
+            <L4 id="d2e7952">death</L4>
+            <L4 id="d2e7960">debts</L4>
+            <L4 id="d2e7968">drowning</L4>
+            <L4 id="d2e7976">fires</L4>
+            <L4 id="d2e7984">infidelity</L4>
+            <L4 id="d2e7992">inheritance</L4>
+            <L4 id="d2e8000">lost virtue</L4>
+            <L4 id="d2e8008">magic</L4>
+            <L4 id="d2e8016">marriage proposals</L4>
+            <L4 id="d2e8025">rescues</L4>
+            <L4 id="d2e8033">returns</L4>
+            <L4 id="d2e8041">revelations</L4>
+            <L4 id="d2e8049">revenge</L4>
+            <L4 id="d2e8057">secrets</L4>
+            <L4 id="d2e8065">shipwrecks</L4>
+            <L4 id="d2e8073">success and failure</L4>
+            <L4 id="d2e8081">suicides</L4>
+            <L4 id="d2e8089">tests and choices</L4>
+            <L4 id="d2e8097">vigils</L4>
+         </L3>
+      </L2>
+   </L1>
+</Key-words>

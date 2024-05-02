@@ -1,0 +1,63 @@
+=== The USAS Tagset 
+In our work for ncse, a few areas emerged in which the current tagset either didn't appear to "fit" 19th-century data, and/or to support 
+subject classification (with the recognition that we were significantly bending the scheme to fit this purpose, since it was designed to support linguistic analyses).   
+
+1. Some categories (or labels for categories) suggest 20th/21st century usage.
+
+eg: TV, radio, cinema
+    IT, computing
+    Transportation: air
+
+2. Other categories support discourse analysis, but aren't as helpful for subject analysis.
+
+eg: The A and Z classes 
+
+In practice, we used the A class annotations, but culled the Z class annotations.  
+
+3. Words whose popular meaning has changed, and so cause an improper categorisation when paired with the
+modern taxonomy.
+
+eg: uses of squadron were categorised under Transportation: Air, but the use referred to cavalry or naval squadrons.
+
+4. Some categories also invited expansion to better reflect the "time" 
+
+eg: types of entertainment - are there others that could be added?
+    cultural happenings? The world expositions? 
+
+=== The BNC 
+
+Would this corpus also need need adaptation?
+
+What would represent a cross section of genres, linguistic styles of
+19th century texts?
+
+Are there digital sources upon which to draw (the ncse, for example, but others?)
+
+At what stage should domain experts be consulted?
+
+Is the the methodology used to create the BNC generalisable? 
+
+
+=== Background on Classification work done for the NCSE project
+
+Classification/categorisation work was carried in several areas on the project
+before adopting the USAS tagset.  For example, the research team developed a 'concept map' for the project, about which more
+can be read  here: http://www.ncse.ac.uk/commentary/mapping.html.
+
+This concept map included three hierarchical levels:
+
+- modern analytical terms or concepts used to explain or understand the time (e.g. Mind/ the body, Gender)
+- a level of connecting "grouping" terms, also modern, used to collate the third-level terms. 
+- 19th century terms or concepts (e.g. pauperism, steam power) 
+
+The map was based on source warrant, created out of examination of a subset of materials in the corpus. The exercise was useful in helping the research team think about the material from an informational perspective, but gave rise to doubts about the amount of work that would be required to extend the analysis to the entire corpus, and to ensure that the resulting scheme was consistent and exhaustive (to an agreed upon and measurable degree).  By way of anecdote, one tension that arose in the development the adaptation of the DMVI classification scheme for use in manual cataloging of images was whether materials should be catalogued by their meaning (e.g. feminism) or according to what could be described in them (e.g. woman, protest, banners).  In the end, the team decided to focus on descriptive cataloging.  
+
+Given that the concept map contained both analytical and 19th century terms, my guess is that document classification would require a more complex approach to categorisation. 
+
+A new taxonomy could follow the inductive approach used in the NCSE, but could also be formed in part through analysis of historical classification schemes
+e. g. Roget's (?), early Dewey, DMVI, etc. If an inductive approach is to be followed, it could also be useful to consult formal methods for building faceted classification schemes, such as those adopted for the Bliss classification scheme or the Colon Classification.   Vanda Broughton (of UCL) works on the Bliss (I think), and has published about creating faceted schemes for humanities materials; she could be a good person to consult in these matters.   
+
+
+
+
+

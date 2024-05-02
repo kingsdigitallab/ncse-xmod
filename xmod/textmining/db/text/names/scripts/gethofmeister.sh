@@ -1,0 +1,12 @@
+mysql -P 51524 -u gbrey -h curlew.cch.kcl.ac.uk -B -e 'SELECT DISTINCT tscomposerName FROM TSComposers ORDER BY tscomposerName' hofmeister >../ori/hofmeister-distinct/hofmeister.TSComposers.tscomposerName.txt
+mysql -P 51524 -u gbrey -h curlew.cch.kcl.ac.uk -B -e 'SELECT DISTINCT tspublisherName FROM TSPublishers ORDER BY tspublisherName' hofmeister >../ori/hofmeister-distinct/hofmeister.TSPublishers.tspublisherName.txt
+mysql -P 51524 -u gbrey -h curlew.cch.kcl.ac.uk -B -e 'SELECT DISTINCT tspubplaceName FROM TSPubPlaces ORDER BY tspubplaceName' hofmeister >../ori/hofmeister-distinct/hofmeister.TSPubPlaces.tspubplaceName.txt
+mysql -P 51524 -u gbrey -h curlew.cch.kcl.ac.uk -B -e 'SELECT DISTINCT Element FROM Uniq_artist ORDER BY Element' hofmeister >../ori/hofmeister-distinct/hofmeister.Uniq_artist.Element.txt
+mysql -P 51524 -u gbrey -h curlew.cch.kcl.ac.uk -B -e 'SELECT DISTINCT Element FROM Uniq_author ORDER BY Element' hofmeister >../ori/hofmeister-distinct/hofmeister.Uniq_author.Element.txt
+mysql -P 51524 -u gbrey -h curlew.cch.kcl.ac.uk -B -e 'SELECT DISTINCT Element FROM Uniq_composer ORDER BY Element' hofmeister >../ori/hofmeister-distinct/hofmeister.Uniq_composer.Element.txt
+mysql -P 51524 -u gbrey -h curlew.cch.kcl.ac.uk -B -e 'SELECT DISTINCT Element FROM Uniq_publisher ORDER BY Element' hofmeister >../ori/hofmeister-distinct/hofmeister.Uniq_publisher.Element.txt
+mysql -P 51524 -u gbrey -h curlew.cch.kcl.ac.uk -B -e 'SELECT DISTINCT Element FROM Uniq_pubPlace ORDER BY Element' hofmeister >../ori/hofmeister-distinct/hofmeister.Uniq_pubPlace.Element.txt
+mysql -P 51524 -u gbrey -h curlew.cch.kcl.ac.uk -B -e 'SELECT DISTINCT Element FROM Uniq_subject ORDER BY Element' hofmeister >../ori/hofmeister-distinct/hofmeister.Uniq_subject.Element.txt
+mysql -P 51524 -u gbrey -h curlew.cch.kcl.ac.uk -B -e 'SELECT DISTINCT varcomposerName FROM VarComposers ORDER BY varcomposerName' hofmeister >../ori/hofmeister-distinct/hofmeister.VarComposers.varcomposerName.txt
+mysql -P 51524 -u gbrey -h curlew.cch.kcl.ac.uk -B -e 'SELECT DISTINCT varpublisherName FROM VarPublishers ORDER BY varpublisherName' hofmeister >../ori/hofmeister-distinct/hofmeister.VarPublishers.varpublisherName.txt
+mysql -P 51524 -u gbrey -h curlew.cch.kcl.ac.uk -B -e 'SELECT DISTINCT varpubplaceName FROM VarPubPlaces ORDER BY varpubplaceName' hofmeister >../ori/hofmeister-distinct/hofmeister.VarPubPlaces.varpubplaceName.txt

@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<!DOCTYPE authorityList SYSTEM "../../dtd/alist/AL_fileBase.dtd">
+<authorityList day="_unspecified" id="AL_fileBase" month="_unspecified" resp="ADD HERE" year="2003">
+  <header>
+    <title>Filebase for PROJNAME</title>
+    <changeNotes>
+      <changeItem>
+        <name />
+        <p />
+      </changeItem>
+    </changeNotes>
+    <comments> </comments>
+  </header>
+  <body>
+    <rhcontent value="off" />
+    <theme />
+    <group default="p0" id="g0" level="0">
+      <groupHead>
+        <groupTitle>Home</groupTitle>
+        <groupFolder />
+        <theme type01="th1" />
+      </groupHead>
+      <item id="p0">
+        <fileName>index</fileName>
+        <fileTitle>Home</fileTitle>
+      </item>
+    </group>
+    <group default="p1_0" id="g1" level="2" parRef="p0">
+      <groupHead>
+        <groupTitle>About</groupTitle>
+        <groupFolder>/about</groupFolder>
+      </groupHead>
+      <item id="p1_0">
+        <fileName>index</fileName>
+        <fileTitle>About ncse</fileTitle>
+      </item>
+      <item id="p1_1">
+        <fileName>welcome</fileName>
+        <fileTitle>Welcome to ncse</fileTitle>
+      </item>
+      <item id="p1_2">
+        <fileName>technical</fileName>
+        <fileTitle>Technical Introduction</fileTitle>
+      </item>
+      <item id="p1_3">
+        <fileName>release</fileName>
+        <fileTitle>Release Notes</fileTitle>
+      </item>
+      
+      <item id="p1_4">
+        <fileName>contact</fileName>
+        <fileTitle>Contact Us</fileTitle>
+      </item>
+      <item id="p1_5">
+        <fileName>feedback</fileName>
+        <fileTitle>Feedback form</fileTitle>
+      </item>
+      <item id="p1_6">
+        <fileName>thanks</fileName>
+        <fileTitle>Thank you</fileTitle>
+      </item>
+      <item id="p1_7">
+        <fileName>acknowledgements</fileName>
+      </item>
+      
+    </group>
+    <group default="p2_1" id="g2" level="2" parRef="p0">
+      <groupHead>
+        <groupTitle>Headnotes</groupTitle>
+        <groupFolder>/headnotes</groupFolder>
+      </groupHead>
+      <item id="p2_1">
+        <fileName>mrp</fileName>
+        <fileTitle>Monthly Repository</fileTitle>
+      </item>
+      <item id="p2_2">
+        <fileName>nss</fileName>
+        <fileTitle>Northern Star</fileTitle>
+      </item>
+      <item id="p2_3">
+        <fileName>ldr</fileName>
+        <fileTitle>Leader</fileTitle>
+      </item>
+      <item id="p2_4">
+        <fileName>ewj</fileName>
+        <fileTitle>English Woman’s Journal</fileTitle>
+      </item>
+      <item id="p2_5">
+        <fileName>ttw</fileName>
+        <fileTitle>Tomahawk</fileTitle>
+      </item>
+      <item id="p2_6">
+        <fileName>tec</fileName>
+        <fileTitle>Publishers’ Circular</fileTitle>
+      </item>
+    </group>
+    <group default="p3" id="g3">
+      <groupHead>
+        <groupTitle>Browse</groupTitle>
+        <groupFolder>/browse</groupFolder>
+      </groupHead>
+      <item id="p3">
+        <fileName>index</fileName>
+        <fileTitle>Browse Index</fileTitle>
+      </item>
+      <item id="browse_subject">
+        <fileName>subject</fileName>
+        <fileTitle>Browse by Subject</fileTitle>
+      </item>
+      <item id="browse_image">
+        <fileName>image</fileName>
+        <fileTitle>Browse by Image Metadata</fileTitle>
+      </item>
+      <item id="browse_subject_result">
+        <fileName>subject</fileName>
+        <fileTitle>Browse by Subject</fileTitle>
+        <rhcontent value="on" />
+      </item>
+      <item id="browse_image_result">
+        <fileName>image_meta</fileName>
+        <fileTitle>Browse by Image Metadata</fileTitle>
+        <rhcontent value="on" />
+      </item>
+    </group>
+    <group default="p4_0" id="g4" level="2" parRef="p0">
+      <groupHead>
+        <groupTitle>Search</groupTitle>
+        <groupFolder>/search</groupFolder>
+        <rhcontent value="off" />
+      </groupHead>
+      <item id="p4_0">
+        <fileName>search</fileName>
+        <fileTitle>Search</fileTitle>
+      </item>
+      <item id="search_entity">
+        <fileName>entity-search</fileName>
+        <fileTitle>Entity Search</fileTitle>
+      </item>
+      <item id="search_thesaurus">
+        <fileName>thesaurus-search</fileName>
+        <fileTitle>Thesaurus Search</fileTitle>
+      </item>
+      <item id="search_advanced">
+        <fileName>advanced-search</fileName>
+        <fileTitle>Advanced Search</fileTitle>
+      </item>
+    </group>
+    <group id="g5" default="p5">
+      <groupHead>
+        <groupTitle>Editorial Commentary</groupTitle>
+        <groupFolder>/commentary</groupFolder>
+      </groupHead>
+      <item id="p5">
+        <fileName>index</fileName>
+        <fileTitle>Editorial Commentary</fileTitle>
+      </item>
+      <item id="p5_1">
+        <fileName>choice</fileName>
+      </item>
+      <item id="p5_2">
+        <fileName>editorial</fileName>
+        <fileTitle>Editorial Decisions</fileTitle>
+      </item>
+      <item id="p5_3">
+        <fileName>terminology</fileName>
+        <fileTitle>Terminology</fileTitle>
+      </item>
+      <item id="p5_4">
+        <fileName>visual</fileName>
+        <fileTitle>Visual Material</fileTitle>
+      </item>
+      <item id="p5_5">
+        <fileName>paratextual</fileName>
+        <fileTitle>Paratextual Material</fileTitle>
+      </item>
+      <item id="p5_6">
+        <fileName>multiple</fileName>
+        <fileTitle>Multiple Editions</fileTitle>
+      </item>
+      <item id="p5_7">
+        <fileName>mining</fileName>
+      </item>
+      <item id="p5_8">
+        <fileName>runs</fileName>
+      </item>
+      <item id="p5_9">
+        <fileName>core</fileName>
+      </item>
+      <item id="p5_10">
+        <fileName>mapping</fileName>
+      </item>
+      
+      <item id="p5_11">
+        <fileName>metadata</fileName>
+        <fileTitle>Metadata</fileTitle>
+      </item>
+    </group>
+    <group id="g6">
+      <groupHead>
+        <groupTitle>History</groupTitle>
+        <groupFolder>/history</groupFolder>
+      </groupHead>
+      <item id="p6">
+        <fileName>index</fileName>
+        <fileTitle>History of the Project</fileTitle>
+      </item>
+     <item id="p6_1">
+       <fileName>team</fileName>
+     </item>
+      <item id="p6_2">
+        <fileName>publications</fileName>
+        <fileTitle>Publications</fileTitle>
+      </item>
+      <item id="p6_3">
+        <fileName>conferences</fileName>
+        <fileTitle>Conferences</fileTitle>
+      </item>
+      <item id="p6_4">
+        <fileName>publicity</fileName>
+      </item>
+      <item id="p6_5">
+        <fileName>symposia</fileName>
+      </item>
+      
+    </group>
+    <group id="g7">
+      <groupHead>
+        <groupTitle>Reference</groupTitle>
+        <groupFolder>/reference</groupFolder>
+        <rhcontent value="off" />
+      </groupHead>
+      <item id="p7_0">
+        <fileName>index</fileName>
+        <fileTitle>Reference</fileTitle>
+      </item>
+      <item id="p7_1">
+        <fileName>bibliography</fileName>
+      </item>
+      <item id="p7_2">
+        <fileName>projects</fileName>
+      </item>
+      <item id="p7_3">
+        <fileName>links</fileName>
+      </item>
+      
+    </group>
+    <group id="g8">
+      <groupHead>
+        <groupTitle>Help</groupTitle>
+        <groupFolder>/help</groupFolder>
+        <rhcontent value="off" />
+      </groupHead>
+      <item id="p8">
+        <fileName>index</fileName>
+        <fileTitle>FAQ and Help</fileTitle>
+      </item>
+    </group>
+    <group id="g9">
+      <groupHead>
+        <groupTitle>Search of the Month</groupTitle>
+        <groupFolder>/month</groupFolder>
+      </groupHead>
+      <item id="p9_1">
+        <fileName>index</fileName>
+      </item>
+      
+    </group>
+   <!-- <group id="g9">
+      <groupHead>
+        <groupTitle>Type02</groupTitle>
+        <groupFolder>/content/month</groupFolder>
+        <rhcontent value="off"/>
+        <theme/>
+      </groupHead>
+      
+    </group>-->
+  </body>
+</authorityList>

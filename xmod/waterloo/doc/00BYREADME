@@ -1,0 +1,53 @@
+Waterloo complete version
+
+
+This directory contains the almost original version as downloaded
+from:
+
+ftp://victorianperiodicals.com
+UserID: VPPublic
+Password: periodicals
+
+my changes, before copying to "use":
+
+renamed files from *.txt to *.xml
+
+removed ^M character that interrupted the text after each ca. 2030
+characters - the files don't contain any newlines apart from that
+
+insert newlines after each element
+
+insert XML header and root element
+
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<root>
+...
+</root>
+
+maybe also:
+<!DOCTYPE root SYSTEM "countiesAC.dtd">
+
+in subjects, titles: replaced "&" with "&amp;"
+
+in titles: replaced <i>word</i> with "_"
+
+in titles: replaced title=""Jockey Ring Snips";" SeeRefRecordTitle=""
+with : "Jockey Ring Snips;" SeeRefRecordTitle=""
+title="Bosh and "Bunkum!;"
+with: "Bosh and Bunkum!;"
+title=""Electrician" Electrical Trades' Directory and Handbook, The"
+title="xbElectrician" Electrical Trades' Directory and Handbook, The"
+-------------------------------
+
+TODO later:
+
+analyse special characters: \222 and \346 for example
+
+analyse entities: &quot;, &lt;, &gt;
+
+analyse use of HTML tags within attributes: <i>, <qv>, <CCO> for example
+
+extra special chars: >, <, >>, ", within attribute values
+
+
+

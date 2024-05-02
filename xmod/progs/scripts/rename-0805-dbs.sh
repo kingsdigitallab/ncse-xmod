@@ -1,0 +1,27 @@
+#!/bin/sh
+mv ncsetoks_attw ncsetoks_0802_attw
+mv ncsetoks_cld ncsetoks_0802_cld
+mv ncsetoks_emrp ncsetoks_0802_emrp
+mv ncsetoks_ettw ncsetoks_0802_ettw
+mv ncsetoks_ewj ncsetoks_0802_ewj
+mv ncsetoks_fewj ncsetoks_0802_fewj
+mv ncsetoks_fldr ncsetoks_0802_fldr
+mv ncsetoks_fmrp ncsetoks_0802_fmrp
+mv ncsetoks_ftec ncsetoks_0802_ftec
+mv ncsetoks_fttw ncsetoks_0802_fttw
+mv ncsetoks_ldr ncsetoks_0802_ldr
+mv ncsetoks_mrp ncsetoks_0802_mrp
+mv ncsetoks_ns2 ncsetoks_0802_ns2
+mv ncsetoks_ns3 ncsetoks_0802_ns3
+mv ncsetoks_ns4 ncsetoks_0802_ns4
+mv ncsetoks_ns5 ncsetoks_0802_ns5
+mv ncsetoks_ns6 ncsetoks_0802_ns6
+mv ncsetoks_ns7 ncsetoks_0802_ns7
+mv ncsetoks_ns8 ncsetoks_0802_ns8
+mv ncsetoks_ns9 ncsetoks_0802_ns9
+mv ncsetoks_nss ncsetoks_0802_nss
+mv ncsetoks_smrp ncsetoks_0802_smrp
+mv ncsetoks_snss ncsetoks_0802_snss
+mv ncsetoks_tec ncsetoks_0802_tec
+mv ncsetoks_ttec ncsetoks_0802_ttec
+mv ncsetoks_ttw ncsetoks_0802_ttw

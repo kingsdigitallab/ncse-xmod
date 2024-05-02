@@ -1,0 +1,31 @@
+
+I just discussed this with Tamara again and we are concerned about how
+easy it is to inadvertently input wrong terms into the hierarchy via
+the admin tool. Just by pressing "add" a new entry is entered into the
+XML file. It even enters entries again that exist already in the
+hierarchy (and it converts them uppercase). There is no way of
+correcting a mistake. Tamara and I had from the outset advised against
+using the admin tool to enter new terms into the classification
+hierarchy and we strongly advise that this functionality is turned
+off again. We suggest that changes / additions to the classification
+hierarchy are done outside the admin tool, for example by adding them
+to the image metadata spreadsheet from where we would convert them to
+XML and insert the terms at the appropriate places in the hierarchy.
+
+As to the use of a forward slash ("/") as a separator between
+hierarchy levels in the image metadata field, we would appreciate if
+this could be changed to a character that does not appear within the
+text of the hierarchy terms, like for example an underscore ("_").
+This would make processing the metadata at a later stage a lot easier
+and less error-prone. Another solution would be (and this is what we
+had somehow expected) to not insert all the levels of the hierarchy
+into the metadata field, but only the lowest level (the "end leaf"),
+as the superior levels can be inferred from the id of the lowest
+level.
+
+It would therefore be advisable to wait with image metadata entry
+until a workable solution to these problems has been found.
+
+Best wishes,
+Gerhard
+

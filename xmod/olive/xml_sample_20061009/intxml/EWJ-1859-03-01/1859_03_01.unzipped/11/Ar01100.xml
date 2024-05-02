@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<XMD-entity REPOSITORY_FORMAT="1.0" ENTITY_TYPE="Article" PAGE_NO="11" ID="Ar01100" BOX="20 10 854 1060" LANGUAGE="English" CONTINUATION_TO="Ar01200" CONTINUATION_FROM="Ar01000" SNP="Ar0110000.png" SNP_WIDTH="835" SNP_HEIGHT="1051">
+	<Meta NAME="Untitled Article" DESCRIPTION="" SUBTYPE="" BASE_HREF="EWJ/1859/03/01" SOURCE_TYPE="TIFF" PUBLICATION="EWJ" SECTION="None" ISSUE_DATE="01/03/1859" WORDCNT="666" RELEASE_NO="041-EWJ-1859-03-01-001-SINGLE" PAGE_ID="" PAGE_TYPE="Single" PAGE_WIDTH="865" PAGE_HEIGHT="1081" DEFAULT_IMG_EXT="png" PDF_DESTINATION_MAPPED="OLV0_Entity_0011_0001" IMAGES_RESOLUTION="72" XMD_VER="2.6.235.8" PAGE_LABEL="11"/>
+	<Link SOURCE="041-EWJ-1859-03-01-001-SINGLE.PDF" FIRST_ID="Ar00200" LAST_ID="Ar07200" NEXT_ID="" PREV_ID="" TOC_ID="w:/repository/EWJ/1859/03/01/TOC.xml"/>
+	<Content>
+		<Primitive BOX="20 10 854 1060" ID="Ar0110000">
+			<L BOX="70 10 79 17"/>
+			<Q BOX="70 10 70 19" STYLE_REF="38" QID="1">•</Q>
+			<q BOX="70 10 72 19" STYLE_REF="38" NS="y" QID="1">*</q>
+			<QW QID="1">•*</QW>
+			<W BOX="72 10 75 19" STYLE_REF="38" NS="y">9</W>
+			<W BOX="75 10 79 19" STYLE_REF="38">S</W>
+			<L BOX="69 56 734 77"/>
+			<W BOX="69 59 80 83" STYLE_REF="4">I</W>
+			<W BOX="310 57 418 81" STYLE_REF="4">MARGARET</W>
+			<W BOX="431 57 455 81" STYLE_REF="4">OF</W>
+			<Q BOX="468 57 506 81" STYLE_REF="4" QID="2">NOR</Q>
+			<q BOX="507 57 553 81" STYLE_REF="4" NS="y" QID="2">WAY</q>
+			<QW QID="2">NORWAY</QW>
+			<W BOX="553 57 558 81" STYLE_REF="4">.</W>
+			<W BOX="707 56 734 80" STYLE_REF="4">11</W>
+			<L BOX="68 95 731 119"/>
+			<W BOX="68 96 77 120" STYLE_REF="4">1</W>
+			<W BOX="137 96 154 120" STYLE_REF="4">in</W>
+			<W BOX="162 96 195 120" STYLE_REF="4">this</W>
+			<W BOX="200 96 258 120" STYLE_REF="4">matter</W>
+			<W BOX="266 96 281 119" STYLE_REF="4">of</W>
+			<W BOX="288 96 315 119" STYLE_REF="4">tlie</W>
+			<W BOX="323 96 393 119" STYLE_REF="4">Swedish</W>
+			<W BOX="401 96 466 119" STYLE_REF="4" NS="y">alliance</W>
+			<W BOX="467 95 472 119" STYLE_REF="4">,</W>
+			<W BOX="479 95 493 119" STYLE_REF="4">is</W>
+			<W BOX="501 95 571 119" STYLE_REF="4">sufficient</W>
+			<W BOX="580 95 625 119" STYLE_REF="4">proof</W>
+			<W BOX="633 95 649 118" STYLE_REF="4">of</W>
+			<W BOX="655 95 683 118" STYLE_REF="4">the</W>
+			<Q BOX="690 95 708 118" STYLE_REF="4" QID="3">hi</Q>
+			<Q BOX="708 95 719 119" STYLE_REF="4" QID="3">g</Q>
+			<q BOX="718 95 731 118" STYLE_REF="4" QID="3">h</q>
+			<QW QID="3">high</QW>
+			<L BOX="67 114 734 139"/>
+			<W BOX="67 116 76 139" STYLE_REF="4">1</W>
+			<Q BOX="138 116 158 139" STYLE_REF="4" QID="4">op</Q>
+			<q BOX="158 115 202 139" STYLE_REF="4" QID="4">inion</q>
+			<QW QID="4">opinion</QW>
+			<W BOX="207 115 229 139" STYLE_REF="4">he</W>
+			<Q BOX="236 115 287 139" STYLE_REF="4" QID="5">alread</Q>
+			<q BOX="286 115 299 138" STYLE_REF="4" QID="5">y</q>
+			<QW QID="5">already</QW>
+			<W BOX="305 115 400 138" STYLE_REF="4">entertained</W>
+			<W BOX="409 114 424 138" STYLE_REF="4">of</W>
+			<W BOX="432 114 460 138" STYLE_REF="4">her</W>
+			<W BOX="468 114 524 138" STYLE_REF="4" NS="y">talents</W>
+			<W BOX="524 114 529 138" STYLE_REF="4">.</W>
+			<W BOX="552 114 595 138" STYLE_REF="4">Thus</W>
+			<W BOX="602 114 615 138" STYLE_REF="4">it</W>
+			<W BOX="623 114 666 138" STYLE_REF="4">came</W>
+			<W BOX="671 114 687 138" STYLE_REF="4">to</W>
+			<W BOX="694 114 734 138" STYLE_REF="4">pass</W>
+			<L BOX="66 133 731 172"/>
+			<W BOX="66 154 79 178" STYLE_REF="7">m</W>
+			<W BOX="66 139 80 162" STYLE_REF="4">jj</W>
+			<W BOX="137 135 144 158" STYLE_REF="4">t</W>
+			<W BOX="137 154 153 178" STYLE_REF="4">N</W>
+			<W BOX="144 135 172 158" STYLE_REF="4" NS="y">hat</W>
+			<W BOX="173 135 177 158" STYLE_REF="4">,</W>
+			<W BOX="185 135 223 159" STYLE_REF="4">desp</W>
+			<W BOX="215 154 246 177" STYLE_REF="4">and</W>
+			<W BOX="223 134 245 158" STYLE_REF="4">ite</W>
+			<W BOX="253 134 274 158" STYLE_REF="4">all</W>
+			<W BOX="254 154 318 177" STYLE_REF="4">Sweden</W>
+			<W BOX="280 134 346 158" STYLE_REF="4">hazards</W>
+			<W BOX="330 153 346 177" STYLE_REF="4">at</W>
+			<W BOX="347 133 351 157" STYLE_REF="4">,</W>
+			<W BOX="354 153 406 177" STYLE_REF="4">eleven</W>
+			<W BOX="360 134 387 157" STYLE_REF="4">she</W>
+			<W BOX="398 134 432 157" STYLE_REF="4">was</W>
+			<W BOX="442 134 486 157" STYLE_REF="4">King</W>
+			<W BOX="468 153 484 177" STYLE_REF="4">of</W>
+			<W BOX="493 134 541 157" STYLE_REF="4">Hako</W>
+			<W BOX="524 153 530 177" STYLE_REF="4">.</W>
+			<Q BOX="540 134 546 157" STYLE_REF="4" QID="6">'</Q>
+			<q BOX="545 134 553 157" STYLE_REF="4" QID="6">s</q>
+			<QW QID="6">'s</QW>
+			<W BOX="560 134 599 157" STYLE_REF="4" NS="y">wife</W>
+			<W BOX="597 133 601 156" STYLE_REF="4">,</W>
+			<W BOX="613 133 644 157" STYLE_REF="4">and</W>
+			<W BOX="652 132 706 156" STYLE_REF="4">Queen</W>
+			<W BOX="714 133 731 156" STYLE_REF="4">of</W>
+			<L BOX="66 163 732 196"/>
+			<W BOX="66 173 76 197" STYLE_REF="7">M</W>
+			<W BOX="154 154 206 177" STYLE_REF="4">orway</W>
+			<W BOX="160 173 208 197" STYLE_REF="4">Great</W>
+			<W BOX="216 173 257 197" STYLE_REF="4">were</W>
+			<W BOX="261 173 288 197" STYLE_REF="4">the</W>
+			<Q BOX="295 172 320 196" STYLE_REF="4" QID="7">rej</Q>
+			<q BOX="318 172 378 196" STYLE_REF="4" QID="7">oicings</q>
+			<QW QID="7">rejoicings</QW>
+			<W BOX="318 153 322 176" STYLE_REF="4">,</W>
+			<W BOX="384 172 414 196" STYLE_REF="4">and</W>
+			<W BOX="414 153 461 177" STYLE_REF="4">years</W>
+			<Q BOX="419 172 462 196" STYLE_REF="4" QID="8">brilli</Q>
+			<q BOX="463 172 490 196" STYLE_REF="4" QID="8">ant</q>
+			<QW QID="8">brilliant</QW>
+			<W BOX="495 172 522 196" STYLE_REF="4">the</W>
+			<W BOX="495 153 524 177" STYLE_REF="4">age</W>
+			<W BOX="527 171 609 195" STYLE_REF="4">festivities</W>
+			<W BOX="616 171 633 195" STYLE_REF="4">in</W>
+			<Q BOX="638 171 655 195" STYLE_REF="4" QID="9">D</Q>
+			<Q BOX="654 171 691 195" STYLE_REF="4" QID="9">enm</Q>
+			<q BOX="691 171 720 195" STYLE_REF="4" NS="y" QID="9">ark</q>
+			<QW QID="9">Denmark</QW>
+			<W BOX="725 171 732 195" STYLE_REF="4">;</W>
+			<L BOX="65 190 731 218"/>
+			<W BOX="65 200 77 223" STYLE_REF="4">H</W>
+			<W BOX="137 192 161 216" STYLE_REF="4">for</W>
+			<W BOX="172 192 200 216" STYLE_REF="4">not</W>
+			<Q BOX="213 192 240 216" STYLE_REF="4" QID="10">onl</Q>
+			<q BOX="239 192 251 216" STYLE_REF="4" QID="10">y</q>
+			<QW QID="10">only</QW>
+			<W BOX="261 192 294 216" STYLE_REF="4">was</W>
+			<W BOX="305 191 325 215" STYLE_REF="4">an</W>
+			<W BOX="338 191 425 215" STYLE_REF="4">important</W>
+			<W BOX="437 191 500 215" STYLE_REF="4">alliance</W>
+			<W BOX="512 191 597 215" STYLE_REF="4" NS="y">concluded</W>
+			<W BOX="597 190 601 214" STYLE_REF="4">,</W>
+			<W BOX="611 190 640 214" STYLE_REF="4">but</W>
+			<W BOX="653 190 680 214" STYLE_REF="4">the</W>
+			<Q BOX="691 190 723 214" STYLE_REF="4" QID="11">Hol</Q>
+			<Q BOX="723 190 731 214" STYLE_REF="4" LH="y" QID="11">-</Q>
+			<L BOX="64 209 730 236"/>
+			<q BOX="64 212 71 236" STYLE_REF="4" NS="y" QID="11">§</q>
+			<QW QID="11">Hol-§</QW>
+			<W BOX="71 212 74 236" STYLE_REF="4">i</W>
+			<W BOX="137 211 201 235" STYLE_REF="4">steiners</W>
+			<W BOX="207 211 249 235" STYLE_REF="4">were</W>
+			<W BOX="253 211 333 235" STYLE_REF="4" NS="y">outwitted</W>
+			<W BOX="333 210 338 234" STYLE_REF="4">,</W>
+			<W BOX="346 210 377 234" STYLE_REF="4">and</W>
+			<W BOX="385 210 394 234" STYLE_REF="4">a</W>
+			<W BOX="402 210 474 234" STYLE_REF="4">national</W>
+			<Q BOX="478 210 512 234" STYLE_REF="4" QID="12">jeal</Q>
+			<q BOX="510 210 549 234" STYLE_REF="4" QID="12">ousy</q>
+			<QW QID="12">jealousy</QW>
+			<W BOX="556 210 590 234" STYLE_REF="4">was</W>
+			<W BOX="594 209 667 233" STYLE_REF="4" NS="y">gratified</W>
+			<W BOX="667 209 672 233" STYLE_REF="4">.</W>
+			<Q BOX="687 209 723 233" STYLE_REF="4" QID="13">Mar</Q>
+			<Q BOX="723 209 730 233" STYLE_REF="4" QID="13">-</Q>
+			<L BOX="64 228 730 254"/>
+			<q BOX="64 230 72 254" STYLE_REF="4" QID="13">i</q>
+			<QW QID="13">Mari</QW>
+			<Q BOX="137 230 180 254" STYLE_REF="4" QID="14">riage</Q>
+			<Q BOX="180 230 187 254" STYLE_REF="4" LH="y" QID="14">-</Q>
+			<q BOX="187 230 228 254" STYLE_REF="4" QID="14">bells</q>
+			<QW QID="14">riage-bells</QW>
+			<W BOX="241 230 271 254" STYLE_REF="4">and</W>
+			<Q BOX="283 230 328 254" STYLE_REF="4" QID="15">death</Q>
+			<Q BOX="328 230 335 254" STYLE_REF="4" LH="y" QID="15">-</Q>
+			<q BOX="335 230 377 254" STYLE_REF="4" NS="y" QID="15">bells</q>
+			<QW QID="15">death-bells</QW>
+			<W BOX="376 229 381 253" STYLE_REF="4">,</W>
+			<W BOX="394 229 468 253" STYLE_REF="4" NS="y">however</W>
+			<W BOX="466 229 471 252" STYLE_REF="4">,</W>
+			<W BOX="488 229 530 253" STYLE_REF="4">differ</W>
+			<Q BOX="544 229 571 253" STYLE_REF="4" QID="16">onl</Q>
+			<q BOX="569 229 582 253" STYLE_REF="4" QID="16">y</q>
+			<QW QID="16">only</QW>
+			<W BOX="591 229 609 252" STYLE_REF="4">in</W>
+			<W BOX="619 229 647 252" STYLE_REF="4">the</W>
+			<Q BOX="659 229 699 252" STYLE_REF="4" QID="17">ring</Q>
+			<q BOX="696 228 724 252" STYLE_REF="4" NS="y" QID="17">ing</q>
+			<QW QID="17">ringing</QW>
+			<W BOX="724 228 730 252" STYLE_REF="4">,</W>
+			<L BOX="63 247 733 272"/>
+			<W BOX="63 252 74 276" STYLE_REF="7">M</W>
+			<W BOX="137 249 168 273" STYLE_REF="4">and</W>
+			<W BOX="180 249 222 273" STYLE_REF="4">amid</W>
+			<W BOX="234 249 261 273" STYLE_REF="4">the</W>
+			<W BOX="268 249 333 272" STYLE_REF="4">dancing</W>
+			<W BOX="342 249 372 272" STYLE_REF="4">and</W>
+			<W BOX="379 249 448 272" STYLE_REF="4">feasting</W>
+			<W BOX="455 249 508 272" STYLE_REF="4">which</W>
+			<W BOX="515 248 600 272" STYLE_REF="4">celebrated</W>
+			<Q BOX="611 248 636 271" STYLE_REF="4" QID="18">thi</Q>
+			<q BOX="636 248 644 271" STYLE_REF="4" QID="18">s</q>
+			<QW QID="18">this</QW>
+			<Q BOX="654 248 714 271" STYLE_REF="4" QID="19">triump</Q>
+			<q BOX="714 247 725 271" STYLE_REF="4" NS="y" QID="19">h</q>
+			<QW QID="19">triumph</QW>
+			<W BOX="726 247 733 270" STYLE_REF="4">,</W>
+			<L BOX="63 267 732 292"/>
+			<W BOX="63 270 72 294" STYLE_REF="4">if</W>
+			<W BOX="137 269 146 292" STYLE_REF="4">a</W>
+			<W BOX="154 269 206 292" STYLE_REF="4">heavy</W>
+			<W BOX="212 269 269 292" STYLE_REF="4">sorrow</W>
+			<W BOX="277 269 318 292" STYLE_REF="4">befel</W>
+			<W BOX="329 268 373 292" STYLE_REF="4">King</W>
+			<W BOX="380 267 471 291" STYLE_REF="4" NS="y">Waldemar</W>
+			<W BOX="472 267 477 291" STYLE_REF="4">,</W>
+			<W BOX="485 267 515 291" STYLE_REF="4">and</W>
+			<W BOX="522 267 578 291" STYLE_REF="4">turned</W>
+			<W BOX="589 267 610 291" STYLE_REF="4">all</W>
+			<W BOX="618 267 644 291" STYLE_REF="4">his</W>
+			<W BOX="651 267 703 291" STYLE_REF="4">smiles</W>
+			<W BOX="714 267 732 290" STYLE_REF="4">to</W>
+			<L BOX="62 285 733 312"/>
+			<W BOX="62 288 74 312" STYLE_REF="7">w</W>
+			<Q BOX="137 288 184 312" STYLE_REF="4" QID="20">weep</Q>
+			<q BOX="181 288 208 311" STYLE_REF="4" NS="y" QID="20">ing</q>
+			<QW QID="20">weeping</QW>
+			<W BOX="208 288 213 311" STYLE_REF="4">.</W>
+			<W BOX="242 288 297 311" STYLE_REF="4">Prince</W>
+			<Q BOX="309 287 384 311" STYLE_REF="4" QID="21">Christop</Q>
+			<q BOX="381 287 411 310" STYLE_REF="4" NS="y" QID="21">her</q>
+			<QW QID="21">Christopher</QW>
+			<W BOX="412 286 416 310" STYLE_REF="4">,</W>
+			<W BOX="429 287 455 310" STYLE_REF="4">his</W>
+			<Q BOX="467 287 494 310" STYLE_REF="4" QID="22">onl</Q>
+			<q BOX="492 287 504 311" STYLE_REF="4" QID="22">y</q>
+			<QW QID="22">only</QW>
+			<W BOX="515 286 542 310" STYLE_REF="4">son</W>
+			<W BOX="554 286 585 310" STYLE_REF="4">and</W>
+			<W BOX="596 286 626 310" STYLE_REF="4">the</W>
+			<W BOX="634 286 668 310" STYLE_REF="4">heir</W>
+			<W BOX="680 286 697 310" STYLE_REF="4">to</W>
+			<W BOX="704 285 733 309" STYLE_REF="4">his</W>
+			<L BOX="62 305 732 349"/>
+			<W BOX="62 306 71 330" STYLE_REF="4">i</W>
+			<W BOX="69 311 71 334" STYLE_REF="4">j</W>
+			<W BOX="137 326 179 350" STYLE_REF="4">were</W>
+			<W BOX="137 307 190 331" STYLE_REF="4">crown</W>
+			<W BOX="185 326 211 349" STYLE_REF="4">left</W>
+			<W BOX="190 307 194 330" STYLE_REF="4">,</W>
+			<W BOX="202 307 237 330" STYLE_REF="4">died</W>
+			<W BOX="212 326 217 349" STYLE_REF="4">;</W>
+			<W BOX="221 326 316 349" STYLE_REF="4">inheritrices</W>
+			<W BOX="245 307 262 330" STYLE_REF="4">in</W>
+			<W BOX="269 307 297 330" STYLE_REF="4">the</W>
+			<W BOX="307 306 358 330" STYLE_REF="4">flower</W>
+			<W BOX="325 326 340 349" STYLE_REF="4">of</W>
+			<W BOX="352 326 392 349" STYLE_REF="4">their</W>
+			<W BOX="368 306 383 330" STYLE_REF="4">of</W>
+			<W BOX="390 306 417 330" STYLE_REF="4">his</W>
+			<W BOX="404 325 456 348" STYLE_REF="4">father</W>
+			<W BOX="424 306 474 330" STYLE_REF="4">youth</W>
+			<W BOX="457 325 463 348" STYLE_REF="4" NS="y">'</W>
+			<W BOX="462 325 470 349" STYLE_REF="4">s</W>
+			<W BOX="474 305 479 329" STYLE_REF="4">,</W>
+			<W BOX="481 325 521 349" STYLE_REF="4">king</W>
+			<W BOX="487 305 517 329" STYLE_REF="4">and</W>
+			<W BOX="520 324 556 348" STYLE_REF="4">dom</W>
+			<W BOX="525 305 604 329" STYLE_REF="4">Margaret</W>
+			<W BOX="558 324 561 348" STYLE_REF="4">.</W>
+			<W BOX="584 324 614 348" STYLE_REF="4">Thi</W>
+			<W BOX="612 305 642 329" STYLE_REF="4">and</W>
+			<W BOX="615 324 623 348" STYLE_REF="4">s</W>
+			<W BOX="633 324 677 348" STYLE_REF="4">great</W>
+			<W BOX="651 305 730 329" STYLE_REF="4">Ingeborg</W>
+			<W BOX="689 324 732 348" STYLE_REF="4">blow</W>
+			<L BOX="60 343 733 387"/>
+			<W BOX="60 368 69 391" STYLE_REF="4">if</W>
+			<Q BOX="61 347 74 371" STYLE_REF="4" QID="23">§</Q>
+			<q BOX="72 347 74 371" STYLE_REF="4" QID="23">|</q>
+			<QW QID="23">§|</QW>
+			<W BOX="136 345 166 369" STYLE_REF="4">put</W>
+			<W BOX="136 364 184 388" STYLE_REF="4">Hako</W>
+			<W BOX="179 345 199 369" STYLE_REF="4">an</W>
+			<W BOX="192 364 266 388" STYLE_REF="4">embarke</W>
+			<W BOX="211 345 240 369" STYLE_REF="4">end</W>
+			<W BOX="251 345 268 369" STYLE_REF="4">to</W>
+			<W BOX="266 364 276 388" STYLE_REF="4">d</W>
+			<W BOX="279 345 301 369" STYLE_REF="4">all</W>
+			<W BOX="282 364 307 388" STYLE_REF="4">for</W>
+			<W BOX="312 345 363 368" STYLE_REF="4">gaiety</W>
+			<W BOX="314 363 384 387" STYLE_REF="4">Norway</W>
+			<W BOX="376 344 406 368" STYLE_REF="4">and</W>
+			<W BOX="384 363 389 387" STYLE_REF="4">,</W>
+			<W BOX="395 363 451 387" STYLE_REF="4">taking</W>
+			<Q BOX="417 345 429 368" STYLE_REF="4" QID="24">p</Q>
+			<q BOX="428 344 486 367" STYLE_REF="4" QID="24">lunged</q>
+			<QW QID="24">plunged</QW>
+			<W BOX="458 363 485 387" STYLE_REF="4">his</W>
+			<W BOX="490 363 530 387" STYLE_REF="4">dusk</W>
+			<W BOX="497 344 525 367" STYLE_REF="4">the</W>
+			<W BOX="529 363 540 386" STYLE_REF="4">y</W>
+			<W BOX="535 344 578 367" STYLE_REF="4">court</W>
+			<Q BOX="544 363 586 386" STYLE_REF="4" QID="25">child</Q>
+			<q BOX="586 363 593 386" STYLE_REF="4" LH="y" QID="25">-</q>
+			<QW QID="25">child-</QW>
+			<W BOX="590 344 624 367" STYLE_REF="4">into</W>
+			<W BOX="593 363 636 386" STYLE_REF="4">bride</W>
+			<W BOX="635 343 721 367" STYLE_REF="4">mourning</W>
+			<W BOX="642 362 681 386" STYLE_REF="4">with</W>
+			<W BOX="684 362 720 386" STYLE_REF="4">him</W>
+			<W BOX="725 362 732 386" STYLE_REF="4">;</W>
+			<W BOX="725 343 733 367" STYLE_REF="4">;</W>
+			<L BOX="59 382 730 426"/>
+			<W BOX="59 405 69 428" STYLE_REF="4">1</W>
+			<W BOX="60 387 76 410" STYLE_REF="4">j</W>
+			<W BOX="136 403 177 426" STYLE_REF="4">with</W>
+			<W BOX="137 384 167 407" STYLE_REF="4">and</W>
+			<W BOX="175 384 203 407" STYLE_REF="4">the</W>
+			<W BOX="184 403 240 426" STYLE_REF="4">shame</W>
+			<W BOX="210 384 243 407" STYLE_REF="4">hap</W>
+			<W BOX="239 402 243 426" STYLE_REF="4">,</W>
+			<W BOX="242 383 272 407" STYLE_REF="4">less</W>
+			<W BOX="250 402 296 426" STYLE_REF="4">found</W>
+			<W BOX="279 383 361 407" STYLE_REF="4">Elizabeth</W>
+			<W BOX="305 402 364 425" STYLE_REF="4">herself</W>
+			<W BOX="362 382 366 406" STYLE_REF="4">,</W>
+			<W BOX="371 382 441 406" STYLE_REF="4">deceived</W>
+			<Q BOX="374 402 403 425" STYLE_REF="4" QID="26">onc</Q>
+			<q BOX="403 402 412 425" STYLE_REF="4" QID="26">e</q>
+			<QW QID="26">once</QW>
+			<W BOX="418 402 462 425" STYLE_REF="4">more</W>
+			<W BOX="443 382 447 406" STYLE_REF="4">,</W>
+			<W BOX="453 382 499 406" STYLE_REF="4">twice</W>
+			<W BOX="469 402 498 425" STYLE_REF="4" NS="y">free</W>
+			<W BOX="498 402 503 425" STYLE_REF="4">.</W>
+			<Q BOX="503 382 527 406" STYLE_REF="4" QID="27">rej</Q>
+			<q BOX="527 382 569 406" STYLE_REF="4" QID="27">ected</q>
+			<QW QID="27">rejected</QW>
+			<Q BOX="528 400 537 424" STYLE_REF="4" QID="28">"</Q>
+			<q BOX="536 400 617 424" STYLE_REF="4" QID="28">Waldemar</q>
+			<QW QID="28">"Waldemar</QW>
+			<W BOX="570 381 574 405" STYLE_REF="4">,</W>
+			<W BOX="581 382 611 405" STYLE_REF="4">and</W>
+			<W BOX="617 382 730 405" STYLE_REF="4">overwhelmed</W>
+			<W BOX="626 401 664 425" STYLE_REF="4">then</W>
+			<W BOX="672 400 727 424" STYLE_REF="4">offered</W>
+			<L BOX="136 420 731 444"/>
+			<W BOX="136 422 165 446" STYLE_REF="4">her</W>
+			<W BOX="173 422 200 446" STYLE_REF="4">the</W>
+			<W BOX="207 422 236 446" STYLE_REF="4">use</W>
+			<W BOX="243 422 258 446" STYLE_REF="4">of</W>
+			<W BOX="270 422 279 446" STYLE_REF="4">a</W>
+			<W BOX="286 421 336 444" STYLE_REF="4">vessel</W>
+			<W BOX="342 421 360 444" STYLE_REF="4">to</W>
+			<W BOX="366 421 421 444" STYLE_REF="4">return</W>
+			<W BOX="428 421 445 444" STYLE_REF="4">to</W>
+			<W BOX="452 421 524 444" STYLE_REF="4" NS="y">Holstein</W>
+			<W BOX="525 420 530 444" STYLE_REF="4">,</W>
+			<W BOX="537 420 566 444" STYLE_REF="4">but</W>
+			<W BOX="573 420 601 444" STYLE_REF="4">she</W>
+			<W BOX="609 420 671 444" STYLE_REF="4" NS="y">refused</W>
+			<W BOX="672 420 677 444" STYLE_REF="4">.</W>
+			<W BOX="698 420 731 443" STYLE_REF="4">Too</W>
+			<L BOX="136 439 730 465"/>
+			<W BOX="136 441 187 465" STYLE_REF="4">proud</W>
+			<W BOX="194 441 211 465" STYLE_REF="4">to</W>
+			<Q BOX="218 441 235 464" STYLE_REF="4" QID="29">re</Q>
+			<Q BOX="236 441 243 464" STYLE_REF="4" LH="y" QID="29">-</Q>
+			<q BOX="243 441 285 464" STYLE_REF="4" QID="29">enter</q>
+			<QW QID="29">re-enter</QW>
+			<W BOX="292 441 319 464" STYLE_REF="4">the</W>
+			<W BOX="325 440 377 464" STYLE_REF="4" NS="y">world</W>
+			<W BOX="376 440 380 463" STYLE_REF="4">,</W>
+			<W BOX="388 440 419 463" STYLE_REF="4">and</W>
+			<W BOX="427 440 453 463" STYLE_REF="4">too</W>
+			<W BOX="464 440 536 463" STYLE_REF="4">sensitive</W>
+			<W BOX="543 440 560 463" STYLE_REF="4">to</W>
+			<W BOX="568 439 626 463" STYLE_REF="4">endure</W>
+			<W BOX="633 439 661 463" STYLE_REF="4">the</W>
+			<W BOX="666 439 707 463" STYLE_REF="4">jests</W>
+			<W BOX="714 439 730 463" STYLE_REF="4">of</W>
+			<L BOX="136 458 731 484"/>
+			<W BOX="136 460 165 484" STYLE_REF="4">the</W>
+			<W BOX="174 460 256 484" STYLE_REF="4" NS="y">unfeeling</W>
+			<W BOX="256 460 261 484" STYLE_REF="4">,</W>
+			<W BOX="270 460 298 484" STYLE_REF="4">she</W>
+			<W BOX="307 459 353 483" STYLE_REF="4">chose</W>
+			<W BOX="364 459 418 483" STYLE_REF="4">rather</W>
+			<W BOX="429 459 446 483" STYLE_REF="4">to</W>
+			<W BOX="457 459 513 483" STYLE_REF="4">devote</W>
+			<W BOX="519 458 576 482" STYLE_REF="4">herself</W>
+			<W BOX="587 458 604 482" STYLE_REF="4">to</W>
+			<W BOX="611 458 672 482" STYLE_REF="4" NS="y">heaven</W>
+			<W BOX="675 458 679 482" STYLE_REF="4">;</W>
+			<W BOX="692 458 723 482" STYLE_REF="4" NS="y">and</W>
+			<W BOX="724 458 731 481" STYLE_REF="4">,</W>
+			<L BOX="58 477 730 504"/>
+			<W BOX="58 486 67 510" STYLE_REF="4">H</W>
+			<W BOX="62 471 69 495" STYLE_REF="4" M="1 * ">_I</W>
+			<W BOX="137 480 206 503" STYLE_REF="4">crossing</W>
+			<W BOX="218 480 254 503" STYLE_REF="4">over</W>
+			<W BOX="265 480 282 503" STYLE_REF="4">to</W>
+			<W BOX="293 479 356 503" STYLE_REF="4" NS="y">Sweden</W>
+			<W BOX="358 478 362 502" STYLE_REF="4">,</W>
+			<W BOX="373 478 435 502" STYLE_REF="4">entered</W>
+			<W BOX="446 478 475 502" STYLE_REF="4">the</W>
+			<W BOX="485 478 546 502" STYLE_REF="4">famous</W>
+			<W BOX="556 477 645 501" STYLE_REF="4">monastery</W>
+			<W BOX="652 477 667 501" STYLE_REF="4">of</W>
+			<Q BOX="681 477 722 501" STYLE_REF="4" QID="30">Wad</Q>
+			<Q BOX="722 477 730 501" STYLE_REF="4" QID="30">-</Q>
+			<L BOX="137 496 732 522"/>
+			<q BOX="137 499 182 522" STYLE_REF="4" NS="y" QID="30">stena</q>
+			<QW QID="30">Wadstena</QW>
+			<W BOX="182 499 187 522" STYLE_REF="4">,</W>
+			<W BOX="197 498 218 522" STYLE_REF="4">on</W>
+			<W BOX="225 498 252 522" STYLE_REF="4">the</W>
+			<W BOX="261 498 312 522" STYLE_REF="4">banks</W>
+			<W BOX="318 498 335 521" STYLE_REF="4">of</W>
+			<W BOX="345 498 374 521" STYLE_REF="4">the</W>
+			<W BOX="380 498 441 521" STYLE_REF="4">Wetter</W>
+			<W BOX="450 497 487 521" STYLE_REF="4" NS="y">lake</W>
+			<W BOX="488 497 493 521" STYLE_REF="4">.</W>
+			<W BOX="514 497 555 521" STYLE_REF="4" NS="y">How</W>
+			<W BOX="555 496 560 520" STYLE_REF="4">,</W>
+			<W BOX="570 496 588 520" STYLE_REF="4">in</W>
+			<W BOX="595 496 632 520" STYLE_REF="4">after</W>
+			<W BOX="643 496 690 520" STYLE_REF="4" NS="y">years</W>
+			<W BOX="690 496 695 519" STYLE_REF="4">,</W>
+			<W BOX="702 496 732 520" STYLE_REF="4">she</W>
+			<L BOX="58 516 731 541"/>
+			<W BOX="58 523 66 547" STYLE_REF="4">I</W>
+			<W BOX="137 518 168 542" STYLE_REF="4">and</W>
+			<Q BOX="177 517 211 541" STYLE_REF="4" QID="31">Que</Q>
+			<q BOX="212 518 231 541" STYLE_REF="4" QID="31">en</q>
+			<QW QID="31">Queen</QW>
+			<W BOX="239 518 317 541" STYLE_REF="4">Margaret</W>
+			<W BOX="325 517 358 540" STYLE_REF="4">met</W>
+			<W BOX="365 517 399 540" STYLE_REF="4">face</W>
+			<W BOX="406 517 423 540" STYLE_REF="4">to</W>
+			<Q BOX="430 517 454 540" STYLE_REF="4" QID="32">fac</Q>
+			<q BOX="455 517 463 540" STYLE_REF="4" QID="32">e</q>
+			<QW QID="32">face</QW>
+			<W BOX="471 517 527 540" STYLE_REF="4">within</W>
+			<W BOX="534 516 577 540" STYLE_REF="4">these</W>
+			<W BOX="581 516 646 540" STYLE_REF="4">convent</W>
+			<W BOX="651 516 697 540" STYLE_REF="4" NS="y">walls</W>
+			<W BOX="696 515 701 539" STYLE_REF="4">,</W>
+			<W BOX="706 516 731 540" STYLE_REF="4">we</W>
+			<L BOX="58 536 334 561"/>
+			<W BOX="58 537 67 561" STYLE_REF="4">1</W>
+			<W BOX="136 537 177 561" STYLE_REF="4">shall</W>
+			<Q BOX="185 537 196 561" STYLE_REF="4" QID="33">b</Q>
+			<q BOX="196 537 207 561" STYLE_REF="4" QID="33">y</q>
+			<QW QID="33">by</QW>
+			<W BOX="214 537 245 561" STYLE_REF="4">and</W>
+			<Q BOX="252 537 264 561" STYLE_REF="4" QID="34">b</Q>
+			<q BOX="263 537 274 560" STYLE_REF="4" QID="34">y</q>
+			<QW QID="34">by</QW>
+			<W BOX="280 536 328 560" STYLE_REF="4" NS="y">relate</W>
+			<W BOX="328 536 334 560" STYLE_REF="4">.</W>
+			<L BOX="58 554 730 579"/>
+			<W BOX="58 558 66 582" STYLE_REF="4">I</W>
+			<W BOX="158 556 179 580" STYLE_REF="4">In</W>
+			<W BOX="186 556 216 580" STYLE_REF="4">the</W>
+			<W BOX="220 556 306 580" STYLE_REF="4" NS="y">meantime</W>
+			<W BOX="304 555 309 579" STYLE_REF="4">,</W>
+			<W BOX="316 555 362 579" STYLE_REF="4">King</W>
+			<W BOX="371 555 419 578" STYLE_REF="4">Hako</W>
+			<W BOX="429 555 462 578" STYLE_REF="4">had</W>
+			<W BOX="472 555 527 578" STYLE_REF="4">landed</W>
+			<W BOX="540 555 556 578" STYLE_REF="4">in</W>
+			<Q BOX="568 555 609 578" STYLE_REF="4" QID="35">safet</Q>
+			<q BOX="608 554 619 578" STYLE_REF="4" QID="35">y</q>
+			<QW QID="35">safety</QW>
+			<W BOX="629 554 650 578" STYLE_REF="4">on</W>
+			<W BOX="660 554 688 578" STYLE_REF="4">his</W>
+			<W BOX="694 554 730 578" STYLE_REF="4">own</W>
+			<L BOX="58 573 729 599"/>
+			<W BOX="58 576 66 599" STYLE_REF="4">I</W>
+			<W BOX="136 576 190 599" STYLE_REF="4" NS="y">shores</W>
+			<W BOX="190 575 195 599" STYLE_REF="4">,</W>
+			<W BOX="203 575 233 599" STYLE_REF="4">and</W>
+			<W BOX="241 575 322 598" STYLE_REF="4">presented</W>
+			<W BOX="329 574 356 598" STYLE_REF="4">his</W>
+			<W BOX="362 574 416 598" STYLE_REF="4">young</W>
+			<W BOX="427 573 481 597" STYLE_REF="4">Queen</W>
+			<W BOX="492 573 509 597" STYLE_REF="4">to</W>
+			<W BOX="516 573 543 597" STYLE_REF="4">the</W>
+			<W BOX="550 573 610 597" STYLE_REF="4">Barons</W>
+			<W BOX="620 573 635 597" STYLE_REF="4">of</W>
+			<W BOX="647 573 685 597" STYLE_REF="4">both</W>
+			<Q BOX="697 573 722 597" STYLE_REF="4" QID="36">em</Q>
+			<Q BOX="722 573 729 597" STYLE_REF="4" LH="y" QID="36">-</Q>
+			<L BOX="58 592 730 619"/>
+			<q BOX="58 596 66 620" STYLE_REF="4" QID="36">I</q>
+			<QW QID="36">em-I</QW>
+			<Q BOX="135 595 147 619" STYLE_REF="4" QID="37">p</Q>
+			<q BOX="147 594 178 618" STYLE_REF="4" NS="y" QID="37">ires</q>
+			<QW QID="37">pires</QW>
+			<W BOX="178 594 184 618" STYLE_REF="4">.</W>
+			<W BOX="206 594 239 618" STYLE_REF="4">The</W>
+			<Q BOX="250 594 318 618" STYLE_REF="4" QID="38">Norweg</Q>
+			<q BOX="317 593 352 617" STYLE_REF="4" QID="38">ians</q>
+			<QW QID="38">Norwegians</QW>
+			<W BOX="363 593 404 617" STYLE_REF="4">were</W>
+			<W BOX="415 593 476 617" STYLE_REF="4" NS="y">content</W>
+			<W BOX="478 593 482 616" STYLE_REF="4">,</W>
+			<W BOX="493 593 524 616" STYLE_REF="4">and</W>
+			<Q BOX="534 593 594 616" STYLE_REF="4" QID="39">receive</Q>
+			<q BOX="594 593 604 616" STYLE_REF="4" QID="39">d</q>
+			<QW QID="39">received</QW>
+			<W BOX="615 593 643 616" STYLE_REF="4">her</W>
+			<Q BOX="654 592 717 616" STYLE_REF="4" QID="40">cordiall</Q>
+			<q BOX="717 592 730 616" STYLE_REF="4" QID="40">y</q>
+			<QW QID="40">cordially</QW>
+			<L BOX="58 611 729 637"/>
+			<W BOX="58 614 66 637" STYLE_REF="4">I</W>
+			<Q BOX="135 614 188 637" STYLE_REF="4" QID="41">enoug</Q>
+			<q BOX="187 613 199 637" STYLE_REF="4" QID="41">h</q>
+			<QW QID="41">enough</QW>
+			<W BOX="204 613 208 637" STYLE_REF="4">;</W>
+			<W BOX="213 613 242 637" STYLE_REF="4">but</W>
+			<W BOX="247 613 274 637" STYLE_REF="4">the</W>
+			<Q BOX="280 613 333 637" STYLE_REF="4" QID="42">Swede</Q>
+			<q BOX="333 613 343 637" STYLE_REF="4" NS="y" QID="42">s</q>
+			<QW QID="42">Swedes</QW>
+			<W BOX="342 613 346 636" STYLE_REF="4">,</W>
+			<W BOX="355 612 422 636" STYLE_REF="4">offended</W>
+			<W BOX="430 612 467 636" STYLE_REF="4">that</W>
+			<W BOX="470 612 498 636" STYLE_REF="4">the</W>
+			<W BOX="501 612 543 636" STYLE_REF="4">king</W>
+			<W BOX="546 612 602 635" STYLE_REF="4" NS="y">should</W>
+			<W BOX="603 611 607 635" STYLE_REF="4">,</W>
+			<W BOX="612 612 651 635" STYLE_REF="4">after</W>
+			<W BOX="656 612 679 635" STYLE_REF="4" NS="y">all</W>
+			<W BOX="678 611 683 635" STYLE_REF="4">,</W>
+			<W BOX="688 611 729 635" STYLE_REF="4">have</W>
+			<L BOX="58 631 730 658"/>
+			<W BOX="58 640 65 663" STYLE_REF="4">I</W>
+			<Q BOX="136 633 226 656" STYLE_REF="4" QID="43">disregarde</Q>
+			<q BOX="227 633 237 656" STYLE_REF="4" QID="43">d</q>
+			<QW QID="43">disregarded</QW>
+			<W BOX="244 633 284 656" STYLE_REF="4">their</W>
+			<W BOX="292 632 362 656" STYLE_REF="4" NS="y">counsels</W>
+			<W BOX="363 632 367 655" STYLE_REF="4">,</W>
+			<Q BOX="372 632 404 655" STYLE_REF="4" QID="44">wer</Q>
+			<q BOX="404 632 413 655" STYLE_REF="4" QID="44">e</q>
+			<QW QID="44">were</QW>
+			<Q BOX="417 632 438 655" STYLE_REF="4" QID="45">op</Q>
+			<Q BOX="438 632 464 655" STYLE_REF="4" QID="45">enl</Q>
+			<q BOX="463 632 474 656" STYLE_REF="4" QID="45">y</q>
+			<QW QID="45">openly</QW>
+			<W BOX="479 631 567 655" STYLE_REF="4" NS="y">dissatisfied</W>
+			<W BOX="571 631 576 654" STYLE_REF="4">,</W>
+			<W BOX="582 631 612 655" STYLE_REF="4">and</W>
+			<W BOX="618 631 693 655" STYLE_REF="4">espoused</W>
+			<W BOX="701 631 730 655" STYLE_REF="4">the</W>
+			<L BOX="58 650 729 676"/>
+			<W BOX="58 653 65 677" STYLE_REF="4">I</W>
+			<W BOX="136 652 217 676" STYLE_REF="4">grievance</W>
+			<W BOX="226 652 241 676" STYLE_REF="4">of</W>
+			<W BOX="252 652 280 676" STYLE_REF="4">the</W>
+			<W BOX="287 651 358 675" STYLE_REF="4">Holstein</W>
+			<Q BOX="366 651 410 675" STYLE_REF="4" QID="46">famil</Q>
+			<q BOX="410 651 421 674" STYLE_REF="4" NS="y" QID="46">y</q>
+			<QW QID="46">family</QW>
+			<W BOX="421 651 427 674" STYLE_REF="4">.</W>
+			<Q BOX="449 651 462 674" STYLE_REF="4" QID="47">P</Q>
+			<Q BOX="463 651 494 674" STYLE_REF="4" QID="47">artl</Q>
+			<q BOX="493 651 504 674" STYLE_REF="4" QID="47">y</q>
+			<QW QID="47">Partly</QW>
+			<W BOX="510 651 527 674" STYLE_REF="4">to</W>
+			<W BOX="534 650 612 673" STYLE_REF="4">conciliate</W>
+			<W BOX="622 650 666 673" STYLE_REF="4">these</W>
+			<W BOX="675 650 722 673" STYLE_REF="4" NS="y">latter</W>
+			<W BOX="723 650 729 673" STYLE_REF="4">,</W>
+			<L BOX="58 669 729 696"/>
+			<W BOX="58 674 63 697" STYLE_REF="4">I</W>
+			<W BOX="136 671 167 695" STYLE_REF="4">and</W>
+			<Q BOX="175 671 217 695" STYLE_REF="4" QID="48">partl</Q>
+			<q BOX="216 672 227 696" STYLE_REF="4" QID="48">y</q>
+			<QW QID="48">partly</QW>
+			<W BOX="233 671 299 694" STYLE_REF="4">because</W>
+			<W BOX="305 670 333 694" STYLE_REF="4">she</W>
+			<W BOX="340 670 374 694" STYLE_REF="4">was</W>
+			<W BOX="381 670 412 694" STYLE_REF="4">still</W>
+			<W BOX="425 670 442 694" STYLE_REF="4">so</W>
+			<W BOX="452 670 507 694" STYLE_REF="4">young</W>
+			<W BOX="517 669 546 693" STYLE_REF="4">and</W>
+			<W BOX="558 669 631 693" STYLE_REF="4" NS="y">tameless</W>
+			<W BOX="632 669 636 692" STYLE_REF="4">,</W>
+			<W BOX="643 669 670 692" STYLE_REF="4">the</W>
+			<Q BOX="679 669 721 692" STYLE_REF="4" QID="49">child</Q>
+			<Q BOX="721 669 729 692" STYLE_REF="4" LH="y" QID="49">-</Q>
+			<L BOX="24 688 728 733"/>
+			<q BOX="24 694 59 718" STYLE_REF="4" QID="49">|</q>
+			<QW QID="49">child-|</QW>
+			<W BOX="59 713 62 736" STYLE_REF="4">I</W>
+			<W BOX="136 710 200 733" STYLE_REF="4">Martha</W>
+			<W BOX="136 690 190 714" STYLE_REF="4">Queen</W>
+			<W BOX="198 691 232 715" STYLE_REF="4">was</W>
+			<W BOX="201 709 205 733" STYLE_REF="4">,</W>
+			<W BOX="213 710 249 733" STYLE_REF="4">who</W>
+			<W BOX="238 690 276 714" STYLE_REF="4">then</W>
+			<W BOX="259 709 292 733" STYLE_REF="4">was</W>
+			<W BOX="283 690 325 714" STYLE_REF="4">consi</W>
+			<W BOX="303 709 312 733" STYLE_REF="4">a</W>
+			<W BOX="323 709 367 733" STYLE_REF="4">daug</W>
+			<W BOX="325 689 367 713" STYLE_REF="4">gned</W>
+			<W BOX="366 708 401 732" STYLE_REF="4">hter</W>
+			<W BOX="374 689 397 712" STYLE_REF="4">for</W>
+			<W BOX="409 689 453 712" STYLE_REF="4">three</W>
+			<W BOX="409 708 424 732" STYLE_REF="4">of</W>
+			<W BOX="436 708 464 732" STYLE_REF="4">the</W>
+			<W BOX="464 689 509 712" STYLE_REF="4">years</W>
+			<W BOX="474 708 534 732" STYLE_REF="4">famous</W>
+			<W BOX="516 689 532 712" STYLE_REF="4">to</W>
+			<W BOX="539 689 567 712" STYLE_REF="4">the</W>
+			<W BOX="542 708 560 732" STYLE_REF="4" NS="y">St</W>
+			<W BOX="560 708 564 732" STYLE_REF="4">.</W>
+			<W BOX="572 707 600 731" STYLE_REF="4">Bri</W>
+			<W BOX="576 689 611 712" STYLE_REF="4">care</W>
+			<Q BOX="600 708 612 732" STYLE_REF="4" QID="50">g</Q>
+			<q BOX="611 707 640 731" STYLE_REF="4" QID="50">itta</q>
+			<QW QID="50">gitta</QW>
+			<W BOX="618 688 634 712" STYLE_REF="4">of</W>
+			<W BOX="645 688 673 712" STYLE_REF="4">the</W>
+			<W BOX="652 707 667 731" STYLE_REF="4">of</W>
+			<W BOX="678 707 720 731" STYLE_REF="4">Wad</W>
+			<Q BOX="684 688 718 712" STYLE_REF="4" QID="51">Lad</Q>
+			<q BOX="717 688 728 712" STYLE_REF="4" QID="51">y</q>
+			<QW QID="51">Lady</QW>
+			<W BOX="720 707 728 731" STYLE_REF="4" LH="y">-</W>
+			<L BOX="44 726 728 770"/>
+			<W BOX="44 731 59 755" STYLE_REF="4">|</W>
+			<W BOX="59 748 62 772" STYLE_REF="4">I</W>
+			<W BOX="97 748 99 772" STYLE_REF="4">.</W>
+			<W BOX="135 748 189 772" STYLE_REF="4">whom</W>
+			<W BOX="136 729 184 752" STYLE_REF="4">stenai</W>
+			<W BOX="195 748 223 772" STYLE_REF="4">she</W>
+			<W BOX="208 729 248 752" STYLE_REF="4">Now</W>
+			<W BOX="231 747 263 771" STYLE_REF="4">was</W>
+			<W BOX="258 728 286 752" STYLE_REF="4">the</W>
+			<W BOX="270 747 346 770" STYLE_REF="4">educating</W>
+			<Q BOX="297 728 330 752" STYLE_REF="4" QID="52">Lad</Q>
+			<q BOX="330 728 341 752" STYLE_REF="4" QID="52">y</q>
+			<QW QID="52">Lady</QW>
+			<W BOX="346 747 356 770" STYLE_REF="4">*</W>
+			<W BOX="352 727 405 751" STYLE_REF="4">Marth</W>
+			<W BOX="364 747 379 770" STYLE_REF="4">at</W>
+			<W BOX="388 747 416 770" STYLE_REF="4">the</W>
+			<W BOX="406 727 416 751" STYLE_REF="4">a</W>
+			<W BOX="426 747 465 770" STYLE_REF="4">time</W>
+			<W BOX="427 727 459 751" STYLE_REF="4">had</W>
+			<W BOX="465 746 470 770" STYLE_REF="4">,</W>
+			<W BOX="470 727 480 751" STYLE_REF="4">a</W>
+			<W BOX="480 746 510 770" STYLE_REF="4">and</W>
+			<W BOX="491 727 533 751" STYLE_REF="4">daug</W>
+			<W BOX="520 746 553 770" STYLE_REF="4">this</W>
+			<W BOX="533 727 568 750" STYLE_REF="4">hter</W>
+			<W BOX="563 746 597 770" STYLE_REF="4">was</W>
+			<W BOX="578 727 636 750" STYLE_REF="4">named</W>
+			<W BOX="606 746 624 770" STYLE_REF="4">in</W>
+			<W BOX="635 746 681 769" STYLE_REF="4">every</W>
+			<W BOX="648 726 727 750" STYLE_REF="4">Ingegord</W>
+			<W BOX="692 746 728 769" STYLE_REF="4">way</W>
+			<L BOX="135 765 728 791"/>
+			<W BOX="135 767 156 791" STYLE_REF="4">an</W>
+			<W BOX="164 767 251 791" STYLE_REF="4">advantage</W>
+			<W BOX="259 766 276 790" STYLE_REF="4">to</W>
+			<W BOX="283 766 363 790" STYLE_REF="4" NS="y">Margaret</W>
+			<W BOX="365 766 370 790" STYLE_REF="4">.</W>
+			<Q BOX="391 766 468 789" STYLE_REF="4" QID="53">Naturall</Q>
+			<q BOX="464 766 476 789" STYLE_REF="4" QID="53">y</q>
+			<QW QID="53">Naturally</QW>
+			<W BOX="482 765 566 789" STYLE_REF="4" NS="y">ambitious</W>
+			<W BOX="567 765 571 789" STYLE_REF="4">,</W>
+			<W BOX="579 765 607 788" STYLE_REF="4">she</W>
+			<W BOX="614 765 664 788" STYLE_REF="4">strove</W>
+			<W BOX="669 765 687 788" STYLE_REF="4">to</W>
+			<Q BOX="694 765 720 788" STYLE_REF="4" QID="54">sur</Q>
+			<Q BOX="720 765 728 788" STYLE_REF="4" QID="54">-</Q>
+			<L BOX="59 784 730 827"/>
+			<q BOX="59 789 61 813" STYLE_REF="4" QID="54">j</q>
+			<QW QID="54">surj</QW>
+			<W BOX="59 806 63 829" STYLE_REF="4">I</W>
+			<W BOX="135 787 174 810" STYLE_REF="4">pass</W>
+			<W BOX="136 806 164 829" STYLE_REF="4">she</W>
+			<W BOX="171 806 235 829" STYLE_REF="4">learned</W>
+			<W BOX="180 786 208 810" STYLE_REF="4">her</W>
+			<W BOX="216 786 306 810" STYLE_REF="4">companion</W>
+			<W BOX="242 805 260 829" STYLE_REF="4">to</W>
+			<W BOX="266 805 300 828" STYLE_REF="4">love</W>
+			<W BOX="311 785 328 809" STYLE_REF="4">in</W>
+			<W BOX="312 805 341 828" STYLE_REF="4">her</W>
+			<W BOX="334 785 379 809" STYLE_REF="4">every</W>
+			<W BOX="353 805 370 828" STYLE_REF="4">as</W>
+			<W BOX="381 805 390 828" STYLE_REF="4">a</W>
+			<W BOX="385 785 445 808" STYLE_REF="4">branch</W>
+			<W BOX="402 804 447 828" STYLE_REF="4" NS="y">sister</W>
+			<W BOX="448 803 453 827" STYLE_REF="4">,</W>
+			<W BOX="450 785 465 808" STYLE_REF="4">of</W>
+			<W BOX="465 803 495 827" STYLE_REF="4">and</W>
+			<W BOX="474 785 509 808" STYLE_REF="4">stud</W>
+			<W BOX="507 803 524 827" STYLE_REF="4">so</W>
+			<W BOX="509 785 522 808" STYLE_REF="4" NS="y">y</W>
+			<W BOX="522 785 531 808" STYLE_REF="4">;</W>
+			<W BOX="535 803 622 827" STYLE_REF="4">contracted</W>
+			<Q BOX="540 784 611 808" STYLE_REF="4" QID="55">naturall</Q>
+			<q BOX="609 784 620 808" STYLE_REF="4" QID="55">y</q>
+			<QW QID="55">naturally</QW>
+			<W BOX="625 784 720 807" STYLE_REF="4">affectionate</W>
+			<W BOX="634 803 664 827" STYLE_REF="4">one</W>
+			<W BOX="674 803 689 827" STYLE_REF="4">of</W>
+			<W BOX="700 803 729 826" STYLE_REF="4">the</W>
+			<W BOX="723 783 730 807" STYLE_REF="4">,</W>
+			<L BOX="59 822 728 847"/>
+			<W BOX="59 825 63 848" STYLE_REF="4">I</W>
+			<W BOX="135 825 195 848" STYLE_REF="4">earliest</W>
+			<W BOX="204 825 235 848" STYLE_REF="4">and</W>
+			<W BOX="242 824 286 847" STYLE_REF="4">latest</W>
+			<Q BOX="295 824 371 847" STYLE_REF="4" QID="56">friendshi</Q>
+			<q BOX="372 824 391 847" STYLE_REF="4" QID="56">ps</q>
+			<QW QID="56">friendships</QW>
+			<W BOX="398 823 415 847" STYLE_REF="4">of</W>
+			<W BOX="421 823 451 847" STYLE_REF="4">her</W>
+			<W BOX="457 823 483 847" STYLE_REF="4" NS="y">life</W>
+			<W BOX="483 823 487 847" STYLE_REF="4">.</W>
+			<W BOX="513 823 533 847" STYLE_REF="4">So</W>
+			<Q BOX="540 823 583 847" STYLE_REF="4" QID="57" M="5 * ">insep</Q>
+			<Q BOX="585 822 602 846" STYLE_REF="4" QID="57">ar</Q>
+			<q BOX="603 822 638 846" STYLE_REF="4" QID="57">able</q>
+			<QW QID="57">_inseparable</QW>
+			<W BOX="644 822 687 846" STYLE_REF="4">were</W>
+			<Q BOX="690 822 709 846" STYLE_REF="4" QID="58">th</Q>
+			<q BOX="709 822 728 846" STYLE_REF="4" QID="58">ey</q>
+			<QW QID="58">they</QW>
+			<L BOX="135 841 728 867"/>
+			<W BOX="135 844 150 868" STYLE_REF="4">at</W>
+			<Q BOX="159 844 184 868" STYLE_REF="4" QID="59">thi</Q>
+			<q BOX="185 844 192 868" STYLE_REF="4" QID="59">s</q>
+			<QW QID="59">this</QW>
+			<W BOX="199 844 253 867" STYLE_REF="4" NS="y">period</W>
+			<W BOX="254 843 258 866" STYLE_REF="4">,</W>
+			<W BOX="266 843 296 867" STYLE_REF="4">and</W>
+			<W BOX="304 843 321 867" STYLE_REF="4">so</W>
+			<W BOX="328 843 381 867" STYLE_REF="4">mixed</W>
+			<W BOX="389 843 411 866" STYLE_REF="4">up</W>
+			<W BOX="419 842 435 866" STYLE_REF="4">in</W>
+			<W BOX="443 842 473 866" STYLE_REF="4">one</W>
+			<Q BOX="480 842 544 866" STYLE_REF="4" QID="60">another</Q>
+			<Q BOX="546 842 551 866" STYLE_REF="4" QID="60">'</Q>
+			<q BOX="551 842 558 866" STYLE_REF="4" QID="60">s</q>
+			<QW QID="60">another's</QW>
+			<W BOX="565 842 636 865" STYLE_REF="4" NS="y">pursuits</W>
+			<W BOX="636 841 640 865" STYLE_REF="4">,</W>
+			<W BOX="647 841 682 865" STYLE_REF="4">that</W>
+			<W BOX="690 841 728 865" STYLE_REF="4">they</W>
+			<L BOX="135 861 728 905"/>
+			<W BOX="135 863 163 887" STYLE_REF="4">not</W>
+			<W BOX="135 882 179 906" STYLE_REF="4">erred</W>
+			<W BOX="168 863 195 887" STYLE_REF="4">onl</W>
+			<W BOX="188 882 219 906" STYLE_REF="4">and</W>
+			<W BOX="193 864 205 888" STYLE_REF="4">y</W>
+			<W BOX="213 865 227 889" STYLE_REF="4">"</W>
+			<W BOX="226 882 251 906" STYLE_REF="4">fell</W>
+			<W BOX="228 863 262 886" STYLE_REF="4">rose</W>
+			<W BOX="260 882 293 906" STYLE_REF="4">into</W>
+			<W BOX="270 863 286 886" STYLE_REF="4">at</W>
+			<W BOX="294 863 313 886" STYLE_REF="4">an</W>
+			<W BOX="304 881 374 905" STYLE_REF="4">disgrace</W>
+			<W BOX="321 862 381 886" STYLE_REF="4" NS="y">instant</W>
+			<W BOX="382 861 386 885" STYLE_REF="4">,</W>
+			<W BOX="385 881 458 904" STYLE_REF="4">together</W>
+			<Q BOX="390 862 435 885" STYLE_REF="4" QID="61">learn</Q>
+			<Q BOX="436 861 440 885" STYLE_REF="4" QID="61">'</Q>
+			<q BOX="440 861 451 885" STYLE_REF="4" NS="y" QID="61">d</q>
+			<QW QID="61">learn'd</QW>
+			<W BOX="452 861 456 885" STYLE_REF="4">,</W>
+			<W BOX="458 880 463 904" STYLE_REF="4">,</W>
+			<Q BOX="463 862 474 886" STYLE_REF="4" QID="62">p</Q>
+			<q BOX="474 861 500 885" STYLE_REF="4" QID="62">lay</q>
+			<QW QID="62">play</QW>
+			<W BOX="475 880 505 904" STYLE_REF="4">and</W>
+			<Q BOX="500 861 504 885" STYLE_REF="4" QID="63">'</Q>
+			<q BOX="504 861 516 885" STYLE_REF="4" QID="63">d</q>
+			<QW QID="63">'d</QW>
+			<W BOX="506 880 510 904" STYLE_REF="4">,</W>
+			<W BOX="516 861 521 885" STYLE_REF="4">,</W>
+			<W BOX="522 880 604 904" STYLE_REF="4">according</W>
+			<W BOX="528 861 552 885" STYLE_REF="4">eat</W>
+			<W BOX="559 861 630 885" STYLE_REF="4">together</W>
+			<W BOX="614 879 631 903" STYLE_REF="4">to</W>
+			<W BOX="632 860 638 884" STYLE_REF="4" NS="y">,</W>
+			<W BOX="636 861 645 884" STYLE_REF="4">"</W>
+			<W BOX="642 879 652 903" STYLE_REF="4">a</W>
+			<W BOX="654 861 683 884" STYLE_REF="4">but</W>
+			<W BOX="662 879 727 903" STYLE_REF="4">modern</W>
+			<W BOX="689 860 728 884" STYLE_REF="4">even</W>
+			<L BOX="60 899 728 939"/>
+			<Q BOX="60 921 61 951" STYLE_REF="39" QID="64">I</Q>
+			<q BOX="60 905 61 929" STYLE_REF="4" QID="64">|</q>
+			<QW QID="64">I|</QW>
+			<W BOX="134 916 163 946" STYLE_REF="39">rod</W>
+			<W BOX="136 902 205 925" STYLE_REF="4">Swedish</W>
+			<W BOX="163 916 169 946" STYLE_REF="39">.</W>
+			<W BOX="213 901 290 925" STYLE_REF="4" NS="y">historian</W>
+			<W BOX="290 901 294 924" STYLE_REF="4">,</W>
+			<W BOX="305 900 347 924" STYLE_REF="4">were</W>
+			<W BOX="357 900 385 924" STYLE_REF="4">not</W>
+			<Q BOX="396 900 496 924" STYLE_REF="4" QID="65">unfrequentl</Q>
+			<q BOX="495 900 506 924" STYLE_REF="4" QID="65">y</q>
+			<QW QID="65">unfrequently</QW>
+			<Q BOX="513 900 546 924" STYLE_REF="4" QID="66">whi</Q>
+			<q BOX="545 900 586 923" STYLE_REF="4" QID="66">pped</q>
+			<QW QID="66">whipped</QW>
+			<W BOX="596 899 636 923" STYLE_REF="4">with</W>
+			<W BOX="646 899 674 923" STYLE_REF="4">the</W>
+			<W BOX="685 899 728 923" STYLE_REF="4">same</W>
+			<L BOX="157 937 727 963"/>
+			<W BOX="157 940 231 963" STYLE_REF="4" NS="y">Industry</W>
+			<W BOX="231 940 237 963" STYLE_REF="4">,</W>
+			<W BOX="245 939 330 963" STYLE_REF="4" NS="y">emulation</W>
+			<W BOX="330 938 334 962" STYLE_REF="4">,</W>
+			<W BOX="343 939 373 962" STYLE_REF="4">and</W>
+			<W BOX="381 939 463 962" STYLE_REF="4" NS="y">obedience</W>
+			<W BOX="464 938 469 961" STYLE_REF="4">,</W>
+			<Q BOX="473 938 528 962" STYLE_REF="4" QID="67">howev</Q>
+			<q BOX="528 938 544 962" STYLE_REF="4" NS="y" QID="67">er</q>
+			<QW QID="67">however</QW>
+			<W BOX="545 938 549 961" STYLE_REF="4">,</W>
+			<W BOX="555 938 582 961" STYLE_REF="4">are</W>
+			<W BOX="587 938 660 961" STYLE_REF="4">excellent</W>
+			<W BOX="668 937 727 961" STYLE_REF="4">lessons</W>
+			<L BOX="133 956 727 982"/>
+			<W BOX="133 959 157 983" STYLE_REF="4">for</W>
+			<W BOX="168 959 221 983" STYLE_REF="4" NS="y">rulers</W>
+			<W BOX="225 958 230 982" STYLE_REF="4">;</W>
+			<W BOX="245 958 276 982" STYLE_REF="4">and</W>
+			<W BOX="290 958 318 982" STYLE_REF="4">the</W>
+			<Q BOX="332 958 366 982" STYLE_REF="4" QID="68">Lad</Q>
+			<q BOX="366 958 377 982" STYLE_REF="4" QID="68">y</q>
+			<QW QID="68">Lady</QW>
+			<W BOX="388 957 452 981" STYLE_REF="4">Martha</W>
+			<W BOX="463 957 497 981" STYLE_REF="4" NS="y">was</W>
+			<W BOX="497 957 501 981" STYLE_REF="4">,</W>
+			<W BOX="514 957 583 981" STYLE_REF="4" NS="y">perhaps</W>
+			<W BOX="582 957 587 980" STYLE_REF="4">,</W>
+			<W BOX="601 957 629 980" STYLE_REF="4">the</W>
+			<W BOX="643 957 680 980" STYLE_REF="4">very</W>
+			<W BOX="692 956 727 980" STYLE_REF="4">best</W>
+			<L BOX="133 976 727 1002"/>
+			<W BOX="133 978 218 1002" STYLE_REF="4">governess</W>
+			<W BOX="225 978 260 1002" STYLE_REF="4">that</W>
+			<W BOX="267 978 311 1001" STYLE_REF="4">could</W>
+			<W BOX="318 977 360 1001" STYLE_REF="4">have</W>
+			<W BOX="366 977 406 1001" STYLE_REF="4">been</W>
+			<W BOX="414 977 470 1001" STYLE_REF="4">chosen</W>
+			<W BOX="480 977 504 1001" STYLE_REF="4">for</W>
+			<W BOX="516 977 526 1001" STYLE_REF="4">a</W>
+			<W BOX="537 976 577 1000" STYLE_REF="4">child</W>
+			<W BOX="590 976 607 1000" STYLE_REF="4">in</W>
+			<W BOX="618 975 672 999" STYLE_REF="4">Queen</W>
+			<Q BOX="684 975 719 999" STYLE_REF="4" QID="69">Mar</Q>
+			<Q BOX="719 975 727 999" STYLE_REF="4" QID="69">-</Q>
+			<L BOX="133 995 728 1022"/>
+			<q BOX="133 998 179 1022" STYLE_REF="4" NS="y" QID="69">garet</q>
+			<QW QID="69">Margaret</QW>
+			<W BOX="180 998 184 1022" STYLE_REF="4" NS="y">'</W>
+			<W BOX="184 998 192 1022" STYLE_REF="4">s</W>
+			<W BOX="202 997 270 1021" STYLE_REF="4" NS="y">position</W>
+			<W BOX="270 997 275 1021" STYLE_REF="4">.</W>
+			<W BOX="297 997 367 1021" STYLE_REF="4" NS="y">Learned</W>
+			<W BOX="368 996 373 1020" STYLE_REF="4">,</W>
+			<Q BOX="384 997 395 1021" STYLE_REF="4" QID="70">p</Q>
+			<q BOX="395 996 430 1020" STYLE_REF="4" NS="y" QID="70">ious</q>
+			<QW QID="70">pious</QW>
+			<W BOX="430 996 435 1020" STYLE_REF="4">,</W>
+			<W BOX="447 996 478 1020" STYLE_REF="4">and</W>
+			<W BOX="490 996 499 1020" STYLE_REF="4">a</W>
+			<W BOX="510 996 552 1020" STYLE_REF="4">strict</W>
+			<Q BOX="564 996 602 1020" STYLE_REF="4" QID="71">disci</Q>
+			<Q BOX="602 996 614 1020" STYLE_REF="4" QID="71">p</Q>
+			<q BOX="613 995 680 1019" STYLE_REF="4" NS="y" QID="71">linarian</q>
+			<QW QID="71">disciplinarian</QW>
+			<W BOX="682 995 687 1019" STYLE_REF="4">,</W>
+			<W BOX="699 995 728 1018" STYLE_REF="4">she</W>
+		</Primitive>
+	</Content>
+</XMD-entity>

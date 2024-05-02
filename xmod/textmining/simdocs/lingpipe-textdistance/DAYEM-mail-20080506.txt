@@ -1,0 +1,28 @@
+I worked with JDBC and all. And finally I concluded that we should
+better write the output in text files and then load the file into
+databases, then create index on the particular table. Please find
+attached the zip file containing all the resources.
+
+--unzip classify.zip
+--cd to ../classify.
+
+1. run database/commands.sql to create the database and tables in your
+   database server.
+2. run 'ant textDistance' to build the java project.
+4. modify textDistance.sh file. There is a mysql connectivity command.
+   so change the parameter fields accordingly.
+3. run 'sh textDistance.sh -s <sourceDir> -d report
+
+Test it and let me know about the results. The java source file has
+JDBC connectivity. But since it seems to me that it will make the
+process slower than expected so i didnt use them.
+
+
+You can increase heap size by modifying the java command line
+arguments in the shell script like this. The argument means it will
+start wit 256M memory and continue to use 1 G memory maximum if needed
+for the program. You can cange it if more is needed.
+
+java -Xms256m -Xmx1024m -cp lib/lingpipe-3.4.0.jar:lib/mysql-connector-java-3.1.14-bin.jar:build/classes TextDistance $*
+
+

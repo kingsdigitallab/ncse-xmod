@@ -1,0 +1,6 @@
+
+play with ranking:
+
+statistics.cpp
+
+        rank = 10*_distance - 10*dist + count;

@@ -1,0 +1,70 @@
+
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda1             236M   13M  211M   6% /boot
+/dev/sdg1             510G  352G  159G  69% /home/ncsedata
+/dev/sdd1             200G   43G  148G  23% /home/ncseoutput
+137.73.123.31:/srv/backup/ncse-text
+                       99G  5.4G   89G   6% /srv/backup
+/dev/sdh1             500G  127G  349G  27% /var/lib/mysql
+
+ncsedata:
+
+12K     ./www2
+23M     ./corpusxmlstokenid
+1.5G    ./gate_nee_out_default
+12G     ./lucene-similarity
+108K    ./lucene-similarity-input-w-texts-log
+4.6G    ./lucene-similarity-input-w-texts
+46M     ./corpustmsk
+33M     ./corpusxmlftokenid
+340M    ./gate_nee_out_cityuk_wlall
+1.3G    ./semtagprocessed
+164M    ./gate_nee_out_cityuk_wltown
+164M    ./gate_nee_out_default_test
+2.2M    ./share
+108K    ./lucene-similarity-input-w-texts-min300chars-log
+108K    ./corpuslinks
+7.6G     ./loaddata
+8.0K    ./corpusimg
+3.0M    ./doc
+4.3G    ./lucene-similarity-input-w-texts-min300chars
+du: `./lost+found': Permission denied
+2.5G    ./corpusxmlfaid
+748M    ./tm
+4.5G    ./loaddata-bu
+535M    ./progs
+16G     ./ncse_svn
+2.3G    ./corpustxt-20090224
+128K    ./tests
+865M    ./corpussemtag
+228G    ./corpus
+46M     ./corpustxtgate
+39G     ./var
+686M    ./corpussemtag-20090204
+221M    ./tmp
+8.0K    ./logs
+316G    .
+
+
+ncseoutput:
+
+3.4G    ./lucene-20080506-02
+du: `./lost+found': Permission denied
+1.4G    ./corpustxt
+176K    ./logtmp
+4.0K    ./corpussemtag
+183M    ./lucene-similarity
+192M    ./zip
+6.1G    ./semtageval
+3.4G    ./lucene-20080507-01
+8.0K    ./corpusxmlfaid
+316K    ./tmp
+16K     ./semtagprocessed
+2.2M    ./logs
+7.1G    ./ereuna
+5.5G    ./lucene-before-semtag-display
+5.5G    ./lucene-20080425
+3.4G    ./lucene-20080506-01
+5.3G    ./www
+1010M   ./corpusxmlfaidlucene
+43G     .

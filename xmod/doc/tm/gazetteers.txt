@@ -1,0 +1,27 @@
+
+Format of dict.dz files:
+
+http://www.freedict.org/howto/ch07.html
+
+
+----------------------------------------------------
+
+ADL
+===
+
+Alexandria Digital Library
+http://www.alexandria.ucsb.edu/gazetteer/
+
+Local copy:
+/mnt/tm/gazetteers/ADL
+Description of data content: metadata.html
+MySQL DB: adl, table: adl, FN: place
+
+look into RDF versions of feature type thesaurus:
+ADL-all.rdf
+ADL-UFT-reified.rdf
+
+
+
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<XMD-entity REPOSITORY_FORMAT="1.0" ENTITY_TYPE="Ad" PAGE_NO="26" ID="Ad02609" BOX="662 980 1182 1082" LANGUAGE="English" SNP="Ad02609S.jpg" SNP_WIDTH="350" SNP_HEIGHT="69">
+	<Meta NAME="Untitled Ad" DESCRIPTION="" SUBTYPE="" BASE_HREF="LDR/1888/01/01" SOURCE_TYPE="TIFF" PUBLICATION="LDR" SECTION="None" ISSUE_DATE="01/01/1888" WORDCNT="43" RELEASE_NO="demo publishers" PAGE_ID="" PAGE_TYPE="Single" PAGE_WIDTH="646" PAGE_HEIGHT="861" DEFAULT_IMG_EXT="png" PDF_DESTINATION_MAPPED="OLV0_Entity_0026_0008" IMAGES_RESOLUTION="86" EMBEDDED_INTO="Ar01901" XMD_VER="2.6.236.23" PAGE_LABEL="426"/>
+	<Link SOURCE="demo+publishers1.pdf" FIRST_ID="Ar00200" LAST_ID="Ad02610" NEXT_ID="Ad02610" PREV_ID="Ad02608" TOC_ID="C:/Olive/Repository/LDR/1888/01/01/TOC.xml"/>
+	<Content>
+		<Primitive BOX="0 0 0 0" ID="Ad0260900" E="N" TOC_ENTRY_ID="0" SEQ_NO="1"><Application_Data/>_^ ^^ &lt;YQ WHOLESALE STATIONERS AND -JL PUBLISHERS.—TRAVELLER - ¦ mission. Lancashire, Yorkshire, and Midlands. Address, X M c/o Mr. Andrews, 21 Walbrook, .. ¦ ~~ ' ! i - </Primitive>
+	</Content>
+	<AdFrame>
+		<Img BOX="662 980 1182 1082" ID="Ad0260901" HREF="/26/Img/Ad0260901.png" I_RES="126" TOC_ENTRY_ID="17" SEQ_NO="0"/>
+	</AdFrame>
+</XMD-entity>

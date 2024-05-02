@@ -1,0 +1,10 @@
+Here is the new version for textDistance application. The command line
+arguments are self explanatory if you check the usage. Example
+commands would be like:
+
+ant clean textDistance
+
+sh textDistance -a -s <srcdir> -d <destdir> -t1
+sh textDistance -b -s <srcdir> -d <destdir> -i <inputfile> -t2
+
+

@@ -1,0 +1,219 @@
+<!-- ============================================================= -->
+<!--  MODULE:           AL_projlist DTD                            -->
+<!--  VERSION DATE:     Production 1.0                             -->
+<!--  VERSION:          2004-01-28 @ 19:23                         -->
+<!--  VERSION CONTROL:                                             -->
+<!-- ============================================================= -->
+
+<!-- ============================================================= -->
+<!-- ORIGINAL CREATION DATE:     2004-01-28 @ 19:23                -->
+<!-- PURPOSE:   A general DTD for project authority lists -->
+<!-- CREATED FOR:  CCH                                             -->
+<!-- CREATED BY:   Paul Spence   spencepj@yahoo.com                -->
+<!-- ============================================================= -->
+
+<!-- ============================================================= -->
+<!--                    CHANGE HISTORY                             -->
+<!-- ============================================================= -->
+
+<!-- 2004-02-21 @ 13:16
+
+     This was adapted from the DTD created for CCHPROJ, but differs crucially from that DTD in a number of ways. It has been created specifically for EMS, and covers the need to relate projects in different ways, in particular the need to have hierarchical organisation into project > subproject etc..
+   
+
+     the fact that the children of person are optional is a quick hack, because the options are: either include most of this info, or none at all, and then use one of the project person id's, like 'bwi' or 'rtcg'
+
+ -->
+
+<!-- ============================================================= -->
+<!--                  PARAMETER ENTITIES FOR CONTENT MODELS        -->
+<!-- ============================================================= -->
+
+<!ENTITY % font "#PCDATA|b|i|u">
+<!ENTITY % IAlign "(top|middle|bottom|left|right|_unspecified)">
+<!ENTITY % langs 'gre|lat|fre|ara|baq|cze|dut|ger|grc|heb|iri|ita|
+    jpn|mni|nor|pol|por|rus|san|spa|
+    swe|tur|wel|yid|__unknown|_unspecified'>
+
+<!-- ============================================================= -->
+<!--                  ELEMENT DEFINITIONS      top level           -->
+<!-- ============================================================= -->
+
+<!ELEMENT projectList (header, body)>
+<!ATTLIST projectList
+	id ID #REQUIRED
+	year (2003 | 2004 | 2005 | 2006 | 2007) "2003"
+	month (jan | feb | mar | apr | may | jun | jul | aug | sep | oct | nov | dec | _unspecified) "_unspecified"
+	day (01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | _unknown | _unspecified) "_unspecified"
+	resp CDATA #IMPLIED>
+
+<!-- ============================================================= -->
+<!--                  header SECTION                          -->
+<!-- ============================================================= -->
+
+<!ELEMENT header (title, changeNotes, comments)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT changeNotes (changeItem+)>
+<!ELEMENT comments (p|list)*>
+
+<!ELEMENT changeItem (name, p+)>
+<!ELEMENT name (#PCDATA)>
+
+<!-- ============================================================= -->
+<!--                  block and phrase level                       -->
+<!-- ============================================================= -->
+
+<!ELEMENT p (%font; |url)*>
+<!ELEMENT url (#PCDATA)>
+
+<!ELEMENT list (li+)>
+<!ELEMENT li (label?, con)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT con (%font; |url)*>
+
+<!-- ============================================================= -->
+<!--                  Basic font elements                          -->
+<!-- ============================================================= -->
+
+<!ELEMENT b (%font;)*>
+<!ELEMENT i (%font;)*>
+<!ELEMENT u (%font;)*>
+
+<!-- ============================================================= -->
+<!--                  body SECTION                            -->
+<!-- ============================================================= -->
+
+<!ELEMENT body (project+)>
+
+<!-- 
+<!ELEMENT group (groupHead, (group+ | project*))>
+<!ATTLIST group
+	id ID #IMPLIED
+        type CDATA #IMPLIED>
+
+<!ELEMENT groupHead (groupTitle, groupInfo)>
+
+<!ELEMENT groupTitle (#PCDATA)>
+<!ELEMENT groupInfo (#PCDATA)>
+ -->
+
+<!ELEMENT project (projInfo, subProjects?)>
+<!ATTLIST project
+	id ID #REQUIRED
+        type CDATA #IMPLIED
+	n CDATA #IMPLIED>
+
+
+<!ELEMENT subProjects (project+)>
+
+<!ELEMENT projInfo (navTitle, projTitle, projFullTitle, projDescrip, persons, programs?, internal)>
+
+<!ELEMENT navTitle (%font;)*>
+<!ELEMENT projTitle (%font;)*>
+<!ELEMENT projFullTitle (%font;)*>
+<!ELEMENT projDescrip (p+)>
+<!ELEMENT persons (person+)>
+
+<!ELEMENT programs (program+)>
+
+<!ELEMENT internal (p+)>
+
+<!ELEMENT person (surname?, first?, ttl?, institution?)>
+<!ATTLIST person
+	ref CDATA #IMPLIED
+	role CDATA #IMPLIED
+        url CDATA #IMPLIED>
+
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT ttl (#PCDATA)>
+<!ELEMENT institution (#PCDATA)>
+
+<!ELEMENT program (#PCDATA)>
+<!ATTLIST program
+	ref CDATA #IMPLIED
+	role CDATA #IMPLIED
+        url CDATA #IMPLIED>
+
+<!-- ============================================================= -->
+<!--                   ISO LANGUAGE CODES         -->
+<!-- ============================================================= -->
+
+<!-- ISO 639 3-letter language codes:
+
+PJS note:
+copied from jl div.dtf
+changed 'unknown' to '_unknown' and added '_unspecified'
+
+Arabic: ara
+Basque: baq
+Czech: cze
+Dutch: dut
+English: eng
+French: fre
+German: ger
+Greek: grc
+Hebrew: heb
+Irish: iri
+Italian: ita
+Japanese: jpn
+Latin: lat
+Manipuri: mni
+Norwegian: nor
+Polish: pol
+Portuguese: por
+Russian: rus
+Sanskrit: san
+Spanish: spa
+Swedish: swe
+Turkish: tur
+Welsh: wel
+Yiddish: yid
+
+In NISO Z39.53, grc is Ancient Greek and gre is Modern Greek. Otherwise the
+above codes (as of October 1998) are all the same.
+
+On language codes, see also RFC 1766.
+
+-->
+
+<!-- ============================================================= -->
+<!--                   CHARACTER ENTITIES                          -->
+<!-- ============================================================= -->
+
+<!-- ============================================================= -->
+<!--                  ENTITIES  FOR COMMON EXPRESSIONS             -->
+<!-- ============================================================= -->
+
+<!-- ============================================================= -->
+<!-- ============  ISO entity sets.  ============================= -->
+<!-- ============================================================= -->
+
+<!-- Adapted from JL Zibaldone file -->
+<!-- Entity files currently stored in 'ent' directory for immediate access. Copied from docbook DTD. Would need to check these are correct versions and that we can use them. -->
+
+<!-- 
+<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN" "ent/iso-lat1.ent">
+%ISOlat1;
+
+<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN" "ent/iso-lat2.ent">
+%ISOlat2;
+
+<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN" "ent/iso-pub.ent">
+%ISOpub;
+
+<!ENTITY % ISOnum PUBLIC
+                  "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN" "ent/iso-num.ent">
+%ISOnum;
+
+<!ENTITY % ISOtech PUBLIC
+                  "ISO 8879:1986//ENTITIES General Technical//EN" "ent/iso-tech.ent">
+%ISOtech;
+
+<!ENTITY % ISOgrk1 PUBLIC
+                   "ISO 8879:1986//ENTITIES Greek Letters//EN" "ent/iso-grk1.ent">
+%ISOgrk1;
+ -->
+  
+<!-- ==================        End of DTD             ============= -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<XMD-PAGE REPOSITORY_FORMAT="1.0"><Application_Data/><Meta ISSUE_DATE="01/01/1888" RELEASE_NO="demo publishers" PAGE_NO="19" NAME="" PAGE_LABEL="382" PAGE_TYPE="Single" PUBLISHER="Olive" PUBLICATION="LDR" SOURCE_TYPE="TIFF" SOURCE_RESOLUTION="72" IMAGES_RESOLUTION="86" PAGE_THUMBNAIL_RESOLUTION="43" PAGE_PREVIEW_RESOLUTION="15" DEFAULT_IMG_EXT="png" IMG_EXT="png" PREVIEW_IMG_EXT="png" XMD_VER="2.6.236.23" PROFILE_ID="XMD_LDR.ini" SECTION="None" PAGE_WIDTH="646" PAGE_HEIGHT="861" PAGES_NUMBER="26" BASE_HREF="LDR/1888/01/01" PDF_DESTINATION_MAPPED="OLV0_Page_0019">
+		<Resolutions>
+			<Resolution DEFAULT="true">43</Resolution>
+		</Resolutions>
+	</Meta>
+	<Link SOURCE="demo+publishers1.pdf" NEXT_SECTION="" PREV_SECTION="1"/>
+	<Entity ENTITY_TYPE="Article" ID="Ar01900" SIZE="XLarge" BOX="88 238 596 797" NEXT_SECTION="" PREV_SECTION="1" CONTINUATION_TO="Ar02001" EMBEDDED_INTO="Ar01901">
+		<Name>Untitled Article</Name>
+		<Primitive ID="Ar0190000" BOX="88 238 337 797" ELEMENT_TYPE="Content" TOC_ENTRY_ID="17" SEQ_NO="0"/>
+		<Primitive ID="Ar0190001" BOX="337 238 596 797" ELEMENT_TYPE="Content" TOC_ENTRY_ID="17" SEQ_NO="1"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Article" ID="Ar01901" SIZE="Large" BOX="88 55 596 238" NEXT_SECTION="" PREV_SECTION="1">
+		<Name>, -i . ¦' w ^fe»*wM#F &amp;gt; "/' n&amp;; •• !' ¦ \ ¦' A^/4$|* I A ¦ • ' f 4/ - jg- f - - - ! - — . &amp;lt;&amp;gt; &amp;lt; :</Name>
+		<Primitive ID="Ar0190100" BOX="88 55 596 79" ELEMENT_TYPE="HedLine_hl1" TOC_ENTRY_ID="17" SEQ_NO="0"/>
+		<Primitive ID="Ar0190101" BOX="88 79 596 238" ELEMENT_TYPE="Content" TOC_ENTRY_ID="17" SEQ_NO="1"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Article" ID="Ar01902" SIZE="Small" BOX="88 27 596 55" NEXT_SECTION="" PREV_SECTION="1" EMBEDDED_INTO="Ar01802">
+		<Name>Untitled Article</Name>
+		<Primitive ID="Ar0190200" BOX="88 27 596 55" ELEMENT_TYPE="Content" TOC_ENTRY_ID="16" SEQ_NO="0"/>
+	</Entity>
+</XMD-PAGE>

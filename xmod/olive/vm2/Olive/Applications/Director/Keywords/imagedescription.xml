@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+            DMVI for Olive
+            Desc: This XML is to be loaded into the Olive Software
+            Administration Tool, to live at: 
+            olive\Applications\Director\Keywords
+            
+            
+            
+            Each tag (L1, L2, L3, L4, etc) represents a hierarchical level within the DMVI scheme;
+            the values of the tags will be associated with image resources in the Olive administrative tool,
+            and will subsequently be passed as metadata to the CCH for additional proccessing.
+            
+            Strings sent to the CCH will look like:
+            
+            settings id:dmvi:d2e607
+            interiors id:dmvi:d2e617
+            natural environments id:dmvi:d2e620
+            the sea id:dmvi:d2e620 
+            
+            
+            To allow for reconstruction of the hierarchy at a later date and to allow for repetition
+            in term strings, each value has also been given an id that unambiguously identifies this particular term
+            and also the provenance of the term's inclusion within the structure (i.e. dmvi, or ncse)
+            
+            Entries added to this file should take a similar form, however, the id's should reflect
+            'ncse' as the author, and should include a unique ID:
+            
+            the mountains id:ncse:d9z9999
+            
+            Where ids are assigned in sequentially descending order, i.e. d9z9999, d9z9998, d9z9997. 
+            
+            Author: tamara.lopez@kcl.ac.uk
+            Last Modified: 21 November, 2007
+
+
+            As the Olive admin tool uses forward slashes to separate
+            hierarchy levels in the relevant metadata field, we have
+            replaced all forward slashes ("/") within the terms with
+            vertical bars ("|").
+            
+            Author: gerhard.brey@kcl.ac.uk
+            Last Modified: 27 November, 2007
+
+            As now the vertical bars ("|") seem to cause problems, we
+            have changed them to two hyphens.
+            
+            Author: gerhard.brey@kcl.ac.uk
+            Last Modified: 27 November, 2007
+
+            $Id: $
+                        
+        --><Key-words>
+   <L1>periods     id:dmvi:d2e2<L2>centuries    id:dmvi:d2e4<L3>sixteenth century     id:dmvi:d2e6</L3>
+         <L3>seventeenth century     id:dmvi:d2e12</L3>
+         <L3>eighteenth century     id:dmvi:d2e18</L3>
+         <L3>nineteenth century     id:dmvi:d2e24</L3>
+      </L2>
+      <L2>eras    id:dmvi:d2e28<L3>Greek--Roman classical     id:dmvi:d2e30</L3>
+         <L3>Biblical     id:dmvi:d2e36</L3>
+         <L3>Medieval     id:dmvi:d2e42</L3>
+         <L3>Renaissance     id:dmvi:d2e48</L3>
+         <L3>Tudor--Elizabethan     id:dmvi:d2e54</L3>
+         <L3>Georgian     id:dmvi:d2e60</L3>
+         <L3>Victorian     id:dmvi:d2e66</L3>
+      </L2>
+   </L1>
+   <L1>geography     id:dmvi:d2e69<L2>Great Britain    id:dmvi:d2e71<L3>Britain [non-specific area]     id:dmvi:d2e73</L3>
+         <L3>England     id:dmvi:d2e79<L4>England [non-specific area]     id:dmvi:d2e81</L4>
+            <L4>Ascot     id:dmvi:d2e89</L4>
+            <L4>Birmingham     id:dmvi:d2e97</L4>
+            <L4>Brighton     id:dmvi:d2e105</L4>
+            <L4>Cambridge     id:dmvi:d2e113</L4>
+            <L4>Chester     id:dmvi:d2e121</L4>
+            <L4>Devon     id:dmvi:d2e129</L4>
+            <L4>Dover     id:dmvi:d2e137</L4>
+            <L4>Epsom     id:dmvi:d2e145</L4>
+            <L4>London     id:dmvi:d2e153</L4>
+            <L4>Oxford     id:dmvi:d2e162</L4>
+            <L4>Plymouth     id:dmvi:d2e170</L4>
+            <L4>Ramsgate     id:dmvi:d2e178</L4>
+            <L4>Berkshire     id:dmvi:d2e186</L4>
+            <L4>Cheshire     id:dmvi:d2e194</L4>
+            <L4>Cumbria     id:dmvi:d2e202</L4>
+            <L4>Derbyshire     id:dmvi:d2e210</L4>
+            <L4>Hampshire     id:dmvi:d2e218</L4>
+            <L4>Herefordshire     id:dmvi:d2e226</L4>
+            <L4>Hertfordshire     id:dmvi:d2e234</L4>
+            <L4>Isle of Wight     id:dmvi:d2e242</L4>
+            <L4>Kent     id:dmvi:d2e251</L4>
+            <L4>Lancashire     id:dmvi:d2e259</L4>
+            <L4>Middlesex     id:dmvi:d2e267</L4>
+            <L4>Northumberland     id:dmvi:d2e275</L4>
+            <L4>Staffordshire     id:dmvi:d2e283</L4>
+            <L4>Suffolk     id:dmvi:d2e291</L4>
+            <L4>Surrey     id:dmvi:d2e299</L4>
+            <L4>Sussex     id:dmvi:d2e307</L4>
+            <L4>Warwickshire     id:dmvi:d2e315</L4>
+            <L4>Worcestershire     id:dmvi:d2e323</L4>
+            <L4>Yorkshire     id:dmvi:d2e331</L4>
+         </L3>
+         <L3>Scotland     id:dmvi:d2e338<L4>Scotland [non-specific area]     id:dmvi:d2e340</L4>
+            <L4>Edinburgh     id:dmvi:d2e348</L4>
+            <L4>Scottish Highlands     id:dmvi:d2e356</L4>
+         </L3>
+         <L3>Wales     id:dmvi:d2e362<L4>Wales [non-specific area]     id:dmvi:d2e364</L4>
+            <L4>Bangor     id:dmvi:d2e372</L4>
+            <L4>Snowdonia     id:dmvi:d2e380</L4>
+         </L3>
+      </L2>
+      <L2>Europe    id:dmvi:d2e384<L3>Europe [non-specific area]     id:dmvi:d2e386</L3>
+         <L3>Austria     id:dmvi:d2e392</L3>
+         <L3>Belgium     id:dmvi:d2e398</L3>
+         <L3>France     id:dmvi:d2e404</L3>
+         <L3>Germany     id:dmvi:d2e410</L3>
+         <L3>Greece     id:dmvi:d2e417</L3>
+         <L3>Ireland     id:dmvi:d2e423</L3>
+         <L3>Italy     id:dmvi:d2e429</L3>
+         <L3>Netherlands     id:dmvi:d2e435</L3>
+         <L3>Poland     id:dmvi:d2e441</L3>
+         <L3>Russia     id:dmvi:d2e447</L3>
+         <L3>Spain     id:dmvi:d2e453</L3>
+         <L3>Switzerland     id:dmvi:d2e459</L3>
+         <L3>Alps     id:dmvi:d2e465</L3>
+         <L3>The Balkans     id:dmvi:d2e471</L3>
+         <L3>Eastern Europe     id:dmvi:d2e477</L3>
+         <L3>Scandinavia     id:dmvi:d2e484</L3>
+      </L2>
+      <L2>Africa    id:dmvi:d2e488<L3>Africa [non-specific area]     id:dmvi:d2e490</L3>
+         <L3>Egypt     id:dmvi:d2e496</L3>
+         <L3>South Africa     id:dmvi:d2e502</L3>
+      </L2>
+      <L2>Asia    id:dmvi:d2e506<L3>Asia [non-specific area]     id:dmvi:d2e508</L3>
+         <L3>Holy Land     id:dmvi:d2e514</L3>
+         <L3>Middle East     id:dmvi:d2e520</L3>
+         <L3>China     id:dmvi:d2e526</L3>
+         <L3>India     id:dmvi:d2e532</L3>
+         <L3>Iran     id:dmvi:d2e538</L3>
+         <L3>Iraq     id:dmvi:d2e544</L3>
+         <L3>Japan     id:dmvi:d2e551</L3>
+         <L3>Sri Lanka     id:dmvi:d2e557</L3>
+      </L2>
+      <L2>South America    id:dmvi:d2e561<L3>Brazil     id:dmvi:d2e563</L3>
+         <L3>Columbia     id:dmvi:d2e569</L3>
+      </L2>
+      <L2>Central America    id:dmvi:d2e573<L3>Haiti     id:dmvi:d2e575</L3>
+         <L3>Mexico     id:dmvi:d2e581</L3>
+      </L2>
+      <L2>North America    id:dmvi:d2e585<L3>Canada     id:dmvi:d2e587</L3>
+         <L3>United States of America     id:dmvi:d2e593</L3>
+      </L2>
+      <L2>Oceania    id:dmvi:d2e597<L3>Australia     id:dmvi:d2e599</L3>
+         <L3>New Zealand     id:dmvi:d2e605</L3>
+      </L2>
+   </L1>
+   <L1>settings     id:dmvi:d2e607<L2>exteriors    id:dmvi:d2e609<L3>     id:dmvi:d2e611</L3>
+      </L2>
+      <L2>interiors    id:dmvi:d2e615<L3>     id:dmvi:d2e617</L3>
+      </L2>
+      <L2>natural environments    id:dmvi:d2e620<L3>countryside     id:dmvi:d2e622</L3>
+         <L3>the sea     id:dmvi:d2e628</L3>
+         <L3>natural features     id:dmvi:d2e634<L4>chasms     id:dmvi:d2e636</L4>
+            <L4>cliffs and rocks     id:dmvi:d2e644</L4>
+            <L4>deserts     id:dmvi:d2e652</L4>
+            <L4>glaciers     id:dmvi:d2e660</L4>
+            <L4>hills and valleys     id:dmvi:d2e668</L4>
+            <L4>icebergs     id:dmvi:d2e676</L4>
+            <L4>lakes and ponds     id:dmvi:d2e684</L4>
+            <L4>mountains     id:dmvi:d2e692</L4>
+            <L4>plains     id:dmvi:d2e701</L4>
+            <L4>rivers     id:dmvi:d2e709</L4>
+            <L4>the coast     id:dmvi:d2e717</L4>
+            <L4>waterfalls     id:dmvi:d2e725</L4>
+            <L4>woodlands     id:dmvi:d2e733</L4>
+         </L3>
+         <L3>celestial bodies     id:dmvi:d2e739<L4>moon     id:dmvi:d2e741</L4>
+            <L4>stars     id:dmvi:d2e749</L4>
+            <L4>sun     id:dmvi:d2e757</L4>
+         </L3>
+      </L2>
+      <L2>built environments    id:dmvi:d2e761<L3>cities     id:dmvi:d2e763</L3>
+         <L3>towns     id:dmvi:d2e769</L3>
+         <L3>villages     id:dmvi:d2e775</L3>
+         <L3>farms     id:dmvi:d2e782<L4>farmhouses     id:dmvi:d2e784</L4>
+            <L4>farm buildings     id:dmvi:d2e792</L4>
+            <L4>farmyards     id:dmvi:d2e800</L4>
+            <L4>fields     id:dmvi:d2e808</L4>
+            <L4>hedges     id:dmvi:d2e816</L4>
+            <L4>orchards     id:dmvi:d2e824</L4>
+         </L3>
+         <L3>buildings     id:dmvi:d2e830<L4>arenas and stadia     id:dmvi:d2e832</L4>
+            <L4>asylums     id:dmvi:d2e840</L4>
+            <L4>auction houses     id:dmvi:d2e848</L4>
+            <L4>banks     id:dmvi:d2e856</L4>
+            <L4>beach huts     id:dmvi:d2e864</L4>
+            <L4>bell towers     id:dmvi:d2e873</L4>
+            <L4>casinos     id:dmvi:d2e881</L4>
+            <L4>castles     id:dmvi:d2e889</L4>
+            <L4>churches     id:dmvi:d2e897</L4>
+            <L4>cottages     id:dmvi:d2e905</L4>
+            <L4>factories     id:dmvi:d2e913</L4>
+            <L4>games rooms     id:dmvi:d2e921</L4>
+            <L4>garrisons     id:dmvi:d2e929</L4>
+            <L4>greenhouses     id:dmvi:d2e937</L4>
+            <L4>hospitals     id:dmvi:d2e945</L4>
+            <L4>hotels     id:dmvi:d2e953</L4>
+            <L4>houses     id:dmvi:d2e962</L4>
+            <L4>huts and cabins     id:dmvi:d2e970</L4>
+            <L4>laboratories     id:dmvi:d2e978</L4>
+            <L4>law courts     id:dmvi:d2e986</L4>
+            <L4>lighthouses     id:dmvi:d2e994</L4>
+            <L4>mansions     id:dmvi:d2e1002</L4>
+            <L4>mills     id:dmvi:d2e1010</L4>
+            <L4>monasteries and convents     id:dmvi:d2e1018</L4>
+            <L4>museums and exhibition halls     id:dmvi:d2e1026</L4>
+            <L4>offices and business settings     id:dmvi:d2e1034</L4>
+            <L4>palaces     id:dmvi:d2e1042</L4>
+            <L4>post--telegraph offices     id:dmvi:d2e1051</L4>
+            <L4>prisons     id:dmvi:d2e1059</L4>
+            <L4>public houses     id:dmvi:d2e1067</L4>
+            <L4>racecourses     id:dmvi:d2e1075</L4>
+            <L4>railway stations     id:dmvi:d2e1083</L4>
+            <L4>restaurants     id:dmvi:d2e1091</L4>
+            <L4>ruins     id:dmvi:d2e1099</L4>
+            <L4>schools     id:dmvi:d2e1107</L4>
+            <L4>shops     id:dmvi:d2e1115</L4>
+            <L4>squares and courtyards     id:dmvi:d2e1123</L4>
+            <L4>surgeries     id:dmvi:d2e1131</L4>
+            <L4>tents     id:dmvi:d2e1140</L4>
+            <L4>theatres     id:dmvi:d2e1148</L4>
+            <L4>universities     id:dmvi:d2e1156</L4>
+            <L4>windmills     id:dmvi:d2e1164</L4>
+            <L4>workshops     id:dmvi:d2e1172</L4>
+         </L3>
+         <L3>outdoor sites     id:dmvi:d2e1178<L4>battlefields     id:dmvi:d2e1180</L4>
+            <L4>building sites     id:dmvi:d2e1188</L4>
+            <L4>campfires     id:dmvi:d2e1196</L4>
+            <L4>campsites     id:dmvi:d2e1204</L4>
+            <L4>churchyards     id:dmvi:d2e1212</L4>
+            <L4>docks and harbours     id:dmvi:d2e1220</L4>
+            <L4>gardens     id:dmvi:d2e1229</L4>
+            <L4>marketplaces     id:dmvi:d2e1237</L4>
+            <L4>mines     id:dmvi:d2e1245</L4>
+            <L4>parks and grounds     id:dmvi:d2e1253</L4>
+         </L3>
+         <L3>architectural features     id:dmvi:d2e1259<L4>archways     id:dmvi:d2e1261</L4>
+            <L4>balconies     id:dmvi:d2e1269</L4>
+            <L4>canals     id:dmvi:d2e1277</L4>
+            <L4>conservatories and gazebos     id:dmvi:d2e1285</L4>
+            <L4>fences     id:dmvi:d2e1293</L4>
+            <L4>fountains     id:dmvi:d2e1301</L4>
+            <L4>gates     id:dmvi:d2e1309</L4>
+            <L4>piers     id:dmvi:d2e1318</L4>
+            <L4>pillars     id:dmvi:d2e1326</L4>
+            <L4>porches and verandas     id:dmvi:d2e1334</L4>
+            <L4>steps     id:dmvi:d2e1342</L4>
+            <L4>trellises     id:dmvi:d2e1350</L4>
+            <L4>tunnels     id:dmvi:d2e1358</L4>
+            <L4>walls     id:dmvi:d2e1366</L4>
+            <L4>weathervanes     id:dmvi:d2e1374</L4>
+            <L4>wells     id:dmvi:d2e1382</L4>
+         </L3>
+         <L3>roadways     id:dmvi:d2e1388<L4>roads--streets     id:dmvi:d2e1390</L4>
+            <L4>bridges     id:dmvi:d2e1398</L4>
+            <L4>crossroads     id:dmvi:d2e1407</L4>
+            <L4>lamp-posts     id:dmvi:d2e1415</L4>
+            <L4>paths     id:dmvi:d2e1423</L4>
+            <L4>signposts     id:dmvi:d2e1431</L4>
+         </L3>
+         <L3>rooms     id:dmvi:d2e1437<L4>attics     id:dmvi:d2e1439</L4>
+            <L4>ball-rooms     id:dmvi:d2e1447</L4>
+            <L4>bedrooms     id:dmvi:d2e1455</L4>
+            <L4>class-rooms     id:dmvi:d2e1463</L4>
+            <L4>corridors     id:dmvi:d2e1471</L4>
+            <L4>dining-rooms     id:dmvi:d2e1479</L4>
+            <L4>drawing-rooms     id:dmvi:d2e1487</L4>
+            <L4>dressing-rooms     id:dmvi:d2e1496</L4>
+            <L4>kitchens     id:dmvi:d2e1504</L4>
+            <L4>libraries and studies     id:dmvi:d2e1512</L4>
+            <L4>nurseries     id:dmvi:d2e1520</L4>
+            <L4>sitting-rooms     id:dmvi:d2e1528</L4>
+         </L3>
+         <L3>features and fittings     id:dmvi:d2e1534<L4>counters and bars     id:dmvi:d2e1536</L4>
+            <L4>doorways     id:dmvi:d2e1544</L4>
+            <L4>fireplaces     id:dmvi:d2e1552</L4>
+            <L4>mantelpieces     id:dmvi:d2e1560</L4>
+            <L4>stairways     id:dmvi:d2e1568</L4>
+            <L4>windows     id:dmvi:d2e1576</L4>
+            <L4>French windows     id:dmvi:d2e1585</L4>
+            <L4>window-shutters     id:dmvi:d2e1593</L4>
+            <L4>window-bars     id:dmvi:d2e1601</L4>
+         </L3>
+         <L3>vehicle interiors     id:dmvi:d2e1607<L4>carriage interiors     id:dmvi:d2e1609</L4>
+            <L4>ship and boat interiors     id:dmvi:d2e1617</L4>
+            <L4>train interiors     id:dmvi:d2e1625</L4>
+         </L3>
+      </L2>
+      <L2>weather and natural disasters    id:dmvi:d2e1629<L3>cold weather     id:dmvi:d2e1631</L3>
+         <L3>hot weather     id:dmvi:d2e1637</L3>
+         <L3>rain and storms     id:dmvi:d2e1643</L3>
+         <L3>rainbows     id:dmvi:d2e1649</L3>
+         <L3>snow     id:dmvi:d2e1655</L3>
+         <L3>wind     id:dmvi:d2e1662</L3>
+         <L3>avalanches     id:dmvi:d2e1668</L3>
+         <L3>earthquakes     id:dmvi:d2e1674</L3>
+         <L3>floods     id:dmvi:d2e1680</L3>
+         <L3>volcanoes     id:dmvi:d2e1686</L3>
+      </L2>
+      <L2>seasons--times of day    id:dmvi:d2e1690<L3>seasons     id:dmvi:d2e1692<L4>spring     id:dmvi:d2e1694</L4>
+            <L4>summer     id:dmvi:d2e1702</L4>
+            <L4>autumn     id:dmvi:d2e1710</L4>
+            <L4>winter     id:dmvi:d2e1718</L4>
+         </L3>
+         <L3>times of day     id:dmvi:d2e1724<L4>dawn     id:dmvi:d2e1726</L4>
+            <L4>evening--night     id:dmvi:d2e1734</L4>
+         </L3>
+      </L2>
+   </L1>
+   <L1>people     id:dmvi:d2e1737<L2>figures    id:dmvi:d2e1739<L3>men     id:dmvi:d2e1741</L3>
+         <L3>women     id:dmvi:d2e1747</L3>
+         <L3>children     id:dmvi:d2e1753</L3>
+         <L3>babies     id:dmvi:d2e1759</L3>
+         <L3>elderly people     id:dmvi:d2e1765</L3>
+         <L3>number of figures     id:dmvi:d2e1771<L4>1 figure     id:dmvi:d2e1773</L4>
+            <L4>2 figures     id:dmvi:d2e1781</L4>
+            <L4>3 figures     id:dmvi:d2e1789</L4>
+            <L4>4 figures     id:dmvi:d2e1797</L4>
+            <L4>5 figures     id:dmvi:d2e1805</L4>
+            <L4>groups [6-10 figures]     id:dmvi:d2e1813</L4>
+            <L4>crowds [10+ figures]     id:dmvi:d2e1822</L4>
+            <L4>multiple [in landscape]     id:dmvi:d2e1830</L4>
+            <L4>audiences     id:dmvi:d2e1838</L4>
+            <L4>romantic couples     id:dmvi:d2e1846</L4>
+         </L3>
+         <L3>physical characteristics     id:dmvi:d2e1852<L4>baldness     id:dmvi:d2e1854</L4>
+            <L4>blindness     id:dmvi:d2e1862</L4>
+            <L4>disability     id:dmvi:d2e1870</L4>
+            <L4>facial hair     id:dmvi:d2e1878</L4>
+            <L4>prostheses     id:dmvi:d2e1886</L4>
+         </L3>
+         <L3>foreign nationals and ethnic minorities     id:dmvi:d2e1892<L4>African people     id:dmvi:d2e1894</L4>
+            <L4>Asian people     id:dmvi:d2e1902</L4>
+            <L4>Austrian people     id:dmvi:d2e1911</L4>
+            <L4>Belgian people     id:dmvi:d2e1919</L4>
+            <L4>black people     id:dmvi:d2e1927</L4>
+            <L4>Dutch people     id:dmvi:d2e1935</L4>
+            <L4>Eastern European people     id:dmvi:d2e1943</L4>
+            <L4>French people     id:dmvi:d2e1951</L4>
+            <L4>German people     id:dmvi:d2e1959</L4>
+            <L4>gipsies     id:dmvi:d2e1967</L4>
+            <L4>Greek people     id:dmvi:d2e1975</L4>
+            <L4>Hispanic people     id:dmvi:d2e1983</L4>
+            <L4>Indian people     id:dmvi:d2e1991</L4>
+            <L4>indigenous peoples     id:dmvi:d2e2000</L4>
+            <L4>Irish people     id:dmvi:d2e2008</L4>
+            <L4>Italian people     id:dmvi:d2e2016</L4>
+            <L4>Jewish people     id:dmvi:d2e2024</L4>
+            <L4>Middle-Eastern people     id:dmvi:d2e2032</L4>
+            <L4>North American people     id:dmvi:d2e2040</L4>
+            <L4>Oriental people     id:dmvi:d2e2048</L4>
+            <L4>Russian people     id:dmvi:d2e2056</L4>
+            <L4>Scandinavian people     id:dmvi:d2e2064</L4>
+            <L4>South American people     id:dmvi:d2e2072</L4>
+            <L4>Spanish people     id:dmvi:d2e2080</L4>
+            <L4>Swiss people     id:dmvi:d2e2089</L4>
+         </L3>
+         <L3>mythological figures     id:dmvi:d2e2095<L4>classical heroes     id:dmvi:d2e2097</L4>
+            <L4>gods and goddesses     id:dmvi:d2e2105</L4>
+            <L4>nymphs     id:dmvi:d2e2113</L4>
+            <L4>sirens     id:dmvi:d2e2121</L4>
+            <L4>valkyries     id:dmvi:d2e2129</L4>
+         </L3>
+         <L3>supernatural figures     id:dmvi:d2e2135<L4>angels     id:dmvi:d2e2137</L4>
+            <L4>cherubs     id:dmvi:d2e2145</L4>
+            <L4>demons     id:dmvi:d2e2153</L4>
+            <L4>devils     id:dmvi:d2e2161</L4>
+            <L4>fairies     id:dmvi:d2e2169</L4>
+            <L4>Father Christmas     id:dmvi:d2e2178</L4>
+            <L4>ghosts     id:dmvi:d2e2186</L4>
+            <L4>goblins     id:dmvi:d2e2194</L4>
+            <L4>mermaids     id:dmvi:d2e2202</L4>
+            <L4>skeletons     id:dmvi:d2e2210</L4>
+            <L4>witches and wizards     id:dmvi:d2e2218</L4>
+         </L3>
+      </L2>
+      <L2>relationships    id:dmvi:d2e2222<L3>family relations     id:dmvi:d2e2224<L4>families [general]     id:dmvi:d2e2226</L4>
+            <L4>fathers     id:dmvi:d2e2234</L4>
+            <L4>mothers     id:dmvi:d2e2242</L4>
+            <L4>sons and daughters     id:dmvi:d2e2250</L4>
+            <L4>siblings     id:dmvi:d2e2258</L4>
+            <L4>grandparents     id:dmvi:d2e2267</L4>
+            <L4>husbands and wives     id:dmvi:d2e2275</L4>
+            <L4>in-laws     id:dmvi:d2e2283</L4>
+            <L4>other relatives     id:dmvi:d2e2291</L4>
+         </L3>
+         <L3>friends and colleagues     id:dmvi:d2e2297<L4>colleagues     id:dmvi:d2e2299</L4>
+            <L4>friends     id:dmvi:d2e2307</L4>
+         </L3>
+      </L2>
+      <L2>jobs and roles    id:dmvi:d2e2311<L3>professions     id:dmvi:d2e2313<L4>academics     id:dmvi:d2e2315</L4>
+            <L4>architects     id:dmvi:d2e2323</L4>
+            <L4>doctors--apothecaries     id:dmvi:d2e2331</L4>
+            <L4>engineers     id:dmvi:d2e2339</L4>
+            <L4>governesses     id:dmvi:d2e2347</L4>
+            <L4>judges     id:dmvi:d2e2356</L4>
+            <L4>lawyers     id:dmvi:d2e2364</L4>
+            <L4>scientists     id:dmvi:d2e2372</L4>
+            <L4>teachers     id:dmvi:d2e2380</L4>
+         </L3>
+         <L3>vocations     id:dmvi:d2e2386<L4>actors     id:dmvi:d2e2388</L4>
+            <L4>artists     id:dmvi:d2e2396</L4>
+            <L4>bakers     id:dmvi:d2e2404</L4>
+            <L4>bankers     id:dmvi:d2e2412</L4>
+            <L4>beadles     id:dmvi:d2e2420</L4>
+            <L4>blacksmiths     id:dmvi:d2e2428</L4>
+            <L4>butchers     id:dmvi:d2e2436</L4>
+            <L4>carpenters     id:dmvi:d2e2445</L4>
+            <L4>clerks     id:dmvi:d2e2453</L4>
+            <L4>clowns--fools     id:dmvi:d2e2461</L4>
+            <L4>cooks     id:dmvi:d2e2469</L4>
+            <L4>heralds     id:dmvi:d2e2477</L4>
+            <L4>courtiers     id:dmvi:d2e2485</L4>
+            <L4>innkeepers     id:dmvi:d2e2493</L4>
+            <L4>dock workers     id:dmvi:d2e2501</L4>
+            <L4>interpreters     id:dmvi:d2e2509</L4>
+            <L4>domestic servants     id:dmvi:d2e2517</L4>
+            <L4>jockeys     id:dmvi:d2e2525</L4>
+            <L4>labourers     id:dmvi:d2e2534</L4>
+            <L4>drivers     id:dmvi:d2e2542</L4>
+            <L4>drovers     id:dmvi:d2e2550</L4>
+            <L4>merchants     id:dmvi:d2e2558</L4>
+            <L4>farm workers     id:dmvi:d2e2566</L4>
+            <L4>milkmaids     id:dmvi:d2e2574</L4>
+            <L4>miners     id:dmvi:d2e2582</L4>
+            <L4>fishermen     id:dmvi:d2e2590</L4>
+            <L4>gamekeepers     id:dmvi:d2e2598</L4>
+            <L4>musicians     id:dmvi:d2e2606</L4>
+            <L4>hairdressers     id:dmvi:d2e2614</L4>
+            <L4>nurses     id:dmvi:d2e2623</L4>
+            <L4>pawnbrokers     id:dmvi:d2e2631</L4>
+            <L4>pedlars     id:dmvi:d2e2639</L4>
+            <L4>policemen     id:dmvi:d2e2647</L4>
+            <L4>railway workers     id:dmvi:d2e2655</L4>
+            <L4>sailors     id:dmvi:d2e2663</L4>
+            <L4>shepherds     id:dmvi:d2e2671</L4>
+            <L4>shoemakers     id:dmvi:d2e2679</L4>
+            <L4>stewards--bailiffs     id:dmvi:d2e2687</L4>
+            <L4>students     id:dmvi:d2e2695</L4>
+            <L4>tailors--dressmakers     id:dmvi:d2e2703</L4>
+            <L4>waiting staff     id:dmvi:d2e2712</L4>
+            <L4>woodcutters     id:dmvi:d2e2720</L4>
+            <L4>writers--journalists     id:dmvi:d2e2728</L4>
+         </L3>
+         <L3>religious persons     id:dmvi:d2e2734<L4>bishops     id:dmvi:d2e2736</L4>
+            <L4>imams     id:dmvi:d2e2744</L4>
+            <L4>ministers     id:dmvi:d2e2752</L4>
+            <L4>monks     id:dmvi:d2e2760</L4>
+            <L4>nuns     id:dmvi:d2e2768</L4>
+            <L4>rabbis     id:dmvi:d2e2776</L4>
+         </L3>
+         <L3>military persons     id:dmvi:d2e2782<L4>gladiators     id:dmvi:d2e2784</L4>
+            <L4>knights     id:dmvi:d2e2792</L4>
+            <L4>soldiers     id:dmvi:d2e2801</L4>
+         </L3>
+         <L3>criminals--outsiders     id:dmvi:d2e2807<L4>beggars     id:dmvi:d2e2809</L4>
+            <L4>confidence tricksters     id:dmvi:d2e2817</L4>
+            <L4>hermits     id:dmvi:d2e2825</L4>
+            <L4>prisoners     id:dmvi:d2e2833</L4>
+            <L4>slaves     id:dmvi:d2e2841</L4>
+         </L3>
+      </L2>
+      <L2>social status    id:dmvi:d2e2845<L3>working classes     id:dmvi:d2e2847</L3>
+         <L3>middle classes     id:dmvi:d2e2853</L3>
+         <L3>upper classes     id:dmvi:d2e2859<L4>upper classes [general]     id:dmvi:d2e2861</L4>
+            <L4>royalty     id:dmvi:d2e2869</L4>
+            <L4>aristocracy     id:dmvi:d2e2877</L4>
+         </L3>
+         <L3>poor     id:dmvi:d2e2884</L3>
+         <L3>wealthy     id:dmvi:d2e2890</L3>
+      </L2>
+      <L2>clothing    id:dmvi:d2e2894<L3>nudes     id:dmvi:d2e2896</L3>
+         <L3>Victorian clothing     id:dmvi:d2e2902<L4>men's clothing     id:dmvi:d2e2904</L4>
+            <L4>women's clothing     id:dmvi:d2e2912</L4>
+            <L4>costumes and fancy dress     id:dmvi:d2e2920</L4>
+            <L4>crinoline     id:dmvi:d2e2928</L4>
+            <L4>mourning clothing     id:dmvi:d2e2936</L4>
+            <L4>school uniforms     id:dmvi:d2e2944</L4>
+            <L4>children's clothing     id:ncse:d9z9999</L4>
+         </L3>
+         <L3>work clothing     id:dmvi:d2e2950<L4>aprons     id:dmvi:d2e2952</L4>
+            <L4>smocks     id:dmvi:d2e2960</L4>
+            <L4>uniforms     id:dmvi:d2e2969</L4>
+         </L3>
+         <L3>sporting clothing     id:dmvi:d2e2975<L4>athletics clothing     id:dmvi:d2e2977</L4>
+            <L4>boxing clothing     id:dmvi:d2e2985</L4>
+            <L4>climbing clothing     id:dmvi:d2e2993</L4>
+            <L4>shooting clothing     id:dmvi:d2e3001</L4>
+         </L3>
+         <L3>wedding clothing     id:dmvi:d2e3007</L3>
+         <L3>riding clothing     id:dmvi:d2e3013</L3>
+         <L3>eveningwear     id:dmvi:d2e3019</L3>
+         <L3>nightwear     id:dmvi:d2e3025</L3>
+         <L3>baby clothing     id:dmvi:d2e3031</L3>
+         <L3>ragged clothing     id:dmvi:d2e3037</L3>
+         <L3>regional--climate clothing     id:dmvi:d2e3044<L4>Alpine dress     id:dmvi:d2e3046</L4>
+            <L4>Indian dress     id:dmvi:d2e3054</L4>
+            <L4>Middle Eastern dress     id:dmvi:d2e3062</L4>
+            <L4>Native American dress     id:dmvi:d2e3070</L4>
+            <L4>Scottish dress     id:dmvi:d2e3078</L4>
+            <L4>Venetian dress     id:dmvi:d2e3086</L4>
+            <L4>cold weather clothing     id:dmvi:d2e3094</L4>
+            <L4>tropical--desert clothing     id:dmvi:d2e3102</L4>
+            <L4>wet weather clothing     id:dmvi:d2e3110</L4>
+         </L3>
+         <L3>period clothing     id:dmvi:d2e3116<L4>medieval clothing     id:dmvi:d2e3118</L4>
+            <L4>early modern clothing     id:dmvi:d2e3126</L4>
+            <L4>seventeenth-century clothing     id:dmvi:d2e3135</L4>
+            <L4>eighteenth-century clothing     id:dmvi:d2e3143</L4>
+            <L4>Georgian clothing     id:dmvi:d2e3151</L4>
+            <L4>armour     id:dmvi:d2e3159</L4>
+            <L4>loincloths     id:dmvi:d2e3167</L4>
+            <L4>robes     id:dmvi:d2e3175</L4>
+            <L4>togas     id:dmvi:d2e3183</L4>
+         </L3>
+         <L3>accessories     id:dmvi:d2e3189<L4>bags     id:dmvi:d2e3191</L4>
+            <L4>blindfolds     id:dmvi:d2e3199</L4>
+            <L4>cloaks     id:dmvi:d2e3207</L4>
+            <L4>crutches     id:dmvi:d2e3215</L4>
+            <L4>disguises     id:dmvi:d2e3224</L4>
+            <L4>eye-glasses     id:dmvi:d2e3232</L4>
+            <L4>eye-shades     id:dmvi:d2e3240</L4>
+            <L4>fans     id:dmvi:d2e3248</L4>
+            <L4>feathers     id:dmvi:d2e3256</L4>
+            <L4>garlands     id:dmvi:d2e3264</L4>
+            <L4>gloves     id:dmvi:d2e3272</L4>
+            <L4>handkerchiefs     id:dmvi:d2e3280</L4>
+            <L4>hats     id:dmvi:d2e3288</L4>
+            <L4>hoods     id:dmvi:d2e3296</L4>
+            <L4>jewellery     id:dmvi:d2e3304</L4>
+            <L4>masks     id:dmvi:d2e3313</L4>
+            <L4>muffs     id:dmvi:d2e3321</L4>
+            <L4>pocket-watches     id:dmvi:d2e3329</L4>
+            <L4>purses     id:dmvi:d2e3337</L4>
+            <L4>ribbons     id:dmvi:d2e3345</L4>
+            <L4>rosettes     id:dmvi:d2e3353</L4>
+            <L4>sandals     id:dmvi:d2e3361</L4>
+            <L4>scarves     id:dmvi:d2e3369</L4>
+            <L4>turbans     id:dmvi:d2e3377</L4>
+            <L4>umbrellas     id:dmvi:d2e3385</L4>
+            <L4>veils     id:dmvi:d2e3393</L4>
+            <L4>walking-sticks     id:dmvi:d2e3402</L4>
+            <L4>wigs     id:dmvi:d2e3410</L4>
+         </L3>
+      </L2>
+   </L1>
+   <L1>activities     id:dmvi:d2e3412<L2>physical positions    id:dmvi:d2e3414<L3>postures     id:dmvi:d2e3416<L4>kneeling     id:dmvi:d2e3418</L4>
+            <L4>leaning     id:dmvi:d2e3426</L4>
+            <L4>lying down     id:dmvi:d2e3434</L4>
+            <L4>sitting     id:dmvi:d2e3442</L4>
+         </L3>
+         <L3>hand positions     id:dmvi:d2e3448<L4>clasping hands     id:dmvi:d2e3450</L4>
+            <L4>holding hands     id:dmvi:d2e3458</L4>
+            <L4>pointing     id:dmvi:d2e3466</L4>
+            <L4>shaking hands     id:dmvi:d2e3474</L4>
+         </L3>
+      </L2>
+      <L2>actions and speech    id:dmvi:d2e3478<L3>physical motions     id:dmvi:d2e3480<L4>acrobatics     id:dmvi:d2e3482</L4>
+            <L4>bowing and doffing     id:dmvi:d2e3491</L4>
+            <L4>carrying     id:dmvi:d2e3499</L4>
+            <L4>catching     id:dmvi:d2e3507</L4>
+            <L4>clapping     id:dmvi:d2e3515</L4>
+            <L4>climbing     id:dmvi:d2e3523</L4>
+            <L4>dancing     id:dmvi:d2e3531</L4>
+            <L4>departing     id:dmvi:d2e3539</L4>
+            <L4>dressing--undressing     id:dmvi:d2e3547</L4>
+            <L4>drinking     id:dmvi:d2e3555</L4>
+            <L4>eating     id:dmvi:d2e3563</L4>
+            <L4>entering     id:dmvi:d2e3571</L4>
+            <L4>falling     id:dmvi:d2e3580</L4>
+            <L4>flying     id:dmvi:d2e3588</L4>
+            <L4>giving--receiving     id:dmvi:d2e3596</L4>
+            <L4>hiding     id:dmvi:d2e3604</L4>
+            <L4>jumping     id:dmvi:d2e3612</L4>
+            <L4>leading     id:dmvi:d2e3620</L4>
+            <L4>meeting     id:dmvi:d2e3628</L4>
+            <L4>opening--closing     id:dmvi:d2e3636</L4>
+            <L4>playing     id:dmvi:d2e3644</L4>
+            <L4>pushing--pulling     id:dmvi:d2e3652</L4>
+            <L4>ringing--knocking     id:dmvi:d2e3660</L4>
+            <L4>running     id:dmvi:d2e3669</L4>
+            <L4>skiing and sledging     id:dmvi:d2e3677</L4>
+            <L4>smoking     id:dmvi:d2e3685</L4>
+            <L4>sneaking     id:dmvi:d2e3693</L4>
+            <L4>sniffing     id:dmvi:d2e3701</L4>
+            <L4>spying     id:dmvi:d2e3709</L4>
+            <L4>swimming     id:dmvi:d2e3717</L4>
+            <L4>throwing     id:dmvi:d2e3725</L4>
+            <L4>visiting     id:dmvi:d2e3733</L4>
+            <L4>walking     id:dmvi:d2e3741</L4>
+            <L4>watching     id:dmvi:d2e3749</L4>
+            <L4>waving     id:dmvi:d2e3758</L4>
+         </L3>
+         <L3>verbal communications     id:dmvi:d2e3764<L4>accusing     id:dmvi:d2e3766</L4>
+            <L4>acting     id:dmvi:d2e3774</L4>
+            <L4>advising     id:dmvi:d2e3782</L4>
+            <L4>arguing     id:dmvi:d2e3790</L4>
+            <L4>asking     id:dmvi:d2e3798</L4>
+            <L4>begging     id:dmvi:d2e3806</L4>
+            <L4>cheering     id:dmvi:d2e3814</L4>
+            <L4>crying     id:dmvi:d2e3822</L4>
+            <L4>flirting     id:dmvi:d2e3830</L4>
+            <L4>laughing     id:dmvi:d2e3838</L4>
+            <L4>praying     id:dmvi:d2e3847</L4>
+            <L4>reconciling     id:dmvi:d2e3855</L4>
+            <L4>scolding     id:dmvi:d2e3863</L4>
+            <L4>shouting     id:dmvi:d2e3871</L4>
+            <L4>singing     id:dmvi:d2e3879</L4>
+            <L4>talking     id:dmvi:d2e3887</L4>
+            <L4>teasing     id:dmvi:d2e3895</L4>
+            <L4>toasting     id:dmvi:d2e3903</L4>
+            <L4>warning     id:dmvi:d2e3911</L4>
+            <L4>whispering     id:dmvi:d2e3919</L4>
+         </L3>
+         <L3>manual and farm work     id:dmvi:d2e3925<L4>breaking     id:dmvi:d2e3927</L4>
+            <L4>building     id:dmvi:d2e3936</L4>
+            <L4>carving     id:dmvi:d2e3944</L4>
+            <L4>cutting and chopping     id:dmvi:d2e3952</L4>
+            <L4>cleaning     id:dmvi:d2e3960</L4>
+            <L4>cooking and preparing     id:dmvi:d2e3968</L4>
+            <L4>digging     id:dmvi:d2e3976</L4>
+            <L4>gardening     id:dmvi:d2e3984</L4>
+            <L4>herding     id:dmvi:d2e3992</L4>
+            <L4>lighting     id:dmvi:d2e4000</L4>
+            <L4>loading--unloading     id:dmvi:d2e4008</L4>
+            <L4>mending     id:dmvi:d2e4016</L4>
+            <L4>milking     id:dmvi:d2e4025</L4>
+            <L4>picking     id:dmvi:d2e4033</L4>
+            <L4>ploughing     id:dmvi:d2e4041</L4>
+            <L4>reaping     id:dmvi:d2e4049</L4>
+            <L4>serving     id:dmvi:d2e4057</L4>
+            <L4>sewing and knitting     id:dmvi:d2e4065</L4>
+            <L4>shearing     id:dmvi:d2e4073</L4>
+            <L4>sowing     id:dmvi:d2e4081</L4>
+            <L4>weaving     id:dmvi:d2e4089</L4>
+         </L3>
+         <L3>fighting, hunting and military actions     id:dmvi:d2e4095<L4>duelling     id:dmvi:d2e4097</L4>
+            <L4>escaping     id:dmvi:d2e4105</L4>
+            <L4>fighting     id:dmvi:d2e4114</L4>
+            <L4>fishing     id:dmvi:d2e4122</L4>
+            <L4>guarding     id:dmvi:d2e4130</L4>
+            <L4>hunting and trapping     id:dmvi:d2e4138</L4>
+            <L4>killing     id:dmvi:d2e4146</L4>
+            <L4>marching     id:dmvi:d2e4154</L4>
+            <L4>pursuing and searching     id:dmvi:d2e4162</L4>
+            <L4>shooting     id:dmvi:d2e4170</L4>
+         </L3>
+         <L3>transactions     id:dmvi:d2e4176<L4>buying and selling     id:dmvi:d2e4178</L4>
+            <L4>loaning     id:dmvi:d2e4186</L4>
+            <L4>gambling     id:dmvi:d2e4194</L4>
+         </L3>
+         <L3>affectionate actions     id:dmvi:d2e4201<L4>blessing     id:dmvi:d2e4203</L4>
+            <L4>comforting     id:dmvi:d2e4211</L4>
+            <L4>courtship     id:dmvi:d2e4219</L4>
+            <L4>embracing     id:dmvi:d2e4227</L4>
+            <L4>helping     id:dmvi:d2e4235</L4>
+            <L4>kissing     id:dmvi:d2e4243</L4>
+            <L4>nursing     id:dmvi:d2e4251</L4>
+            <L4>rocking     id:dmvi:d2e4259</L4>
+            <L4>stroking     id:dmvi:d2e4267</L4>
+            <L4>welcoming     id:dmvi:d2e4275</L4>
+         </L3>
+         <L3>mental and creative activities     id:dmvi:d2e4281<L4>counting     id:dmvi:d2e4283</L4>
+            <L4>listening     id:dmvi:d2e4292</L4>
+            <L4>painting and drawing     id:dmvi:d2e4300</L4>
+            <L4>reading     id:dmvi:d2e4308</L4>
+            <L4>relaxing     id:dmvi:d2e4316</L4>
+            <L4>remembering     id:dmvi:d2e4324</L4>
+            <L4>teaching     id:dmvi:d2e4332</L4>
+            <L4>thinking     id:dmvi:d2e4340</L4>
+            <L4>writing     id:dmvi:d2e4348</L4>
+         </L3>
+         <L3>vehicular motions     id:dmvi:d2e4354<L4>boarding--alighting     id:dmvi:d2e4356</L4>
+            <L4>driving     id:dmvi:d2e4364</L4>
+            <L4>horse-riding     id:dmvi:d2e4372</L4>
+            <L4>rowing and punting     id:dmvi:d2e4381</L4>
+            <L4>sailing     id:dmvi:d2e4389</L4>
+         </L3>
+      </L2>
+      <L2>emotions and states    id:dmvi:d2e4393<L3>emotions     id:dmvi:d2e4395<L4>anger     id:dmvi:d2e4397</L4>
+            <L4>distress     id:dmvi:d2e4405</L4>
+            <L4>fear     id:dmvi:d2e4413</L4>
+            <L4>grief     id:dmvi:d2e4421</L4>
+            <L4>guilt     id:dmvi:d2e4429</L4>
+            <L4>happiness     id:dmvi:d2e4437</L4>
+            <L4>hatred     id:dmvi:d2e4445</L4>
+            <L4>heartbreak     id:dmvi:d2e4453</L4>
+            <L4>jealousy     id:dmvi:d2e4461</L4>
+            <L4>love     id:dmvi:d2e4470</L4>
+            <L4>penitence     id:dmvi:d2e4478</L4>
+            <L4>sadness     id:dmvi:d2e4486</L4>
+            <L4>surprise     id:dmvi:d2e4494</L4>
+         </L3>
+         <L3>characteristics     id:dmvi:d2e4500<L4>bullying     id:dmvi:d2e4502</L4>
+            <L4>courage     id:dmvi:d2e4510</L4>
+            <L4>cowardice     id:dmvi:d2e4518</L4>
+            <L4>cruelty     id:dmvi:d2e4526</L4>
+            <L4>greed     id:dmvi:d2e4534</L4>
+            <L4>knowledge and wisdom     id:dmvi:d2e4542</L4>
+            <L4>madness     id:dmvi:d2e4550</L4>
+            <L4>peacefulness     id:dmvi:d2e4559</L4>
+            <L4>pride     id:dmvi:d2e4567</L4>
+         </L3>
+         <L3>physical states     id:dmvi:d2e4573<L4>drunk     id:dmvi:d2e4575</L4>
+            <L4>dying     id:dmvi:d2e4583</L4>
+            <L4>hunger     id:dmvi:d2e4591</L4>
+            <L4>ill--injured     id:dmvi:d2e4599</L4>
+            <L4>in pain     id:dmvi:d2e4607</L4>
+            <L4>sleeping     id:dmvi:d2e4615</L4>
+            <L4>sleepwalking     id:dmvi:d2e4623</L4>
+            <L4>tiredness     id:dmvi:d2e4631</L4>
+            <L4>unconsciousness     id:dmvi:d2e4639</L4>
+         </L3>
+      </L2>
+   </L1>
+   <L1>objects     id:dmvi:d2e4642<L2>tools and implements    id:dmvi:d2e4644<L3>domestic objects     id:dmvi:d2e4646<L4>basins     id:dmvi:d2e4648</L4>
+            <L4>baskets     id:dmvi:d2e4656</L4>
+            <L4>birdcages     id:dmvi:d2e4664</L4>
+            <L4>bottles     id:dmvi:d2e4672</L4>
+            <L4>buckets     id:dmvi:d2e4680</L4>
+            <L4>cleaning equipment     id:dmvi:d2e4688</L4>
+            <L4>clocks     id:dmvi:d2e4696</L4>
+            <L4>clothing irons     id:dmvi:d2e4704</L4>
+            <L4>cooking utensils     id:dmvi:d2e4712</L4>
+            <L4>corkscrews     id:dmvi:d2e4720</L4>
+            <L4>crockery and pottery     id:dmvi:d2e4728</L4>
+            <L4>cups     id:dmvi:d2e4737</L4>
+            <L4>cutlery     id:dmvi:d2e4745</L4>
+            <L4>drinking straws     id:dmvi:d2e4753</L4>
+            <L4>fabrics     id:dmvi:d2e4761</L4>
+            <L4>fire irons     id:dmvi:d2e4769</L4>
+            <L4>firewood     id:dmvi:d2e4777</L4>
+            <L4>glasses     id:dmvi:d2e4785</L4>
+            <L4>goblets     id:dmvi:d2e4793</L4>
+            <L4>hairbrushes and combs     id:dmvi:d2e4801</L4>
+            <L4>hourglasses     id:dmvi:d2e4809</L4>
+            <L4>jugs     id:dmvi:d2e4817</L4>
+            <L4>kettles and pots     id:dmvi:d2e4826</L4>
+            <L4>keys     id:dmvi:d2e4834</L4>
+            <L4>mousetraps     id:dmvi:d2e4842</L4>
+            <L4>ornaments     id:dmvi:d2e4850</L4>
+            <L4>punchbowls     id:dmvi:d2e4858</L4>
+            <L4>razors     id:dmvi:d2e4866</L4>
+            <L4>scissors     id:dmvi:d2e4874</L4>
+            <L4>towels     id:dmvi:d2e4882</L4>
+            <L4>trays     id:dmvi:d2e4890</L4>
+            <L4>vases     id:dmvi:d2e4898</L4>
+            <L4>washing tubs     id:dmvi:d2e4906</L4>
+            <L4>watering-cans     id:dmvi:d2e4915</L4>
+            <L4>weights and scales     id:dmvi:d2e4923</L4>
+         </L3>
+         <L3>lighting devices     id:dmvi:d2e4929<L4>candles and candlesticks     id:dmvi:d2e4931</L4>
+            <L4>chandeliers     id:dmvi:d2e4939</L4>
+            <L4>lamps     id:dmvi:d2e4947</L4>
+            <L4>torches     id:dmvi:d2e4955</L4>
+         </L3>
+         <L3>farming equipment     id:dmvi:d2e4961<L4>crooks     id:dmvi:d2e4963</L4>
+            <L4>milk churns     id:dmvi:d2e4971</L4>
+            <L4>pitchforks     id:dmvi:d2e4979</L4>
+            <L4>ploughs     id:dmvi:d2e4987</L4>
+            <L4>rakes and hoes     id:dmvi:d2e4995</L4>
+            <L4>scythes and sickles     id:dmvi:d2e5004</L4>
+            <L4>troughs     id:dmvi:d2e5012</L4>
+         </L3>
+         <L3>labouring equipment     id:dmvi:d2e5018<L4>axes     id:dmvi:d2e5020</L4>
+            <L4>barrels     id:dmvi:d2e5028</L4>
+            <L4>blacksmith's tools     id:dmvi:d2e5036</L4>
+            <L4>builder's tools     id:dmvi:d2e5044</L4>
+            <L4>carpenter's tools     id:dmvi:d2e5052</L4>
+            <L4>gardening tools     id:dmvi:d2e5060</L4>
+            <L4>ladders     id:dmvi:d2e5068</L4>
+            <L4>pickaxes     id:dmvi:d2e5076</L4>
+            <L4>pulleys     id:dmvi:d2e5084</L4>
+            <L4>ropes     id:dmvi:d2e5093</L4>
+            <L4>spades     id:dmvi:d2e5101</L4>
+            <L4>wheelbarrows     id:dmvi:d2e5109</L4>
+         </L3>
+         <L3>creative implements     id:dmvi:d2e5115<L4>artist's equipment     id:dmvi:d2e5117</L4>
+            <L4>sewing equipment     id:dmvi:d2e5125</L4>
+            <L4>weaving equipment     id:dmvi:d2e5133</L4>
+            <L4>writing equipment     id:dmvi:d2e5141</L4>
+         </L3>
+         <L3>medical equipment     id:dmvi:d2e5147<L4>bandages     id:dmvi:d2e5149</L4>
+            <L4>stretchers     id:dmvi:d2e5157</L4>
+         </L3>
+         <L3>scientific objects     id:dmvi:d2e5163<L4>barometers     id:dmvi:d2e5165</L4>
+            <L4>binoculars     id:dmvi:d2e5173</L4>
+            <L4>globes     id:dmvi:d2e5182</L4>
+            <L4>laboratory equipment     id:dmvi:d2e5190</L4>
+            <L4>sundials     id:dmvi:d2e5198</L4>
+            <L4>telescopes     id:dmvi:d2e5206</L4>
+         </L3>
+         <L3>weapons     id:dmvi:d2e5212<L4>battleaxes     id:dmvi:d2e5214</L4>
+            <L4>bows and arrows     id:dmvi:d2e5222</L4>
+            <L4>cannons     id:dmvi:d2e5230</L4>
+            <L4>chains     id:dmvi:d2e5238</L4>
+            <L4>clubs--quarterstaffs     id:dmvi:d2e5246</L4>
+            <L4>guns     id:dmvi:d2e5254</L4>
+            <L4>knives     id:dmvi:d2e5262</L4>
+            <L4>shields     id:dmvi:d2e5271</L4>
+            <L4>spears     id:dmvi:d2e5279</L4>
+            <L4>stones and rocks     id:dmvi:d2e5287</L4>
+            <L4>swords     id:dmvi:d2e5295</L4>
+            <L4>tridents     id:dmvi:d2e5303</L4>
+         </L3>
+      </L2>
+      <L2>furnishings    id:dmvi:d2e5307<L3>armchairs     id:dmvi:d2e5309</L3>
+         <L3>beds     id:dmvi:d2e5315</L3>
+         <L3>benches     id:dmvi:d2e5321</L3>
+         <L3>bins     id:dmvi:d2e5327</L3>
+         <L3>bookcases     id:dmvi:d2e5333</L3>
+         <L3>boxes     id:dmvi:d2e5339</L3>
+         <L3>carpets     id:dmvi:d2e5346</L3>
+         <L3>chairs     id:dmvi:d2e5352</L3>
+         <L3>chests of drawers     id:dmvi:d2e5358</L3>
+         <L3>cradles     id:dmvi:d2e5364</L3>
+         <L3>cupboards     id:dmvi:d2e5370</L3>
+         <L3>curtains     id:dmvi:d2e5376</L3>
+         <L3>decorations     id:dmvi:d2e5382</L3>
+         <L3>desks     id:dmvi:d2e5388</L3>
+         <L3>dressing-tables     id:dmvi:d2e5394</L3>
+         <L3>footstools     id:dmvi:d2e5400</L3>
+         <L3>lecterns     id:dmvi:d2e5406</L3>
+         <L3>mirrors     id:dmvi:d2e5413</L3>
+         <L3>panelling     id:dmvi:d2e5419</L3>
+         <L3>pews     id:dmvi:d2e5425</L3>
+         <L3>screens     id:dmvi:d2e5431</L3>
+         <L3>shelves     id:dmvi:d2e5437</L3>
+         <L3>stools     id:dmvi:d2e5443</L3>
+         <L3>stoves     id:dmvi:d2e5449</L3>
+         <L3>tables     id:dmvi:d2e5455</L3>
+         <L3>wallpaper     id:dmvi:d2e5461</L3>
+         <L3>wardrobes     id:dmvi:d2e5467</L3>
+         <L3>window-seats     id:dmvi:d2e5473</L3>
+      </L2>
+      <L2>recreational objects    id:dmvi:d2e5478<L3>sporting objects     id:dmvi:d2e5480<L4>balls     id:dmvi:d2e5482</L4>
+            <L4>bathing machine     id:dmvi:d2e5490</L4>
+            <L4>billiard-tables     id:dmvi:d2e5498</L4>
+            <L4>climbing equipment     id:dmvi:d2e5506</L4>
+            <L4>croquet mallets     id:dmvi:d2e5514</L4>
+            <L4>dice     id:dmvi:d2e5522</L4>
+            <L4>fishing equipment     id:dmvi:d2e5530</L4>
+            <L4>playing cards     id:dmvi:d2e5538</L4>
+         </L3>
+         <L3>toys     id:dmvi:d2e5544<L4>cat's-cradles     id:dmvi:d2e5546</L4>
+            <L4>dolls     id:dmvi:d2e5554</L4>
+            <L4>kites     id:dmvi:d2e5562</L4>
+            <L4>rocking--hobby horses     id:dmvi:d2e5571</L4>
+            <L4>sticks--bats--hoops     id:dmvi:d2e5579</L4>
+            <L4>swings     id:dmvi:d2e5587</L4>
+            <L4>toy figures and vehicles     id:dmvi:d2e5595</L4>
+         </L3>
+      </L2>
+      <L2>transport and travel    id:dmvi:d2e5599<L3>vehicles     id:dmvi:d2e5601<L4>ships     id:dmvi:d2e5603</L4>
+            <L4>boats     id:dmvi:d2e5611</L4>
+            <L4>arks     id:dmvi:d2e5619</L4>
+            <L4>sailing and boating equipment     id:dmvi:d2e5627</L4>
+            <L4>carriages     id:dmvi:d2e5635</L4>
+            <L4>carts     id:dmvi:d2e5643</L4>
+            <L4>omnibuses     id:dmvi:d2e5651</L4>
+            <L4>trains     id:dmvi:d2e5660</L4>
+            <L4>sleighs and sleds     id:dmvi:d2e5668</L4>
+            <L4>sedan chairs     id:dmvi:d2e5676</L4>
+            <L4>wheelchairs     id:dmvi:d2e5684</L4>
+         </L3>
+         <L3>travel items     id:dmvi:d2e5690<L4>horse-whips     id:dmvi:d2e5692</L4>
+            <L4>luggage     id:dmvi:d2e5700</L4>
+            <L4>maps     id:dmvi:d2e5708</L4>
+            <L4>riding equipment     id:dmvi:d2e5716</L4>
+         </L3>
+      </L2>
+      <L2>cultural objects    id:dmvi:d2e5720<L3>written word     id:dmvi:d2e5722<L4>academic papers     id:dmvi:d2e5724</L4>
+            <L4>architectural plans     id:dmvi:d2e5732</L4>
+            <L4>books     id:dmvi:d2e5740</L4>
+            <L4>calling cards     id:dmvi:d2e5749</L4>
+            <L4>catalogues and lists     id:dmvi:d2e5757</L4>
+            <L4>letters     id:dmvi:d2e5765</L4>
+            <L4>manuscripts     id:dmvi:d2e5773</L4>
+            <L4>menus     id:dmvi:d2e5781</L4>
+            <L4>periodicals     id:dmvi:d2e5789</L4>
+            <L4>scripts     id:dmvi:d2e5797</L4>
+            <L4>signs and posters     id:dmvi:d2e5805</L4>
+            <L4>songsheets     id:dmvi:d2e5813</L4>
+         </L3>
+         <L3>legal documents     id:dmvi:d2e5819<L4>business and legal papers     id:dmvi:d2e5821</L4>
+            <L4>national constitutions     id:dmvi:d2e5829</L4>
+            <L4>receipts     id:dmvi:d2e5838</L4>
+            <L4>warrants     id:dmvi:d2e5846</L4>
+            <L4>wills     id:dmvi:d2e5854</L4>
+         </L3>
+         <L3>visual arts     id:dmvi:d2e5860<L4>embroidery     id:dmvi:d2e5862</L4>
+            <L4>paintings     id:dmvi:d2e5870</L4>
+            <L4>sculpture     id:dmvi:d2e5878</L4>
+            <L4>sketch-books     id:dmvi:d2e5886</L4>
+         </L3>
+         <L3>musical objects     id:dmvi:d2e5892<L4>bells     id:dmvi:d2e5894</L4>
+            <L4>brass instruments     id:dmvi:d2e5902</L4>
+            <L4>drums     id:dmvi:d2e5910</L4>
+            <L4>guitars     id:dmvi:d2e5918</L4>
+            <L4>harps     id:dmvi:d2e5927</L4>
+            <L4>pianos and organs     id:dmvi:d2e5935</L4>
+            <L4>pipes     id:dmvi:d2e5943</L4>
+            <L4>sheet music     id:dmvi:d2e5951</L4>
+            <L4>violins     id:dmvi:d2e5959</L4>
+            <L4>woodwind instruments     id:dmvi:d2e5967</L4>
+         </L3>
+         <L3>religious objects     id:dmvi:d2e5973<L4>altars     id:dmvi:d2e5975</L4>
+            <L4>Bibles     id:dmvi:d2e5983</L4>
+            <L4>coffins and biers     id:dmvi:d2e5991</L4>
+            <L4>crucifixes     id:dmvi:d2e5999</L4>
+            <L4>graves and gravestones     id:dmvi:d2e6007</L4>
+            <L4>prayer books     id:dmvi:d2e6016</L4>
+            <L4>rosaries     id:dmvi:d2e6024</L4>
+            <L4>shrouds     id:dmvi:d2e6032</L4>
+            <L4>statues of Jesus     id:dmvi:d2e6040</L4>
+         </L3>
+         <L3>status objects     id:dmvi:d2e6046<L4>crests     id:dmvi:d2e6048</L4>
+            <L4>crowns     id:dmvi:d2e6056</L4>
+            <L4>flags     id:dmvi:d2e6064</L4>
+            <L4>regalia     id:dmvi:d2e6072</L4>
+            <L4>thrones     id:dmvi:d2e6080</L4>
+         </L3>
+         <L3>valuable objects     id:dmvi:d2e6086<L4>gifts     id:dmvi:d2e6088</L4>
+            <L4>gold and silver     id:dmvi:d2e6096</L4>
+            <L4>jewels     id:dmvi:d2e6105</L4>
+            <L4>medals     id:dmvi:d2e6113</L4>
+            <L4>merchandise     id:dmvi:d2e6121</L4>
+            <L4>money     id:dmvi:d2e6129</L4>
+            <L4>purses     id:dmvi:d2e6137</L4>
+            <L4>treasures     id:dmvi:d2e6145</L4>
+         </L3>
+      </L2>
+      <L2>food and drink    id:dmvi:d2e6149<L3>food     id:dmvi:d2e6151<L4>food [general]     id:dmvi:d2e6153</L4>
+            <L4>bread     id:dmvi:d2e6161</L4>
+            <L4>condiments     id:dmvi:d2e6169</L4>
+            <L4>desserts--sweets     id:dmvi:d2e6177</L4>
+            <L4>eggs     id:dmvi:d2e6185</L4>
+            <L4>fruit     id:dmvi:d2e6194</L4>
+            <L4>meat and fish     id:dmvi:d2e6202</L4>
+            <L4>mushrooms     id:dmvi:d2e6210</L4>
+            <L4>vegetables     id:dmvi:d2e6218</L4>
+         </L3>
+         <L3>drink     id:dmvi:d2e6224<L4>drink [general]     id:dmvi:d2e6226</L4>
+            <L4>beer     id:dmvi:d2e6234</L4>
+            <L4>champagne     id:dmvi:d2e6242</L4>
+            <L4>drinking water     id:dmvi:d2e6250</L4>
+            <L4>milk     id:dmvi:d2e6258</L4>
+            <L4>punch     id:dmvi:d2e6266</L4>
+            <L4>spirits     id:dmvi:d2e6274</L4>
+            <L4>tea and coffee     id:dmvi:d2e6283</L4>
+            <L4>wine     id:dmvi:d2e6291</L4>
+         </L3>
+         <L3>other ingestibles     id:dmvi:d2e6297<L4>herbs     id:dmvi:d2e6299</L4>
+            <L4>medicines     id:dmvi:d2e6307</L4>
+            <L4>poisons     id:dmvi:d2e6315</L4>
+            <L4>tobacco     id:dmvi:d2e6323</L4>
+         </L3>
+      </L2>
+      <L2>human biology    id:dmvi:d2e6327<L3>blood     id:dmvi:d2e6329</L3>
+         <L3>corpses     id:dmvi:d2e6335</L3>
+         <L3>footprints     id:dmvi:d2e6341</L3>
+         <L3>hair     id:dmvi:d2e6347</L3>
+         <L3>human skeletons     id:dmvi:d2e6353</L3>
+         <L3>mummies     id:dmvi:d2e6360</L3>
+      </L2>
+      <L2>birds and animals    id:dmvi:d2e6364<L3>animals     id:dmvi:d2e6366<L4>apes     id:dmvi:d2e6368</L4>
+            <L4>bats     id:dmvi:d2e6376</L4>
+            <L4>bears     id:dmvi:d2e6384</L4>
+            <L4>camels     id:dmvi:d2e6392</L4>
+            <L4>cats     id:dmvi:d2e6400</L4>
+            <L4>cows     id:dmvi:d2e6408</L4>
+            <L4>deer     id:dmvi:d2e6416</L4>
+            <L4>dogs     id:dmvi:d2e6424</L4>
+            <L4>donkeys     id:dmvi:d2e6432</L4>
+            <L4>elephants     id:dmvi:d2e6440</L4>
+            <L4>foxes     id:dmvi:d2e6449</L4>
+            <L4>goats     id:dmvi:d2e6457</L4>
+            <L4>hares and rabbits     id:dmvi:d2e6465</L4>
+            <L4>horses     id:dmvi:d2e6473</L4>
+            <L4>jackals     id:dmvi:d2e6481</L4>
+            <L4>lions     id:dmvi:d2e6489</L4>
+            <L4>lizards     id:dmvi:d2e6497</L4>
+            <L4>pigs     id:dmvi:d2e6505</L4>
+            <L4>rodents     id:dmvi:d2e6513</L4>
+            <L4>sheep     id:dmvi:d2e6521</L4>
+            <L4>snakes     id:dmvi:d2e6529</L4>
+            <L4>tigers     id:dmvi:d2e6538</L4>
+            <L4>toads and frogs     id:dmvi:d2e6546</L4>
+            <L4>whales     id:dmvi:d2e6554</L4>
+            <L4>wolves     id:dmvi:d2e6562</L4>
+         </L3>
+         <L3>birds     id:dmvi:d2e6568<L4>birds [general]     id:dmvi:d2e6570</L4>
+            <L4>albatrosses     id:dmvi:d2e6578</L4>
+            <L4>birds of prey     id:dmvi:d2e6586</L4>
+            <L4>canaries     id:dmvi:d2e6594</L4>
+            <L4>chickens     id:dmvi:d2e6602</L4>
+            <L4>cockerels     id:dmvi:d2e6610</L4>
+            <L4>cranes     id:dmvi:d2e6618</L4>
+            <L4>cuckoos     id:dmvi:d2e6627</L4>
+            <L4>doves     id:dmvi:d2e6635</L4>
+            <L4>ducks     id:dmvi:d2e6643</L4>
+            <L4>game birds     id:dmvi:d2e6651</L4>
+            <L4>geese     id:dmvi:d2e6659</L4>
+            <L4>gulls     id:dmvi:d2e6667</L4>
+            <L4>magpies     id:dmvi:d2e6675</L4>
+            <L4>nightingales     id:dmvi:d2e6683</L4>
+            <L4>ostriches     id:dmvi:d2e6691</L4>
+            <L4>owls     id:dmvi:d2e6699</L4>
+            <L4>parrots     id:dmvi:d2e6707</L4>
+            <L4>peacocks     id:dmvi:d2e6716</L4>
+            <L4>pelicans     id:dmvi:d2e6724</L4>
+            <L4>pigeons     id:dmvi:d2e6732</L4>
+            <L4>ravens     id:dmvi:d2e6740</L4>
+            <L4>skylarks     id:dmvi:d2e6748</L4>
+            <L4>storks     id:dmvi:d2e6756</L4>
+            <L4>swallows     id:dmvi:d2e6764</L4>
+            <L4>swans     id:dmvi:d2e6772</L4>
+            <L4>turkeys     id:dmvi:d2e6780</L4>
+         </L3>
+         <L3>fish     id:dmvi:d2e6786</L3>
+         <L3>insects     id:dmvi:d2e6792</L3>
+         <L3>mythological creatures     id:dmvi:d2e6799<L4>dragons     id:dmvi:d2e6801</L4>
+            <L4>Pegasus     id:dmvi:d2e6809</L4>
+            <L4>sea serpents     id:dmvi:d2e6817</L4>
+         </L3>
+         <L3>animal-related objects     id:dmvi:d2e6823<L4>animal skeletons     id:dmvi:d2e6825</L4>
+            <L4>animal skins     id:dmvi:d2e6833</L4>
+            <L4>birds' feathers     id:dmvi:d2e6841</L4>
+            <L4>cobwebs     id:dmvi:d2e6849</L4>
+            <L4>coral     id:dmvi:d2e6857</L4>
+            <L4>nests and eggs     id:dmvi:d2e6865</L4>
+            <L4>seashells     id:dmvi:d2e6873</L4>
+         </L3>
+      </L2>
+      <L2>vegetation    id:dmvi:d2e6877<L3>trees     id:dmvi:d2e6879<L4>trees [general]     id:dmvi:d2e6881</L4>
+            <L4>bamboos     id:dmvi:d2e6890</L4>
+            <L4>beeches     id:dmvi:d2e6898</L4>
+            <L4>oaks     id:dmvi:d2e6906</L4>
+            <L4>palms     id:dmvi:d2e6914</L4>
+            <L4>timber     id:dmvi:d2e6922</L4>
+            <L4>tree stumps     id:dmvi:d2e6930</L4>
+         </L3>
+         <L3>plants     id:dmvi:d2e6936<L4>plants [general]     id:dmvi:d2e6938</L4>
+            <L4>bushes     id:dmvi:d2e6946</L4>
+            <L4>ferns     id:dmvi:d2e6954</L4>
+            <L4>holly     id:dmvi:d2e6962</L4>
+            <L4>mistletoe     id:dmvi:d2e6970</L4>
+            <L4>reeds     id:dmvi:d2e6979</L4>
+            <L4>vines     id:dmvi:d2e6987</L4>
+         </L3>
+         <L3>crops     id:dmvi:d2e6993<L4>cereals     id:dmvi:d2e6995</L4>
+            <L4>straw--hay     id:dmvi:d2e7003</L4>
+         </L3>
+         <L3>flowers     id:dmvi:d2e7009<L4>flowers [general]     id:dmvi:d2e7011</L4>
+            <L4>bouquets     id:dmvi:d2e7019</L4>
+            <L4>daffodils     id:dmvi:d2e7027</L4>
+            <L4>lilies     id:dmvi:d2e7035</L4>
+            <L4>roses     id:dmvi:d2e7043</L4>
+         </L3>
+      </L2>
+   </L1>
+   <L1>themes     id:dmvi:d2e7045<L2>society and culture    id:dmvi:d2e7047<L3>politics     id:dmvi:d2e7049<L4>empire     id:dmvi:d2e7051</L4>
+            <L4>governments     id:dmvi:d2e7059</L4>
+            <L4>national symbols     id:dmvi:d2e7068</L4>
+            <L4>political movements and parties     id:dmvi:d2e7076</L4>
+            <L4>protests and strikes     id:dmvi:d2e7084</L4>
+            <L4>slavery     id:dmvi:d2e7092</L4>
+         </L3>
+         <L3>work and commerce     id:dmvi:d2e7098<L4>agriculture     id:dmvi:d2e7100</L4>
+            <L4>business     id:dmvi:d2e7108</L4>
+            <L4>industry     id:dmvi:d2e7116</L4>
+            <L4>trades unions     id:dmvi:d2e7124</L4>
+            <L4>money-lending     id:dmvi:d2e7132</L4>
+         </L3>
+         <L3>law and order     id:dmvi:d2e7138<L4>crime [general]     id:dmvi:d2e7140</L4>
+            <L4>murders     id:dmvi:d2e7148</L4>
+            <L4>theft     id:dmvi:d2e7157</L4>
+            <L4>mobs     id:dmvi:d2e7165</L4>
+            <L4>duels     id:dmvi:d2e7173</L4>
+            <L4>legal system [general]     id:dmvi:d2e7181</L4>
+            <L4>policing     id:dmvi:d2e7189</L4>
+            <L4>trials     id:dmvi:d2e7197</L4>
+            <L4>imprisonment     id:dmvi:d2e7205</L4>
+            <L4>corporal punishment     id:dmvi:d2e7213</L4>
+            <L4>executions     id:dmvi:d2e7221</L4>
+         </L3>
+         <L3>leisure and recreation     id:dmvi:d2e7227<L4>leisure [general]     id:dmvi:d2e7229</L4>
+            <L4>concerts     id:dmvi:d2e7237</L4>
+            <L4>fairs and fetes     id:dmvi:d2e7246</L4>
+            <L4>fashion     id:dmvi:d2e7254</L4>
+            <L4>horseracing     id:dmvi:d2e7262</L4>
+            <L4>horticulture     id:dmvi:d2e7270</L4>
+            <L4>hunts     id:dmvi:d2e7278</L4>
+            <L4>parties     id:dmvi:d2e7286</L4>
+            <L4>social season     id:dmvi:d2e7294</L4>
+            <L4>sports and games     id:dmvi:d2e7302</L4>
+            <L4>theatre     id:dmvi:d2e7310</L4>
+         </L3>
+         <L3>meals     id:dmvi:d2e7316<L4>daily meals     id:dmvi:d2e7318</L4>
+            <L4>feasts     id:dmvi:d2e7326</L4>
+            <L4>picnics     id:dmvi:d2e7335</L4>
+         </L3>
+         <L3>ceremonies     id:dmvi:d2e7341<L4>coronations     id:dmvi:d2e7343</L4>
+            <L4>processions     id:dmvi:d2e7351</L4>
+            <L4>christenings     id:dmvi:d2e7359</L4>
+            <L4>funerals     id:dmvi:d2e7367</L4>
+            <L4>weddings     id:dmvi:d2e7375</L4>
+         </L3>
+         <L3>arts and sciences     id:dmvi:d2e7381<L4>arts and humanities     id:dmvi:d2e7383</L4>
+            <L4>music     id:dmvi:d2e7391</L4>
+            <L4>education     id:dmvi:d2e7399</L4>
+            <L4>medical science     id:dmvi:d2e7407</L4>
+            <L4>natural science     id:dmvi:d2e7415</L4>
+            <L4>astrology     id:dmvi:d2e7424</L4>
+            <L4>hypnosis     id:dmvi:d2e7432</L4>
+            <L4>exhibitions     id:dmvi:d2e7440</L4>
+            <L4>patronage     id:dmvi:d2e7448</L4>
+         </L3>
+      </L2>
+      <L2>travel and tourism    id:dmvi:d2e7452<L3>exploration     id:dmvi:d2e7454</L3>
+         <L3>holidays     id:dmvi:d2e7460</L3>
+         <L3>journeys     id:dmvi:d2e7466</L3>
+         <L3>migration and emigration     id:dmvi:d2e7472</L3>
+      </L2>
+      <L2>religion    id:dmvi:d2e7476<L3>religion [general]     id:dmvi:d2e7478</L3>
+         <L3>religious services     id:dmvi:d2e7484</L3>
+         <L3>religious concepts     id:dmvi:d2e7490<L4>charity     id:dmvi:d2e7492</L4>
+            <L4>halos     id:dmvi:d2e7501</L4>
+            <L4>heaven     id:dmvi:d2e7509</L4>
+            <L4>hell     id:dmvi:d2e7517</L4>
+            <L4>heresy     id:dmvi:d2e7525</L4>
+            <L4>martyrdom     id:dmvi:d2e7533</L4>
+            <L4>miracles     id:dmvi:d2e7541</L4>
+            <L4>pilgrimage     id:dmvi:d2e7549</L4>
+            <L4>resurrection     id:dmvi:d2e7557</L4>
+            <L4>Sabbath     id:dmvi:d2e7565</L4>
+            <L4>soul     id:dmvi:d2e7573</L4>
+         </L3>
+         <L3>Christianity     id:dmvi:d2e7579<L4>Roman Catholicism     id:dmvi:d2e7581</L4>
+            <L4>Protestantism     id:dmvi:d2e7590</L4>
+            <L4>Devil     id:dmvi:d2e7598</L4>
+            <L4>Saints     id:dmvi:d2e7606</L4>
+            <L4>Reformation     id:dmvi:d2e7614</L4>
+         </L3>
+         <L3>Islam     id:dmvi:d2e7620</L3>
+         <L3>Judaism     id:dmvi:d2e7626</L3>
+         <L3>festivals and feast days     id:dmvi:d2e7632<L4>Christmas     id:dmvi:d2e7634</L4>
+            <L4>Easter     id:dmvi:d2e7642</L4>
+            <L4>Halloween     id:dmvi:d2e7650</L4>
+            <L4>May Day     id:dmvi:d2e7658</L4>
+            <L4>New Year     id:dmvi:d2e7666</L4>
+            <L4>saint's day     id:dmvi:d2e7675</L4>
+            <L4>St. Valentine's Day     id:dmvi:d2e7683</L4>
+         </L3>
+      </L2>
+      <L2>narrative themes    id:dmvi:d2e7687<L3>tragedy     id:dmvi:d2e7689</L3>
+         <L3>comedy     id:dmvi:d2e7695</L3>
+         <L3>satire     id:dmvi:d2e7701</L3>
+         <L3>abstract concepts     id:dmvi:d2e7707<L4>anthropomorphism     id:dmvi:d2e7709</L4>
+            <L4>beauty     id:dmvi:d2e7717</L4>
+            <L4>destiny     id:dmvi:d2e7725</L4>
+            <L4>dreams and fantasies     id:dmvi:d2e7733</L4>
+            <L4>good and evil     id:dmvi:d2e7741</L4>
+            <L4>nature     id:dmvi:d2e7749</L4>
+            <L4>personification     id:dmvi:d2e7758</L4>
+            <L4>supernatural     id:dmvi:d2e7766</L4>
+            <L4>symbols and metaphors     id:dmvi:d2e7774</L4>
+            <L4>time     id:dmvi:d2e7782</L4>
+         </L3>
+         <L3>myths and stories     id:dmvi:d2e7788<L4>Arthurian legends     id:dmvi:d2e7790</L4>
+            <L4>biblical legends     id:dmvi:d2e7798</L4>
+            <L4>classical legends     id:dmvi:d2e7806</L4>
+            <L4>Egyptian legends     id:dmvi:d2e7814</L4>
+            <L4>folktales and fairy tales     id:dmvi:d2e7822</L4>
+            <L4>morals and fables     id:dmvi:d2e7830</L4>
+            <L4>Norse legends     id:dmvi:d2e7838</L4>
+            <L4>Shakespeare's plays     id:dmvi:d2e7847</L4>
+         </L3>
+         <L3>wars and battles     id:dmvi:d2e7853<L4>war [general]     id:dmvi:d2e7855</L4>
+            <L4>crusades     id:dmvi:d2e7863</L4>
+            <L4>English Civil War     id:dmvi:d2e7871</L4>
+            <L4>War of American Independence     id:dmvi:d2e7879</L4>
+            <L4>French Revolution     id:dmvi:d2e7887</L4>
+            <L4>Napoleonic Wars     id:dmvi:d2e7895</L4>
+            <L4>rebellions     id:dmvi:d2e7903</L4>
+         </L3>
+         <L3>narrative events     id:dmvi:d2e7909<L4>accidents     id:dmvi:d2e7911</L4>
+            <L4>arrivals     id:dmvi:d2e7919</L4>
+            <L4>birth     id:dmvi:d2e7927</L4>
+            <L4>curses and oaths     id:dmvi:d2e7936</L4>
+            <L4>danger     id:dmvi:d2e7944</L4>
+            <L4>death     id:dmvi:d2e7952</L4>
+            <L4>debts     id:dmvi:d2e7960</L4>
+            <L4>drowning     id:dmvi:d2e7968</L4>
+            <L4>fires     id:dmvi:d2e7976</L4>
+            <L4>infidelity     id:dmvi:d2e7984</L4>
+            <L4>inheritance     id:dmvi:d2e7992</L4>
+            <L4>lost virtue     id:dmvi:d2e8000</L4>
+            <L4>magic     id:dmvi:d2e8008</L4>
+            <L4>marriage proposals     id:dmvi:d2e8016</L4>
+            <L4>rescues     id:dmvi:d2e8025</L4>
+            <L4>returns     id:dmvi:d2e8033</L4>
+            <L4>revelations     id:dmvi:d2e8041</L4>
+            <L4>revenge     id:dmvi:d2e8049</L4>
+            <L4>secrets     id:dmvi:d2e8057</L4>
+            <L4>shipwrecks     id:dmvi:d2e8065</L4>
+            <L4>success and failure     id:dmvi:d2e8073</L4>
+            <L4>suicides     id:dmvi:d2e8081</L4>
+            <L4>tests and choices     id:dmvi:d2e8089</L4>
+            <L4>vigils     id:dmvi:d2e8097</L4>
+         </L3>
+      </L2>
+   </L1>
+</Key-words>

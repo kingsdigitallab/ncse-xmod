@@ -1,0 +1,17 @@
+Things noticed so far...
+CLD
+1s is often Is
+; is often j
+of is often ot
+s is often * when a word ends in s
+H is often II when a word starts with H
+
+LDR
+In adverts which start with a T spanning two lines, the bottom of the T is sometimes read as JL in the OCR
+
+MRP
+, is often * 
+, is often ^
+; is often j
+1s is often Is
+

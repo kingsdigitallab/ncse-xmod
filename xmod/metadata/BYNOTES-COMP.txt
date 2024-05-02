@@ -1,0 +1,34 @@
+
+articles:
+
+20080409:
+
+fullartids:  436923
+allmetadata: 558787
+
+
+20080501:
+
+fullartids:  387957
+allmetadata: 490591
+
+issues:
+select count(distinct publ, year, month, day) from fullartids;
+
+
+
+                       articles                         issues
+
+                       fullartids      allmetadata      fullartids
+ncse-text: 20080409:   436923          558787           3491
+ncse-text: 20080501:   387957          490591           3217
+                       ---------------------------------------
+                      - 48966         - 68196          - 274
+
+yew:       20080409:   436923          558787           3491
+yew:       20080501:   437680          559832           3500
+                       ---------------------------------------
+                      +   757         +  1045          +   9
+
+
+

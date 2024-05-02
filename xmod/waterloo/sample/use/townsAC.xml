@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE root SYSTEM "townsAC.dtd">
+<root>
+<TownNames id="3" Name="Calton"/>
+<TownNames id="5" Name="Birmingham"/>
+<TownNames id="12" Name="Buckhurst Hill"/>
+<TownNames id="20" Name="Bruges"/>
+<TownNames id="23" Name="Cambridge"/>
+<TownNames id="24" Name="Baltimore"/>
+<TownNames id="26" Name="Bristol"/>
+<TownNames id="27" Name="Bombay"/>
+<TownNames id="28" Name="Colchester"/>
+<TownNames id="40" Name="Bedford"/>
+<TownNames id="44" Name="Clifton"/>
+<TownNames id="45" Name="Chester"/>
+<TownNames id="46" Name="Birkenhead"/>
+<TownNames id="47" Name="Bolton"/>
+<TownNames id="49" Name="Canterbury"/>
+<TownNames id="50" Name="Brighton"/>
+<TownNames id="53" Name="Chelmsford"/>
+<TownNames id="56" Name="Cheltenham"/>
+<TownNames id="57" Name="Bury St Edmunds"/>
+<TownNames id="60" Name="Bath"/>
+<TownNames id="61" Name="Aylesbury"/>
+<TownNames id="62" Name="Bradford"/>
+<TownNames id="65" Name="Coventry"/>
+<TownNames id="66" Name="Cardiff"/>
+<TownNames id="81" Name="Blackburn"/>
+<TownNames id="84" Name="Belfast"/>
+<TownNames id="93" Name="Barnstaple"/>
+<TownNames id="96" Name="Chesterfield"/>
+<TownNames id="100" Name="Cirencester"/>
+<TownNames id="120" Name="Boston"/>
+<TownNames id="124" Name="Carlisle"/>
+<TownNames id="135" Name="Buxton"/>
+<TownNames id="136" Name="Banbury"/>
+<TownNames id="139" Name="Croydon"/>
+<TownNames id="144" Name="Bridgewater"/>
+<TownNames id="153" Name="Barnsley"/>
+<TownNames id="166" Name="Aberdeen"/>
+<TownNames id="167" Name="Allahabad"/>
+<TownNames id="177" Name="Andover"/>
+<TownNames id="184" Name="Bury St. Edmunds"/>
+<TownNames id="185" Name="Berwich-upon-Tweed"/>
+<TownNames id="187" Name="Bournemouth"/>
+<TownNames id="189" Name="Blackpool"/>
+<TownNames id="191" Name="Cork"/>
+<TownNames id="196" Name="Ashton-under-Lyne"/>
+<TownNames id="200" Name="Accrington"/>
+<TownNames id="202" Name="Bridgnorth"/>
+<TownNames id="209" Name="Berkhamsted"/>
+<TownNames id="212" Name="Berlin"/>
+<TownNames id="219" Name="Cornhill"/>
+<TownNames id="220" Name="Brentford"/>
+<TownNames id="223" Name="Boscombe"/>
+<TownNames id="231" Name="Bollington"/>
+<TownNames id="1424" Name="Blue Town"/>
+<TownNames id="244" Name="Bridlington Quay"/>
+<TownNames id="249" Name="Cambrai"/>
+<TownNames id="250" Name="Covent Garden"/>
+<TownNames id="255" Name="Canton"/>
+<TownNames id="256" Name="Calcutta"/>
+<TownNames id="1346" Name="Burton"/>
+<TownNames id="263" Name="Clare"/>
+<TownNames id="265" Name="Brierley Hill"/>
+<TownNames id="270" Name="Clerkenwell"/>
+<TownNames id="271" Name="Adelphi"/>
+<TownNames id="277" Name="Cadoxton"/>
+<TownNames id="280" Name="Congleton"/>
+<TownNames id="282" Name="Bicester"/>
+<TownNames id="284" Name="Camden"/>
+<TownNames id="1518" Name="Bancroft"/>
+<TownNames id="1316" Name="Bexleyheath"/>
+<TownNames id="1330" Name="Balsall Heath"/>
+<TownNames id="1331" Name="Borough&lt;?&gt;"/>
+<TownNames id="1341" Name="Craven"/>
+<TownNames id="1349" Name="Callington"/>
+<TownNames id="1357" Name="Bedford Row"/>
+<TownNames id="1540" Name="Crydon"/>
+<TownNames id="1559" Name="Brierhill"/>
+<TownNames id="1613" Name="Cromford"/>
+<TownNames id="1664" Name="Cranbrook"/>
+<TownNames id="1666" Name="Beaumaris"/>
+<TownNames id="1668" Name="Charlestown"/>
+<TownNames id="1731" Name="Bethlehem"/>
+<TownNames id="1752" Name="Boston Spa"/>
+<TownNames id="1773" Name="Clonmel"/>
+<TownNames id="301" Name="Ashford"/>
+<TownNames id="312" Name="Buckingham"/>
+<TownNames id="754" Name="Caerleon"/>
+<TownNames id="1827" Name="Berkeley"/>
+<TownNames id="1829" Name="Birtley"/>
+<TownNames id="1835" Name="Bensham?"/>
+<TownNames id="1845" Name="Bayswater"/>
+<TownNames id="1847" Name="Charleston"/>
+<TownNames id="1849" Name="Chiswick?"/>
+<TownNames id="322" Name="Abergavenny"/>
+<TownNames id="323" Name="Abingdon"/>
+<TownNames id="324" Name="Abersychan"/>
+<TownNames id="325" Name="Abertillery"/>
+<TownNames id="326" Name="Chatham"/>
+<TownNames id="327" Name="Berckenham"/>
+<TownNames id="329" Name="Acton"/>
+<TownNames id="331" Name="Broadway"/>
+<TownNames id="333" Name="Adlington"/>
+<TownNames id="335" Name="Brent"/>
+<TownNames id="338" Name="Broadstairs"/>
+<TownNames id="340" Name="Bishopwearmouth"/>
+<TownNames id="341" Name="Barrow-in-Furness"/>
+<TownNames id="344" Name="Chertsey"/>
+<TownNames id="345" Name="Aldershot"/>
+<TownNames id="375" Name="Chipping Campden"/>
+<TownNames id="387" Name="Bury Saint Edmunds"/>
+<TownNames id="388" Name="Altrincham"/>
+<TownNames id="392" Name="Burnley"/>
+<TownNames id="396" Name="Bromley"/>
+<TownNames id="409" Name="Crompton"/>
+<TownNames id="411" Name="Brydges Street"/>
+<TownNames id="414" Name="Chichester"/>
+<TownNames id="415" Name="Bermondsey"/>
+<TownNames id="417" Name="Bishop Auckland"/>
+<TownNames id="420" Name="Amsterdam"/>
+<TownNames id="424" Name="Crane Court"/>
+<TownNames id="441" Name="Chelsea"/>
+<TownNames id="444" Name="Bootle"/>
+<TownNames id="451" Name="Bognor"/>
+<TownNames id="459" Name="Crawley"/>
+<TownNames id="468" Name="Brockhurst Hill"/>
+<TownNames id="487" Name="Bexley"/>
+<TownNames id="492" Name="Ayr"/>
+<TownNames id="495" Name="Cromer"/>
+<TownNames id="511" Name="Borough of Salisbury"/>
+<TownNames id="519" Name="Chilworth"/>
+<TownNames id="520" Name="Brockley"/>
+<TownNames id="531" Name="Arbroath"/>
+<TownNames id="553" Name="Altingham"/>
+<TownNames id="560" Name="Bacup"/>
+<TownNames id="569" Name="Carolgate"/>
+<TownNames id="574" Name="Castlebar"/>
+<TownNames id="578" Name="Cardigan"/>
+<TownNames id="581" Name="Bingley"/>
+<TownNames id="582" Name="Albany"/>
+<TownNames id="583" Name="Brussels"/>
+<TownNames id="585" Name="Alcester"/>
+<TownNames id="586" Name="Aldeburgh"/>
+<TownNames id="587" Name="Aldenham"/>
+<TownNames id="588" Name="Alderley Edge"/>
+<TownNames id="589" Name="Alford"/>
+<TownNames id="591" Name="Alfreton"/>
+<TownNames id="595" Name="Alnwick"/>
+<TownNames id="596" Name="Alston"/>
+<TownNames id="597" Name="Alterstone"/>
+<TownNames id="598" Name="Alton"/>
+<TownNames id="600" Name="Bridlington"/>
+<TownNames id="607" Name="Brentwood"/>
+<TownNames id="608" Name="Ambleside"/>
+<TownNames id="610" Name="Amersham"/>
+<TownNames id="612" Name="Ampthill"/>
+<TownNames id="616" Name="Ashby-de-la-Zouch"/>
+<TownNames id="618" Name="Anerley"/>
+<TownNames id="622" Name="Annandale"/>
+<TownNames id="625" Name="Appleby"/>
+<TownNames id="628" Name="Armley"/>
+<TownNames id="629" Name="Chicago"/>
+<TownNames id="633" Name="Adelaide"/>
+<TownNames id="636" Name="Ashbourne"/>
+<TownNames id="638" Name="Ashburton"/>
+<TownNames id="640" Name="Bangor"/>
+<TownNames id="643" Name="Brampton-Bierlow"/>
+<TownNames id="644" Name="Athens"/>
+<TownNames id="645" Name="Atherstone"/>
+<TownNames id="652" Name="Bridgwater"/>
+<TownNames id="653" Name="Axbridge"/>
+<TownNames id="654" Name="Axminster"/>
+<TownNames id="656" Name="Bakewell"/>
+<TownNames id="657" Name="Balsall"/>
+<TownNames id="658" Name="Buckie"/>
+<TownNames id="659" Name="Banff"/>
+<TownNames id="660" Name="Beverley"/>
+<TownNames id="661" Name="Corwen"/>
+<TownNames id="667" Name="Clipston"/>
+<TownNames id="668" Name="Barking"/>
+<TownNames id="669" Name="Barnes"/>
+<TownNames id="670" Name="Barnet"/>
+<TownNames id="671" Name="Barrhead"/>
+<TownNames id="672" Name="Barrow"/>
+<TownNames id="673" Name="Barry Dock Town"/>
+<TownNames id="675" Name="Barton-upon-Humber"/>
+<TownNames id="676" Name="Basingstoke"/>
+<TownNames id="678" Name="Belper"/>
+<TownNames id="679" Name="Bridgend"/>
+<TownNames id="682" Name="Batley"/>
+<TownNames id="683" Name="Carnarvon"/>
+<TownNames id="684" Name="Beccles"/>
+<TownNames id="685" Name="Beckenham"/>
+<TownNames id="687" Name="Bedale"/>
+<TownNames id="691" Name="Bedworth"/>
+<TownNames id="692" Name="Beeston"/>
+<TownNames id="696" Name="Berwick-Upon-Tweed"/>
+<TownNames id="698" Name="Berwick"/>
+<TownNames id="699" Name="Bexhill-On-Sea"/>
+<TownNames id="700" Name="Bexhill"/>
+<TownNames id="701" Name="Bexley Heath"/>
+<TownNames id="703" Name="Biddulph"/>
+<TownNames id="704" Name="Biggleswade"/>
+<TownNames id="705" Name="Bilston"/>
+<TownNames id="706" Name="Bishop Stortford"/>
+<TownNames id="707" Name="Birstall"/>
+<TownNames id="709" Name="Bishop&apos;s Castle"/>
+<TownNames id="710" Name="Black Heath"/>
+<TownNames id="711" Name="Blaenavon"/>
+<TownNames id="712" Name="Blandford"/>
+<TownNames id="714" Name="Blyth"/>
+<TownNames id="715" Name="Bodmin"/>
+<TownNames id="716" Name="Bognor Regis"/>
+<TownNames id="722" Name="Bolt Court"/>
+<TownNames id="724" Name="Brackley"/>
+<TownNames id="725" Name="Bradford-on-Avon"/>
+<TownNames id="726" Name="Cologne"/>
+<TownNames id="727" Name="Braintree"/>
+<TownNames id="728" Name="Branksome"/>
+<TownNames id="731" Name="Cannock"/>
+<TownNames id="732" Name="Brewood"/>
+<TownNames id="735" Name="Bridport"/>
+<TownNames id="736" Name="Brigg"/>
+<TownNames id="737" Name="Brighouse"/>
+<TownNames id="739" Name="Burney"/>
+<TownNames id="742" Name="Cadbury"/>
+<TownNames id="746" Name="Brisbane"/>
+<TownNames id="747" Name="Cape Colony"/>
+<TownNames id="755" Name="Brixham"/>
+<TownNames id="756" Name="Brixton"/>
+<TownNames id="758" Name="Cray"/>
+<TownNames id="759" Name="Bromsgrove"/>
+<TownNames id="760" Name="Bromyard"/>
+<TownNames id="761" Name="Brownhills"/>
+<TownNames id="763" Name="Cape Town"/>
+<TownNames id="767" Name="Buckfastleigh"/>
+<TownNames id="770" Name="Cheam"/>
+<TownNames id="771" Name="Bury"/>
+<TownNames id="772" Name="Burnham-On-Sea"/>
+<TownNames id="773" Name="Burnham"/>
+<TownNames id="774" Name="Burton-Upon-Trent"/>
+<TownNames id="775" Name="Burton-on-Trent"/>
+<TownNames id="777" Name="Clitheroe"/>
+<TownNames id="778" Name="Calne"/>
+<TownNames id="779" Name="Camborne"/>
+<TownNames id="780" Name="Camberley"/>
+<TownNames id="782" Name="Camelford"/>
+<TownNames id="785" Name="Campeltown"/>
+<TownNames id="787" Name="Carnforth"/>
+<TownNames id="791" Name="Castle Cary"/>
+<TownNames id="792" Name="Castle Donington"/>
+<TownNames id="793" Name="Castleford"/>
+<TownNames id="796" Name="Caterham"/>
+<TownNames id="797" Name="Cheapside"/>
+<TownNames id="798" Name="Coatbridge"/>
+<TownNames id="799" Name="Chalfont St. Giles"/>
+<TownNames id="801" Name="Chapel-en-le-Frith"/>
+<TownNames id="802" Name="Chard"/>
+<TownNames id="803" Name="Chatteris"/>
+<TownNames id="804" Name="Cheadle"/>
+<TownNames id="805" Name="Cheetham"/>
+<TownNames id="806" Name="Chepstow"/>
+<TownNames id="807" Name="Chesham"/>
+<TownNames id="809" Name="Chester-le-Street"/>
+<TownNames id="810" Name="Chester-le-Spring"/>
+<TownNames id="813" Name="Chippenham"/>
+<TownNames id="814" Name="Chipping Norton"/>
+<TownNames id="815" Name="Chislehurst"/>
+<TownNames id="816" Name="Chislehurst West"/>
+<TownNames id="817" Name="Chorley"/>
+<TownNames id="818" Name="Aston"/>
+<TownNames id="819" Name="Christchurch"/>
+<TownNames id="821" Name="Bloomsbury"/>
+<TownNames id="823" Name="Church Stretton"/>
+<TownNames id="824" Name="Coleford"/>
+<TownNames id="825" Name="Cinderford"/>
+<TownNames id="828" Name="Bartholomew Close"/>
+<TownNames id="829" Name="Clacton"/>
+<TownNames id="830" Name="Clacton-on-Sea"/>
+<TownNames id="831" Name="Clapham"/>
+<TownNames id="833" Name="Clay Cross"/>
+<TownNames id="834" Name="Clayton-Le-Moors"/>
+<TownNames id="836" Name="Cleethorpes"/>
+<TownNames id="837" Name="Cleckheaton"/>
+<TownNames id="839" Name="Clevedon"/>
+<TownNames id="840" Name="Cleveland"/>
+<TownNames id="842" Name="Coalville"/>
+<TownNames id="844" Name="Cockermouth"/>
+<TownNames id="847" Name="Coleshill"/>
+<TownNames id="848" Name="Colne"/>
+<TownNames id="854" Name="Blakeney"/>
+<TownNames id="857" Name="Consett"/>
+<TownNames id="867" Name="Canning Town"/>
+<TownNames id="870" Name="Crediton"/>
+<TownNames id="871" Name="Crewe"/>
+<TownNames id="872" Name="Crowland"/>
+<TownNames id="875" Name="Carmarthen"/>
+<TownNames id="880" Name="Burslem"/>
+<TownNames id="912" Name="Bonthe"/>
+<TownNames id="917" Name="Crewkerne"/>
+<TownNames id="942" Name="Bocking"/>
+<TownNames id="947" Name="Blackfriars"/>
+<TownNames id="977" Name="Brandsby"/>
+<TownNames id="980" Name="Calais"/>
+<TownNames id="992" Name="Brompton"/>
+<TownNames id="997" Name="Antwerp"/>
+<TownNames id="1027" Name="Bishops Stortford"/>
+<TownNames id="1320" Name="Ardingly"/>
+<TownNames id="1322" Name="Alloa"/>
+<TownNames id="1324" Name="Baldwins Gardens"/>
+<TownNames id="1328" Name="Bridlington-Quay"/>
+<TownNames id="1382" Name="Bebington"/>
+<TownNames id="1432" Name="Clay"/>
+<TownNames id="1605" Name="Carnarvonshire"/>
+<TownNames id="1607" Name="Brecon"/>
+<TownNames id="1634" Name="Colombo"/>
+<TownNames id="1655" Name="Bradford (county unknown)"/>
+<TownNames id="1687" Name="Curzon Street"/>
+<TownNames id="1698" Name="Bruxelles"/>
+<TownNames id="1717" Name="Builth Wells"/>
+<TownNames id="1734" Name="Addingham"/>
+<TownNames id="1750" Name="Baldock"/>
+<TownNames id="1762" Name="Columbus"/>
+<TownNames id="1763" Name="Cumnock"/>
+<TownNames id="1765" Name="Alabama"/>
+<TownNames id="1767" Name="Clapham Common"/>
+<TownNames id="1768" Name="Birmingham?"/>
+<TownNames id="1782" Name="Auckland"/>
+<TownNames id="1787" Name="Barton on Humber"/>
+<TownNames id="1796" Name="Bury St Edmunds"/>
+<TownNames id="1052" Name="Blackheath"/>
+<TownNames id="1054" Name="Cavendish Square"/>
+<TownNames id="1062" Name="Corfe Castle"/>
+<TownNames id="1063" Name="Charring Cross"/>
+<TownNames id="1067" Name="Bewdley"/>
+<TownNames id="1098" Name="Boreham Wood"/>
+<TownNames id="1109" Name="Bedfordshire Square"/>
+<TownNames id="1121" Name="Clare-market"/>
+<TownNames id="1127" Name="Chancery-Lane"/>
+<TownNames id="1129" Name="Bowdon"/>
+<TownNames id="1131" Name="Bideford"/>
+<TownNames id="1139" Name="Bala"/>
+<TownNames id="1149" Name="Borough of Walsall"/>
+<TownNames id="1161" Name="Cincinnati"/>
+<TownNames id="1162" Name="Bidford"/>
+<TownNames id="1185" Name="Bellary"/>
+<TownNames id="1188" Name="Caerdydd"/>
+<TownNames id="1189" Name="Abertawe"/>
+<TownNames id="1200" Name="Carshalton"/>
+<TownNames id="1203" Name="Burntisland"/>
+<TownNames id="1205" Name="Clifford Chambers"/>
+<TownNames id="1206" Name="Budleigh Salterton"/>
+<TownNames id="1213" Name="Barbican"/>
+<TownNames id="1217" Name="Camden-Town"/>
+<TownNames id="1220" Name="Chiswick"/>
+<TownNames id="1221" Name="Capetown"/>
+<TownNames id="1223" Name="Atherton"/>
+<TownNames id="1227" Name="Chudleigh"/>
+<TownNames id="1233" Name="Borrow-in-Furness"/>
+<TownNames id="1234" Name="Arundel"/>
+<TownNames id="1236" Name="Aldermanbury"/>
+<TownNames id="1238" Name="Barnard Castle"/>
+<TownNames id="1239" Name="Borough of Tenby"/>
+<TownNames id="1257" Name="Bruxelles"/>
+<TownNames id="1265" Name="Charlestown"/>
+<TownNames id="1267" Name="Crosby"/>
+<TownNames id="1284" Name="Borough of New Windsor"/>
+<TownNames id="1286" Name="Bolton-le-Moors"/>
+<TownNames id="1315" Name="Bucklersbury"/>
+<TownNames id="1317" Name="Bemersley"/>
+<TownNames id="1319" Name="Berne"/>
+<TownNames id="1323" Name="Bathgate"/>
+<TownNames id="1325" Name="Bentley"/>
+<TownNames id="1327" Name="Bridgetown"/>
+<TownNames id="1329" Name="Bowden"/>
+<TownNames id="1332" Name="Bloemfontein"/>
+<TownNames id="1334" Name="Bologna"/>
+<TownNames id="1342" Name="Clapton Park"/>
+<TownNames id="1356" Name="Chancery Lane"/>
+<TownNames id="1376" Name="Clemsford"/>
+<TownNames id="1437" Name="Blackhurst Hill"/>
+<TownNames id="1460" Name="Castletown"/>
+<TownNames id="1462" Name="Cromwell Road"/>
+<TownNames id="1464" Name="Brill"/>
+<TownNames id="1467" Name="Brierly Hill"/>
+<TownNames id="1471" Name="Caracas"/>
+<TownNames id="1480" Name="Ashtead"/>
+<TownNames id="1482" Name="Clayton "/>
+<TownNames id="1484" Name="Budapest"/>
+<TownNames id="1485" Name="Copenhagen"/>
+<TownNames id="1489" Name="Brantwood"/>
+<TownNames id="1498" Name="Cradley Heath"/>
+<TownNames id="1521" Name="Battersea Rise"/>
+<TownNames id="1539" Name="Amble"/>
+<TownNames id="1552" Name="Berners Street"/>
+<TownNames id="1556" Name="Aston Cross"/>
+<TownNames id="1643" Name="Cardiff (Caerdyd)"/>
+<TownNames id="1336" Name="Bordeaux"/>
+<TownNames id="1337" Name="Brierley-Hill"/>
+<TownNames id="1338" Name="Ashton"/>
+<TownNames id="1659" Name="Alexandria"/>
+<TownNames id="1665" Name="Ackworth"/>
+<TownNames id="1673" Name="Bangalore"/>
+<TownNames id="1675" Name="Caernarfon"/>
+<TownNames id="1677" Name="Ashton-under-Lyme"/>
+<TownNames id="1679" Name="Caernarvon"/>
+<TownNames id="1681" Name="Clipstone"/>
+<TownNames id="1701" Name="Connecticut"/>
+<TownNames id="1703" Name="Basington"/>
+<TownNames id="1716" Name="Androssan"/>
+<TownNames id="1719" Name="Campbeltown"/>
+<TownNames id="1721" Name="Cardiff"/>
+<TownNames id="1723" Name="Bagalore"/>
+<TownNames id="1741" Name="Bemrose"/>
+<TownNames id="1749" Name="Aberdeenshire"/>
+<TownNames id="1779" Name="Carnmarth"/>
+<TownNames id="1798" Name="Apia"/>
+<TownNames id="1848" Name="Barnsley?"/>
+<TownNames id="1878" Name="Bornemouth"/>
+<TownNames id="1881" Name="Broadmoor"/>
+<TownNames id="1883" Name="Attercliffe"/>
+<TownNames id="1352" Name="Charing Cross"/>
+<TownNames id="1399" Name="Camberwell"/>
+<TownNames id="1405" Name="Cockington"/>
+<TownNames id="1406" Name="Colebrooke"/>
+<TownNames id="1422" Name="Birkenhead&lt;?&gt;"/>
+</root>

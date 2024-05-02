@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<Xmd_toc REPOSITORY_FORMAT="1.0" PUBLICATION="LDR" PUBLICATION_DESCRIPTION="" ISSUE_DATE="04/01/1851" RELEASE_NO="041-LDR-1851-01-04-001-SINGLE" LANGUAGE="English">
+	<Head_np>
+		<Meta PAGES_NUMBER="24" SOURCE_TYPE="TIFF" SOURCE_RESOLUTION="72" IMAGES_RESOLUTION="93" PAGE_THUMBNAIL_RESOLUTION="43" PAGE_PREVIEW_RESOLUTION="15" DEFAULT_IMG_EXT="png" DEFAULT_PREVIEW_IMG_EXT="png" BASE_HREF="LDR/1851/01/04" PDF_DESTINATION_MAPPED="OLV0_Page_0001" TITLE_SNP_EXT="png" AD_SNP_EXT="jpg" IMAGE_SNP_EXT="jpg" MULTI_LAYER_PAGE_IMG="false">
+			<Publisher XMD_VER="2.6.236.26" ACROBAT_VER="7.08" PUBLISHER="Olive" PROFILE_ID="w:\batch\profile\XMD_LDR.ini">
+				<PublishDate>Sun, 11 Feb 2007 17:56:32 UTC</PublishDate>
+				<PublishSWFCompatible>false</PublishSWFCompatible>
+			</Publisher>
+		</Meta>
+		<Link SOURCE="041-LDR-1851-01-04-001-SINGLE.PDF"/>
+		<DataFiles>
+			<Files TYPE="DOC_PDF" PRESENT="1"/>
+			<Files TYPE="PAGE_PDF" PRESENT="0"/>
+			<Files TYPE="DOC_IMG" PRESENT="0"/>
+			<Files TYPE="PAGE_IMG" PRESENT="0"/>
+		</DataFiles>
+	</Head_np>
+	<Body_np>
+		<Section NAME="Front page">
+			<Page PAGE_NO="1" NAME="" PAGE_LABEL="unpag." ID="Pg001" PAGE_TYPE="Single" PAGE_WIDTH="534" PAGE_HEIGHT="820" CROP_BOX="0 0 533 819" MEDIA_BOX="0 0 533 819" HREF="/1/Pg001">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="1" NAME="Untitled Article" ID="Ar00100" HREF="/1/Ar00100" SIZE="XLarge"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="1" NAME="Untitled Article" ID="Ar00101" HREF="/1/Ar00101" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="1" NAME="Untitled Article" ID="Ar00102" HREF="/1/Ar00102" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="1" NAME="Untitled Article" ID="Ar00103" HREF="/1/Ar00103" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="1" NAME="Untitled Article" ID="Ar00104" HREF="/1/Ar00104" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="1" NAME="Untitled Article" ID="Ar00105" HREF="/1/Ar00105" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="1" NAME="Untitled Article" ID="Ar00106" HREF="/1/Ar00106" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="1" NAME="Untitled Article" ID="Ar00107" HREF="/1/Ar00107" SIZE="Small" CONTINUATION_FROM="Ar00108"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="1" NAME="Untitled Article" ID="Ar00108" HREF="/1/Ar00108" SIZE="Small" CONTINUATION_TO="Ar00107"/>
+			</Page>
+		</Section>
+		<Section NAME="None">
+			<Page PAGE_NO="2" NAME="" PAGE_LABEL="2" ID="Pg002" PAGE_TYPE="Single" PAGE_WIDTH="571" PAGE_HEIGHT="782" CROP_BOX="0 0 570 781" MEDIA_BOX="0 0 570 781" HREF="/2/Pg002">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="2" NAME="Untitled Article" ID="Ar00200" HREF="/2/Ar00200" SIZE="XLarge"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="2" NAME="Untitled Article" ID="Ar00201" HREF="/2/Ar00201" SIZE="Large" CONTINUATION_TO="Ar00302"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="2" NAME="Untitled Article" ID="Ar00202" HREF="/2/Ar00202" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="2" NAME="Untitled Article" ID="Ar00203" HREF="/2/Ar00203" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="2" NAME="Untitled Article" ID="Ar00204" HREF="/2/Ar00204" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="3" NAME="" PAGE_LABEL="3" ID="Pg003" PAGE_TYPE="Single" PAGE_WIDTH="563" PAGE_HEIGHT="800" CROP_BOX="0 0 562 799" MEDIA_BOX="0 0 562 799" HREF="/3/Pg003">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="3" NAME="Untitled Article" ID="Ar00300" HREF="/3/Ar00300" SIZE="XLarge"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="3" NAME="Untitled Article" ID="Ar00301" HREF="/3/Ar00301" SIZE="Large" CONTINUATION_TO="Ar00406"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="3" NAME="Untitled Article" ID="Ar00302" HREF="/3/Ar00302" SIZE="Medium" CONTINUATION_FROM="Ar00201"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="3" NAME="Untitled Article" ID="Ar00303" HREF="/3/Ar00303" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="4" NAME="" PAGE_LABEL="4" ID="Pg004" PAGE_TYPE="Single" PAGE_WIDTH="587" PAGE_HEIGHT="775" CROP_BOX="0 0 586 774" MEDIA_BOX="0 0 586 774" HREF="/4/Pg004">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="4" NAME="Untitled Article" ID="Ar00400" HREF="/4/Ar00400" SIZE="Large" CONTINUATION_TO="Ar00503"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="4" NAME="Untitled Article" ID="Ar00401" HREF="/4/Ar00401" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="4" NAME="Untitled Article" ID="Ar00402" HREF="/4/Ar00402" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="4" NAME="Untitled Article" ID="Ar00403" HREF="/4/Ar00403" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="4" NAME="Untitled Article" ID="Ar00404" HREF="/4/Ar00404" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="4" NAME="Untitled Article" ID="Ar00405" HREF="/4/Ar00405" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="4" NAME="Untitled Article" ID="Ar00406" HREF="/4/Ar00406" SIZE="Small" CONTINUATION_FROM="Ar00301"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="4" NAME="Untitled Article" ID="Ar00407" HREF="/4/Ar00407" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="5" NAME="" PAGE_LABEL="5" ID="Pg005" PAGE_TYPE="Single" PAGE_WIDTH="563" PAGE_HEIGHT="789" CROP_BOX="0 0 562 788" MEDIA_BOX="0 0 562 788" HREF="/5/Pg005">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="5" NAME="Untitled Article" ID="Ar00500" HREF="/5/Ar00500" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="5" NAME="Untitled Article" ID="Ar00501" HREF="/5/Ar00501" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="5" NAME="Untitled Article" ID="Ar00502" HREF="/5/Ar00502" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="5" NAME="Untitled Article" ID="Ar00503" HREF="/5/Ar00503" SIZE="Medium" CONTINUATION_FROM="Ar00400"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="5" NAME="Untitled Article" ID="Ar00504" HREF="/5/Ar00504" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="5" NAME="Untitled Article" ID="Ar00505" HREF="/5/Ar00505" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="5" NAME="Untitled Article" ID="Ar00506" HREF="/5/Ar00506" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="6" NAME="" PAGE_LABEL="6" ID="Pg006" PAGE_TYPE="Single" PAGE_WIDTH="564" PAGE_HEIGHT="766" CROP_BOX="0 0 563 765" MEDIA_BOX="0 0 563 765" HREF="/6/Pg006">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="6" NAME="Untitled Article" ID="Ar00600" HREF="/6/Ar00600" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="6" NAME="Untitled Article" ID="Ar00601" HREF="/6/Ar00601" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="6" NAME="Untitled Article" ID="Ar00602" HREF="/6/Ar00602" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="6" NAME="Untitled Article" ID="Ar00603" HREF="/6/Ar00603" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="6" NAME="Untitled Article" ID="Ar00604" HREF="/6/Ar00604" SIZE="Small" CONTINUATION_TO="Ar00705"/>
+			</Page>
+			<Page PAGE_NO="7" NAME="" PAGE_LABEL="7" ID="Pg007" PAGE_TYPE="Single" PAGE_WIDTH="563" PAGE_HEIGHT="772" CROP_BOX="0 0 562 771" MEDIA_BOX="0 0 562 771" HREF="/7/Pg007">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="7" NAME="Untitled Article" ID="Ar00700" HREF="/7/Ar00700" SIZE="Large" CONTINUATION_TO="Ar00802"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="7" NAME="Untitled Article" ID="Ar00701" HREF="/7/Ar00701" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="7" NAME="Untitled Article" ID="Ar00702" HREF="/7/Ar00702" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="7" NAME="Untitled Article" ID="Ar00703" HREF="/7/Ar00703" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="7" NAME="Untitled Article" ID="Ar00704" HREF="/7/Ar00704" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="7" NAME="Untitled Article" ID="Ar00705" HREF="/7/Ar00705" SIZE="Small" CONTINUATION_FROM="Ar00604"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="7" NAME="Untitled Article" ID="Ar00706" HREF="/7/Ar00706" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="7" NAME="Untitled Article" ID="Ar00707" HREF="/7/Ar00707" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="8" NAME="" PAGE_LABEL="8" ID="Pg008" PAGE_TYPE="Single" PAGE_WIDTH="575" PAGE_HEIGHT="769" CROP_BOX="0 0 574 768" MEDIA_BOX="0 0 574 768" HREF="/8/Pg008">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="8" NAME="Untitled Article" ID="Ar00800" HREF="/8/Ar00800" SIZE="XLarge" CONTINUATION_TO="Ar00902"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="8" NAME="Untitled Article" ID="Ar00801" HREF="/8/Ar00801" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="8" NAME="Untitled Article" ID="Ar00802" HREF="/8/Ar00802" SIZE="Large" CONTINUATION_FROM="Ar00700"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="8" NAME="Untitled Article" ID="Ar00803" HREF="/8/Ar00803" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="9" NAME="" PAGE_LABEL="9" ID="Pg009" PAGE_TYPE="Single" PAGE_WIDTH="562" PAGE_HEIGHT="775" CROP_BOX="0 0 561 774" MEDIA_BOX="0 0 561 774" HREF="/9/Pg009">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="9" NAME="Untitled Article" ID="Ar00900" HREF="/9/Ar00900" SIZE="XLarge"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="9" NAME="Untitled Article" ID="Ar00901" HREF="/9/Ar00901" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="9" NAME="Untitled Article" ID="Ar00902" HREF="/9/Ar00902" SIZE="Medium" CONTINUATION_FROM="Ar00800"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="9" NAME="Untitled Article" ID="Ar00903" HREF="/9/Ar00903" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="10" NAME="" PAGE_LABEL="10" ID="Pg010" PAGE_TYPE="Single" PAGE_WIDTH="561" PAGE_HEIGHT="774" CROP_BOX="0 0 560 773" MEDIA_BOX="0 0 560 773" HREF="/10/Pg010">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="10" NAME="Untitled Article" ID="Ar01000" HREF="/10/Ar01000" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="10" NAME="Untitled Article" ID="Ar01001" HREF="/10/Ar01001" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="10" NAME="Untitled Article" ID="Ar01002" HREF="/10/Ar01002" SIZE="Large" CONTINUATION_TO="Ar01100"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="10" NAME="Untitled Article" ID="Ar01003" HREF="/10/Ar01003" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="10" NAME="Untitled Article" ID="Ar01004" HREF="/10/Ar01004" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="10" NAME="Untitled Article" ID="Ar01005" HREF="/10/Ar01005" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="10" NAME="Untitled Article" ID="Ar01006" HREF="/10/Ar01006" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="10" NAME="Untitled Article" ID="Ar01007" HREF="/10/Ar01007" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="10" NAME="Untitled Article" ID="Ar01008" HREF="/10/Ar01008" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="10" NAME="Untitled Article" ID="Ar01009" HREF="/10/Ar01009" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="11" NAME="" PAGE_LABEL="11" ID="Pg011" PAGE_TYPE="Single" PAGE_WIDTH="570" PAGE_HEIGHT="779" CROP_BOX="0 0 569 778" MEDIA_BOX="0 0 569 778" HREF="/11/Pg011">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="11" NAME="Untitled Article" ID="Ar01100" HREF="/11/Ar01100" SIZE="Large" CONTINUATION_FROM="Ar01002"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="11" NAME="Untitled Article" ID="Ar01101" HREF="/11/Ar01101" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="11" NAME="Untitled Article" ID="Ar01102" HREF="/11/Ar01102" SIZE="Large" CONTINUATION_TO="Ar01203"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="11" NAME="Untitled Article" ID="Ar01103" HREF="/11/Ar01103" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="12" NAME="" PAGE_LABEL="12" ID="Pg012" PAGE_TYPE="Single" PAGE_WIDTH="565" PAGE_HEIGHT="775" CROP_BOX="0 0 564 774" MEDIA_BOX="0 0 564 774" HREF="/12/Pg012">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="12" NAME="Untitled Article" ID="Ar01200" HREF="/12/Ar01200" SIZE="XLarge"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="12" NAME="Untitled Article" ID="Ar01201" HREF="/12/Ar01201" SIZE="Medium" CONTINUATION_TO="Ar01300"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="12" NAME="Untitled Article" ID="Ar01202" HREF="/12/Ar01202" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="12" NAME="Untitled Article" ID="Ar01203" HREF="/12/Ar01203" SIZE="Medium" CONTINUATION_FROM="Ar01102"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="12" NAME="Untitled Article" ID="Ar01204" HREF="/12/Ar01204" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="12" NAME="Untitled Article" ID="Ar01205" HREF="/12/Ar01205" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="13" NAME="" PAGE_LABEL="13" ID="Pg013" PAGE_TYPE="Single" PAGE_WIDTH="564" PAGE_HEIGHT="771" CROP_BOX="0 0 563 770" MEDIA_BOX="0 0 563 770" HREF="/13/Pg013">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="13" NAME="Untitled Article" ID="Ar01300" HREF="/13/Ar01300" SIZE="XLarge" CONTINUATION_TO="Ar01400" CONTINUATION_FROM="Ar01201"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="13" NAME="Untitled Article" ID="Ar01301" HREF="/13/Ar01301" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="14" NAME="" PAGE_LABEL="14" ID="Pg014" PAGE_TYPE="Single" PAGE_WIDTH="572" PAGE_HEIGHT="772" CROP_BOX="0 0 571 771" MEDIA_BOX="0 0 571 771" HREF="/14/Pg014">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="14" NAME="Untitled Article" ID="Ar01400" HREF="/14/Ar01400" SIZE="XLarge" CONTINUATION_FROM="Ar01300"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="14" NAME="Untitled Article" ID="Ar01401" HREF="/14/Ar01401" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="14" NAME="Untitled Article" ID="Ar01402" HREF="/14/Ar01402" SIZE="Small" CONTINUATION_TO="Ar01502"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="14" NAME="Untitled Article" ID="Ar01403" HREF="/14/Ar01403" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="14" NAME="Untitled Article" ID="Ar01404" HREF="/14/Ar01404" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="14" NAME="Untitled Article" ID="Ar01405" HREF="/14/Ar01405" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="15" NAME="" PAGE_LABEL="15" ID="Pg015" PAGE_TYPE="Single" PAGE_WIDTH="565" PAGE_HEIGHT="781" CROP_BOX="0 0 564 780" MEDIA_BOX="0 0 564 780" HREF="/15/Pg015">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="15" NAME="Untitled Article" ID="Ar01500" HREF="/15/Ar01500" SIZE="XLarge" CONTINUATION_TO="Ar01601"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="15" NAME="Untitled Article" ID="Ar01501" HREF="/15/Ar01501" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="15" NAME="Untitled Article" ID="Ar01502" HREF="/15/Ar01502" SIZE="Large" CONTINUATION_FROM="Ar01402"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="15" NAME="Untitled Article" ID="Ar01503" HREF="/15/Ar01503" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="16" NAME="" PAGE_LABEL="16" ID="Pg016" PAGE_TYPE="Single" PAGE_WIDTH="568" PAGE_HEIGHT="778" CROP_BOX="0 0 567 777" MEDIA_BOX="0 0 567 777" HREF="/16/Pg016">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="16" NAME="Untitled Article" ID="Ar01600" HREF="/16/Ar01600" SIZE="XLarge"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="16" NAME="Untitled Article" ID="Ar01601" HREF="/16/Ar01601" SIZE="Large" CONTINUATION_FROM="Ar01500"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="16" NAME="Untitled Article" ID="Ar01602" HREF="/16/Ar01602" SIZE="Large" CONTINUATION_TO="Ar01700"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="16" NAME="Untitled Article" ID="Ar01603" HREF="/16/Ar01603" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="17" NAME="" PAGE_LABEL="17" ID="Pg017" PAGE_TYPE="Single" PAGE_WIDTH="593" PAGE_HEIGHT="790" CROP_BOX="0 0 592 789" MEDIA_BOX="0 0 592 789" HREF="/17/Pg017">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="17" NAME="Untitled Article" ID="Ar01700" HREF="/17/Ar01700" SIZE="Large" CONTINUATION_FROM="Ar01602"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="17" NAME="Untitled Article" ID="Ar01701" HREF="/17/Ar01701" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="17" NAME="Untitled Article" ID="Ar01702" HREF="/17/Ar01702" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="17" NAME="Untitled Article" ID="Ar01703" HREF="/17/Ar01703" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="17" NAME="Untitled Article" ID="Ar01704" HREF="/17/Ar01704" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="17" NAME="Untitled Article" ID="Ar01705" HREF="/17/Ar01705" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="18" NAME="" PAGE_LABEL="18" ID="Pg018" PAGE_TYPE="Single" PAGE_WIDTH="576" PAGE_HEIGHT="800" CROP_BOX="0 0 575 799" MEDIA_BOX="0 0 575 799" HREF="/18/Pg018">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="18" NAME="Untitled Article" ID="Ar01800" HREF="/18/Ar01800" SIZE="XLarge"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="18" NAME="Untitled Article" ID="Ar01801" HREF="/18/Ar01801" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="18" NAME="Untitled Article" ID="Ar01802" HREF="/18/Ar01802" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="18" NAME="Untitled Article" ID="Ar01803" HREF="/18/Ar01803" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="18" NAME="Untitled Article" ID="Ar01804" HREF="/18/Ar01804" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="18" NAME="Untitled Article" ID="Ar01805" HREF="/18/Ar01805" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="18" NAME="Untitled Article" ID="Ar01806" HREF="/18/Ar01806" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="19" NAME="" PAGE_LABEL="19" ID="Pg019" PAGE_TYPE="Single" PAGE_WIDTH="599" PAGE_HEIGHT="809" CROP_BOX="0 0 598 808" MEDIA_BOX="0 0 598 808" HREF="/19/Pg019">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="19" NAME="Untitled Article" ID="Ar01900" HREF="/19/Ar01900" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="19" NAME="Untitled Article" ID="Ar01901" HREF="/19/Ar01901" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="19" NAME="Untitled Article" ID="Ar01902" HREF="/19/Ar01902" SIZE="Large" CONTINUATION_TO="Ar02001"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="19" NAME="Untitled Article" ID="Ar01903" HREF="/19/Ar01903" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="19" NAME="Untitled Article" ID="Ar01904" HREF="/19/Ar01904" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="19" NAME="Untitled Article" ID="Ar01905" HREF="/19/Ar01905" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="19" NAME="Untitled Article" ID="Ar01906" HREF="/19/Ar01906" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="19" NAME="Untitled Article" ID="Ar01907" HREF="/19/Ar01907" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="19" NAME="Untitled Article" ID="Ar01908" HREF="/19/Ar01908" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="19" NAME="Untitled Article" ID="Ar01909" HREF="/19/Ar01909" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="19" NAME="Untitled Article" ID="Ar01910" HREF="/19/Ar01910" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="19" NAME="Untitled Article" ID="Ar01911" HREF="/19/Ar01911" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Picture" PAGE_NO="19" NAME="Untitled Picture" ID="Pc01912" HREF="/19/Pc01912" SIZE="Small" EMBEDDED_INTO="Ar01910"/>
+			</Page>
+			<Page PAGE_NO="20" NAME="" PAGE_LABEL="20" ID="Pg020" PAGE_TYPE="Single" PAGE_WIDTH="564" PAGE_HEIGHT="778" CROP_BOX="0 0 563 777" MEDIA_BOX="0 0 563 777" HREF="/20/Pg020">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="20" NAME="Untitled Article" ID="Ar02000" HREF="/20/Ar02000" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="20" NAME="Untitled Article" ID="Ar02001" HREF="/20/Ar02001" SIZE="Medium" CONTINUATION_FROM="Ar01902"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="20" NAME="Untitled Article" ID="Ar02002" HREF="/20/Ar02002" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="20" NAME="Untitled Article" ID="Ar02003" HREF="/20/Ar02003" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="20" NAME="Untitled Article" ID="Ar02004" HREF="/20/Ar02004" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="20" NAME="Untitled Article" ID="Ar02005" HREF="/20/Ar02005" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="20" NAME="Untitled Article" ID="Ar02006" HREF="/20/Ar02006" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="20" NAME="Untitled Article" ID="Ar02007" HREF="/20/Ar02007" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="20" NAME="Untitled Article" ID="Ar02008" HREF="/20/Ar02008" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="20" NAME="Untitled Article" ID="Ar02009" HREF="/20/Ar02009" SIZE="Small" CONTINUATION_TO="Ar02102"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="20" NAME="Untitled Article" ID="Ar02010" HREF="/20/Ar02010" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="21" NAME="" PAGE_LABEL="21" ID="Pg021" PAGE_TYPE="Single" PAGE_WIDTH="584" PAGE_HEIGHT="784" CROP_BOX="0 0 583 783" MEDIA_BOX="0 0 583 783" HREF="/21/Pg021">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02100" HREF="/21/Ar02100" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02101" HREF="/21/Ar02101" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02102" HREF="/21/Ar02102" SIZE="Medium" CONTINUATION_FROM="Ar02009"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02103" HREF="/21/Ar02103" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02104" HREF="/21/Ar02104" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02105" HREF="/21/Ar02105" SIZE="Small" CONTINUATION_TO="Ar02208"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02106" HREF="/21/Ar02106" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02107" HREF="/21/Ar02107" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02108" HREF="/21/Ar02108" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02109" HREF="/21/Ar02109" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02110" HREF="/21/Ar02110" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02111" HREF="/21/Ar02111" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02112" HREF="/21/Ar02112" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02113" HREF="/21/Ar02113" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02114" HREF="/21/Ar02114" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02115" HREF="/21/Ar02115" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02116" HREF="/21/Ar02116" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="21" NAME="Untitled Article" ID="Ar02117" HREF="/21/Ar02117" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="22" NAME="" PAGE_LABEL="22" ID="Pg022" PAGE_TYPE="Single" PAGE_WIDTH="559" PAGE_HEIGHT="778" CROP_BOX="0 0 558 777" MEDIA_BOX="0 0 558 777" HREF="/22/Pg022">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="22" NAME="Untitled Article" ID="Ar02200" HREF="/22/Ar02200" SIZE="Large"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="22" NAME="Untitled Article" ID="Ar02201" HREF="/22/Ar02201" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="22" NAME="Untitled Article" ID="Ar02202" HREF="/22/Ar02202" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="22" NAME="Untitled Article" ID="Ar02203" HREF="/22/Ar02203" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="22" NAME="Untitled Article" ID="Ar02204" HREF="/22/Ar02204" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="22" NAME="Untitled Article" ID="Ar02205" HREF="/22/Ar02205" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="22" NAME="Untitled Article" ID="Ar02206" HREF="/22/Ar02206" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="22" NAME="Untitled Article" ID="Ar02207" HREF="/22/Ar02207" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="22" NAME="Untitled Article" ID="Ar02208" HREF="/22/Ar02208" SIZE="Small" CONTINUATION_FROM="Ar02105"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="22" NAME="Untitled Article" ID="Ar02209" HREF="/22/Ar02209" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="22" NAME="Untitled Article" ID="Ar02210" HREF="/22/Ar02210" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="22" NAME="Untitled Article" ID="Ar02211" HREF="/22/Ar02211" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="23" NAME="" PAGE_LABEL="23" ID="Pg023" PAGE_TYPE="Single" PAGE_WIDTH="594" PAGE_HEIGHT="792" CROP_BOX="0 0 593 791" MEDIA_BOX="0 0 593 791" HREF="/23/Pg023">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02300" HREF="/23/Ar02300" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02301" HREF="/23/Ar02301" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02302" HREF="/23/Ar02302" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02303" HREF="/23/Ar02303" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02304" HREF="/23/Ar02304" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02305" HREF="/23/Ar02305" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02306" HREF="/23/Ar02306" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02307" HREF="/23/Ar02307" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02308" HREF="/23/Ar02308" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02309" HREF="/23/Ar02309" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02310" HREF="/23/Ar02310" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02311" HREF="/23/Ar02311" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02312" HREF="/23/Ar02312" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02313" HREF="/23/Ar02313" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02314" HREF="/23/Ar02314" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02315" HREF="/23/Ar02315" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02316" HREF="/23/Ar02316" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="23" NAME="Untitled Article" ID="Ar02317" HREF="/23/Ar02317" SIZE="Small"/>
+			</Page>
+			<Page PAGE_NO="24" NAME="" PAGE_LABEL="24" ID="Pg024" PAGE_TYPE="Single" PAGE_WIDTH="572" PAGE_HEIGHT="778" CROP_BOX="0 0 571 777" MEDIA_BOX="0 0 571 777" HREF="/24/Pg024">
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02400" HREF="/24/Ar02400" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02401" HREF="/24/Ar02401" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02402" HREF="/24/Ar02402" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02403" HREF="/24/Ar02403" SIZE="Medium"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02404" HREF="/24/Ar02404" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02405" HREF="/24/Ar02405" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02406" HREF="/24/Ar02406" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02407" HREF="/24/Ar02407" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02408" HREF="/24/Ar02408" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02409" HREF="/24/Ar02409" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02410" HREF="/24/Ar02410" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02411" HREF="/24/Ar02411" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02412" HREF="/24/Ar02412" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02413" HREF="/24/Ar02413" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02414" HREF="/24/Ar02414" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02415" HREF="/24/Ar02415" SIZE="Small"/>
+				<Entity ENTITY_TYPE="Article" PAGE_NO="24" NAME="Untitled Article" ID="Ar02416" HREF="/24/Ar02416" SIZE="Small"/>
+			</Page>
+		</Section>
+	</Body_np>
+</Xmd_toc>

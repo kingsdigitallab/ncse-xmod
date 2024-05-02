@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2
+  SYSTEM "../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p0">
+  <teiHeader status="new" type="text">
+    <fileDesc>
+      <titleStmt>
+        <title>Home</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+        <address>
+        <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+        <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+      </address>
+      </publicationStmt>
+      <sourceDesc default="NO">
+        <p>No source: created in electronic format.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+    </encodingDesc>
+    <revisionDesc>
+      <change>
+        <date>2008-03-27</date>
+        <respStmt>
+          <name>EL</name>
+        </respStmt>
+        <item>created file</item>
+      </change>
+
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      
+      <div>
+        <p>The Nineteenth-Century Serials Edition (<hi rend="bold">ncse</hi>) is a free, online
+          edition of six nineteenth-century periodicals and newspapers.To start browsing the journals, click <xref
+            type="external" url="/">facsimiles</xref>.</p>
+      <p> The edition is formed of two integrated components: the 'Facsimile' component - a repository of full-page facsimiles
+        and textual transcripts generated through OCR; and the 'Keyword' component -  an index of semantic keywords and person, place and institution names, generated
+        using data mining and natural language processing techniques. Both components of the system
+        are fully searchable and include rich, bibliographic metadata attached to titles, volumes,
+        issues, departments and articles within the edition. </p>
+      
+        <p><hi rend="bold">ncse</hi> includes full runs of the first five titles, and a decade only
+          of the <title>Publishers’ Circular</title>. Titles are represented as completely as
+          possible, including multiple editions, advertisements, wrappers, and supplements where we
+          could find them.</p>
+        <list type="bulleted">
+          <item>
+            <xref type="internal" from="p2_1"><title>Monthly Repository</title> (1806-1837) and
+                <title>Unitarian Chronicle</title> (1832-1833)</xref>
+          </item>
+          <item>
+            <xref type="internal" from="p2_2"><title>Northern Star</title> (1838-1852)</xref>
+          </item>
+          <item>
+            <xref type="internal" from="p2_3"><title>Leader</title> (1850-1860)</xref>
+          </item>
+          <item>
+            <xref type="internal" from="p2_4"><title>English Woman’s Journal</title>
+            (1858-1864)</xref>
+          </item>
+          <item>
+            <xref type="internal" from="p2_5"><title>Tomahawk</title> (1867-1870)</xref>
+          </item>
+          <item>
+            <xref type="internal" from="p2_6"><title>Publishers’ Circular</title> (1880-1890)</xref>
+          </item>
+        </list>
+        <p> All six journals are segmented to article level, and can be downloaded freely.</p>
+      
+      <div>
+        <head>Using ncse</head>
+        <div>
+          <head>Facsimiles</head>
+        <p>To begin reading and searching the full-text of articles in the edition, access the <xref
+            type="external" url="/">facsimile repository</xref>
+            directly.</p>
+        </div>
+        <div><head>Keywords</head>
+        <p> You may also access items from all titles by <xref type="internal" from="p3"
+          >browsing</xref> or <xref type="internal" from="p4_0">searching</xref> for semantic keywords and person, place and institution names in the index of keywords. </p>
+          <p>Both components may also be accessed via links in the top navigation of this page.</p>
+          
+        </div>
+         
+      </div>
+      <div>
+        <head>Beta Release</head>
+        <p>This is the <hi rend="bold">'beta' release</hi> of ncse and is subject to change. Corrections and improvements
+          to the site will be released every 4-6 weeks, culminating in the release of the completed edition later in 2008. For more
+          information, please read our <xref type="internal" from="p1_3">Release Notes</xref> page.</p>
+      </div>
+      <div><head>Project Partners</head>
+        <div part="N" sample="complete" org="uniform">
+          <table type="logo">
+            <row>
+              <cell>
+                <xref type="external" url="http://www.ahrc.ac.uk/" to="DITTO" from="ROOT"
+                  targOrder="U">
+                  <figure url="ahrc_logo"/>
+                </xref>
+              </cell>
+              <cell>
+                <xref type="external" url="http://www.bl.uk/" to="DITTO" from="ROOT" targOrder="U">
+                  <figure url="bl_logo"/>
+                </xref>
+
+              </cell>
+              <cell>
+                <xref type="external" url="http://www.bbk.ac.uk/" to="DITTO" from="ROOT"
+                  targOrder="U">
+                  <figure url="bbk"/>
+                </xref>
+
+              </cell>
+              <cell>
+                <xref type="external" url="http://www.kcl.ac.uk/" to="DITTO" from="ROOT"
+                  targOrder="U">
+                  <figure url="kcl_logo"/>
+                </xref>
+
+              </cell>
+              <cell>
+                <xref type="external" url="http://www.kcl.ac.uk/schools/humanities/cch" to="DITTO"
+                  from="ROOT" targOrder="U">
+                  <figure url="logoCch"/>
+                </xref>
+
+              </cell>
+              <cell>
+                <xref type="external" url="http://www.olivesoftware.com/" to="DITTO" from="ROOT"
+                  targOrder="U">
+                  <figure url="olive"/>
+                </xref>
+
+              </cell>
+            </row>
+          </table>
+        </div>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI.2>

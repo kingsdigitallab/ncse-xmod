@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<XMD-entity REPOSITORY_FORMAT="1.0" ENTITY_TYPE="Ad" PAGE_NO="17" ID="Ad01701" BOX="152 114 1191 1663" LANGUAGE="English" SNP="Ad01701S.jpg" SNP_WIDTH="54" SNP_HEIGHT="80">
+	<Meta NAME="Untitled Ad" DESCRIPTION="" SUBTYPE="" BASE_HREF="LDR/1888/01/01" SOURCE_TYPE="TIFF" PUBLICATION="LDR" SECTION="None" ISSUE_DATE="01/01/1888" WORDCNT="89" RELEASE_NO="demo publishers" PAGE_ID="" PAGE_TYPE="Single" PAGE_WIDTH="646" PAGE_HEIGHT="861" DEFAULT_IMG_EXT="png" PDF_DESTINATION_MAPPED="OLV0_Entity_0017_0002" IMAGES_RESOLUTION="86" EMBEDDED_INTO="Ar00700" XMD_VER="2.6.236.23" PAGE_LABEL="1743"/>
+	<Link SOURCE="demo+publishers1.pdf" FIRST_ID="Ar00200" LAST_ID="Ad02610" NEXT_ID="" PREV_ID="Ar01700" TOC_ID="C:/Olive/Repository/LDR/1888/01/01/TOC.xml"/>
+	<Content>
+		<Primitive BOX="0 0 0 0" ID="Ad0170100" E="N" TOC_ENTRY_ID="0" SEQ_NO="1"><Application_Data/>Spottiswoode &amp; Co. (printer* TO THE ¦ I Leading Publishers and Societies AND OF 100 Periodicals {pxinttte of _Q%_t _$\iMiz§tte+ Cixwtat ISTew-street Square, London i<S S_TYPE="SUB">1 </S>* A. very large _vtumher of _sjpectmen, drawings appear in, the PUBLISHERS 9 CIRCULAR, ana Us TYJPOGRAFJEEIC ARRANGEMENT in the displayed advertisements is IN ADVANCE OF ANYTHING WE HAVE SEEN. 9 —Daily Chronicle, Dec. 29, IS87 _%_^ ' ' . " </Primitive>
+	</Content>
+	<AdFrame>
+		<Img BOX="152 115 1192 1663" ID="Ad0170101" HREF="/17/Img/Ad0170101.png" I_RES="42" TOC_ENTRY_ID="14" SEQ_NO="0"/>
+	</AdFrame>
+</XMD-entity>

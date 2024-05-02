@@ -1,0 +1,67 @@
+
+dmvi_image_schema.xls
+
+http://www.cardiff.ac.uk/encap/ceir/dmvi/
+
+----------------------------------
+----------------------------------
+
+Mail from CK in reply to GB's mail:
+
+Subject: RE: KC urgent issues
+Date: Sun, 11 Nov 2007 13:09:45 +0200
+Thread-Topic: KC urgent issues
+From: Chezkie Kasnett <chezkie.kasnett@olivesoftware.com>
+To: G. Brey <gerhard.brey@kcl.ac.uk>,
+ Suzanne Paylor <s.paylor@bbk.ac.uk>
+Cc: Laurel Brake <l.brake@bbk.ac.uk>,
+ Jim Mussell <j.mussell@bbk.ac.uk>,
+ Harold Short <harold.short@kcl.ac.uk>,
+ Tamara Lopez <tamara.lopez@kcl.ac.uk>,
+ Larisa Chaikovsky <larisa.chaikovsky@olivesoftware.com>
+
+Gerhard,
+
+The ID's of the image tags will be retained in the system and will be
+extractable. The only unique ID that the Olive system gives each element
+is its URL. This can also be used by you as a unique ID.
+
+Best
+
+Chezkie=20
+-----Original Message-----
+From: G. Brey [mailto:gerhard.brey@kcl.ac.uk]=20
+Sent: Thursday, November 08, 2007 8:21 PM
+To: Suzanne Paylor
+Cc: Chezkie Kasnett; Laurel Brake; Jim Mussell; Harold Short; Tamara
+Lopez
+Subject: Re: urgent issues
+
+
+Dear Suzanne,
+
+Just a brief remark or question about one of your points:
+
+----------------------------------------------
+*	GB/TL need confirmation that IDs for image tags will be=20
+retained in the system and will be extractable. They also need=20
+to be sure that any new values have a unique ID created by the=20
+system.
+----------------------------------------------
+
+What do you mean my "new values"? The values from the existing=20
+hierarchy as they are entered via the Admin tool? Or do you mean=20
+new elements/tags in the hierarchy that you create? If it is the=20
+latter I don't think that the "system" won't be able to create=20
+unique IDs that fit in with the current scheme of IDs. As far as=20
+I understood it, the hierarchy lives as an XML file on the=20
+server and the Admin tool accesses it by reading from it, but it=20
+won't be able to insert new items to it.
+
+Best,
+Gerhard
+
+----------------------------------
+----------------------------------
+
+

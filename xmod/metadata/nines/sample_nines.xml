@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:nines="http://www.nines.org/schema#" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:ncse="http://www.ncse.ac.uk/" xmlns:role="http://www.loc.gov/loc.terms/relators">
+
+    <!-- The value of rdf:about attribute should be the same as the link in the seeAlso node, below. It should point to the issue -->
+    <ncse:doc
+        rdf:about="http://ncse-viewpoint.cch.kcl.ac.uk/?href=TTW/1867/12/14&amp;page=1&amp;view=document">
+        <!-- The string 'ncse' is to be globally added -->
+        <nines:archive>ncse</nines:archive>
+        <dc:title><!-- Actual periodical title, volume number, issue number, edition.--></dc:title>
+        <dc:date>
+            <nines:date>
+                <!--
+     Date should be calculated by first checking to see if the date field entered by the research team is filled, THEN BY the Olive maintained date
+     The <rdf:value> data needs to be YYYY-MM-DD in order to differentiate between weeklies.
+ -->
+                <rdfs:label>14 December 1867</rdfs:label>
+                <rdf:value>1867-12-14</rdf:value>
+            </nines:date>
+        </dc:date>
+        <role:EDT><!-- TO BE collated from spreadsheet --></role:EDT>
+        <role:PBL><!-- TO BE collated from spreadsheet --></role:PBL>
+        <dc:source>
+            <!-- generic periodical title:
+ English Woman's Journal (1858-1864)
+ Leader (1850-1860)
+ Monthly Repository (1806-1838) and Unitarian Chronicle (1832-1833)
+ Northern Star (1837-1852)
+ Publishers' Circular (1880-1890)
+ Tomahawk (1867-1870)
+-->
+        </dc:source>
+        <dc:subject>
+            <!-- All the names, places, etc. from the entity
+                 extraction, but no semantic tagger outpu. -->
+        </dc:subject>
+        <!-- The string 'Periodical' is to be globally added -->
+        <nines:genre>Periodical</nines:genre>
+        <!-- See the note about rdf:about attribute above; this link should be the same. -->
+        <rdfs:seeAlso
+            rdf:resource="http://ncse-viewpoint.cch.kcl.ac.uk/?href=TTW/1867/12/14&amp;page=1&amp;view=document"/>
+
+        <!-- The thumbnail is to be determined, it likely will be one of the 6 mastheads 
+        maybe take any thumbnail for a publication -->
+
+        <nines:thumb rdf:resource="http://www.ncse.ac.uk/Assets/p/23/i/th.png"/>
+        <nines:text rdf:resource="http://www.rossettiarchive.org/docs/1-1835.raw.txt">
+            <!-- This will contain a link to the whole text of the issues,
+                 all articles, one after the other. We will have to set up a server for that.
+                 This will only be used for indexing. -->
+        </nines:text>
+    </ncse:doc>
+</rdf:RDF>

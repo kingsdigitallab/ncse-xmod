@@ -1,0 +1,56 @@
+
+Corpus version used for launch tokenDB:
+20080117
+20080310 (NSS 1840 - was missing in 20080117 version
+
+----------------------------------------------------
+
+YEW:
+
+/Volumes/BuffaloDS/olive/repository/2008
+ 39G    20080104/      deleted
+ 40G    20080108/      deleted
+ 99G    20080117/      <-- definitive version for launch
+1.5G    20080310/      <-- definitive version for launch (NSS 1840)
+101G    20080408/      moved to owl /k/buffalods/ncse
+102G    20080501/      moved to owl /k/buffalods/ncse
+127G    20080822/      <-- definitive version
+
+
+NCSE-TEXT:
+
+/home/ncsedata/corpus
+14G     20080116/      deleted 
+99G     20080117/      <-- definitive version for launch
+1.5G    20080310/      <-- definitive version for launch (NSS 1840)
+102G    20080408/      moved to owl /k/buffalods/ncse
+102G    20080501/      moved to owl /k/buffalods/ncse
+47M     20080509/      deleted
+127G    20080822/      <-- definitive version
+
+
+FILESTORE:
+
+/home/ncse/VM
+726M    2006/          deleted
+97G     2007/          deleted
+14G     20080116/      deleted
+99G     20080117/      <-- definitive version for launch
+1.5G    20080310/      <-- definitive version for launch (NSS 1840)
+127G    20080822/      <-- definitive version - not yet started
+
+
+OWL:
+
+/k/buffalods/ncse
+102G    20080408/
+102G    20080501/      in progress
+
+
+
+
+-------------------------------------------------------
+Clean temporary Olive files:
+find . -name \*__\* -exec rm -fr "{}" \;
+find . -name Res -exec rm -fr "{}" \;
+

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lucene-document id="UNIQUE_ID" xmlns="http://www.cch.kcl.ac.uk/xmlns/ereuna">
+  <header>
+    <tei>
+      <bibl id="EWJ-1858-03-01-Ar00103">
+        <!-- id is the value of article id -->
+        <title type="full-title">n_toc_meta_publname (with apostrophes added to EWJ and Publisters Circular)</title>
+        <title type="periodical-title">n_toc_appd_kc_periodicaltitle</title>
+        <title type="short-title">n_toc_appd_kc_actualtitle</title>
+        <date value="YYYY-MM-DD">DD/MM/YYYY (taken from o_toc_meta_base_href or
+          o_ent_meta_base_href)</date>
+        <biblScope type="price">n_toc_appd_kc_price</biblScope>
+        <biblScope type="volume">n_toc_appd_kc_volume</biblScope>
+        <biblScope type="volume-part">parsed from o_toc_appd_ep_path (all data after final | )</biblScope>
+        <biblScope type="number">n_toc_appd_kc_numofedition</biblScope>
+        <!-- This is to encapsulate 'non-standard' issues, supplements, and the like, for example the Town edition -->
+        <biblScope type="edition-kind">n_toc_appd_kc_edition</biblScope>
+        <biblScope type="issue-number">n_toc_appd_kc_number</biblScope>
+
+        <biblScope type="page-span">o_toc_meta_pages_number</biblScope>
+        <biblScope type="page-start">o_ent_meta_page_label</biblScope>
+        <biblScope type="page-internal">o_toc_page_page_no</biblScope>
+        <extent>n_toc_appd_dc_format</extent>
+      </bibl>
+    </tei>
+  </header>
+  <fields>
+
+    <!-- Publication Information -->
+    <sort name="by-date">concatentation (no punctuation) of publication data from the Article Id or
+      ISSUE_DATE: yyyymmdd</sort>
+    <sort name="by-pub">Friendly Name for the publication: e.g. English Women's Journal - this must
+      be correlated with the date</sort>
+    <field indexed="un-tokenized" name="id" stored="yes" vector="no">UNIQUE_ID</field>
+    <field indexed="un-tokenized" name="article-id" stored="yes" vector="no">e.g. Ar00103 - the
+      string following the last '-' (following the Olive URL API)</field>
+    <field indexed="un-tokenized" name="fullarticle-id" stored="yes" vector="no">the unparsed
+      article id ,e.g. EWJ-1858-03-01-Ar00103</field>
+    <field indexed="un-tokenized" name="content-type" stored="yes" vector="no">'article' or 'advert'
+      -taken from the first two characters of the article ID </field>
+    <field indexed="un-tokenized" name="publication-core">Core publication code (EWJ, LDR, MRP, NSS,
+      TEC, TTW, CLD)</field>
+    <field indexed="un-tokenized" name="publication-key" stored="yes" vector="no"> Characters up to
+      the first '-' in the unparsed article id (e.g. EWJ, FEWJ, etc.) </field>
+    <field indexed="un-tokenized" name="publication-thesaurus" stored="yes" vector="no">composed
+      field with: publication-key(lower-case)- the same key used in publication-key directly
+      above##Full Name (n_toc_meta_publname (with apostrophes added to EWJ and Publisters Circular))## Periodical Title (n_toc_appd_kc_periodicaltitle) ##
+      Short title (n_toc_appd_kc_actualtitle)
+      <!--publication-key - NOTE! publication-key is publication siglum for core publication!!! --></field>
+    <field indexed="un-tokenized" name="publication-yyyy" stored="yes" vector="no">string between
+      the first and second '-' characters; alternatively, from last four characters of ISSUE_DATE
+      attribute in article metadata</field>
+    <field indexed="un-tokenized" name="publication-mm" stored="yes" vector="no">string between the
+      second and third '-' characters; alternatively, from first two characters of ISSUE_DATE
+      attribute in article metadata (up to the first '/')</field>
+    <field indexed="un-tokenized" name="publication-dd" stored="yes" vector="no">string between the
+      third and fourth '-' characters; alternatively, from characters of ISSUE_DATE attribute in
+      article metadata (those between first and second '/')</field>
+    <field indexed="un-tokenized" name="price" stored="yes" vector="no">n_toc_appd_kc_price</field>
+    <field indexed="un-tokenized" name="format" stored="yes" vector="no">n_toc_appd_dc_format</field>
+    <field indexed="un-tokenized" name="page-span" stored="yes" vector="no"> o_toc_meta_pages_number</field>
+    <field indexed="un-tokenized" name="page-start" stored="yes" vector="no">o_ent_meta_page_label</field>
+   <field indexed="un-tokenized" name="page-int" stored="yes" vector="no">o_toc_page_page_no</field>
+   <field indexed="un-tokenized" name="edition-no" stored="yes" vector="no"
+      >n_toc_appd_kc_numofedition</field>
+    <field indexed="un-tokenized" name="edition-kind" stored="yes" vector="no">n_toc_appd_kc_edition</field>
+    <field indexed="un-tokenized" name="volume-series" stored="yes" vector="no">n_toc_appd_kc_volume</field>
+    <field indexed="un-tokenized" name="volume-part" stored="yes" vector="no">parsed from
+      o_toc_appd_ep_path (all data after final | )</field>
+
+    <field indexed="un-tokenized" name="number" stored="yes" vector="no">n_toc_appd_kc_number</field>
+
+    <!-- Person Name Entities -->
+    <field indexed="tokenized" name="name" stored="yes" vector="no">all name parts, to be used in
+      tokenized free-text search </field>
+    <field indexed="tokenized" name="first-name" stored="yes" vector="no">isolated first-name </field>
+    <field indexed="tokenized" name="last-name" stored="yes" vector="no">isolated last-name,
+      according to CS student's new algorithm </field>
+    <field indexed="tokenized" name="title" stored="yes" vector="no">isolated title data</field>
+
+    <!-- Institution Entities -->
+    <field indexed="tokenized" name="institution" stored="yes" vector="no">to be used in tokenized
+      free-text search </field>
+
+    <!-- Place Entities -->
+    <field indexed="tokenized" name="place" stored="yes" vector="no">to be used in tokenized
+      free-text search </field>
+
+    <!-- Semantic Tags -->
+
+    <field indexed="un-tokenized" stored="yes" vector="no" name="semtag-key">the class number for
+      the tag, excluding Z class (canonical form)</field>
+    <field indexed="un-tokenized" stored="yes" vector="no" name="semtag-thesaurus">composed field
+      with: semtag-key##semtag-label##semtag-key (with comparative/superlative modifiers, e.g. A1++++)##rank##llh##significance level (excluding Z class)</field>
+
+    <!-- Image Metadata -->
+    <field indexed="un-tokenized" stored="yes" vector="no" name="image-key">id:dmvi:d2e6048</field>
+    <field indexed="un-tokenized" stored="yes" vector="no" name="image-thesaurus">id:dmvi:d2e4642##objects</field>
+
+  </fields>
+</lucene-document>

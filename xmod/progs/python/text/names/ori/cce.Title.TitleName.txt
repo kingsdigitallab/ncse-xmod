@@ -1,0 +1,102 @@
+TitleName
+(Other)
+(Other)
+=41 (Duchess)
+=71 (Hon.)
+admiral
+Archbishop
+Archbishop of
+archdeacon
+archdeacon of
+Armiger
+armigerous
+Baron
+Baroness
+baroness dowager
+bart.
+bart.
+Bishop
+Bishop elect
+bishop of
+canon
+Canon of
+captain
+chancellor
+clergyman
+clerk
+Countess
+Countess  of
+Countess Dowager
+Dame
+Deacon
+Dean
+Dean of
+dom.
+Dr
+Duchess
+Duchess Dowager
+Duchess Dowager of
+Duchess of
+Duke of
+Earl
+Earl of
+Esquire
+General
+Gentleman
+gentlewoman
+Hon
+Hon Dr
+Hon.
+Honourable
+husbandman
+King
+Knight
+Lady
+Lady Dowager
+Lieutenant General
+Lord
+Lord
+Lord Protector
+Magister
+Major
+Marchioness
+Marquess
+Marquess of
+Marquis
+merchant
+Militem
+Miss
+Mistress
+Mr
+Mrs
+OCfr
+OCist
+OFM
+OP
+OSA
+OSB
+Prebend
+Prebendary
+Priest
+prince
+Prince of Wales
+Prince Regent
+Princess
+Protector
+Queen
+Rector
+Rev.
+Rt Hon
+Rt. Rev.
+Rural Dean
+Sir
+Spinster
+unknown
+Venerabilis
+venerable
+Very Rev
+Viscount
+Viscountess Dowager
+Viscountess of
+Widow
+yeoman

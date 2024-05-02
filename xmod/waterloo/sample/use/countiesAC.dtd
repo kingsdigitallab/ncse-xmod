@@ -1,0 +1,11 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT root (CountyNames)+>
+<!ATTLIST root
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CountyNames EMPTY>
+<!ATTLIST CountyNames
+  xmlns CDATA #FIXED ''
+  Name CDATA #REQUIRED
+  id CDATA #REQUIRED>

@@ -1,0 +1,96 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf350
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww18140\viewh9580\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 1) In Excel, open NCSE_metadata_spreadsheet.xls\
+\
+2) Do "save as", choosing "Excel 2004 XML Spreadsheet" as the format, with suitable filename eg. NCSE_metadata_spreadsheet.xml\
+\
+3) Open the saved XML file, and strip out the unnecessary crap from the top and bottom of the file, and almost all namespace declarations. Top of file should look like:\
+\
+<?xml version="1.0"?>\
+<Workbook xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">\
+   <Row>\
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Olive date = ID</Data></Cell>\
+\
+and end of file should look like:\
+\
+\
+   <Row>\
+    <Cell ss:StyleID="s21"><Data ss:Type="String">SXLDR/1860/04/14</Data></Cell>\
+    <Cell ss:StyleID="s21"/>\
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Leader and Saturday Analyst</Data></Cell>\
+    <Cell ss:StyleID="s21"><Data ss:Type="String">second series 1</Data></Cell>\
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Supplement to no. 525</Data></Cell>\
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">2.0</Data></Cell>\
+    <Cell ss:StyleID="s21"/>\
+    <Cell ss:StyleID="s21"><Data ss:Type="String">?Tomlins, Charles Nuttall</Data></Cell>\
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Tomlins, Charles Nuttall</Data></Cell>\
+   </Row>\
+   \
+</Workbook>\
+\
+\
+\
+4) make the following string changes throughout the file:\
+\
+----------------------------------------------------------------------\
+\
+change\
+\
+ss:StyleID="s25"><Data ss:Type="String">\
+\
+to\
+\
+ss:StyleID="s25"><Data ss:Type="DateTime">\
+\
+----------------------------------------------------------------------\
+\
+change\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 .0</Data></Cell>\
+\
+to\
+\
+</Data></Cell>\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 \
+----------------------------------------------------------------------\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \
+change\
+\
+<Data ss:Type="Number">\
+\
+to\
+\
+<Data ss:Type="String">\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 \
+----------------------------------------------------------------------\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \
+change\
+\
+>?\
+\
+to\
+\
+>QQQ\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 \
+----------------------------------------------------------------------\
+\
+\
+Then run a transformation using Excel_XML_output_to_RDF.xsl.\
+Easiest way is from the command line, with a command like this:\
+\
+     /usr/bin/java -jar /opt/local/saxon/saxon9he.jar [path]/NCSE_metadata_spreadsheet.xml [path]/Excel_XML_output_to_RDF.xsl > foo.xml\
+\
+(obviously your paths may vary),.  You should first open foo.xml and check the variable values, because if any of those are wrong there's no point in checking any of the RDF files until you fix the problem.\
+\
+EMAILED THIS QUESTION TO JM:   WHERE THERE'S JUST A NUMBERIN THE EDITION_TOC COLOUMN, DOES THAT MEAN ANYTHING USEFUL IN TERMS OF AN EDITION? \
+}

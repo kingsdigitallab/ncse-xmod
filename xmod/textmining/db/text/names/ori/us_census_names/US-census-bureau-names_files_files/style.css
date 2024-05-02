@@ -1,0 +1,219 @@
+body { /** Sets text color to Black and background color to White **/
+	color: #000;
+	background: #FFF;
+}
+
+h1 { /** Sets size of H1 font **/
+    font-size: x-large;
+}
+
+a:hover { /** Sets hover colors for links **/
+    color: #990000;
+	background-color: #FFFFCC;
+}
+
+/** Various classes for P tags **/
+p.footnote {
+    text-align: left;
+	font-size: smaller;
+}
+
+p.section {
+    font-family: arial, times, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: left;
+}
+
+p.indent {
+    text-indent: 0.25in;
+}
+
+p.ident {
+    text-indent:0.25in;
+}
+
+/** Classes to color text **/
+strong.green {
+    color: #008800;
+	background-color: #FFF;
+	font-weight: bold;
+}
+
+strong.red {
+    color: #CC0033;
+	background-color: #FFF;
+	font-weight: bold;
+}
+
+/** Class to center text **/
+.center	{
+    text-align: center;
+}
+
+/** Class to bold text **/
+.strong	{
+    font-weight: bold;
+}
+
+/** Class to center small text, such as for a footer **/
+.footer	{
+    text-align: center;
+	font-size: smaller;
+}
+
+/** Class to make a hanging indent **/
+.hang {
+    text-indent: -3em;
+	margin-left: 3em;
+}
+
+/** Class to prevent wrapping of text **/
+.nowrap	{
+    white-space: nowrap;
+}
+
+/** Class to make left aligned text small **/
+.small {
+    text-align: left;
+	font-size: smaller;
+}
+
+/** Class to make text as small as possible **/
+.smaller {
+    font-size: smaller;
+}
+
+/** Classes for New Feeds **/
+.newsfeeds {
+	float: right;
+	width: 30%;
+	border: double #000033;
+	background: #f2f6f9;
+	padding: 5px;
+	margin: 5px 5px 5px 10px;
+}
+
+.newsfeeds h3 {
+	color: #600;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: medium;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.newsitem {
+	color: #333;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: smaller;
+	font-weight: normal;
+	text-align: left;
+	margin: 5px 5px 10px 15px;
+}
+
+/** Census Include Styles **/
+#excel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+}
+
+#offsite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+}
+
+.offsite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+}
+
+#msw {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+}
+
+#pdf {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+}
+
+#ppt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+}
+
+/** Census Footer Styles **/
+div#cb_footer {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: bold;
+        color: #000000;
+        text-decoration: none;
+        text-align: center;
+        border-top: 1px solid #0055BB;
+        padding-top: 6px;
+        padding-bottom: 10px;
+        /*margin-left: 15px;
+        margin-right: 15px;*/
+        }
+
+div#reviseddate {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: normal;
+        color: #000000;
+        text-decoration: none;
+        text-align: center;
+		}
+
+div#cb_footer img{
+        margin-top: -6px;
+        }
+
+div#cb_footer a:link{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-size: 11px;
+        font-weight: normal;
+        color: #0055BB;
+        text-decoration: none;
+        }
+
+div#cb_footer a:visited{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: normal;
+        color: #990099;
+        text-decoration: none;
+        }
+
+div#cb_footer a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: normal;
+        font-style: normal;
+        color: #990000;
+        text-decoration: underline;
+        background-color: #FFFFCC;
+}
+
+/** Classes to hide skip links **/
+.hide {
+	text-decoration: none;
+	display: none;
+}
+
+.hide a, .hide a:link, .hide a:visited, .hide a:hover{
+	text-decoration: none;
+	display: none;
+}

@@ -1,0 +1,59 @@
+
+PR - mail 31.01.08
+
+The output looks exactly the same as the key domains list in Wmatrix
+(advanced interface). I've left in the full list rather than cut it
+arbitrarily to the top 10 or 20. You can use the following cut offs
+for varying degrees of confidence in the LL statistic:
+
+95th percentile; 5% level; p < 0.05; critical value = 3.84
+99th percentile; 1% level; p < 0.01; critical value = 6.63
+99.9th percentile; 0.1% level; p < 0.001; critical value = 10.83
+99.99th percentile; 0.01% level; p < 0.0001; critical value = 15.13 
+
+-----------------------------------------------------------------------
+
+PR - mail 17.02.08
+
+EWJ ran overnight on my fastest server and completed in 10 hours. If
+you know what percentage (of words) of the overall corpus is in EWJ,
+you will have a rough idea of the total processing time. If I read
+your Google Spreadsheet right, EWJ is 3.6M words. 10 hours for that is
+fine. I'd expect at least 4 hours for the more efficient format (a
+small number of large files). It looks like EWJ is about 1.4% of the
+corpus - correct?
+
+The output is available for you to download at:
+
+http://juilland.comp.lancs.ac.uk/download/ncse/
+
+-----------------------------------------------------------------------
+
+Some example article counts dependent on length for the LDR:
+
+charcount > 300  |    56447 |
+charcount > 400  |    51833 |
+charcount > 500  |    46887 |
+charcount > 600  |    42570 |
+charcount > 700  |    39296 |
+charcount > 800  |    36269 |
+charcount > 900  |    33925 |
+charcount > 1000 |    32059 |
+charcount > 1100 |    30444 |
+charcount > 1200 |    29130 |
+charcount > 1300 |    27946 |
+charcount > 1400 |    26820 |
+
+tokencount > 200 |    34068 |
+tokencount > 300 |    26902 |
+
+-----------------------------------------------------------------------
+
+find work-around or leave out for presentation to the user the
+following glitches:
+
+- semtags contain multiple plus and minus signs - 13 cases in EWJ from
+  a total of 128453
+- semtags with no long semtag label - 81 cases (0.06 %) in EWJ from a
+  total of 128453
+

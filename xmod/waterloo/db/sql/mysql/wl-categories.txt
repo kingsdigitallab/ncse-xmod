@@ -1,0 +1,22 @@
+
+Cat               table             field
+----------------------------------------------
+county        <-- countynames       Name
+subject       <-- subject           name
+town          <-- townnames         Name
+issuingbody   <-- issuingbodynames  Name
+startdate     <-- title             StartDate
+enddate       <-- title             EndDate
+pubtitle      <-- title             title
+pubtitle      <-- title             SeeRefRecordTitle
+lastname      <-- peoplenames       ProperName
+firstname     <-- peoplenames       GivenName
+
+maybe:
+
+persontitle   <-- peoplenames       ExtraInfo
+  i. e. "Dr.", "Sir", etc.
+
+date          <-- peoplenames       ExtraInfo
+extrainfo     <-- peoplenames       ExtraInfo
+

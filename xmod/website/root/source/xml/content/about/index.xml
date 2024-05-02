@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2
+  SYSTEM "../../../dtd/tei/cch_tei.dtd">
+<TEI.2 id="p1_0">
+  <teiHeader status="new" type="text">
+    <fileDesc>
+      <titleStmt>
+        <title>About us</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+        <address>
+        <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+        <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+      </address>
+      </publicationStmt>
+      <sourceDesc default="NO">
+        <p>No source: created in electronic format.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Encoding according to the CCH TEI Guidelines at http://abc.org</p>
+    </encodingDesc>
+    <revisionDesc>
+      <change>
+        <date>2008-03-27</date>
+        <respStmt>
+          <name>EL</name>
+        </respStmt>
+        <item>created file</item>
+      </change>
+
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      
+      <p>The <hi rend="italic">Nineteenth-Century Serials Edition</hi> (<hi rend="bold">ncse</hi>)
+        is a free, online scholarly edition of six nineteenth-century periodicals and newspapers. It
+        is a collaboration between Birkbeck, University of London, King’s College London (Centre for Computing in
+        the Humanities and the Department of English), the British Library, and Olive Software. It
+        was funded from January 2005 to December 2007 by the Arts and Humanities Research Council.</p>
+      <p>The edition is intended to be of use for anybody with an interest in nineteenth-century
+        literature, history or culture, as well as those interested in the history of the press, or
+        print culture more broadly. It combines easy to use browse functions with advanced searching
+        of the content and the metadata. For an overview of the edition, please see the
+        following:</p>
+      <list type="bulleted">
+<item><hi rend="bold">Welcome to ncse</hi>: for a brief overview of the project, click <xref type="internal" from="p1_1">here</xref>.</item>
+        <item><hi rend="bold">Technical Introduction</hi>: for an account of the technical production of ncse, click <xref type="internal" from="p1_2">here</xref>.</item>
+        <item><hi rend="bold">FAQs / Help</hi>: for answers to common questions and general help documents, click <xref type="internal" from="p8">here</xref>.</item>
+        <item><hi rend="bold">Contact us</hi>: to contact us, please click <xref type="internal" from="p1_5">here</xref> for a link to our feedback form.</item>
+      </list>
+  
+    
+      
+      
+    
+      
+    </body>
+  </text>
+</TEI.2>

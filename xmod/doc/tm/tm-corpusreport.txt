@@ -1,0 +1,74 @@
+
+cd to textmining/corpusreport
+
+ant clean dist
+
+dist/bin/corpusreport.sh corpusdir reportdir
+
+
+
+create directory "corpuslinks"
+
+create a directory for each publication, like:
+
+corpuslinks/corpus_EWJ
+
+within this directory create a link to the actual location of the
+publication, like:
+
+EWJ -> ../../corpus/20080117/EWJ/
+
+create directory in report location:
+
+/mnt/public_html/reports/080118-EWJ
+
+
+cd to textmining/corpusreport
+
+nohup ./dist/bin/corpusreport.sh /home/ncsedata/corpuslinks/corpus_EWJ /mnt/public_html/reports/080118-EWJ >/mnt/public_html/reports/080118-EWJ/corpusreport.log &
+
+
+
+corpusreport processed 18.01.2008:
+
+3.2G    /home/ncsedata/corpus/20080117/EWJ                PROCESSING (18.01. 12:56) / CRASH (Res ?)
+15G     /home/ncsedata/corpus/20080117/LDR
+13G     /home/ncsedata/corpus/20080117/MRP
+20G     /home/ncsedata/corpus/20080117/NSS
+14G     /home/ncsedata/corpus/20080117/TEC
+2.1G    /home/ncsedata/corpus/20080117/TTW
+
+18M     /home/ncsedata/corpus/20080117/FEWJ
+
+14M     /home/ncsedata/corpus/20080117/FLDR
+13G     /home/ncsedata/corpus/20080117/CLD
+
+225M    /home/ncsedata/corpus/20080117/EMRP
+36M     /home/ncsedata/corpus/20080117/FMRP
+155M    /home/ncsedata/corpus/20080117/SMRP
+
+7.4M    /home/ncsedata/corpus/20080117/SNSS
+5.3G    /home/ncsedata/corpus/20080117/NS2
+4.8G    /home/ncsedata/corpus/20080117/NS3
+4.4G    /home/ncsedata/corpus/20080117/NS4
+3.6G    /home/ncsedata/corpus/20080117/NS5
+325M    /home/ncsedata/corpus/20080117/NS6
+196M    /home/ncsedata/corpus/20080117/NS7
+84M     /home/ncsedata/corpus/20080117/NS8
+30M     /home/ncsedata/corpus/20080117/NS9
+
+9.3M    /home/ncsedata/corpus/20080117/FTEC
+1.5G    /home/ncsedata/corpus/20080117/TTEC
+
+41M     /home/ncsedata/corpus/20080117/ATTW               DONE
+13M     /home/ncsedata/corpus/20080117/ETTW
+24M     /home/ncsedata/corpus/20080117/FTTW
+
+2.7M    /home/ncsedata/corpus/20080117/Temp
+2.8M    /home/ncsedata/corpus/20080117/Undefined
+
+Total:
+100G    /home/ncsedata/corpus/20080117/
+
+
+

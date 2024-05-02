@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<XMD-entity REPOSITORY_FORMAT="1.0" ENTITY_TYPE="Article" DOC_UID="LDR_01/01/1888" DOC_VER="1" PAGE_NO="18" ID="Ar01802" BOX="119 1240 1159 1553" LANGUAGE="English" SNP="Ar01802S.png" SNP_WIDTH="350" SNP_HEIGHT="49">
+	<Meta NAME="NOW MEJiJDY. _ rhe Naval History of the (Ml War." DESCRIPTION="" SUBTYPE="" BASE_HREF="LDR/1888/01/01" SOURCE_TYPE="TIFF" PUBLICATION="LDR" SECTION="None" ISSUE_DATE="01/01/1888" WORDCNT="64" RELEASE_NO="demo publishers" PAGE_ID="" PAGE_TYPE="Single" PAGE_WIDTH="646" PAGE_HEIGHT="861" DEFAULT_IMG_EXT="png" PDF_DESTINATION_MAPPED="OLV0_Entity_0018_0004" IMAGES_RESOLUTION="86" XMD_VER="2.6.236.23" PAGE_LABEL="381"/>
+	<Link SOURCE="demo+publishers1.pdf" FIRST_ID="Ar00200" LAST_ID="Ad02610" NEXT_ID="Ar01803" PREV_ID="Ar01801" TOC_ID="C:/Olive/Repository/LDR/1888/01/01/TOC.xml"/>
+	<HedLine_hl1>
+		<Primitive BOX="119 1240 1159 1386" ID="Ar0180200" TOC_ENTRY_ID="16" SEQ_NO="0"><Application_Data/>NOW MEJiJDY. __ rhe Naval History of the (Ml War. </Primitive>
+	</HedLine_hl1>
+	<Content>
+		<Primitive BOX="119 1386 1159 1553" ID="Ar0180201" TOC_ENTRY_ID="16" SEQ_NO="1"><Application_Data/>By Admiral DAVID D. POETER, U.S. Navy. _VITH STEEL PORTRAIT OF. THE AUTHOR, NUMEROUS WOODCUT PORTRAITS ' * OF OFFICERS, BATTLE PLANS, &amp;_fb _^ _^ ' 4to. cloth extra, _84_Q pages, 258. ' ; </Primitive>
+	</Content>
+	<Embedded-Content ID_REF="Ar01803" ENTITY_TYPE="Article"><XMD-entity REPOSITORY_FORMAT="1.0" ENTITY_TYPE="Article" PAGE_NO="18" ID="Ar01803" BOX="119 1553 1159 1672" LANGUAGE="English" SNP="Ar01803S.png" SNP_WIDTH="1041" SNP_HEIGHT="119">
+			<Meta NAME="Untitled Article" DESCRIPTION="" SUBTYPE="" BASE_HREF="LDR/1888/01/01" SOURCE_TYPE="TIFF" PUBLICATION="LDR" SECTION="None" ISSUE_DATE="01/01/1888" WORDCNT="26" RELEASE_NO="demo publishers" PAGE_ID="" PAGE_TYPE="Single" PAGE_WIDTH="646" PAGE_HEIGHT="861" DEFAULT_IMG_EXT="png" PDF_DESTINATION_MAPPED="OLV0_Entity_0018_0005" IMAGES_RESOLUTION="86" EMBEDDED_INTO="Ar01802" XMD_VER="2.6.236.23" PAGE_LABEL="381"/>
+			<Link SOURCE="demo+publishers1.pdf" FIRST_ID="Ar00200" LAST_ID="Ad02610" NEXT_ID="Ar01804" PREV_ID="Ar01802" TOC_ID="C:/Olive/Repository/LDR/1888/01/01/TOC.xml"/>
+			<Content>
+				<Primitive BOX="119 1553 1159 1672" ID="Ar0180300" TOC_ENTRY_ID="16" SEQ_NO="0"><Application_Data/>SAMPSON LOW, MAR3_TON, S K^^^^^^prap_^_OK , 188 Fleet Street,. _' AXXT " _[._Q _^<S S_TYPE="SUP">' </S></Primitive>
+			</Content>
+		</XMD-entity></Embedded-Content>
+	<Embedded-Content ID_REF="Ar01902" ENTITY_TYPE="Article"><XMD-entity REPOSITORY_FORMAT="1.0" ENTITY_TYPE="Article" PAGE_NO="19" ID="Ar01902" BOX="176 54 1191 111" LANGUAGE="English" SNP="Ar01902S.png" SNP_WIDTH="1016" SNP_HEIGHT="57">
+			<Meta NAME="Untitled Article" DESCRIPTION="" SUBTYPE="" BASE_HREF="LDR/1888/01/01" SOURCE_TYPE="TIFF" PUBLICATION="LDR" SECTION="None" ISSUE_DATE="01/01/1888" WORDCNT="16" RELEASE_NO="demo publishers" PAGE_ID="" PAGE_TYPE="Single" PAGE_WIDTH="646" PAGE_HEIGHT="861" DEFAULT_IMG_EXT="png" PDF_DESTINATION_MAPPED="OLV0_Entity_0019_0001" IMAGES_RESOLUTION="86" EMBEDDED_INTO="Ar01802" XMD_VER="2.6.236.23" PAGE_LABEL="382"/>
+			<Link SOURCE="demo+publishers1.pdf" FIRST_ID="Ar00200" LAST_ID="Ad02610" NEXT_ID="" PREV_ID="Ar01901" TOC_ID="C:/Olive/Repository/LDR/1888/01/01/TOC.xml"/>
+			<Content>
+				<Primitive BOX="176 54 1191 111" ID="Ar0190200" TOC_ENTRY_ID="16" SEQ_NO="0"><Application_Data/>3_&amp; : ' - .. , _^ _Pnb _fofcenf Circular _#_feffi_$&amp;«yl </Primitive>
+			</Content>
+		</XMD-entity></Embedded-Content>
+	<TOC_Entries><TOC_Entry TOC_ENTRY_ID="16" TITLE="NOW MEJiJDY. _ rhe Naval History of the (Ml War." ENTITY_ID_REF="Ar01802" PAGE_NO="18" PAGE_LABEL="381" PRIM_ID_REF="Ar0180200" IS_IC="true"/></TOC_Entries></XMD-entity>

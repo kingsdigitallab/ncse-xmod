@@ -1,0 +1,123 @@
+Z99           196     7.63  22165     2.29 +   196.67     Unmatched
+Z8            263    10.24  72023     7.44 +    24.11     Pronouns
+W2              2     0.08      0     0.00 +    23.74     Light
+I1.2-           2     0.08      0     0.00 +    23.74     Debt-free
+I1.1+++         2     0.08      5     0.00 +    15.39     Money: Affluence
+T1.1            3     0.12     47     0.00 +    13.16     Time: General
+E4.1-          10     0.39    979     0.10 +    12.10     Sad 
+S1.1.4-         1     0.04      0     0.00 +    11.87     Undeserving
+W2-             1     0.04      0     0.00 +    11.87     Darkness
+A1.2.4-         1     0.04      0     0.00 +    11.87     
+S2.2           17     0.66   2534     0.26 +    10.95     People: Male  
+Q4.1           13     0.51   1741     0.18 +    10.10     The Media: Books
+Y2              3     0.12   1126     0.12 +    -0.00     Information technology and computing
+L1+             3     0.12     93     0.01 +     9.40     Alive
+E3-            12     0.47   1647     0.17 +     8.95     Violent/Angry
+M6             42     1.63   9859     1.02 +     8.07     Location and direction
+S3.1            9     0.35   1122     0.12 +     7.84     Personal relationship: General
+X2              2     0.08     46     0.00 +     7.35     Mental actions and processes
+S1.2.5-         3     0.12    146     0.02 +     7.01     Weak
+A1.5.2-         2     0.08     71     0.01 +     5.78     Useless
+S1.2.6+         3     0.12    204     0.02 +     5.33     Sensible
+I1.1-           3     0.12    242     0.02 +     4.51     Money: Lack
+S4             18     0.70   4002     0.41 +     4.22     Kin
+N3.2---         1     0.04     18     0.00 +     4.13     Size: Small 
+S1.1.3-         2     0.08    117     0.01 +     4.05     Non-participating
+Z4             19     0.74   4344     0.45 +     4.03     Discourse Bin
+M1             38     1.48  10157     1.05 +     4.00     Moving, coming and going
+L2             15     0.58   3225     0.33 +     3.94     Living creatures: animals, birds, etc. 
+S8-             6     0.23    885     0.09 +     3.94     Hindering
+E2+             8     0.31   1372     0.14 +     3.86     Like
+X5.2-           3     0.12    284     0.03 +     3.78     Uninterested/bored/unenergetic
+N6+             9     0.35   1651     0.17 +     3.71     Frequent
+N4             26     1.01   6620     0.68 +     3.51     Linear order
+A9+            37     1.44  10082     1.04 +     3.49     Getting and possession
+S3.2            4     0.16    508     0.05 +     3.38     Relationship: Intimacy and sex
+A11.1++         1     0.04     28     0.00 +     3.32     Important
+S7.2+           3     0.12    316     0.03 +     3.31     Respected
+X3.2-           3     0.12    320     0.03 +     3.26     Sound: Quiet
+A5.2+           5     0.19    779     0.08 +     2.96     Evaluation: True 
+Z5            879    34.22 312904    32.32 +     2.86     Grammatical bin
+E4.2+           3     0.12    352     0.04 +     2.86     Content
+I1.2            7     0.27   1318     0.14 +     2.70     Money: Debts
+Z3             19     0.74   4809     0.50 +     2.64     Other proper names
+S1.2.6-         2     0.08    184     0.02 +     2.60     Foolish
+S1.2.3-         1     0.04     42     0.00 +     2.59     Unselfish
+I3.2            1     0.04     48     0.00 +     2.36     Work and employment: Professionalism
+A8              7     0.27   1409     0.15 +     2.25     Seem
+I1.1+           2     0.08    239     0.02 +     1.86     Money: Affluence
+A2.1-           2     0.08    250     0.03 +     1.73     No change
+S1.2            1     0.04     73     0.01 +     1.66     Personality traits
+B2-             6     0.23   1275     0.13 +     1.64     Disease 
+S5-             4     0.16    761     0.08 +     1.50     Not part of a group
+T1.3++          1     0.04     83     0.01 +     1.46     Time period: long
+X2.1           15     0.58   4139     0.43 +     1.31     Thought, belief
+N3.6            1     0.04     93     0.01 +     1.29     Measurement: Area
+B1             19     0.74   5489     0.57 +     1.23     Anatomy and physiology
+G2.1-           3     0.12    570     0.06 +     1.13     Crime 
+S1.2.4-         1     0.04    109     0.01 +     1.06     Impolite
+A5.2-           2     0.08    332     0.03 +     1.04     Evaluation: False
+N3.5            2     0.08    338     0.03 +     1.00     Measurement: Weight
+S1.2.2+         1     0.04    117     0.01 +     0.96     Greedy
+X5.1+           2     0.08    344     0.04 +     0.96     Attentive
+E3+             3     0.12    623     0.06 +     0.88     Calm 
+S1.2.2-         1     0.04    130     0.01 +     0.82     Generous
+S7.1            1     0.04    132     0.01 +     0.80     Power, organizing
+E1              2     0.08    373     0.04 +     0.79     Emotional Actions, States And Processes General
+E5+             1     0.04    134     0.01 +     0.78     Bravery 
+T3+             4     0.16    961     0.10 +     0.70     Time: Old; grown-up
+A6.1+++         3     0.12    668     0.07 +     0.70     Comparing: Similar 
+L1-             6     0.23   1585     0.16 +     0.67     Dead
+G2.2+           2     0.08    405     0.04 +     0.63     Ethical
+O1.2-           1     0.04    151     0.02 +     0.63     Dry
+A5.1+          10     0.39   2905     0.30 +     0.62     Evaluation: Good 
+N6-             2     0.08    410     0.04 +     0.61     Infrequent
+Z6             25     0.97   8052     0.83 +     0.58     Negative
+X9.1-           1     0.04    157     0.02 +     0.58     Inability/unintelligence
+E4.2-           1     0.04    157     0.02 +     0.58     Discontent
+Q3              6     0.23   1653     0.17 +     0.53     Language, speech and grammar
+A15+            1     0.04    166     0.02 +     0.52     Safe 
+N2              3     0.12    760     0.08 +     0.42     Mathematics
+E5-             3     0.12    757     0.08 +     0.42     Fear/shock
+Y1              3     0.12    778     0.08 +     0.37     Science and technology in general
+A13.3          15     0.58   4808     0.50 +     0.37     Degree: Boosters
+B2+             1     0.04    195     0.02 +     0.35     Healthy
+T3--            1     0.04    197     0.02 +     0.34     Time: New and young 
+N3.7++          1     0.04    202     0.02 +     0.32     Long, tall and wide
+G3             10     0.39   3152     0.33 +     0.30     Warfare, defence and the army; weapons
+T2++            7     0.27   2162     0.22 +     0.26     Time: Beginning 
+X5.2+           5     0.19   1511     0.16 +     0.23     Interested/excited/energetic
+S2              9     0.35   2896     0.30 +     0.21     People
+A13.6           3     0.12    856     0.09 +     0.21     Degree: Diminishers
+O4.4            7     0.27   2239     0.23 +     0.18     Shape
+E6+             1     0.04    245     0.03 +     0.16     Confident
+A1.6            1     0.04    248     0.03 +     0.15     Concrete/Abstract 
+H4              5     0.19   1592     0.16 +     0.13     Residence
+A10-            5     0.19   1609     0.17 +     0.12     Closed; Hiding/Hidden 
+N5.1+          17     0.66   5944     0.61 +     0.09     Entire; maximum
+E6-             3     0.12    961     0.10 +     0.07     Worry 
+N5+++           2     0.08    629     0.06 +     0.06     Quantities: many/much
+I3.1-           1     0.04    296     0.03 +     0.05     Unemployed
+O4.6+           3     0.12    988     0.10 +     0.05     Temperature: Hot / on fire     
+M2             15     0.58   5347     0.55 +     0.05     Putting, pulling, pushing, transporting
+I1             10     0.39   3515     0.36 +     0.05     Money generally
+A3+            66     2.57  24177     2.50 +     0.05     Existing
+O4.6-           1     0.04    303     0.03 +     0.04     Temperature: Cold     
+N3.7-           1     0.04    310     0.03 +     0.04     Short and narrow
+X3.4            8     0.31   2795     0.29 +     0.04     Sensory: Sight
+X2.3+           1     0.04    307     0.03 +     0.04     Learning
+A13.5           2     0.08    658     0.07 +     0.04     Degree: Compromisers
+A1.3+           1     0.04    305     0.03 +     0.04     Cautious
+A11.1-          1     0.04    322     0.03 +     0.02     Unimportant
+T4-             1     0.04    330     0.03 +     0.02     Time: Late
+N3.4            1     0.04    325     0.03 +     0.02     Measurement: Volume
+A6.2-           2     0.08    684     0.07 +     0.02     Comparing: Unusual 
+S7.1-           2     0.08    697     0.07 +     0.01     No power 
+X2.6+           2     0.08    714     0.07 +     0.01     Expected
+A5.3-           1     0.04    344     0.04 +     0.01     Evaluation: Inaccurate
+A13.2           4     0.16   1439     0.15 +     0.01     Degree: Maximizers
+T3              2     0.08    722     0.07 +     0.00     Time: Old, new and young; age
+N5             17     0.66   6385     0.66 +     0.00     Quantities
+N5.1-           4     0.16   1470     0.15 +     0.00     Part
+X9.2-           1     0.04    369     0.04 +     0.00     Failure
+N5.2+           3     0.12   1121     0.12 +     0.00     Exceed; waste

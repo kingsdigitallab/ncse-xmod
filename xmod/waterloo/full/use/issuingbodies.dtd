@@ -1,0 +1,11 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT root (issuingbodynames)+>
+<!ATTLIST root
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT issuingbodynames EMPTY>
+<!ATTLIST issuingbodynames
+  xmlns CDATA #FIXED ''
+  Name CDATA #REQUIRED
+  id CDATA #REQUIRED>
