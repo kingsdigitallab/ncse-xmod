@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<XMD-PAGE REPOSITORY_FORMAT="1.0"><Application_Data/><Meta ISSUE_DATE="01/01/1888" RELEASE_NO="demo publishers" PAGE_NO="5" NAME="" PAGE_LABEL="1499" PAGE_TYPE="Single" PUBLISHER="Olive" PUBLICATION="LDR" SOURCE_TYPE="TIFF" SOURCE_RESOLUTION="72" IMAGES_RESOLUTION="86" PAGE_THUMBNAIL_RESOLUTION="43" PAGE_PREVIEW_RESOLUTION="15" DEFAULT_IMG_EXT="png" IMG_EXT="png" PREVIEW_IMG_EXT="png" XMD_VER="2.6.236.23" PROFILE_ID="XMD_LDR.ini" SECTION="None" PAGE_WIDTH="646" PAGE_HEIGHT="861" PAGES_NUMBER="26" BASE_HREF="LDR/1888/01/01" PDF_DESTINATION_MAPPED="OLV0_Page_0005">
+		<Resolutions>
+			<Resolution DEFAULT="true">43</Resolution>
+		</Resolutions>
+	</Meta>
+	<Link SOURCE="demo+publishers1.pdf" NEXT_SECTION="" PREV_SECTION="1"/>
+	<Entity ENTITY_TYPE="Article" ID="Ar00500" SIZE="Large" BOX="72 292 593 827" NEXT_SECTION="" PREV_SECTION="1">
+		<Name>Q fyeggtg. George 25dJ &amp; £&amp;gt;oiig. Ii I) book old fri</Name>
+		<Primitive ID="Ar0050000" BOX="72 292 593 321" ELEMENT_TYPE="HedLine_hl1" TOC_ENTRY_ID="13" SEQ_NO="0"/>
+		<Primitive ID="Ar0050001" BOX="72 321 593 427" ELEMENT_TYPE="Content" TOC_ENTRY_ID="13" SEQ_NO="1"/>
+		<Primitive ID="Ar0050002" BOX="72 427 249 799" ELEMENT_TYPE="Content" TOC_ENTRY_ID="13" SEQ_NO="2"/>
+		<Primitive ID="Ar0050003" BOX="72 799 593 827" ELEMENT_TYPE="Content" TOC_ENTRY_ID="13" SEQ_NO="3"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Article" ID="Ar00501" SIZE="Small" BOX="72 24 593 62" NEXT_SECTION="" PREV_SECTION="1" EMBEDDED_INTO="Ar00400">
+		<Name>Untitled Article</Name>
+		<Primitive ID="Ar0050100" BOX="72 24 593 62" ELEMENT_TYPE="Content" TOC_ENTRY_ID="12" SEQ_NO="0"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Picture" ID="Pc00502" SIZE="Large" BOX="249 427 593 799" NEXT_SECTION="" PREV_SECTION="1" EMBEDDED_INTO="Ar00500" EMBEDDED_AFTER="Ar0050001">
+		<Name>Untitled Picture</Name>
+		<Primitive ID="Pc0050200" BOX="249 427 593 799" ELEMENT_TYPE="Picture" TOC_ENTRY_ID="13" SEQ_NO="0" IMG_EXT="jpg"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Picture" ID="Pc00503" SIZE="Large" BOX="72 62 593 292" NEXT_SECTION="" PREV_SECTION="1" EMBEDDED_INTO="Ar00500" EMBEDDED_AFTER="Ar0050002">
+		<Name>Untitled Picture</Name>
+		<Primitive ID="Pc0050300" BOX="72 62 593 292" ELEMENT_TYPE="Picture" TOC_ENTRY_ID="13" SEQ_NO="0" IMG_EXT="jpg"/>
+	</Entity>
+</XMD-PAGE>

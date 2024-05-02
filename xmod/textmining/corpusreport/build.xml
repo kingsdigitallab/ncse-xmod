@@ -1,0 +1,128 @@
+<project name="textmining" default="dist" basedir=".">
+
+	<!-- define ${gate.home} in the following file or...  -->
+	<property file="local.ant.properties" />
+	<!-- use -Dgate.home=... when calling ant, or 
+             accept the following default: -->
+	<property name="gate.home" 	location="/home/ncsedata/progs/GATE/"/>
+
+
+
+	<property name="code" location="code/src/"/>
+	<property name="main.src"       location="${code}/main/java"/>
+        <property name="main.resources" location="${code}/main/resources"/>
+        <property name="test.src"       location="${code}/test/java"/>
+        <property name="test.resources" location="${code}/test/resources"/>
+	<property name="lib"            location="code/resources/lib"/>
+
+	<property name="build" 		location="build"/>
+	<property name="build.main"     location="${build}/main"/>
+        <property name="build.test"     location="${build}/test"/>
+        <property name="test.report"    location="${build.test}/report"/>
+
+	<property name="dist" 		location="dist"/>
+	<property name="dist.lib"	location="${dist}/lib"/>
+	<property name="dist.bin"	location="${dist}/bin"/>
+	<property name="main.artefact"	location="${dist.lib}/cch.jar"/>
+	<property name="startscripts"	location="code/resources/scripts"/>
+
+
+	<path id="gate.classpath">
+		<pathelement location="${gate.home}/bin/gate.jar"/>
+	 	<fileset dir="${gate.home}/lib">
+        		<include name="**/*.jar"/>
+			<exclude name="**/ant*.jar"/>
+      		</fileset>	
+	</path>
+	<pathconvert targetos="unix" property="gate.cp" refid="gate.classpath" />
+
+        <path id="main.classpath">
+		<pathelement location="${lib}/commons-lang-2.3/commons-lang-2.3.jar"/>
+		<path refid="gate.classpath"/>
+        </path>
+
+        <path id="test.classpath">
+                <pathelement location="${build.main}"/>
+                <path refid="main.classpath"/>
+                <pathelement location="${lib}/junit-3.8.1/junit-3.8.1.jar"/>
+        </path>
+
+
+
+	<target name="init">
+                <mkdir dir="${build}"/>
+        </target>
+
+
+
+	<target name="compile" depends="init" description="compiles the source code" >
+                <mkdir dir="${build.main}"/>
+                <javac  srcdir="${main.src}"
+                        destdir="${build.main}"
+                        source="1.5"
+                        classpathref="main.classpath" />
+                <copy todir="${build.main}">
+                	<fileset dir="${main.resources}"/>
+	        </copy>
+        </target>
+
+
+
+ 	<target name="compile.tests" depends="compile" description="compiles the test source code" >
+                <mkdir dir="${build.test}"/>
+                <javac  srcdir="${test.src}"
+                        destdir="${build.test}"
+                        source="1.5"
+                        classpathref="test.classpath" />
+                <copy todir="${build.test}">
+	                <fileset dir="${test.resources}"/>
+	        </copy>
+        </target>
+
+
+
+        <target name="test" depends="compile.tests" description="runs junit tests" >
+                <mkdir dir="${test.report}"/>
+                <junit printsummary="yes" haltonfailure="yes" >
+	                <classpath>
+	                     	<path refid="test.classpath"/>
+	                	<pathelement location="${build.test}"/>
+	                </classpath>
+	                <formatter type="plain"/>
+	                <batchtest fork="yes" todir="${test.report}">
+                        	 <fileset dir="${test.src}">
+                             	   <include name="**/*Test*.java"/>
+				   <exclude name="**/TocTest.java"/>
+                        	 </fileset>
+                    	</batchtest>
+	          </junit>
+        </target>
+
+
+	<target name="dist" depends="compile, test" description="creates distribution">
+		<mkdir dir="${dist}"/>
+		<mkdir dir="${dist.lib}"/>
+		<jar jarfile="${main.artefact}" basedir="${build.main}"/>
+		<copy todir="${dist.lib}" file="${lib}/commons-lang-2.3/commons-lang-2.3.jar" />
+
+		<mkdir dir="${dist.bin}"/>
+		<copy todir="${dist.bin}">
+                        <fileset dir="${startscripts}">
+                                <include name="*.sh"/>
+                        </fileset>
+			<filterset>
+      				<filter token="GATECP" value="${gate.cp}"/>
+				<filter token="GATEHOME" value="${gate.home}"/>
+    			</filterset>
+		</copy>
+		<chmod dir="${dist.bin}" perm="+x" includes="*.sh"/>
+	</target>
+
+
+	<target name="clean" description="removes all build artefacts">
+		<delete dir="${build}"/>
+		<delete dir="${dist}"/>
+	</target>
+
+
+</project>

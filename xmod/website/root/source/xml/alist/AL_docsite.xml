@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<!DOCTYPE authorityList SYSTEM "../../dtd/alist/AL_fileBase.dtd">
+<authorityList month="_unspecified" day="_unspecified" resp="ADD HERE" year="2003" id="AL_docsite">
+  <header>
+    <title>Special filebase for myProjectName documentary site</title>
+    <changeNotes>
+      <changeItem>
+        <name/>
+        <p/>
+      </changeItem>
+    </changeNotes>
+    <comments>
+      <list>
+        <li>
+          <label>ROOT element</label>
+          <con>The date attributes specify the last edit date.</con>
+        </li>
+        <li>
+          <label>group</label>
+          <con>This groups elements according to the directories on the web-site. 'group' elements
+            can now have a 'print' attribute, because each NG is given a group element, before being
+            broken down into individual webpages, but the PDFs are for the whole NG.</con>
+        </li>
+      </list>
+    </comments>
+  </header>
+  <body>
+    <rhcontent/>
+    <theme/>
+    <group id="filelist" level="1">
+      <groupHead>
+        <groupTitle>File management</groupTitle>
+        <groupFolder>/xmlqa/filelist</groupFolder>
+        <rhcontent/>
+        <theme/>
+      </groupHead>
+      <item id="AL_fileBase">
+        <router><?xm-replace_text {router}?></router>
+        <fileName>AL_fileBase</fileName>
+        <fileTitle>AL_fileBase</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel><?xm-replace_text {rel}?></rel>
+        </relations>
+        <notes>
+          <p><?xm-replace_text {p}?></p>
+        </notes>
+        <internal>
+          <p><?xm-replace_text {p}?></p>
+        </internal>
+      </item>
+      <item id="AL_navbar">
+        <router><?xm-replace_text {router}?></router>
+        <fileName>AL_navbar</fileName>
+        <fileTitle>AL_navbar</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel><?xm-replace_text {rel}?></rel>
+        </relations>
+        <notes>
+          <p><?xm-replace_text {p}?></p>
+        </notes>
+        <internal>
+          <p><?xm-replace_text {p}?></p>
+        </internal>
+      </item>
+      <item id="AL_designImages">
+        <router><?xm-replace_text {router}?></router>
+        <fileName>AL_designImages</fileName>
+        <fileTitle>AL_designImages</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel><?xm-replace_text {rel}?></rel>
+        </relations>
+        <notes>
+          <p><?xm-replace_text {p}?></p>
+        </notes>
+        <internal>
+          <p><?xm-replace_text {p}?></p>
+        </internal>
+      </item>
+      <item id="AL_imageBase">
+        <router><?xm-replace_text {router}?></router>
+        <fileName>AL_imageBase</fileName>
+        <fileTitle>AL_imageBase</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel><?xm-replace_text {rel}?></rel>
+        </relations>
+        <notes>
+          <p><?xm-replace_text {p}?></p>
+        </notes>
+        <internal>
+          <p><?xm-replace_text {p}?></p>
+        </internal>
+      </item>
+    </group>
+    
+    <group id="chqlink" level="1">
+      <groupHead>
+        <groupTitle>Content checking</groupTitle>
+        <groupFolder>/xmlqa/links</groupFolder>
+        <rhcontent/>
+        <theme/>
+      </groupHead>
+      <item id="blink">
+        <router><?xm-replace_text {router}?></router>
+        <fileName>blink</fileName>
+        <fileTitle>broken links</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel><?xm-replace_text {rel}?></rel>
+        </relations>
+        <notes>
+          <p>Internal links pointing to non-existant pages.</p>
+        </notes>
+        <internal>
+          <p><?xm-replace_text {p}?></p>
+        </internal>
+      </item>
+      <item id="link">
+        <router><?xm-replace_text {router}?></router>
+        <fileName>link</fileName>
+        <fileTitle>links</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel><?xm-replace_text {rel}?></rel>
+        </relations>
+        <notes>
+          <p>Internal links pointing to existing pages.</p>
+        </notes>
+        <internal>
+          <p><?xm-replace_text {p}?></p>
+        </internal>
+      </item>
+      <item id="targeted">
+        <router><?xm-replace_text {router}?></router>
+        <fileName>targeted</fileName>
+        <fileTitle>targeted files</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel><?xm-replace_text {rel}?></rel>
+        </relations>
+        <notes>
+          <p>Files targeted by internal links.</p>
+        </notes>
+        <internal>
+          <p><?xm-replace_text {p}?></p>
+        </internal>
+      </item>
+      
+    </group>
+    
+    
+    <group id="docsite" level="1">
+      <groupHead>
+        <groupTitle>AL_docsite</groupTitle>
+        <groupFolder>/xmlqa/chq</groupFolder>
+        <rhcontent/>
+        <theme/>
+      </groupHead>
+      <item id="iAL_docsite">
+        <router><?xm-replace_text {router}?></router>
+        <fileName>AL_docsite</fileName>
+        <fileTitle>AL_docsite</fileTitle>
+        <rhcontent/>
+        <theme/>
+        <relations>
+          <rel><?xm-replace_text {rel}?></rel>
+        </relations>
+        <notes>
+          <p><?xm-replace_text {p}?></p>
+        </notes>
+        <internal>
+          <p><?xm-replace_text {p}?></p>
+        </internal>
+      </item>
+    </group>
+  </body>
+</authorityList>

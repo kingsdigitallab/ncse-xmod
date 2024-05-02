@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<!DOCTYPE authorityList SYSTEM "../../dtd/alist/AL_navbar.dtd">
+<authorityList id="AL_navbar" month="_unspecified" day="_unspecified" resp="ADD HERE" year="2003">
+  <header>
+    <title>NCSE navbar XML</title>
+    <changeNotes>
+      <changeItem>
+        <name/>
+        <p/>
+      </changeItem>
+    </changeNotes>
+    <comments>
+      <list>
+        <li>
+          <label>ROOT element</label>
+          <con>The date attributes specify the last edit date.</con>
+        </li>
+      </list>
+    </comments>
+  </header>
+  <body topNav="on">
+    <layout id="topNav">
+      <navGroup>
+        <level01>
+          <label>View</label>
+          <default type="external" ref="/periodicals"/>
+        </level01>
+        <level01>
+          <label>Search</label>
+          <default type="external" ref="/periodicals/search/?&mp;mode=or&amp;start_year=1806&amp;end_year=1890&amp;order_by=issue_date"/>
+        </level01>
+      </navGroup>
+      <navGroup>
+        <level01>
+          <label>Browse</label>
+          <default ref="p3"/>
+        </level01>
+        <level01>
+          <label>Search</label>
+          <default ref="p4_0"/>
+          <active>
+            <file start="search_"/>
+            <file start="p4_"/>
+          </active>
+        </level01>
+        <level01>
+          <label>Help</label>
+          <default ref="p8"/>
+        </level01>
+      </navGroup>
+    </layout>
+
+    <layout id="sideNav">
+      <navGroup>
+        <level01 id="NOT_NECESSARY">
+          <label>Home</label>
+          <default ref="p0"/>
+        </level01>
+        <level01>
+          <label>About ncse</label>
+          <default ref="p1_0"/>
+          <active>
+            <file start="p1_"/>
+          </active>
+          <sub02>
+            <level02>
+              <label>Welcome to ncse</label>
+              <default ref="p1_1"/>
+            </level02>
+            <level02>
+              <label>Technical introduction</label>
+              <default ref="p1_2"/>
+            </level02>
+            <level02>
+              <label>Release notes</label>
+              <default ref="p1_3"/>
+            </level02>
+            
+            
+            <level02>
+              <label>Contact us</label>
+              <default ref="p1_4"/>
+            </level02>
+            
+            <level02>
+              <label>Acknowledgements</label>
+              <default ref="p1_7"/>
+            </level02>
+
+          </sub02>
+        </level01>
+        <level01>
+          <label>Editorial commentary</label>
+          <default ref="p5"/>
+          <active>
+            <file start="p5"/>
+          </active>
+
+          <sub02>
+            <level02>
+              <label>Choice of the cluster</label>
+              <default ref="p5_1"/>
+            </level02>
+            <level02>
+              <label>Editorial decisions</label>
+              <default ref="p5_2"/>
+            </level02>
+            <level02>
+              <label>Terminology</label>
+              <default ref="p5_3"/>
+            </level02>
+            <level02>
+              <label>Visual material</label>
+              <default ref="p5_4"/>
+            </level02>
+            <level02>
+              <label>Paratextual material</label>
+              <default ref="p5_5"/>
+            </level02>
+            <level02>
+              <label>Multiple editions</label>
+              <default ref="p5_6"/>
+            </level02>
+            <level02>
+              <label>Text mining</label>
+              <default ref="p5_7"/>
+            </level02>
+            <level02>
+              <label>Runs</label>
+              <default ref="p5_8"/>
+            </level02>
+            <level02>
+              <label>The core</label>
+              <default ref="p5_9"/>
+            </level02>
+           <level02>
+              <label>Metadata</label>
+              <default ref="p5_11"/>
+            </level02>
+            <level02>
+              <label>Concept mapping</label>
+              <default ref="p5_10"/>
+            </level02>
+          </sub02>
+
+        </level01>
+        <!--<level01>
+          <label>Search of the month</label>
+          <default ref="p9_1"/>
+        </level01>-->
+        
+        <level01>
+          <label>History of the project</label>
+          <default ref="p6"/>
+          <active>
+            <file start="p6"/>
+          </active>
+          <sub02>
+            <level02>
+              <label>ncse team</label>
+              <default ref="p6_1"/>
+            </level02>
+            
+            <level02>
+              <label>Publications</label>
+              <default ref="p6_2"/>
+            </level02>
+            <level02>
+              <label>Conferences</label>
+              <default ref="p6_3"/>
+            </level02>
+<level02>
+  <label>Publicity</label>
+  <default ref="p6_4"/>
+</level02>
+            <level02>
+              <label>Symposia</label>
+              <default ref="p6_5"/>
+            </level02>
+            
+          </sub02>
+
+        </level01>
+        <level01>
+          <label>Reference</label>
+          <default ref="p7_0"/>
+          <active>
+            <file start="p7_"/>
+          </active>
+          <sub02>
+            <level02>
+              <label>Bibliography</label>
+              <default ref="p7_1"/>
+            </level02>
+            <level02>
+              <label>Related projects</label>
+              <default ref="p7_2"/>
+            </level02>
+            <level02>
+              <label>Links</label>
+              <default ref="p7_3"/>
+            </level02>
+          </sub02>
+        </level01>
+      </navGroup>
+      <heading>About the titles:</heading>
+      <navGroup>
+        <level01>
+          <label>Monthly Repository (1806-1838)</label>
+          <default ref="p2_1"/>
+        </level01>
+        <level01>
+          <label>Northern Star (1837-1852)</label>
+          <default ref="p2_2"/>
+        </level01>
+        <level01>
+          <label>Leader (1850-1860)</label>
+          <default ref="p2_3"/>
+        </level01>
+        <level01>
+          <label>English Woman’s journal (1858-1864)</label>
+          <default ref="p2_4"/>
+        </level01>
+        <level01>
+          <label>Tomahawk (1867-1870)</label>
+          <default ref="p2_5"/>
+        </level01>
+        <level01>
+          <label>Publishers’ Circular (1880-1890)</label>
+          <default ref="p2_6"/>
+        </level01>
+      </navGroup>
+    </layout>
+  </body>
+</authorityList>

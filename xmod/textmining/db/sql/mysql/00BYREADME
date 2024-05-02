@@ -1,0 +1,72 @@
+
+ncse_tokens_innodb:
+ENGINE = INNODB
+
+no of records: 59,836,362
+
+select * from tokens where token like 'Wellington%';
+2145 rows in set (6.33 sec)
+
+select * from tokens where tokenid like 'TTW-1869-08-07%';
+13870 rows in set (0.25 sec)
+
+select count(id) from tokens where tokenid like 'TTW-%';
+1 row in set (4.22 sec)
+2,183,362
+
+select count(id) from tokens where tokenid like 'TEC-%';
+1 row in set (32.25 sec)
+15,417,075
+
+select count(id) from tokens where tokenid like 'LDR-%';
+1 row in set (1 min 29.52 sec)
+38,781,553
+
+select count(id) from tokens where tokenid like 'EWJ-%';
+1 row in set (7.96 sec)
+3,454,372
+
+
+
+ncse_tokens:
+ENGINE = MyISAM
+
+no of records: 59,836,362
+
+select * from tokens where token like 'Wellington%';
+2145 rows in set (9.96 sec)
+
+
+
+--------------------------------
+
+Load data from TAB delimited file:
+
+1. Execute either
+   FLUSH TABLES
+   or
+   mysqladmin flush-tables
+   mysql -u gbrey -e 'FLUSH TABLES' ncsetoks_ewjload
+
+2. Use 
+   myisamchk --keys-used=0 -rq /path/to/db/tbl_name
+   This removes all use of indexes for the table.
+
+3. Insert data into the table with
+   mysql -u gbrey -e 'LOAD DATA INFILE "/path/to/file.tab" INTO TABLE tokens' ncsetoks_ewj
+   This does not update any indexes and therefore is very fast.
+
+4. Re-create the indexes with
+   myisamchk -rq /path/to/db/tbl_name
+   This creates the index tree in memory before writing it to disk,
+   which is much faster that updating the index during LOAD DATA INFILE
+   because it avoids lots of disk seeks.
+   The resulting index tree is also perfectly balanced.
+
+5. Execute either
+   FLUSH TABLES
+   or
+   mysqladmin flush-tables
+   mysql -u gbrey -e 'FLUSH TABLES' ncsetoks_ewjload
+
+

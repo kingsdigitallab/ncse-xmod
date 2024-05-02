@@ -1,0 +1,47 @@
+
+2008.09.17
+
+there are now (Sep 2008) 29 repository publications, i. e.
+publications in the way Olive split them up
+
+these are 3 more than in the previous repository version (Jan/Feb
+2008)
+
+the following 3 "repository publications" were added:
+
+SCLD
+SLDR
+SXLDR
+
+the total list is as follows:
+
+ATTW
+CLD
+EMRP
+ETTW
+EWJ
+FEWJ
+FLDR
+FMRP
+FTEC
+FTTW
+LDR
+MRP
+NS2
+NS3
+NS4
+NS5
+NS6
+NS7
+NS8
+NS9
+NSS
+SCLD
+SLDR
+SMRP
+SNSS
+SXLDR
+TEC
+TTEC
+TTW
+

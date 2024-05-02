@@ -1,0 +1,851 @@
+<?xml version="1.0"?>
+<Settings VERSION="25" xmlns:dtsearch="http://www.olivesoftware.com/OlvDtsSearch" xmlns:ep="http://www.olivesoftware.com/ActivePaperEnterprisePublisher">
+	<Common>
+		<OlvDir>e:\Olive</OlvDir>
+		<OlvBin>e:\Olive\Bin</OlvBin>
+		<RepDir>e:\Olive\Repository</RepDir>
+		<RepDirTmp>$RepDir/Temp</RepDirTmp>
+		<RepUrl>/Repository</RepUrl>
+		<AppDir>e:\Olive\Applications</AppDir>
+		<OlvSE>$OlvDir/SearchEngine</OlvSE>
+		<LowLevelUrl>/Default</LowLevelUrl>
+		<ServerDomain>KING-Y1KBZQ92ZE</ServerDomain>
+		<!--  IP/DNS name to be used to reach the server from outside. When Cluster server is used the IP will be of the cluster. --><ClientIP>KING-Y1KBZQ92ZE</ClientIP>
+		<!--  IP of this node in the regular network. --><ClusterClientIP>KING-Y1KBZQ92ZE</ClusterClientIP>
+		<!-- IP of this node in the cluster network. This IP should be identical the the IP in th clients list.--><SearchAvailable>true</SearchAvailable>
+		<OliveSearch>OliveSearch</OliveSearch>
+		<Gzipped>false</Gzipped>
+		<SEDataDir>e:\Olive\SEData</SEDataDir>
+		<LogFilesDir>e:\Olive\LogFiles</LogFilesDir>
+		<PlatformVersion>3.1.100.24</PlatformVersion>
+		<DTSearchHome>$OlvSE/DTSearch</DTSearchHome>
+		<DTSearchTemplatesDir>$AppDir/Common/Search/DTS/Templates</DTSearchTemplatesDir>
+		<StampFile>
+			<Path>Common\ASP-Lib\StampFile.inc</Path>
+			<Format>&lt;!-- Timestamp: %B %d, %H:%M:%S --&gt;</Format>
+		</StampFile>
+		<FlashCacheFolder>$OlvDir\SWF</FlashCacheFolder>
+		<FlashCache>true</FlashCache>
+		<ExpirationPeriod>0</ExpirationPeriod>
+		<EPVersion>3.1.100.24</EPVersion>
+		<WwwRootDir>$OlvDir/wwwroot</WwwRootDir>
+		<CustomSkinsDir>$AppDir/Skins</CustomSkinsDir>
+		<InventoryDataDir>e:\Olive\Inventory</InventoryDataDir><OutgoingOutputDir>e:\Olive\Repository\Outgoing</OutgoingOutputDir></Common>
+	<ClusterClients>
+		<Client IP="KING-Y1KBZQ92ZE" MASTER="TRUE"></Client>
+	</ClusterClients>
+	<Applications>
+		<Application NAME="EP" ENABLED="true" SE_NAME="DTSEARCH">
+			<ApplicationVersion>$EPVersion</ApplicationVersion>
+			<ApplicationDesc>Olive ViewPoint</ApplicationDesc>
+			<PlatformMinVersion>2.6.000</PlatformMinVersion>
+			<XMLServiceTargetFile>XMLService.asp</XMLServiceTargetFile>
+			<ep:ApplicationConfig>
+				<!-- Enterprise Publisher specific configurations --></ep:ApplicationConfig>
+			<Projects></Projects>
+		</Application>
+	</Applications>
+	<SearchEnginesConfig>
+		<SearchEngine NAME="DTSEARCH" DEFAULT="true" ENABLED="true">
+			<Address>/OliveSearch/Search.asp</Address>
+			<Library>OlvDtsAbstraction.dll</Library>
+			<StylesPath>$AppDir/Apria/Styles/DTSearch</StylesPath>
+			<Templates>
+				<TemplateFile name="EP">$DTSearchTemplatesDir/EPResultTemplates.js</TemplateFile>
+			</Templates>
+			<dtsearch:SEConfig>
+				<dtsearch:DTSearchHome>$DTSearchHome</dtsearch:DTSearchHome>
+				<dtsearch:StemFile>Stemming.dat</dtsearch:StemFile>
+				<dtsearch:AlphabetFile>english.abc</dtsearch:AlphabetFile>
+				<dtsearch:ThesaurusFile>thesaur.xml</dtsearch:ThesaurusFile>
+				<dtsearch:SegmentationFile>fileseg.xml</dtsearch:SegmentationFile>
+				<dtsearch:Maintenance>
+					<dtsearch:StoredFieldMaxSize>8192</dtsearch:StoredFieldMaxSize>
+					<dtsearch:AllFieldsMaxSize>27500</dtsearch:AllFieldsMaxSize>
+					<dtsearch:OptimizeAfter>30</dtsearch:OptimizeAfter>
+					<dtsearch:MaxWordLength>64</dtsearch:MaxWordLength>
+					<dtsearch:WeightChar>^</dtsearch:WeightChar>
+					<dtsearch:CharRemap>
+						<Remap-definitions>
+							<Map SRC="*" DST="ᚠ"></Map>
+							<Map SRC="?" DST="ᚡ"></Map>
+							<Map SRC="&quot;" DST="ᚢ"></Map>
+							<Map SRC="'" DST="ᚣ"></Map>
+						</Remap-definitions>
+					</dtsearch:CharRemap>
+					<dtsearch:DumpInputSearchQuery>false</dtsearch:DumpInputSearchQuery>
+					<dtsearch:DumpInputSearchQueryPath>$LogFilesDir\InputSearchQuery</dtsearch:DumpInputSearchQueryPath>
+					<dtsearch:DefaultOperatorsFile>Operators.xml</dtsearch:DefaultOperatorsFile>
+					<dtsearch:ImproveRanking>false</dtsearch:ImproveRanking>
+				</dtsearch:Maintenance>
+				<dtsearch:Search>
+					<dtsearch:SearchTimeout>120</dtsearch:SearchTimeout>
+					<dtsearch:MaxDocsResults>1000</dtsearch:MaxDocsResults>
+					<dtsearch:AutoStopLimit>10000000</dtsearch:AutoStopLimit>
+					<dtsearch:DelayDocInfo>true</dtsearch:DelayDocInfo>
+					<dtsearch:MaxWordsToRetrieve>2147483647</dtsearch:MaxWordsToRetrieve>
+					<dtsearch:RestrictFileConditionRegExp>\s|\"|\'</dtsearch:RestrictFileConditionRegExp>
+					<dtsearch:NumericFields>
+						<dtsearch:NumericField>WordCount</dtsearch:NumericField>
+						<dtsearch:NumericField>PageNo</dtsearch:NumericField>
+					</dtsearch:NumericFields>
+				</dtsearch:Search>
+				<dtsearch:Highlight>
+					<dtsearch:AuxDataInitLoadMode>HEADERS</dtsearch:AuxDataInitLoadMode>
+					<dtsearch:AuxDataRequestLoadMode>HEADERS</dtsearch:AuxDataRequestLoadMode>
+				</dtsearch:Highlight>
+				<dtsearch:Prefix>
+					<dtsearch:SearchField>DTSF</dtsearch:SearchField>
+					<dtsearch:SearchStoredField>DTSSF</dtsearch:SearchStoredField>
+				</dtsearch:Prefix>
+			</dtsearch:SEConfig>
+		</SearchEngine>
+	</SearchEnginesConfig>
+	<OlvCompression ISAPI_CACHE_FOLDER="$OlvDir\OlvCache" FLUSH_CASHE="TRUE" CHECK_MODIFIED="TRUE">
+		<StaticFiles>
+			<Extentions>
+				<Extention>xml</Extention>
+				<Extention>css</Extention>
+				<Extention>htm</Extention>
+				<Extention>xsl</Extention>
+				<Extention>html</Extention>
+			</Extentions>
+		</StaticFiles>
+		<DynamicFiles>
+			<Extentions>
+				<Extention>asp</Extention>
+				<Extention>dll</Extention>
+			</Extentions>
+			<MimeTypes>
+				<MimeType>text/plain</MimeType>
+				<MimeType>text/css</MimeType>
+				<MimeType>text/xml</MimeType>
+				<MimeType>text/htm</MimeType>
+				<MimeType>text/html</MimeType>
+			</MimeTypes>
+			<FilesAlwaysZipped>
+				<FileAlwaysZipped>client.asp</FileAlwaysZipped>
+				<FileAlwaysZipped>navigator.asp</FileAlwaysZipped>
+			</FilesAlwaysZipped>
+		</DynamicFiles>
+	</OlvCompression>
+	<IndexingService AUTO_RECOVERY="FALSE" SAVE_STATE="FALSE" MAX_CONCURRENT_REQUESTS="10">
+		<PersistentData>$OlvSE\PersistentData.txt</PersistentData>
+		<StateStatusDoc>$OlvSE\StateStatusDoc.xml</StateStatusDoc>
+	</IndexingService>
+	<!--  
+		TIME: EVERY_LINE , NONE
+	--><Logger PATH="$LogFilesDir\logger.log" LEVEL="HIGH" SIZE="1000" DAILY="TRUE" TIME="EVERY_LINE">
+		<Log ID="OLV_EXCEPTIONS" PATH="$LogFilesDir\OlvExceptions.log"></Log>
+		<Log ID="OLV_SCRIPTS" PATH="$LogFilesDir\OlvScripts.log"></Log>
+		<Log ID="OLV_IMP_EXP" PATH="$LogFilesDir\OlvImpExp.log"></Log>
+		<Log ID="OLV_INDEXING_SERVICE" PATH="$LogFilesDir\Apria\IndexService.log"></Log>
+		<Log ID="OLV_DTS_ABSTRACTION" PATH="$LogFilesDir\Apria\DtsAbstraction.log"></Log>
+		<Log ID="OLV_SEABSTRACTION" PATH="$LogFilesDir\Apria\OlvSeabstraction.log"></Log>
+		<Log ID="OLV_INDEXING_OPERATIONS" PATH="$LogFilesDir\Apria\OlvIndexingOperations.log"></Log>
+		<Log ID="OLV_DAILY_PROCEDURE" PATH="$LogFilesDir\DailyProcedure.log"></Log>
+		<Log ID="OLV_CONVERTER" PATH="$LogFilesDir\OlvRepCnv.log"></Log>
+		<Log ID="OLV_FLASH_READER" PATH="$LogFilesDir\OlvFlashReader.log"></Log>
+		<Log ID="OLV_SWF_OBJECT" PATH="$LogFilesDir\OlvSWFObject.log"></Log>
+		<Log ID="OLV_SWF_ISAPI" PATH="$LogFilesDir\OlvSWF_ISAPI.log"></Log>
+		<Log ID="OLV_WARNINGS" PATH="$LogFilesDir\OlvWarnings.log"></Log>
+		<Log ID="OLV_EP_REP_IMPORT" PATH="$LogFilesDir\EPRepImport.log"></Log>
+		<Log ID="OLV_EP_IMPORT" PATH="$LogFilesDir\EPRepImport.log"></Log>
+		<Log ID="OLV_SERVER_MODEL" PATH="$LogFilesDir\OlvServerModel.log"></Log>
+	</Logger>
+	<Repository>
+		<Publications DEFAULT_TYPE="NP">
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\LDR" NAME="LDR" DESC="Leader - Town Edition" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="LDR"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\CLD" NAME="CLD" DESC="Leader - Country Edition" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="LDR"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\FLDR" NAME="FLDR" DESC="Leader - Front Matter" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="LDRE"/>
+				</Collections>
+			</Publication><Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\MRP" NAME="MRP" DESC="Monthly Repository - Main Edition" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="MRP"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\EMRP" NAME="EMRP" DESC="Monthly Repository - End Matter" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="MRPE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\SMRP" NAME="SMRP" DESC="Monthly Repository - New Series" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="MRPE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\FMRP" NAME="FMRP" DESC="Monthly Repository - Front Matter" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="MRPE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\NSS" NAME="NSS" DESC="Northern Star - Main Edition" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="NSS"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\SNSS" NAME="SNSS" DESC="Northern Star - New Series" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="NSSE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\NS2" NAME="NS2" DESC="Northern Star - Edition 2" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="NSSE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\NS3" NAME="NS3" DESC="Northern Star - Edition 3" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="NSSE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\NS4" NAME="NS4" DESC="Northern Star - Edition 4" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="NSSE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\NS5" NAME="NS5" DESC="Northern Star - Edition 5" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="NSSE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\NS6" NAME="NS6" DESC="Northern Star - Edition 6" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="NSSE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\NS7" NAME="NS7" DESC="Northern Star - Edition 7" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="NSSE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\NS8" NAME="NS8" DESC="Northern Star - Edition 8" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="NSSE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\NS9" NAME="NS9" DESC="Northern Star - Edition 9" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="NSSE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\TEC" NAME="TEC" DESC="Publishers Circular - Issues" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="TEC"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\FTEC" NAME="FTEC" DESC="Publishers Circular - Front Matter" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="TECE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\TTEC" NAME="TTEC" DESC="English Catalogue of Books" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="TECE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\Harrier\v$\NCSE\repository\EWJ" NAME="EWJ" DESC="English Womens Journal - Issues" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="EWJ"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\FEWJ" NAME="FEWJ" DESC="English Womens Journal - Front Matter" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="EWJE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\TTW" NAME="TTW" DESC="Tomahawk - Issues" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="TTW"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\FTTW" NAME="FTTW" DESC="Tomahawk - Front Matter" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="TTWE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\ETTW" NAME="ETTW" DESC="Tomahawk - End Matter" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="TTWE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\ATTW" NAME="ATTW" DESC="Tomahawk - Almanack" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="TTWE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\SLDR" NAME="SLDR" DESC="Leader -Town Edition Supplement" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="LDRE"/>
+				</Collections>
+			</Publication>
+			<Publication ISSUE_DEFAULT_STATUS="ENABLE" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\repository\SCLD" NAME="SCLD" DESC="Leader - Country Edition Supplement" LANGUAGE="en" P_TYPE="NP" IS_PERIODICAL="1">
+				<Collections>
+					<Application NAME="EP" DEFAULT="LDRE"/>
+				</Collections>
+			</Publication>
+		</Publications>
+		<CacheParameters>
+			<!-- Time value is in seconds --><PageSnippets DEFAULT_VALUE="86400">
+				<Default></Default>
+				<ByPub></ByPub>
+				<ByDate></ByDate>
+			</PageSnippets>
+			<Settings>
+				<!-- Values are in measure of MINUTES --><DefaultExpire VALUE="60"></DefaultExpire>
+				<getFiles_asp>
+					<Expire ACTION="path" VALUE="60"></Expire>
+					<Expire ACTION="id" VALUE="60"></Expire>
+					<Expire ACTION="publication" VALUE="60"></Expire>
+					<Expire ACTION="year" VALUE="60"></Expire>
+					<Expire ACTION="month" VALUE="60"></Expire>
+					<Expire ACTION="day" VALUE="60"></Expire>
+					<Expire ACTION="style" VALUE="60"></Expire>
+					<Expire ACTION="asis" VALUE="60"></Expire>
+				</getFiles_asp>
+				<structure_asp>
+					<Expire ACTION="publications" VALUE="60"></Expire>
+					<Expire ACTION="sections" VALUE="60"></Expire>
+					<Expire ACTION="languages" VALUE="60"></Expire>
+					<Expire ACTION="templates" VALUE="60"></Expire>
+					<Expire ACTION="collections" VALUE="60"></Expire>
+					<Expire ACTION="subs" VALUE="60"></Expire>
+					<Expire ACTION="days" VALUE="60"></Expire>
+					<Expire ACTION="month" VALUE="60"></Expire>
+					<Expire ACTION="year" VALUE="60"></Expire>
+					<Expire ACTION="latestissue" VALUE="60"></Expire>
+				</structure_asp>
+			</Settings>
+		</CacheParameters>
+	</Repository>
+	<SEData>
+		<Collections APPLICATION="EP" DEFAULT_STYLE="ViewPoint">
+			<Collection ID="Sample" STYLE="ViewPoint" DESC="Samples collection" DEFAULT_LIST="true" SE_NAME="DTSEARCH"></Collection>
+			<Collection ID="UnitTests" STYLE="ViewPoint" DESC="Unit tests collection" DEFAULT_LIST="true" SE_NAME="DTSEARCH"></Collection>
+			<Collection ID="MRP" STYLE="ViewPoint" DESC="Monthly Repository" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\SEData" SE_NAME="DTSEARCH" DEFAULT_LIST="true"/>
+			<Collection ID="LDR" STYLE="ViewPoint" DESC="Leader" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\SEData" SE_NAME="DTSEARCH" DEFAULT_LIST="true"/>
+			<Collection ID="NSS" STYLE="ViewPoint" DESC="NorthernStar" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\SEData" SE_NAME="DTSEARCH" DEFAULT_LIST="true"/>
+			<Collection ID="TTW" STYLE="ViewPoint" DESC="Tomahawk" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\SEData" SE_NAME="DTSEARCH" DEFAULT_LIST="true"/>
+			<Collection ID="TEC" STYLE="ViewPoint" DESC="Publishers Circular" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\SEData" SE_NAME="DTSEARCH" DEFAULT_LIST="true"/>
+			<Collection ID="EWJ" STYLE="ViewPoint" DESC="English Womens Journal" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\SEData" SE_NAME="DTSEARCH" DEFAULT_LIST="true"/>
+			<Collection ID="MRPE" STYLE="ViewPoint" DESC="MRP Editions" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\SEData" SE_NAME="DTSEARCH" DEFAULT_LIST="true"/>
+			<Collection ID="LDRE" STYLE="ViewPoint" DESC="LDR Editions" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\SEData" SE_NAME="DTSEARCH" DEFAULT_LIST="true"/>
+			<Collection ID="NSSE" STYLE="ViewPoint" DESC="NSS Editions" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\SEData" SE_NAME="DTSEARCH" DEFAULT_LIST="true"/>
+			<Collection ID="TTWE" STYLE="ViewPoint" DESC="TTW Editions" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\SEData" SE_NAME="DTSEARCH" DEFAULT_LIST="true"/>
+			<Collection ID="TECE" STYLE="ViewPoint" DESC="TEC Editions" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\SEData" SE_NAME="DTSEARCH" DEFAULT_LIST="true"/>
+			<Collection ID="EWJE" STYLE="ViewPoint" DESC="EWJ Editions" DIR="\\harrier.cch.kcl.ac.uk\v$\NCSE\SEData" SE_NAME="DTSEARCH" DEFAULT_LIST="true"/></Collections>
+	</SEData>
+	<ReaderSettings></ReaderSettings>
+	<Localization CODEPAGE="65001" ENCODING="utf-8">
+		<Languages MULTI_LANGUAGE="true">
+			<Language NAME="en" DESC="English" LOCALE="english" CODEPAGE="1252" DEFAULT="TRUE"></Language>
+			<Language NAME="fr" DESC="French" LOCALE="english" CODEPAGE="1252"></Language>
+			<Language NAME="de" DESC="German" LOCALE="english" CODEPAGE="1252"></Language>
+			<Language NAME="he" DESC="Hebrew" LOCALE="english" CODEPAGE="1255"></Language>
+			<Language NAME="pt" DESC="Portuguese" LOCALE="english" CODEPAGE="1252"></Language>
+			<Language NAME="es" DESC="Spanish" LOCALE="english" CODEPAGE="1252"></Language>
+			<Language NAME="tu" DESC="Turkish" LOCALE="english" CODEPAGE="1254"></Language>
+		</Languages>
+		<Locales>
+			<Locale NAME="english" DESC="English Standard" LANGUAGE="en">
+				<Locale NAME="english-skin" DESC="Generic locale for english skins">
+					<Locale NAME="english-skin-custom" DESC="Custom locale for english skin"></Locale>
+				</Locale>
+				<Locale NAME="english-ep" DESC="English locale for Enterprise Publisher">
+					<Locale NAME="english-ep-web-sdk" DESC="English locale for Enterprise Publisher web SDK"></Locale>
+				</Locale>
+				<Locale NAME="hebrew-ep" DESC="Hebrew locale for Enterprise Publisher"></Locale>
+			</Locale>
+		</Locales>
+	</Localization>
+	<Director>
+		<!--External applications settings--><External_App DEFAULT_TIMEOUT="300">
+			<App_Info NAME="Export" TARGET="$AppDir\Utils\ImpExp\export.cmd $AppDir\Utils\ImpExp" TIMEOUT="500">
+				<Parameters GUI_HANDLER="ExternalApp/ImpExp/Export.asp">
+					<Param DESC="Export to folder" TYPE="const" PARASTR="" VALUE="$OlvDir\MetaData"></Param>
+				</Parameters>
+			</App_Info>
+			<App_Info NAME="Import" TARGET="$AppDir\Utils\ImpExp\import.cmd $AppDir\Utils\ImpExp">
+				<Parameters GUI_HANDLER="ExternalApp/ImpExp/Import.asp">
+					<Param DESC="Import from folder" TYPE="const" PARASTR="" VALUE="$OlvDir\MetaData"></Param>
+				</Parameters>
+			</App_Info>
+			<App_Info NAME="EPImport" TARGET="$AppDir\Utils\EPImport\EPImport.cmd $AppDir\Utils\EPImport" TIMEOUT="3600">
+				<Parameters GUI_HANDLER="ExternalApp/EPImport_GUI/EPImport_GUI.asp">
+					<Param DESC="Source folder" TYPE="Var" PARASTR="-Source" VALUE="$OlvDir/FTPIssues"></Param>
+					<Param DESC="Publications list" TYPE="Var" PARASTR="-Publications" VALUE=""></Param>
+				</Parameters>
+			</App_Info>
+			<App_Info NAME="EPRepositoryImport" TARGET="$AppDir\Utils\EPRep\EPRepImport.cmd $AppDir\Utils\EPRep" TIMEOUT="3600">
+				<Parameters GUI_HANDLER="ExternalApp/EPRep_GUI/EPRep_GUI.asp">
+					<Param DESC="Publications list" TYPE="Var" PARASTR="-Publications" VALUE=""></Param>
+				</Parameters>
+			</App_Info>
+		</External_App>
+		<!-- Search --><Search ENABLED="TRUE" XSL_SRC="DirSearchToHtml.xsl">
+			<SearchType NAME="All Entities" VALUE="All" S_TEMPLATE="DirectorResult.hts">
+				<In NAME="Keywords" VALUE="Keywords"></In>
+			</SearchType>
+			<SearchType NAME="Articles" VALUE="Article" S_TEMPLATE="DirectorResult.hts">
+				<In NAME="Keywords" VALUE="Keywords"></In>
+				<In NAME="Titles" VALUE="HedLine_hl?"></In>
+				<In NAME="Bylines" VALUE="Byline"></In>
+			</SearchType>
+			<SearchType NAME="Pictures" VALUE="Picture" S_TEMPLATE="DirectorResult.hts">
+				<In NAME="Keywords" VALUE="Keywords"></In>
+				<In NAME="Captions" VALUE="Caption"></In>
+				<In NAME="Bylines" VALUE="Byline"></In>
+			</SearchType>
+			<SearchType NAME="Ads" VALUE="Ad" S_TEMPLATE="DirectorResult.hts">
+				<In NAME="Keywords" VALUE="Keywords"></In>
+				<In NAME="Companies" VALUE="ArtName"></In>
+			</SearchType>
+		</Search>
+		<Key_Words HREF="Director/Keywords/newlevels1.xml" ENABLED="TRUE"></Key_Words>
+		<Working_Status WS0="Not Started" WS1="In Progress" WS2="Needs Review" WS3="Completed"></Working_Status>
+		<Channels DEFAULT="1">
+			<Channel NAME="Archive" ICON_BIG="archive_main.gif" ICON_SMALL="archive_20.gif" ICON_NOTCHK="archive_n.gif" ICON_CHK="archive_c.gif">
+				<Toc XSL_SRC="archiveXsl.xsl"></Toc>
+				<Section XSL_SRC="archiveXsl.xsl"></Section>
+				<Page XSL_SRC="pageToHtml.xsl"></Page>
+				<Entity XSL_SRC="articletobhtml.xsl"></Entity>
+			</Channel>
+			<Channel NAME="Xml" ICON_BIG="xml_main.gif" ICON_SMALL="xml_20.gif" ICON_NOTCHK="Xml_n.gif" ICON_CHK="Xml_c.gif">
+				<Toc XSL_SRC="defaultss.xsl"></Toc>
+				<Section XSL_SRC="defaultss.xsl"></Section>
+				<Page XSL_SRC="defaultss.xsl"></Page>
+				<Entity XSL_SRC="entityContent.xsl"></Entity>
+			</Channel>
+			<Channel NAME="Html" ICON_BIG="html_main.gif" ICON_SMALL="html_20.gif" ICON_NOTCHK="html_n.gif" ICON_CHK="html_c.gif">
+				<Toc XSL_SRC="tocToHtml.xsl"></Toc>
+				<Section XSL_SRC="sectionToHtml.xsl"></Section>
+				<Page XSL_SRC="pageToHtml.xsl"></Page>
+				<Entity XSL_SRC="EntityToHtml.xsl"></Entity>
+			</Channel>
+			<Channel NAME="ASCII" ICON_BIG="ascii_main.gif" ICON_SMALL="ascii_20.gif" ICON_NOTCHK="ascii_n.gif" ICON_CHK="ascii_c.gif">
+				<Toc XSL_SRC="tocToHtml.xsl"></Toc>
+				<Section XSL_SRC="sectionToHtml.xsl"></Section>
+				<Page XSL_SRC="pageToHtml.xsl"></Page>
+				<Entity XSL_SRC="entityToAscii.xsl"></Entity>
+			</Channel>
+			<Channel NAME="eBook" ICON_BIG="ebook_main.gif" ICON_SMALL="ebook_20.gif" ICON_NOTCHK="ebook_n.gif" ICON_CHK="ebook_c.gif">
+				<Toc XSL_SRC="tocToHtml.xsl"></Toc>
+				<Section XSL_SRC="sectionToBook.xsl"></Section>
+				<Page XSL_SRC="defaultss.xsl"></Page>
+				<Entity XSL_SRC="EntityToBook.xsl"></Entity>
+			</Channel>
+			<Channel NAME="Thompson1" ICON_BIG="ebook_main.gif" ICON_SMALL="ebook_20.gif" ICON_NOTCHK="ebook_n.gif" ICON_CHK="ebook_c.gif">
+				<Toc XSL_SRC="tocToThompson1.xsl"></Toc>
+				<Section XSL_SRC="sectionToThompson1.xsl"></Section>
+				<Page XSL_SRC="defaultss.xsl"></Page>
+				<Entity XSL_SRC="EntityToThompson1.xsl"></Entity>
+			</Channel>
+			<Channel NAME="Thompson2" ICON_BIG="ebook_main.gif" ICON_SMALL="ebook_20.gif" ICON_NOTCHK="ebook_n.gif" ICON_CHK="ebook_c.gif">
+				<Toc XSL_SRC="tocToThompson2.xsl"></Toc>
+				<Section XSL_SRC="sectionToThompson2.xsl"></Section>
+				<Page XSL_SRC="defaultss.xsl"></Page>
+				<Entity XSL_SRC="EntityToThompson2.xsl"></Entity>
+			</Channel>
+			<Channel NAME="Wap" ICON_BIG="cell_main.gif" ICON_SMALL="cell_20.gif" ICON_NOTCHK="wap_n.gif" ICON_CHK="wap_c.gif">
+				<Toc XSL_SRC="tocToWap.xsl"></Toc>
+				<Section XSL_SRC="sectionToWap.xsl"></Section>
+				<Page XSL_SRC="defaultss.xsl"></Page>
+				<Entity XSL_SRC="articleToWap.xsl"></Entity>
+			</Channel>
+			<Channel NAME="Palm" ICON_BIG="palm_main.gif" ICON_SMALL="palm_20.gif" ICON_NOTCHK="palm_n.gif" ICON_CHK="palm_c.gif">
+				<Toc XSL_SRC="tocToPalm.xsl"></Toc>
+				<Section XSL_SRC="sectionToPalm.xsl"></Section>
+				<Page XSL_SRC="defaultss.xsl"></Page>
+				<Entity XSL_SRC="articleToPalm.xsl"></Entity>
+			</Channel>
+			<Channel NAME="Web_tv" ICON_BIG="tv_main.gif" ICON_SMALL="tv_20.gif" ICON_NOTCHK="tv_n.gif" ICON_CHK="tv_c.gif">
+				<Toc XSL_SRC="tocToWebtv.xsl"></Toc>
+				<Section XSL_SRC="sectionToWebtv.xsl"></Section>
+				<Page XSL_SRC="defaultss.xsl"></Page>
+				<Entity XSL_SRC="articleToWebtv.xsl"></Entity>
+			</Channel>
+		</Channels>
+		<!-- Editing data --><Application_Data W_MODE="Enterprise" DEFAULT_W_MODE="Enterprise">
+			<NameSpaces>
+				<!--<NameSpace>
+							<Name>DC</Name>
+							<URI>uri:http://www.w3c.org/DCDeclaration</URI>
+						</NameSpace>
+					--></NameSpaces>
+			<Fields INHERIT="overwrite">
+				<Field NAME="WORKING_STATUS" TYPE="enumeration" EDITINPUT="select" TITLE="Working status" UD_TOC="FALSE" UD_PAGE="FALSE">
+					<Value>Not Started</Value>
+					<Value SELECTED="TRUE">In Progress</Value>
+					<Value>Needs Review</Value>
+					<Value>Completed</Value>
+				</Field>
+				<Field NAME="ADVERTISER" TYPE="string" EDITINPUT="text" TITLE="Advertiser" UD_TOC="FALSE" UD_PAGE="FALSE" DATA_TYPE="TEXT" DATA_DESC="APPLICATION_DATA_FIELD_ADVERTISER"></Field>
+				<Field NAME="AD_CONTACT_LINK" TYPE="string" EDITINPUT="text" TITLE="Contact Link" UD_TOC="FALSE" UD_PAGE="FALSE" DATA_TYPE="TEXT" DATA_DESC="APPLICATION_DATA_FIELD_AD_CONTACT_LINK"></Field>
+				<Field NAME="EXPIRED_TIME" TYPE="date" EDITINPUT="text" TITLE="Expiration Date (dd/mm/yyyy)" DATA_FORMAT="DD/MM/YYYY" DATA_TYPE="DATE" DATA_DESC="APPLICATION_DATA_FIELD_EXPIRED_TIME" UD_TOC="TRUE" UD_PAGE="TRUE"></Field>
+				<Field NAME="WEB_SITE" TYPE="string" EDITINPUT="text" TITLE="Website Address" DATA_TYPE="URL" DATA_DESC="APPLICATION_DATA_FIELD_AD_WEB_SITE" UD_TOC="FALSE" UD_PAGE="FALSE" DATA_STATUS="DISPLAY:true"></Field>
+				<Field NAME="PHONE_NUMBER" TYPE="string" EDITINPUT="text" TITLE="Phone number" DATA_TYPE="TEXT" DATA_DESC="APPLICATION_DATA_FIELD_PHONE_NUMBER" UD_TOC="FALSE" UD_PAGE="FALSE" DATA_STATUS="DISPLAY:true"></Field>
+				<Field NAME="CATEGORIES" TYPE="string" VALUES_TABLE="categories.xml" LEVELS_NUM="3" EDITINPUT="select" TITLE="Ad Categories" DATA_TYPE="TEXT" DATA_DESC="APPLICATION_DATA_FIELD_CATEGORIES" UD_TOC="FALSE" UD_PAGE="FALSE">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+					<Level NO="2" NODENAME="L2"></Level>
+					<Level NO="3" NODENAME="L3"></Level>
+				</Field>
+				<Field NAME="CHANNEL_PUBLISHING" TYPE="enumeration" EDITINPUT="checkbox" TITLE="Publishing Channels" DATA_TYPE="TEXT" DATA_DESC="APPLICATION_DATA_FIELD_CHANNEL_PUBLISHING" UD_TOC="TRUE" UD_PAGE="TRUE">
+					<Value SELECTED="TRUE">Archive</Value>
+					<Value SELECTED="TRUE">Xml</Value>
+					<Value SELECTED="TRUE">Html</Value>
+					<Value SELECTED="TRUE">eBook</Value>
+					<Value SELECTED="TRUE">Wap</Value>
+					<Value SELECTED="TRUE">Palm</Value>
+					<Value SELECTED="TRUE">Web_TV</Value>
+				</Field>
+				<Field NAME="ACCESS_GROUP" TYPE="enumeration" EDITINPUT="radio" TITLE="Access Group" DATA_TYPE="TEXT" DATA_DESC="APPLICATION_DATA_FIELD_ACCESS_GROUP" UD_TOC="TRUE" UD_PAGE="TRUE">
+					<Value SELECTED="TRUE">All</Value>
+					<Value>Internal</Value>
+					<Value>Vip</Value>
+				</Field>
+				<Field NAME="RENDERING_OPT" TYPE="enumeration" EDITINPUT="radio" TITLE="View Mode" DATA_TYPE="TEXT" DATA_DESC="APPLICATION_DATA_FIELD_RENDERING_OPT" UD_TOC="TRUE" UD_PAGE="TRUE">
+					<Style SELECTION="single"></Style>
+					<Value SELECTED="TRUE">Regular</Value>
+					<Value>Images Only</Value>
+				</Field>
+				<Field NAME="SEE_ALSO" TYPE="string" EDITINPUT="select" TITLE="See also" DATA_TYPE="TEXT" DATA_DESC="APPLICATION_DATA_FIELD_SEE_ALSO" UD_TOC="FALSE" UD_PAGE="FALSE" EXCLUDE="[Embedd]">
+					<Style ACTION="drag" SELECTION="multiple" SIZE="5"></Style>
+				</Field>
+				<Field NAME="KEYWORDS" TYPE="string" VALUES_TABLE="newlevels.xml" LEVELS_NUM="3" EDITINPUT="select" TITLE="Keywords" DATA_TYPE="TEXT" DATA_DESC="APPLICATION_DATA_FIELD_KEYWORDS" UD_TOC="FALSE" UD_PAGE="FALSE">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+					<Level NO="2" NODENAME="L2"></Level>
+					<Level NO="3" NODENAME="L3"></Level>
+				</Field>
+				<Field NAME="COPYRIGHT" TYPE="enumeration" EDITINPUT="radio" TITLE="Publish" DATA_TYPE="TEXT" DATA_DESC="APPLICATION_DATA_FIELD_COPYRIGHT" UD_TOC="TRUE" UD_PAGE="TRUE" EXCLUDE="[Embedd]">
+					<Value SELECTED="TRUE">Yes</Value>
+					<Value>No</Value>
+				</Field>
+				<Field NAME="dc:title" TYPE="string" EDITINPUT="text" TITLE="Title" UD_TOC="FALSE" UD_PAGE="FALSE" REPETITIVE="true"></Field>
+				<Field NAME="kc:periodicalTitle" TYPE="string" VALUES_TABLE="UniformPeriodicalTitle.xml" LEVELS_NUM="1" EDITINPUT="text" TITLE="Uniform periodical title" DATA_TYPE="TEXT" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE" REPETITIVE="true">
+					<Style ACTION="insert" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+				</Field>
+				<Field NAME="kc:actualTitle" TYPE="string" EDITINPUT="text" VALUES_TABLE="ActualPeriodicalTitle.xml" LEVELS_NUM="1" TITLE="Actual periodical title" DATA_TYPE="TEXT" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE" REPETITIVE="true">
+					<Style ACTION="insert" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+				</Field>
+				<Field NAME="dc:date" TYPE="date" EDITINPUT="text" TITLE="Date" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE" REPETITIVE="true"></Field>
+				<Field NAME="dc:source" TYPE="string" EDITINPUT="text" TITLE="Source" UD_TOC="FALSE" UD_PAGE="FALSE" REPETITIVE="true" INHERIT="TRUE"></Field>
+				<Field NAME="kc:volume" TYPE="string" EDITINPUT="text" VALUES_TABLE="VolumeAndSeries.xml" LEVELS_NUM="1" TITLE="Volume and series" DATA_TYPE="TEXT" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE" REPETITIVE="true">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+				</Field>
+				<Field NAME="kc:number" TYPE="string" EDITINPUT="text" TITLE="Number" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE" REPETITIVE="true"></Field>
+				<Field NAME="kc:edition" TYPE="string" EDITINPUT="text" VALUES_TABLE="Edition.xml" TITLE="Edition" LEVELS_NUM="1" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE" REPETITIVE="true">
+					<Style ACTION="insert" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+				</Field>
+				<Field NAME="kc:imgDesc" TYPE="string" EDITINPUT="text" VALUES_TABLE="imagedescription.xml" LEVELS_NUM="4" TITLE="Image description" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE" REPETITIVE="true">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+					<Level NO="2" NODENAME="L2"></Level>
+					<Level NO="3" NODENAME="L3"></Level>
+					<Level NO="4" NODENAME="L4"></Level>
+					<Inherit></Inherit>
+				</Field>
+				<Field NAME="kc:price" TYPE="string" EDITINPUT="text" VALUES_TABLE="Price.xml" TITLE="Price" LEVELS_NUM="1" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE" REPETITIVE="true">
+					<Style ACTION="insert" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+				</Field>
+				<Field NAME="kc:bibliographic" TYPE="string" EDITINPUT="text" VALUES_TABLE="Bibliographic.xml" TITLE="Bibliographic location" LEVELS_NUM="1" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE" REPETITIVE="true">
+					<Style ACTION="insert" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+				</Field>
+				<Field NAME="kc:departmentGeneric" TYPE="string" EDITINPUT="text" VALUES_TABLE="GenericMetadata.xml" LEVELS_NUM="1" TITLE="Department Generic Metadata" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE" REPETITIVE="true">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+				</Field>
+				<Field NAME="kc:pageSpanItem" TYPE="string" EDITINPUT="text" TITLE="Page span(Item)" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE" REPETITIVE="true"></Field>
+				<Field NAME="kc:departmentTitle" TYPE="string" EDITINPUT="text" TITLE="Department title" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE" REPETITIVE="true"></Field>
+				<Field NAME="dc:description" TYPE="string" EDITINPUT="text" TITLE="About this issue" UD_TOC="FALSE" UD_PAGE="FALSE" REPETITIVE="true" INHERIT="TRUE"></Field>
+				<Field NAME="dc:format" TYPE="string" EDITINPUT="text" TITLE="Format" VALUES_TABLE="Format.xml" LEVELS_NUM="1" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE" REPETITIVE="true">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+				</Field>
+				<Field NAME="dc:subject" TYPE="string" EDITINPUT="text" REPETITIVE="true" TITLE="Subject" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE"></Field>
+				<Field NAME="kc:NumOfEdition" TYPE="string" EDITINPUT="text" VALUES_TABLE="NumberOfEditions.xml" TITLE="Number of editions" LEVELS_NUM="1" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE" REPETITIVE="true">
+					<Style ACTION="insert" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+				</Field>
+				<Field NAME="dc:creator" TYPE="string" LEVELS_NUM="3" EDITINPUT="select" TITLE="Creator" UD_TOC="FALSE" UD_PAGE="FALSE">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+					<Level NO="2" NODENAME="L2"></Level>
+					<Level NO="3" NODENAME="L3"></Level>
+				</Field>
+				<Field NAME="dc:publisher" TYPE="string" LEVELS_NUM="3" EDITINPUT="text" TITLE="Publisher" UD_TOC="FALSE" REPETITIVE="true" UD_PAGE="FALSE">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+					<Level NO="2" NODENAME="L2"></Level>
+					<Level NO="3" NODENAME="L3"></Level>
+				</Field>
+				<Field NAME="kc:editor" TYPE="string" LEVELS_NUM="3" EDITINPUT="text" TITLE="Editor" UD_TOC="FALSE" REPETITIVE="true" UD_PAGE="FALSE">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+					<Level NO="2" NODENAME="L2"></Level>
+					<Level NO="3" NODENAME="L3"></Level>
+				</Field>
+				<Field NAME="dc:contributor" TYPE="string" LEVELS_NUM="3" EDITINPUT="text" REPETITIVE="true" TITLE="Contributor" UD_TOC="FALSE" UD_PAGE="FALSE" INHERIT="TRUE">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+					<Level NO="2" NODENAME="L2"></Level>
+					<Level NO="3" NODENAME="L3"></Level>
+				</Field>
+				<Field NAME="dc:identifier" TYPE="string" LEVELS_NUM="3" EDITINPUT="text" REPETITIVE="true" TITLE="Identifier" UD_TOC="FALSE" UD_PAGE="FALSE">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+					<Level NO="2" NODENAME="L2"></Level>
+					<Level NO="3" NODENAME="L3"></Level>
+				</Field>
+				<Field NAME="dc:language" TYPE="string" LEVELS_NUM="1" VALUES_TABLE="Languages.xml" EDITINPUT="select" TITLE="Language" UD_TOC="FALSE" UD_PAGE="FALSE">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+				</Field>
+				<Field NAME="dc:coverage" TYPE="string" VALUES_TABLE="Geographic.xml" LEVELS_NUM="3" EDITINPUT="select" TITLE="Coverage" UD_TOC="FALSE" UD_PAGE="FALSE">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+					<Level NO="2" NODENAME="L2"></Level>
+					<Level NO="3" NODENAME="L3"></Level>
+				</Field>
+				<Field NAME="dc:type" TYPE="string" VALUES_TABLE="Type.xml" LEVELS_NUM="1" EDITINPUT="text" REPETITIVE="true" TITLE="Type" UD_TOC="FALSE" UD_PAGE="FALSE">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+				</Field>
+				<Field NAME="dc:relation" TYPE="string" LEVELS_NUM="3" EDITINPUT="text" REPETITIVE="true" TITLE="Relation" UD_TOC="FALSE" UD_PAGE="FALSE">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+					<Level NO="2" NODENAME="L2"></Level>
+					<Level NO="3" NODENAME="L3"></Level>
+				</Field>
+				<Field NAME="dc:rights" TYPE="string" LEVELS_NUM="1" EDITINPUT="select" TITLE="Rights" UD_TOC="FALSE" UD_PAGE="FALSE">
+					<Style ACTION="insert" SELECTION="multiple" SIZE="4"></Style>
+					<Level NO="1" NODENAME="L1"></Level>
+				</Field>
+				<Field NAME="DOCTYPE" TYPE="enumeration" EDITINPUT="select" TITLE="Document Type" UD_TOC="FALSE" UD_PAGE="FALSE">
+					<Value></Value>
+					<Value>Catalog</Value>
+					<Value>Book</Value>
+					<Value>Technical Document</Value>
+					<Value>Newspaper</Value>
+					<Value>Report</Value>
+					<Value>Journal</Value>
+					<Value>Magazine</Value>
+				</Field>
+			</Fields>
+			<Working_Modes>
+				<W_Mode NAME="Enterprise" DESC="Olive Content Administrator" COLS="1">
+					<Mode_Settings>
+						<APProduct>EP</APProduct>
+						<Cancel_Button>true</Cancel_Button>
+						<Freeze_Button>0</Freeze_Button>
+						<Undo_Button>0</Undo_Button>
+						<DefaultChannel>0</DefaultChannel>
+						<DefaultFrames>3</DefaultFrames>
+						<DefaultSort>PAGE</DefaultSort>
+						<Tab_0>ENTREP</Tab_0>
+						<SNP_SETTINGS_HEIGHT>110</SNP_SETTINGS_HEIGHT>
+						<SNP_SETTINGS_WIDTH>360</SNP_SETTINGS_WIDTH>
+						<HelpFile>ContentAdministratorManual.pdf</HelpFile>
+					</Mode_Settings>
+					<Fields>
+						<Field NAME="dc:title"></Field>
+						<Field NAME="kc:periodicalTitle"></Field>
+						<Field NAME="kc:actualTitle"></Field>
+						<Field NAME="dc:date"></Field>
+						<Field NAME="dc:source"></Field>
+						<Field NAME="kc:volume"></Field>
+						<Field NAME="kc:number"></Field>
+						<Field NAME="kc:edition"></Field>
+						<Field NAME="kc:NumOfEdition"></Field>
+						<Field NAME="kc:imgDesc"></Field>
+						<Field NAME="kc:price"></Field>
+						<Field NAME="kc:bibliographic"></Field>
+						<Field NAME="kc:departmentGeneric"></Field>
+						<Field NAME="dc:publisher"></Field>
+						<Field NAME="kc:editor"></Field>
+						<Field NAME="kc:departmentTitle"></Field>
+						<Field NAME="dc:description"></Field>
+						<Field NAME="dc:format"></Field>
+						<Field NAME="dc:subject"></Field>
+					</Fields>
+				</W_Mode>
+			</Working_Modes>
+		</Application_Data>
+	</Director>
+	<Styles>
+		<ServerStyles>
+			<DirectorStyles>
+				<Style ID="OliveXLib:DirectorSettingToEdit" SRC="SettingToEdit.xsl"></Style>
+				<Style ID="OliveXLib:DirectorSettingToEdit_EP" SRC="SettingToEdit_EP.xsl"></Style>
+			</DirectorStyles>
+			<Applications>
+				<Locales>
+					<Style ID="OliveXLib:ExportLocaleTable" SRC="ExportLocaleTable.xsl"></Style>
+				</Locales>
+				<Navigator>
+					<Style ID="OliveXLib:ArticleToArticle" FROM="RichXml" TO="PoorXml" SRC="ArticleToArticle.xsl" PRIORITY="HIGHESET" CACHE="TRUE"></Style>
+					<Style ID="OliveXLib:ArticleToHtml" FROM="RichXml" TO="EntityHtml" SRC="ArticleToHtml.xsl" PRIORITY="LOWEST" CACHE="FALSE"></Style>
+					<Style ID="OliveXLib:ArticleToMail" FROM="RichXml" TO="EntityMail" SRC="ArticleToMail.xsl" PRIORITY="LOWEST" CACHE="FALSE"></Style>
+					<Style ID="OliveXLib:ArticleToMailGif" FROM="RichXml" TO="EntityMail" SRC="ArticleToMailGif.xsl" PRIORITY="LOWEST" CACHE="FALSE"></Style>
+					<Style ID="OliveXLib:ArticleToMailGifMSIE" FROM="RichXml" TO="EntityMail" SRC="ArticleToMailGifMSIE.xsl" PRIORITY="LOWEST" CACHE="FALSE"></Style>
+					<Style ID="OliveXLib:ArticleToSnippet" FROM="RichXml" TO="Snippet" SRC="ArticleToSnippet.xsl" PRIORITY="HIGHEST" CACHE="TRUE"></Style>
+					<Style ID="OliveXLib:ArticleToSnippetExtra" FROM="RichXml" TO="RichSnippet" SRC="ArticleToSnippetExtra.xsl" PRIORITY="HIGHEST" CACHE="TRUE"></Style>
+					<Style ID="OliveXLib:EntityToPreview" FROM="Entity" To="Preview" SRC="EntityToPreview.xsl" PRIORITY="HIGHESET" CACHE="FALSE"></Style>
+					<Style ID="OliveXLib:EntityToPrint" FROM="RichXml" TO="EntityToPrint" SRC="EntityToPrint.xsl" PRIORITY="LOWEST" CACHE="FALSE"></Style>
+					<Style ID="OliveXLib:EntityToPrintGif" FROM="RichXml" TO="EntityToPrint" SRC="EntityToPrintGif.xsl" PRIORITY="LOWEST" CACHE="FALSE"></Style>
+					<Style ID="OliveXLib:EntityToPrintGifMSIE" FROM="RichXml" TO="EntityToPrint" SRC="EntityToPrintGifMSIE.xsl" PRIORITY="LOWEST" CACHE="FALSE"></Style>
+				</Navigator>
+				<LowLevel></LowLevel>
+				<TocPublisher>
+					<Style ID="OliveXLib:tocToHtml" SRC="tocToHtml.xsl"></Style>
+					<Style ID="OliveXLib:tocToHtml_LL" SRC="tocToHtml_LL.xsl"></Style>
+				</TocPublisher>
+				<EP>
+					<Default>
+						<Style ID="OliveXLib:EPFoldersToHtml_DEFAULT" SRC="FoldersToHtml.xsl" CACHE="TRUE"></Style>
+						<Style ID="OliveXLib:EPDocsToHtml_DEFAULT" SRC="DocsToHtml.xsl" CACHE="TRUE"></Style>
+						<Style ID="OliveXLib:EPMetaToList_DEFAULT" SRC="MetaToList.xsl" CACHE="TRUE"></Style>
+						<Style ID="OliveXLib:EPResultsToHtml_DEFAULT" SRC="ResultsToHtml.xsl" CACHE="TRUE"></Style>
+						<Style ID="OliveXLib:EPTocToToc_DEFAULT" SRC="TocToToc.xsl" CACHE="TRUE"></Style>
+						<Style ID="OliveXLib:EPArticleToHits_DEFAULT" SRC="ArticleToHits.xsl" CACHE="TRUE"></Style>
+						<Style ID="OliveXLib:EPEntity2Images_DEFAULT" SRC="Entity2Images.xsl" CACHE="TRUE"></Style>
+						<Style ID="OliveXLib:EPEntity2AllChunksImages_DEFAULT" SRC="Entity2AllChunksImages.xsl" CACHE="TRUE"></Style>
+						<Style ID="OliveXLib:EPPageToImages_DEFAULT" SRC="PageToGif.xsl" CACHE="TRUE"></Style>
+					</Default>
+					<WebControls>
+						<Style ID="OliveXLib:OwcMergeLayoutXml" SRC="MergeLayoutXml.xsl" CACHE="TRUE"></Style>
+						<Style ID="OliveXLib:OwcMetadataToData_DEFAULT" SRC="MetadataToData.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcTocToHtml_DEFAULT" SRC="TocToHtml.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcFoldersToHtml_DEFAULT" SRC="FoldersToHtml.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcDocListToHtml_DEFAULT" SRC="DocListToHtml.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcLangListToHtml_DEFAULT" SRC="LangListToHtml.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcSearchResToHtml_DEFAULT" SRC="SearchResToHtml.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcEntityToImages_DEFAULT" SRC="EntityToImages.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcPageToHtml_DEFAULT" SRC="PageToHtml.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcTocToToc_DEFAULT" SRC="TocToToc.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcSnippetToHtml_DEFAULT" SRC="SnippetToHtml_Kings.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcPageListToHtml_DEFAULT" SRC="PageListToHtml.xsl" CACHE="TRUE"></Style>
+						<Style ID="OliveXLib:OwcInformationComponentToImage_DEFAULT" SRC="InformationComponentToImage.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcInformationComponentToText_DEFAULT" SRC="InformationComponentToText.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcThumbListToHtml_DEFAULT" SRC="ThumbListToHtml_Kings.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcThumbListToUnifiedFormat_DEFAULT" SRC="ThumbListToUnifiedFormat_Kings.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcYearListToHtml_DEFAULT" SRC="YearListToHtml.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcMonthListToHtml_DEFAULT" SRC="MonthListToHtml.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcPublicationListToHtml_DEFAULT" SRC="PublicationListToHtml.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcXmlToHtml_DEFAULT" SRC="XmlToHtml.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcMetadataListToHtml_DEFAULT" SRC="MetadataListToHtml.xsl" CACHE="FALSE"></Style>
+						<Style ID="OliveXLib:OwcSearchResultsToBoxes_DEFAULT" SRC="SearchResultsToBoxes.xsl" CACHE="FALSE"></Style>
+					</WebControls>
+				</EP>
+				<FlashReader>
+					<Style ID="OliveXLib:ArticleToBook_EP" SRC="ArticleToBook_EP.xsl"></Style>
+					<Style ID="OliveXLib:ArticleToBookHebrew_EP" SRC="ArticleToBookHebrew_EP.xsl"></Style>
+					<Style ID="OliveXLib:ResultsToBoxes" SRC="ResultsToBoxes.xsl"></Style>
+				</FlashReader>
+			</Applications>
+			<Lib></Lib>
+			<Application APPLICATION_NAME="EP">
+				<Library SRC="OlvBookReader.dll">
+					<Handler ID="OliveSaxLib:HitsByPages"></Handler>
+				</Library>
+			</Application>
+		</ServerStyles>
+		<!-- 
+			Order by the same way they will appear in the Director 
+			
+			IMPORTANT!!! - don't put comments inside the channels definitions.
+		--><Channels TEMPLATE="Regular">
+			<Template NAME="Regular">
+				<Channel NAME="Xml" DESC="XML" GET_PICS="NO" EXTENSION="Xml" DISABLED="FALSE" PUBLISH_DIRECTORY="e:\Olive\Publish/Xml">
+					<Toc XSL_SRC=""></Toc>
+					<Section XSL_SRC="" IGNORE="TRUE"></Section>
+					<Page XSL_SRC=""></Page>
+					<Entity XSL_SRC=""></Entity>
+				</Channel>
+				<Channel NAME="Html" DESC="HTML" GET_PICS="YES" EXTENSION="Htm" DISABLED="FALSE" SAVE_ENCODING="65001" PUBLISH_DIRECTORY="e:\Olive\Publish/Html">
+					<Toc XSL_SRC="tocToPubHtml.xsl"></Toc>
+					<Section XSL_SRC="sectionToPubHtml.xsl"></Section>
+					<Page XSL_SRC="" IGNORE="TRUE"></Page>
+					<Entity XSL_SRC="ArticleToPubHtml.xsl"></Entity>
+				</Channel>
+				<Channel NAME="ASCII" DESC="ASCII" GET_PICS="YES" EXTENSION="txt" DISABLED="FALSE" PUBLISH_DIRECTORY="e:\Olive\Publish/ASCII">
+					<Toc XSL_SRC="" IGNORE="TRUE"></Toc>
+					<Section XSL_SRC="" IGNORE="TRUE"></Section>
+					<Page XSL_SRC="" IGNORE="TRUE"></Page>
+					<Entity XSL_SRC="entityToAscii.xsl"></Entity>
+				</Channel>
+				<!--  B.G. 2006-06-18 - Channels disabled as a requirement for Olive Publisher
+				<Channel NAME="Archive" DESC="Paper" GET_PICS="YES" EXTENSION="Htm" DISABLED="TRUE">
+					<Toc XSL_SRC=""/>
+					<Section XSL_SRC=""/>
+					<Page XSL_SRC=""/>
+					<Entity XSL_SRC="ArticleToPubArchive.xsl"/>
+				</Channel>
+				<Channel NAME="Wap" DESC="Cellular" GET_PICS="NO" EXTENSION="Htm" DISABLED="TRUE">
+					<Toc XSL_SRC=""/>
+					<Section XSL_SRC=""/>
+					<Page XSL_SRC="" IGNORE="TRUE"/>
+					<Entity XSL_SRC=""/>
+				</Channel>
+				<Channel NAME="Palm" DESC="Palm Pilot" GET_PICS="NO" EXTENSION="Htm" DISABLED="TRUE">
+					<Toc XSL_SRC=""/>
+					<Section XSL_SRC=""/>
+					<Page XSL_SRC="" IGNORE="TRUE"/>
+					<Entity XSL_SRC=""/>
+				</Channel>
+				<Channel NAME="Thompson1" DESC="eBook" GET_PICS="YES" EXTENSION="Htm" DISABLED="TRUE">
+					<Toc XSL_SRC=""/>
+					<Section XSL_SRC=""/>
+					<Page XSL_SRC="" IGNORE="TRUE"/>
+					<Entity XSL_SRC=""/>
+				</Channel>
+				<Channel NAME="Thompson2" DESC="eBook (s)" GET_PICS="YES" EXTENSION="Htm" DISABLED="TRUE">
+					<Toc XSL_SRC=""/>
+					<Section XSL_SRC=""/>
+					<Page XSL_SRC="" IGNORE="TRUE"/>
+					<Entity XSL_SRC=""/>
+				</Channel>
+				<Channel NAME="Web_tv" DESC="Web TV" GET_PICS="YES" EXTENSION="Htm" DISABLED="TRUE">
+					<Toc XSL_SRC=""/>
+					<Section XSL_SRC=""/>
+					<Page XSL_SRC="" IGNORE="TRUE"/>
+					<Entity XSL_SRC=""/>
+				</Channel>
+				<Channel NAME="eBook" DESC="eBook" GET_PICS="YES" EXTENSION="Htm" DISABLED="TRUE">
+					<Toc XSL_SRC=""/>
+					<Section XSL_SRC=""/>
+					<Page XSL_SRC="" IGNORE="TRUE"/>
+					<Entity XSL_SRC=""/>
+				</Channel>
+				--></Template>
+		</Channels>
+	</Styles>
+	<Inventory VERSION="1.0" FORMAT="XML-DB">
+		<ConnectString>DB=OlvInventory.xml;</ConnectString>
+		<Log EXPIRE_SIZE="1 MB" EXPIRE_DAYS="5" DEBUG="0" TRACE="0"></Log>
+	</Inventory>
+	<WebAppManager>
+		<WebApplications></WebApplications>
+		<!-- Application skins --><WebAppSkins DIR="$CustomSkinsDir"></WebAppSkins>
+	</WebAppManager>
+	<QueueManager>
+		<ThreadPoolSize>1</ThreadPoolSize>
+	</QueueManager>
+</Settings>

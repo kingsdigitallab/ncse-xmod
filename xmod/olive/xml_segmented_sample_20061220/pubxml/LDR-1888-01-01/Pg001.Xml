@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<XMD-PAGE REPOSITORY_FORMAT="1.0"><Application_Data/><Meta ISSUE_DATE="01/01/1888" RELEASE_NO="demo publishers" PAGE_NO="1" NAME="" PAGE_LABEL="I" PAGE_TYPE="Single" PUBLISHER="Olive" PUBLICATION="LDR" SOURCE_TYPE="TIFF" SOURCE_RESOLUTION="72" IMAGES_RESOLUTION="86" PAGE_THUMBNAIL_RESOLUTION="43" PAGE_PREVIEW_RESOLUTION="15" DEFAULT_IMG_EXT="png" IMG_EXT="png" PREVIEW_IMG_EXT="png" XMD_VER="2.6.236.23" PROFILE_ID="XMD_LDR.ini" SECTION="Front page" PAGE_WIDTH="646" PAGE_HEIGHT="861" PAGES_NUMBER="26" BASE_HREF="LDR/1888/01/01" PDF_DESTINATION_MAPPED="OLV0_Page_0001">
+		<Resolutions>
+			<Resolution DEFAULT="true">43</Resolution>
+		</Resolutions>
+	</Meta>
+	<Link SOURCE="demo+publishers1.pdf" NEXT_SECTION="2" PREV_SECTION=""/>
+	<Entity ENTITY_TYPE="Article" ID="Ar00100" SIZE="XLarge" BOX="46 426 588 832" NEXT_SECTION="2" PREV_SECTION="">
+		<Name>Untitled Article</Name>
+		<Primitive ID="Ar0010000" BOX="46 426 588 832" ELEMENT_TYPE="Content" TOC_ENTRY_ID="1" SEQ_NO="0"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Article" ID="Ar00101" SIZE="Large" BOX="46 48 588 308" NEXT_SECTION="2" PREV_SECTION="">
+		<Name>Untitled Article</Name>
+		<Primitive ID="Ar0010100" BOX="46 48 588 308" ELEMENT_TYPE="Content" TOC_ENTRY_ID="2" SEQ_NO="0"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Article" ID="Ar00102" SIZE="Medium" BOX="46 308 588 426" NEXT_SECTION="2" PREV_SECTION="">
+		<Name>Untitled Article</Name>
+		<Primitive ID="Ar0010200" BOX="46 308 588 426" ELEMENT_TYPE="Content" TOC_ENTRY_ID="3" SEQ_NO="0"/>
+	</Entity>
+</XMD-PAGE>

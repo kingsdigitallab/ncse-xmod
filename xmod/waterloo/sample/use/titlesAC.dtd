@@ -1,0 +1,17 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT root (TitleSearchView)+>
+<!ATTLIST root
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TitleSearchView EMPTY>
+<!ATTLIST TitleSearchView
+  xmlns CDATA #FIXED ''
+  EndDate CDATA #IMPLIED
+  ReferenceType NMTOKEN #REQUIRED
+  SeeRefRecordTitle CDATA #IMPLIED
+  StartDate CDATA #IMPLIED
+  Title CDATA #REQUIRED
+  id CDATA #REQUIRED
+  laterTitleID CDATA #REQUIRED
+  recordID CDATA #REQUIRED>

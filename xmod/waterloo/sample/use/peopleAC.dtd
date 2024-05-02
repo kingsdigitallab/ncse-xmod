@@ -1,0 +1,20 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT root (PeopleNames)+>
+<!ATTLIST root
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PeopleNames (PeopleTypes)+>
+<!ATTLIST PeopleNames
+  xmlns CDATA #FIXED ''
+  ExtraInfo CDATA #IMPLIED
+  GivenName CDATA #IMPLIED
+  IsCompany CDATA #REQUIRED
+  OrderBy CDATA #IMPLIED
+  ProperName CDATA #REQUIRED
+  id CDATA #REQUIRED>
+
+<!ELEMENT PeopleTypes EMPTY>
+<!ATTLIST PeopleTypes
+  xmlns CDATA #FIXED ''
+  PeopleType NMTOKEN #REQUIRED>

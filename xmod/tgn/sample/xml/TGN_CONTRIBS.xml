@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<Vocabulary xmlns="http://localhost/namespace" xmlns:vp="http://localhost/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://localhost/namespace Getty_Vocab_Export_Contribs.xsd" Title="Thesaurus of Geographic Names" Part="Contributors" Date="2006-06-01">
+<Contributor>
+<Contributor_ID>10000000</Contributor_ID>
+<Brief_Name>VP</Brief_Name>
+<Full_Name>Getty Vocabulary Program</Full_Name>
+</Contributor>
+<Contributor>
+<Contributor_ID>10000001</Contributor_ID>
+<Brief_Name>BHA</Brief_Name>
+<Full_Name>Bibliography of the History of Art / Bibliographie d&#39;Histoire de l&#39;Art</Full_Name>
+</Contributor>
+<Contributor>
+<Contributor_ID>10000003</Contributor_ID>
+<Brief_Name>GRLPSC</Brief_Name>
+<Full_Name>Getty Research Institute, Research Library Photo Study Collection</Full_Name>
+</Contributor>
+<Contributor>
+<Contributor_ID>10000002</Contributor_ID>
+<Brief_Name>FDA</Brief_Name>
+<Full_Name>Foundation for Documents of Architecture</Full_Name>
+</Contributor>
+<Contributor>
+<Contributor_ID>10000006</Contributor_ID>
+<Brief_Name>GRLPA</Brief_Name>
+<Full_Name>Formerly used to refer to the GRLPSC (Getty Research Institute, Research Library Photo Study Collection)</Full_Name>
+</Contributor>
+<Contributor>
+<Contributor_ID>10000109</Contributor_ID>
+<Brief_Name>BVRL</Brief_Name>
+<Full_Name>Bunting Visual Resources Library (University of New Mexico)</Full_Name>
+</Contributor>
+</Vocabulary>

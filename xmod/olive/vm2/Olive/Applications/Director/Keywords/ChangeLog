@@ -1,0 +1,18 @@
+2007-12-07    <g@brey.org.uk>
+
+	* UniformPeriodicalTitle.xml (): changed: 'Monthly Rep. ...'
+
+	* Price.xml (): added: '1s?', '1s 6d?'
+
+	* Format.xml (): changed entries to: 'x 9"; 14 x 22cm', etc.
+
+2007-12-12    <g@brey.org.uk>
+
+	* GenericMetadata.xml (): added: "biography", "travel writing"
+
+	* imagedescription.xml (): 'children's clothing     id:ncse:d9z9999'
+
+2007-02-07    <g@brey.org.uk>
+
+	* imagedescription.xml (): change vertical bars to double hyphens
+

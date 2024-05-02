@@ -1,0 +1,8 @@
+
+GB 31.03.08:
+
+TL's original "dmvi_image_schema.xml" deleted in this directory
+
+renamed to "imagedescription.xml" and moved to
+ncse/olive/vm2/Olive/Applications/Director/Keywords
+

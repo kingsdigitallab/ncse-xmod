@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.olivesoftware.com/QuickNavigation" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:qn="http://www.olivesoftware.com/QuickNavigation" xmlns:basic="http://www.olivesoftware.com/BasicTypes" elementFormDefault="qualified" version="1">
+	<xs:element name="Byline" type="xs:string"/>
+	<xs:complexType name="EntityRefType">
+		<xs:sequence>
+			<xs:element ref="qn:Title" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="REF" type="xs:NMTOKEN" use="required"/>
+		<xs:attribute name="USE_BYLINE" type="xs:boolean" use="optional"/>
+		<xs:attribute name="USE_SNIPPET" type="xs:boolean" use="optional"/>
+		<xs:attribute name="QUICK_LINKS" type="xs:boolean" use="optional"/>
+		<xs:attribute name="Name" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="TopicType">
+		<xs:sequence>
+			<xs:element name="EntityRef" type="qn:EntityRefType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="NAME" type="xs:string" use="required"/>
+		<xs:attribute name="TOPIC_ID" type="xs:string" use="required"/>
+		<xs:attribute name="FIRST_PAGE_NO" type="xs:positiveInteger" use="required"/>
+		<xs:attribute name="BASE_HREF" type="qn:BaseHref_Type" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="MixedMarkup" mixed="true">
+		<xs:sequence>
+			<xs:any processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="QuickNavigation">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Topic" type="qn:TopicType" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Title" type="xs:string"/>
+	<xs:simpleType name="EntityType_Type">
+		<xs:annotation>
+			<xs:documentation>Enumerated type holding all valid entity types.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:normalizedString">
+			<xs:enumeration value="Article"/>
+			<xs:enumeration value="Ad"/>
+			<xs:enumeration value="Picture"/>
+			<xs:enumeration value="Data"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="BaseHref_Type">
+		<xs:annotation>
+			<xs:documentation>Reference to the issue in the repository. Stands as the Issue ID in the repository. The combination of BASE_HREF and ID is unique.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:normalizedString">
+			<xs:pattern value="[0-9a-zA-Z]+/[0-9]{4}/[0-9]{2}/[0-9]{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

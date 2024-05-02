@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <define name="root">
+    <element name="root">
+      <ref name="attlist.root"/>
+      <oneOrMore>
+        <ref name="title"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="attlist.root" combine="interleave">
+    <empty/>
+  </define>
+  <define name="title">
+    <element name="title">
+      <ref name="attlist.title"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="attlist.title" combine="interleave">
+    <optional>
+      <attribute name="EndDate"/>
+    </optional>
+    <attribute name="ReferenceType">
+      <data type="NMTOKEN"/>
+    </attribute>
+    <optional>
+      <attribute name="SeeRefRecordTitle"/>
+    </optional>
+    <optional>
+      <attribute name="StartDate"/>
+    </optional>
+    <attribute name="Title"/>
+    <attribute name="id"/>
+    <attribute name="laterTitleID"/>
+    <attribute name="recordID"/>
+  </define>
+</grammar>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:complexType name="XMD-entity">
+    <xs:sequence>
+      <xs:element ref="XMD-entity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="XMD-entity">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="Content"/>
+        <xs:element ref="Continuation-Content"/>
+        <xs:element ref="Link"/>
+        <xs:element ref="Meta"/>
+      </xs:choice>
+      <xs:attribute name="BOX" use="required"/>
+      <xs:attribute name="CONTINUATION_FROM" type="xs:NCName"/>
+      <xs:attribute name="CONTINUATION_TO" type="xs:NCName"/>
+      <xs:attribute name="ENTITY_TYPE" use="required" type="xs:NCName"/>
+      <xs:attribute name="ID" use="required" type="xs:NCName"/>
+      <xs:attribute name="LANGUAGE" use="required" type="xs:NCName"/>
+      <xs:attribute name="PAGE_NO" use="required" type="xs:integer"/>
+      <xs:attribute name="REPOSITORY_FORMAT" use="required" type="xs:decimal"/>
+      <xs:attribute name="SNP" use="required" type="xs:NCName"/>
+      <xs:attribute name="SNP_HEIGHT" use="required" type="xs:integer"/>
+      <xs:attribute name="SNP_WIDTH" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Content">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Primitive"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Primitive">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="S"/>
+      </xs:sequence>
+      <xs:attribute name="BOX" use="required"/>
+      <xs:attribute name="ID" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="S">
+    <xs:complexType mixed="true">
+      <xs:attribute name="S_TYPE" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Continuation-Content">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="XMD-entity">
+          <xs:attribute name="ID_REF" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Link">
+    <xs:complexType>
+      <xs:attribute name="FIRST_ID" use="required" type="xs:NCName"/>
+      <xs:attribute name="LAST_ID" use="required" type="xs:NCName"/>
+      <xs:attribute name="NEXT_ID" use="required"/>
+      <xs:attribute name="PREV_ID" use="required"/>
+      <xs:attribute name="SOURCE" use="required"/>
+      <xs:attribute name="TOC_ID" use="required" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Meta">
+    <xs:complexType>
+      <xs:attribute name="BASE_HREF" use="required"/>
+      <xs:attribute name="DEFAULT_IMG_EXT" use="required" type="xs:NCName"/>
+      <xs:attribute name="DESCRIPTION" use="required"/>
+      <xs:attribute name="IMAGES_RESOLUTION" use="required" type="xs:integer"/>
+      <xs:attribute name="ISSUE_DATE" use="required"/>
+      <xs:attribute name="NAME" use="required"/>
+      <xs:attribute name="PAGE_HEIGHT" use="required" type="xs:integer"/>
+      <xs:attribute name="PAGE_ID" use="required"/>
+      <xs:attribute name="PAGE_LABEL" use="required" type="xs:integer"/>
+      <xs:attribute name="PAGE_TYPE" use="required" type="xs:NCName"/>
+      <xs:attribute name="PAGE_WIDTH" use="required" type="xs:integer"/>
+      <xs:attribute name="PDF_DESTINATION_MAPPED" use="required" type="xs:NCName"/>
+      <xs:attribute name="PUBLICATION" use="required" type="xs:NCName"/>
+      <xs:attribute name="RELEASE_NO" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="SECTION" use="required"/>
+      <xs:attribute name="SOURCE_TYPE" use="required" type="xs:NCName"/>
+      <xs:attribute name="SUBTYPE" use="required"/>
+      <xs:attribute name="WORDCNT" use="required" type="xs:integer"/>
+      <xs:attribute name="XMD_VER" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

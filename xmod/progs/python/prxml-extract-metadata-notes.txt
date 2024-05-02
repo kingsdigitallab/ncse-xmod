@@ -1,0 +1,60 @@
+
+grep -ilr dmvi / embedded / application_data - application_info - ai_item
+
+small image before title of article
+dmvi:     CLD/1850/05/04/12/Pc01207.xml
+embedded: CLD/1850/05/04/12/Ar01205.xml
+embedded: CLD/1850/05/04/12/Pc01207.xml
+embedded: CLD/1850/05/04/12/Pg012.xml
+embedded: CLD/1850/05/04/TOC.xml
+ai_item:  CLD/1850/05/04/12/Pc01207.xml
+ai_item:  CLD/1850/05/04/TOC.xml
+
+full page image before title page
+dmvi:     FMRP/1822/12/02/1/Ar00100.xml
+embedded: FMRP/1822/12/02/1/Pc00101.xml
+embedded: FMRP/1822/12/02/1/Pg001.xml
+embedded: FMRP/1822/12/02/TOC.xml
+ai_item:  FMRP/1822/12/02/1/Ar00100.xml
+ai_item:  FMRP/1822/12/02/TOC.xml
+
+small image before title of advert (is part of advert) Ad00227.xml
+dmvi:     NSS/1837/12/16/2/Pc00226.xml
+embedded: NSS/1837/12/16/2/Pc00226.xml
+embedded: NSS/1837/12/16/2/Pg002.xml
+embedded: NSS/1837/12/16/TOC.xml
+ai_item:  NSS/1837/12/16/2/Pc00226.xml
+ai_item:  NSS/1837/12/16/TOC.xml
+
+small image within title page (p. 1)
+2 column image within article (p. 20)
+dmvi:     TEC/1889/12/16/1/Ar00100.xml
+dmvi:     TEC/1889/12/16/20/Pc02003.xml
+embedded: TEC/1889/12/16/20/Ar02002.xml
+embedded: TEC/1889/12/16/20/Pc02003.xml
+embedded: TEC/1889/12/16/20/Pg020.xml
+embedded: TEC/1889/12/16/TOC.xml
+ai_item:  TEC/1889/12/16/1/Ar00100.xml
+ai_item:  TEC/1889/12/16/20/Pc02003.xml
+ai_item:  TEC/1889/12/16/TOC.xml
+
+small image within masthead (p. 1)
+small image before title of article (p. 4)
+full page image (p. 5) - belongs to poem on p. 4
+small image within advert (p. 10) article on this page is head line
+dmvi:     TTW/1867/06/01/1/Ar00102.xml
+dmvi:     TTW/1867/06/01/10/Ad01001.xml
+dmvi:     TTW/1867/06/01/4/Ar00406.xml
+dmvi:     TTW/1867/06/01/5/Pc00501.xml
+embedded: TTW/1867/06/01/4/Ar00408.xml
+embedded: TTW/1867/06/01/5/Pc00501.xml
+embedded: TTW/1867/06/01/5/Pg005.xml
+embedded: TTW/1867/06/01/TOC.xml
+ai_item:  TTW/1867/06/01/1/Ar00102.xml
+ai_item:  TTW/1867/06/01/10/Ad01001.xml
+ai_item:  TTW/1867/06/01/10/Ar01000.xml
+ai_item:  TTW/1867/06/01/10/Ar01002.xml
+ai_item:  TTW/1867/06/01/4/Ar00406.xml
+ai_item:  TTW/1867/06/01/5/Pc00501.xml
+ai_item:  TTW/1867/06/01/TOC.xml
+

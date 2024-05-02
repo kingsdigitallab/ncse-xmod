@@ -1,0 +1,563 @@
+<?xml version="1.0"?>
+<!DOCTYPE authorityList SYSTEM "../../dtd/alist/AL_imageBase.dtd">
+<authorityList id="AL_imageBase" month="_unspecified" day="_unspecified" resp="ADD HERE">
+    <header>
+        <title>imageBase for myProjectName</title>
+        <changeNotes>
+            <changeItem>
+                <name/>
+                <p/>
+            </changeItem>
+        </changeNotes>
+        <comments>
+            <list>
+                <li>
+                    <label>authorityList</label>
+                    <con>dates and resp attributes used to keep track of when file was last edited.</con>
+                </li>
+                <li>
+                    <label>imgTitle</label>
+                    <con>is our way of identifying each item, it will not be used in output</con>
+                </li>
+                <li>
+                    <label>caption</label>
+                    <con>has been added to output a caption for an image</con>
+                </li>
+            </list>
+            <p>At present a distinction is made between general images, charts and graphs. These images are available for use in any of the XML files
+                that use the TEI DTD. Images used in the web design are not stored here. Prefixes are used in image names for further clarity.</p>
+        </comments>
+    </header>
+    <body>
+        <group id="general">
+            <groupHead>
+                <groupTitle>General images</groupTitle>
+                <groupFolder/>
+            </groupHead>
+            <image id="ns_por1" thm="y">
+                <imgTitle></imgTitle>
+                <caption>9.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>88</thmHeight>
+                <ext n="jpg"/>
+                </image>
+            <image id="ns_por2" thm="y">
+                <imgTitle></imgTitle>
+                <caption>7.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>86</thmHeight>
+                <ext n="jpg"/>
+                </image>
+            <image id="ns_por3" thm="y">
+                <imgTitle></imgTitle>
+                <caption>11.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>85</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por4" thm="y">
+                <imgTitle></imgTitle>
+                <caption>12.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>79</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por5" thm="y">
+                <imgTitle></imgTitle>
+                <caption>6.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>87</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por6" thm="y">
+                <imgTitle></imgTitle>
+                <caption>10.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>89</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por7" thm="y">
+                <imgTitle></imgTitle>
+                <caption>13.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>87</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por8" thm="y">
+                <imgTitle></imgTitle>
+                <caption>14.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>82</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por9" thm="y">
+                <imgTitle></imgTitle>
+                <caption>4.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>91</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por10" thm="y">
+                <imgTitle></imgTitle>
+                <caption>3.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>82</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por11" thm="y">
+                <imgTitle></imgTitle>
+                <caption>5.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>88</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por12" thm="y">
+                <imgTitle></imgTitle>
+                <caption>8.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>87</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ns_por13" thm="y">
+                <imgTitle></imgTitle>
+                <caption>2.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>87</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="ext9_90_poster" thm="y">
+                <imgTitle></imgTitle>
+                <caption>1.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>89</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="Untitled-1" thm="y">
+                <imgTitle></imgTitle>
+                <caption>16.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>88</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="Untitled-2" thm="y">
+                <imgTitle></imgTitle>
+                <caption>15.</caption>
+                <thmWidth>60</thmWidth>
+                <thmHeight>79</thmHeight>
+                <ext n="jpg"/>
+            </image>
+            <image id="wl_logo">
+                <imgTitle>Women's Library Logo</imgTitle>
+                <caption></caption>
+                <desc>Women's Library Logo</desc>
+                <width>314</width>
+                <height>55</height>
+                <ext n="jpg"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="waterloo_logo">
+                <imgTitle>Waterloo logo</imgTitle>
+                <desc>Waterloo logo</desc>
+                <width>100</width>
+                <height>125</height>
+                <ext n="jpg"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+          <image id="olive">
+              <imgTitle>Olive Logo</imgTitle>
+              <desc>Olive Logo</desc>
+              <width>121</width>
+              <height>48</height>
+              <ext n="png"/>
+              <creator>
+                  <name></name>
+                  <p></p>
+              </creator>
+              <copyright>
+                  <p></p>
+              </copyright>
+              <rend/>
+              <notes>
+                  <p></p>
+              </notes>
+              <internal>
+                  <p></p>
+              </internal>
+          </image>
+          <image id="npg_logo">
+              <imgTitle>NPG Logo</imgTitle>
+              <desc>National Portrait Gallery</desc>
+              <width>109</width>
+              <height>67</height>
+              <ext n="gif"/>
+              <creator>
+                  <name></name>
+                  <p></p>
+              </creator>
+              <copyright>
+                  <p></p>
+              </copyright>
+              <rend/>
+              <notes>
+                  <p></p>
+              </notes>
+              <internal>
+                  <p></p>
+              </internal>
+          </image>
+            <image id="bl_logo">
+                <imgTitle>BL logo</imgTitle>
+                <desc>British Library</desc>
+                <width>54</width>
+                <height>103</height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="ahrc_logo">
+                <imgTitle>AHRC Logo</imgTitle>
+                <desc>Arts and Humanities Research Council</desc>
+                <width>200</width>
+                <height>46</height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="bbk">
+                <imgTitle>Bbk Logo</imgTitle>
+                <desc>Birkbeck</desc>
+                <width>140</width>
+                <height>44</height>
+                <ext n="jpg"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="bod-t">
+                <imgTitle>Bodleian Logo</imgTitle>
+                <desc>Bodleian Library</desc>
+                <width>66</width>
+                <height>60</height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="birm_logo">
+                <imgTitle>Birmingham Logo</imgTitle>
+                <desc>University of Birmingham</desc>
+                <width>234</width>
+                <height>61</height>
+                <ext n="jpg"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            
+            <image id="kcl_logo">
+                <imgTitle>KCL logo</imgTitle>
+                <desc>King's College London</desc>
+                <width>100</width>
+                <height>92</height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            
+            
+            
+           <image id="logoCch">
+                <imgTitle>CCH Logo</imgTitle>
+                <desc>Centre for Computing in the Humanities</desc>
+                <width>120</width>
+                <height>56</height>
+                <ext n="png"/>
+                <creator>
+                    <name><?xm-replace_text {name}?></name>
+                    <p><?xm-replace_text {p}?></p>
+                </creator>
+                <copyright>
+                    <p><?xm-replace_text {p}?></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p><?xm-replace_text {p}?></p>
+                </notes>
+                <internal>
+                    <p><?xm-replace_text {p}?></p>
+                </internal>
+           </image>
+            
+            <image id="article-image">
+                <imgTitle>Sample Facsimile</imgTitle>
+                <desc>An example article from the facsimile repository</desc>
+                <width>465</width>
+                <height>229</height>
+                <ext n="jpg"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="searchAND">
+                <imgTitle>Select box with AND operator</imgTitle>
+                <desc></desc>
+                <width>57</width>
+                <height>26</height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="searchOR">
+                <imgTitle>Select box with OR operator</imgTitle>
+                <desc></desc>
+                <width>58</width>
+                <height>26</height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="searchNOT">
+                <imgTitle>Select box with NOT operator</imgTitle>
+                <desc></desc>
+                <width>58</width>
+                <height>26</height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="olive-viewpoint">
+                <imgTitle>Olive viewpoint diagram</imgTitle>
+                <desc>Architectural diagram of Olive Software's Viewpoint.</desc>
+                <width>423</width>
+                <height></height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="cch-ncseweb">
+                <imgTitle>Web framework diagram</imgTitle>
+                <desc>Architectural diagram of CCH NCSE web framework.</desc>
+                <width>445</width>
+                <height></height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="gate">
+                <imgTitle>Gate architectural diagram</imgTitle>
+                <desc>Simplified model of the GATE entity extraction process.</desc>
+                <width>400</width>
+                <height>400</height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            <image id="usas">
+                <imgTitle>USAS architectural diagram</imgTitle>
+                <desc>Simplified model of the USAS subject descriptor process.</desc>
+                <width>554</width>
+                <height></height>
+                <ext n="gif"/>
+                <creator>
+                    <name></name>
+                    <p></p>
+                </creator>
+                <copyright>
+                    <p></p>
+                </copyright>
+                <rend/>
+                <notes>
+                    <p></p>
+                </notes>
+                <internal>
+                    <p></p>
+                </internal>
+            </image>
+            
+        </group>
+        <group id="charts">
+            <groupHead>
+                <groupTitle>Charts</groupTitle>
+                <groupFolder><?xm-replace_text {groupFolder}?></groupFolder>
+            </groupHead>
+        </group>
+    </body>
+</authorityList>

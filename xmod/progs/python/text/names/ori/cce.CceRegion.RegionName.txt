@@ -1,0 +1,165 @@
+RegionName
+America
+America
+Archdeacons
+Archdeacons
+Archdeacons
+Archdeacons
+Archdeacons
+Archdeacons
+Archdeacons
+Bath
+Bath
+Bedford
+Bedford
+Berkshire
+Berkshire
+Bishops
+Bishops
+Bishops
+Bishops
+Bishops
+Bristol
+Bristol
+Bristol Consistory
+Bristol Consistory
+Buckingham
+Buckingham
+Canon residentiaries
+Canon Residentiaries
+Canon Residentiaries
+Canons
+Canons
+Canons residentiar
+Canterbury
+Canterbury
+Carlisle
+Carlisle
+Cathedral
+Cathedral
+Chester
+Chester
+Chester
+Chester
+Cleveland
+Cleveland
+Colcester
+Colchester
+Consistory of Bristol
+Consistory of Bristol
+Coventry
+Coventry
+Coventry
+Deans
+Deans
+Deans
+Derby
+Derby
+Derby
+Derby
+Diocesan office
+Diocesan office
+Diocesan offices
+Diocesan offices
+Dorset
+Dorset
+Dorset
+Durham
+Durham
+Ely
+Ely
+Ely
+Ely
+Episcopal chaplains
+Episcopal chaplains
+Essex
+Exeter
+Exeter
+Gloucester
+Gloucester
+Gloucester
+Hereford
+Huntingdon
+Huntingdon
+Ireland
+Ireland
+Isle of Ely and consistory jurisdiction
+Lay chaplains
+Lay chaplains
+Leicester
+Leicester
+Lincoln
+Lincoln
+London
+Middlesex
+Middlesex
+Minor Canons
+Minor Canons
+Minor Canons
+Minor canons
+Northampton
+Northampton
+Officials
+Officials
+Others
+Others
+Others
+Others
+Oxford
+Oxford
+Prebendaries
+Prebendaries
+Prebendaries
+Prebendaries
+Richmond
+Richmond
+Richmond
+Rochester
+Rochester
+Rural Deans
+Rural Deans
+Salop
+Salop
+SalopH
+SalopH
+SalopLC
+SalopLC
+SalopLC
+SalopLC
+SalopLC
+Sarum
+Sarum
+Scotland
+Scotland
+See city
+Sodor and Man
+Sodor and Man
+St Albans
+St Albans
+St Asaph
+St Asaph
+St Asaph
+St Asaph
+St Asaph
+Stafford
+Stafford
+Stafford
+Stafford
+Stafford
+Stafford
+Stow
+Stow
+Sudbury
+Sudbury
+Taunton
+Taunton
+Wells
+Wells
+West Indies
+West Indies
+Wiltshire
+Wiltshire
+Worcester
+Worcester
+York and Yorkshire West Riding
+York and Yorkshire West Riding

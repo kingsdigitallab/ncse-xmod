@@ -1,0 +1,42 @@
+TEC 1889-12-06 page 11
+
+
+TEC 1889-12-16 page 4 St. Dunstan's House
+
+p. 4 colleages
+p. 4 Austria   Egypt
+p. 5 champagne    beer (using +/-)
+p. 6 add "Ibiza" to XML  (using add button - I added it without ID)
+
+p. 20 (p. 1822) 20/Pc02003.xml
+
+added Brighton
+added canaries
+added arguing
+
+
+
+
+possible separators
+_=;|
+
+
+-----------
+
+- we expected only the lowest hierarchy level to be entered into the
+  image metadata field
+- but instead the whole hierarchy (all levels) are entered - this is
+  not really a problem, but the separator used to separate the level
+  is a forward slash ("/"), which appears quite often within the
+  hierarchy terms - we therefore suggest that an underscore "_" is
+  used
+- we would also strongly suggest to "turn off" the possibility to
+  insert new entries into the hierarchy master file (XML file) - it is
+  too easy to completely "mess up" the XML hierarchy file - we suggest
+  that additional entries into the hierarchy file should be made into
+  the spreadsheet, and we insert them into the XML file
+- another oddity: newly entered hierarchy terms are converted to
+  uppercase by the Content Administrator
+
+
+

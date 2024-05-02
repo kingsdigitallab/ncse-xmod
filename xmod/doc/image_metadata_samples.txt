@@ -1,0 +1,19 @@
+﻿Image Metadata Samples
+
+The Northern Star (16/12/1837). Edn 1.
+http://king-y1kbzq92ze/BookReader/getBook.asp?Path=NSS/1837/12/16&Page=2&Label=2&PrimId=Pc0022600&ZoomOn=1&Zoom=1&BookCollection=NSS&Language=English&ScreenRes=2
+
+The Leader (4/5/1850) Country edn.
+http://king-y1kbzq92ze/BookReader/getBook.asp?Path=CLD/1850/05/04&Page=12&Label=132&PrimId=Pc0120700&ZoomOn=1&Zoom=1&BookCollection=LDR&Language=English&ScreenRes=2
+
+The Tomahawk (01/06/1867). 
+http://king-y1kbzq92ze/BookReader/getBook.asp?Path=TTW/1867/06/01&Page=5&Label=43&PrimId=Pc0050101&ZoomOn=1&Zoom=1&BookCollection=TTW&Language=English&ScreenRes=2
+
+The Publisher’s Circular (16/12/1889), p. 1822.
+http://king-y1kbzq92ze/BookReader/getBook.asp?Path=TEC/1889/12/16&Page=20&Label=1822&PrimId=Pc0200300&ZoomOn=1&Zoom=1&BookCollection=TEC&Language=English&ScreenRes=2
+The Monthly Repository (02/12/1822), Front Matter.
+http://king-y1kbzq92ze/BookReader/getBook.asp?Path=FMRP/1822/12/02&Page=1&Label=unpag&PrimId=Ar0010000&ZoomOn=1&Zoom=1&BookCollection=MRP&Language=English&ScreenRes=2
+English Woman’s Journal
+NO IMAGES
+
+

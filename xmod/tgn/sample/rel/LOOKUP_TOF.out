@@ -1,0 +1,10 @@
+FIPS	FIPS	9
+ISO2L	ISO 2-letter	5
+ISO2N	ISO 2-number	7
+ISO3L	ISO 3-letter	4
+ISO3N	ISO 3-number	6
+NA	N/A	1
+O	Official Name	2
+P	Pseudonym	3
+S	Site name	10
+USPS	US Postal Service	8

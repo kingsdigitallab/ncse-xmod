@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<XMD-PAGE REPOSITORY_FORMAT="1.0"><Application_Data/><Meta ISSUE_DATE="01/01/1888" RELEASE_NO="demo publishers" PAGE_NO="2" NAME="" PAGE_LABEL="ii" PAGE_TYPE="Single" PUBLISHER="Olive" PUBLICATION="LDR" SOURCE_TYPE="TIFF" SOURCE_RESOLUTION="72" IMAGES_RESOLUTION="86" PAGE_THUMBNAIL_RESOLUTION="43" PAGE_PREVIEW_RESOLUTION="15" DEFAULT_IMG_EXT="png" IMG_EXT="png" PREVIEW_IMG_EXT="png" XMD_VER="2.6.236.23" PROFILE_ID="XMD_LDR.ini" SECTION="None" PAGE_WIDTH="646" PAGE_HEIGHT="861" PAGES_NUMBER="26" BASE_HREF="LDR/1888/01/01" PDF_DESTINATION_MAPPED="OLV0_Page_0002">
+		<Resolutions>
+			<Resolution DEFAULT="true">43</Resolution>
+		</Resolutions>
+	</Meta>
+	<Link SOURCE="demo+publishers1.pdf" NEXT_SECTION="" PREV_SECTION="1"/>
+	<Entity ENTITY_TYPE="Article" ID="Ar00200" SIZE="Small" BOX="73 34 579 76" NEXT_SECTION="" PREV_SECTION="1">
+		<Name>Untitled Article</Name>
+		<Primitive ID="Ar0020000" BOX="73 34 579 76" ELEMENT_TYPE="Content" TOC_ENTRY_ID="4" SEQ_NO="0"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Ad" ID="Ad00201" SIZE="XLarge" BOX="73 453 579 847" NEXT_SECTION="" PREV_SECTION="1">
+		<Name>Untitled Ad</Name>
+		<Primitive ID="Ad0020100" BOX="73 453 579 847" ELEMENT_TYPE="Content" TOC_ENTRY_ID="0" SEQ_NO="1"/>
+		<Primitive ID="Ad0020101" BOX="73 453 579 847" ELEMENT_TYPE="AdFrame" TOC_ENTRY_ID="5" SEQ_NO="0"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Ad" ID="Ad00202" SIZE="Large" BOX="73 76 579 268" NEXT_SECTION="" PREV_SECTION="1">
+		<Name>Untitled Ad</Name>
+		<Primitive ID="Ad0020200" BOX="73 76 579 268" ELEMENT_TYPE="Content" TOC_ENTRY_ID="0" SEQ_NO="1"/>
+		<Primitive ID="Ad0020201" BOX="73 76 579 268" ELEMENT_TYPE="AdFrame" TOC_ENTRY_ID="6" SEQ_NO="0"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Ad" ID="Ad00203" SIZE="Large" BOX="73 268 579 453" NEXT_SECTION="" PREV_SECTION="1">
+		<Name>Untitled Ad</Name>
+		<Primitive ID="Ad0020300" BOX="73 268 579 453" ELEMENT_TYPE="Content" TOC_ENTRY_ID="0" SEQ_NO="1"/>
+		<Primitive ID="Ad0020301" BOX="73 268 579 453" ELEMENT_TYPE="AdFrame" TOC_ENTRY_ID="7" SEQ_NO="0"/>
+	</Entity>
+</XMD-PAGE>

@@ -1,0 +1,45 @@
+E2+             4     3.05   1372     0.14 +    16.92     Like
+L3              4     3.05   2439     0.25 +    12.61     Plants
+E3+             2     1.53    623     0.06 +     8.83     Calm 
+X2              1     0.76     46     0.00 +     8.15     Mental actions and processes
+Z99             9     6.87  22165     2.29 +     7.77     Unmatched
+A5.4+           2     1.53   1149     0.12 +     6.53     Evaluation: Authentic
+S1.2.4+         1     0.76    130     0.01 +     6.11     Polite
+S4              3     2.29   4002     0.41 +     5.35     Kin
+O4.2+           2     1.53   1604     0.17 +     5.32     Judgement of appearance: Beautiful
+Q4.1            2     1.53   1741     0.18 +     5.03     The Media: Books
+I1.1+           1     0.76    239     0.02 +     4.92     Money: Affluence
+S7.2+           1     0.76    316     0.03 +     4.39     Respected
+N3.4            1     0.76    325     0.03 +     4.33     Measurement: Volume
+X9.2-           1     0.76    369     0.04 +     4.09     Failure
+G2.2+           1     0.76    405     0.04 +     3.92     Ethical
+S3.2            1     0.76    508     0.05 +     3.49     Relationship: Intimacy and sex
+A5.2+           1     0.76    779     0.08 +     2.71     Evaluation: True 
+Q1.2            2     1.53   3691     0.38 +     2.55     Paper documents and writing
+B4              1     0.76    883     0.09 +     2.49     Cleaning and personal care
+A1.7+           1     0.76   1071     0.11 +     2.15     Constraint
+N3.2-           1     0.76   1218     0.13 +     1.94     Size: Small 
+I1.3            1     0.76   1254     0.13 +     1.89     Money: Cost and price
+A3+             6     4.58  24177     2.50 +     1.82     Existing
+X5.2+           1     0.76   1511     0.16 +     1.58     Interested/excited/energetic
+C1              1     0.76   2263     0.23 +     0.98     Arts and crafts
+A6.2+           1     0.76   2275     0.23 +     0.97     Comparing: Usual 
+I2.1            1     0.76   2634     0.27 +     0.78     Business: Generally
+O4.1            1     0.76   2642     0.27 +     0.77     General appearance and physical properties
+X3.4            1     0.76   2795     0.29 +     0.70     Sensory: Sight
+S2              1     0.76   2896     0.30 +     0.66     People
+F1              1     0.76   2974     0.31 +     0.63     Food
+T1.3            2     1.53   8327     0.86 +     0.55     Time: Period
+O4.3            1     0.76   3747     0.39 +     0.37     Colour and colour patterns
+N1              3     2.29  15606     1.61 +     0.33     Numbers 
+M6              2     1.53   9859     1.02 +     0.29     Location and direction
+X2.1            1     0.76   4139     0.43 +     0.28     Thought, belief
+A7+             2     1.53  10590     1.09 +     0.20     Likely
+T1.1.3          1     0.76   4846     0.50 +     0.16     Time: Future
+A13.3           1     0.76   4808     0.50 +     0.16     Degree: Boosters
+X7+             1     0.76   5233     0.54 +     0.11     Wanted
+B1              1     0.76   5489     0.57 +     0.08     Anatomy and physiology
+S5+             1     0.76   5811     0.60 +     0.05     Belonging to a group 
+N5.1+           1     0.76   5944     0.61 +     0.04     Entire; maximum
+O2              1     0.76   6100     0.63 +     0.03     Objects generally
+Z8             10     7.63  72023     7.44 +     0.00     Pronouns

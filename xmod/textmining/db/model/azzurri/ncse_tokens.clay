@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clay-model clay-version="1.2.0">
+<database-model alias="" author="" begin-script="" end-script="" name="ncse_tokens" remarks="" sql-dialect-id="jp.azzurri.clay.model.physical.dialect.MySQL_4_0_Dialect" version="1.0">
+<database-model-description/>
+<schema-list>
+<schema alias="" name="DEFAULT_SCHEMA" remarks="">
+<schema-description/>
+<domain-list/>
+<table-list>
+<table alias="" name="tokens" remarks="">
+<table-description/>
+<table-figure-bounds height="-1" width="-1" x="67" y="77"/>
+<column-list>
+<column alias="" auto-increment="true" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="id" remarks="">
+<column-description/>
+<data-type jdbc-type="4" name="INTEGER" selected-variant-pattern="INTEGER UNSIGNED">
+<variant type-name-pattern="INTEGER"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n)"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n) UNSIGNED"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n) UNSIGNED ZEROFILL"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n) ZEROFILL"/>
+<variant type-name-pattern="INTEGER UNSIGNED"/>
+<variant type-name-pattern="INTEGER UNSIGNED ZEROFILL"/>
+<variant type-name-pattern="INTEGER ZEROFILL"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="5" decimal-digits="0" default-value="" mandatory="false" name="publ" remarks="">
+<column-description/>
+<data-type jdbc-type="12" literal-prefix="'" literal-suffix="'" name="VARCHAR" selected-variant-pattern="VARCHAR(%n)">
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n)"/>
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n) BINARY"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="5" decimal-digits="0" default-value="" mandatory="false" name="year" remarks="">
+<column-description/>
+<data-type jdbc-type="12" literal-prefix="'" literal-suffix="'" name="VARCHAR" selected-variant-pattern="VARCHAR(%n)">
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n)"/>
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n) BINARY"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="3" decimal-digits="0" default-value="" mandatory="false" name="month" remarks="">
+<column-description/>
+<data-type jdbc-type="12" literal-prefix="'" literal-suffix="'" name="VARCHAR" selected-variant-pattern="VARCHAR(%n)">
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n)"/>
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n) BINARY"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="3" decimal-digits="0" default-value="" mandatory="false" name="day" remarks="">
+<column-description/>
+<data-type jdbc-type="12" literal-prefix="'" literal-suffix="'" name="VARCHAR" selected-variant-pattern="VARCHAR(%n)">
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n)"/>
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n) BINARY"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="20" decimal-digits="0" default-value="" mandatory="false" name="artid" remarks="">
+<column-description/>
+<data-type jdbc-type="12" literal-prefix="'" literal-suffix="'" name="VARCHAR" selected-variant-pattern="VARCHAR(%n)">
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n)"/>
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n) BINARY"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="arttokid" remarks="">
+<column-description/>
+<data-type jdbc-type="4" name="INTEGER" selected-variant-pattern="INTEGER UNSIGNED">
+<variant type-name-pattern="INTEGER"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n)"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n) UNSIGNED"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n) UNSIGNED ZEROFILL"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n) ZEROFILL"/>
+<variant type-name-pattern="INTEGER UNSIGNED"/>
+<variant type-name-pattern="INTEGER UNSIGNED ZEROFILL"/>
+<variant type-name-pattern="INTEGER ZEROFILL"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="20" decimal-digits="0" default-value="" mandatory="false" name="entityid" remarks="">
+<column-description/>
+<data-type jdbc-type="12" literal-prefix="'" literal-suffix="'" name="VARCHAR" selected-variant-pattern="VARCHAR(%n)">
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n)"/>
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n) BINARY"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="type_id" remarks="">
+<column-description/>
+<data-type jdbc-type="4" name="INTEGER" selected-variant-pattern="INTEGER UNSIGNED">
+<variant type-name-pattern="INTEGER"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n)"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n) UNSIGNED"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n) UNSIGNED ZEROFILL"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n) ZEROFILL"/>
+<variant type-name-pattern="INTEGER UNSIGNED"/>
+<variant type-name-pattern="INTEGER UNSIGNED ZEROFILL"/>
+<variant type-name-pattern="INTEGER ZEROFILL"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="255" decimal-digits="0" default-value="" mandatory="false" name="token" remarks="">
+<column-description/>
+<data-type jdbc-type="12" literal-prefix="'" literal-suffix="'" name="VARCHAR" selected-variant-pattern="VARCHAR(%n)">
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n)"/>
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n) BINARY"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="2" decimal-digits="0" default-value="" mandatory="false" name="spaceaftertoken" remarks="">
+<column-description/>
+<data-type jdbc-type="12" literal-prefix="'" literal-suffix="'" name="VARCHAR" selected-variant-pattern="VARCHAR(%n)">
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n)"/>
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n) BINARY"/>
+</data-type>
+</column>
+</column-list>
+<primary-key alias="" name="PK_TOKENS" remarks="">
+<primary-key-description/>
+<primary-key-column name="id"/>
+</primary-key>
+<unique-key-list/>
+<foreign-key-list>
+<foreign-key alias="" name="FK_tokens_1" on-delete="" on-update="" referenced-key="PK_TYPES" referenced-table="types" referenced-table-schema="DEFAULT_SCHEMA" remarks="" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-description/>
+<foreign-key-figure>
+<fk-fig-bendpoint-list/>
+</foreign-key-figure>
+<foreign-key-column column-name="id" referenced-key-column-name="id"/>
+</foreign-key>
+</foreign-key-list>
+<index-list/>
+</table>
+<table alias="" name="types" remarks="">
+<table-description/>
+<table-figure-bounds height="-1" width="-1" x="511" y="245"/>
+<column-list>
+<column alias="" auto-increment="true" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="id" remarks="">
+<column-description/>
+<data-type jdbc-type="4" name="INTEGER" selected-variant-pattern="INTEGER UNSIGNED">
+<variant type-name-pattern="INTEGER"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n)"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n) UNSIGNED"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n) UNSIGNED ZEROFILL"/>
+<variant precision-max="10" precision-min="0" precision-variable="%n" type-name-pattern="INTEGER(%n) ZEROFILL"/>
+<variant type-name-pattern="INTEGER UNSIGNED"/>
+<variant type-name-pattern="INTEGER UNSIGNED ZEROFILL"/>
+<variant type-name-pattern="INTEGER ZEROFILL"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="255" decimal-digits="0" default-value="" mandatory="false" name="type" remarks="">
+<column-description/>
+<data-type jdbc-type="12" literal-prefix="'" literal-suffix="'" name="VARCHAR" selected-variant-pattern="VARCHAR(%n)">
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n)"/>
+<variant precision-max="255" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n) BINARY"/>
+</data-type>
+</column>
+</column-list>
+<primary-key alias="" name="PK_TYPES" remarks="">
+<primary-key-description/>
+<primary-key-column name="id"/>
+</primary-key>
+<unique-key-list/>
+<foreign-key-list/>
+<index-list/>
+</table>
+</table-list>
+</schema>
+</schema-list>
+</database-model>
+</clay-model>

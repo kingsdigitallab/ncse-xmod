@@ -1,0 +1,74 @@
+countyName
+
+(Other)
+(Unspecified)
+Ainsty
+America
+Bedfordshire
+Berkshire
+Buckinghamshire
+Cambridgeshire
+Cheshire
+City
+City of London
+Cornwall
+Cumberland
+Denbighshire
+Derbyshire
+Devon
+Dorset
+Durham
+East
+East Riding, Yorkshire
+Essex
+Flint
+Flintshire
+Gloucestershire
+Gloucs
+Hampshire
+Hants
+Hereford
+Herefordshire
+Hertfordshire
+Hexhamshire
+Huntingdonshire
+Ireland
+Isle of Man
+Kent
+Lancashire
+Leicestershire
+Lincolnshire
+Middlesex
+Montgomery
+Norfolk
+North Riding, Yorkshire
+Northamptonshire
+Northumberland
+Nottinghamshire
+Oxfordshire
+Radnor
+Rutland
+Scotland
+See City
+Shropshire
+Somerset
+Staffordshire
+Suffolk
+Surrey
+Sussex
+Warks
+Warwickshire
+West
+West and North Riding, Yo
+West Indies
+West Riding
+West Riding, Yorkshire
+Westmorland
+Wiltshire
+Witlshire
+Worcestershire
+Worcs
+York
+Yorkshire North Riding
+Yorkshire W. Riding
+Yorkshire West Riding

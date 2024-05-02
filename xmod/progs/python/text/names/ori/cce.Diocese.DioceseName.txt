@@ -1,0 +1,136 @@
+DioceseName
+ (Other)
+Aberdeen
+Achonry
+America
+Annadown
+Archdeaconry of Lewes
+Ardagh
+Ardfert
+Argyll
+Armagh
+Banbury, Peculiar Jurisdiction
+Bangor
+Bath & Wells
+Battle, Deanery
+Bedford
+Berwick
+Brechin
+Bristol
+Caithness
+Canterbury
+Canterbury Province
+Canterbury Province2
+Carlisle
+Carlisle, Dean and Chapter
+Cashel
+Cathedrals
+Chapel royal
+Chester
+Chester, Dean and Chapter
+Chichester
+Chichester
+Chichester Deanery
+Clogher
+Clonfert
+Clonmacnois
+Cloyne
+Colchester
+Collegiate Churches
+Colonies
+Cork
+Coventry & Lichfield
+crown
+Derry
+Diocesan Officers
+Domestic chaplains
+Dorchester, peculiar of
+Dover
+Down
+Dromore
+Dublin
+Dunblane
+Dunkeld
+Durham
+Durham, Dean and Chapter
+East Harptree
+Edinburgh
+Elphin
+Ely
+Emly
+Exeter
+Ferns
+Galloway
+Glasgow
+Gloucester
+Hawarden, peculiar of
+Hereford
+Hull
+Ipswich
+Ireland
+John, Bedford
+John, Bedford
+Kildare
+Kilfenora
+Killala
+Killaloe
+Kilmacduagh
+Kilmore
+late Chester
+Leighlin
+Lichfield, Chester & Coventry
+Limerick
+Lincoln
+Lincoln, Dean and Chapter, Peculiars
+Llandaff
+London
+Marlborough
+Mayo
+Meath
+Monarch
+Moray
+National
+Naval and military
+Neapolis
+Norwich
+Nottingham
+Orkney
+Ossory
+Oxford
+Pagham, deanery
+Penrith
+Peterborough
+Post-Episcopal
+Raphoe
+Rochester
+Ross
+Royal peculiars, exempt jurisdictions
+Salisbury
+Scotland
+Shaftesbury
+Shrewsbury
+Sidon
+Sidon
+Smith, Miles
+Sodor and Man
+South Malling, deanery
+Southwell Minster Chapter, Peculiar Jurisdiction
+St Andrews
+St Decumans
+St. Asaph
+St. Davids
+St. Paul's, dean and chapter
+Taunton
+The Isles
+Thetford
+Tuam
+Universities
+Waterford and Lismore
+Wells, Dean and Chapter
+West Indies
+Westminster
+Winchester
+Worcester
+Worcester, Dean and Chapter
+York
+York Province

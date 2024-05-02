@@ -1,0 +1,200 @@
+.. -*- mode: rst -*-
+
+====
+NCSE
+====
+
+
+Other relevant projects include:
+================================
+
+British Library Newspaper Pilot
+-------------------------------
+
+http://www.uk.olivesoftware.com
+
+forced migration
+----------------
+
+http://www.forcedmigration.org/
+
+Thesaurus
+~~~~~~~~~
+
+http://www.refugeethesaurus.org/hms/home.php?publiclogin=1
+
+Digital library
+~~~~~~~~~~~~~~~
+
+is example for olive application
+
+http://fmo.qeh.ox.ac.uk/fmo/index.asp
+
+
+
+
+Browser
+-------
+
+The new APA browser we will be using eventually for the ncse  
+materials can be seen at:
+http://208.42.237.8/Default/Skins/BasicArch/Client.asp?Skin=BasicArch&en&AW=1150708857843&AppName=2&GZ=T
+
+
+Current online access to NCSE material
+--------------------------------------
+
+http://skua.cch.kcl.ac.uk/Olive/FileCabinet/KC/
+
+
+To work with repository
+-----------------------
+
+
+remote access skua, open IE:
+
+http://localhost/Director/default.asp?wm=Enterprise
+http://skua.cch.kcl.ac.uk/Director/default.asp?wm=Enterprise
+
+use this frontend with this URL to move files:
+
+- go to "others" folder
+- right click on file and choose "unassociate"
+- file is moved to INBOX
+- from here drag to required target folder
+
+
+To publish, i. e. export, XML or text files
+-------------------------------------------
+
+remote access skua, open IE:
+
+http://skua.cch.kcl.ac.uk/Director/default.asp?wm=Enterprise
+
+use this frontend with this URL to publish files in XML or text format
+
+"Publish" button at top left
+
+
+I have "published" so far:
+
+EWJ 1858/03/01 - 1864/08/01 XML / TXT
+LDR 1850/03/01 - 1860/12/31 XML / TXT
+TTW 1867/05/01 - 1870/09/01 XML / TXT
+TEC 1880/01/01 - 1890/12/31 XML / TXT
+NSS 1837/01/01 - 1852/12/31 XML / TXT
+MRP 1806/01/01 - 1838/12/31 XML / TXT
+
+
+
+
+To reindex publications or years
+--------------------------------
+
+http://skua.cch.kcl.ac.uk/Apria/?wm=Enterprise
+
+
+reindexed 06.09.06
+
+EWJ
+
+reindexed 06.09.06
+MRP
+LDR
+TTW
+
+
+
+Ontology
+========
+
+NCSE team has started to work on Ontology / Thesaurus
+
+
+Olive
+=====
+
+
+Segmentation
+------------
+
+On 20.12.2006 Uri sent us URLs of demos for the Publisher's Circular
+for HTML:
+
+http://208.42.237.25/Default/Skins/BasicArch/Client.asp?Skin=BasicArch&enter=true
+
+and flash viewer:
+
+http://212.143.31.19/Olive/FileCabinet2/Sample
+
+I asked him for a XML published version to see how the segments are
+marked up in the XML files
+
+/projects/cch/ncse/olive/xml_segmented_sample_20061220/pubxml/LDR-1888-01-01
+
+I just had a quick glance and preliminary analysis and I found that
+the segments seem to correspond to a "<content>" element, within this
+different text chunks that belong to the same segment appear as
+different <primitive> elements that have an attribute "seq_no" that
+counts the text chunks belonging to the same segment beginnig with "0"
+
+
+
+
+
+OCR
+
+
+to access XML data I may need API
+
+Olive FTP
+=========
+
+ftp.olivesoftware.com
+username: kingsc
+password: college
+
+Olive Content Administrator (VM2)
+=================================
+
+/etc/hosts:
+137.73.123.41 vm2-ncseproduct
+
+http://vm2-ncseproduct/Director/default.asp?wm=Enterprise
+
+
+Data mining
+===========
+
+- grammatical analysis
+- concordance
+- keyword / entity extraction tool (see project at Lancaster Univ. and
+  others)
+- Waterloo index
+- several data mining projects at Sheffield Univ.
+- thesaurus
+- keword extraction
+
+
+
+NCSE journals
+=============
+
+- LDR - The Leader (25172 pp.)
+- TEC - The English Catalogue of Books; Publisher's Circular (21022 pp.)
+- NSS - Northern Star (18409 pp.)
+- TTW - Tomahawk (2846 pp.)
+- MRP - Monthly Repository (24938 pp.)
+- EWJ - English Women's Journal (6098 pp.)
+
+- Total pages: 98485
+
+
+approx. file sizes:
+
+MRP 14 GB
+NSS 63 GB
+TTW  3 GB
+EWJ  3 GB
+LDR 15 GB
+TEC  9 GB

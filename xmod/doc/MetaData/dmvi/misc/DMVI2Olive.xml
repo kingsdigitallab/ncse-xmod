@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Key_words>
+        <L1 ID="c001">settings 
+            <L2 ID="c001.000">exteriors</L2>
+            <L2 ID="c001.001">interiors</L2>
+            <L2 ID="c002">natural environments 
+                <L3 ID="c002.000">countryside</L3>
+                <L3 ID="c002.001">the sea</L3>
+                <L3 ID="c003">natural features 
+                    <L4 ID="c003.000">chasms</L4>
+                    <L4 ID="c003.001">cliffs and rocks</L4>
+                </L3>
+            </L2>
+        </L1>
+ </Key_words>

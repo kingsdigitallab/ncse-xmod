@@ -1,0 +1,104 @@
+
+NCSE web site:
+
+http://www.ncse.kcl.ac.uk/
+
+--------------------------
+
+NCSE WebDAV:
+
+http://curlew.cch.kcl.ac.uk/ncse/dav/filestore/NCSE
+
+--------------------------
+
+Remote Desktop to VM2:
+
+137.73.123.41:51515
+
+137.73.123.44:51515
+
+ATTENTION!!!
+
+always "Log off" - never only close window
+
+always "Log off" - never "Shut down"
+
+--------------------------
+
+XML authority lists on VM2:
+
+C:/Olive/Applications/Director/Keywords
+
+ATTENTION!!!
+
+XML files in this directory are read-only
+
+procedure for updating XML-files:
+
+1. in "Properties": uncheck Attributes: "Read-only"
+2. upload changed files
+3. in "Properties": check Attributes: "Read-only"
+
+--------------------------
+
+XML-autority lists in NCSE subversion repository:
+
+olive/vm2/Olive/Applications/Director/Keywords/
+
+--------------------------
+
+SSH to VM2:
+
+137.73.123.41 on port 22
+
+137.73.123.44 on port 22
+
+--------------------------
+
+in /WINDOWS/system32/drivers/etc/hosts:
+
+137.73.123.41   vm2-ncseproduct
+
+UN: "NCSE Admin"
+PW: "J0urnal"
+
+137.73.123.44   king-y1kbzq92ze
+
+UN: "NCSE Admin"
+PW: "J0urnal"
+
+--------------------------
+
+Content Administrator (admin tool):
+
+http://vm2-ncseproduct/Director/default.asp?wm=Enterprise
+
+--------------------------
+
+ViewPoint on VM2:
+
+http://137.73.123.41/KingsCollege/
+
+--------------------------
+
+ViewPoint on VM2 new:
+
+http://137.73.123.44/kingscollege/
+
+--------------------------
+
+ViewPoint on Olive server:
+
+http://212.143.31.170/KingsCollege/
+
+--------------------------
+
+subversion repository:
+
+https://subversion.cch.kcl.ac.uk/repositories/ncse/trunk
+
+via viewcvs:
+
+https://subversion.cch.kcl.ac.uk/viewcvs/ncse/trunk/
+
+

@@ -1,0 +1,129 @@
+<?xml version='1.0'?>
+<Key_words>
+
+
+
+<L1>
+Boats
+	<L2>Area
+		<L3>Alabama</L3>
+		<L3>Alaska</L3>
+		<L3>Arizona</L3>
+		<L3>Arkansas</L3></L2>
+	<L2>Length
+		<L3>0-100</L3>
+		<L3>100-200</L3>
+		<L3>200-500</L3>
+		<L3>500+</L3></L2>
+	<L2>Price
+		<L3>0-10,000</L3>
+		<L3>10,000-20,000</L3>
+		<L3>20,000-30,000</L3>
+		<L3>30,000+</L3></L2>
+	<L2>Type
+		<L3>Accessory</L3>
+		<L3>Canoe</L3>
+		<L3>Houseboat</L3>
+		<L3>Inflatable</L3></L2>
+</L1>	
+
+
+<L1>Cars
+	<L2>Area
+		<L3>Alabama</L3>
+		<L3>Alaska</L3>
+		<L3>Arizona</L3>
+		<L3>Arkansas</L3></L2>
+	<L2>Car Type
+		<L3>Four_Wheel_Drive</L3>
+		<L3>Mini</L3>
+		<L3>Station Wagon</L3></L2>
+	<L2>Make
+		<L3>AMC</L3>
+		<L3>Audi</L3>
+		<L3>BMW</L3>
+		<L3>Buick</L3>
+		<L3>Susita</L3></L2>
+	<L2>Price
+		<L3>0-10,000</L3>
+		<L3>10,000-20,000</L3>
+		<L3>20,000-30,000</L3>
+		<L3>30,000+</L3></L2>
+	<L2>Year
+		<L3>1900-1980</L3>
+		<L3>1980-1990</L3>
+		<L3>1991</L3>
+		<L3>1992</L3>
+		<L3>1993</L3>
+		<L3>1994</L3>
+		<L3>1995</L3>
+		<L3>1996</L3>
+		<L3>1997</L3>
+		<L3>1998</L3>
+		<L3>1999</L3>
+		<L3>2000</L3>
+		<L3>2001</L3>
+		<L3>2001+</L3></L2>
+</L1>
+
+
+
+
+
+
+
+
+
+
+
+<L1>Jobs
+	<L2>Area
+		<L3>Alabama</L3>
+		<L3>Alaska</L3>
+		<L3>Arizona</L3>
+		<L3>Arkansas</L3></L2>
+	<L2>Function
+		<L3>Accounting</L3>
+		<L3>Administrative</L3>
+		<L3>Consulting</L3>
+		<L3>Creative</L3>
+		<L3>High-Tech</L3></L2>
+	<L2>Type
+		<L3>Contractor</L3>
+		<L3>Fulltime</L3>
+		<L3>Parttime</L3>
+		<L3>Short-term</L3></L2>
+</L1>
+
+
+<L1>Real_Estate
+	<L2>Area
+		<L3>Fairhope</L3>
+		<L3>Foley</L3>
+		<L3>Gulf_Shores</L3>
+		<L3>Mobile</L3></L2>
+	<L2>Bathrooms
+		<L3>1Btrm</L3>
+		<L3>2Btrm</L3>
+		<L3>3Btrm</L3>
+	</L2>
+	<L2>Bedrooms
+		<L3>Studio</L3>
+		<L3>1Bdrm</L3>
+		<L3>2Bdrm</L3>
+		<L3>3Bdrm</L3>
+		<L3>4Bdrm</L3>
+		<L3>5Bdrm</L3></L2>
+	<L2>Type
+		<L3>Condo</L3>
+		<L3>Co-op</L3>
+		<L3>Farm</L3>
+		<L3>Loft</L3></L2>
+	<L2>Price
+		<L3>0-100,000</L3>
+		<L3>100,000-200,000</L3>
+		<L3>200,000-300,000</L3>
+		<L3>300,000+</L3>
+	</L2>
+</L1>
+</Key_words>

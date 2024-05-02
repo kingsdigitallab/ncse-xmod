@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<months>
+  <month num="1"  abbr="jan" days="31">January</month>
+  <month num="2"  abbr="feb" days="28">February</month>
+  <month num="3"  abbr="mar" days="31">March</month>
+  <month num="4"  abbr="apr" days="30">April</month>
+  <month num="5"  abbr="may" days="31">May</month>
+  <month num="6"  abbr="jun" days="30">June</month>
+  <month num="7"  abbr="jul" days="31">July</month>
+  <month num="8"  abbr="aug" days="31">August</month>
+  <month num="9"  abbr="sep" days="30">September</month>
+  <month num="10" abbr="oct" days="31">October</month>
+  <month num="11" abbr="nov" days="30">November</month>
+  <month num="12" abbr="dec" days="31">December</month>
+</months>

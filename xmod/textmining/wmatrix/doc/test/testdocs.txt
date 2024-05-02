@@ -1,0 +1,36 @@
+
+TEC-1884-01-18-Ar00202.txt   (about advances in publication of
+                              "educational literature")
+
+TEC-1884-01-18-Ar00702.txt   (Obituary)
+
+EWJ-1858-04-01-Ar00103.txt   (F. Nightingale and the English soldier)
+                              semtag result: not bad
+
+EWJ-1858-04-01-Ar00802.txt   (Hist. of Elisabeth Blackwell, 1st woman
+                              who took a medical degree)
+
+
+EWJ-1858-04-01-Ar05103.txt   (Poem on death / graves of Shelley and
+                              his wife Mary Wolstonecraft)
+
+
+LDR-1854-04-08-Ar00100.txt   (Crimean war - proposals of peace from
+                              Russia)
+                              semtag result: bad (bad OCR)
+
+LDR-1854-04-08-Ar00401.txt   ("Continental notes" - French army
+                              contingent is sailing to Gallipoli)
+                              semtag result: bad (bad OCR)
+
+
+LDR-1853-04-02-Ar00900.txt   ("The white slaves of the west end)
+                             semtag result: OK
+
+LDR-1853-04-02-Ar00901.txt   (Journal of railway accidents)
+                             semtag result: OK
+
+LDR-1853-04-02-Ar01302.txt   (new law for cab drivers in Austria)
+                             semtag result: sort of OK
+
+

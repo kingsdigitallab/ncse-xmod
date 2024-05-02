@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <ref name="XMD-entity"/>
+  </start>
+  <define name="XMD-entity">
+    <element name="XMD-entity">
+      <attribute name="BOX"/>
+      <optional>
+        <attribute name="CONTINUATION_FROM">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="CONTINUATION_TO">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <attribute name="ENTITY_TYPE">
+        <data type="NCName"/>
+      </attribute>
+      <attribute name="ID">
+        <data type="NCName"/>
+      </attribute>
+      <attribute name="LANGUAGE">
+        <data type="NCName"/>
+      </attribute>
+      <attribute name="PAGE_NO">
+        <data type="integer"/>
+      </attribute>
+      <attribute name="REPOSITORY_FORMAT">
+        <data type="decimal"/>
+      </attribute>
+      <attribute name="SNP">
+        <data type="NCName"/>
+      </attribute>
+      <attribute name="SNP_HEIGHT">
+        <data type="integer"/>
+      </attribute>
+      <attribute name="SNP_WIDTH">
+        <data type="integer"/>
+      </attribute>
+      <zeroOrMore>
+        <choice>
+          <element name="Content">
+            <element name="Primitive">
+              <attribute name="BOX"/>
+              <attribute name="ID">
+                <data type="NCName"/>
+              </attribute>
+              <oneOrMore>
+                <choice>
+                  <text/>
+                  <element name="S">
+                    <attribute name="S_TYPE">
+                      <data type="NCName"/>
+                    </attribute>
+                    <text/>
+                  </element>
+                </choice>
+              </oneOrMore>
+            </element>
+          </element>
+          <element name="Continuation-Content">
+            <attribute name="ID_REF">
+              <data type="NCName"/>
+            </attribute>
+            <ref name="XMD-entity"/>
+          </element>
+          <element name="Link">
+            <attribute name="FIRST_ID">
+              <data type="NCName"/>
+            </attribute>
+            <attribute name="LAST_ID">
+              <data type="NCName"/>
+            </attribute>
+            <attribute name="NEXT_ID"/>
+            <attribute name="PREV_ID"/>
+            <attribute name="SOURCE"/>
+            <attribute name="TOC_ID">
+              <data type="anyURI"/>
+            </attribute>
+          </element>
+          <element name="Meta">
+            <attribute name="BASE_HREF"/>
+            <attribute name="DEFAULT_IMG_EXT">
+              <data type="NCName"/>
+            </attribute>
+            <attribute name="DESCRIPTION"/>
+            <attribute name="IMAGES_RESOLUTION">
+              <data type="integer"/>
+            </attribute>
+            <attribute name="ISSUE_DATE"/>
+            <attribute name="NAME"/>
+            <attribute name="PAGE_HEIGHT">
+              <data type="integer"/>
+            </attribute>
+            <attribute name="PAGE_ID"/>
+            <attribute name="PAGE_LABEL">
+              <data type="integer"/>
+            </attribute>
+            <attribute name="PAGE_TYPE">
+              <data type="NCName"/>
+            </attribute>
+            <attribute name="PAGE_WIDTH">
+              <data type="integer"/>
+            </attribute>
+            <attribute name="PDF_DESTINATION_MAPPED">
+              <data type="NCName"/>
+            </attribute>
+            <attribute name="PUBLICATION">
+              <data type="NCName"/>
+            </attribute>
+            <attribute name="RELEASE_NO">
+              <data type="NMTOKEN"/>
+            </attribute>
+            <attribute name="SECTION"/>
+            <attribute name="SOURCE_TYPE">
+              <data type="NCName"/>
+            </attribute>
+            <attribute name="SUBTYPE"/>
+            <attribute name="WORDCNT">
+              <data type="integer"/>
+            </attribute>
+            <attribute name="XMD_VER">
+              <data type="NMTOKEN"/>
+            </attribute>
+          </element>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+</grammar>

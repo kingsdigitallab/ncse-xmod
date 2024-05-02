@@ -1,0 +1,118 @@
+Z99           254     8.21  22165     2.29 +   281.04     Unmatched
+W2              2     0.06      0     0.00 +    23.00     Light
+A13             2     0.06      0     0.00 +    23.00     Degree
+Z5           1148    37.12 312904    32.32 +    20.95     Grammatical bin
+E5+             5     0.16    134     0.01 +    15.28     Bravery 
+A5.1-           2     0.06    624     0.06 +    -0.00     Evaluation: Bad
+M4              9     0.29    843     0.09 +     9.06     Sailing, swimming, etc.
+O4.2+          13     0.42   1604     0.17 +     8.42     Judgement of appearance: Beautiful
+X2.6-           3     0.10    100     0.01 +     8.01     Unexpected
+B2-            11     0.36   1275     0.13 +     7.97     Disease 
+G3             20     0.65   3152     0.33 +     7.56     Warfare, defence and the army; weapons
+S1.2.4+         3     0.10    130     0.01 +     6.64     Polite
+T1.1            2     0.06     47     0.00 +     6.59     Time: General
+S5+++           1     0.03      4     0.00 +     6.52     Belonging to a group 
+A5.1---         2     0.06     54     0.01 +     6.09     Evaluation: Bad
+O4.6++          1     0.03      8     0.00 +     5.27     Temperature: Hot / on fire     
+E4.1-           8     0.26    979     0.10 +     5.26     Sad 
+Z3             25     0.81   4809     0.50 +     5.05     Other proper names
+A1.1.2          7     0.23    815     0.08 +     5.03     Damaging and destroying
+S3.2            5     0.16    508     0.05 +     4.48     Relationship: Intimacy and sex
+O4.3           20     0.65   3747     0.39 +     4.46     Colour and colour patterns
+A1.3-           1     0.03     13     0.00 +     4.38     No caution
+L1+             2     0.06     93     0.01 +     4.19     Alive
+H4             10     0.32   1592     0.16 +     3.68     Residence
+N3.5+           2     0.06    113     0.01 +     3.55     Weight: Heavy
+S1.2.1-         3     0.10    258     0.03 +     3.38     Formal/Unfriendly
+T1.2            8     0.26   1251     0.13 +     3.09     Time: Momentary
+A3+            93     3.01  24177     2.50 +     3.01     Existing
+A11.1++         1     0.03     28     0.00 +     2.98     Important
+N5.1+          27     0.87   5944     0.61 +     2.98     Entire; maximum
+X3.2            8     0.26   1271     0.13 +     2.96     Sensory: Sound
+A5.1+          15     0.48   2905     0.30 +     2.96     Evaluation: Good 
+O4.2-           5     0.16    660     0.07 +     2.84     Judgement of appearance: Ugly
+M6             41     1.33   9859     1.02 +     2.61     Location and direction
+X6              1     0.03     37     0.00 +     2.49     Deciding
+Z4             20     0.65   4344     0.45 +     2.37     Discourse Bin
+A10-            9     0.29   1609     0.17 +     2.35     Closed; Hiding/Hidden 
+X3.1            2     0.06    176     0.02 +     2.19     Sensory: Taste
+O4.2            1     0.03     47     0.00 +     2.08     Judgement of appearance
+W4              5     0.16    770     0.08 +     2.01     Weather 
+A5.2+           5     0.16    779     0.08 +     1.95     Evaluation: True 
+X3.2+           1     0.03     52     0.01 +     1.91     Sound: Loud
+B2+             2     0.06    195     0.02 +     1.90     Healthy
+X3.2++          1     0.03     53     0.01 +     1.88     Sound: Loud
+S7.1+          34     1.10   8413     0.87 +     1.74     In power 
+N4             27     0.87   6620     0.68 +     1.48     Linear order
+A13.1           4     0.13    653     0.07 +     1.38     Degree: Non-specific
+S1.2            1     0.03     73     0.01 +     1.37     Personality traits
+A4.2+           8     0.26   1625     0.17 +     1.30     Detailed
+N3.2+++         2     0.06    247     0.03 +     1.29     Size: Big 
+M2             22     0.71   5347     0.55 +     1.29     Putting, pulling, pushing, transporting
+X2.2-           2     0.06    252     0.03 +     1.24     No knowledge
+E3-             8     0.26   1647     0.17 +     1.22     Violent/Angry
+A8              7     0.23   1409     0.15 +     1.18     Seem
+X2.2            1     0.03     87     0.01 +     1.11     Knowledge
+T3+++           1     0.03     91     0.01 +     1.05     Time: Old; grown-up
+B3              8     0.26   1711     0.18 +     1.02     Medicines and medical treatment
+S1.2.1+         2     0.06    280     0.03 +     1.00     Informal/Friendly
+A1.7-           4     0.13    727     0.08 +     0.99     No constraint
+N3.2--          1     0.03     97     0.01 +     0.96     Size: Small 
+I3.1-           2     0.06    296     0.03 +     0.88     Unemployed
+O1.3            2     0.06    300     0.03 +     0.86     Substances and materials: Gas
+A1.3+           2     0.06    305     0.03 +     0.82     Cautious
+X3.3            1     0.03    108     0.01 +     0.81     Sensory: Touch
+S4             16     0.52   4002     0.41 +     0.75     Kin
+A1.4+           1     0.03    115     0.01 +     0.73     Lucky
+S1.2.2+         1     0.03    117     0.01 +     0.71     Greedy
+W3             14     0.45   3466     0.36 +     0.71     Geographical terms
+A11.2-          1     0.03    121     0.01 +     0.67     Unnoticeable
+T4-             2     0.06    330     0.03 +     0.67     Time: Late
+B2              1     0.03    129     0.01 +     0.59     Health and disease
+T1              8     0.26   1913     0.20 +     0.53     Time
+N5+            17     0.55   4457     0.46 +     0.50     Quantities: many/much
+M8              3     0.10    610     0.06 +     0.48     Stationary
+X9.2-           2     0.06    369     0.04 +     0.47     Failure
+T2+++           1     0.03    150     0.02 +     0.43     Time: Beginning 
+N3.2++          1     0.03    157     0.02 +     0.38     Size: Big 
+X9.1-           1     0.03    157     0.02 +     0.38     Inability/unintelligence
+X8+             5     0.16   1179     0.12 +     0.36     Trying hard
+A15+            1     0.03    166     0.02 +     0.33     Safe 
+G2.2+           2     0.06    405     0.04 +     0.33     Ethical
+B1             20     0.65   5489     0.57 +     0.33     Anatomy and physiology
+N3.3-           3     0.10    665     0.07 +     0.32     Distance: Near
+S2             11     0.36   2896     0.30 +     0.31     People
+N3.1            2     0.06    413     0.04 +     0.30     Measurement: General
+O4.1           10     0.32   2642     0.27 +     0.27     General appearance and physical properties
+A6.2-           3     0.10    684     0.07 +     0.27     Comparing: Unusual 
+A10+           15     0.48   4107     0.42 +     0.26     Open; Finding; Showing
+N5--            1     0.03    182     0.02 +     0.25     Quantities: little
+N3.3+           2     0.06    441     0.05 +     0.22     Distance: Far
+X2.6+           3     0.10    714     0.07 +     0.21     Expected
+M1             35     1.13  10157     1.05 +     0.20     Moving, coming and going
+N3.7++          1     0.03    202     0.02 +     0.17     Long, tall and wide
+A13.3          17     0.55   4808     0.50 +     0.17     Degree: Boosters
+K4              3     0.10    738     0.08 +     0.16     Drama, the theatre and show business
+X3.4           10     0.32   2795     0.29 +     0.12     Sensory: Sight
+Q1.2           13     0.42   3691     0.38 +     0.12     Paper documents and writing
+A6.1+           7     0.23   1924     0.20 +     0.11     Comparing: Similar 
+Y1              3     0.10    778     0.08 +     0.10     Science and technology in general
+S2.2            9     0.29   2534     0.26 +     0.10     People: Male  
+E4.1+           5     0.16   1370     0.14 +     0.08     Happy 
+O1.1            7     0.23   1991     0.21 +     0.06     Substances and materials: Solid
+A2.1-           1     0.03    250     0.03 +     0.05     No change
+N3.7+           3     0.10    818     0.08 +     0.05     Long, tall and wide
+A5.3+           2     0.06    544     0.06 +     0.04     Evaluation: Accurate
+B5              9     0.29   2625     0.27 +     0.04     Clothes and personal belongings
+X5.2-           1     0.03    284     0.03 +     0.01     Uninterested/bored/unenergetic
+T1.3           27     0.87   8327     0.86 +     0.01     Time: Period
+S9             10     0.32   3016     0.31 +     0.01     Religion and the supernatural
+G2.1            8     0.26   2418     0.25 +     0.01     Law and order
+X5.2+           5     0.16   1511     0.16 +     0.01     Interested/excited/energetic
+M3              7     0.23   2171     0.22 +     0.00     Vehicles and transport on land
+O4.6-           1     0.03    303     0.03 +     0.00     Temperature: Cold     
+N3.7-           1     0.03    310     0.03 +     0.00     Short and narrow
+Z6             26     0.84   8052     0.83 +     0.00     Negative
+A5.1++          2     0.06    619     0.06 +     0.00     Evaluation: Good 
+A6.1-          15     0.48   4629     0.48 +     0.00     Comparing: Different
+E3+             2     0.06    623     0.06 +     0.00     Calm 

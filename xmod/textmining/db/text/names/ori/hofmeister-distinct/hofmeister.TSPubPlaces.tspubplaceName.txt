@@ -1,0 +1,770 @@
+tspubplaceName
+
+Aachen
+Aarau
+Allenstein
+Allentown <Pa.>
+Alsleben <Saale>
+Altdorf
+Altenburg <Thüringen>
+Altona <Hamburg>
+Alzey
+Amberg <Oberpfalz>
+Amsterdam
+Andernach
+Anklam
+Annaberg <Erzgebirge>
+Ansbach
+Antwerpen
+Apolda
+Arnheim
+Arnsberg
+Arnstadt
+Arnswalde
+Arolsen
+Arys
+Aschaffenburg
+Aschersleben <Halle, Saale>
+Augsburg
+Aurich
+Aussig
+Bad Kreuznach
+Baden <Aargau>
+Baden-Baden
+Ballenstedt
+Bamberg
+Bärenthal
+Barmen
+Basel
+Bautzen
+Bayreuth
+Belgrad
+Belle-Vue
+Bensheim
+Bercy
+Bergedorf
+Bergen <Norwegen>
+Berlin
+Berlin-Köpenick
+Berlin-Lichterfelde
+Berlin-Rixdorf
+Berlin-Schöneberg
+Berlin-Zehlendorf
+Bern
+Bernburg
+Berum
+Bethel bei Bielefeld
+Bezau
+Biberach <Riss>
+Biel <Bern>
+Bielefeld
+Bielitz
+Bingen <Rhein>
+Binningen
+Birkenfeld
+Bitterfeld
+Blankenburg
+Blasewitz <Dresden>
+Bochnia
+Bochum
+Bockenheim <Frankfurt, Main>
+Böhmisch-Leipa
+Bologna
+Bonn
+Bonndorf
+Boppard
+Borna <Leipziger Land>
+Boston
+Bozen
+Bradford
+Brandenburg <Havel>
+Braunsberg <Ostpreussen>
+Braunschweig
+Bregenz
+Bremen
+Bremerhaven
+Breslau
+Brieg
+Brixen
+Bromberg
+Bruchsal
+Brück bei Potsdam
+Brünn
+Brüssel
+Bucarest
+Buchholz <Erzgebirge>
+Budapest
+Budweis
+Bühl
+Bunzlau
+Büren <Paderborn>
+Burg <Magdeburg>
+Burgdorf
+Burgstädt
+Buslar
+Butzbach
+Calcutta
+Cammin <Pommern>
+Cannelton
+Carlsfeld
+Celle
+Charlottenburg <Berlin>
+Chemnitz
+Chicago
+Christiania
+Chur
+Cincinnati <Ohio>
+Clausthal
+Cleveland
+Coburg
+Coesfeld
+Colmar
+Cosel
+Cottbus
+Crimmitzschau
+Crossen <Oder>
+Czarnków
+Czernowitz
+Daaden
+Danzig
+Darmstadt
+Davos
+Debreczin
+Delitzsch
+Demmin
+Dessau
+Detmold
+Deutsch Krone
+Diedenhofen
+Dillenburg
+Dillingen <Donau>
+Dinslaken
+Döbeln
+Dölzig
+Donaueschingen
+Donauwörth
+Dordrecht
+Dorpat
+Dortmund
+Dramburg
+Drebkau
+Dresden
+Dresden-Gruna
+Dresden-Neustadt
+Dresden-Pieschen
+Duderstedt
+Duisburg
+Dülmen
+Düren
+Düsseldorf
+Ebersbach <Sachsen>
+Eberswalde
+Eckartsberga
+Eckernförde
+Edinburgh
+Eger
+Eggenfelden
+Eichstätt
+Eimbeck
+Einsiedeln
+Eisenach
+Eisenberg <Thüringen>
+Eisleben
+Elberfeld
+Elbing
+Elbogen
+Ellwangen
+Elmshorn
+Elnbogen
+Emden
+Emmerich
+Ems <Rhein-Lahn-Kreis>
+Erding
+Erfurt
+Erlangen
+Erlau
+Essen
+Esslingen <Neckar>
+Eutin
+Eutritzsch
+Eythra
+Falkenberg
+Falkenhagen
+Finsterwalde
+Fiume
+Flawyl
+Flensburg
+Florenz
+Forst <Lausitz>
+Frankenberg <Mittweida>
+Frankenhausen
+Frankfurt
+Frankfurt <Main>
+Frankfurt <Oder>
+Frauenfeld
+Fraustadt
+Freiberg
+Freiberg <Sachsen>
+Freiburg <Breisgau>
+Freienwalde <Oder>
+Freising
+Freiwaldau <Nordmährisches Gebiet>
+Freudenthal
+Fribourg
+Friedberg <Hessen>
+Friedeberg
+Friedek
+Friedland <Mecklenburg-Strelitz>
+Friedrichroda
+Friedrichshafen
+Fulda
+Fürstenwalde
+Fürth <Bayern>
+Gablonz <Neisse>
+Gaschurn
+Geestemünde
+Gelsenkirchen
+Genf
+Gent
+Genua
+Gera
+Giessen
+Gladbuch
+Glasgow
+Glatz
+Glauchau
+Gleiwitz
+Glogau
+Glückstadt
+Gmunden
+Godesberg
+Goldberg
+Göppingen
+Görlitz
+Görz
+Goslar
+Gotha
+Gothenburg
+Göttingen
+Gran
+Graudenz
+Graz
+Greifenhain
+Greifswald
+Greiz
+Grimma
+Gröningen
+Gross Strehlitz
+Grossenhain
+Grosskanizsa
+Grünberg <Schlesien>
+Guben
+Guhrau
+Gumbinnen
+Gummersbach
+Güns
+Güstrow
+Gütersloh
+Haag
+Haardt <Weinstrasse>
+Haarlem
+Habelschwerdt
+Hadamar
+Hadersleben
+Hagen
+Hainichen
+Halberstadt
+Halle <Saale>
+Hamburg
+Hameln
+Hamm
+Hanau
+Hannover
+Hannover-Linden
+Harzburg
+Haynau
+Hechingen
+Heidelberg
+Heilbronn
+Heiligenstadt <Eichsfeld>
+Helgoland
+Helmstedt
+Helsinki
+Hengelo
+Herford
+Herisau
+Hermannsburg
+Hermannstadt
+Hersfeld
+Herzberg
+Herzogenbusch
+Hilchenbach
+Hildburghausen
+Hildesheim
+Hindelang
+Hirschberg
+Höchst
+Hof <Saale>
+Hoheneggelsen
+Hohenstein-Ernstthal
+Holzminden
+Homberg
+Homburg
+Horb <Neckar>
+Horn bei Hamburg
+Horst
+Hoyerswerda
+Huelva
+Iglo
+Ilfeld <Harz>
+Illingen
+Ilmenau
+Ilsenburg
+Innsbruck
+Inowraz?aw
+Insterburg
+Iserlohn
+Jägerndorf
+Jassy
+Jauer <Liegnitz>
+Jena
+Jever
+Jüchen
+Jülich
+Jüterbog
+Kaiserslautern
+Kaiserswerth
+Kalisch
+Kamenez-Podolski
+Kapstadt
+Karlsbad
+Karlsruhe
+Kaschau
+Kassel
+Kempen
+Kempten <Allgäu>
+Kieff
+Kiel
+Kirchberg
+Kirchheimbolanden
+Kirn
+Kissingen
+Kitzingen
+Klagenfurt
+Klausenburg
+Kleve
+Koblenz
+Kolberg
+Köln
+Köln-Ehrenfeld
+Komotau
+Königsberg
+Königsberg <Neumark>
+Königsberg <Preussen>
+Konitz
+Konstantinopel
+Konstanz
+Kopenhagen
+Korneuburg
+Köslin
+Köthen
+Kötzschenbroda
+Krakau
+Krefeld
+Krems
+Kreuznach
+Kronach
+Kronstadt <Siebenbürgen>
+Kropp
+Kulm
+Kulmbach
+La Chaux-de-Fonds
+Lahr <Schwarzwald>
+Laibach
+Landau <Pfalz>
+Landsberg <Warthe>
+Landshut
+Langenbielau
+Langensalza
+Lauban
+Lausanne
+Lausigk
+Leer
+Leiden
+Leipzig
+Leipzig-Eutritzsch
+Leipzig-Gohlis
+Leipzig-Lindenau
+Leipzig-Neureudnitz
+Leipzig-Neuschleussig
+Leipzig-Neustadt
+Leipzig-Reudnitz
+Leitmeritz
+Lemberg
+Lemgo
+Lengenfeld
+Leoben
+Leobschütz
+Leuchtenberg
+Leutkirch
+Libau
+Liegnitz
+Lienz
+Liestal
+Limburg
+Lindau <Bodensee>
+Lingen <Ems>
+Linz
+Lippstadt
+Lissa
+Löbau <Sachsen>
+Locle
+London
+Lössnitz
+Löwenberg <Schlesien>
+Lübben <Spreewald>
+Lübeck
+Lüben
+Luckenwalde
+Ludwigsburg
+Ludwigshafen
+Ludwigslust
+Lüneburg
+Lüttich
+Luxemburg
+Luzern
+Lyck
+Madrid
+Magdeburg
+Mährisch-Ostrau
+Mährisch-Trübau
+Mailand
+Mainz
+Malchin
+Mannheim
+Mansfeld
+Marburg <Lahn>
+Marienburg <Westpreussen>
+Marienwerder
+Markneukirchen
+Mediasch
+Mehlis
+Meiningen
+Meissen
+Meldorf
+Memmingen
+Meran
+Mergentheim
+Merseburg
+Metz
+Meuselbach
+Mexiko
+Michelstadt
+Middelburg
+Miesbach
+Milwaukee
+Minden <Westfalen>
+Mitau
+Mittweida
+Mölln
+Mosbach
+Moskau
+Mostar
+Mošt?nitz-Prerau
+Mühlhausen <Thüringen>
+Mülhausen
+Mülheim <Ruhr>
+München
+München-Gladbach
+Münster <Westfalen>
+Münsterberg <Schlesien>
+Nashville, Tenn
+Naugard
+Naumburg <Saale>
+Neapel
+Neisse
+Neu-Ulm
+Neubrandenburg
+Neuburg <Donau>
+Neudamm
+Neuenburg
+Neuhaldensleben
+Neuruppin
+Neusalz <Oder>
+Neusandez
+Neuss
+Neustadt
+Neustadt <Oberschlesien>
+Neustadt <Orla>
+Neustedt, bei Eckartsberga
+Neustettin
+Neustrelitz
+Neutitschein
+Neuwied
+New York
+Nieder-Schönhausen
+Nikolsburg
+Nizza
+Norden
+Nordhausen
+Nördlingen
+Nossen
+Nürnberg
+Oberglogau
+Oberhausen
+Oberneudorf-Buchen
+Oberstein
+Odessa
+Oedenburg
+Oels <Niederschlesien>
+Oelsnitz
+Offenbach <Main>
+Offenburg
+Ohlau
+Oldenburg
+Oldenburg <Oldenburg>
+Olmütz
+Oppeln
+Oppenheim
+Oranienburg
+Oravicza
+Oschersleben
+Osnabrück
+Osterburg
+Osterode
+Osterwieck
+Ostrowo
+Paderborn
+Parchim
+Paris
+Pasewalk
+Passau
+Peiskretscham
+Perjámos
+Pest
+Pfahlheim
+Pforzheim
+Philadelphia <Pa.>
+Pilsen
+Pirna
+Plauen
+Pless
+Port Huron <Michigan>
+Posen
+Pössneck
+Potschappel
+Potsdam
+Prag
+Prag-Weinberge
+Prenzlau
+Pressburg
+Pritzwalk
+Przemy?l
+Quedlinburg
+Querfurt
+Radebeul
+Rastatt
+Rathenow
+Ratibor
+Ratzeburg
+Ravensburg
+Regensburg
+Reichenbach <Vogtland>
+Reichenberg
+Remscheid
+Rendsburg
+Reutlingen
+Reval
+Rheinbach
+Rheydt
+Ried <Innkreis>
+Riesa
+Riga
+Rinteln
+Rixdorf
+Rochlitz
+Rodach
+Rödelheim
+Rogasen
+Rom
+Ronneburg
+Rorschach
+Rostock
+Rothenburg <Tauber>
+Rottenburg <Neckar>
+Rotterdam
+Rouen
+Rudolstadt
+Ruhrort
+Saalfeld <Saale>
+Saarbrücken
+Saarlouis
+Saaz
+Sagan
+Salzburg
+Salzungen
+Salzwedel
+Sangerhausen
+Sankt Gallen
+Sankt Ingbert
+Sankt Petersburg
+Sankt Pölten
+Saulgau
+Schaffhausen
+Schandau
+Schleiz
+Schleswig
+Schleusingen
+Schloss-Chemnitz
+Schmalkalden
+Schneeberg <Aue-Schwarzenberg>
+Schönbach b/Eger
+Schönebeck <Elbe>
+Schönlinde
+Schreibersdorf
+Schwabach
+Schwäbisch Gmünd
+Schwäbisch Hall
+Schweidnitz
+Schweinfurt
+Schwelm
+Schwerin
+Schwiebus
+Segeberg
+Siegen
+Soest
+Sofia
+Solingen
+Solothurn
+Sommerfeld
+Sondershausen
+Sonneberg
+Sorau <Lausitz>
+Spandau
+Speyer
+Spremberg
+St. Louis, Mo
+Stade
+Stallupönen
+Stargard
+Stassfurt
+Staufen
+Stendal
+Stettin
+Steyr
+Stockholm
+Stolberg
+Stolp
+Stralsund
+Strassburg
+Straubing
+Strehlen
+Striegau
+Stuhlweissenburg
+Stuttgart
+Sulza
+Swinemünde
+Szegedin
+Tangermünde
+Tarnopol
+Tarnów
+Tarnowitz
+Tauberbischofsheim
+Temesvar
+Teplitz
+Teschen
+Teterow
+Thalbürgel
+Thale
+Thorn
+Thun
+Tilburg
+Tilsit
+Tirnau
+Tölz
+Tondern
+Torgau
+Trautenau
+Trebitsch
+Treptow <Rega>
+Trier
+Triest
+Troppau
+Tübingen
+Turin
+Türkheim
+Tyrnau
+Uetersen
+Ulm
+Unna
+Utrecht
+Venedig
+Verden
+Verona
+Veszprim
+Vevey
+Wabern
+Wädensweil
+Wadowice
+Waiblingen
+Waldenburg
+Waldenburg <Schlesien>
+Waldheim
+Waldsee
+Warasdin
+Warburg
+Warendorf
+Warmbrunn
+Warschau
+Wasserburg
+Weida
+Weiden
+Weilburg
+Weimar
+Weinheim
+Weipert
+Weissenfels
+Wellesley, Mass
+Wels
+Werdau
+Werl
+Wernigerode
+Werschetz
+Wesel
+Wien
+Wien-Währing
+Wiener-Neustadt
+Wiesbaden
+Wilhelmshaven
+Wilna
+Winterthur
+Wismar
+Witten
+Wittenberg
+Wittstock
+Wolfenbüttel
+Worbis
+Worms
+Wriezen
+Würzburg
+Wurzen
+Yverdon
+Zabern
+Zagreb
+Zara
+Zeitz
+Zerbst
+Zeulenroda
+Ziegenhals
+Zittau
+Znaim
+Zofingen
+Zschopau
+Züllichau
+Zülz
+Zürich
+Zürich-Oberstrass
+Zweibrücken
+Zwettl
+Zwickau
+Zwolle

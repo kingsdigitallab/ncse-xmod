@@ -1,0 +1,78 @@
+<project name="mining" default="dist" basedir=".">
+
+	
+	<property name="gate.home" 	location="/opt/textmining/gate/"/>
+	
+
+
+	<property name="code" location="code/src/"/>
+	<property name="main.src"       location="${code}/java"/>
+
+        <property name="lib"            location="code/resources/lib"/>
+
+	<property name="build" 		location="build"/>
+	<property name="build.main"     location="${build}/main"/>
+        
+
+	<property name="dist" 		location="dist"/>
+	<property name="dist.lib"	location="${dist}/lib"/>
+	<property name="dist.bin"	location="${dist}/bin"/>
+	<property name="main.artefact"	location="${dist.lib}/cch.jar"/>
+	<property name="startscripts"	location="code/resources/scripts"/>
+
+	<path id="gate.classpath">
+		<pathelement location="${gate.home}/bin/gate.jar"/>
+	 	<fileset dir="${gate.home}/lib">
+        		<include name="**/*.jar"/>
+			<exclude name="**/ant*.jar"/>
+      		</fileset>	
+	</path>
+	<pathconvert targetos="unix" property="gate.cp" refid="gate.classpath" />
+
+	<path id="main.classpath">
+		<pathelement location="${lib}/commons-lang-2.3/commons-lang-2.3.jar"/>
+		<path refid="gate.classpath"/>
+        </path>
+
+      	<target name="init">
+                <mkdir dir="${build}"/>
+        </target>
+
+	<target name="compile"  depends="init" description="compiles the source code" >
+                <mkdir dir="${build.main}"/>
+                <javac  srcdir="${main.src}"
+                        destdir="${build.main}"
+                        source="1.5"
+			classpathref="main.classpath" />
+                
+        </target>
+
+
+
+ 
+
+	<target name="dist" depends="compile" description="creates distribution">
+		<mkdir dir="${dist}"/>
+		<mkdir dir="${dist.lib}"/>
+		<jar jarfile="${main.artefact}" basedir="${build.main}"/>
+		<copy todir="${dist.lib}" file="${lib}/commons-lang-2.3/commons-lang-2.3.jar" />
+		<copy todir="${dist.bin}">
+                        <fileset dir="${startscripts}">
+                                <include name="*.sh"/>
+                        </fileset>
+			<filterset>
+      				<filter token="GATECP" value="${gate.cp}"/>
+				<filter token="GATEHOME" value="${gate.home}"/>
+    			</filterset>
+		</copy>
+		<chmod dir="${dist.bin}" perm="+x" includes="*.sh"/>
+		</target>
+
+
+	<target name="clean" description="removes all build artefacts">
+		<delete dir="${build}"/>
+		<delete dir="${dist}"/>
+	</target>
+
+
+</project>

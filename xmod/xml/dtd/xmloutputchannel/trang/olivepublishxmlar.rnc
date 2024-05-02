@@ -1,0 +1,61 @@
+default namespace = ""
+
+start = XMD-entity
+XMD-entity =
+  element XMD-entity {
+    attribute BOX { text },
+    attribute CONTINUATION_FROM { xsd:NCName }?,
+    attribute CONTINUATION_TO { xsd:NCName }?,
+    attribute ENTITY_TYPE { xsd:NCName },
+    attribute ID { xsd:NCName },
+    attribute LANGUAGE { xsd:NCName },
+    attribute PAGE_NO { xsd:integer },
+    attribute REPOSITORY_FORMAT { xsd:decimal },
+    attribute SNP { xsd:NCName },
+    attribute SNP_HEIGHT { xsd:integer },
+    attribute SNP_WIDTH { xsd:integer },
+    (element Content {
+       element Primitive {
+         attribute BOX { text },
+         attribute ID { xsd:NCName },
+         (text
+          | element S {
+              attribute S_TYPE { xsd:NCName },
+              text
+            })+
+       }
+     }
+     | element Continuation-Content {
+         attribute ID_REF { xsd:NCName },
+         XMD-entity
+       }
+     | element Link {
+         attribute FIRST_ID { xsd:NCName },
+         attribute LAST_ID { xsd:NCName },
+         attribute NEXT_ID { text },
+         attribute PREV_ID { text },
+         attribute SOURCE { text },
+         attribute TOC_ID { xsd:anyURI }
+       }
+     | element Meta {
+         attribute BASE_HREF { text },
+         attribute DEFAULT_IMG_EXT { xsd:NCName },
+         attribute DESCRIPTION { text },
+         attribute IMAGES_RESOLUTION { xsd:integer },
+         attribute ISSUE_DATE { text },
+         attribute NAME { text },
+         attribute PAGE_HEIGHT { xsd:integer },
+         attribute PAGE_ID { text },
+         attribute PAGE_LABEL { xsd:integer },
+         attribute PAGE_TYPE { xsd:NCName },
+         attribute PAGE_WIDTH { xsd:integer },
+         attribute PDF_DESTINATION_MAPPED { xsd:NCName },
+         attribute PUBLICATION { xsd:NCName },
+         attribute RELEASE_NO { xsd:NMTOKEN },
+         attribute SECTION { text },
+         attribute SOURCE_TYPE { xsd:NCName },
+         attribute SUBTYPE { text },
+         attribute WORDCNT { xsd:integer },
+         attribute XMD_VER { xsd:NMTOKEN }
+       })*
+  }

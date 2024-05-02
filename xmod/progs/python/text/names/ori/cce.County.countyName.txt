@@ -1,0 +1,54 @@
+countyName
+(Other)
+(Unspecified)
+America
+Bedfordshire
+Berkshire
+Buckinghamshire
+Cambridgeshire
+Cheshire
+City
+City of London
+Cumberland
+Denbighshire
+Derbyshire
+Devon
+Dorset
+Essex
+Flint
+Flintshire
+Gloucestershire
+Hampshire
+Hants
+Herefordshire
+Hertfordshire
+Huntingdonshire
+Ireland
+Isle of Man
+Kent
+Lancashire
+Leicestershire
+Lincolnshire
+Middlesex
+Montgomery
+Norfolk
+Northamptonshire
+Oxfordshire
+Rutland
+Scotland
+See City
+Shropshire
+Somerset
+Staffordshire
+Suffolk
+Surrey
+Sussex
+Warwickshire
+warwickshire
+West Indies
+Westmorland
+Wiltshire
+Witlshire
+Worcestershire
+Yorkshire North Riding
+Yorkshire West Riding

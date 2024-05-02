@@ -1,0 +1,703 @@
+
+ EWJ - Total number of articles:       7964
+--------------------------------------------------
+        articles >    300 chars:       1359 =  17%
+        articles >    400 chars:       1344 =  17%
+        articles >    500 chars:       1332 =  17%
+        articles >    600 chars:       1316 =  17%
+        articles >    700 chars:       1307 =  16%
+        articles >    800 chars:       1291 =  16%
+        articles >    900 chars:       1269 =  16%
+        articles >   1000 chars:       1252 =  16%
+        articles >   1100 chars:       1231 =  15%
+        articles >   1200 chars:       1216 =  15%
+        articles >   1300 chars:       1201 =  15%
+        articles >   1400 chars:       1187 =  15%
+        articles >   1500 chars:       1165 =  15%
+
+        articles >    100 tokens:      1333 =  17%
+        articles >    200 tokens:      1262 =  16%
+        articles >    300 tokens:      1184 =  15%
+        articles >    400 tokens:      1102 =  14%
+        articles >    500 tokens:      1047 =  13%
+        articles >    600 tokens:      1010 =  13%
+        articles >    700 tokens:       956 =  12%
+        articles >    800 tokens:       916 =  12%
+        articles >    900 tokens:       877 =  11%
+        articles >   1000 tokens:       843 =  11%
+
+ LDR - Total number of articles:      88504
+--------------------------------------------------
+        articles >    300 chars:      56447 =  64%
+        articles >    400 chars:      51833 =  59%
+        articles >    500 chars:      46887 =  53%
+        articles >    600 chars:      42570 =  48%
+        articles >    700 chars:      39296 =  44%
+        articles >    800 chars:      36269 =  41%
+        articles >    900 chars:      33925 =  38%
+        articles >   1000 chars:      32059 =  36%
+        articles >   1100 chars:      30444 =  34%
+        articles >   1200 chars:      29130 =  33%
+        articles >   1300 chars:      27946 =  32%
+        articles >   1400 chars:      26820 =  30%
+        articles >   1500 chars:      25818 =  29%
+
+        articles >    100 tokens:     49588 =  56%
+        articles >    200 tokens:     34068 =  38%
+        articles >    300 tokens:     26902 =  30%
+        articles >    400 tokens:     22464 =  25%
+        articles >    500 tokens:     19672 =  22%
+        articles >    600 tokens:     17499 =  20%
+        articles >    700 tokens:     15628 =  18%
+        articles >    800 tokens:     14082 =  16%
+        articles >    900 tokens:     12793 =  14%
+        articles >   1000 tokens:     11619 =  13%
+
+ MRP - Total number of articles:      48511
+--------------------------------------------------
+        articles >    300 chars:      13547 =  28%
+        articles >    400 chars:      13016 =  27%
+        articles >    500 chars:      12583 =  26%
+        articles >    600 chars:      12211 =  25%
+        articles >    700 chars:      11757 =  24%
+        articles >    800 chars:      11388 =  23%
+        articles >    900 chars:      11052 =  23%
+        articles >   1000 chars:      10711 =  22%
+        articles >   1100 chars:      10422 =  21%
+        articles >   1200 chars:      10164 =  21%
+        articles >   1300 chars:       9924 =  20%
+        articles >   1400 chars:       9676 =  20%
+        articles >   1500 chars:       9459 =  19%
+
+        articles >    100 tokens:     12847 =  26%
+        articles >    200 tokens:     10969 =  23%
+        articles >    300 tokens:      9698 =  20%
+        articles >    400 tokens:      8798 =  18%
+        articles >    500 tokens:      8010 =  17%
+        articles >    600 tokens:      7371 =  15%
+        articles >    700 tokens:      6872 =  14%
+        articles >    800 tokens:      6395 =  13%
+        articles >    900 tokens:      6031 =  12%
+        articles >   1000 tokens:      5639 =  12%
+
+ NSS - Total number of articles:      75607
+--------------------------------------------------
+        articles >    300 chars:      51896 =  69%
+        articles >    400 chars:      49879 =  66%
+        articles >    500 chars:      47657 =  63%
+        articles >    600 chars:      45588 =  60%
+        articles >    700 chars:      43469 =  57%
+        articles >    800 chars:      41458 =  55%
+        articles >    900 chars:      39927 =  53%
+        articles >   1000 chars:      38457 =  51%
+        articles >   1100 chars:      37178 =  49%
+        articles >   1200 chars:      36052 =  48%
+        articles >   1300 chars:      35062 =  46%
+        articles >   1400 chars:      34259 =  45%
+        articles >   1500 chars:      33542 =  44%
+
+        articles >    100 tokens:     49181 =  65%
+        articles >    200 tokens:     39752 =  53%
+        articles >    300 tokens:     34560 =  46%
+        articles >    400 tokens:     31151 =  41%
+        articles >    500 tokens:     28451 =  38%
+        articles >    600 tokens:     26127 =  35%
+        articles >    700 tokens:     24080 =  32%
+        articles >    800 tokens:     22263 =  29%
+        articles >    900 tokens:     20745 =  27%
+        articles >   1000 tokens:     19370 =  26%
+
+ TEC - Total number of articles:      55487
+--------------------------------------------------
+        articles >    300 chars:      25312 =  46%
+        articles >    400 chars:      21581 =  39%
+        articles >    500 chars:      19286 =  35%
+        articles >    600 chars:      17973 =  32%
+        articles >    700 chars:      17031 =  31%
+        articles >    800 chars:      16138 =  29%
+        articles >    900 chars:      15355 =  28%
+        articles >   1000 chars:      14716 =  27%
+        articles >   1100 chars:      14146 =  25%
+        articles >   1200 chars:      13663 =  25%
+        articles >   1300 chars:      13176 =  24%
+        articles >   1400 chars:      12763 =  23%
+        articles >   1500 chars:      12367 =  22%
+
+        articles >    100 tokens:     22418 =  40%
+        articles >    200 tokens:     16433 =  30%
+        articles >    300 tokens:     13919 =  25%
+        articles >    400 tokens:     12215 =  22%
+        articles >    500 tokens:     10867 =  20%
+        articles >    600 tokens:      9665 =  17%
+        articles >    700 tokens:      8479 =  15%
+        articles >    800 tokens:      7513 =  14%
+        articles >    900 tokens:      6716 =  12%
+        articles >   1000 tokens:      5994 =  11%
+
+ TTW - Total number of articles:      12609
+--------------------------------------------------
+        articles >    300 chars:       5342 =  42%
+        articles >    400 chars:       4645 =  37%
+        articles >    500 chars:       4144 =  33%
+        articles >    600 chars:       3707 =  29%
+        articles >    700 chars:       3386 =  27%
+        articles >    800 chars:       3099 =  25%
+        articles >    900 chars:       2888 =  23%
+        articles >   1000 chars:       2691 =  21%
+        articles >   1100 chars:       2487 =  20%
+        articles >   1200 chars:       2345 =  19%
+        articles >   1300 chars:       2196 =  17%
+        articles >   1400 chars:       2064 =  16%
+        articles >   1500 chars:       1927 =  15%
+
+        articles >    100 tokens:      4556 =  36%
+        articles >    200 tokens:      3041 =  24%
+        articles >    300 tokens:      2228 =  18%
+        articles >    400 tokens:      1726 =  14%
+        articles >    500 tokens:      1424 =  11%
+        articles >    600 tokens:      1236 =  10%
+        articles >    700 tokens:      1050 =   8%
+        articles >    800 tokens:       910 =   7%
+        articles >    900 tokens:       797 =   6%
+        articles >   1000 tokens:       697 =   6%
+
+FEWJ - Total number of articles:         97
+--------------------------------------------------
+        articles >    300 chars:         27 =  28%
+        articles >    400 chars:         25 =  26%
+        articles >    500 chars:         25 =  26%
+        articles >    600 chars:         25 =  26%
+        articles >    700 chars:         25 =  26%
+        articles >    800 chars:         25 =  26%
+        articles >    900 chars:         24 =  25%
+        articles >   1000 chars:         24 =  25%
+        articles >   1100 chars:         24 =  25%
+        articles >   1200 chars:         23 =  24%
+        articles >   1300 chars:         20 =  21%
+        articles >   1400 chars:         16 =  16%
+        articles >   1500 chars:         14 =  14%
+
+        articles >    100 tokens:        27 =  28%
+        articles >    200 tokens:        25 =  26%
+        articles >    300 tokens:        23 =  24%
+        articles >    400 tokens:        13 =  13%
+        articles >    500 tokens:         9 =   9%
+        articles >    600 tokens:         6 =   6%
+        articles >    700 tokens:         2 =   2%
+        articles >    800 tokens:         0 =   0%
+        articles >    900 tokens:         0 =   0%
+        articles >   1000 tokens:         0 =   0%
+
+FLDR - Total number of articles:         26
+--------------------------------------------------
+        articles >    300 chars:         11 =  42%
+        articles >    400 chars:         11 =  42%
+        articles >    500 chars:         10 =  38%
+        articles >    600 chars:         10 =  38%
+        articles >    700 chars:         10 =  38%
+        articles >    800 chars:          9 =  35%
+        articles >    900 chars:          9 =  35%
+        articles >   1000 chars:          9 =  35%
+        articles >   1100 chars:          9 =  35%
+        articles >   1200 chars:          9 =  35%
+        articles >   1300 chars:          9 =  35%
+        articles >   1400 chars:          9 =  35%
+        articles >   1500 chars:          9 =  35%
+
+        articles >    100 tokens:        10 =  38%
+        articles >    200 tokens:         9 =  35%
+        articles >    300 tokens:         9 =  35%
+        articles >    400 tokens:         8 =  31%
+        articles >    500 tokens:         8 =  31%
+        articles >    600 tokens:         8 =  31%
+        articles >    700 tokens:         8 =  31%
+        articles >    800 tokens:         7 =  27%
+        articles >    900 tokens:         6 =  23%
+        articles >   1000 tokens:         6 =  23%
+
+ CLD - Total number of articles:      70639
+--------------------------------------------------
+        articles >    300 chars:      45657 =  65%
+        articles >    400 chars:      41900 =  59%
+        articles >    500 chars:      37942 =  54%
+        articles >    600 chars:      34407 =  49%
+        articles >    700 chars:      31669 =  45%
+        articles >    800 chars:      29069 =  41%
+        articles >    900 chars:      27157 =  38%
+        articles >   1000 chars:      25628 =  36%
+        articles >   1100 chars:      24288 =  34%
+        articles >   1200 chars:      23309 =  33%
+        articles >   1300 chars:      22400 =  32%
+        articles >   1400 chars:      21463 =  30%
+        articles >   1500 chars:      20703 =  29%
+
+        articles >    100 tokens:     40102 =  57%
+        articles >    200 tokens:     27257 =  39%
+        articles >    300 tokens:     21601 =  31%
+        articles >    400 tokens:     18133 =  26%
+        articles >    500 tokens:     15962 =  23%
+        articles >    600 tokens:     14251 =  20%
+        articles >    700 tokens:     12739 =  18%
+        articles >    800 tokens:     11458 =  16%
+        articles >    900 tokens:     10487 =  15%
+        articles >   1000 tokens:      9618 =  14%
+
+EMRP - Total number of articles:       1519
+--------------------------------------------------
+        articles >    300 chars:        679 =  45%
+        articles >    400 chars:        642 =  42%
+        articles >    500 chars:        619 =  41%
+        articles >    600 chars:        593 =  39%
+        articles >    700 chars:        574 =  38%
+        articles >    800 chars:        553 =  36%
+        articles >    900 chars:        530 =  35%
+        articles >   1000 chars:        513 =  34%
+        articles >   1100 chars:        491 =  32%
+        articles >   1200 chars:        473 =  31%
+        articles >   1300 chars:        456 =  30%
+        articles >   1400 chars:        441 =  29%
+        articles >   1500 chars:        420 =  28%
+
+        articles >    100 tokens:       654 =  43%
+        articles >    200 tokens:       566 =  37%
+        articles >    300 tokens:       485 =  32%
+        articles >    400 tokens:       425 =  28%
+        articles >    500 tokens:       364 =  24%
+        articles >    600 tokens:       292 =  19%
+        articles >    700 tokens:       237 =  16%
+        articles >    800 tokens:       185 =  12%
+        articles >    900 tokens:       137 =   9%
+        articles >   1000 tokens:       105 =   7%
+
+FMRP - Total number of articles:        274
+--------------------------------------------------
+        articles >    300 chars:         45 =  16%
+        articles >    400 chars:         43 =  16%
+        articles >    500 chars:         43 =  16%
+        articles >    600 chars:         39 =  14%
+        articles >    700 chars:         26 =   9%
+        articles >    800 chars:         26 =   9%
+        articles >    900 chars:         23 =   8%
+        articles >   1000 chars:         23 =   8%
+        articles >   1100 chars:         22 =   8%
+        articles >   1200 chars:         22 =   8%
+        articles >   1300 chars:         21 =   8%
+        articles >   1400 chars:         21 =   8%
+        articles >   1500 chars:         19 =   7%
+
+        articles >    100 tokens:        48 =  18%
+        articles >    200 tokens:        26 =   9%
+        articles >    300 tokens:        22 =   8%
+        articles >    400 tokens:        18 =   7%
+        articles >    500 tokens:        17 =   6%
+        articles >    600 tokens:        15 =   5%
+        articles >    700 tokens:        12 =   4%
+        articles >    800 tokens:        10 =   4%
+        articles >    900 tokens:         8 =   3%
+        articles >   1000 tokens:         7 =   3%
+
+SMRP - Total number of articles:        618
+--------------------------------------------------
+        articles >    300 chars:        140 =  23%
+        articles >    400 chars:        129 =  21%
+        articles >    500 chars:        121 =  20%
+        articles >    600 chars:        119 =  19%
+        articles >    700 chars:        117 =  19%
+        articles >    800 chars:        114 =  18%
+        articles >    900 chars:        111 =  18%
+        articles >   1000 chars:        110 =  18%
+        articles >   1100 chars:        107 =  17%
+        articles >   1200 chars:        105 =  17%
+        articles >   1300 chars:        103 =  17%
+        articles >   1400 chars:        101 =  16%
+        articles >   1500 chars:        101 =  16%
+
+        articles >    100 tokens:       132 =  21%
+        articles >    200 tokens:       114 =  18%
+        articles >    300 tokens:       104 =  17%
+        articles >    400 tokens:        98 =  16%
+        articles >    500 tokens:        86 =  14%
+        articles >    600 tokens:        82 =  13%
+        articles >    700 tokens:        77 =  12%
+        articles >    800 tokens:        71 =  11%
+        articles >    900 tokens:        66 =  11%
+        articles >   1000 tokens:        62 =  10%
+
+SNSS - Total number of articles:          9
+--------------------------------------------------
+        articles >    300 chars:          5 =  56%
+        articles >    400 chars:          3 =  33%
+        articles >    500 chars:          3 =  33%
+        articles >    600 chars:          2 =  22%
+        articles >    700 chars:          2 =  22%
+        articles >    800 chars:          2 =  22%
+        articles >    900 chars:          2 =  22%
+        articles >   1000 chars:          2 =  22%
+        articles >   1100 chars:          2 =  22%
+        articles >   1200 chars:          2 =  22%
+        articles >   1300 chars:          2 =  22%
+        articles >   1400 chars:          2 =  22%
+        articles >   1500 chars:          2 =  22%
+
+        articles >    100 tokens:         4 =  44%
+        articles >    200 tokens:         3 =  33%
+        articles >    300 tokens:         2 =  22%
+        articles >    400 tokens:         2 =  22%
+        articles >    500 tokens:         2 =  22%
+        articles >    600 tokens:         2 =  22%
+        articles >    700 tokens:         2 =  22%
+        articles >    800 tokens:         2 =  22%
+        articles >    900 tokens:         2 =  22%
+        articles >   1000 tokens:         2 =  22%
+
+ NS2 - Total number of articles:      18619
+--------------------------------------------------
+        articles >    300 chars:      12565 =  67%
+        articles >    400 chars:      12049 =  65%
+        articles >    500 chars:      11388 =  61%
+        articles >    600 chars:      10615 =  57%
+        articles >    700 chars:       9871 =  53%
+        articles >    800 chars:       9280 =  50%
+        articles >    900 chars:       8938 =  48%
+        articles >   1000 chars:       8685 =  47%
+        articles >   1100 chars:       8481 =  46%
+        articles >   1200 chars:       8309 =  45%
+        articles >   1300 chars:       8117 =  44%
+        articles >   1400 chars:       7923 =  43%
+        articles >   1500 chars:       7774 =  42%
+
+        articles >    100 tokens:     11673 =  63%
+        articles >    200 tokens:      8969 =  48%
+        articles >    300 tokens:      8002 =  43%
+        articles >    400 tokens:      7325 =  39%
+        articles >    500 tokens:      6763 =  36%
+        articles >    600 tokens:      6274 =  34%
+        articles >    700 tokens:      5848 =  31%
+        articles >    800 tokens:      5414 =  29%
+        articles >    900 tokens:      5051 =  27%
+        articles >   1000 tokens:      4694 =  25%
+
+ NS3 - Total number of articles:      16705
+--------------------------------------------------
+        articles >    300 chars:      11519 =  69%
+        articles >    400 chars:      11212 =  67%
+        articles >    500 chars:      10858 =  65%
+        articles >    600 chars:      10485 =  63%
+        articles >    700 chars:      10058 =  60%
+        articles >    800 chars:       9685 =  58%
+        articles >    900 chars:       9435 =  56%
+        articles >   1000 chars:       9165 =  55%
+        articles >   1100 chars:       8945 =  54%
+        articles >   1200 chars:       8742 =  52%
+        articles >   1300 chars:       8536 =  51%
+        articles >   1400 chars:       8316 =  50%
+        articles >   1500 chars:       8146 =  49%
+
+        articles >    100 tokens:     11011 =  66%
+        articles >    200 tokens:      9389 =  56%
+        articles >    300 tokens:      8381 =  50%
+        articles >    400 tokens:      7625 =  46%
+        articles >    500 tokens:      7005 =  42%
+        articles >    600 tokens:      6510 =  39%
+        articles >    700 tokens:      6014 =  36%
+        articles >    800 tokens:      5537 =  33%
+        articles >    900 tokens:      5151 =  31%
+        articles >   1000 tokens:      4787 =  29%
+
+ NS4 - Total number of articles:      14378
+--------------------------------------------------
+        articles >    300 chars:       9765 =  68%
+        articles >    400 chars:       9470 =  66%
+        articles >    500 chars:       9088 =  63%
+        articles >    600 chars:       8612 =  60%
+        articles >    700 chars:       8077 =  56%
+        articles >    800 chars:       7689 =  53%
+        articles >    900 chars:       7465 =  52%
+        articles >   1000 chars:       7296 =  51%
+        articles >   1100 chars:       7147 =  50%
+        articles >   1200 chars:       6997 =  49%
+        articles >   1300 chars:       6846 =  48%
+        articles >   1400 chars:       6702 =  47%
+        articles >   1500 chars:       6597 =  46%
+
+        articles >    100 tokens:      9258 =  64%
+        articles >    200 tokens:      7471 =  52%
+        articles >    300 tokens:      6741 =  47%
+        articles >    400 tokens:      6152 =  43%
+        articles >    500 tokens:      5689 =  40%
+        articles >    600 tokens:      5293 =  37%
+        articles >    700 tokens:      4962 =  35%
+        articles >    800 tokens:      4626 =  32%
+        articles >    900 tokens:      4290 =  30%
+        articles >   1000 tokens:      3990 =  28%
+
+ NS5 - Total number of articles:      12139
+--------------------------------------------------
+        articles >    300 chars:       8086 =  67%
+        articles >    400 chars:       7798 =  64%
+        articles >    500 chars:       7425 =  61%
+        articles >    600 chars:       6909 =  57%
+        articles >    700 chars:       6514 =  54%
+        articles >    800 chars:       6184 =  51%
+        articles >    900 chars:       5988 =  49%
+        articles >   1000 chars:       5825 =  48%
+        articles >   1100 chars:       5695 =  47%
+        articles >   1200 chars:       5590 =  46%
+        articles >   1300 chars:       5439 =  45%
+        articles >   1400 chars:       5312 =  44%
+        articles >   1500 chars:       5204 =  43%
+
+        articles >    100 tokens:      7567 =  62%
+        articles >    200 tokens:      5979 =  49%
+        articles >    300 tokens:      5338 =  44%
+        articles >    400 tokens:      4872 =  40%
+        articles >    500 tokens:      4509 =  37%
+        articles >    600 tokens:      4209 =  35%
+        articles >    700 tokens:      3943 =  32%
+        articles >    800 tokens:      3662 =  30%
+        articles >    900 tokens:      3431 =  28%
+        articles >   1000 tokens:      3203 =  26%
+
+ NS6 - Total number of articles:       1139
+--------------------------------------------------
+        articles >    300 chars:        821 =  72%
+        articles >    400 chars:        793 =  70%
+        articles >    500 chars:        733 =  64%
+        articles >    600 chars:        670 =  59%
+        articles >    700 chars:        596 =  52%
+        articles >    800 chars:        536 =  47%
+        articles >    900 chars:        504 =  44%
+        articles >   1000 chars:        481 =  42%
+        articles >   1100 chars:        467 =  41%
+        articles >   1200 chars:        459 =  40%
+        articles >   1300 chars:        446 =  39%
+        articles >   1400 chars:        436 =  38%
+        articles >   1500 chars:        427 =  37%
+
+        articles >    100 tokens:       745 =  65%
+        articles >    200 tokens:       499 =  44%
+        articles >    300 tokens:       438 =  38%
+        articles >    400 tokens:       392 =  34%
+        articles >    500 tokens:       371 =  33%
+        articles >    600 tokens:       349 =  31%
+        articles >    700 tokens:       326 =  29%
+        articles >    800 tokens:       310 =  27%
+        articles >    900 tokens:       301 =  26%
+        articles >   1000 tokens:       286 =  25%
+
+ NS7 - Total number of articles:        643
+--------------------------------------------------
+        articles >    300 chars:        427 =  66%
+        articles >    400 chars:        417 =  65%
+        articles >    500 chars:        397 =  62%
+        articles >    600 chars:        385 =  60%
+        articles >    700 chars:        363 =  56%
+        articles >    800 chars:        348 =  54%
+        articles >    900 chars:        342 =  53%
+        articles >   1000 chars:        330 =  51%
+        articles >   1100 chars:        327 =  51%
+        articles >   1200 chars:        319 =  50%
+        articles >   1300 chars:        310 =  48%
+        articles >   1400 chars:        302 =  47%
+        articles >   1500 chars:        293 =  46%
+
+        articles >    100 tokens:       402 =  63%
+        articles >    200 tokens:       338 =  53%
+        articles >    300 tokens:       298 =  46%
+        articles >    400 tokens:       276 =  43%
+        articles >    500 tokens:       258 =  40%
+        articles >    600 tokens:       235 =  37%
+        articles >    700 tokens:       218 =  34%
+        articles >    800 tokens:       202 =  31%
+        articles >    900 tokens:       189 =  29%
+        articles >   1000 tokens:       176 =  27%
+
+ NS8 - Total number of articles:        268
+--------------------------------------------------
+        articles >    300 chars:        185 =  69%
+        articles >    400 chars:        181 =  68%
+        articles >    500 chars:        180 =  67%
+        articles >    600 chars:        178 =  66%
+        articles >    700 chars:        172 =  64%
+        articles >    800 chars:        169 =  63%
+        articles >    900 chars:        162 =  60%
+        articles >   1000 chars:        157 =  59%
+        articles >   1100 chars:        153 =  57%
+        articles >   1200 chars:        151 =  56%
+        articles >   1300 chars:        143 =  53%
+        articles >   1400 chars:        141 =  53%
+        articles >   1500 chars:        137 =  51%
+
+        articles >    100 tokens:       180 =  67%
+        articles >    200 tokens:       161 =  60%
+        articles >    300 tokens:       139 =  52%
+        articles >    400 tokens:       127 =  47%
+        articles >    500 tokens:       116 =  43%
+        articles >    600 tokens:       109 =  41%
+        articles >    700 tokens:        98 =  37%
+        articles >    800 tokens:        93 =  35%
+        articles >    900 tokens:        89 =  33%
+        articles >   1000 tokens:        80 =  30%
+
+ NS9 - Total number of articles:         71
+--------------------------------------------------
+        articles >    300 chars:         46 =  65%
+        articles >    400 chars:         46 =  65%
+        articles >    500 chars:         45 =  63%
+        articles >    600 chars:         45 =  63%
+        articles >    700 chars:         41 =  58%
+        articles >    800 chars:         40 =  56%
+        articles >    900 chars:         38 =  54%
+        articles >   1000 chars:         38 =  54%
+        articles >   1100 chars:         38 =  54%
+        articles >   1200 chars:         38 =  54%
+        articles >   1300 chars:         36 =  51%
+        articles >   1400 chars:         35 =  49%
+        articles >   1500 chars:         34 =  48%
+
+        articles >    100 tokens:        45 =  63%
+        articles >    200 tokens:        38 =  54%
+        articles >    300 tokens:        34 =  48%
+        articles >    400 tokens:        33 =  46%
+        articles >    500 tokens:        29 =  41%
+        articles >    600 tokens:        26 =  37%
+        articles >    700 tokens:        26 =  37%
+        articles >    800 tokens:        22 =  31%
+        articles >    900 tokens:        22 =  31%
+        articles >   1000 tokens:        19 =  27%
+
+FTEC - Total number of articles:         27
+--------------------------------------------------
+        articles >    300 chars:         12 =  44%
+        articles >    400 chars:          9 =  33%
+        articles >    500 chars:          9 =  33%
+        articles >    600 chars:          7 =  26%
+        articles >    700 chars:          7 =  26%
+        articles >    800 chars:          7 =  26%
+        articles >    900 chars:          6 =  22%
+        articles >   1000 chars:          4 =  15%
+        articles >   1100 chars:          2 =   7%
+        articles >   1200 chars:          1 =   4%
+        articles >   1300 chars:          1 =   4%
+        articles >   1400 chars:          0 =   0%
+        articles >   1500 chars:          0 =   0%
+
+        articles >    100 tokens:        10 =  37%
+        articles >    200 tokens:         6 =  22%
+        articles >    300 tokens:         3 =  11%
+        articles >    400 tokens:         2 =   7%
+        articles >    500 tokens:         0 =   0%
+        articles >    600 tokens:         0 =   0%
+        articles >    700 tokens:         0 =   0%
+        articles >    800 tokens:         0 =   0%
+        articles >    900 tokens:         0 =   0%
+        articles >   1000 tokens:         0 =   0%
+
+TTEC - Total number of articles:        988
+--------------------------------------------------
+        articles >    300 chars:         83 =   8%
+        articles >    400 chars:         77 =   8%
+        articles >    500 chars:         68 =   7%
+        articles >    600 chars:         59 =   6%
+        articles >    700 chars:         59 =   6%
+        articles >    800 chars:         58 =   6%
+        articles >    900 chars:         58 =   6%
+        articles >   1000 chars:         56 =   6%
+        articles >   1100 chars:         56 =   6%
+        articles >   1200 chars:         56 =   6%
+        articles >   1300 chars:         55 =   6%
+        articles >   1400 chars:         55 =   6%
+        articles >   1500 chars:         54 =   5%
+
+        articles >    100 tokens:        96 =  10%
+        articles >    200 tokens:        72 =   7%
+        articles >    300 tokens:        60 =   6%
+        articles >    400 tokens:        56 =   6%
+        articles >    500 tokens:        53 =   5%
+        articles >    600 tokens:        52 =   5%
+        articles >    700 tokens:        52 =   5%
+        articles >    800 tokens:        52 =   5%
+        articles >    900 tokens:        51 =   5%
+        articles >   1000 tokens:        50 =   5%
+
+ATTW - Total number of articles:        103
+--------------------------------------------------
+        articles >    300 chars:         33 =  32%
+        articles >    400 chars:         27 =  26%
+        articles >    500 chars:         25 =  24%
+        articles >    600 chars:         23 =  22%
+        articles >    700 chars:         22 =  21%
+        articles >    800 chars:         22 =  21%
+        articles >    900 chars:         21 =  20%
+        articles >   1000 chars:         18 =  17%
+        articles >   1100 chars:         18 =  17%
+        articles >   1200 chars:         17 =  17%
+        articles >   1300 chars:         17 =  17%
+        articles >   1400 chars:         17 =  17%
+        articles >   1500 chars:         17 =  17%
+
+        articles >    100 tokens:        27 =  26%
+        articles >    200 tokens:        21 =  20%
+        articles >    300 tokens:        17 =  17%
+        articles >    400 tokens:        16 =  16%
+        articles >    500 tokens:        13 =  13%
+        articles >    600 tokens:        12 =  12%
+        articles >    700 tokens:        10 =  10%
+        articles >    800 tokens:         8 =   8%
+        articles >    900 tokens:         7 =   7%
+        articles >   1000 tokens:         7 =   7%
+
+ETTW - Total number of articles:         27
+--------------------------------------------------
+        articles >    300 chars:          6 =  22%
+        articles >    400 chars:          6 =  22%
+        articles >    500 chars:          6 =  22%
+        articles >    600 chars:          6 =  22%
+        articles >    700 chars:          6 =  22%
+        articles >    800 chars:          6 =  22%
+        articles >    900 chars:          6 =  22%
+        articles >   1000 chars:          6 =  22%
+        articles >   1100 chars:          6 =  22%
+        articles >   1200 chars:          6 =  22%
+        articles >   1300 chars:          6 =  22%
+        articles >   1400 chars:          6 =  22%
+        articles >   1500 chars:          6 =  22%
+
+        articles >    100 tokens:         6 =  22%
+        articles >    200 tokens:         6 =  22%
+        articles >    300 tokens:         6 =  22%
+        articles >    400 tokens:         6 =  22%
+        articles >    500 tokens:         6 =  22%
+        articles >    600 tokens:         6 =  22%
+        articles >    700 tokens:         6 =  22%
+        articles >    800 tokens:         6 =  22%
+        articles >    900 tokens:         6 =  22%
+        articles >   1000 tokens:         6 =  22%
+
+FTTW - Total number of articles:         50
+--------------------------------------------------
+        articles >    300 chars:          8 =  16%
+        articles >    400 chars:          8 =  16%
+        articles >    500 chars:          8 =  16%
+        articles >    600 chars:          8 =  16%
+        articles >    700 chars:          8 =  16%
+        articles >    800 chars:          8 =  16%
+        articles >    900 chars:          8 =  16%
+        articles >   1000 chars:          8 =  16%
+        articles >   1100 chars:          7 =  14%
+        articles >   1200 chars:          7 =  14%
+        articles >   1300 chars:          7 =  14%
+        articles >   1400 chars:          7 =  14%
+        articles >   1500 chars:          7 =  14%
+
+        articles >    100 tokens:         8 =  16%
+        articles >    200 tokens:         8 =  16%
+        articles >    300 tokens:         8 =  16%
+        articles >    400 tokens:         8 =  16%
+        articles >    500 tokens:         8 =  16%
+        articles >    600 tokens:         5 =  10%
+        articles >    700 tokens:         2 =   4%
+        articles >    800 tokens:         2 =   4%
+        articles >    900 tokens:         1 =   2%
+        articles >   1000 tokens:         1 =   2%
+

@@ -1,0 +1,15 @@
+In the build.xml file, change gate.home property according to your specific path.
+
+try the following steps in shell:
+
+cd to mining
+ant clean dist
+sh dist/bin/corpusreport.sh -g application/annie.gapp -d report -a Person -a Organization -a Date -a Location corpusxmlfaid
+
+mining/appliation folder should contain a valid application *.gapp file that should be passed as argument after option -a. The .gapp application can be made using GATE GUI and thats a one-time process.
+
+mining folder should contain a folder named "report" or anything named with the argument passed after option -d.
+
+The annotation sets you want to find out should come after option -a for each types.
+
+The source folder/directory comes after everything else. You can give more than one directory or files one by one using spaces. 

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE root SYSTEM "subjectsAC.dtd">
+<root>
+<SubjectNames id="107" Name="Anti-slavery"/>
+<SubjectNames id="111" Name="Anthropology"/>
+<SubjectNames id="120" Name="Children&apos;s literature"/>
+<SubjectNames id="122" Name="Art"/>
+<SubjectNames id="128" Name="Catholicism"/>
+<SubjectNames id="129" Name="Children"/>
+<SubjectNames id="131" Name="Christian missions"/>
+<SubjectNames id="133" Name="Arminianism"/>
+<SubjectNames id="134" Name="Christian mission"/>
+<SubjectNames id="139" Name="Bible"/>
+<SubjectNames id="145" Name="Clergy"/>
+<SubjectNames id="146" Name="Agnosticism"/>
+<SubjectNames id="148" Name="Baptist"/>
+<SubjectNames id="154" Name="Choir"/>
+<SubjectNames id="156" Name="Aborigines"/>
+<SubjectNames id="166" Name="Christianity"/>
+<SubjectNames id="169" Name="Calvinism"/>
+<SubjectNames id="173" Name="Business"/>
+<SubjectNames id="174" Name="Administration"/>
+<SubjectNames id="177" Name="Asia"/>
+<SubjectNames id="178" Name="Archaeology"/>
+<SubjectNames id="182" Name="Commercial"/>
+<SubjectNames id="184" Name="Architecture"/>
+<SubjectNames id="185" Name="Antiquities"/>
+<SubjectNames id="187" Name="Archaology"/>
+<SubjectNames id="188" Name="Ancient civilizations"/>
+<SubjectNames id="194" Name="Advertising"/>
+<SubjectNames id="206" Name="Crafts"/>
+<SubjectNames id="209" Name="Architecture art"/>
+<SubjectNames id="221" Name="Agriculture"/>
+<SubjectNames id="229" Name="Catholic Church"/>
+<SubjectNames id="231" Name="Congregationalism"/>
+<SubjectNames id="237" Name="America"/>
+<SubjectNames id="240" Name="Churches"/>
+<SubjectNames id="242" Name="Classical Music"/>
+<SubjectNames id="243" Name="Church"/>
+<SubjectNames id="244" Name="Africa"/>
+<SubjectNames id="254" Name="Composition"/>
+<SubjectNames id="260" Name="Charities"/>
+<SubjectNames id="264" Name="Biography"/>
+<SubjectNames id="268" Name="Athletics"/>
+<SubjectNames id="270" Name="Amusements"/>
+<SubjectNames id="273" Name="Christianity Parish government &amp; administration"/>
+<SubjectNames id="276" Name="Court"/>
+<SubjectNames id="278" Name="Apologetics"/>
+<SubjectNames id="290" Name="Botany"/>
+<SubjectNames id="291" Name="Biology"/>
+<SubjectNames id="292" Name="Architectural"/>
+<SubjectNames id="293" Name="Chemistry"/>
+<SubjectNames id="302" Name="Amusements of the Month"/>
+<SubjectNames id="305" Name="Country life"/>
+<SubjectNames id="322" Name="Co of - directories"/>
+<SubjectNames id="324" Name="Carlow"/>
+<SubjectNames id="325" Name="Co of directories"/>
+<SubjectNames id="326" Name="Cavan"/>
+<SubjectNames id="327" Name="Clare"/>
+<SubjectNames id="328" Name="Cork"/>
+<SubjectNames id="331" Name="Co of - direct"/>
+<SubjectNames id="334" Name="Annual reports"/>
+<SubjectNames id="349" Name="Church history"/>
+<SubjectNames id="350" Name="Book reviews"/>
+<SubjectNames id="361" Name="Botanical"/>
+<SubjectNames id="376" Name="Almanacs"/>
+<SubjectNames id="378" Name="Calendars"/>
+<SubjectNames id="380" Name="Anecdotes"/>
+<SubjectNames id="381" Name="Astronomy"/>
+<SubjectNames id="382" Name="Banks and banking"/>
+<SubjectNames id="383" Name="Cattle"/>
+<SubjectNames id="390" Name="Bicycles and bicycling"/>
+<SubjectNames id="396" Name="Aberdeen - directories"/>
+<SubjectNames id="397" Name="Banff - directories"/>
+<SubjectNames id="408" Name="Burgh - directories"/>
+<SubjectNames id="412" Name="Commerce"/>
+<SubjectNames id="418" Name="Clubs"/>
+<SubjectNames id="421" Name="Addresses"/>
+<SubjectNames id="435" Name="Church and education"/>
+<SubjectNames id="437" Name="Church work"/>
+<SubjectNames id="438" Name="Anatomy"/>
+<SubjectNames id="443" Name="Building"/>
+<SubjectNames id="445" Name="Civil rights"/>
+<SubjectNames id="446" Name="Church of Scotland"/>
+<SubjectNames id="450" Name="Celts"/>
+<SubjectNames id="451" Name="Alnwick - clubs"/>
+<SubjectNames id="453" Name="Birds"/>
+<SubjectNames id="461" Name="Agriculture - societies"/>
+<SubjectNames id="463" Name="Animals"/>
+<SubjectNames id="469" Name="Children - literature"/>
+<SubjectNames id="470" Name="Children - magazines"/>
+<SubjectNames id="471" Name="Children - periodicals"/>
+<SubjectNames id="473" Name="Bible - study"/>
+<SubjectNames id="474" Name="Bible - criticism"/>
+<SubjectNames id="476" Name="Church and social problems"/>
+<SubjectNames id="480" Name="Asylums"/>
+<SubjectNames id="481" Name="Crichton - asylums"/>
+<SubjectNames id="484" Name="Arts"/>
+<SubjectNames id="488" Name="Associations"/>
+<SubjectNames id="493" Name="Criticism"/>
+<SubjectNames id="496" Name="Agricultural - yearbooks"/>
+<SubjectNames id="498" Name="Children - religious literature"/>
+<SubjectNames id="1270" Name="Abolition of Slavery"/>
+<SubjectNames id="1271" Name="Abstinence"/>
+<SubjectNames id="1272" Name="Accidents"/>
+<SubjectNames id="1273" Name="Accounting"/>
+<SubjectNames id="1274" Name="Acting"/>
+<SubjectNames id="1275" Name="Actors"/>
+<SubjectNames id="1276" Name="Actresses"/>
+<SubjectNames id="1277" Name="Amateur theatricals"/>
+<SubjectNames id="1278" Name="Actor"/>
+<SubjectNames id="1279" Name="Civil Service"/>
+<SubjectNames id="1280" Name="Adventure"/>
+<SubjectNames id="1283" Name="Aeronautics"/>
+<SubjectNames id="1285" Name="Agricultural policy"/>
+<SubjectNames id="1286" Name="Agricultural products"/>
+<SubjectNames id="1288" Name="Agriculture - annual reports"/>
+<SubjectNames id="1289" Name="Agriculture - study and teaching"/>
+<SubjectNames id="1291" Name="Arboriculture"/>
+<SubjectNames id="1295" Name="Agriculture - tenant farming"/>
+<SubjectNames id="1300" Name="Ancestry"/>
+<SubjectNames id="1302" Name="Church of England"/>
+<SubjectNames id="1303" Name="Animals, Diseases"/>
+<SubjectNames id="1304" Name="Annals"/>
+<SubjectNames id="1305" Name="Antiques"/>
+<SubjectNames id="1306" Name="Antislavery"/>
+<SubjectNames id="1307" Name="Apothecaries"/>
+<SubjectNames id="1308" Name="Applied Science"/>
+<SubjectNames id="1309" Name="Apprentices"/>
+<SubjectNames id="1314" Name="Architectural engineering"/>
+<SubjectNames id="1315" Name="Church architecture"/>
+<SubjectNames id="1316" Name="Architecture, Ecclesiastical"/>
+<SubjectNames id="1317" Name="Archives"/>
+<SubjectNames id="1320" Name="Artillery"/>
+<SubjectNames id="1322" Name="Art - galleries"/>
+<SubjectNames id="1323" Name="Art - museums"/>
+<SubjectNames id="1324" Name="Art - teaching and study"/>
+<SubjectNames id="1325" Name="Art exhibitions"/>
+<SubjectNames id="1326" Name="Artists"/>
+<SubjectNames id="1329" Name="Assurance"/>
+<SubjectNames id="1332" Name="Atlases"/>
+<SubjectNames id="1333" Name="Auctions"/>
+<SubjectNames id="1334" Name="Australia"/>
+<SubjectNames id="1335" Name="Authors"/>
+<SubjectNames id="1336" Name="Autographs"/>
+<SubjectNames id="1337" Name="Automobiles"/>
+<SubjectNames id="1338" Name="Bakeries"/>
+<SubjectNames id="1339" Name="Ballot"/>
+<SubjectNames id="1340" Name="Banks &amp; banking"/>
+<SubjectNames id="1342" Name="Bar"/>
+<SubjectNames id="1344" Name="Barbering"/>
+<SubjectNames id="1345" Name="Baronage"/>
+<SubjectNames id="1346" Name="Barristers"/>
+<SubjectNames id="1347" Name="Bars"/>
+<SubjectNames id="1348" Name="Bazaars"/>
+<SubjectNames id="1349" Name="Beer"/>
+<SubjectNames id="1350" Name="Belgium"/>
+<SubjectNames id="1351" Name="Belles lettres"/>
+<SubjectNames id="1352" Name="Bible - criticism, interpretation"/>
+<SubjectNames id="1353" Name="Bible associations"/>
+<SubjectNames id="1355" Name="Bicycles"/>
+<SubjectNames id="1356" Name="Billiards"/>
+<SubjectNames id="1358" Name="Blind"/>
+<SubjectNames id="1359" Name="Boards of trade"/>
+<SubjectNames id="1360" Name="Chambers of commerce"/>
+<SubjectNames id="1361" Name="Boat"/>
+<SubjectNames id="1362" Name="Bohemia"/>
+<SubjectNames id="1363" Name="Bonds"/>
+<SubjectNames id="1365" Name="Booksellers and bookselling"/>
+<SubjectNames id="1366" Name="Catalogues"/>
+<SubjectNames id="1367" Name="Bowling"/>
+<SubjectNames id="1368" Name="Boxing"/>
+<SubjectNames id="1369" Name="Breeding"/>
+<SubjectNames id="1370" Name="Brethren"/>
+<SubjectNames id="1371" Name="Bricklaying"/>
+<SubjectNames id="1372" Name="Carpentry"/>
+<SubjectNames id="1373" Name="Buses"/>
+<SubjectNames id="1374" Name="Banks ..."/>
+<SubjectNames id="1375" Name="Campaigns, Political"/>
+<SubjectNames id="1376" Name="Canada"/>
+<SubjectNames id="1377" Name="Canals"/>
+<SubjectNames id="1379" Name="Booksellers &amp; bookselling"/>
+<SubjectNames id="1381" Name="Caterers and catering"/>
+<SubjectNames id="1382" Name="Cathedrals"/>
+<SubjectNames id="1383" Name="Catholic Church - clergy"/>
+<SubjectNames id="1384" Name="Catholic Church - education"/>
+<SubjectNames id="1385" Name="Catholic Church - history"/>
+<SubjectNames id="1386" Name="Catholic Church - societies"/>
+<SubjectNames id="1387" Name="Catholic literature"/>
+<SubjectNames id="1388" Name="Catholic Church - missions"/>
+<SubjectNames id="1389" Name="Cats"/>
+<SubjectNames id="500" Name="Catholic"/>
+<SubjectNames id="502" Name="Courts"/>
+<SubjectNames id="503" Name="Crime and criminals"/>
+<SubjectNames id="504" Name="Criminal law"/>
+<SubjectNames id="505" Name="Advertisement sheet"/>
+<SubjectNames id="520" Name="Bankruptcy"/>
+<SubjectNames id="523" Name="Baptists"/>
+<SubjectNames id="526" Name="Christian life"/>
+<SubjectNames id="534" Name="Bakeries and baking"/>
+<SubjectNames id="536" Name="Business and industry - annual reports"/>
+<SubjectNames id="537" Name="Adventure and adventurers"/>
+<SubjectNames id="541" Name="British butterflies"/>
+<SubjectNames id="545" Name="Arionidae"/>
+<SubjectNames id="551" Name="Botanical science"/>
+<SubjectNames id="554" Name="Biological science"/>
+<SubjectNames id="557" Name="Archeology"/>
+<SubjectNames id="558" Name="Anglo-Saxon antiquities"/>
+<SubjectNames id="563" Name="Curiosities of nature and art"/>
+<SubjectNames id="567" Name="British fossils"/>
+<SubjectNames id="568" Name="Book making and selling"/>
+<SubjectNames id="570" Name="Bibliographical notes"/>
+<SubjectNames id="572" Name="Architecture and antiquities"/>
+<SubjectNames id="574" Name="Antiquaries"/>
+<SubjectNames id="579" Name="Animal parasites"/>
+<SubjectNames id="581" Name="Astronomic meteorology"/>
+<SubjectNames id="585" Name="Archaelogoy of the district"/>
+<SubjectNames id="586" Name="Astro-meteorology"/>
+<SubjectNames id="587" Name="Astrology"/>
+<SubjectNames id="589" Name="Antiquarian science"/>
+<SubjectNames id="590" Name="Bible - societies"/>
+<SubjectNames id="591" Name="Church schools"/>
+<SubjectNames id="596" Name="Co of - annuals"/>
+<SubjectNames id="597" Name="Ballads"/>
+<SubjectNames id="614" Name="Banff"/>
+<SubjectNames id="616" Name="Carlisle - societies"/>
+<SubjectNames id="618" Name="China"/>
+<SubjectNames id="625" Name="Builders"/>
+<SubjectNames id="631" Name="Conchology"/>
+<SubjectNames id="633" Name="Co-operative"/>
+<SubjectNames id="636" Name="Biographies"/>
+<SubjectNames id="637" Name="Angling"/>
+<SubjectNames id="638" Name="Cricket"/>
+<SubjectNames id="647" Name="Current affairs"/>
+<SubjectNames id="649" Name="Anarchism"/>
+<SubjectNames id="651" Name="Crime"/>
+<SubjectNames id="654" Name="Art criticism"/>
+<SubjectNames id="655" Name="Art and literary review"/>
+<SubjectNames id="659" Name="Chartist"/>
+<SubjectNames id="662" Name="Correspondence"/>
+<SubjectNames id="673" Name="Agricultural information"/>
+<SubjectNames id="674" Name="Commercial matter."/>
+<SubjectNames id="678" Name="Board game"/>
+<SubjectNames id="683" Name="Alcoholism"/>
+<SubjectNames id="696" Name="Compagnies territoriales financieres et d&apos;exploration Sud-Africaines"/>
+<SubjectNames id="707" Name="Calendar"/>
+<SubjectNames id="708" Name="Church and general information"/>
+<SubjectNames id="709" Name="Charitiesà"/>
+<SubjectNames id="718" Name="Blasphemy"/>
+<SubjectNames id="720" Name="Culm and cinders"/>
+<SubjectNames id="725" Name="Crystallography"/>
+<SubjectNames id="727" Name="Artifacts"/>
+<SubjectNames id="732" Name="Business markets"/>
+<SubjectNames id="739" Name="Antiquary"/>
+<SubjectNames id="746" Name="Alcohol"/>
+<SubjectNames id="749" Name="Co-operation"/>
+<SubjectNames id="750" Name="African culture"/>
+<SubjectNames id="751" Name="Animal activism"/>
+<SubjectNames id="756" Name="Bills"/>
+<SubjectNames id="757" Name="Births"/>
+<SubjectNames id="762" Name="African heritage"/>
+<SubjectNames id="767" Name="Aristocracy"/>
+<SubjectNames id="779" Name="Commercial affairs"/>
+<SubjectNames id="782" Name="Ants"/>
+<SubjectNames id="786" Name="Agitation"/>
+<SubjectNames id="789" Name="Baking"/>
+<SubjectNames id="790" Name="Brewing"/>
+<SubjectNames id="793" Name="Cookery"/>
+<SubjectNames id="796" Name="Ancient Greece"/>
+<SubjectNames id="798" Name="British empire"/>
+<SubjectNames id="800" Name="Constitution"/>
+<SubjectNames id="802" Name="Chinese history"/>
+<SubjectNames id="803" Name="Criminals"/>
+<SubjectNames id="806" Name="British constitution"/>
+<SubjectNames id="807" Name="Agriculture-leisure"/>
+<SubjectNames id="808" Name="Books"/>
+<SubjectNames id="812" Name="Congress"/>
+<SubjectNames id="814" Name="Baptist Societies"/>
+<SubjectNames id="818" Name="Cash account"/>
+<SubjectNames id="829" Name="Agents"/>
+<SubjectNames id="844" Name="Biographical sketches of deceased ministers"/>
+<SubjectNames id="845" Name="And other denominational intelligence. Together with the usual almanacs information"/>
+<SubjectNames id="851" Name="Cash account for farmers"/>
+<SubjectNames id="853" Name="Church information"/>
+<SubjectNames id="854" Name="Charitable institutions"/>
+<SubjectNames id="861" Name="Cab fares"/>
+<SubjectNames id="863" Name="Biblical information"/>
+<SubjectNames id="867" Name="Bookbinding"/>
+<SubjectNames id="877" Name="Baptisms"/>
+<SubjectNames id="878" Name="Christenings"/>
+<SubjectNames id="879" Name="Burials"/>
+<SubjectNames id="882" Name="Accounts of club activities"/>
+<SubjectNames id="883" Name="Bibliography"/>
+<SubjectNames id="885" Name="Banks"/>
+<SubjectNames id="897" Name="Coal"/>
+<SubjectNames id="899" Name="Bark"/>
+<SubjectNames id="900" Name="And the weekly averages. Weekly calendars of gardening operations"/>
+<SubjectNames id="904" Name="Clergy information"/>
+<SubjectNames id="906" Name="Boys"/>
+<SubjectNames id="924" Name="Bees"/>
+<SubjectNames id="932" Name="Advice"/>
+<SubjectNames id="933" Name="Companion to Calendar"/>
+<SubjectNames id="938" Name="Counties"/>
+<SubjectNames id="942" Name="Berkshire"/>
+<SubjectNames id="943" Name="Buckinghamshire"/>
+<SubjectNames id="946" Name="Charities - London"/>
+<SubjectNames id="947" Name="Charity"/>
+<SubjectNames id="949" Name="Comic"/>
+<SubjectNames id="950" Name="Bachelor"/>
+<SubjectNames id="956" Name="Anglican Church"/>
+<SubjectNames id="964" Name="Astronomical Ephemeris"/>
+<SubjectNames id="966" Name="Britain"/>
+<SubjectNames id="969" Name="Army"/>
+<SubjectNames id="972" Name="Business Directory"/>
+<SubjectNames id="976" Name="Architect"/>
+<SubjectNames id="979" Name="Christian teaching"/>
+<SubjectNames id="981" Name="County"/>
+<SubjectNames id="988" Name="British Law"/>
+<SubjectNames id="994" Name="Bankers in London"/>
+<SubjectNames id="1004" Name="Baptist information"/>
+<SubjectNames id="1008" Name="Books published by B.D. Cousins"/>
+<SubjectNames id="1009" Name="Agricultural statistics"/>
+<SubjectNames id="1018" Name="Chapel directory"/>
+<SubjectNames id="1030" Name="Banking Directory"/>
+<SubjectNames id="1034" Name="Biblical quotations."/>
+<SubjectNames id="1036" Name="Biblical"/>
+<SubjectNames id="1037" Name="Almanacs with calendar"/>
+<SubjectNames id="1039" Name="Church history of Lichfield"/>
+<SubjectNames id="1047" Name="Cash book"/>
+<SubjectNames id="1049" Name="Bridge - building"/>
+<SubjectNames id="1058" Name="Correct tables of stamps and taxes"/>
+<SubjectNames id="1075" Name="Bradford general information"/>
+<SubjectNames id="1078" Name="Cash memoranda"/>
+<SubjectNames id="1081" Name="Colleges and halls"/>
+<SubjectNames id="1089" Name="Business diary"/>
+<SubjectNames id="1090" Name="Church almanacs"/>
+<SubjectNames id="1093" Name="Brewing and general information"/>
+<SubjectNames id="1094" Name="Christian information"/>
+<SubjectNames id="1099" Name="Biographical sketches with illustrations"/>
+<SubjectNames id="1104" Name="Church Organizations"/>
+<SubjectNames id="1105" Name="Church Societies"/>
+<SubjectNames id="1107" Name="Astronomical information"/>
+<SubjectNames id="1108" Name="Astral Science"/>
+<SubjectNames id="1109" Name="Comedy"/>
+<SubjectNames id="1118" Name="Accountancy"/>
+<SubjectNames id="1119" Name="Birmingham information"/>
+<SubjectNames id="1123" Name="College information"/>
+<SubjectNames id="1131" Name="Chronological history of Manchester"/>
+<SubjectNames id="1135" Name="Bristol"/>
+<SubjectNames id="1137" Name="Almanacs with general information and advice"/>
+<SubjectNames id="1140" Name="African information"/>
+<SubjectNames id="1143" Name="Commercial information"/>
+<SubjectNames id="1144" Name="Bury information"/>
+<SubjectNames id="1173" Name="Christian readings and Scripture readings"/>
+<SubjectNames id="1179" Name="Church news"/>
+<SubjectNames id="1191" Name="Christian"/>
+<SubjectNames id="1196" Name="Agricultural Machinery"/>
+<SubjectNames id="1202" Name="California"/>
+<SubjectNames id="1215" Name="British Universities"/>
+<SubjectNames id="1244" Name="Cartography"/>
+<SubjectNames id="1254" Name="Cooking"/>
+<SubjectNames id="1260" Name="Classical studies"/>
+<SubjectNames id="1261" Name="Arms and armor"/>
+<SubjectNames id="1264" Name="Comics"/>
+<SubjectNames id="1390" Name="Celts literature"/>
+<SubjectNames id="1391" Name="Cemeteries"/>
+<SubjectNames id="1396" Name="Chartism"/>
+<SubjectNames id="1398" Name="Checkers"/>
+<SubjectNames id="1400" Name="Chemicals"/>
+<SubjectNames id="1402" Name="Chemistry, Medical and Pharmaceutical"/>
+<SubjectNames id="1404" Name="Chess"/>
+<SubjectNames id="1405" Name="Children - charities"/>
+<SubjectNames id="1406" Name="Children - diseases"/>
+<SubjectNames id="1408" Name="Children - education"/>
+<SubjectNames id="1410" Name="Children - hospitals"/>
+<SubjectNames id="1411" Name="Children - protection"/>
+<SubjectNames id="1412" Name="Children - religious life"/>
+<SubjectNames id="1413" Name="Christadelphianism"/>
+<SubjectNames id="1414" Name="Christian doctrine"/>
+<SubjectNames id="1415" Name="Christian education"/>
+<SubjectNames id="1418" Name="Christian literature"/>
+<SubjectNames id="1419" Name="Christianity and politics"/>
+<SubjectNames id="1420" Name="Christianity and Literature"/>
+<SubjectNames id="1421" Name="Christianity - evidences"/>
+<SubjectNames id="1422" Name="Christmas"/>
+<SubjectNames id="1423" Name="Archit., Ecclesiast"/>
+<SubjectNames id="1424" Name="Church furniture"/>
+<SubjectNames id="1425" Name="Church finance"/>
+<SubjectNames id="1426" Name="Church music"/>
+<SubjectNames id="1429" Name="Church service books"/>
+<SubjectNames id="1430" Name="Church unity"/>
+<SubjectNames id="1431" Name="Churchyards"/>
+<SubjectNames id="1432" Name="City government"/>
+<SubjectNames id="1433" Name="Civil engineering"/>
+<SubjectNames id="1436" Name="Clans"/>
+<SubjectNames id="1437" Name="Classes"/>
+<SubjectNames id="1438" Name="Cleanliness"/>
+<SubjectNames id="1440" Name="Clerks"/>
+<SubjectNames id="1441" Name="Cloth"/>
+<SubjectNames id="1443" Name="Clothing"/>
+<SubjectNames id="1446" Name="Coast Guard"/>
+<SubjectNames id="1447" Name="Coffee houses"/>
+<SubjectNames id="1448" Name="College journalism"/>
+<SubjectNames id="1449" Name="College periodicals"/>
+<SubjectNames id="1450" Name="Colleges"/>
+<SubjectNames id="1451" Name="Colonies"/>
+<SubjectNames id="1453" Name="Banks..."/>
+<SubjectNames id="1454" Name="Chambers of com."/>
+<SubjectNames id="1455" Name="Commercial employees"/>
+<SubjectNames id="1456" Name="Companies"/>
+<SubjectNames id="1457" Name="Corporations"/>
+<SubjectNames id="1458" Name="Composition printing"/>
+<SubjectNames id="1460" Name="Conservative Party"/>
+<SubjectNames id="1461" Name="Construction"/>
+<SubjectNames id="1462" Name="Contagious diseases"/>
+<SubjectNames id="1463" Name="Communicable diseases"/>
+<SubjectNames id="1465" Name="Corn"/>
+<SubjectNames id="1466" Name="Corn laws"/>
+<SubjectNames id="1467" Name="Correctional institutions"/>
+<SubjectNames id="1471" Name="County government"/>
+<SubjectNames id="1472" Name="County officers"/>
+<SubjectNames id="1474" Name="Credit"/>
+<SubjectNames id="1475" Name="Crests"/>
+<SubjectNames id="1477" Name="Crops"/>
+<SubjectNames id="1478" Name="Cruelty to children"/>
+<SubjectNames id="1479" Name="Curates"/>
+<SubjectNames id="1480" Name="Curling"/>
+<SubjectNames id="1481" Name="Current Events"/>
+<SubjectNames id="1482" Name="Customs, Social"/>
+<SubjectNames id="1485" Name="Cattle Home economics"/>
+<SubjectNames id="1508" Name="Amat. theatric."/>
+<SubjectNames id="1526" Name="Church &amp; education"/>
+<SubjectNames id="1538" Name="Agricultural engineering"/>
+<SubjectNames id="1539" Name="Archit. eng"/>
+<SubjectNames id="1540" Name="Civil eng"/>
+<SubjectNames id="1600" Name="Clothing ..."/>
+<SubjectNames id="1621" Name="Agri.-tenant farm..."/>
+<SubjectNames id="1622" Name="Agri.-Economics"/>
+<SubjectNames id="1630" Name="Catholic lit."/>
+<SubjectNames id="1680" Name="Child - charities"/>
+<SubjectNames id="1724" Name="Children - relig lit"/>
+<SubjectNames id="1746" Name="And Adventure and adventures"/>
+<SubjectNames id="1765" Name="Children - religious lit."/>
+</root>

@@ -1,0 +1,40 @@
+/*
+. class
+# id
+*/
+/*
+ example:
+http://localhost/projects/cch/ncse/tm/pt/CSSVERS/LDR/1854/05/13/12/Ar01201_Ar01300.html
+*/
+.unknown
+{
+    color: firebrick;
+}
+.person
+{
+    color: darkgreen;
+    background-color: khaki;
+    font-weight: bold;
+}
+.persontitle
+{
+    color: darkgreen;
+    background-color: lemonchiffon;
+}
+.title
+{
+    color: darkgreen;
+    background-color: lemonchiffon;
+}
+.organisation
+{
+    color: darkblue;
+    background-color: powderblue;
+}
+.location
+{
+    color: saddlebrown;
+    background-color: moccasin;
+}
+
+

@@ -1,0 +1,927 @@
+NA		NA	2		C	NA	V			1000000	TGN Root	0	N	O
+NA		NA	1		C	NA	P			1000000	Top of the TGN hierarchy	1001175657	N	O
+NA		NA	1		C	NA	P			1000003	Europe	3	N	O
+NA		NA	2		C	NA	V			1000003	Europa	138465	N	O
+NA		NA	3		C	NA	V			1000003	European	1159543	A	O
+NA		NA	3		C	NA	V			1000080	Repubblica Italiana	322851	N	V
+NA		NA	15		H	NA	V			1000080	Esperia	327996	N	V
+NA		NA	12		C	ISO2L	V			1000080	IT	1156674	N	O
+NA		NA	13		C	ISO3N	V			1000080	ISO380	1156675	N	O
+NA		NA	14		C	FIPS	V			1000080	IT00	1158190	N	O
+NA		NA	16		C	NA	V			1000080	Italian	1159389	A	O
+NA		NA	4		C	NA	V			1000080	Italy	109	N	O
+NA	Roman name; is also modern Italian name	NA	1	9999	C	NA	P		-500	1000080	Italia	110	N	V
+NA		NA	10		C	NA	V			1000080	Itali$04e	138641	N	O
+NA		NA	6		C	NA	V			1000080	Italie	138642	N	O
+NA		NA	8		C	NA	V			1000080	Italien	138643	N	O
+NA		NA	9		C	NA	V			1000080	It$00alia	182800	N	O
+NA		NA	2		C	O	V			1000080	Repubblica italiana	182801	N	V
+NA		NA	5		C	NA	V			1000080	Italian Republic	182802	N	O
+NA		NA	11		C	ISO3L	V			1000080	ITA	182805	N	O
+NA		NA	7		C	NA	V			1000080	R$00epublique italienne	182806	N	O
+NA		NA	1		C	NA	P			1003460	Grosseto	3625	N	V
+NA		Y	3		C	NA	V			1003460	Grosseto province	182745	N	O
+NA		NA	2		C	NA	V			1003460	Grosseto, Provincia di	352792	N	V
+NA		NA	1		C	NA	P			1003473	Massa-Carrara	3638	N	V
+NA		Y	3		C	NA	V			1003473	Massa-Carrara province	141375	N	O
+NA		NA	2		C	NA	V			1003473	Massa-Carrara, Provincia di	352837	N	V
+NA		NA	1		C	NA	P			1006715	Capraia, Isola di	6904	N	V
+NA		NA	2		H	NA	V			1006715	Capraria	1159279	N	V
+NA		NA	1		C	NA	P			1007187	Giannutri, Isola di	7381	N	V
+NA		NA	1		C	NA	P			1007191	Giglio, Isola del	7385	N	V
+NA		NA	2		H	NA	V			1007191	Aegilium Insula	1158789	N	V
+NA		NA	1		C	NA	P			1008204	Montecristo, Isola di	8413	N	V
+NA		NA	3		C	NA	V			1008204	Montecristo Island	320086	N	O
+NA		NA	4		H	NA	V			1008204	Monte Cristo	320087	N	V
+NA		NA	2		C	NA	V			1008204	Montecristo	1155247	N	V
+NA		NA	1		C	NA	P			1012389	Ripalti, Punta dei	12659	N	V
+NA		NA	1		C	NA	P			1043080	Abetone	43501	N	V
+NA		NA	1		C	NA	P			1043117	Agliana	43538	N	V
+NA		NA	1		C	NA	P			1043230	Antignano	43651	N	V
+NA		NA	1		C	NA	P			1043261	Arcille	43684	N	V
+NA		NA	2		C	NA	V			1043261	Arcille di Campagnatico	315991	N	V
+NA		NA	1		C	NA	P			1043270	Ardenza	43693	N	V
+NA		NA	1		C	NA	P			1043289	Arnaccio	43712	N	V
+NA		NA	1		C	NA	P			1043291	Arni	43714	N	V
+NA		NA	1		C	NA	P			1043360	Badia Tedalda	43784	N	V
+NA		NA	1		C	NA	P			1043373	Bagno Vignoni	43797	N	V
+NA		NA	1		C	NA	P			1043381	Bagnone	43805	N	V
+NA		NA	1		C	NA	P			1043404	Barbarasco	43828	N	V
+NA		NA	1		C	NA	P			1043406	Barberino di Mugello	43830	N	V
+NA		NA	1		C	NA	P			1043500	Bibbona	43924	N	V
+NA		NA	1		C	NA	P			1043506	Bientina	43930	N	V
+NA		NA	1		C	NA	P			1043665	Bucine	44095	N	V
+NA		NA	1		C	NA	P			1043693	Buti	44124	N	V
+NA		NA	1		C	NA	P			1043728	Calcinaia	44160	N	V
+NA		NA	1		C	NA	P			1043776	Campiglia dei Fosci	44209	N	V
+NA		NA	1		C	NA	P			1043808	Camucia	44244	N	V
+NA		NA	1		C	NA	P			1043843	Capannoli	44279	N	V
+NA		NA	1		C	NA	P			1043852	Capoliveri	44288	N	V
+NA		NA	1		C	NA	P			1043854	Capostrada	44290	N	V
+NA		NA	1		C	NA	P			1043955	Casola in Lunigiana	44391	N	V
+NA		NA	1		C	NA	P			1043975	Castagneto Carducci	44411	N	V
+NA		NA	1		C	NA	P			1043986	Castel San Gimignano	44422	N	V
+NA		NA	1		C	NA	P			1043996	Castel del Piano	44432	N	V
+NA		NA	1		C	NA	P			1044018	Castell'Azzara	44455	N	V
+NA		NA	1		C	NA	P			1044056	Castelnuovo dell'Abate	44493	N	V
+NA		NA	1		C	NA	P			1044058	Castelnuovo di Garfagnana	44495	N	V
+NA		NA	1		C	NA	P			1044060	Castelnuovo di Val di Cecina	44497	N	V
+NA		NA	1		C	NA	P			1044073	Castiglion Fibocchi	44510	N	V
+NA		NA	1		C	NA	P			1044085	Castiglione della Pescaia	44522	N	V
+NA		NA	1		C	NA	P			1044126	Cecina	44563	N	V
+NA		NA	1		C	NA	P			1044204	Chianni	44642	N	V
+NA		NA	1		C	NA	P			1044250	Cinigiano	44691	N	V
+NA		NA	1		C	NA	P			1044257	Cireglio	44698	N	V
+NA		NA	1		C	NA	P			1044289	Civitella Marittima	44730	N	V
+NA		NA	1		C	NA	P			1044293	Civitella in Val di Chiana	44734	N	V
+NA		NA	1		C	NA	P			1044329	Collesalvetti	44772	N	V
+NA		NA	1		C	NA	P			1044342	Colonnata	44785	N	V
+NA		NA	1		C	NA	P			1044363	Consuma	44806	N	V
+NA		NA	1		C	NA	P			1044378	Coreglia Antelminelli	44821	N	V
+NA		NA	1		C	NA	P			1044419	Covigliaio	44863	N	V
+NA		NA	1		C	NA	P			1044483	Dicomano	44928	N	V
+NA		NA	1		C	NA	P			1044532	Equi Terme	44979	N	V
+NA		NA	1		C	NA	P			1044568	Fauglia	45015	N	V
+NA		NA	1		C	NA	P			1044626	Fivizzano	45075	N	V
+NA		NA	1		C	NA	P			1044641	Follonica	45091	N	V
+NA		NA	1		C	NA	P			1044654	Fonte Blanda	45104	N	V
+NA		NA	1		C	NA	P			1044669	Fornacelle	45119	N	V
+NA		NA	1		C	NA	P			1044679	Forte dei Marmi	45129	N	V
+NA		NA	1		C	NA	P			1044682	Fosdinovo	45133	N	V
+NA		NA	1		C	NA	P			1044730	Gaiole in Chianti	45181	N	V
+NA		NA	1		C	NA	P			1044749	Gambassi Terme	45200	N	V
+NA		NA	2		C	NA	V			1044749	Gambassi	352763	N	V
+NA		NA	1		C	NA	P			1044775	Gavinana	45227	N	V
+NA		NA	1		C	NA	P			1044778	Gavorrano	45230	N	V
+NA		NA	1		C	NA	P			1044816	Giglio Porto	45269	N	V
+NA		NA	1		C	NA	P			1044983	La Lima	45437	N	V
+NA		NA	1		C	NA	P			1045019	Larderello	45477	N	V
+NA		NA	1		C	NA	P			1045020	Lari	45478	N	V
+NA		NA	1		C	NA	P			1045050	Le Focette	45509	N	V
+NA		NA	1		C	NA	P			1045051	Piastre	45510	N	V
+NA		NA	1		C	NA	P			1045082	Licciana Nardi	45541	N	V
+NA		NA	1		C	NA	P			1045085	Lido di Camaiore	45544	N	V
+NA		NA	1		C	NA	P			1045182	Magliano in Toscana	45644	N	V
+NA		NA	1		C	NA	P			1045211	Manciano	45675	N	V
+NA		NA	1		C	NA	P			1045242	Marciana	45706	N	V
+NA		NA	1		C	NA	P			1045243	Marciana Marina	45707	N	V
+NA		NA	1		C	NA	P			1045256	Marina di Campo	45720	N	V
+NA		NA	1		C	NA	P			1045258	Marina di Carrara	45722	N	V
+NA		NA	1		C	NA	P			1045259	Marina di Cecina	45723	N	V
+NA		NA	1		C	NA	P			1045261	Marina di Grosseto	45725	N	V
+NA		NA	1		C	NA	P			1045262	Marina di Massa	45726	N	V
+NA		NA	1		C	NA	P			1045265	Marina di Pietrasanta	45729	N	V
+NA		NA	1		C	NA	P			1045266	Marina di Pisa	45730	N	V
+NA		NA	1		C	NA	P			1045278	Marradi	45742	N	V
+NA		NA	1		C	NA	P			1045307	Massarosa	45771	N	V
+NA		NA	1		C	NA	P			1045466	Montale	45934	N	V
+NA		NA	1		C	NA	P			1045544	Montepescali	46012	N	V
+NA		NA	1		C	NA	P			1045551	Monteroni d'Arbia	46019	N	V
+NA		NA	1		C	NA	P			1045557	Monterotondo	46025	N	V
+NA		NA	2		C	NA	V			1045557	Monterotondo Marittimo	352803	N	V
+NA		NA	1		C	NA	P			1045563	Montescudaio	46031	N	V
+NA		NA	1		C	NA	P			1045566	Montespertoli	46034	N	V
+NA		NA	1		C	NA	P			1045576	Monticiano	46044	N	V
+NA		NA	1		C	NA	P			1045577	Montieri	46045	N	V
+NA		NA	1		C	NA	P			1045582	Montopoli in Val d'Arno	46050	N	V
+NA		NA	1		C	NA	P			1045612	Motrone	46082	N	V
+NA		NA	1		C	NA	P			1045629	Mulazzo	46099	N	V
+NA		NA	1		C	NA	P			1045754	Oppio	46230	N	V
+NA		NA	1		C	NA	P			1045918	Pergine Valdarno	46398	N	V
+NA		NA	1		C	NA	P			1045931	Pescaglia	46411	N	V
+NA		NA	1		C	NA	P			1045959	Pian di Sco	46439	N	V
+NA		NA	1		C	NA	P			1045962	Piancastagnaio	46442	N	V
+NA		NA	1		C	NA	P			1045970	Pianosinatico	46450	N	V
+NA		NA	1		C	NA	P			1045991	Pietramala	46471	N	V
+NA		NA	1		C	NA	P			1046000	Pieve Fosciana	46480	N	V
+NA		NA	1		C	NA	P			1046002	Pieve Santo Stefano	46482	N	V
+NA		NA	1		C	NA	P			1046031	Piteglio	46511	N	V
+NA		NA	1		C	NA	P			1046075	Pomarance	46555	N	V
+NA		NA	1		C	NA	P			1046082	Ponsacco	46562	N	V
+NA		NA	1		C	NA	P			1046089	Ponte Ghiereto	46570	N	V
+NA		NA	1		C	NA	P			1046095	Ponte a Elsa	46576	N	V
+NA		NA	1		C	NA	P			1046096	Ponte a Moriano	46577	N	V
+NA		NA	1		C	NA	P			1046097	Ponte d'Arbia	46578	N	V
+NA		NA	1		C	NA	P			1046118	Pontepetri	46599	N	V
+NA		NA	1		C	NA	P			1046135	Port'Ercole	46616	N	V
+NA		NA	2		C	NA	V			1046135	Porto Ercole	316132	N	V
+NA		NA	1		C	NA	P			1046139	Porto Azzurro	46620	N	V
+NA		NA	1		C	NA	P			1046148	Porto Santo Stefano	46629	N	V
+NA		NA	1		C	NA	P			1046205	Procchio	46688	N	V
+NA		NA	1		C	NA	P			1046210	Puliciano	46693	N	V
+NA		NA	1		C	NA	P			1046215	Quarrata	46698	N	V
+NA		NA	1		C	NA	P			1046217	Quercianella	46700	N	V
+NA		NA	2		C	NA	V			1046217	Quercianella Sonnino	315548	N	V
+NA		NA	1		C	NA	P			1046228	Radicofani	46711	N	V
+NA		NA	1		C	NA	P			1046288	Rio Marina	46773	N	V
+NA		NA	1		C	NA	P			1046302	Riva del Sole	46787	N	V
+NA		NA	1		C	NA	P			1046346	Roccastrada	46832	N	V
+NA		NA	1		C	NA	P			1046384	Rosignano Marittimo	46871	N	V
+NA	Latin name	NA	2	1600	H	NA	V		-100	1046384	Ad Fines	1158962	N	O
+NA	Latin name	NA	3	1600	H	NA	V		-100	1046384	Rasinanum	1158963	N	O
+NA		NA	1		C	NA	P			1046385	Rosignano Solvay	46872	N	V
+NA		NA	1		C	NA	P			1046438	Saline di Volterra	46925	N	V
+NA		NA	2		C	NA	V			1046438	Saline	352846	N	V
+NA		NA	1		C	NA	P			1046451	Sambuca Pistoiese	46939	N	V
+NA		NA	1		C	NA	P			1046545	San Giuliano Terme	47038	N	V
+NA		NA	1		C	NA	P			1046567	San Marcello Pistoiese	47062	N	V
+NA		NA	1		C	NA	P			1046615	San Pietro in Palazzi	47115	N	V
+NA		NA	1		C	NA	P			1046641	San Vincenzo	47142	N	V
+NA		NA	1		C	NA	P			1046703	Santa Croce Sull'Arno	47204	N	V
+NA		NA	1		C	NA	P			1046709	Santa Fiora	47210	N	V
+NA		NA	1		C	NA	P			1046712	Santa Luce	47214	N	V
+NA		NA	1		C	NA	P			1046721	Santa Maria a Monte	47223	N	V
+NA		NA	1		C	NA	P			1046802	Scansano	47306	N	V
+NA		NA	1		C	NA	P			1046803	Scarlino	47307	N	V
+NA		NA	1		C	NA	P			1047001	Stazzema	47511	N	V
+NA		NA	1		C	NA	P			1047023	Subbiano	47533	N	V
+NA		NA	1		C	NA	P			1047036	Suvereto	47546	N	V
+NA		NA	1		C	NA	P			1047087	Terontola	47599	N	V
+NA		NA	1		C	NA	P			1047093	Terranuova Bracciolini	47605	N	V
+NA		NA	1		C	NA	P			1047112	Tirrenia	47627	N	V
+NA		NA	1		C	NA	P			1047144	Torre del Lago Puccini	47660	N	V
+NA		NA	1		C	NA	P			1047151	Torrenieri	47667	N	V
+NA		NA	1		C	NA	P			1047166	Tosi	47682	N	V
+NA		NA	1		C	NA	P			1047269	Vaiano	47786	N	V
+NA		NA	1		C	NA	P			1047332	Vecchiano	47852	N	V
+NA		NA	1		C	NA	P			1047338	Vellano	47858	N	V
+NA		NA	1		C	NA	P			1047352	Venturina	47873	N	V
+NA		NA	1		C	NA	P			1047366	Vernio	47887	N	V
+NA		NA	1		C	NA	P			1047446	Villafranca in Lunigiana	47969	N	V
+NA		NA	1		C	NA	P			1047514	Zeri	48038	N	V
+NA		NA	1		C	NA	P			1100052	Monte Oliveto Maggiore, Abbazia del	101018	N	V
+NA		NA	2		C	NA	V			1100052	Monteoliveto Maggiore	328098	N	V
+NA		NA	1		C	NA	P			1100124	La Verna	101091	N	V
+NA		NA	1		C	NA	P			1100133	Pisa, Certosa di	101100	N	V
+NA		NA	1		C	NA	P			1101282	Allochio, Galleria degli	102285	N	V
+NA		NA	1		C	NA	P			1101289	Borgallo, Galleria del	102292	N	V
+NA		NA	1		C	NA	P			1103685	Albano, Monte	104707	N	V
+NA		NA	1		C	NA	P			1104120	Calvi, Monte	105145	N	V
+NA		NA	1		C	NA	P			1104138	Capanne, Monte	105163	N	V
+NA		NA	1		C	NA	P			1104163	Castello, Monte	105188	N	V
+NA		NA	1		C	NA	P			1104192	Cetona, Monte	105219	N	V
+NA		NA	1		C	NA	P			1104629	Frati, Monte dei	105663	N	V
+NA		NA	1		C	NA	P			1105021	Telegrafo, Monte	106063	N	V
+NA		NA	1		C	NA	P			1105368	Le Cornate	106413	N	V
+NA		NA	1		C	NA	P			1105685	Montieri, Poggio di	106736	N	V
+NA		NA	1		C	NA	P			1106401	Serra, Monte	107460	N	V
+NA		NA	1		C	NA	P			1106911	Vigese, Monte	107974	N	V
+NA		NA	1		C	NA	P			1108367	Collina, Passo di	109440	N	V
+NA		NA	2		C	NA	V			1108367	Collina, Passo della	354995	N	V
+NA		NA	1		C	NA	P			1108368	Consuma, Passo della	109441	N	V
+NA		NA	1		C	NA	P			1108469	Mandrioli, Passo dei	109550	N	V
+NA		NA	1		C	NA	P			1108487	Muraglione, Passo del	109570	N	V
+NA		NA	1		C	NA	P			1108527	Raticosa, Passo della	109610	N	V
+NA		NA	1		C	NA	P			1108590	Terrarossa, Foce di	109680	N	V
+NA		NA	1		C	NA	P			1108724	Apuane, Alpi	109818	N	V
+NA		NA	1		C	NA	P			1108893	Chianti, Monti del	109996	N	V
+NA		NA	1		C	NA	P			1109344	Metallifere, Colline	110464	N	V
+NA		NA	2		C	NA	V			1109344	Colline Metallifere	320092	N	V
+NA	meaning "metal-bearing chain"	NA	3	9999	C	NA	V		1000	1109344	Catena Metallifera	1158664	N	V
+NA		NA	4		C	NA	V			1109344	Metallifera, Catema	1001183631	N	V
+NA		NA	1		C	NA	P			1109363	Montagnola	110483	N	V
+NA		NA	1		C	NA	P			1109495	Pratomagno	110616	N	V
+NA		NA	1		C	NA	P			1109756	Ucellina, Monti dell'	110887	N	V
+NA		NA	1		C	NA	P			1111810	Valdarno	112977	N	V
+NA		NA	2		C	NA	V			1111810	Val d'Arno	1157269	N	V
+NA		NA	1		C	NA	P			1112063	Lunigiana	113232	N	V
+NA		NA	1		C	NA	P			1112377	Follonica, Golfo di	113590	N	V
+NA		NA	1		C	NA	P			1114232	Piombino, Canale di	115467	N	V
+NA		NA	1		C	NA	P			1114802	Orbetello, Laguna di	116040	N	V
+NA		NA	1		C	NA	P			1115906	Chiusi, Lago di	117175	N	V
+NA		NA	1		C	NA	P			1117234	Massaciuccoli, Lago di	118515	N	V
+NA		NA	1		C	NA	P			1121328	Arbia	122659	N	V
+NA		NA	1		C	NA	P			1121388	Arno	122721	N	V
+NA		NA	2		C	NA	V			1121388	Arno, Fiume	352752	N	V
+NA		NA	4		H	NA	V			1121388	Arnus	1157270	N	V
+NA		NA	3		C	NA	V			1121388	Arno River	1157271	N	O
+NA		NA	1		C	NA	P			1121940	Bisenzio	123290	N	V
+NA		NA	1		C	NA	P			1122250	Bruna	123611	N	V
+NA		NA	1		C	NA	P			1122612	Cecina	123979	N	V
+NA		NA	1		C	NA	P			1123066	Cornia	124441	N	V
+NA		NA	2		C	NA	V			1123066	Cornia, Fiume	352754	N	V
+NA		NA	1		C	NA	P			1123775	Era	125194	N	V
+NA		NA	2		C	NA	V			1123775	Era, Fiume	352756	N	V
+NA		NA	1		C	NA	P			1123823	Esse	125248	N	V
+NA		NA	1		C	NA	P			1124371	Greve	125815	N	V
+NA		NA	1		C	NA	P			1126117	Lima	127631	N	V
+NA		NA	2		C	NA	V			1126117	Lima, Torrente	352804	N	V
+NA		NA	1		C	NA	P			1126122	Limentra	127637	N	V
+NA		NA	2		C	NA	V			1126122	Limentra di Treppio, Torrente	352805	N	V
+NA		NA	3		C	NA	V			1126122	Limentra Orient, Torrente	352806	N	V
+NA		NA	1		C	NA	P			1126668	Magra	128215	N	V
+NA		NA	2		C	NA	V			1126668	Magra, Fiume	352838	N	V
+NA		NA	1		C	NA	P			1127088	Merse	128654	N	V
+NA		NA	2		C	NA	V			1127088	Merse, Fiume	352839	N	V
+NA		NA	1		C	NA	P			1128089	Ombrone	129698	N	V
+NA		NA	2		C	NA	V			1128089	Ombrone, Fiume	352840	N	V
+NA		NA	1		C	NA	P			1128141	Orcia	129752	N	V
+NA		NA	2		C	NA	V			1128141	Orcia, Fiume	352841	N	V
+NA		NA	3		C	NA	V			1128141	Orcia, Torrente	352842	N	V
+NA		NA	1		C	NA	P			1128558	Pesa	130178	N	V
+NA		NA	2		C	NA	V			1128558	Pesa, Torrente	352843	N	V
+NA		NA	3		C	NA	V			1128558	Pesa, Fiume	352844	N	V
+NA		NA	1		C	NA	P			1129867	Serchio	131550	N	V
+NA		NA	2		C	NA	V			1129867	Serchio, Fiume	352866	N	V
+NA		NA	4		H	NA	V			1129867	Serculus	1160331	N	O
+NA		NA	3		H	NA	V			1129867	Anser	1160332	N	O
+NA		NA	1		C	NA	P			1130008	Sieve	131697	N	V
+NA		NA	2		C	NA	V			1130008	Sieve, Fiume	352764	N	V
+NA		NA	1		C	NA	P			1137022	Tavernelle	177133	N	V
+NA		NA	1		C	NA	P			4000491	Alberese	143878	N	V
+NA		NA	1		C	NA	P			4000862	Artimino	144252	N	V
+NA		NA	1		C	NA	P			4001112	Badia a Ripoli	144506	N	V
+NA		NA	1		C	NA	P			4001206	Baratti	144601	N	V
+NA		NA	1		C	NA	P			4001386	Benabbio	144782	N	V
+NA		NA	1		C	NA	P			4001692	Borgo a Buggiano	145090	N	V
+NA		NA	1		C	NA	P			4001976	Buggiano Castello	145375	N	V
+NA		NA	1		C	NA	P			4002142	Camigliano Santa Gemma	145543	N	V
+NA		NA	1		C	NA	P			4002143	Camoggiano	145544	N	V
+NA		NA	1		C	NA	P			4002281	Carteano	145683	N	V
+NA		NA	1		C	NA	P			4002300	Cascia	145702	N	V
+NA		NA	2		C	NA	V			4002300	Cascia di Reggello	313455	N	V
+NA		NA	1		C	NA	P			4002302	Casciana Alta	145704	N	V
+NA		NA	1		C	NA	P			4002333	Castelbonsi	145735	N	V
+NA		NA	1		C	NA	P			4002344	Castelletto Accarigi	145746	N	V
+NA		NA	1		C	NA	P			4002353	Castelnuovo d'Elsa	145755	N	V
+NA		NA	1		C	NA	P			4002427	Cellole	145829	N	V
+NA		NA	1		C	NA	P			4002439	Cerbaia	145841	N	V
+NA		NA	1		C	NA	P			4002640	Chiusdino	146044	N	V
+NA		NA	1		C	NA	P			4002660	Cicogna	146064	N	V
+NA		NA	1		C	NA	P			4002753	Codiponte	146157	N	V
+NA		NA	1		C	NA	P			4002779	Collebarucci	146183	N	V
+NA		NA	1		C	NA	P			4002789	Collina	146193	N	V
+NA		NA	2		C	NA	V			4002789	Collina, Passo di	352848	N	V
+NA		NA	1		C	NA	P			4002793	Collodi	146197	N	V
+NA		NA	1		C	NA	P			4002803	Colognole	146207	N	V
+NA		NA	1		C	NA	P			4002880	Corbignano	146286	N	V
+NA		NA	1		C	NA	P			4003081	Cuna	146488	N	V
+NA		NA	1		C	NA	P			4003317	Doccia	146727	N	V
+NA		NA	1		C	NA	P			4003884	Ferrano	147300	N	V
+NA		NA	1		C	NA	P			4003903	Filettole	147319	N	V
+NA		NA	3		H	NA	V			4003918	Firenze, Republic	147335	N	O
+NA		NA	4		H	NA	V			4003918	Firenze, r$00epublique	156480	N	O
+NA		NA	1		H	NA	P			4003918	Republic of Florence	157102	N	O
+NA		NA	2		C	NA	V			4003918	Repubblica di Firenze	1001175531	N	V
+NA		NA	1		C	NA	P			4003976	Fonte Lucente	147393	N	V
+NA		NA	1		C	NA	P			4004239	Gargonza	147657	N	V
+NA		NA	1		C	NA	P			4004361	Giuncarico	147780	N	V
+NA		NA	1		C	NA	P			4004422	Gonfienti	147841	N	V
+NA		NA	1		C	NA	P			4004519	Grassina	147938	N	V
+NA		NA	1		C	NA	P			4005345	Isola di Gorgona	148776	N	V
+NA		NA	1		C	NA	P			4006085	Lammari	149520	N	V
+NA		NA	1		C	NA	P			4006399	Limite sull'Arno	149836	N	V
+NA		NA	1		C	NA	P			4006636	Luco di Mugello	150073	N	V
+NA		NA	1		C	NA	P			4006667	Lusuolo	150104	N	V
+NA		NA	1		C	NA	P			4006836	Malmantile	150276	N	V
+NA		NA	1		C	NA	P			4006949	Marlia	150390	N	V
+NA		NA	1		C	NA	P			4006994	Massa Pisana	150436	N	V
+NA		NA	1		C	NA	P			4007147	Metelliano	150589	N	V
+NA		NA	1		C	NA	P			4007376	Montarrenti	150820	N	V
+NA		NA	2		C	NA	V			4007376	Mont'Arrenti	319998	N	V
+NA		NA	3		C	NA	V			4007376	Monte Arrenti	320000	N	V
+NA		NA	1		C	NA	P			4007395	Monte San Quirico	150839	N	V
+NA		NA	1		C	NA	P			4007415	Montedoglio	150859	N	V
+NA		NA	1		C	NA	P			4007418	Montefi$02esole	150862	N	V
+NA		NA	1		C	NA	P			4007428	Montemagno	150872	N	V
+NA		NA	1		C	NA	P			4007430	Montemassi	150874	N	V
+NA		NA	1		C	NA	P			4007432	Montemurlo	150876	N	V
+NA		NA	1		C	NA	P			4007436	Monterappoli	150880	N	V
+NA		NA	1		C	NA	P			4007536	Morniano	150980	N	V
+NA		NA	2		C	NA	V			4007536	Morniano dell'Incisa	319981	N	V
+NA		NA	1		C	NA	P			4007544	Mortaiolo	150989	N	V
+NA		NA	1		C	NA	P			4007713	Nave a Rovezzano	151159	N	V
+NA		NA	1		C	NA	P			4008606	Petroio	152064	N	V
+NA		NA	1		C	NA	P			4008629	Pian di Mugnone	152088	N	V
+NA		NA	1		C	NA	P			4008630	Pianezzoli	152089	N	V
+NA		NA	1		C	NA	P			4008633	Piazza	152092	N	V
+NA		NA	1		C	NA	P			4008700	Pizzidimonte	152159	N	V
+NA		NA	1		C	NA	P			4008796	Ponte a Ema	152256	N	V
+NA		NA	1		C	NA	P			4008821	Popiglio	152281	N	V
+NA		NA	1		C	NA	P			4008823	Poppiano	152283	N	V
+NA		NA	1		C	NA	P			4008833	Porrena	152293	N	V
+NA		NA	1		C	NA	P			4009026	Quercegrossa	152488	N	V
+NA		NA	2		C	NA	V			4009026	Querciagrossa	157858	N	V
+NA		NA	1		C	NA	P			4009191	Remole	152653	N	V
+NA		NA	1		C	NA	P			4009196	Rencine	152658	N	V
+NA		NA	1		C	NA	P			4009272	Rifredi	152734	N	V
+NA		NA	1		C	NA	P			4009376	Roggio	152838	N	V
+NA		NA	1		C	NA	P			4009496	Ruballa	152959	N	V
+NA		NA	1		C	NA	P			4009900	San Donato in Poggio	153363	N	V
+NA		NA	1		C	NA	P			4009905	San Filippo	153368	N	V
+NA		NA	2		C	NA	V			4009905	Bagni di San Filippo	320001	N	V
+NA		NA	1		C	NA	P			4009908	San Gennaro	153371	N	V
+NA		NA	1		C	NA	P			4009921	San Gusm$02e	153384	N	V
+NA		NA	1		C	NA	P			4009934	San Leonardo in Collina	153397	N	V
+NA		NA	1		C	NA	P			4009964	San Polo in Chianti	153428	N	V
+NA		NA	2		C	NA	V			4009964	San Polo di Rubbiana	157958	N	V
+NA		NA	1		C	NA	P			4009967	San Quirico Vernio	153431	N	V
+NA		NA	2		C	NA	V			4009967	San Quirico di Vernio	316104	N	V
+NA		NA	1		C	NA	P			4009970	San Romano	153434	N	V
+NA		NA	1		C	NA	P			4009978	San Vincenzio	153442	N	V
+NA		NA	1		C	NA	P			4009984	San Vivaldo	153448	N	V
+NA		NA	1		C	NA	P			4010042	Sant'Appiano	153506	N	V
+NA		NA	1		C	NA	P			4010045	Sant'Ellero	153509	N	V
+NA		NA	1		C	NA	P			4010067	Santa Margherita a Casciano	153531	N	V
+NA		NA	1		C	NA	P			4010288	Segromigno Monte	153753	N	V
+NA		NA	2		C	NA	V			4010288	Segromigno in Monte	319308	N	V
+NA		NA	1		C	NA	P			4010336	Serpiolle	153802	N	V
+NA		NA	1		C	NA	P			4010338	Serra Pistoiese	153804	N	V
+NA		NA	1		C	NA	P			4010360	Settimello	153826	N	V
+NA		NA	1		C	NA	P			4010671	Spedaletto	154141	N	V
+NA		NA	1		C	NA	P			4011334	Traverde	154808	N	V
+NA		NA	1		C	NA	P			4011352	Trespiano	154826	N	V
+NA		NA	1		C	NA	P			4011602	Valdibure	155080	N	V
+NA		NA	1		C	NA	P			4011603	Valdinievole	155081	N	V
+NA		NA	1		C	NA	P			4011735	Verr$00ucola	155214	N	V
+NA		NA	1		C	NA	P			4011776	Vicopelago	155255	N	V
+NA		NA	1		C	NA	P			4011913	Vivo d'$00Orcia	155392	N	V
+NA		NA	1		C	NA	P			5002255	Mezzano	161759	N	V
+NA		NA	1		C	NA	P			5002811	Passignano	162440	N	V
+NA		NA	1		C	NA	P			5002812	Frosini	162441	N	V
+NA		NA	1		C	NA	P			5002824	Dolciano	162458	N	V
+NA		NA	1		C	NA	P			5002825	Quinto Fiorentino	162459	N	V
+NA		NA	2		C	NA	V			5002825	Quinto	1156507	N	V
+NA		NA	3		C	NA	V			5002825	Qyinto Fiorentino	1156508	N	O
+NA		NA	1		C	NA	P			5002835	Castelfranco di Sopra	162471	N	V
+NA		NA	1		C	NA	P			5002844	Porciano	162484	N	V
+NA		NA	1		C	NA	P			5002845	Pratovecchio	162485	N	V
+NA		NA	1		C	NA	P			5002848	Serravalle	162491	N	V
+NA		NA	1		C	NA	P			5002851	Arcetri	162494	N	V
+NA		NA	1		C	NA	P			5002856	Brozzi	162500	N	V
+NA		NA	1		C	NA	P			5002857	Buggiano	162501	N	V
+NA		NA	1		C	NA	P			5002859	Caldine	162504	N	V
+NA		NA	1		C	NA	P			5002866	Castellonchio	162513	N	V
+NA		NA	1		C	NA	P			5002871	Cintoia	162521	N	V
+NA		NA	2		C	NA	V			5002871	Cintola	162522	N	V
+NA		NA	3		C	NA	V			5002871	Cintoija	319993	N	V
+NA		NA	4		H	NA	V			5002871	Cintoria	319994	N	V
+NA	name is derived from Roman word for an agrarian measurement of land	NA	5	9999	H	NA	V		-500	5002871	Cinturia	319995	N	V
+NA		NA	1		C	NA	P			5002872	Compiobbi	162523	N	V
+NA		NA	1		C	NA	P			5002873	Due Madonne	162524	N	V
+NA		NA	1		C	NA	P			5002876	Faltona	162528	N	V
+NA		NA	1		C	NA	P			5002884	Il Girone	162541	N	V
+NA		NA	1		C	NA	P			5002885	Greti	162542	N	V
+NA		NA	1		C	NA	P			5002887	Gr$00opina	162544	N	V
+NA		NA	1		C	NA	P			5002890	Linari	162547	N	V
+NA		NA	1		C	NA	P			5002891	Marignolle	162548	N	V
+NA		NA	1		C	NA	P			5002892	Mezzomonte	162549	N	V
+NA		NA	1		C	NA	P			5002893	Mirans$02u	162550	N	V
+NA		NA	1		C	NA	P			5002894	Montebuoni	162551	N	V
+NA		NA	1		C	NA	P			5002895	Montefl$00oscoli	162552	N	V
+NA		NA	2		C	NA	V			5002895	Montefoscoli	162553	N	V
+NA		NA	1		C	NA	P			5002898	Montemignaio	162557	N	V
+NA		NA	1		C	NA	P			5002899	Montepaldi	162558	N	V
+NA		NA	1		C	NA	P			5002901	Morrocco	162560	N	V
+NA		NA	2		C	NA	V			5002901	Santa Maria al Morrocco	323619	N	V
+NA		NA	1		C	NA	P			5002902	Mosciano	162561	N	V
+NA		NA	1		C	NA	P			5002903	Mugnana	162562	N	V
+NA		NA	1		C	NA	P			5002904	N$00ovoli	162563	N	V
+NA		NA	1		C	NA	P			5002905	Olena	162564	N	V
+NA		NA	2		H	NA	V			5002905	Aulena	319996	N	V
+NA		NA	1		C	NA	P			5002906	Osteria Nuova	162565	N	V
+NA	ancient	NA	2	1000	H	NA	V		-500	5002906	Mansio ad Novas	1157228	N	V
+NA		NA	1		C	NA	P			5002909	Per$00etola	162568	N	V
+NA		NA	1		C	NA	P			5002912	Pomino	162572	N	V
+NA		NA	1		C	NA	P			5002914	Ponte a M$00ensola	162574	N	V
+NA		NA	2		C	NA	V			5002914	Mensola	162575	N	V
+NA		NA	3		C	NA	V			5002914	M$00ensola	1001179015	N	V
+NA		NA	1		C	NA	P			5002915	Pontorme	162576	N	V
+NA		NA	1		C	NA	P			5002918	Qu$00intole	162579	N	V
+NA		NA	1		C	NA	P			5002919	R$00iconi	162580	N	V
+NA		NA	1		C	NA	P			5002920	Rosano	162581	N	V
+NA		NA	1		C	NA	P			5002921	Le Rose	162582	N	V
+NA		NA	1		C	NA	P			5002922	Rovezzano	162583	N	V
+NA		NA	2		C	NA	V			5002923	S. Agata	162584	N	V
+NA		NA	1		C	NA	P			5002923	Sant'Agata	162585	N	V
+NA		NA	1		C	NA	P			5002924	Sagginale	162586	N	V
+NA		NA	1		C	NA	P			5002926	San Domenico di Fi$02esole	162591	N	V
+NA		NA	1		C	NA	P			5002927	San Donato in Collina	162592	N	V
+NA		NA	2		H	NA	V			5002927	San Donato in Poggio	162593	N	V
+NA		NA	3		H	NA	V			5002927	S. Donato in Poggio	162594	N	V
+NA		NA	1		C	NA	P			5002928	San Donnino	162595	N	V
+NA		NA	1		C	NA	P			5002929	San Felice a Ema	162596	N	V
+NA		NA	1		C	NA	P			5002930	San Giorgio a Ruballa	162597	N	V
+NA		NA	1		C	NA	P			5002931	San Giovanni in Sugana	162600	N	V
+NA		NA	2		C	NA	V			5002931	S. Giovanni in Sugana	162601	N	V
+NA		NA	1		C	NA	P			5002934	San Pietro a L$00ecore	162604	N	V
+NA		NA	2		C	NA	V			5002934	Lecore	162605	N	V
+NA		NA	2		C	NA	V			5002935	Sant'Angelo in Vico l'Abate	162606	N	V
+NA		NA	1		C	NA	P			5002935	Vico l'Abate	162607	N	V
+NA		NA	1		C	NA	P			5002936	Sant'Ansano	162608	N	V
+NA		NA	1		C	NA	P			5002937	Santa Brigida	162609	N	V
+NA		NA	1		C	NA	P			5002941	Le Sieci	162614	N	V
+NA		NA	2		C	NA	V			5002941	Sieci	162615	N	V
+NA		NA	1		C	NA	P			5002943	Signano	162617	N	V
+NA		NA	1		C	NA	P			5002945	Terenzano	162619	N	V
+NA		NA	1		C	NA	P			5002947	Varlungo	162621	N	V
+NA		NA	1		C	NA	P			5002948	Verruca	162622	N	V
+NA		NA	1		C	NA	P			5002951	Vicchio di Rimaggio	162626	N	V
+NA		NA	2		C	NA	V			5002951	Vicchio a Rimaggio	162627	N	V
+NA		NA	1		C	NA	P			5002952	Villamagna	162628	N	V
+NA		NA	1		C	NA	P			5002962	Montemerano	162640	N	V
+NA		NA	1		C	NA	P			5002965	Poggio di Moscona	162643	N	V
+NA		NA	2		C	NA	V			5002965	Moscona	162644	N	V
+NA		NA	1		C	NA	P			5002967	Poggioferro	162646	N	V
+NA		NA	1		C	NA	P			5002971	Semproniano	162650	N	V
+NA		NA	1		C	NA	P			5002975	Rocchette	162654	N	V
+NA		NA	1		C	NA	P			5002976	Bagnaio	162655	N	V
+NA		NA	1		C	NA	P			5002982	Pereta	162662	N	V
+NA		NA	1		C	NA	P			5002987	Granaiola	162669	N	V
+NA		NA	1		C	NA	P			5002989	Nozzano	162671	N	V
+NA		NA	1		C	NA	P			5002990	Petrognano	162672	N	V
+NA		NA	1		C	NA	P			5002991	Santa Maria del Giudice	162673	N	V
+NA		NA	1		C	NA	P			5002992	Valdicastello Carducci	162674	N	V
+NA		NA	1		C	NA	P			5002994	Avenza	162676	N	V
+NA		NA	1		C	NA	P			5002996	Malgrate	162678	N	V
+NA		NA	1		C	NA	P			5002997	Torano	162679	N	V
+NA		NA	2		C	NA	V			5002997	Tarnone	162680	N	V
+NA		NA	1		C	NA	P			5003004	C$00evoli	162688	N	V
+NA		NA	2		C	NA	V			5003004	Cevoli	162689	N	V
+NA		NA	1		C	NA	P			5003005	Cr$00espina	162690	N	V
+NA		NA	1		C	NA	P			5003009	Ripoli	162694	N	V
+NA		NA	1		C	NA	P			5003011	Soiana	162697	N	V
+NA		NA	1		C	NA	P			5003014	Montevettolini	162702	N	V
+NA		NA	1		C	NA	P			5003017	San Felice	162705	N	V
+NA		NA	1		C	NA	P			5003019	Argiano	162707	N	V
+NA		NA	1		C	NA	P			5003021	Badia a Isola	162709	N	V
+NA		NA	2		C	NA	V			5003021	Abbadia Isola	162710	N	V
+NA		NA	1		C	NA	P			5003024	Castello di Belcaro	162714	N	V
+NA		NA	2		C	NA	V			5003024	Belcaro	162715	N	V
+NA		NA	3		C	NA	V			5003024	Castello	162716	N	V
+NA		NA	1		C	NA	P			5003027	Cedda	162719	N	V
+NA		NA	1		C	NA	P			5003031	Chiusure	162723	N	V
+NA		NA	2		C	NA	V			5003031	Chiusare	162724	N	V
+NA		NA	1		C	NA	P			5003033	Costafabbri	162727	N	V
+NA		NA	1		C	NA	P			5003035	Mensano	162729	N	V
+NA		NA	1		C	NA	P			5003038	Montevenere	162733	N	V
+NA		NA	1		C	NA	P			5003049	San Leonardo al Lago	162746	N	V
+NA		NA	2		C	NA	V			5003049	S. Leonardo al Lago	162747	N	V
+NA		NA	1		C	NA	P			5003051	Sant'Anna in Camprena	162750	N	V
+NA		NA	2		C	NA	V			5003051	S. Anna in Camprena	162751	N	V
+NA		NA	1		C	NA	P			5003060	Montemiccioli	162762	N	V
+NA		NA	2		C	NA	V			5003060	Torre di Montemiccioli	162763	N	V
+NA		NA	1		C	NA	P			5004321	Cerreto	164691	N	V
+NA		NA	1		C	NA	P			6005278	Saturnia	170597	N	V
+NA	ancient	NA	2	1000	H	NA	V		-500	6005278	Aurinia	314424	N	V
+NA		NA	1		C	NA	P			7000214	Lucignano d'Arbia	143382	N	V
+NA		NA	2		C	NA	V			7000214	Lucignano	143383	N	V
+NA		NA	1		C	NA	P			7000457	Firenze	45063	N	V
+NA		NA	2		C	NA	V			7000457	Florence	45064	N	O
+NA		NA	3		C	NA	V			7000457	Florencia	139941	N	O
+NA		NA	4		C	NA	V			7000457	Florenz	139942	N	O
+NA	name of Roman colony on N bank of Arno	NA	6	1500	H	NA	V		-100	7000457	Florentia	164779	N	V
+NA	Medieval	NA	5	1700	H	NA	V		1100	7000457	Fiorenza	165290	N	V
+NA		NA	7		C	NA	V			7000457	Florentine	1159547	A	O
+NA		NA	1		C	NA	P			7000478	Sansepolcro	47158	N	V
+NA		NA	3		H	NA	V			7000478	Borgo San Sepolcro	157967	N	V
+NA		NA	2		C	NA	V			7000478	San Sepolcro	162488	N	V
+NA		NA	4		H	NA	V			7000478	Borgo S. Sepolcro	162490	N	V
+NA		NA	1		C	NA	P			7000479	Monterchi	46015	N	V
+NA		NA	1		C	NA	P			7003162	Arezzo	3596	N	V
+NA		Y	3		C	NA	V			7003162	Arezzo province	141371	N	O
+NA		NA	2		C	NA	V			7003162	Arezzo, Provincia di	352747	N	V
+NA		NA	1		C	NA	P			7003163	Firenze	3619	N	V
+NA		Y	3		C	NA	V			7003163	Firenze province	141372	N	O
+NA		NA	2		C	NA	V			7003163	Firenze, Provincia di	352757	N	V
+NA		NA	4		C	NA	V			7003163	Florence province	1001178321	N	O
+NA		NA	1		C	NA	P			7003164	Livorno	3634	N	V
+NA		Y	3		C	NA	V			7003164	Livorno province	141374	N	O
+NA		NA	2		C	NA	V			7003164	Livorno, Provincia di	352807	N	V
+NA		NA	1		C	NA	P			7003165	Lucca	3635	N	V
+NA		Y	3		C	NA	V			7003165	Lucca province	141376	N	O
+NA		NA	2		C	NA	V			7003165	Lucca, Porvincia di	352836	N	V
+NA		NA	1		C	NA	P			7003166	Pisa	3652	N	V
+NA		Y	3		C	NA	V			7003166	Pisa province	141377	N	O
+NA		NA	2		C	NA	V			7003166	Pisa, Provincia di	352845	N	V
+NA		NA	1		C	NA	P			7003167	Pistoia	3653	N	V
+NA		Y	3		C	NA	V			7003167	Pistoia province	141378	N	O
+NA		NA	2		C	NA	V			7003167	Pistoia, Provincia di	352847	N	V
+NA		NA	1		C	NA	P			7003168	Siena	3664	N	V
+NA		Y	3		C	NA	V			7003168	Siena province	141379	N	O
+NA		NA	2		C	NA	V			7003168	Siena, Provincia di	352867	N	V
+NA		NA	1		C	NA	P			7004014	San Quirico d'Orcia	47117	N	V
+NA		NA	2		C	NA	V			7004014	San Quirico d'Orci	162749	N	V
+NA		NA	1		C	NA	P			7004039	Serravalle Pistoiese	153809	N	V
+NA		NA	1		C	NA	P			7004249	Massa	45763	N	V
+NA		NA	1		C	NA	P			7004847	Bologna	43961	N	V
+NA		NA	2		C	NA	V			7004847	Bologne	139680	N	O
+NA		NA	3		C	NA	V			7004847	Bolonia	139681	N	O
+NA	name of 6th-century-BCE Etruscan city	NA	5	1000	H	NA	V		-600	7004847	Felsina	172431	N	V
+NA		NA	6		C	NA	V			7004847	Bolognese	1159546	A	O
+NA	ancient Roman name; given to city by Gauls of Boii tribe in mid-4th century BCE	NA	4	1500	H	NA	V		-400	7004847	Bononia	166199	N	V
+NA		NA	1		C	NA	P			7004898	Monticelli	162559	N	V
+NA		NA	1		C	NA	P			7004955	Panzano	162566	N	V
+NA		NA	1		C	NA	P			7005060	Pistoia	46510	N	V
+NA	ancient name	NA	2	9999	H	NA	V		-500	7005060	Pistoriae	173868	N	V
+NA	Roman name	NA	3	1500	H	NA	V		-300	7005060	Pistoria	314380	N	V
+NA	Italian name, derived from the Latin "Urbs Vetus"	NA	1	9999	C	NA	P		1200	7005124	Orvieto	46260	N	V
+NA	medieval name	NA	4	1500	H	NA	V		400	7005124	Urbs Vetus	142981	N	V
+NA		NA	10		H	NA	V			7005124	Velsuna	142983	N	V
+NA	Etruscan name	NA	6	-200	H	NA	V		-800	7005124	Volsinii	142984	N	V
+NA	ancient Latin name	NA	5	1000	H	NA	V		-500	7005124	Volsinii Veteres	164803	N	V
+NA		NA	11		H	NA	V			7005124	Salpinum	1156343	N	V
+NA		NA	7		H	NA	V			7005124	Volsinii Nova	1157059	N	V
+NA		NA	9		H	NA	V			7005124	Velsna	1157060	N	V
+NA	Latin name; documented by the mid-11th century	NA	2	1500	H	NA	V		900	7005124	Urbsvetus	1001175590	N	V
+NA	documented from the 6th century CE	NA	3	1200	H	NA	V		500	7005124	Ourbibenton	1001175589	N	V
+NA	Etruscan	NA	8	100	H	NA	V		-800	7005124	Velzna	1001175588	N	V
+NA		NA	1		C	NA	P			7006022	Seggiano	47334	N	V
+NA		NA	1		C	NA	P			7006072	Arezzo	43698	N	V
+NA	ancient Roman name	NA	2	395	H	NA	V		-509	7006072	Arretium	142980	N	V
+NA		NA	1		C	NA	P			7006073	Grosseto	45351	N	V
+NA		NA	1		C	NA	P			7006074	Livorno	45565	N	V
+NA	obsolete English name	NA	3	1850	H	NA	V		1600	7006074	Leghorn	45566	N	O
+NA		NA	2		C	NA	V			7006074	Livourne	140381	N	O
+NA		NA	4		H	NA	V			7006074	Liburnum	323489	N	V
+NA		NA	5		H	NA	V			7006074	Liburni Portus	323490	N	V
+NA		NA	1		C	NA	P			7006075	Bagni di Lucca	43794	N	V
+NA		NA	1		C	NA	P			7006076	Lucca	45603	N	V
+NA	ancient name	NA	2	1500	H	NA	V		-300	7006076	Luca	323491	N	V
+NA		NA	3		C	NA	V			7006076	Lucques	1001180009	N	V
+NA		NA	1		C	NA	P			7006077	Carrara	44353	N	V
+NA	ancient name	NA	2	1500	H	NA	V		-500	7006077	Apuania	326742	N	V
+NA		NA	1		C	NA	P			7006080	Massa Marittima	150435	N	V
+NA		NA	1		C	NA	P			7006082	Pisa	46506	N	V
+NA	ancient	NA	2	1000	H	NA	V		-500	7006082	Pisae	170035	N	V
+NA		NA	1		C	NA	P			7006107	Bibbiena	43923	N	V
+NA		NA	1		C	NA	P			7006109	Poppi	46609	N	V
+NA		NA	1		C	NA	P			7006110	Borgo alla Collina	44004	N	V
+NA		NA	1		C	NA	P			7006111	Stia	47515	N	V
+NA		NA	1		C	NA	P			7006112	Laterina	45485	N	V
+NA		NA	1		C	NA	P			7006113	Loro Ciuffenna	45596	N	V
+NA		NA	1		C	NA	P			7006114	Montevarchi	46037	N	V
+NA		NA	1		C	NA	P			7006115	Anghiari	43641	N	V
+NA		NA	1		C	NA	P			7006116	Caprese Michelangelo	44298	N	V
+NA		NA	1		C	NA	P			7006117	Sestino	47388	N	V
+NA		NA	1		C	NA	P			7006118	Castiglion Fiorentino	44511	N	V
+NA		NA	2		C	NA	V			7006118	Castiglione Fiorentino	162473	N	V
+NA		NA	1		C	NA	P			7006119	Foiano della Chiana	45086	N	V
+NA		NA	1		C	NA	P			7006120	Cortona	44850	N	V
+NA		NA	2		H	NA	V			7006120	Corito	326740	N	V
+NA		NA	1		C	NA	P			7006121	Marciano della Chiana	45709	N	V
+NA		NA	2		C	NA	V			7006121	Marciano	352749	N	V
+NA		NA	1		C	NA	P			7006122	Lucignano	143380	N	V
+NA		NA	2		C	NA	V			7006122	Lucignano Valdichiana	143381	N	V
+NA		NA	1		C	NA	P			7006123	Monte San Savino	45950	N	V
+NA		NA	2		C	NA	V			7006123	Monte S. Savino	162479	N	V
+NA		NA	3		C	NA	V			7006123	Montesansavino	162480	N	V
+NA		NA	1		C	NA	P			7006124	Galluzzo	147631	N	V
+NA		NA	1		C	NA	P			7006125	Castello	156091	N	V
+NA		NA	1		C	NA	P			7006126	Careggi	145637	N	V
+NA		NA	1		C	NA	P			7006128	Settignano	153825	N	V
+NA		NA	1		C	NA	P			7006129	Coverciano	314401	N	V
+NA		NA	1		C	NA	P			7006130	Isolotto	314402	N	V
+NA		NA	1		C	NA	P			7006131	Mantignano	314403	N	V
+NA		NA	1		C	NA	P			7006132	Montalbano	314404	N	V
+NA		NA	1		C	NA	P			7006133	Pieve a Ripoli	314405	N	V
+NA		NA	1		C	NA	P			7006134	Sorgane	314406	N	V
+NA		NA	1		C	NA	P			7006135	Bandino	314408	N	V
+NA		NA	1		C	NA	P			7006136	Antella	144110	N	V
+NA		NA	1		C	NA	P			7006137	Badia a Settimo	144507	N	V
+NA		NA	2		C	NA	V			7006137	Badia a S$00ettimo	162495	N	V
+NA		NA	1		C	NA	P			7006138	Bagno a Ripoli	43798	N	V
+NA		NA	2		C	NA	V			7006138	Bagno a R$00ipoli	315709	N	V
+NA		NA	1		C	NA	P			7006139	Campi Bisenzio	44206	N	V
+NA		NA	1		C	NA	P			7006140	Candeli	145570	N	V
+NA		NA	2		C	NA	V			7006140	Badia a Candeli	323618	N	V
+NA		NA	3		H	NA	V			7006140	Candegli	324893	N	V
+NA		NA	1		C	NA	P			7006141	Fiesole	45048	N	V
+NA	ancient	NA	2	1000	H	NA	V		-500	7006141	Faesulae	167279	N	V
+NA		NA	1		C	NA	P			7006142	Sesto Fiorentino	47392	N	V
+NA		NA	1		C	NA	P			7006143	Scandicci	47304	N	V
+NA		NA	1		C	NA	P			7006144	Impruneta	45396	N	V
+NA		NA	1		C	NA	P			7006145	Tavarnelle Val di Pesa	47569	N	V
+NA		NA	1		C	NA	P			7006146	Borgo San Lorenzo	43998	N	V
+NA		NA	2		C	NA	V			7006146	Borgo S. Lorenzo	162499	N	V
+NA		NA	1		C	NA	P			7006147	Vicchio	47916	N	V
+NA		NA	2		C	NA	V			7006147	Vicchio di Mugello	162625	N	V
+NA		NA	1		C	NA	P			7006148	Cavallina	145805	N	V
+NA		NA	1		C	NA	P			7006149	Cafaggiolo	145481	N	V
+NA		NA	2		C	NA	V			7006149	Caffagiolo	162503	N	V
+NA		NA	1		C	NA	P			7006151	Firenzuola	45065	N	V
+NA		NA	2		C	NA	V			7006151	Ferenzuola	162536	N	V
+NA		NA	1		C	NA	P			7006152	Vaglia	47784	N	V
+NA		NA	1		C	NA	P			7006153	Palazzuolo sul Senio	46328	N	V
+NA		NA	1		C	NA	P			7006155	San Piero a Sieve	153425	N	V
+NA		NA	1		C	NA	P			7006157	Scarperia	47308	N	V
+NA		NA	2		C	NA	V			7006157	Scaperia	162611	N	V
+NA		NA	1		C	NA	P			7006159	Calenzano	44170	N	V
+NA		NA	1		C	NA	P			7006161	Prato	46667	N	V
+NA		NA	2		C	NA	V			7006161	Prato in Toscana	323492	N	V
+NA		NA	1		C	NA	P			7006162	Carmignano	145652	N	V
+NA		NA	1		C	NA	P			7006163	Poggio a Caiano	152199	N	V
+NA		NA	2		C	NA	V			7006163	Poggio	162571	N	V
+NA		NA	1		C	NA	P			7006164	Montelupo Fiorentino	46000	N	V
+NA		NA	2		C	NA	V			7006164	Montelupo	162556	N	V
+NA		NA	1		C	NA	P			7006165	Lastra a Signa	45483	N	V
+NA		NA	1		C	NA	P			7006166	Cerreto Guidi	44603	N	V
+NA		NA	2		C	NA	V			7006166	Cerreto-Guidi	162518	N	V
+NA		NA	1		C	NA	P			7006167	Castelfiorentino	44446	N	V
+NA		NA	2		C	NA	V			7006167	Castel Fiorentino	162511	N	V
+NA		NA	1		C	NA	P			7006168	Capraia	44295	N	V
+NA		NA	1		C	NA	P			7006169	Certaldo	44609	N	V
+NA		NA	2		C	NA	V			7006169	Certaldo Val d'Elsa	162520	N	V
+NA		NA	1		C	NA	P			7006170	Fucecchio	45163	N	V
+NA		NA	1		C	NA	P			7006172	Montaione	45929	N	V
+NA		NA	1		C	NA	P			7006173	Vinci	48002	N	V
+NA		NA	1		C	NA	P			7006174	Signa	47415	N	V
+NA		NA	1		C	NA	P			7006175	Capalbio	44278	N	V
+NA		NA	1		C	NA	P			7006176	Orbetello	46235	N	V
+NA		NA	1		C	NA	P			7006177	Pitigliano	46512	N	V
+NA		NA	1		C	NA	P			7006178	Giglio Castello	45268	N	V
+NA		NA	1		C	NA	P			7006181	Sovana	154132	N	V
+NA		NA	1		C	NA	P			7006183	Arcidosso	43683	N	V
+NA		NA	1		C	NA	P			7006184	Campagnatico	44201	N	V
+NA		NA	1		C	NA	P			7006185	Istia d'Ombrone	148786	N	V
+NA		NA	2		C	NA	V			7006185	Istia	162637	N	V
+NA		NA	1		C	NA	P			7006186	Montenero	46009	N	V
+NA		NA	1		C	NA	P			7006188	Paganico	46309	N	V
+NA		NA	2		C	NA	V			7006188	Pag$00anico	162642	N	V
+NA		NA	1		C	NA	P			7006189	Vetulonia	47906	N	V
+NA		NA	2		H	NA	V			7006189	Colonna di Buriano	162464	N	V
+NA		NA	3		H	NA	V			7006189	Vatluna	1156915	N	V
+NA		NA	4		C	NA	V			7006189	Vetluna	1001176101	N	V
+NA		NA	1		C	NA	P			7006190	Triana	47722	N	V
+NA		NA	1		C	NA	P			7006191	Castiglioncello	44512	N	V
+NA		NA	1		C	NA	P			7006192	Campiglia Marittima	44208	N	V
+NA		NA	1		C	NA	P			7006194	Piombino	46500	N	V
+NA		NA	1		C	NA	P			7006195	Populonia	46610	N	V
+NA		NA	2		H	NA	V			7006195	Populonium	1156488	N	V
+NA		NA	3		H	NA	V			7006195	Pupluna	1156489	N	V
+NA		NA	4		H	NA	V			7006195	Fufluna	1156490	N	V
+NA		NA	1		C	NA	P			7006196	Portoferraio	46634	N	V
+NA		NA	2		H	NA	V			7006196	Cosmopoli	157825	N	V
+NA		NA	4		H	NA	V			7006196	Ferrarius portus	1160871	N	O
+NA		NA	3		H	NA	V			7006196	Argous portus	1160872	N	O
+NA		NA	1		C	NA	P			7006197	Elba, Isola d'	7212	N	V
+NA		NA	2		C	NA	V			7006197	Isola d'Elba	148774	N	V
+NA		NA	4		H	NA	V			7006197	Ilva	168056	N	V
+NA		NA	3		C	NA	V			7006197	Elba	173188	N	V
+NA		NA	5		H	NA	V			7006197	Aethalia	320088	N	V
+NA		NA	1		C	NA	P			7006198	Capannori	44280	N	V
+NA		NA	1		C	NA	P			7006200	Borgo a Mozzano	44003	N	V
+NA		NA	2		C	NA	V			7006200	Borgo a Mazzano	162666	N	V
+NA		NA	1		C	NA	P			7006201	Gallicano	45189	N	V
+NA		NA	1		C	NA	P			7006202	Camporgiano	44239	N	V
+NA		NA	1		C	NA	P			7006204	Camaiore	44187	N	V
+NA		NA	2		C	NA	V			7006204	Camiore	162668	N	V
+NA		NA	1		C	NA	P			7006205	Pietrasanta	46477	N	V
+NA		NA	1		C	NA	P			7006206	Seravezza	47360	N	V
+NA	name is derived from the location of the early fortification along the Via Reggio (road)	NA	1	9999	C	NA	P		1200	7006207	Viareggio	47912	N	V
+NA		NA	2		H	NA	V			7006207	Motrone	326741	N	V
+NA		NA	1		C	NA	P			7006242	Barga	43838	N	V
+NA		NA	1		C	NA	P			7006245	Aulla	43759	N	V
+NA		NA	1		C	NA	P			7006293	Pontremoli	46605	N	V
+NA	Latin	NA	2	1300	H	NA	V		-100	7006293	Tremulus pons	1158730	N	V
+NA	Latin	NA	3	1300	H	NA	V		-100	7006293	Apua	1158731	N	V
+NA		NA	1		C	NA	P			7006294	Calci	145494	N	V
+NA		NA	1		C	NA	P			7006295	San Piero a Grado	47104	N	V
+NA		NA	1		C	NA	P			7006296	Vicopisano	47922	N	V
+NA		NA	1		C	NA	P			7006299	Pontedera	46593	N	V
+NA		NA	1		C	NA	P			7006300	San Miniato	47092	N	V
+NA		NA	2		C	NA	V			7006300	San Miniato al Tedesco	162696	N	V
+NA	used since 1956	NA	1	9999	C	NA	P		1956	7006301	Casciana Terme	44380	N	V
+NA		NA	2		H	NA	V			7006301	Bagni di Casciana	156922	N	V
+NA		NA	3		H	NA	V			7006301	Bagno a Acqua	156923	N	V
+NA		NA	4		H	NA	V			7006301	Bagni di Aqui	323621	N	V
+NA		NA	5		H	NA	V			7006301	Bagni delle Colline Pisane	323622	N	V
+NA		NA	6		H	NA	V			7006301	Castrum ad Aquas	323623	N	V
+NA		NA	7		H	NA	V			7006301	Castrum de Aquis	323624	N	V
+NA		NA	1		C	NA	P			7006302	Palaia	46318	N	V
+NA		NA	1		C	NA	P			7006303	Peccioli	46380	N	V
+NA		NA	2		C	NA	V			7006303	P$00eccioli	162691	N	V
+NA		NA	1		C	NA	P			7006304	Castellina Marittima	44472	N	V
+NA		NA	1		C	NA	P			7006305	Volterra	48026	N	V
+NA	ancient	NA	2	1000	H	NA	V		-500	7006305	Volaterrae	171709	N	V
+NA		NA	3		H	NA	V			7006305	Volterrae	1156911	N	V
+NA		NA	4		H	NA	V			7006305	Velathri	1156912	N	V
+NA		NA	1		C	NA	P			7006306	Pescia	46417	N	V
+NA		NA	1		C	NA	P			7006307	Monsummano Terme	45924	N	V
+NA		NA	2		C	NA	V			7006308	Montecatini-Terme	45963	N	V
+NA		NA	3		C	NA	V			7006308	Montecatini	162700	N	V
+NA		NA	1		C	NA	P			7006308	Montecatini Terme	150849	N	V
+NA		NA	1		C	NA	P			7006309	Badia Prataglia	43783	N	V
+NA		NA	2		C	NA	V			7006309	Badia Patraglia	162466	N	V
+NA		NA	1		C	NA	P			7006310	Cascina	44381	N	V
+NA		NA	2		C	NA	V			7006310	C$00ascina	162686	N	V
+NA		NA	1		C	NA	P			7006312	Castelnuovo Berardenga	44488	N	V
+NA		NA	1		C	NA	P			7006313	Murlo	46105	N	V
+NA	ancient	NA	3	1000	H	NA	V		-500	7006313	Poggio Civitate	164783	N	V
+NA		NA	2		C	NA	V			7006313	Vescovado di Murlo	328070	N	V
+NA		NA	1		C	NA	P			7006314	Radda in Chianti	46709	N	V
+NA		NA	1		C	NA	P			7006315	Sovicille	47481	N	V
+NA		NA	2		H	NA	V			7006315	Sufficillum	314997	N	V
+NA		NA	1		C	NA	P			7006317	Abbadia San Salvatore	43498	N	V
+NA		NA	1		C	NA	P			7006318	Montalcino	45932	N	V
+NA		NA	10		H	NA	V			7006318	Ilcinus	1159888	N	O
+NA		NA	9		H	NA	V			7006318	Lucinus	1159889	N	O
+NA		NA	8		H	NA	V			7006318	Alcinus	1159890	N	O
+NA		NA	7		H	NA	V			7006318	Alcinous	1159891	N	O
+NA		NA	6		H	NA	V			7006318	Lucis mons	1159892	N	O
+NA		NA	5		H	NA	V			7006318	Umbronis	1159893	N	O
+NA		NA	4		H	NA	V			7006318	Ilicii	1159894	N	O
+NA		NA	3		H	NA	V			7006318	Ilcii	1159895	N	O
+NA		NA	2		H	NA	V			7006318	Alcinoi mons	1159896	N	O
+NA		NA	1		C	NA	P			7006319	Buonconvento	44102	N	V
+NA		NA	1		C	NA	P			7006320	Monticchiello	150907	N	V
+NA		NA	2		C	NA	V			7006320	Montichiello	162735	N	V
+NA		NA	1		C	NA	P			7006321	Montisi	150915	N	V
+NA	named after Pope Pius II in 1459	NA	1	9999	C	NA	P		1459	7006322	Pienza	46464	N	V
+NA		NA	2		H	NA	V			7006322	Corsignano	326672	N	V
+NA		NA	1		C	NA	P			7006323	San Giovanni d'Asso	47031	N	V
+NA		NA	1		C	NA	P			7006324	Casole d'Elsa	44392	N	V
+NA		NA	1		C	NA	P			7006325	Monteriggioni	46018	N	V
+NA		NA	1		C	NA	P			7006326	Trequanda	47712	N	V
+NA		NA	1		C	NA	P			7006327	Barberino Val d'Elsa	43829	N	V
+NA		NA	1		C	NA	P			7006328	Colle di Val d'Elsa	44764	N	V
+NA		NA	2		C	NA	V			7006328	Colle Val D'Elsa	162726	N	V
+NA		NA	1		C	NA	P			7006329	Elsa	125133	N	V
+NA		NA	3		C	NA	V			7006329	Elsa River	147021	N	O
+NA		NA	4		C	NA	V			7006329	Elsa, rivi$02ere	156466	N	O
+NA		NA	2		C	NA	V			7006329	Elsa, Fiume	352755	N	V
+NA		NA	1		C	NA	P			7006330	Poggibonsi	46526	N	V
+NA		NA	2		H	NA	V			7006330	Podium Bonitii	314996	N	V
+NA		NA	1		C	NA	P			7006331	Radicondoli	46712	N	V
+NA		NA	1		C	NA	P			7006332	Staggia	154189	N	V
+NA		NA	1		C	NA	P			7006333	Asciano	43734	N	V
+NA	named after the bishop of Modena (died 397)	NA	1	9999	C	NA	P		350	7006334	San Gimignano	47004	N	V
+NA		NA	2		C	NA	V			7006334	Gimignano, San	142952	N	V
+NA		NA	3		C	NA	V			7006334	S. Gimignano	142953	N	V
+NA		NA	4		C	NA	V			7006334	Sangimignano	323176	N	V
+NA		NA	5		H	NA	V			7006334	Silva	323496	N	V
+NA		NA	1		C	NA	P			7006335	Sarteano	47274	N	V
+NA		NA	1		C	NA	P			7006336	Scrofiano	153725	N	V
+NA		NA	1		C	NA	P			7006337	Serre di Rapolano	153811	N	V
+NA		NA	2		C	NA	V			7006337	Rapolano	162755	N	V
+NA		NA	1		C	NA	P			7006338	Sinalunga	47425	N	V
+NA		NA	1		C	NA	P			7006339	Torrita di Siena	47675	N	V
+NA		NA	2		C	NA	V			7006339	Torrita	162760	N	V
+NA		NA	1		C	NA	P			7006341	Cetona	44631	N	V
+NA		NA	1		C	NA	P			7006344	Chiusi	44671	N	V
+NA	name of Roman military installation here	NA	2	1600	H	NA	V		-300	7006344	Clusium	164689	N	V
+NA	Etruscan name	NA	3	-100	H	NA	V		-500	7006344	Chamaras	326743	N	V
+NA		NA	4		H	NA	V			7006344	Clevsia	326744	N	V
+NA	pre-Etruscan name	NA	6	-200	H	NA	V		-800	7006344	Camars	326745	N	V
+NA		NA	7		H	NA	V			7006344	Chamars	1155882	N	V
+NA		NA	5		H	NA	V			7006344	Clevsin	1157203	N	V
+NA		NA	1		C	NA	P			7006345	Montepulciano	46014	N	V
+NA		NA	1		C	NA	P			7006346	Rapolano Terme	46720	N	V
+NA		NA	2		C	NA	V			7006346	Rapolano	162742	N	V
+NA		NA	1		C	NA	P			7006520	Volognano	162630	N	V
+NA		NA	1		C	NA	P			7006522	Casentino	112801	N	V
+NA		NA	1		C	NA	P			7006523	Cercina	145842	N	V
+NA		NA	2		C	NA	V			7006523	Cerc$00ina	162515	N	V
+NA		NA	1		C	NA	P			7006524	Montelungo	45999	N	V
+NA		NA	1		C	NA	P			7006526	Chianciano Terme	44641	N	V
+NA		NA	2		C	NA	V			7006526	Chianciano	162721	N	V
+NA		NA	1		C	NA	P			7006528	Figline Valdarno	45051	N	V
+NA		NA	2		C	NA	V			7006528	Figline	162532	N	V
+NA		NA	1		C	NA	P			7006530	Greve	45338	N	V
+NA		NA	2		C	NA	V			7006530	Greve in Chianti	314939	N	V
+NA		NA	1		C	NA	P			7006531	Mugello	112885	N	V
+NA		NA	1		C	NA	P			7006533	Chiana, Val di	112803	N	V
+NA		NA	2		C	NA	V			7006533	Val di Chiana	162461	N	V
+NA		NA	3		C	NA	V			7006533	Chiana Valley	162462	N	O
+NA		NA	1		C	NA	P			7006537	San Giovanni Valdarno	47027	N	V
+NA	Latin name	NA	2	1600	H	NA	V		-100	7006537	Ad Fines	1158960	N	O
+NA	Latin name	NA	3	1600	H	NA	V		-100	7006537	Caesarianae Casae	1158961	N	O
+NA		NA	1		C	NA	P			7006539	Falterona, Monte	105612	N	V
+NA		NA	2		C	NA	V			7006539	Monte Falterona	162526	N	V
+NA		NA	1		C	NA	P			7006543	Faltugnano	162529	N	V
+NA		NA	1		C	NA	P			7006544	Rufina	46897	N	V
+NA		NA	1		C	NA	P			7006547	Legnaia	162546	N	V
+NA		NA	1		C	NA	P			7006548	Montegufoni	162554	N	V
+NA		NA	1		C	NA	P			7006555	Petriolo	162569	N	V
+NA		NA	1		C	NA	P			7006556	Pontassieve	46566	N	V
+NA		NA	1		C	NA	P			7006565	Vincigliata	162629	N	V
+NA		NA	1		C	NA	P			7006573	Pelago	46387	N	V
+NA		NA	2		C	NA	V			7006573	P$00elago	162567	N	V
+NA		NA	1		C	NA	P			7006574	Pozzolatico	162577	N	V
+NA		NA	1		C	NA	P			7006575	Empoli	44971	N	V
+NA		NA	1		C	NA	P			7006579	Vespignano	162623	N	V
+NA		NA	1		C	NA	P			7006581	Vallombrosa	47822	N	V
+NA		NA	1		C	NA	P			7006582	Maremma	113245	N	V
+NA		NA	1		C	NA	P			7006584	Roccalbegna	46822	N	V
+NA		NA	1		C	NA	P			7006588	Talamone	47557	N	V
+NA		NA	2		C	NA	V			7006588	Talamonaccio	162652	N	V
+NA	ancient	NA	3	1000	H	NA	V		-500	7006588	Telamon	164781	N	V
+NA		NA	1		C	NA	P			7006589	Futa, Passo della	109478	N	V
+NA		NA	2		C	NA	V			7006589	Passo della Futa	162681	N	V
+NA		NA	3		C	NA	V			7006589	La Futa	162682	N	V
+NA		NA	1		C	NA	P			7006590	Canneto	177117	N	V
+NA		NA	2		C	NA	V			7006590	Canneto di Monteverdi	314990	N	V
+NA		NA	1		C	NA	P			7006591	Lecceto	162728	N	V
+NA		NA	1		C	NA	P			7006592	San Casciano in Val di Pesa	46964	N	V
+NA		NA	2		C	NA	V			7006592	San Casciano Val di Pesa	162589	N	V
+NA		NA	1		C	NA	P			7007728	Castiglione d'Orcia	44517	N	V
+NA		NA	2		C	NA	V			7007731	Camaldoli, Eremo di	100939	N	V
+NA		NA	3		C	NA	V			7007731	Camaldoli	145523	N	V
+NA		NA	1		C	NA	P			7007731	Cam$00aldoli	161887	N	V
+NA	from name of Count Maldoli, who granted land to St. Romuald	NA	5	1600	H	NA	V		1027	7007731	Campus Maldoli	315438	N	V
+NA		NA	4		H	NA	V			7007731	Ca' M$00aldoli	326739	N	V
+NA		NA	1		C	NA	P			7008397	Incisa in Val d'Arno	45397	N	V
+NA		NA	2		C	NA	V			7008397	Incisa in Valdarno	148700	N	V
+NA		NA	1		C	NA	P			7008555	Reggello	46738	N	V
+NA		NA	1		C	NA	P			7008900	San Godenzo	47043	N	V
+NA		NA	1		C	NA	P			7009080	Albegna	122405	N	V
+NA		NA	3		C	NA	V			7009080	Albegna River	143876	N	O
+NA		NA	4		C	NA	V			7009080	Albegna, rivi$02ere	156407	N	O
+NA		NA	2		C	NA	V			7009080	Albegna, Fiume	352794	N	V
+NA		NA	1		C	NA	P			7009760	Toscana	1909	N	V
+NA		NA	2		C	NA	V			7009760	Tuscany	1910	N	O
+NA		NA	3		H	NA	V			7009760	Tuscia	154915	N	V
+NA		NA	4		C	NA	V			7009760	Tuscan	1159558	A	O
+NA		NA	5		C	NA	V			7009760	Toscan	1159559	A	O
+NA		NA	1		C	NA	P			7009957	Rignano sull'Arno	46769	N	V
+NA		NA	1		C	NA	P			7010020	Pratolino	46671	N	V
+NA		NA	1		C	NA	P			7010381	Cosa	100690	N	V
+NA	name documented for area of ruins in 5th cen. AD	NA	2	9999	C	NA	V		300	7010381	Ansedonia	100691	N	V
+NA	Etruscan name	NA	4	1000	H	NA	V		-900	7010381	Ortbetello	328141	N	V
+NA		NA	3		H	NA	V			7010381	Cosae	328142	N	V
+NA		NA	2		C	NA	V			7010394	Amiata, Monte	104738	N	V
+NA		NA	1		C	NA	P			7010394	Monte Amiata	162442	N	V
+NA		NA	4		H	NA	V			7010394	Mons Tuniae	319349	N	V
+NA		NA	5		H	NA	V			7010394	Mons ad Meata	319350	N	V
+NA		NA	3		C	NA	V			7010394	Mount Amiata	1158662	N	V
+NA	used since 13th century	Y	1	9999	C	NA	P		1200	7011179	Siena	47413	N	V
+NA		NA	2		C	NA	V			7011179	Sienna	140808	N	O
+NA	Roman	NA	5	300	H	NA	V		-100	7011179	Saena Julia	141380	N	V
+NA	Etruscan	NA	7	-100	H	NA	V		-800	7011179	Sena	181414	N	V
+NA		NA	6		H	NA	V			7011179	Sena Julia	181415	N	V
+NA	medieval	NA	3	1500	H	NA	V		800	7011179	Senae	181416	N	V
+NA		NA	4		H	NA	V			7011179	Sanna	181456	N	V
+NA		NA	8		C	NA	V			7011179	Sienese	1159549	A	O
+NA		NA	1		C	NA	P			7011181	Sorano	47464	N	V
+NA		NA	3		C	NA	V			7015413	Roselle	162648	N	V
+NA	ancient	NA	1	9999	C	NA	P		-500	7015413	Rusellae	323486	N	V
+NA		NA	2		C	NA	V			7015413	Russellae	323487	N	V
+NA		NA	4		H	NA	V			7015413	Bagno Roselle	323488	N	V
+NA		NA	1		C	NA	P			7015529	Argentario, Monte	104782	N	V
+NA		NA	2		C	NA	V			7015529	Monte Argentario	150831	N	V
+NA		NA	1		C	NA	P			7017499	Casciano	326305	N	V
+NA		NA	1		C	NA	P			7017500	Borgo Carige	326306	N	V
+NA		NA	2		C	NA	V			7017500	Carige	326307	N	V
+NA	name was first used in 13th cen.	NA	1	9999	C	NA	P		1200	7017853	Chianti	1800	N	V
+NA		NA	1		C	NA	P			7018786	Monte Labbro	150834	N	V
+NA		NA	2		C	NA	V			7018786	Labbro, Monte	347054	N	V
+NA		NA	1		C	NA	P			7023825	Castellina in Chianti	44473	N	V
+NA		NA	1		C	NA	P			7023893	San Casciano dei Bagni	46963	N	V
+NA		NA	1		C	NA	P			7023894	San Galgano, Abbazia di	101025	N	V
+NA		NA	2		C	NA	V			7023894	San Galgano	162460	N	V
+NA	Roman name	NA	1	1	H	NA	P		-500	7024113	Etruria	1157128	N	O
+NA	Roman variant name for the area	NA	4	1	H	NA	V		-500	7024113	Tuscia	1157129	N	O
+NA	believed to be the Etruscan name for their lands; according to Dionysius of Halicarnassus, they called themselves Rasenna	NA	3	1	H	NA	V		-900	7024113	Rasna	1157130	N	V
+NA	Etruscan variant name for Rasna, believed to be Etruscan name for their lands	NA	2	1	H	NA	V		-900	7024113	Rashna	1157131	N	V
+NA		NA	1		C	NA	P			7024602	Peraiola	1159281	N	V
+NA		NA	2		C	NA	V			7024602	Gabbiani, Isola dei	1159282	N	V
+NA		NA	1		C	NA	P			7024741	Prato	1161157	N	V
+NA		NA	2		C	NA	V			7024741	Prato, Provincia di	1161158	N	V
+NA		NA	3		C	NA	V			7024741	Prato province	1161159	N	O
+NA		N	1		C	NA	P			7028107	Siena, Le Masse di	1001171685	N	V
+NA		NA	2		C	NA	V			7028107	Masse di Siena	1001171686	N	V
+NA		N	1		C	NA	P			7029392	World	1001175299	N	V
+NA		N	1		C	NA	P			7029393	Anchiano	1001175303	N	V
+NA		N	1		C	NA	P			7029473	La Piana	1001175586	N	V
+NA		Y	1		C	NA	P			7029528	Minucciano	1001175910	N	V
+NA		Y	1		C	NA	P			7030235	Rocco San Silvestro	1001178670	N	V

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clay-model clay-version="1.2.0">
+<database-model alias="" author="" begin-script="" end-script="" name="myModel2" remarks="" sql-dialect-id="jp.azzurri.clay.model.physical.dialect.HSQLDB_1_7_0_Dialect" version="1.0">
+<database-model-description/>
+<schema-list>
+<schema alias="" name="DEFAULT_SCHEMA" remarks="">
+<schema-description/>
+<domain-list/>
+<table-list>
+<table alias="" name="tokens" remarks="">
+<table-description/>
+<table-figure-bounds height="70" width="85" x="90" y="73"/>
+<column-list>
+<column alias="" auto-increment="true" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="id" remarks="">
+<column-description/>
+<data-type jdbc-type="4" name="INT" selected-variant-pattern="INT">
+<variant type-name-pattern="INT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="200" decimal-digits="0" default-value="" mandatory="false" name="token" remarks="">
+<column-description/>
+<data-type jdbc-type="12" literal-prefix="'" literal-suffix="'" name="VARCHAR" selected-variant-pattern="VARCHAR(%n)">
+<variant precision-max="32672" precision-min="1" precision-variable="%n" type-name-pattern="VARCHAR(%n)"/>
+</data-type>
+</column>
+</column-list>
+<primary-key alias="" name="PK_TOKENS" remarks="">
+<primary-key-description/>
+<primary-key-column name="id"/>
+</primary-key>
+<unique-key-list/>
+<foreign-key-list/>
+<index-list/>
+</table>
+</table-list>
+</schema>
+</schema-list>
+</database-model>
+</clay-model>

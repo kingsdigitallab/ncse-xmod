@@ -1,0 +1,54 @@
+<!ELEMENT nitf (head?, body)>
+<!ATTLIST nitf
+	baselang CDATA #REQUIRED
+	change.date CDATA #FIXED 		"October 10, 2003"
+	change.time CDATA #FIXED 		"19:30"
+	version CDATA #FIXED 		"-//IPTC//DTD NITF 3.2//EN"
+>
+<!ELEMENT body (body.head?, body.content*)>
+<!ELEMENT body.content (p+, media*)>
+<!ELEMENT body.head (hedline*, byline*)>
+<!ELEMENT byline (#PCDATA)>
+<!ELEMENT doc-id EMPTY>
+<!ATTLIST doc-id
+	id-string CDATA #REQUIRED
+>
+<!ELEMENT doc.copyright EMPTY>
+<!ATTLIST doc.copyright
+	holder CDATA #REQUIRED
+	year CDATA #REQUIRED
+>
+<!ELEMENT docdata (doc-id, doc.copyright)>
+<!ATTLIST docdata
+	management-status CDATA #REQUIRED
+>
+<!ELEMENT head (meta*, docdata?, pubdata*)>
+<!ELEMENT meta EMPTY>
+<!ATTLIST meta
+	name CDATA #FIXED 		"label1"
+	content CDATA #REQUIRED
+>
+<!ELEMENT hedline (hl1, hl2*)>
+<!ELEMENT hl1 (#PCDATA)>
+<!ELEMENT hl2 (#PCDATA)>
+<!ELEMENT media (media-reference, media-caption)>
+<!ATTLIST media
+	media-type CDATA #REQUIRED
+>
+<!ELEMENT media-caption (#PCDATA)>
+<!ELEMENT media-reference EMPTY>
+<!ATTLIST media-reference
+	mime-type CDATA #REQUIRED
+>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT pubdata EMPTY>
+<!ATTLIST pubdata
+	type CDATA #REQUIRED
+	unit-of-measure CDATA #REQUIRED
+	name CDATA #REQUIRED
+	position.section CDATA #REQUIRED
+	item-length CDATA #REQUIRED
+	date.publication CDATA #REQUIRED
+	position.sequence CDATA #REQUIRED
+>
+

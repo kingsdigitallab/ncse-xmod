@@ -1,0 +1,15 @@
+
+18.07.06
+
+- grammatical analysis
+- concordance
+- entity extraction - tool from Lancaster, or others
+- Waterloo index
+
+next NCSE meetings:
+
+05.09.06
+10.10.06
+06.11.06
+05.12.06
+

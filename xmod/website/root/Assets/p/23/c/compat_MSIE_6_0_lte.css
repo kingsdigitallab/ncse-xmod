@@ -1,0 +1,48 @@
+#footer .utilLinks .s01  ul li{border-right: 1px solid #7cbeda;  }
+#footer .utilLinks .s02  a { color: #44a2cb; border-bottom: 1px solid #7cbeda;}
+#sidenav li{border-bottom: 1px solid #daecf5; }
+#sidenav li a:hover span{border-bottom: 1px solid #44a2cb; color: #0584ba;}
+#sidenav ul{border-top: 1px solid #daecf5;}
+#topnav ul li a span {border-bottom: 1px solid #a1d0e5 !important;	 }
+#topnav ul li a:hover span { border-bottom: 1px solid #44a2cb !important; }
+#content #rightContent .facetPanel dl dd ul li a {border-bottom: 1px solid #7cbeda; }
+#content #rightContent .facetPanel dl dd ul li a:hover {border-bottom: 1px solid #44a2cb; }
+#mainContent a{ color: #44a2cb; text-decoration:none; border-bottom: 1px solid #7cbeda;}
+#mainContent .resourceList .t02 ul li h3 a {color:#0685bc; border-bottom: 1px solid #7cbeda;}
+#mainContent .resourceList .t02 ul li h3 a:hover {border-bottom: 1px solid #0685bc;}
+#mainContent .resourceList .t02 ul li {border-bottom: 1px solid #b4daea;}
+#mainContent .resourceList .t02 ul {border-top: 1px solid #a1d0e5;}
+
+#banner h2 {background: url(../i/ie6_banner_h2_bg.png) 0 0 no-repeat;}
+#mainContent form fieldset fieldset legend {margin: 0 0 0 -7px; }
+#mainContent .form .t02 fieldset.s01 fieldset.f05  {width: 100%;}
+#mainContent form a.s01,
+#mainContent form a:hover.s01{ height:0.01em;}
+#mainContent form a:hover.s01 {border: 0px none}
+#mainContent .searchSummary .s01 dl {zoom: 1;}
+#mainContent .searchSummary .s01 dl dt { float: left; margin: 0 -10em 0 0; }
+#mainContent .searchSummary .s01 dl dd a {height: 0.01em}
+#mainContent .searchSummary .s01 dl dd { zoom:1; margin: 0 0 0 2.3em; padding:0; display: inline-block;}
+#mainContent .searchSummary .t01 .s01 dl dd a {text-indent: 0px;}
+#mainContent .searchSummary .t01 .s01 dl dd a span {display: none;}
+
+#mainContent .searchSummary .s02 {zoom:1;}
+#mainContent .resourceList .t02 ul  {zoom:1;position:relative;}
+#mainContent .resourceList .t02 ul li a.x01 {height: 0.01em;width: 1px; margin: 0;}
+#mainContent .resourceList .t02 ul li dfn {width: 10px; left:  }
+#mainContent .resourceList .t02 ul li  { float: left}
+#mainContent .resourceItem .t01 {margin: 0.8em 0 0 0;}
+#mainContent .resourceItem .t01 ul li,
+#mainContent .resourceItem .t01 ul li dl {position: relative;}
+
+#mainContent .unorderedList .t05 input.f02 {margin: -3px 0 0 0; padding: 0; line-height: 1px;}
+
+#topnav,#topnav ul {zoom: 1;}
+#topnav ul {height: 29px;}
+#topnav #pn ul.pn1 {  background:url(../i/ie6_topnav_pn1.png) 0 0px no-repeat; display: inline;  }
+#topnav #pn ul.pn2 {  background:url(../i/ie6_topnav_pn2.png) 0 1px no-repeat;  }
+#topnav #pn ul li a:hover {border: 0px none !important; border-right: 1px solid #a7d4e7 !important; margin: 8px 7px 7px 0px; padding: 0px 7px 0px 0px;}
+#topnav #pn ul li a:hover span {padding: 0 !important; margin: 0 !important;}
+#topnav #pn ul li.s02 a:hover {border-right: 0px none !important;}
+#topnav ul.pn1 li.s02 a:hover,
+#topnav ul.pn2 li.s02 a:hover {border-right: 0px none !important;}

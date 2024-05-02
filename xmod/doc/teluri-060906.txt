@@ -1,0 +1,42 @@
+
+I told Uri that it is impossible to publish material from Monthly
+Repository and Northern Star
+
+He told me to send screenshots of the progress window, what I did
+
+Here is the mail I sent to him:
+
+-----------------------------------------------------------------
+Here are two screenshots, on for the Monthly Repository and one 
+for the Northern Star.
+
+I tried to publish the date range from 1806/01/01 to 1838/12/31 
+of the Monthly Repository, but the progress windows only shows 
+1806/01/01 to 1806/01/01 and it only exports this date.
+
+And the publish procedure for the Northern Star stops with an ASP 
+error.
+-----------------------------------------------------------------
+
+He will show these to the programmers and come back to us
+
+
+
+
+
+I also asked him if it would be possible to have the date displayed
+with each found page in the search results screen of the FileCabinet
+
+He will check with the programmers if this can be done easily
+
+He also suggested that they could install the new version of the
+FileCabinet software that has a much refined search interface and
+displays more information on the search results screen
+
+He will come back to us on that
+
+Uri says that the date can only be presented in the search results if
+there is a metadata entry
+
+
+

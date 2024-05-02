@@ -1,0 +1,29 @@
+
+sometimes there are log-likelihood values like "-0.00" that are ranked
+quite high up; the cases I have spotted are always at a position
+between log-likelihood values 9 and 11; could it be that the "-" sign
+should really be a "1"?
+
+Examples:
+
+-0.00:
+EWJ-1858-06-01-Ar02802_keydomains.txt
+EWJ-1858-06-01-Ar04303_keydomains.txt
+EWJ-1858-06-01-Ar04803_keydomains.txt
+EWJ-1858-06-01-Ar05802_keydomains.txt
+EWJ-1858-06-01-Ar06602_keydomains.txt
+EWJ-1858-07-01-Ar03802_keydomains.txt
+
+-0.01:
+EWJ-1858-07-01-Ar06802_keydomains.txt
+
+-0.02:
+EWJ-1859-05-01-Ar02703
+
+
+------------------------------------
+
+bug?
+
+EWJ-1858-04-01-Ar00802  S7.1-@
+

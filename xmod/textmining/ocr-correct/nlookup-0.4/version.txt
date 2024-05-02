@@ -1,0 +1,40 @@
+v0.4
+----
+- give the error in percentage
+- default d to 25% of the pattern length (truncate)
+- created corpus class, able to hold large lists of strings and 
+  allowing fast searches
+- incorporated the corpus in the ranking system
+- fixed the case-insesitive lookup of the corpus
+- changed the weights associated with errors (from 10 to 100)
+
+
+v0.3
+----
+- renamed to nlookup
+- Created term_stat, a collection of all the statistic info to be
+  stored for each term "similar" to the pattern
+- Created simple ranking scheme
+- Output sorted by rank
+- Unified the matching functions' interface
+- Added commandline options
+- Can now search into several files collectively
+- Choose between case-sensitive/insensitive search
+- Created linux makefile
+
+
+v0.2
+----
+- Separated strings by space, so now we match the pattern against
+  the "small" texts (the words of each line)
+- Changed back to edit distance (from local match)
+- Skip comparing too small/large strings  (this speeds up things
+  quite a lot; much fewer calls to edit distance)
+
+
+v0.1
+----
+- Edit distance function
+- Changed edit dist to local match (find matches of the pattern
+  inside the "large" text, each line without the link is the text)
+- Implemented the above using space efficient algo (fast local match)

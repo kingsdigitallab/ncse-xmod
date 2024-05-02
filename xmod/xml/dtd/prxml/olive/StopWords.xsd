@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 U (http://www.xmlspy.com) by ginigot (myown) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="StopPattern" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>Regular expression defining a stop word.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="StopWord" type="xs:string">
+		<xs:annotation>
+			<xs:documentation> String defining a single stop word.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="StopWords">
+		<xs:annotation>
+			<xs:documentation>Hold list of patterns and words defining stop words.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="StopPattern" maxOccurs="unbounded"/>
+				<xs:element ref="StopWord" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

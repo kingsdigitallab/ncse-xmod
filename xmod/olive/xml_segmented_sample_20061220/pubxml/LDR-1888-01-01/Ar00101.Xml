@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<XMD-entity REPOSITORY_FORMAT="1.0" ENTITY_TYPE="Article" DOC_UID="LDR_01/01/1888" DOC_VER="1" PAGE_NO="1" ID="Ar00101" BOX="93 96 1177 615" LANGUAGE="English" SNP="Ar00101S.png" SNP_WIDTH="1085" SNP_HEIGHT="91">
+	<Meta NAME="Untitled Article" DESCRIPTION="" SUBTYPE="" BASE_HREF="LDR/1888/01/01" SOURCE_TYPE="TIFF" PUBLICATION="LDR" SECTION="Front page" ISSUE_DATE="01/01/1888" WORDCNT="45" RELEASE_NO="demo publishers" PAGE_ID="" PAGE_TYPE="Single" PAGE_WIDTH="646" PAGE_HEIGHT="861" DEFAULT_IMG_EXT="png" PDF_DESTINATION_MAPPED="OLV0_Entity_0001_0001" IMAGES_RESOLUTION="86" XMD_VER="2.6.236.23" PAGE_LABEL="I"/>
+	<Link SOURCE="demo+publishers1.pdf" FIRST_ID="Ar00100" LAST_ID="Ar00102" NEXT_ID="Ar00102" PREV_ID="Ar00100" TOC_ID="C:/Olive/Repository/LDR/1888/01/01/TOC.xml"/>
+	<Content>
+		<Primitive BOX="93 96 1177 615" ID="Ar0010100" TOC_ENTRY_ID="2" SEQ_NO="0"><Application_Data/>_^ , ^^_O_^ _ril_. iiinM _iLii JiJiMj_._niLTig. _n _iijf_. n _j LBJft_^ _^r-_^rw, --1 ^^^^^^_._^n^^_r^^^^^_JLcU_^i Ipj l ._; CHRISTMAS _NUMBER, 1888 M </Primitive>
+	</Content>
+	<TOC_Entries><TOC_Entry TOC_ENTRY_ID="2" TITLE="Untitled Article" ENTITY_ID_REF="Ar00101" PAGE_NO="1" PAGE_LABEL="I" PRIM_ID_REF="Ar0010100" IS_IC="true"/></TOC_Entries></XMD-entity>

@@ -1,0 +1,126 @@
+Z8            709    13.41  72023     7.44 +   202.77     Pronouns
+Z99           272     5.14  22165     2.29 +   137.50     Unmatched
+S9             68     1.29   3016     0.31 +    88.90     Religion and the supernatural
+L1+            13     0.25     93     0.01 +    57.72     Alive
+S4             63     1.19   4002     0.41 +    50.68     Kin
+X1             13     0.25    158     0.02 +    45.34     Psychological Actions, States And Processes
+S2.2           40     0.76   2534     0.26 +    32.32     People: Male  
+T1.1            7     0.13     47     0.00 +    31.88     Time: General
+W2              3     0.06      0     0.00 +    31.29     Light
+E2+            25     0.47   1372     0.14 +    25.01     Like
+A13             2     0.04      0     0.00 +    20.86     Degree
+I1.1+++         3     0.06      5     0.00 +    20.76     Money: Affluence
+E6+             9     0.17    245     0.03 +    18.75     Confident
+X2.1           45     0.85   4139     0.43 +    17.06     Thought, belief
+N5.1+++         2     0.04      1     0.00 +    17.05     Entire; maximum
+E3+            13     0.25    623     0.06 +    15.51     Calm 
+A8             20     0.38   1409     0.15 +    13.49     Seem
+A13.3          47     0.89   4808     0.50 +    13.15     Degree: Boosters
+S2.1           18     0.34   1364     0.14 +    10.58     People: Female
+W1              5     0.09    912     0.09 +    -0.00     The universe
+S4-             3     0.06     55     0.01 +     8.28     No kin
+B2+             5     0.09    195     0.02 +     7.52     Healthy
+X5.1-           3     0.06     68     0.01 +     7.18     Inattentive
+S7.2+           6     0.11    316     0.03 +     6.35     Respected
+T2+++           4     0.08    150     0.02 +     6.26     Time: Beginning 
+H4             17     0.32   1592     0.16 +     6.14     Residence
+S3.1           13     0.25   1122     0.12 +     5.77     Personal relationship: General
+N3.6            3     0.06     93     0.01 +     5.61     Measurement: Area
+X5.2+++         1     0.02      4     0.00 +     5.47     Interested/excited/energetic
+X9.2-           6     0.11    369     0.04 +     5.08     Failure
+S7.1-           9     0.17    697     0.07 +     5.06     No power 
+E1              6     0.11    373     0.04 +     5.00     Emotional Actions, States And Processes General
+T1.3           61     1.15   8327     0.86 +     4.75     Time: Period
+X2              2     0.04     46     0.00 +     4.74     Mental actions and processes
+X2.2+          21     0.40   2302     0.24 +     4.66     Knowledgeable
+S1.1.4+         2     0.04     54     0.01 +     4.19     Deserving
+Z6             58     1.10   8052     0.83 +     4.04     Negative
+S1.2.4+         3     0.06    130     0.01 +     4.03     Polite
+E5+             3     0.06    134     0.01 +     3.89     Bravery 
+N5---           2     0.04     65     0.01 +     3.58     Quantities: little
+N3.7+           9     0.17    818     0.08 +     3.52     Long, tall and wide
+T1             17     0.32   1913     0.20 +     3.43     Time
+S1.2            2     0.04     73     0.01 +     3.21     Personality traits
+E4.1-          10     0.19    979     0.10 +     3.19     Sad 
+B2-            12     0.23   1275     0.13 +     2.97     Disease 
+S3.2            6     0.11    508     0.05 +     2.78     Relationship: Intimacy and sex
+S1.2.5+++       1     0.02     19     0.00 +     2.70     Tough/strong 
+A1.5.1-         1     0.02     20     0.00 +     2.61     Unused
+X2.5+           6     0.11    551     0.06 +     2.28     Understanding
+S1.2.6+         3     0.06    204     0.02 +     2.15     Sensible
+S2             22     0.42   2896     0.30 +     2.14     People
+A13.7           5     0.09    439     0.05 +     2.13     Degree: Minimizers
+N3.3+           5     0.09    441     0.05 +     2.11     Distance: Far
+A5.1+          22     0.42   2905     0.30 +     2.10     Evaluation: Good 
+N5.1+          41     0.78   5944     0.61 +     2.06     Entire; maximum
+Q2.1-           1     0.02     32     0.00 +     1.82     Speech: Not communicating
+S7.2-           1     0.02     32     0.00 +     1.82     No respect
+N3.3---         1     0.02     32     0.00 +     1.82     Distance: Near
+E5-             7     0.13    757     0.08 +     1.63     Fear/shock
+B2              2     0.04    129     0.01 +     1.57     Health and disease
+Q3             13     0.25   1653     0.17 +     1.53     Language, speech and grammar
+A7+++           2     0.04    134     0.01 +     1.47     Likely
+G2.2-           5     0.09    516     0.05 +     1.36     Unethical
+X3.4           20     0.38   2795     0.29 +     1.33     Sensory: Sight
+E6-             8     0.15    961     0.10 +     1.23     Worry 
+A13.2          11     0.21   1439     0.15 +     1.11     Degree: Maximizers
+S1.2.1+         3     0.06    280     0.03 +     1.09     Informal/Friendly
+M2             35     0.66   5347     0.55 +     1.08     Putting, pulling, pushing, transporting
+S6+            32     0.61   4861     0.50 +     1.04     Strong obligation or necessity
+N3.7+++         1     0.02     55     0.01 +     1.00     Long, tall and wide
+A15+            2     0.04    166     0.02 +     0.97     Safe 
+T3              6     0.11    722     0.07 +     0.92     Time: Old, new and young; age
+A1.3+           3     0.06    305     0.03 +     0.86     Cautious
+A7              4     0.08    448     0.05 +     0.82     Probability
+X5.2+          11     0.21   1511     0.16 +     0.82     Interested/excited/energetic
+E2-             4     0.08    453     0.05 +     0.79     Dislike
+E4.1+          10     0.19   1370     0.14 +     0.76     Happy 
+X3.2-           3     0.06    320     0.03 +     0.73     Sound: Quiet
+A3+           142     2.69  24177     2.50 +     0.73     Existing
+N6              4     0.08    463     0.05 +     0.72     Frequency
+A1.5.2-         1     0.02     71     0.01 +     0.67     Useless
+A9+            61     1.15  10082     1.04 +     0.62     Getting and possession
+N3.7++          2     0.04    202     0.02 +     0.58     Long, tall and wide
+F2              7     0.13    963     0.10 +     0.52     Drinks and alcohol
+E4.2+           3     0.06    352     0.04 +     0.51     Content
+X2.5-           2     0.04    212     0.02 +     0.50     Not understanding
+A1.9            3     0.06    354     0.04 +     0.50     Avoiding
+T1.3++          1     0.02     83     0.01 +     0.49     Time period: long
+T1.1.2         19     0.36   2961     0.31 +     0.47     Time: Present; simultaneous
+Q2.2           58     1.10   9724     1.00 +     0.44     Speech acts
+T2++           14     0.26   2162     0.22 +     0.38     Time: Beginning 
+A6.2-           5     0.09    684     0.07 +     0.38     Comparing: Unusual 
+I1.1+           2     0.04    239     0.02 +     0.32     Money: Affluence
+X2.6-           1     0.02    100     0.01 +     0.30     Unexpected
+I1.1-           2     0.04    242     0.02 +     0.30     Money: Lack
+N5+            27     0.51   4457     0.46 +     0.28     Quantities: many/much
+X2.6+           5     0.09    714     0.07 +     0.28     Expected
+S8-             6     0.11    885     0.09 +     0.26     Hindering
+A1.7-           5     0.09    727     0.08 +     0.25     No constraint
+A1.7+           7     0.13   1071     0.11 +     0.21     Constraint
+L1-            10     0.19   1585     0.16 +     0.20     Dead
+B5             16     0.30   2625     0.27 +     0.19     Clothes and personal belongings
+M6             57     1.08   9859     1.02 +     0.18     Location and direction
+S1.1.3-         1     0.02    117     0.01 +     0.17     Non-participating
+S1.2.2+         1     0.02    117     0.01 +     0.17     Greedy
+S1.2.5+         3     0.06    433     0.04 +     0.16     Tough/strong 
+S7.4+           8     0.15   1270     0.13 +     0.15     Allowed
+A4.2+          10     0.19   1625     0.17 +     0.14     Detailed
+M8              4     0.08    610     0.06 +     0.13     Stationary
+A5.2+           5     0.09    779     0.08 +     0.12     Evaluation: True 
+Z3             28     0.53   4809     0.50 +     0.11     Other proper names
+S7.1            1     0.02    132     0.01 +     0.10     Power, organizing
+T3++            2     0.04    295     0.03 +     0.09     Time: Old; grown-up
+F3              1     0.02    135     0.01 +     0.08     Smoking and non-medical drugs
+X8+             7     0.13   1179     0.12 +     0.05     Trying hard
+Z7             12     0.23   2071     0.21 +     0.04     If
+N3.2++          1     0.02    157     0.02 +     0.02     Size: Big 
+S6-             1     0.02    156     0.02 +     0.02     No obligation or necessity
+A5.2-           2     0.04    332     0.03 +     0.02     Evaluation: False
+A6.1+          11     0.21   1924     0.20 +     0.02     Comparing: Similar 
+T1.3-           2     0.04    341     0.04 +     0.01     Time period: short
+X7-             2     0.04    358     0.04 +     0.00     Unwanted
+T1.2            7     0.13   1251     0.13 +     0.00     Time: Momentary
+X3.1            1     0.02    176     0.02 +     0.00     Sensory: Taste
+X3.2            7     0.13   1271     0.13 +     0.00     Sensory: Sound
+X6+             5     0.09    911     0.09 +     0.00     Decided

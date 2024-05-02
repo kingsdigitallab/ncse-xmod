@@ -1,0 +1,11 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT root (TownNames)+>
+<!ATTLIST root
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TownNames EMPTY>
+<!ATTLIST TownNames
+  xmlns CDATA #FIXED ''
+  Name CDATA #REQUIRED
+  id CDATA #REQUIRED>

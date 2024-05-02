@@ -1,0 +1,4 @@
+Pattern	Rank	Count	Distance
+Billington	5	5	1
+JVIillington	1	1	2
+Millington	-95	5	2

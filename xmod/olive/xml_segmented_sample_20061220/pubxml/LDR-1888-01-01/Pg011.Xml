@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<XMD-PAGE REPOSITORY_FORMAT="1.0"><Application_Data/><Meta ISSUE_DATE="01/01/1888" RELEASE_NO="demo publishers" PAGE_NO="11" NAME="" PAGE_LABEL="1549" PAGE_TYPE="Single" PUBLISHER="Olive" PUBLICATION="LDR" SOURCE_TYPE="TIFF" SOURCE_RESOLUTION="72" IMAGES_RESOLUTION="86" PAGE_THUMBNAIL_RESOLUTION="43" PAGE_PREVIEW_RESOLUTION="15" DEFAULT_IMG_EXT="png" IMG_EXT="png" PREVIEW_IMG_EXT="png" XMD_VER="2.6.236.23" PROFILE_ID="XMD_LDR.ini" SECTION="None" PAGE_WIDTH="646" PAGE_HEIGHT="861" PAGES_NUMBER="26" BASE_HREF="LDR/1888/01/01" PDF_DESTINATION_MAPPED="OLV0_Page_0011">
+		<Resolutions>
+			<Resolution DEFAULT="true">43</Resolution>
+		</Resolutions>
+	</Meta>
+	<Link SOURCE="demo+publishers1.pdf" NEXT_SECTION="" PREV_SECTION="1"/>
+	<Entity ENTITY_TYPE="Article" ID="Ar01100" SIZE="XLarge" BOX="69 326 584 666" NEXT_SECTION="" PREV_SECTION="1" EMBEDDED_INTO="Ar00700">
+		<Name>Untitled Article</Name>
+		<Primitive ID="Ar0110000" BOX="69 326 584 666" ELEMENT_TYPE="Content" TOC_ENTRY_ID="14" SEQ_NO="0"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Article" ID="Ar01101" SIZE="Medium" BOX="69 184 584 326" NEXT_SECTION="" PREV_SECTION="1" EMBEDDED_INTO="Ar00700">
+		<Name>Untitled Article</Name>
+		<Primitive ID="Ar0110100" BOX="69 184 584 326" ELEMENT_TYPE="Content" TOC_ENTRY_ID="14" SEQ_NO="0"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Article" ID="Ar01102" SIZE="Medium" BOX="69 666 584 835" NEXT_SECTION="" PREV_SECTION="1" EMBEDDED_INTO="Ar00700">
+		<Name>Untitled Article</Name>
+		<Primitive ID="Ar0110200" BOX="169 666 584 815" ELEMENT_TYPE="Content" TOC_ENTRY_ID="14" SEQ_NO="0"/>
+		<Primitive ID="Ar0110201" BOX="69 815 584 835" ELEMENT_TYPE="Content" TOC_ENTRY_ID="14" SEQ_NO="1"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Article" ID="Ar01103" SIZE="Medium" BOX="69 62 584 184" NEXT_SECTION="" PREV_SECTION="1" EMBEDDED_INTO="Ar00700">
+		<Name>Untitled Article</Name>
+		<Primitive ID="Ar0110300" BOX="69 62 584 184" ELEMENT_TYPE="Content" TOC_ENTRY_ID="14" SEQ_NO="0"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Article" ID="Ar01104" SIZE="Small" BOX="69 24 584 62" NEXT_SECTION="" PREV_SECTION="1" EMBEDDED_INTO="Ar00700">
+		<Name>Untitled Article</Name>
+		<Primitive ID="Ar0110400" BOX="69 24 584 62" ELEMENT_TYPE="Content" TOC_ENTRY_ID="14" SEQ_NO="0"/>
+	</Entity>
+	<Entity ENTITY_TYPE="Picture" ID="Pc01105" SIZE="Small" BOX="69 666 184 815" NEXT_SECTION="" PREV_SECTION="1" EMBEDDED_INTO="Ar01102" EMBEDDED_AFTER="Ar0110200">
+		<Name>Untitled Picture</Name>
+		<Primitive ID="Pc0110500" BOX="69 666 184 815" ELEMENT_TYPE="Picture" TOC_ENTRY_ID="14" SEQ_NO="0" IMG_EXT="jpg"/>
+	</Entity>
+</XMD-PAGE>

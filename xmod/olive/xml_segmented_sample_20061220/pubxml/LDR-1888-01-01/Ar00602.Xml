@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<XMD-entity REPOSITORY_FORMAT="1.0" ENTITY_TYPE="Article" PAGE_NO="6" ID="Ar00602" BOX="140 54 1141 129" LANGUAGE="English" SNP="Ar00602S.png" SNP_WIDTH="1002" SNP_HEIGHT="76">
+	<Meta NAME="Untitled Article" DESCRIPTION="" SUBTYPE="" BASE_HREF="LDR/1888/01/01" SOURCE_TYPE="TIFF" PUBLICATION="LDR" SECTION="None" ISSUE_DATE="01/01/1888" WORDCNT="10" RELEASE_NO="demo publishers" PAGE_ID="" PAGE_TYPE="Single" PAGE_WIDTH="646" PAGE_HEIGHT="861" DEFAULT_IMG_EXT="png" PDF_DESTINATION_MAPPED="OLV0_Entity_0006_0001" IMAGES_RESOLUTION="86" EMBEDDED_INTO="Ar00500" XMD_VER="2.6.236.23" PAGE_LABEL="1500"/>
+	<Link SOURCE="demo+publishers1.pdf" FIRST_ID="Ar00200" LAST_ID="Ad02610" NEXT_ID="Pc00603" PREV_ID="Ar00601" TOC_ID="C:/Olive/Repository/LDR/1888/01/01/TOC.xml"/>
+	<Content>
+		<Primitive BOX="140 54 1141 129" ID="Ar0060200" TOC_ENTRY_ID="13" SEQ_NO="0"><Application_Data/>;oo The Publishers' Circular Dec. 6, 1888 </Primitive>
+	</Content>
+</XMD-entity>

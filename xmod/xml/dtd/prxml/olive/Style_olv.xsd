@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="OlvIndexer">
+		<xs:annotation>
+			<xs:documentation>Root element of the Olive Indexing Collection style.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ExternalResources" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>
+							Element containing rules for importing [XML] data from external resources.<br />
+							There are two currently supported types of external resources:
+							<ul>
+								<li>Issue TOC XML File</li>
+								<li>Page XML File (for the page containing the first article chunk)</li>
+							</ul>
+							There are two ways to import data from external resource:
+							<ul>
+								<li>Copy nodes with XML DOM</li>
+								<li>Merge reduced entity XML to external resource with XSLT</li>
+							</ul>
+						</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ExternalResource">
+								<xs:annotation>
+									<xs:documentation>
+										Declares rules of importing data (during indexing) from specific external resource.
+										There are two currently supported types of external resources:
+										<ul>
+											<li>Issue TOC XML File</li>
+											<li>Page XML File (for the page containing the first article chunk)</li>
+										</ul>
+										There are two ways to import data from external resource:
+										<ul>
+											<li>Copy nodes with XML DOM</li>
+											<li>Merge reduced entity XML to external resource with XSLT</li>
+										</ul>
+									</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:choice minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="Template">
+											<xs:annotation>
+												<xs:documentation>Declares rule for importing data from external resource to reduced entity XML with XSLT.</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Param" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>
+																Declares parameter for the XSLT importing data from external resource.
+																The NAME attribute specifies name of XSLT parameter.
+																The VALUE attribute specifies value of XSLT parameter.<br />
+																Value of the parameter may contain placeholders (variables), which will 
+																be substituted with actual values before being passed to XSLT.
+															</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:attribute name="NAME" type="xs:string" use="required">
+																<xs:annotation>
+																	<xs:documentation>Specifies name of the parameter to be passed to XSLT</xs:documentation>
+																</xs:annotation>
+															</xs:attribute>
+															<xs:attribute name="VALUE" type="xs:string" use="required">
+																<xs:annotation>
+																	<xs:documentation>
+																			Specifies value of the parameter to be passed to XSLT<br />
+																			Value may contain the following placeholders, which will be substituted with actual values when passed to XML:<br />
+																		<ul>
+																			<li>
+																				<b>'$oxp:entity_id'</b>: UID of the entity being indexed</li>
+																		</ul>
+																	</xs:documentation>
+																</xs:annotation>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="STYLESHEET" type="xs:string" use="required">
+													<xs:annotation>
+														<xs:documentation>
+																Holds pathname to the XSLT, which should be used to import data from external resource<br />
+																The pathname should be relative to the <b>&lt;OliveDir&gt;/Applications/commonStyles</b> folder.
+															</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Node">
+											<xs:annotation>
+												<xs:documentation>Declares rule for importing data from external resource to reduced entity XML with XML DOM.</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="SourceXPath" type="xs:string">
+														<xs:annotation>
+															<xs:documentation>
+																Specifies XPath to the source node (in external resource XML).
+																Value of this attribute may contain may contain the following placeholders, 
+																which will be substituted before applying the data import rule:<br />
+																<ul>
+																	<li>
+																		<b>'$oxp:entity_id'</b>: UID of the entity being indexed</li>
+																</ul>
+															</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="TargetXPath" type="xs:string">
+														<xs:annotation>
+															<xs:documentation>
+																Specifies XPath to the target node (in reduced XML).
+																XML node that is being imported will be appended as child of element
+																specified by TargetXPath.<br />
+																Value of this attribute may contain may contain the following placeholders, 
+																which will be substituted before applying the data import rule:<br />
+																<ul>
+																	<li>
+																		<b>'$oxp:entity_id'</b>: UID of the entity being indexed</li>
+																</ul>
+															</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:choice>
+									<xs:attribute name="RESOURCE_TYPE" use="required">
+										<xs:annotation>
+											<xs:documentation>
+												The RESOURCE_TYPE attribute specifies external resource type.
+												There are two types of external resources currently supported by Olive Indexing Service:
+												<ul>
+													<li>TOC - Issue TOC XML file</li>
+													<li>PAGE - Page (containing the first article chunk) XML file</li>
+												</ul>
+											</xs:documentation>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:NMTOKEN">
+												<xs:enumeration value="TOC" />
+												<xs:enumeration value="PAGE" />
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Options">
+					<xs:annotation>
+						<xs:documentation>Holds indexing options.</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CaseSensitive" type="xs:boolean" default="true" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Defines the case sensitivity of the collection. Will make a different in DTSearch only.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="AccentedSensitive" type="xs:boolean" default="false" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Defines whether accented letters will be indexed as regular ones.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="FailOnSingleDoc" type="xs:boolean" default="true" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Defines if the indexer will return an error after the first failed entity, or continue.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="ElementType" type="ElementType_Type" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Define single elenment in the entity XML or in the Additionals XML.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="LexicalDefinitions" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Holds lexical definitions to be applied during indexin.</xs:documentation>
+						</xs:annotation>
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="WordDelimitors" type="xs:string">
+									<xs:annotation>
+										<xs:documentation>Defines the characters that will break a text buffer to words.</xs:documentation>
+									</xs:annotation>
+									<xs:complexType>
+										<xs:attribute name="USE_ALWAYS" type="xs:boolean" default="true" use="optional">
+											<xs:annotation>
+												<xs:documentation>If true, this delimiters list will be used for all text being indexed.  Otherwise, delimiters will be applied to the metadata fields only.</xs:documentation>
+											</xs:annotation>
+										</xs:attribute>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="WordDefinitions">
+									<xs:annotation>
+										<xs:documentation>List of regular expressions that define the valid words for indexing. A word should match one of the regular expressions.</xs:documentation>
+									</xs:annotation>
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="Word" type="xs:string" maxOccurs="unbounded">
+												<xs:annotation>
+													<xs:documentation>Regular expression that defines a word.</xs:documentation>
+												</xs:annotation>
+											</xs:element>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+							<xs:attribute name="NAME" type="xs:string" default="Default" />
+							<xs:attribute name="DEFAULT" type="xs:boolean" default="true" />
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="SpellChecker" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Defines whether to work with the spell checker or not. </xs:documentation>
+						</xs:annotation>
+						<xs:complexType>
+							<xs:attribute name="ENABLE" type="xs:string" use="required" />
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:sequence>
+			<xs:attribute name="NAME" type="xs:string" use="required" />
+			<xs:attribute name="HANDLER" type="xs:string" use="required" />
+			<xs:attribute name="XSL_PATH" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>
+						Contains a pathname of XSLT that will be used to transform reduced entity XML (after importing data from external resources) to &quot;additionals XML&quot;<br />
+						The pathname should be relative to the <b>&lt;OliveDir&gt;/Applications/commonStyles</b> folder.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="LANGUAGE" type="xs:string" default="en" />
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="AttributeType_Type">
+		<xs:annotation>
+			<xs:documentation> Holds definition of an attribute in the entity XML.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="NAME" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>The Name of the attribute as it will apear in the XML.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attributeGroup ref="ElementOrAttribute_AttributeGroup" />
+	</xs:complexType>
+	<xs:complexType name="ElementType_Type">
+		<xs:annotation>
+			<xs:documentation> Holds definition of a single type of element in the XML.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Element" type="Element_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Define a child element.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Attribute" type="AttributeType_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Define an attribute.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="NAME" type="xs:normalizedString" use="required">
+			<xs:annotation>
+				<xs:documentation>The Name of the element in the XML.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="IGNORE" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>Define what to ignore from this element. Valid value must have one or more of: ALL, OUTER, INNER, ATTR.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="XML_COPY">
+			<xs:annotation>
+				<xs:documentation>Define what to copy to the reduced XML. ALL - Copy all the node to the reduced XML, OUTER - Element open node and attributes only, INNER - Inner content only.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:NMTOKEN">
+					<xs:enumeration value="ALL" />
+					<xs:enumeration value="OUTER" />
+					<xs:enumeration value="INNER" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="NEW_CHUNK" type="xs:boolean">
+			<xs:annotation>
+				<xs:documentation>If true than this element defines a new chunk in the entity.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="E_TYPE" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>Define entity type. Used two definitions are required for one XML node.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="USE_PARENT" type="xs:string" fixed="TRUE">
+			<xs:annotation>
+				<xs:documentation>Set when the entity type is defined by the elements parent. Good example for that is the XML-entity that can be in Picture-Content element, as a top node and in Continuation-Content </xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="BY_ORDER" type="xs:boolean">
+			<xs:annotation>
+				<xs:documentation>If true than the order of the tokens will be saved regardless of the hierarchy.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="AUX_DATA" type="xs:boolean">
+			<xs:annotation>
+				<xs:documentation>If true than auxilary data will be saved for tokens in this element.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attributeGroup ref="ElementOrAttribute_AttributeGroup" />
+	</xs:complexType>
+	<xs:complexType name="Element_Type">
+		<xs:annotation>
+			<xs:documentation> Holds reference to a single type of element in the XML.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="NAME" type="xs:normalizedString" use="required">
+			<xs:annotation>
+				<xs:documentation>Reference by the NAME attribute of the Element.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="E_TYPE" type="xs:normalizedString">
+			<xs:annotation>
+				<xs:documentation>Reference by the E_TYPE attribute of the Element. Used when element with the same name need two different definitions.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="IGNORE" type="xs:boolean">
+			<xs:annotation>
+				<xs:documentation>If true than the reference is ignored. Used to avoid endless recursive definitions.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:attributeGroup name="ElementOrAttribute_AttributeGroup">
+		<xs:annotation>
+			<xs:documentation> List of attribute common to Attribute and Elements definitions.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="TYPE">
+			<xs:annotation>
+				<xs:documentation>Define the type of token this entity/attribute will have. Default value is ZONE.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="FIELD" />
+					<xs:enumeration value="ZONE" />
+					<xs:enumeration value="ZONE FIELD" />
+					<xs:enumeration value="FIELD ZONE" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="SE_NAME" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>The name of the zone/field as it will be indexed. If not defined then the name will be the XML node name.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="IN_ZONE" type="xs:NMTOKEN">
+			<xs:annotation>
+				<xs:documentation>Define the parent zone in the hierarchy after indexing. The name must be an existing zone and should be the name in the search engine data. </xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="FIRST_CHUNK" type="xs:boolean">
+			<xs:annotation>
+				<xs:documentation>If true than this definition will be relevant in the first chunk only.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:attributeGroup>
+</xs:schema>

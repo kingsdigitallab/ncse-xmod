@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<XMD-entity REPOSITORY_FORMAT="1.0" ENTITY_TYPE="Article" DOC_UID="LDR_01/01/1888" DOC_VER="1" PAGE_NO="1" ID="Ar00102" BOX="93 615 1177 852" LANGUAGE="English" SNP="Ar00102S.png" SNP_WIDTH="1085" SNP_HEIGHT="238">
+	<Meta NAME="Untitled Article" DESCRIPTION="" SUBTYPE="" BASE_HREF="LDR/1888/01/01" SOURCE_TYPE="TIFF" PUBLICATION="LDR" SECTION="Front page" ISSUE_DATE="01/01/1888" WORDCNT="11" RELEASE_NO="demo publishers" PAGE_ID="" PAGE_TYPE="Single" PAGE_WIDTH="646" PAGE_HEIGHT="861" DEFAULT_IMG_EXT="png" PDF_DESTINATION_MAPPED="OLV0_Entity_0001_0002" IMAGES_RESOLUTION="86" XMD_VER="2.6.236.23" PAGE_LABEL="I"/>
+	<Link SOURCE="demo+publishers1.pdf" FIRST_ID="Ar00100" LAST_ID="Ar00102" NEXT_ID="" PREV_ID="Ar00101" TOC_ID="C:/Olive/Repository/LDR/1888/01/01/TOC.xml"/>
+	<Content>
+		<Primitive BOX="93 615 1177 852" ID="Ar0010200" TOC_ENTRY_ID="3" SEQ_NO="0"><Application_Data/>J_^j¦ ¦ tufiflfefc_^f_^ flliftM'la'r in </Primitive>
+	</Content>
+	<TOC_Entries><TOC_Entry TOC_ENTRY_ID="3" TITLE="Untitled Article" ENTITY_ID_REF="Ar00102" PAGE_NO="1" PAGE_LABEL="I" PRIM_ID_REF="Ar0010200" IS_IC="true"/></TOC_Entries></XMD-entity>

@@ -1,0 +1,95 @@
+RegionName
+
+(Other)
+?
+America
+Archdeacons
+Barnstaple
+Bath
+Bedford
+Berkshire
+Bishops
+Brecon
+Bristol
+Bristol Consistory
+Buckingham
+Cambridge
+Canon Residentiaries
+Canons
+Canons residentiar
+Canterbury
+Carlisle
+Cathedral
+Cathedrals
+Chester
+Chichester
+Cleveland
+Colcester
+Colchester
+Consistory of Bristol
+Cornwall
+Coventry
+Deans
+Derby
+Diocesan office
+Diocesan offices
+Domestic Schoolmaster
+Dorset
+Durham
+East Riding
+Ely
+Episcopal chaplains
+Essex
+Exeter
+Gloucester
+Hereford
+Herefordshire
+Huntingdon
+Ireland
+Isle of Ely and consistory jurisdiction
+Lay chaplains
+Leicester
+Lewes
+Lincoln
+London
+Middlesex
+Minor Canons
+Norfolk
+Northampton
+Northumberland
+Norwich
+Nottingham
+Officials
+Others
+Oxford
+Peculiar of Dean and Chapter of York
+Prebendaries
+Richmond
+Rochester
+Rural Deans
+S
+Salop
+SalopH
+SalopLC
+Sarum
+Scotland
+See city
+Sodor and Man
+St Albans
+St Asaph
+Stafford
+Staffordshire
+Stow
+Sudbury
+Suffolk
+Surrey
+Taunton
+Totnes
+Warwickshire
+Wells
+West Indies
+Wiltshire
+Winchester
+Worcester
+York and West Riding
+York and Yorkshire West Riding

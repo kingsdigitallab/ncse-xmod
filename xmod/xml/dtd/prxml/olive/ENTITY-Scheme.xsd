@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="BasicTypes.xsd"/>
+	<xs:element name="XMD-entity" type="XMD-entity_Type">
+		<xs:annotation>
+			<xs:documentation>Top entity</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:group name="XMD-entity_Group">
+		<xs:annotation>
+			<xs:documentation>Holds entitiy elements (Should be divided to sub groups be entity type). </xs:documentation>
+		</xs:annotation>
+		<xs:choice>
+			<xs:element name="Meta" type="Meta_Type">
+				<xs:annotation>
+					<xs:documentation>Holds metadata of the entity</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Link" type="Link_Type">
+				<xs:annotation>
+					<xs:documentation>Holds likns to other entities</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Application_Data" type="Application_Data_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Holds application specific data. Can have any type of data.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HedLine_hl0" type="Entity_Element_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Top title</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HedLine_hl1" type="Entity_Element_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Main title, should be similar to the NAME attirbute.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HedLine_hl2" type="Entity_Element_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Subtitle</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Byline" type="Entity_Element_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Author/s names and/or location.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Content" type="Entity_Element_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Body of the entity</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Lead" type="Entity_Element_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Tizzer in the entity body.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Continuation_To" type="Continuation_To_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Text of the forward marking of the entity.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Continuation_From" type="Continuation_From_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Text of the backwards marking of the entity.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Continuation-Content" type="Continuation-Content_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>The continued part.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Embedded-Content" type="Embedded-Content_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>The embedded part.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Picture-Content" type="Picture-Content_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Embeded Picture content</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Picture" type="Picture_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Internal picture (Can exist in pictures only).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Supplementary" type="Entity_Element_Type" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Table" type="Entity_Element_Type" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Group" type="Group_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Groups of items in Ads</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AdFrame" type="AdFrame_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Ad full image</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AdLogo" type="AdLogo_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Ad logo image</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AdPicture" type="AdPicture_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Pictures inside the Ad</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TOC_Entries" type="TOC_Entries_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Parent node for Logical TOC Entries.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<!--TOC_Entries Node for IC Element-->
+		</xs:choice>
+	</xs:group>
+	<xs:complexType name="XMD-entity_Type" mixed="true">
+		<xs:annotation>
+			<xs:documentation>Top entity type.</xs:documentation>
+		</xs:annotation>
+		<xs:choice>
+			<xs:group ref="XMD-entity_Group" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:attribute name="ID" type="ID_Type" use="required"/>
+		<xs:attribute name="ENTITY_TYPE" type="EntityType_Type" use="required"/>
+		<xs:attribute name="NO_GEOMETRY" type="No_Geometry_Attr_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines when entity has no physical dimentions.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PAGE_NO" type="xs:unsignedInt" use="required"/>
+		<xs:attributeGroup ref="BOX_Attributes_Group">
+			<xs:annotation>
+				<xs:documentation>Full box of the entity, not including it's pictures.</xs:documentation>
+			</xs:annotation>
+		</xs:attributeGroup>
+		<xs:attribute name="LANGUAGE" type="xs:string" use="required"/>
+		<xs:attribute name="ENTITY_FORMAT" type="EntityFormat_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Special formats of the entity.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="EDITING_INDEX" type="xs:unsignedInt" use="optional">
+			<xs:annotation>
+				<xs:documentation>Level of editing done in on the entity. Used for undo purposes.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="CONTINUATION_TO" type="ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indication that this entity has continuation</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="CONTINUATION_FROM" type="ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indication the this entity is continued from other entity.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="SNP" type="SNP_ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Snippet image of the entity.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="SNP_EXT" type="ImgExt_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Snippet Image extention. Used when the image nage is the entity ID.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="SNP_WIDTH" type="xs:unsignedInt" use="optional">
+			<xs:annotation>
+				<xs:documentation>Snippet width.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="SNP_HEIGHT" type="xs:unsignedInt" use="optional">
+			<xs:annotation>
+				<xs:documentation>Snippet height</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attributeGroup ref="First_Chunk_Attributes_Group"/>
+		<xs:attribute name="IS_GENERAL" type="xs:boolean" use="optional" default="false">
+			<xs:annotation>
+				<xs:documentation>Boolean, default: false</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="EXCLUDE_FROM_SEARCH" type="xs:boolean" use="optional" default="false">
+			<xs:annotation>
+				<xs:documentation>If value is true, so this entity will not be indexed.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="REPOSITORY_FORMAT" type="REPOSITORY_FORMAT_Type" use="optional" default="1.0">
+			<xs:annotation>
+				<xs:documentation>Represent version of repository shema.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<!--Added by Gena-->
+	</xs:complexType>
+	<xs:complexType name="Meta_Type">
+		<xs:annotation>
+			<xs:documentation>Holds meta data </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Links" type="Links_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Hold list of links.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="NAME" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Title of the entity. </xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="BASE_HREF" type="BaseHref_Type" use="required">
+			<xs:annotation>
+				<xs:documentation>Reference to the issue in the repository. </xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="SOURCE_TYPE" type="SourceType_Type" use="required">
+			<xs:annotation>
+				<xs:documentation>Digital (PDF), ot OCR (TIFF)</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PUBLICATION" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Publication ID. Must be the same as publication folder.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="SECTION" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Section name</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="WORDCNT" type="xs:unsignedInt" use="required">
+			<xs:annotation>
+				<xs:documentation>Number of words in this chunk of the entity.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="IMAGES_RESOLUTION" type="xs:unsignedInt" use="required">
+			<xs:annotation>
+				<xs:documentation>Image publishing resolution.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ISSUE_DATE" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Date of the issue. Format: dd/mm/yyyy.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ISSUE_DAY" type="xs:unsignedInt" use="optional"/>
+		<xs:attribute name="ISSUE_MONTH" type="xs:unsignedInt" use="optional"/>
+		<xs:attribute name="ISSUE_YEAR" type="xs:unsignedInt" use="optional"/>
+		<xs:attribute name="RELEASE_NO" type="xs:string" use="optional"/>
+		<xs:attribute name="PAGE_ID" type="xs:string" use="optional"/>
+		<xs:attribute name="PAGE_TYPE" type="PageType_Type" use="optional"/>
+		<xs:attribute name="PAGE_WIDTH" type="xs:unsignedInt" use="optional"/>
+		<xs:attribute name="PAGE_HEIGHT" type="xs:unsignedInt" use="optional"/>
+		<xs:attribute name="DEFAULT_IMG_EXT" type="ImgExt_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Defines what image extention to use if not declared.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="DESCRIPTION" type="xs:string" use="optional"/>
+		<xs:attribute name="SUBTYPE" type="xs:string" use="optional"/>
+		<xs:attribute name="PDF_DESTINATION_MAPPED" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Link to the entity in the PDF </xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="XMD_VER" type="XmdVerAttr_Type" use="optional"/>
+		<xs:attribute name="ACROBAT_VER" type="xs:string" use="optional"/>
+		<xs:attribute name="EMBEDDED_INTO" type="ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>For pictures only. Defines what is the entity the picture is embedded into.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PAGE_LABEL" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Page label of the page holding the entity.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="EMBEDDED_AFTER" type="ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>For pictures only. Defines what is the entity the picture is embedded after.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Link_Type">
+		<xs:attribute name="SOURCE" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>PDF name in the repositiory. Used fot loading the PDF.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="FIRST_ID" type="Empty_Or_ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Link to the first entity in the section.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="LAST_ID" type="Empty_Or_ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Link to the last entity in the section.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="NEXT_ID" type="Empty_Or_ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Link to the next entity</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PREV_ID" type="Empty_Or_ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Link to the previous entity</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PREV_SECTION" type="xs:string" use="optional"/>
+		<xs:attribute name="NEXT_SECTION" type="xs:string" use="optional"/>
+		<xs:attribute name="PAGE_THUMBNAIL" type="xs:string" use="optional"/>
+		<xs:attribute name="TOC_ID" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="Entity_Element_Type">
+		<xs:annotation>
+			<xs:documentation>General type of element with primitives only.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Primitive" type="Primitive_Type" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Text part in the entity.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Continuation_To_Type">
+		<xs:annotation>
+			<xs:documentation>Like general type but with the option to have ID_REF</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Primitive" type="Primitive_Type" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Text part in entity</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="ID_REF" type="ID_Type" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="Continuation_From_Type">
+		<xs:sequence>
+			<xs:element name="Primitive" type="Primitive_Type" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="ID_REF" type="ID_Type" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="Continuation-Content_Type">
+		<xs:sequence>
+			<xs:element name="XMD-entity" type="XMD-entity_Type" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="ID_REF" type="ID_Type" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="Picture-Content_Type">
+		<xs:sequence>
+			<xs:element name="XMD-entity" type="XMD-entity_Type" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="ID_REF" type="ID_Type" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="Picture_Type" mixed="true">
+		<xs:sequence>
+			<xs:element name="Img" type="Img_Type" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Image of the picture</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Caption" type="Entity_Element_Type" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Title of the picture</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Byline" type="Entity_Element_Type" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Photographer/agency</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="Primitive" type="Primitive_Type" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>Picture text</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:choice>
+		</xs:sequence>
+		<xs:attribute name="PICTURE_CLASS" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="Group_Type" mixed="true">
+		<xs:sequence>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element name="Img" type="Img_Type"/>
+				<xs:element name="GI" type="GI_Type" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GI_Type">
+		<xs:attribute name="ID_REF" type="ID_Type" use="required"/>
+		<xs:attribute name="GI_ELMNT_TYPE" type="ElementsTypes_Type" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="AdLogo_Type" mixed="true">
+		<xs:sequence>
+			<xs:element name="Img" type="Img_Type" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Image of the logo</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AdFrame_Type">
+		<xs:sequence>
+			<xs:element name="Img" type="Img_Type">
+				<xs:annotation>
+					<xs:documentation>full image of the Ad</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AdPicture_Type" mixed="true">
+		<xs:sequence>
+			<xs:element name="Img" type="Img_Type" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Pictures in the Ad.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:attributeGroup name="BOX_Attributes_Group">
+		<xs:annotation>
+			<xs:documentation>Box attribute definition.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="BOX" type="BOX_Type" use="required"/>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="Word_Related_Attributes_Group">
+		<xs:annotation>
+			<xs:documentation>Words attribute.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="STYLE_REF" type="xs:unsignedInt" use="optional"/>
+		<xs:attribute name="S" type="xs:unsignedInt" use="optional">
+			<xs:annotation>
+				<xs:documentation>This attribute replaces the STYLE_REF when compression mode in XMD is enabled</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="DIR" type="DIR_Type" use="optional"/>
+		<xs:attribute name="DELETED" type="xs:boolean" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indication that this word was deleted.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="EDIT_ISSUE" type="EDIT_ISSUE_Type" use="optional"/>
+		<xs:attribute name="LH" type="LH_Attr_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indicates that the hyphen should be kept.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="NS" type="NS_Attr_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indicates that there should be no space after this word/quad.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="R" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indicates that there were some characters that were replaced in this word/quad. The original quad value is the attribute value. 
+				Applies mostly for Hebrew content.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="Prim_Image_Attributes_Group">
+		<xs:annotation>
+			<xs:documentation>Primitive/Image attributes</xs:documentation>
+		</xs:annotation>
+		<xs:attributeGroup ref="BOX_Attributes_Group"/>
+		<xs:attribute name="ID" type="ID_Type" use="required"/>
+		<xs:attribute name="IMG_EXT" type="ImgExt_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Image Extention</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="I_RES" type="xs:unsignedInt" use="optional">
+			<xs:annotation>
+				<xs:documentation>Primitive/Image Image resolution</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="E" type="E_Attr_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>If exists than no image was produced for the primitive/image.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="Z" type="xs:unsignedInt" use="optional"/>
+	</xs:attributeGroup>
+	<xs:group name="PrimitiveTag_Internal_Group">
+		<xs:choice>
+			<xs:element name="L" type="L_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Line in a primitive</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="P" type="P_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Paragraph start/end (rarely used)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="S" type="S_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Special words defined by S_TYPE attribute</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:group ref="Word_Group" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="Primitive_Internal_Group">
+		<xs:choice>
+			<xs:element name="PrimitiveTag" type="PrimitiveTag_Type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Special part of the primitive defined be P_TYPE attribute.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:group ref="PrimitiveTag_Internal_Group" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Application_Data" type="Application_Data_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Holds extended application metadata information for issue.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:choice>
+	</xs:group>
+	<xs:complexType name="Primitive_Type" mixed="true">
+		<xs:annotation>
+			<xs:documentation>Text part in the entity</xs:documentation>
+		</xs:annotation>
+		<xs:choice>
+			<xs:group ref="Primitive_Internal_Group" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:attributeGroup ref="Prim_Image_Attributes_Group"/>
+		<xs:attributeGroup ref="Prim_TOC_Entries_Attributes_Group"/>
+	</xs:complexType>
+	<xs:complexType name="PrimitiveTag_Type" mixed="true">
+		<xs:annotation>
+			<xs:documentation>List of words that has special meaning defined by P_TYPE attribute.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:group ref="Primitive_Internal_Group" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="T_TYPE" type="PrimTags_Types" use="required"/>
+		<xs:attribute name="CONT" type="ID_Type" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indicated that the primitive tag continues in the next primitive.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="S_Type" mixed="true">
+		<xs:annotation>
+			<xs:documentation>Element holding a special word.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent mixed="true">
+			<xs:extension base="Word_Type">
+				<xs:choice minOccurs="0">
+					<xs:element name="S" type="S_Type"/>
+				</xs:choice>
+				<xs:attribute name="S_TYPE" type="S_Attr_Type" use="required"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="P_Type" mixed="true">
+		<xs:attributeGroup ref="BOX_Attributes_Group"/>
+	</xs:complexType>
+	<xs:complexType name="L_Type" mixed="false">
+		<xs:annotation>
+			<xs:documentation>Element holding a line.</xs:documentation>
+		</xs:annotation>
+		<xs:attributeGroup ref="BOX_Attributes_Group"/>
+		<xs:attribute name="P" type="P_Attr_Type" use="optional"/>
+		<xs:attribute name="NEW_PARAGRAPH" type="xs:string" use="optional"/>
+		<xs:attribute name="LINE_CLASS" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:group name="Word_Group">
+		<xs:choice>
+			<xs:element name="W" type="W_Type">
+				<xs:annotation>
+					<xs:documentation>Regular words</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="QW" type="QW_Type">
+				<xs:annotation>
+					<xs:documentation>Full words from quad list</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Q" type="Q_Type">
+				<xs:annotation>
+					<xs:documentation>Regular quad</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="q" type="q_Type">
+				<xs:annotation>
+					<xs:documentation>Last quad in quad list</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:choice>
+	</xs:group>
+	<xs:complexType name="Word_Type" mixed="true">
+		<xs:sequence>
+			<xs:group ref="Word_Group" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="W_Type" mixed="true">
+		<xs:annotation>
+			<xs:documentation>Element holding a word.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent mixed="true">
+			<xs:extension base="Word_Type">
+				<xs:attribute name="M" type="xs:string" use="optional"/>
+				<xs:attribute name="BOX" type="BOX_Type" use="optional"/>
+				<xs:attributeGroup ref="Word_Related_Attributes_Group"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="QW_Type" mixed="true">
+		<xs:annotation>
+			<xs:documentation>Element holding full word that was divided to quads.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="DELETED" type="xs:boolean" use="optional"/>
+		<xs:attribute name="EDIT_ISSUE" type="EDIT_ISSUE_Type" use="optional"/>
+		<xs:attribute name="QID" type="xs:unsignedShort" use="optional">
+			<xs:annotation>
+				<xs:documentation>Quad ID. Unites the quads lists.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Q_Type" mixed="true">
+		<xs:annotation>
+			<xs:documentation>Element holding part of a word.</xs:documentation>
+		</xs:annotation>
+		<xs:attributeGroup ref="Word_Related_Attributes_Group"/>
+		<xs:attribute name="BOX" type="BOX_Type" use="required"/>
+		<xs:attribute name="M" type="xs:string" use="optional"/>
+		<xs:attribute name="QID" type="xs:unsignedShort" use="optional">
+			<xs:annotation>
+				<xs:documentation>Quad ID. Unites the quads lists.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="q_Type" mixed="true">
+		<xs:annotation>
+			<xs:documentation>Element holding the last part of a word.</xs:documentation>
+		</xs:annotation>
+		<xs:attributeGroup ref="Word_Related_Attributes_Group"/>
+		<xs:attribute name="BOX" type="BOX_Type" use="required"/>
+		<xs:attribute name="M" type="xs:string" use="optional"/>
+		<xs:attribute name="QID" type="xs:unsignedShort" use="optional">
+			<xs:annotation>
+				<xs:documentation>Quad ID. Unites the quads lists.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Img_Type">
+		<xs:annotation>
+			<xs:documentation>Currently supporting gif, jpg and png.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="HREF" type="Href_Attr_Type" use="required"/>
+		<xs:attribute name="CLASS" type="xs:string" use="optional"/>
+		<xs:attributeGroup ref="Prim_Image_Attributes_Group"/>
+		<xs:attributeGroup ref="Prim_TOC_Entries_Attributes_Group"/>
+		<!--Added by Gennady-->
+	</xs:complexType>
+	<xs:simpleType name="EDIT_ISSUE_Type">
+		<xs:annotation>
+			<xs:documentation>Defines the string pattern fot eddited words/quads.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:normalizedString">
+			<xs:pattern value="[0-9]{4}_[0-9]+"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="LH_Attr_Type">
+		<xs:annotation>
+			<xs:documentation>Enumerated type holding all valid values for LH attribute.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:normalizedString">
+			<xs:enumeration value="y"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="NS_Attr_Type">
+		<xs:annotation>
+			<xs:documentation>Enumerated type holding all valid values for NS attribute.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:normalizedString">
+			<xs:enumeration value="y"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="PrimTags_Types">
+		<xs:annotation>
+			<xs:documentation>Enumerated type holding all valid primitive tags types.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="S_Attr_Type">
+		<xs:annotation>
+			<xs:documentation>Enumerated type holding all valid special words types.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:normalizedString">
+			<xs:enumeration value="SUB"/>
+			<xs:enumeration value="SUP"/>
+			<xs:enumeration value="REP"/>
+			<xs:enumeration value="BUL"/>
+			<xs:enumeration value="LRO"/>
+			<xs:enumeration value="RLO"/>
+			<xs:enumeration value="PDF"/>
+			<xs:enumeration value="SPACE"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="P_Attr_Type">
+		<xs:annotation>
+			<xs:documentation>Enumerated type holding all valid paragraph indications.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:normalizedString">
+			<xs:enumeration value="S"/>
+			<xs:enumeration value="SA"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DIR_Type">
+		<xs:annotation>
+			<xs:documentation>Enumeration of text directions.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:normalizedString">
+			<xs:enumeration value="ltr"/>
+			<xs:enumeration value="rtl"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Added by Gena-->
+	<xs:complexType name="Embedded-Content_Type">
+		<xs:annotation>
+			<xs:documentation>The Embedded  part.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="ID_REF" type="ID_Type" use="required"/>
+		<xs:attribute name="ENTITY_TYPE" type="EntityType_Type" use="required"/>
+		<xs:attribute name="ENTITY_SUBTYPE" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Entity subtype string.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="EMBEDDED_AFTER" type="ID_Type" use="optional"/>
+	</xs:complexType>
+</xs:schema>

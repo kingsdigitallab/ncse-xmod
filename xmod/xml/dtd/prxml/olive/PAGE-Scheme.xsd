@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:include schemaLocation="BasicTypes.xsd" />
+
+    <xs:element name="XMD-PAGE" type="XMD-PAGE_Type" />
+
+    <xs:complexType name="XMD-PAGE_Type">
+        <xs:annotation>
+            <xs:documentation>Xml represent page in the repository.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="Application_Data" type="Application_Data_Type" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>Holds extended application metadata information for page.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="Meta" type="Meta_Type">
+                <xs:annotation>
+                    <xs:documentation>Holds metadata of the page.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="Resolutions" type="Resolutions_Type" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Holds all possible resolutions of the page.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="GreekRes" type="Resolutions_Type" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Holds all possible greek resolutions of the page.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="LayerResolutions" type="Resolutions_Type" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Holds all possible layers resolutions of the page.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="Link" type="Link_Type" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Hold attributes defining relations with other pages in the issue.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="Entity" type="Entity_Type" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>Holds information about a single entity.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="REPOSITORY_FORMAT" type="REPOSITORY_FORMAT_Type" use="optional" default="1.0">
+            <xs:annotation>
+                <xs:documentation>Represent version of repository shema.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="Meta_Type">
+        <xs:annotation>
+            <xs:documentation>Metadata of this page.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="Resolutions" type="Resolutions_Type" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Holds all possible resolutions of the page.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="GreekRes" type="Resolutions_Type" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Holds all possible greek resolutions of the page.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="LayerResolutions" type="Resolutions_Type" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Holds all possible layers resolutions of the page.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="Links" type="Links_Type" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>List of links from the page.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="FoldedViews" type="FoldedViews_Type" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Holds information about folded page views. APServer2.6 supports 1 folded view.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="NAME" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>Name of the page for future use when the sorting will be more complecated the pages number.					</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="BASE_HREF" type="BaseHref_Type" use="required">
+            <xs:annotation>
+                <xs:documentation>The base href of the issue.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PAGE_NO" type="xs:unsignedInt" use="required">
+            <xs:annotation>
+                <xs:documentation>The current page number.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PAGE_LABEL" type="xs:string" use="optional" />
+        <xs:attribute name="RELEASE_NO" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>The PDF filename from wich the output was done without the extention.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="ISSUE_DATE" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Date of the current issue in DD/MM/YYYY format.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PAGE_TYPE" type="PageType_Type" use="required">
+            <xs:annotation>
+                <xs:documentation>Describes whether the page is Single, Double or second part of the Double page.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PUBLISHER" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>Name of the publisher company.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PUBLICATION" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>Name of the publication as it's refered in Settings.xml</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="SOURCE_TYPE" type="SourceType_Type" use="required">
+            <xs:annotation>
+                <xs:documentation>Defines whether the output was made from PDF (Digital) or TIFF (Scanned) source.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="SOURCE_RESOLUTION" type="xs:unsignedInt" use="required">
+            <xs:annotation>
+                <xs:documentation>The resolution of the source in DPI.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="IMAGES_RESOLUTION" type="xs:unsignedInt" use="required">
+            <xs:annotation>
+                <xs:documentation>The resoultion of the images in DPI.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PAGE_THUMBNAIL_RESOLUTION" type="xs:unsignedInt" use="required">
+            <xs:annotation>
+                <xs:documentation>The resolution of the thumbnails in DPI.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PAGE_PREVIEW_RESOLUTION" type="xs:unsignedInt" use="required">
+            <xs:annotation>
+                <xs:documentation>The page preview image resolution in DPI.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="XMD_VER" type="XmdVerAttr_Type" use="required">
+            <xs:annotation>
+                <xs:documentation>The version of the XMD that the ouput was made with.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PROFILE_ID" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>The ID of the profile the output was made with.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="SECTION" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>The section name where the page is contained.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PAGE_WIDTH" type="xs:unsignedInt" use="required">
+            <xs:annotation>
+                <xs:documentation>Reflects page image width in pixels.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PAGE_HEIGHT" type="xs:unsignedInt" use="required">
+            <xs:annotation>
+                <xs:documentation>Reflects page image height in pixels.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PAGES_NUMBER" type="xs:unsignedInt" use="required">
+            <xs:annotation>
+                <xs:documentation>Comments here...</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="IMG_EXT" type="ImgExt_Type" use="optional">
+            <xs:annotation>
+                <xs:documentation>Defines the extenstion of the page image file.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PREVIEW_IMG_EXT" type="ImgExt_Type" use="optional">
+            <xs:annotation>
+                <xs:documentation>Defines the extenstion of the page thumbnail image file.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="DEFAULT_IMG_EXT" type="ImgExt_Type" use="optional">
+            <xs:annotation>
+                <xs:documentation>Comments here...</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="ISSUE_DAY" type="xs:unsignedShort" use="optional">
+            <xs:annotation>
+                <xs:documentation>The day number of current issue.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="ISSUE_MONTH" type="xs:unsignedShort" use="optional">
+            <xs:annotation>
+                <xs:documentation>The month number of current issue.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="ISSUE_YEAR" type="xs:unsignedShort" use="optional">
+            <xs:annotation>
+                <xs:documentation>The year of current issue.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PDF_DESTINATION_MAPPED" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>The inner label in the PDF file to the current page.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="EXT_PAGE_TYPE" type="ExtPageTypeAttr_Type" use="optional">
+            <xs:annotation>
+                <xs:documentation>Enumerated type holding all valid extencive page types. Used mainly for magazines.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="Link_Type">
+        <xs:annotation>
+            <xs:documentation>Link to previous/next pages</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="SOURCE" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>The PDF filename the output was made from.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="NEXT_SECTION" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>Comments here...</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PREV_SECTION" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>Element contains section data.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="Entity_Type">
+        <xs:annotation>
+            <xs:documentation>Represent physical entity area on a page.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Entity title.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="Primitive" type="Primitive_Type" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>List of entity primitives.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="ID" type="ID_Type" use="required">
+            <xs:annotation>
+                <xs:documentation>The id of the entity.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="ENTITY_TYPE" type="EntityType_Type" use="required">
+            <xs:annotation>
+                <xs:documentation>Defines the entity type whether it's article, picture or advertisment.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="NO_GEOMETRY" type="No_Geometry_Attr_Type" use="optional">
+            <xs:annotation>
+                <xs:documentation>Defines when entity has no physical dimentions.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="SIZE" type="Size_Type" use="required">
+            <xs:annotation>
+                <xs:documentation>The of the entity in word description as Large, Medium, Small...</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="BOX" type="BOX_Type" use="required">
+            <xs:annotation>
+                <xs:documentation>Contains entity coordinates on the page considering original page size.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="CONTINUATION_TO" type="ID_Type" use="optional">
+            <xs:annotation>
+                <xs:documentation>Contains entity id that is the current entity is continuation to.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="CONTINUATION_FROM" type="ID_Type" use="optional">
+            <xs:annotation>
+                <xs:documentation>Contains entity id that continues the current entity.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="FIRST_CHUNK" type="ID_Type" use="optional">
+            <xs:annotation>
+                <xs:documentation>ID of the first chunk related to this entity. This attribute will appear only if the entity is the second or more chunk.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="EMBEDDED_INTO" type="ID_Type" use="optional">
+            <xs:annotation>
+                <xs:documentation>Defines the entity id of the parent article the picture embedded into.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="ENTITY_FORMAT" type="EntityFormat_Type" use="optional" />
+        <xs:attribute name="SNP_EXT" type="ImgExt_Type" use="optional">
+            <xs:annotation>
+                <xs:documentation>Defines snippet images file extension.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="NEXT_SECTION" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Defines the page number where the next section starts. If doesn't exist the attribute is empty.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="PREV_SECTION" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Defines the page number of the previous section. If doesn't exist the attribute is empty.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="COPYRIGHT" type="Copyright_Type" use="optional" />
+        <xs:attribute name="RENDERING_OPT" type="RenderingOpt_Type" use="optional" />
+        <xs:attribute name="EXPIRED_TIME" type="xs:string" use="optional" />
+        <xs:attribute name="WORKING_STATUS" type="xs:string" use="optional" />
+        <xs:attribute name="EMBEDDED_AFTER" type="ID_Type" use="optional">
+            <xs:annotation>
+                <xs:documentation>Primitive ID, if relevant.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="ENTITY_SUBTYPE" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Entity subtype string.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="IS_GENERAL" type="xs:boolean" use="optional" default="false">
+            <xs:annotation>
+                <xs:documentation>Boolean, when relevant.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="EXCLUDE_FROM_SEARCH" type="xs:boolean" use="optional" default="false">
+            <xs:annotation>
+                <xs:documentation>If value is true, so this entity will not be indexed.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <!--Embedded After Attribute-->
+    </xs:complexType>
+    <xs:complexType name="Primitive_Type">
+        <xs:annotation>
+            <xs:documentation>Holds information about one primitive of the entity.</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="ID" type="ID_Type" use="required">
+            <xs:annotation>
+                <xs:documentation>The ID of the current primitive.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="BOX" type="BOX_Type" use="required">
+            <xs:annotation>
+                <xs:documentation>The coordinates of the current primitive on the entity. In pixels.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="ELEMENT_TYPE" type="ElementsTypes_Type" use="optional">
+            <xs:annotation>
+                <xs:documentation>Defines the type of the primitives whether it's: HedLine, Content, Continuation etc.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="IMG_EXT" type="ImgExt_Type" use="optional">
+            <xs:annotation>
+                <xs:documentation>Defines image file extension of the primitive.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="I_RES" type="xs:unsignedInt" use="optional">
+            <xs:annotation>
+                <xs:documentation>Defines the resolution in DPI of the current primitive output if it was different from the global output.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="E" type="E_Attr_Type" use="optional">
+            <xs:annotation>
+                <xs:documentation>Defines if the primitive doesn't have a representing image.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attributeGroup ref="Prim_TOC_Entries_Attributes_Group" />
+        <!--Added by Gena-->
+    </xs:complexType>
+    <xs:complexType name="Resolutions_Type">
+        <xs:sequence>
+            <xs:element name="Resolution" type="Resolution_Type" minOccurs="0" maxOccurs="5">
+                <xs:annotation>
+                    <xs:documentation>Holds the value for a single resolution.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Resolution_Type" mixed="true">
+        <xs:attribute name="DEFAULT" type="xs:boolean" use="optional" />
+        <xs:attribute name="IMG_EXT" type="ImgExt_Type" use="optional" />
+        <xs:attribute name="GRAPHIC_IMG_EXT" type="ImgExt_Type" use="optional" />
+        <xs:attribute name="TEXT_IMG_EXT" type="ImgExt_Type" use="optional" />
+    </xs:complexType>
+</xs:schema>

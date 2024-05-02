@@ -1,0 +1,60 @@
+
+2008.09.05
+
+
+Spot checks in the two versions of the repository:
+Launch version: 20080117
+Current final version: 20080822
+
+
+NSS-1837-12-02 --------------------------- !!!
+
+"To the people of Halifax"
+in 20080117 version: Ad00105
+in 20080822 version: Ar00104
+
+
+LDR-1850-03-30 --------------------------- !!!
+
+"The one Idea"
+in 20080117 version: Ar00101
+in 20080822 version: Ar00102
+
+
+EWJ-1858-03-01 --------------------------- OK
+
+"The Annual Reports"
+in 20080117 version: Ar00103
+in 20080822 version: Ar00103
+
+
+MRP-1806-01-02 --------------------------- OK
+
+"REV EDWABD EVANfiON"
+in 20080117 version: Ar00100
+in 20080822 version: Ar00100
+
+
+CLD-1850-04-20 --------------------------- OK
+
+"On the 1st of Mny"
+in 20080117 version: Ad02403
+in 20080822 version: Ad02403
+
+
+TEC-1880-01-17 --------------------------- OK
+
+"CONVERSATIONS"
+in 20080117 version: Ad01600
+in 20080822 version: Ad01600
+
+
+TTW-1867-05-11 --------------------------- OK
+
+"PROTECTION FROM FIRE"
+in 20080117 version: Ad01002
+in 20080822 version: Ad01002
+
+
+
+

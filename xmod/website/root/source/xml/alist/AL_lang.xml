@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE authorityList SYSTEM "../../dtd/alist/AL_general.dtd">
+<authorityList id="AL_lang"><header><title>Languages</title><changeNotes><changeItem><name></name><p><?xm-replace_text {p}?></p></changeItem></changeNotes><comments></comments></header><body><item id="ara"><full>Arabic</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="eus"><full>Basque</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="cze"><full>Czech</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="dut"><full>Dutch</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="eng"><full>English</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="fre"><full>French</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="ger"><full>German</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="gre"><full>Greek (Modern)</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="heb"><full>Hebrew</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="iri"><full>Irish</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="ita"><full>Italian</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="jpn"><full>Japanese</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="lat"><full>Latin</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="mni"><full>Manipuri</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="nor"><full>Norwegian</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="pol"><full>Polish</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="por"><full>Portuguese</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="rus"><full>Russian</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="san"><full>Sanskrit</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="spa"><full>Spanish</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="swe"><full>Swedish</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="tur"><full>Turkish</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="wel"><full>Welsh</full><notes><p></p></notes><internal><p></p></internal></item>
+
+<item id="yid"><full>Yiddish</full><notes><p></p></notes><internal><p></p></internal></item>
+
+</body></authorityList>
